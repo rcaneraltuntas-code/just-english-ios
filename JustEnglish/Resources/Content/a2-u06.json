@@ -1,0 +1,1432 @@
+{
+  "id": "a2-u06",
+  "level": "A2",
+  "number": 6,
+  "title": "Deneyimler",
+  "titleEn": "Experiences",
+  "canDo": "Hayatım boyunca yaşadığım ve hiç yaşamadığım deneyimleri anlatabilir, başkalarına deneyimlerini sorup ayrıntılarını öğrenebilirim.",
+  "grammar": [
+    "present perfect: have / has + V3",
+    "Have you ever ...? / never",
+    "been ve gone farkı",
+    "present perfect ve past simple",
+    "once / twice / ... times"
+  ],
+  "vocabularyThemes": [
+    "deneyimler",
+    "başarılar",
+    "macera etkinlikleri"
+  ],
+  "liveClass": {
+    "title": "Hiç ... yaptın mı?",
+    "durationMinutes": 45,
+    "goal": "Öğrencilere 'Find someone who has...' kartları verilir (ör. ... has been to another country, ... has met a famous person). Öğrenciler Have you ever...? sorusuyla birini bulur, sonra past simple ile ayrıntı sorar (When did you...? Who was it?). Sınıfla en ilginç deneyimler paylaşılır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u06-v01",
+      "en": "ever",
+      "tr": "hiç (soru)",
+      "example": "Have you ever been to Japan?",
+      "exampleTr": "Hiç Japonya'ya gittin mi?",
+      "note": "Soru cümlelerinde."
+    },
+    {
+      "id": "a2-u06-v02",
+      "en": "never",
+      "tr": "hiç (olumsuz), asla",
+      "example": "I've never eaten sushi.",
+      "exampleTr": "Hiç suşi yemedim.",
+      "note": "never + olumlu fiil"
+    },
+    {
+      "id": "a2-u06-v03",
+      "en": "been (to)",
+      "tr": "bulunmuş, gitmiş (ve dönmüş)",
+      "example": "She's been to Paris three times.",
+      "exampleTr": "Paris'e üç kez gitti.",
+      "note": "go'nun V3'ü olarak deneyimde."
+    },
+    {
+      "id": "a2-u06-v04",
+      "en": "gone (to)",
+      "tr": "gitmiş (ve hâlâ orada)",
+      "example": "He's gone to the shop. He's not here.",
+      "exampleTr": "Markete gitti, burada değil."
+    },
+    {
+      "id": "a2-u06-v05",
+      "en": "once",
+      "tr": "bir kez",
+      "example": "I've been on a plane once.",
+      "exampleTr": "Bir kez uçağa bindim."
+    },
+    {
+      "id": "a2-u06-v06",
+      "en": "twice",
+      "tr": "iki kez",
+      "example": "We've seen that film twice.",
+      "exampleTr": "O filmi iki kez izledik.",
+      "note": "three times, four times..."
+    },
+    {
+      "id": "a2-u06-v07",
+      "en": "try",
+      "tr": "denemek",
+      "example": "Have you ever tried Indian food?",
+      "exampleTr": "Hiç Hint yemeği denedin mi?",
+      "note": "try → tried → tried"
+    },
+    {
+      "id": "a2-u06-v08",
+      "en": "climb",
+      "tr": "tırmanmak",
+      "example": "I've climbed Mount Erciyes.",
+      "exampleTr": "Erciyes Dağı'na tırmandım.",
+      "note": "b okunmaz: /klaɪm/"
+    },
+    {
+      "id": "a2-u06-v09",
+      "en": "ride a horse",
+      "tr": "ata binmek",
+      "example": "Have you ever ridden a horse?",
+      "exampleTr": "Hiç ata bindin mi?",
+      "note": "ride → rode → ridden"
+    },
+    {
+      "id": "a2-u06-v10",
+      "en": "fly",
+      "tr": "uçmak",
+      "example": "I've never flown in a helicopter.",
+      "exampleTr": "Hiç helikopterle uçmadım.",
+      "note": "fly → flew → flown"
+    },
+    {
+      "id": "a2-u06-v11",
+      "en": "break",
+      "tr": "kırmak",
+      "example": "Have you ever broken your arm?",
+      "exampleTr": "Hiç kolunu kırdın mı?",
+      "note": "break → broke → broken"
+    },
+    {
+      "id": "a2-u06-v12",
+      "en": "lose",
+      "tr": "kaybetmek",
+      "example": "I've lost my keys twice this month.",
+      "exampleTr": "Bu ay iki kez anahtarlarımı kaybettim.",
+      "note": "lose → lost → lost"
+    },
+    {
+      "id": "a2-u06-v13",
+      "en": "meet",
+      "tr": "tanışmak",
+      "example": "Have you ever met a famous person?",
+      "exampleTr": "Hiç ünlü biriyle tanıştın mı?",
+      "note": "meet → met → met"
+    },
+    {
+      "id": "a2-u06-v14",
+      "en": "win",
+      "tr": "kazanmak",
+      "example": "She's won three gold medals.",
+      "exampleTr": "Üç altın madalya kazandı.",
+      "note": "win → won → won"
+    },
+    {
+      "id": "a2-u06-v15",
+      "en": "bungee jumping",
+      "tr": "bungee jumping (yüksekten atlama)",
+      "example": "I've never been bungee jumping.",
+      "exampleTr": "Hiç bungee jumping yapmadım.",
+      "note": "go bungee jumping"
+    },
+    {
+      "id": "a2-u06-v16",
+      "en": "skydiving",
+      "tr": "paraşütle atlama",
+      "example": "My brother has been skydiving twice.",
+      "exampleTr": "Erkek kardeşim iki kez paraşütle atladı."
+    },
+    {
+      "id": "a2-u06-v17",
+      "en": "scuba diving",
+      "tr": "tüplü dalış",
+      "example": "We went scuba diving in Kaş.",
+      "exampleTr": "Kaş'ta tüplü dalış yaptık."
+    },
+    {
+      "id": "a2-u06-v18",
+      "en": "experience",
+      "tr": "deneyim",
+      "example": "It was an amazing experience.",
+      "exampleTr": "Muhteşem bir deneyimdi."
+    },
+    {
+      "id": "a2-u06-v19",
+      "en": "achievement",
+      "tr": "başarı",
+      "example": "Learning English is a big achievement.",
+      "exampleTr": "İngilizce öğrenmek büyük bir başarı."
+    },
+    {
+      "id": "a2-u06-v20",
+      "en": "prize",
+      "tr": "ödül",
+      "example": "He's won a prize for his photos.",
+      "exampleTr": "Fotoğraflarıyla bir ödül kazandı."
+    },
+    {
+      "id": "a2-u06-v21",
+      "en": "abroad",
+      "tr": "yurt dışı",
+      "example": "Have you ever lived abroad?",
+      "exampleTr": "Hiç yurt dışında yaşadın mı?"
+    },
+    {
+      "id": "a2-u06-v22",
+      "en": "in my life",
+      "tr": "hayatımda",
+      "example": "I've never been so happy in my life.",
+      "exampleTr": "Hayatımda hiç bu kadar mutlu olmadım."
+    },
+    {
+      "id": "a2-u06-v23",
+      "en": "bucket list",
+      "tr": "ölmeden önce yapılacaklar listesi",
+      "example": "Visiting Iceland is on my bucket list.",
+      "exampleTr": "İzlanda'yı ziyaret etmek listemde var."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u06-l1",
+      "number": 1,
+      "title": "Yaptım, gördüm",
+      "goal": "Present perfect ile hayatımda yaşadığım deneyimleri söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir gezginin profili",
+        "body": "Hi! I'm Ozan and I'm a travel blogger.\n\nI've visited 42 countries. I've slept in a tent in the Sahara Desert and I've swum with dolphins in Mexico. I've eaten some very strange food, too: I've tried insects in Thailand!\n\nI've met amazing people everywhere. My parents have travelled a lot too. My mother has been to every continent except Antarctica.\n\nBut there's one thing I haven't done yet: I haven't seen the Northern Lights. That's next!",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many countries has Ozan visited?",
+            "options": [
+              "24",
+              "42",
+              "4"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've visited 42 countries.\"",
+            "id": "a2-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What hasn't Ozan done?",
+            "options": [
+              "Swum with dolphins",
+              "Seen the Northern Lights",
+              "Eaten insects"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I haven't seen the Northern Lights.\"",
+            "id": "a2-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Present perfect** hayatımızın herhangi bir zamanında yaşadığımız **deneyimleri** anlatır. **Ne zaman** olduğu önemli değildir ve söylenmez.\n\n**Yapı:** have / has + **V3** (past participle)\n\n| | |\n|---|---|\n| I / You / We / They **have** ('ve) | visited |\n| He / She / It **has** ('s) | visited |\n\n**V3 (past participle):**\n\n- Düzenli fiiller: V2 ile aynı → visit**ed**, tri**ed**, travel**led**\n- Düzensiz fiiller ayrıca öğrenilir:\n\n| V1 | V2 | V3 |\n|---|---|---|\n| eat | ate | **eaten** |\n| see | saw | **seen** |\n| swim | swam | **swum** |\n| meet | met | **met** |\n| sleep | slept | **slept** |\n| write | wrote | **written** |\n\n**Olumsuz:** haven't / hasn't + V3 → I **haven't seen** it.",
+        "examples": [
+          {
+            "en": "I've been to Germany.",
+            "tr": "Almanya'ya gittim (bulundum)."
+          },
+          {
+            "en": "She's written three books.",
+            "tr": "Üç kitap yazdı."
+          },
+          {
+            "en": "We haven't seen the new film.",
+            "tr": "Yeni filmi izlemedik."
+          }
+        ],
+        "turkishNote": "Türkçede deneyim için de \"-di\" kullanırız: \"Paris'e gittim.\" İngilizcede zaman belli değilse present perfect (I've been to Paris), zaman belliyse past simple (I went to Paris last year) kullanılır. \"He's\" hem \"he is\" hem \"he has\" olabilir: He's visited (has), He's visiting (is)."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "eat",
+              "right": "eaten"
+            },
+            {
+              "left": "see",
+              "right": "seen"
+            },
+            {
+              "left": "write",
+              "right": "written"
+            },
+            {
+              "left": "swim",
+              "right": "swum"
+            },
+            {
+              "left": "meet",
+              "right": "met"
+            }
+          ],
+          "explanation": "Fiilleri V3 halleriyle eşleştirin.",
+          "id": "a2-u06-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I have visit Rome.",
+            "I have visited Rome.",
+            "I have visiting Rome."
+          ],
+          "answerIndex": 1,
+          "explanation": "have + V3.",
+          "id": "a2-u06-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She have seen it.",
+            "She has seen it.",
+            "She has saw it."
+          ],
+          "answerIndex": 1,
+          "explanation": "she → has + V3.",
+          "wrongFeedback": {
+            "2": "saw V2'dir; V3 seen olmalı."
+          },
+          "id": "a2-u06-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We've ___ in a tent many times. (sleep)",
+          "answers": [
+            "slept"
+          ],
+          "explanation": "sleep → slept.",
+          "id": "a2-u06-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "My dad ___ never travelled by plane.",
+          "answers": [
+            "has",
+            "'s"
+          ],
+          "explanation": "he → has.",
+          "id": "a2-u06-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ some strange food in my life. (eat)",
+          "answers": [
+            "eaten"
+          ],
+          "explanation": "eat → eaten.",
+          "id": "a2-u06-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ seen the sea. They live in the mountains. (haven't)",
+          "answers": [
+            "haven't",
+            "have not"
+          ],
+          "explanation": "Olumsuz: haven't.",
+          "id": "a2-u06-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've lived in three countries and I've learned four languages. But I've never learned to swim!",
+          "prompt": "Konuşan neyi hiç öğrenmedi?",
+          "options": [
+            "Dil",
+            "Yüzmek",
+            "Araba kullanmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I've never learned to swim!\"",
+          "id": "a2-u06-l1-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "has",
+            "She",
+            "written",
+            "two",
+            "books"
+          ],
+          "answer": "She has written two books.",
+          "explanation": "Özne + has + V3 + nesne.",
+          "translation": "İki kitap yazdı.",
+          "id": "a2-u06-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yeni filmi izlemedim.\"",
+          "accepted": [
+            "I haven't seen the new film.",
+            "I haven't seen the new film",
+            "I have not seen the new film.",
+            "I have not seen the new film",
+            "I haven't watched the new film.",
+            "I haven't watched the new film",
+            "I haven't seen the new movie.",
+            "I haven't seen the new movie",
+            "I haven't watched the new movie.",
+            "I haven't watched the new movie"
+          ],
+          "explanation": "I haven't + seen + the new film.",
+          "id": "a2-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ozan gibi kendi deneyim profilinizi anlatın: yaptığınız 4 ilginç şeyi ve henüz yapmadığınız 1 şeyi present perfect ile söyleyin.",
+          "modelAnswer": "I've visited eight cities in Turkey. I've climbed Uludağ and I've swum in Lake Van. I've met a famous footballer! But I haven't been abroad.",
+          "rubric": [
+            "have/has + V3 doğru",
+            "Düzensiz V3'ler doğru",
+            "haven't/hasn't doğru"
+          ]
+        },
+        "id": "a2-u06-l1-use"
+      }
+    },
+    {
+      "id": "a2-u06-l2",
+      "number": 2,
+      "title": "Hiç ... yaptın mı?",
+      "goal": "Have you ever ...? ile deneyim sorabilir, never ile cevap verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Doğum günü yemeğinde",
+        "lines": [
+          {
+            "speaker": "Bora",
+            "text": "Have you ever done anything really dangerous?"
+          },
+          {
+            "speaker": "Nil",
+            "text": "Yes, I have! I've been skydiving."
+          },
+          {
+            "speaker": "Bora",
+            "text": "No way! I've never done anything like that. Have you ever been bungee jumping?"
+          },
+          {
+            "speaker": "Nil",
+            "text": "No, I haven't. I'm too scared!"
+          },
+          {
+            "speaker": "Bora",
+            "text": "Ha ha. Has your brother ever tried it?"
+          },
+          {
+            "speaker": "Nil",
+            "text": "Yes, he has. Twice! He loves it."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Has Nil been skydiving?",
+            "options": [
+              "Yes, she has.",
+              "No, she hasn't."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Yes, I have! I've been skydiving.\"",
+            "id": "a2-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How many times has Nil's brother been bungee jumping?",
+            "options": [
+              "Once",
+              "Twice",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Twice!\"",
+            "id": "a2-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Soru:** Have / Has + özne + **ever** + V3?\n\n- **Have** you **ever been** to Italy? – Yes, I **have**. / No, I **haven't**.\n- **Has** she **ever met** a famous person? – Yes, she **has**. / No, she **hasn't**.\n\n**ever** (hiç) soruda, V3'ten önce gelir.\n\n**never** (hiç / asla) olumlu fiille kullanılır ve cümleye olumsuz anlam verir:\n\n- I**'ve never** eaten sushi. (~~I haven't never~~)\n- He**'s never** flown.\n\n**Kısa cevaplar:** Yes, I have. / No, I haven't. / No, never.",
+        "examples": [
+          {
+            "en": "Have you ever lost your passport?",
+            "tr": "Hiç pasaportunu kaybettin mi?"
+          },
+          {
+            "en": "I've never ridden a horse.",
+            "tr": "Hiç ata binmedim."
+          },
+          {
+            "en": "Has your mum ever lived abroad? – No, she hasn't.",
+            "tr": "Annen hiç yurt dışında yaşadı mı? – Hayır."
+          }
+        ],
+        "turkishNote": "Türkçede \"hiç\" hem soruda hem olumsuzda kullanılır; İngilizcede soruda ever, olumsuzda never ya da \"not ... ever\" denir. İngilizcede çift olumsuz yanlıştır: \"I haven't never\" değil, \"I've never\" ya da \"I haven't ever\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Did you ever been to Spain?",
+            "Have you ever been to Spain?",
+            "Have you ever went to Spain?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Have + you + ever + V3?",
+          "id": "a2-u06-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I haven't never seen it.",
+            "I've never seen it."
+          ],
+          "answerIndex": 1,
+          "explanation": "never + olumlu fiil (çift olumsuz yok).",
+          "id": "a2-u06-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Has he ever broken his leg?\" (Hayır.)",
+          "options": [
+            "No, he hasn't.",
+            "No, he didn't.",
+            "No, he isn't."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, he hasn't.",
+          "id": "a2-u06-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Have you ___ eaten snails? (hiç)",
+          "answers": [
+            "ever"
+          ],
+          "explanation": "Soruda ever.",
+          "id": "a2-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ been on a boat. I'm scared of water. (hiç)",
+          "answers": [
+            "never"
+          ],
+          "explanation": "Olumsuz anlam → never.",
+          "id": "a2-u06-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ your parents ever visited London?",
+          "answers": [
+            "Have"
+          ],
+          "explanation": "parents → Have.",
+          "id": "a2-u06-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Have you ever ___ a horse? (ride)",
+          "answers": [
+            "ridden"
+          ],
+          "explanation": "ride → ridden.",
+          "id": "a2-u06-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Have",
+            "ever",
+            "met",
+            "a",
+            "famous",
+            "person",
+            "?"
+          ],
+          "answer": "Have you ever met a famous person?",
+          "explanation": "Have + you + ever + V3?",
+          "translation": "Hiç ünlü biriyle tanıştın mı?",
+          "id": "a2-u06-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Have you ever flown in a hot-air balloon? – Yes, I have. In Kapadokya. It was amazing!",
+          "prompt": "Balona nerede bindi?",
+          "options": [
+            "Pamukkale'de",
+            "Kapadokya'da",
+            "Bodrum'da"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"In Kapadokya.\"",
+          "id": "a2-u06-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hiç ata binmedim.\"",
+          "accepted": [
+            "I've never ridden a horse.",
+            "I've never ridden a horse",
+            "I have never ridden a horse.",
+            "I have never ridden a horse",
+            "I haven't ever ridden a horse.",
+            "I haven't ever ridden a horse"
+          ],
+          "explanation": "I've never + ridden a horse.",
+          "id": "a2-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile 'Hiç ... yaptın mı?' oyunu oynayın: JAI'ye 5 tane Have you ever...? sorusu sorun, sonra JAI'nin sorularına Yes, I have / No, I've never... ile cevap verin.",
+          "modelAnswer": "Have you ever been to Africa? Have you ever eaten snails? Have you ever won a prize? Have you ever climbed a mountain? Have you ever broken a bone? ... No, I've never been skydiving.",
+          "rubric": [
+            "Have you ever + V3 doğru",
+            "never ile cevap",
+            "Kısa cevaplar doğru"
+          ]
+        },
+        "id": "a2-u06-l2-use"
+      }
+    },
+    {
+      "id": "a2-u06-l3",
+      "number": 3,
+      "title": "Been mi, gone mu?",
+      "goal": "been ve gone farkını bilir, bir şeyi kaç kez yaptığımı söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ofiste",
+        "lines": [
+          {
+            "speaker": "Visitor",
+            "text": "Hello, is Mr Yalçın here?"
+          },
+          {
+            "speaker": "Secretary",
+            "text": "Sorry, he's gone to Ankara for a meeting. He's back on Thursday."
+          },
+          {
+            "speaker": "Visitor",
+            "text": "Oh. Has he been to the new office in Izmir yet?"
+          },
+          {
+            "speaker": "Secretary",
+            "text": "Yes, he has. He's been there twice this month."
+          },
+          {
+            "speaker": "Visitor",
+            "text": "I've been there once. It's beautiful."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Mr Yalçın now?",
+            "options": [
+              "In the office",
+              "In Ankara",
+              "In Izmir"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he's gone to Ankara\" → hâlâ orada.",
+            "id": "a2-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How many times has he been to the Izmir office this month?",
+            "options": [
+              "Once",
+              "Twice",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He's been there twice this month.\"",
+            "id": "a2-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**go** fiilinin iki V3 hali vardır:\n\n| | Anlam | Örnek |\n|---|---|---|\n| **been to** | gitti ve **döndü** (deneyim) | She's **been to** Ankara. (Şimdi burada.) |\n| **gone to** | gitti, **hâlâ orada** | She's **gone to** Ankara. (Şimdi orada.) |\n\n**Kaç kez?**\n\n- **How many times** have you been to Istanbul?\n- once (bir kez), twice (iki kez), three times, many times, a few times\n\nSıklık ifadesi genellikle **cümlenin sonuna** gelir: I've seen that film **three times**.\n\n**Bu dönem içinde:** this week / this month / this year (dönem bitmedi → present perfect)\n\n- I've had three coffees **today**.",
+        "examples": [
+          {
+            "en": "Where's Mum? – She's gone to the market.",
+            "tr": "Annem nerede? – Pazara gitti."
+          },
+          {
+            "en": "I've been to Antalya many times.",
+            "tr": "Antalya'ya birçok kez gittim."
+          },
+          {
+            "en": "How many times have you seen this film?",
+            "tr": "Bu filmi kaç kez izledin?"
+          }
+        ],
+        "turkishNote": "Türkçede \"gitti\" kelimesi hem been hem gone anlamına gelebilir; bağlamdan anlarız. İngilizcede seçim zorunludur: Burada olmayan biri için \"He's gone to...\", deneyim için \"He's been to...\". \"Have you ever gone to...?\" yerine \"Have you ever been to...?\" denir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Ali burada değil, hâlâ bankada:",
+          "options": [
+            "He's been to the bank.",
+            "He's gone to the bank."
+          ],
+          "answerIndex": 1,
+          "explanation": "Hâlâ orada → gone.",
+          "id": "a2-u06-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Deneyim: \"Hiç Mısır'a gittin mi?\"",
+          "options": [
+            "Have you ever gone to Egypt?",
+            "Have you ever been to Egypt?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Deneyim → been to.",
+          "id": "a2-u06-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ to Rome twice. I loved it! (gittim, döndüm)",
+          "answers": [
+            "been"
+          ],
+          "explanation": "Deneyim → been.",
+          "id": "a2-u06-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Where's Elif? – She's ___ to the gym. (hâlâ orada)",
+          "answers": [
+            "gone"
+          ],
+          "explanation": "Hâlâ orada → gone.",
+          "id": "a2-u06-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "How many ___ have you been to Bursa?",
+          "answers": [
+            "times"
+          ],
+          "explanation": "How many times.",
+          "id": "a2-u06-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"İki kez\"",
+          "options": [
+            "two times",
+            "twice",
+            "second"
+          ],
+          "answerIndex": 1,
+          "explanation": "twice (two times da anlaşılır ama twice doğaldır).",
+          "id": "a2-u06-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "seen",
+            "I've",
+            "that",
+            "film",
+            "three",
+            "times"
+          ],
+          "answer": "I've seen that film three times.",
+          "explanation": "Sıklık cümle sonunda.",
+          "translation": "O filmi üç kez izledim.",
+          "id": "a2-u06-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Where's Kerem? – He's gone to Germany for a conference. He's been there many times for work.",
+          "prompt": "Kerem şu an nerede?",
+          "options": [
+            "Ofiste",
+            "Almanya'da",
+            "Evde"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"He's gone to Germany\"",
+          "id": "a2-u06-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bugün üç kahve içtim.\"",
+          "accepted": [
+            "I've had three coffees today.",
+            "I've had three coffees today",
+            "I have had three coffees today.",
+            "I have had three coffees today",
+            "I've drunk three coffees today.",
+            "I've drunk three coffees today",
+            "I have drunk three coffees today.",
+            "I have drunk three coffees today",
+            "Today I've had three coffees.",
+            "Today I've had three coffees"
+          ],
+          "explanation": "I've had + three coffees + today.",
+          "id": "a2-u06-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru? (Şu an Bodrum'dasın ve telefonda konuşuyorsun.)",
+          "options": [
+            "I've gone to Bodrum.",
+            "I've been to Bodrum.",
+            "I'm in Bodrum."
+          ],
+          "answerIndex": 2,
+          "explanation": "Konuşan kişi kendisi için gone kullanmaz: I'm in Bodrum.",
+          "id": "a2-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Türkiye'de ya da yurt dışında gittiğiniz 3 yeri ve kaç kez gittiğinizi söyleyin. Sonra ailenizden şu an evde olmayan birinin nereye gittiğini 'gone' ile anlatın.",
+          "modelAnswer": "I've been to Izmir many times and I've been to Trabzon once. I've been to Greece twice. My sister isn't at home now. She's gone to the cinema with her friends.",
+          "rubric": [
+            "been to doğru",
+            "once / twice / times doğru",
+            "gone doğru"
+          ]
+        },
+        "id": "a2-u06-l3-use"
+      }
+    },
+    {
+      "id": "a2-u06-l4",
+      "number": 4,
+      "title": "Ne zaman, nerede?",
+      "goal": "Bir deneyimden bahsedip ayrıntılarını past simple ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İş görüşmesi",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "Have you ever worked in a team?"
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "Yes, I have. I worked in a team of eight at my last job."
+          },
+          {
+            "speaker": "Interviewer",
+            "text": "Have you ever lived abroad?"
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "Yes. I lived in Dublin for a year."
+          },
+          {
+            "speaker": "Interviewer",
+            "text": "When did you go there?"
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "In 2019. I studied English and worked in a café. It was a great experience."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did Ayşe live abroad?",
+            "options": [
+              "London",
+              "Dublin",
+              "Berlin"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I lived in Dublin for a year.\"",
+            "id": "a2-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When did she go there?",
+            "options": [
+              "In 2019",
+              "Last year",
+              "In 2009"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"In 2019.\"",
+            "id": "a2-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir sohbette genellikle **present perfect ile başlarız** (deneyim var mı?), sonra **ayrıntılara past simple ile geçeriz** (ne zaman, nerede, nasıl?).\n\n- A: **Have** you ever **been** to Paris? (deneyim)\n- B: Yes, I **have**. I **went** there in 2020. (ayrıntı, zaman belli)\n- A: **Did** you **like** it?\n- B: Yes, I **loved** it.\n\n| Present perfect | Past simple |\n|---|---|\n| zaman belli değil / önemli değil | zaman belli: yesterday, last year, in 2019, ago, when I was ... |\n| I've met a famous singer. | I met him **at a concert last summer**. |\n\n**Dikkat:** belli bir geçmiş zamanla present perfect kullanılmaz: ~~I've been to Paris last year.~~",
+        "examples": [
+          {
+            "en": "I've broken my arm. I broke it when I was nine.",
+            "tr": "Kolumu kırdım. Dokuz yaşındayken kırdım."
+          },
+          {
+            "en": "Have you ever won anything? – Yes, I won a competition at school.",
+            "tr": "Hiç bir şey kazandın mı? – Evet, okulda bir yarışma kazandım."
+          },
+          {
+            "en": "She's been to India. She went there two years ago.",
+            "tr": "Hindistan'a gitti. İki yıl önce gitti."
+          }
+        ],
+        "turkishNote": "Türkçe konuşanların en sık hatası, past simple gereken yerde present perfect kullanmaktır: \"I have seen him yesterday\" yanlıştır. yesterday, last ..., ago, in + yıl gibi ifadeler gördüğünüzde past simple kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I've been to Paris last year.",
+            "I went to Paris last year."
+          ],
+          "answerIndex": 1,
+          "explanation": "last year → past simple.",
+          "id": "a2-u06-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I saw him yesterday.",
+            "I've seen him yesterday."
+          ],
+          "answerIndex": 0,
+          "explanation": "yesterday → past simple.",
+          "id": "a2-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Zaman belli değil:",
+          "options": [
+            "I've met a famous actor.",
+            "I met a famous actor."
+          ],
+          "answerIndex": 0,
+          "explanation": "Deneyim, zaman yok → present perfect.",
+          "id": "a2-u06-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Have you ever been to Spain? – Yes, I ___ there in 2018. (go)",
+          "answers": [
+            "went"
+          ],
+          "explanation": "Zaman belli → went.",
+          "id": "a2-u06-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ won three prizes in her life.",
+          "answers": [
+            "has",
+            "'s"
+          ],
+          "explanation": "Deneyim → has + V3.",
+          "id": "a2-u06-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "When ___ you meet him?",
+          "answers": [
+            "did"
+          ],
+          "explanation": "When → past simple.",
+          "id": "a2-u06-l4-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Have you ever tried kokoreç?\" \"Yes. I ___ it in Izmir last week.\"",
+          "options": [
+            "have tried",
+            "tried"
+          ],
+          "answerIndex": 1,
+          "explanation": "last week → past simple.",
+          "id": "a2-u06-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Have you ever been to a football match? – Yes, I went to a Fenerbahçe match two years ago. The atmosphere was incredible.",
+          "prompt": "Maça ne zaman gitti?",
+          "options": [
+            "Geçen hafta",
+            "İki yıl önce",
+            "Hiç gitmedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"two years ago\"",
+          "id": "a2-u06-l4-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "did",
+            "When",
+            "you",
+            "go",
+            "there",
+            "?"
+          ],
+          "answer": "When did you go there?",
+          "explanation": "When + did + you + go?",
+          "translation": "Oraya ne zaman gittin?",
+          "id": "a2-u06-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kolumu kırdım. Dokuz yaşındayken kırdım.\"",
+          "accepted": [
+            "I've broken my arm. I broke it when I was nine.",
+            "I've broken my arm. I broke it when I was nine",
+            "I have broken my arm. I broke it when I was nine.",
+            "I have broken my arm. I broke it when I was nine",
+            "I've broken my arm. I broke it when I was 9.",
+            "I've broken my arm. I broke it when I was 9"
+          ],
+          "explanation": "I've broken my arm. + I broke it when I was nine.",
+          "id": "a2-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile iş görüşmesi yapın. JAI Have you ever...? soruları soracak; önce present perfect ile cevap verin, sonra past simple ile ayrıntı ekleyin (ne zaman, nerede).",
+          "modelAnswer": "Yes, I have. I've worked with international customers. I worked for a tourism company in Antalya from 2018 to 2021. I also lived in Germany for six months in 2022.",
+          "rubric": [
+            "Present perfect ile başladı",
+            "Ayrıntıda past simple",
+            "Zaman ifadeleri doğru"
+          ]
+        },
+        "id": "a2-u06-l4-use"
+      }
+    },
+    {
+      "id": "a2-u06-l5",
+      "number": 5,
+      "title": "Başarılarım ve hayallerim",
+      "goal": "Hayatımdaki başarıları anlatabilir ve henüz yapmadığım hayallerimi paylaşabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Forumda: Ölmeden önce yapılacaklar listesi",
+        "body": "What's on your bucket list? Here's mine!\n\n✓ Run a marathon – I've done it! I ran the Istanbul Marathon in 2022. It was the hardest thing I've ever done.\n✓ Learn a musical instrument – I've learned to play the bağlama! I started three years ago.\n✗ See the pyramids – I've never been to Egypt, but I'm going to go next year!\n✗ Write a book – I haven't written one yet, but I've started.\n\nWhat about you? What have you done, and what haven't you done yet?\n— Emre_34",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When did Emre run a marathon?",
+            "options": [
+              "In 2020",
+              "In 2022",
+              "He hasn't done it"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I ran the Istanbul Marathon in 2022.\"",
+            "id": "a2-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Emre going to do next year?",
+            "options": [
+              "Write a book",
+              "See the pyramids",
+              "Run a marathon"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm going to go next year!\" (Egypt)",
+            "id": "a2-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Başarılar:**\n\n- I**'ve passed** my driving test.\n- She**'s won** a prize.\n- We**'ve learned** to dance.\n\n**yet** (henüz) olumsuz cümlede ve soruda, cümle sonunda:\n\n- I **haven't written** a book **yet**.\n- **Have** you **finished yet**?\n\n(yet, already ve just 7. ünitede ayrıntılı gelecek.)\n\n**Superlative + present perfect:** \"bugüne kadar ... -diğim en ...\"\n\n- It's **the best** film I**'ve ever seen**.\n- It was **the hardest** thing I**'ve ever done**.\n\n**Yaygın deneyimler ve V3'leri:** pass → passed, run → **run**, learn → learned/learnt, do → **done**, make → **made**, give → **given**, take → **taken**",
+        "examples": [
+          {
+            "en": "It's the most beautiful place I've ever visited.",
+            "tr": "Gördüğüm en güzel yer."
+          },
+          {
+            "en": "I haven't been to Van yet.",
+            "tr": "Henüz Van'a gitmedim."
+          },
+          {
+            "en": "He's passed all his exams.",
+            "tr": "Bütün sınavlarını geçti."
+          }
+        ],
+        "turkishNote": "\"Gördüğüm en güzel film\" Türkçede sıfat-fiille kurulur; İngilizcede \"the best film I've ever seen\" denir. Bu kalıp günlük dilde çok sık kullanılır ve kulağa çok doğal gelir. \"run\" fiilinin V3'ü yine run'dır: I've run a marathon."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gördüğüm en iyi film\"",
+          "options": [
+            "the best film I've ever seen",
+            "the best film I ever have seen",
+            "the best film I've ever saw"
+          ],
+          "answerIndex": 0,
+          "explanation": "the best + isim + I've ever + V3.",
+          "id": "a2-u06-l5-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "I haven't finished my book ___. (henüz)",
+          "answers": [
+            "yet"
+          ],
+          "explanation": "Olumsuzda yet.",
+          "id": "a2-u06-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's ___ her driving test! (pass)",
+          "answers": [
+            "passed"
+          ],
+          "explanation": "pass → passed.",
+          "id": "a2-u06-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ a marathon. (run)",
+          "answers": [
+            "run"
+          ],
+          "explanation": "run → run (V3).",
+          "id": "a2-u06-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's the most delicious meal I've ever ___. (eat)",
+          "answers": [
+            "eaten",
+            "had"
+          ],
+          "explanation": "eat → eaten.",
+          "id": "a2-u06-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Have you done your homework yet?",
+            "Have you done yet your homework?"
+          ],
+          "answerIndex": 0,
+          "explanation": "yet cümle sonunda.",
+          "id": "a2-u06-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "the",
+            "It's",
+            "best",
+            "book",
+            "I've",
+            "ever",
+            "read"
+          ],
+          "answer": "It's the best book I've ever read.",
+          "explanation": "the best + isim + I've ever + V3.",
+          "translation": "Okuduğum en iyi kitap.",
+          "id": "a2-u06-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've never been abroad, but I've visited almost every city in Turkey. My next dream is to see the Northern Lights.",
+          "prompt": "Konuşanın sıradaki hayali ne?",
+          "options": [
+            "Türkiye'yi gezmek",
+            "Kuzey Işıklarını görmek",
+            "Yurt dışında yaşamak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"My next dream is to see the Northern Lights.\"",
+          "id": "a2-u06-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Henüz Van'a gitmedim.\"",
+          "accepted": [
+            "I haven't been to Van yet.",
+            "I haven't been to Van yet",
+            "I have not been to Van yet.",
+            "I have not been to Van yet"
+          ],
+          "explanation": "I haven't been to Van + yet.",
+          "id": "a2-u06-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "do",
+              "right": "done"
+            },
+            {
+              "left": "take",
+              "right": "taken"
+            },
+            {
+              "left": "give",
+              "right": "given"
+            },
+            {
+              "left": "make",
+              "right": "made"
+            },
+            {
+              "left": "run",
+              "right": "run"
+            }
+          ],
+          "explanation": "V3 hallerini eşleştirin.",
+          "id": "a2-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Foruma kendi 'bucket list' mesajınızı yazın (80–100 kelime): yaptığınız 2 şey (present perfect + past simple ayrıntı), henüz yapmadığınız 2 şey (yet / never) ve 'the best ... I've ever ...' kalıbını kullanın.",
+          "modelAnswer": "Here's my bucket list!\n✓ Swim with turtles – I've done it! I swam with turtles in Dalyan in 2021. It was the best experience I've ever had.\n✓ Learn to drive – I've passed my driving test! I passed it last month.\n✗ Visit Japan – I've never been to Asia, but I'm saving money.\n✗ Climb Mount Ağrı – I haven't done it yet, but I'm going to try next summer.",
+          "rubric": [
+            "Present perfect doğru",
+            "Past simple ayrıntılar",
+            "yet / never doğru",
+            "the best ... I've ever ... kalıbı"
+          ]
+        },
+        "id": "a2-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "I've ___ sushi. It was delicious. (eat)",
+        "answers": [
+          "eaten"
+        ],
+        "explanation": "eat → eaten",
+        "id": "a2-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She has saw it.",
+          "She has seen it."
+        ],
+        "answerIndex": 1,
+        "explanation": "has + V3",
+        "id": "a2-u06-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "They ___ never been to London.",
+        "answers": [
+          "have",
+          "'ve"
+        ],
+        "explanation": "have",
+        "id": "a2-u06-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Have you ever been to Italy?",
+          "Did you ever been to Italy?"
+        ],
+        "answerIndex": 0,
+        "explanation": "Have you ever + V3?",
+        "id": "a2-u06-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I haven't never flown.",
+          "I've never flown."
+        ],
+        "answerIndex": 1,
+        "explanation": "Çift olumsuz yok",
+        "id": "a2-u06-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Has she ever ridden a horse?\" (Evet.)",
+        "options": [
+          "Yes, she has.",
+          "Yes, she did."
+        ],
+        "answerIndex": 0,
+        "explanation": "Yes, she has.",
+        "id": "a2-u06-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Ayşe şu an marketde:",
+        "options": [
+          "She's been to the market.",
+          "She's gone to the market."
+        ],
+        "answerIndex": 1,
+        "explanation": "Hâlâ orada → gone",
+        "id": "a2-u06-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "I've been to Bodrum ___. (iki kez)",
+        "answers": [
+          "twice",
+          "two times"
+        ],
+        "explanation": "twice",
+        "id": "a2-u06-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I've met him last year.",
+          "I met him last year."
+        ],
+        "answerIndex": 1,
+        "explanation": "last year → past simple",
+        "id": "a2-u06-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "Have you ever been to Rome? – Yes, I ___ there in 2015. (go)",
+        "answers": [
+          "went"
+        ],
+        "explanation": "Zaman belli → went",
+        "id": "a2-u06-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I haven't finished ___. (henüz)",
+        "answers": [
+          "yet"
+        ],
+        "explanation": "yet",
+        "id": "a2-u06-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Gördüğüm en güzel yer\"",
+        "options": [
+          "the most beautiful place I've ever seen",
+          "the most beautiful place I ever saw it"
+        ],
+        "answerIndex": 0,
+        "explanation": "the most + isim + I've ever + V3",
+        "id": "a2-u06-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Have you ever lost your phone? – Yes, twice! The first time I lost it on a bus in Ankara, and the second time I left it in a taxi.",
+        "prompt": "İkinci kez telefonu nerede unuttu?",
+        "options": [
+          "Otobüste",
+          "Takside",
+          "Restoranda"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I left it in a taxi\"",
+        "id": "a2-u06-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Hiç ünlü biriyle tanıştın mı?\"",
+        "accepted": [
+          "Have you ever met a famous person?",
+          "Have you ever met a famous person",
+          "Have you ever met someone famous?",
+          "Have you ever met someone famous",
+          "Have you ever met anyone famous?",
+          "Have you ever met anyone famous",
+          "Have you ever met somebody famous?",
+          "Have you ever met somebody famous"
+        ],
+        "explanation": "Have you ever met + a famous person?",
+        "id": "a2-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Hayatınızdaki en ilginç 3 deneyimi anlatın (80–100 kelime). Her birini present perfect ile tanıtın, sonra past simple ile ayrıntı verin. Hiç yapmadığınız bir şeyi de ekleyin.",
+        "modelAnswer": "I've had some amazing experiences. I've been scuba diving. I went diving in Kaş three years ago and I saw a big turtle. I've also met a famous singer. I met him at the airport in Istanbul and he was very kind. And I've climbed Mount Erciyes. We climbed it in summer 2022. It was the hardest thing I've ever done! But I've never been skydiving. Maybe one day!",
+        "rubric": [
+          "Present perfect ile tanıtım",
+          "Past simple ile ayrıntı",
+          "never doğru",
+          "Düzensiz V3'ler doğru"
+        ],
+        "id": "a2-u06-t15"
+      }
+    ]
+  }
+}
