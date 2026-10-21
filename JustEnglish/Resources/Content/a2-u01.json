@@ -1,0 +1,1424 @@
+{
+  "id": "a2-u01",
+  "level": "A2",
+  "number": 1,
+  "title": "Hayat hikâyeleri",
+  "titleEn": "Life Stories",
+  "canDo": "Kendi hayatımın ve tanınmış birinin hayatının önemli olaylarını sırayla anlatabilir, başkalarına geçmişleri hakkında soru sorabilirim.",
+  "grammar": [
+    "past simple: düzensiz fiiller",
+    "past simple: Did ...? ve Wh- soruları",
+    "was / were born",
+    "özne soruları: Who wrote ...?",
+    "zaman ifadeleri: in 1998, when I was ten, later, at the age of"
+  ],
+  "vocabularyThemes": [
+    "yaşam olayları",
+    "biyografi dili",
+    "eğitim ve iş"
+  ],
+  "liveClass": {
+    "title": "Hayat çizgisi",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci kendi hayatından 6 olayı (biri uydurma) bir zaman çizgisine yazar. Eşi Did you...? / When did you...? sorularıyla her olayı sorar ve uydurma olanı bulmaya çalışır. Sonra öğrenciler eşlerinin hayat hikâyesini sınıfa üçüncü tekil kişiyle anlatır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u01-v01",
+      "en": "be born",
+      "tr": "doğmak",
+      "example": "I was born in Trabzon in 1995.",
+      "exampleTr": "1995'te Trabzon'da doğdum.",
+      "note": "Her zaman was/were born: I born değil."
+    },
+    {
+      "id": "a2-u01-v02",
+      "en": "grow up",
+      "tr": "büyümek (çocukluğunu geçirmek)",
+      "example": "She grew up in a small village.",
+      "exampleTr": "Küçük bir köyde büyüdü.",
+      "note": "Düzensiz: grow → grew."
+    },
+    {
+      "id": "a2-u01-v03",
+      "en": "move",
+      "tr": "taşınmak",
+      "example": "We moved to Istanbul when I was ten.",
+      "exampleTr": "On yaşındayken İstanbul'a taşındık.",
+      "note": "move to + yer"
+    },
+    {
+      "id": "a2-u01-v04",
+      "en": "leave school",
+      "tr": "okulu bitirmek / bırakmak",
+      "example": "He left school at sixteen.",
+      "exampleTr": "On altı yaşında okulu bıraktı.",
+      "note": "leave → left"
+    },
+    {
+      "id": "a2-u01-v05",
+      "en": "go to university",
+      "tr": "üniversiteye gitmek",
+      "example": "I went to university in Ankara.",
+      "exampleTr": "Ankara'da üniversiteye gittim."
+    },
+    {
+      "id": "a2-u01-v06",
+      "en": "graduate",
+      "tr": "mezun olmak",
+      "example": "She graduated from Boğaziçi in 2015.",
+      "exampleTr": "2015'te Boğaziçi'nden mezun oldu.",
+      "note": "graduate from + okul"
+    },
+    {
+      "id": "a2-u01-v07",
+      "en": "get a job",
+      "tr": "iş bulmak",
+      "example": "I got my first job at nineteen.",
+      "exampleTr": "İlk işimi on dokuz yaşında buldum.",
+      "note": "get → got"
+    },
+    {
+      "id": "a2-u01-v08",
+      "en": "meet",
+      "tr": "tanışmak, buluşmak",
+      "example": "My parents met at work.",
+      "exampleTr": "Annemle babam iş yerinde tanıştı.",
+      "note": "meet → met"
+    },
+    {
+      "id": "a2-u01-v09",
+      "en": "fall in love",
+      "tr": "aşık olmak",
+      "example": "They fell in love in Paris.",
+      "exampleTr": "Paris'te birbirlerine aşık oldular.",
+      "note": "fall → fell"
+    },
+    {
+      "id": "a2-u01-v10",
+      "en": "get married",
+      "tr": "evlenmek",
+      "example": "We got married in 2020.",
+      "exampleTr": "2020'de evlendik.",
+      "note": "get married to + kişi (with değil)"
+    },
+    {
+      "id": "a2-u01-v11",
+      "en": "have a baby",
+      "tr": "bebek sahibi olmak",
+      "example": "They had a baby last year.",
+      "exampleTr": "Geçen yıl bebekleri oldu.",
+      "note": "have → had"
+    },
+    {
+      "id": "a2-u01-v12",
+      "en": "become",
+      "tr": "olmak (bir şey haline gelmek)",
+      "example": "She became a famous writer.",
+      "exampleTr": "Ünlü bir yazar oldu.",
+      "note": "become → became"
+    },
+    {
+      "id": "a2-u01-v13",
+      "en": "win",
+      "tr": "kazanmak",
+      "example": "He won a gold medal.",
+      "exampleTr": "Altın madalya kazandı.",
+      "note": "win → won"
+    },
+    {
+      "id": "a2-u01-v14",
+      "en": "write",
+      "tr": "yazmak",
+      "example": "Orhan Pamuk wrote 'Snow'.",
+      "exampleTr": "Orhan Pamuk 'Kar'ı yazdı.",
+      "note": "write → wrote"
+    },
+    {
+      "id": "a2-u01-v15",
+      "en": "begin",
+      "tr": "başlamak",
+      "example": "The war began in 1914.",
+      "exampleTr": "Savaş 1914'te başladı.",
+      "note": "begin → began"
+    },
+    {
+      "id": "a2-u01-v16",
+      "en": "die",
+      "tr": "ölmek",
+      "example": "Atatürk died in 1938.",
+      "exampleTr": "Atatürk 1938'de öldü.",
+      "note": "die → died (düzenli)"
+    },
+    {
+      "id": "a2-u01-v17",
+      "en": "retire",
+      "tr": "emekli olmak",
+      "example": "My dad retired last year.",
+      "exampleTr": "Babam geçen yıl emekli oldu."
+    },
+    {
+      "id": "a2-u01-v18",
+      "en": "childhood",
+      "tr": "çocukluk",
+      "example": "I had a happy childhood.",
+      "exampleTr": "Mutlu bir çocukluğum oldu."
+    },
+    {
+      "id": "a2-u01-v19",
+      "en": "famous",
+      "tr": "ünlü",
+      "example": "She's famous all over the world.",
+      "exampleTr": "Tüm dünyada ünlü."
+    },
+    {
+      "id": "a2-u01-v20",
+      "en": "century",
+      "tr": "yüzyıl",
+      "example": "He lived in the 16th century.",
+      "exampleTr": "16. yüzyılda yaşadı."
+    },
+    {
+      "id": "a2-u01-v21",
+      "en": "later",
+      "tr": "sonra, daha sonra",
+      "example": "Two years later, they moved to London.",
+      "exampleTr": "İki yıl sonra Londra'ya taşındılar.",
+      "note": "süre + later"
+    },
+    {
+      "id": "a2-u01-v22",
+      "en": "at the age of",
+      "tr": "... yaşında",
+      "example": "Mozart wrote music at the age of five.",
+      "exampleTr": "Mozart beş yaşında müzik yazdı."
+    },
+    {
+      "id": "a2-u01-v23",
+      "en": "when I was ...",
+      "tr": "... iken / ... yaşındayken",
+      "example": "When I was a child, I lived in Izmir.",
+      "exampleTr": "Çocukken İzmir'de yaşıyordum."
+    },
+    {
+      "id": "a2-u01-v24",
+      "en": "biography",
+      "tr": "biyografi",
+      "example": "I'm reading a biography of Atatürk.",
+      "exampleTr": "Bir Atatürk biyografisi okuyorum."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u01-l1",
+      "number": 1,
+      "title": "Düzensiz fiiller (1)",
+      "goal": "En sık kullanılan düzensiz fiillerle geçmişi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir ödülün hikâyesi",
+        "body": "Aylin Kaya was born in Kars in 1990. Her family didn't have much money, but her mother gave her a camera for her tenth birthday.\n\nAylin took photos of everything: animals, people, the snow. At eighteen she went to Istanbul to study art. She didn't know anybody there, but she made friends quickly.\n\nIn 2019 she saw a competition online. She sent three photos of her village. Six months later she won first prize. Today her photos are in museums in Paris and New York.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who gave Aylin her first camera?",
+            "options": [
+              "Her father",
+              "Her mother",
+              "Her teacher"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"her mother gave her a camera\"",
+            "id": "a2-u01-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did she send to the competition?",
+            "options": [
+              "Photos of Istanbul",
+              "Photos of her village",
+              "A painting"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She sent three photos of her village.\"",
+            "id": "a2-u01-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "A1'de düzenli fiilleri (-ed) ve iki düzensiz fiili (went, had) gördük. İngilizcede yaklaşık 100 sık kullanılan düzensiz fiil vardır ve ezberlenmeleri gerekir. Bu ünitede en sık kullanılan 20'siyle başlıyoruz.\n\n| Fiil | Geçmiş | | Fiil | Geçmiş |\n|---|---|---|---|---|\n| go | **went** | | see | **saw** |\n| have | **had** | | take | **took** |\n| get | **got** | | give | **gave** |\n| make | **made** | | send | **sent** |\n| do | **did** | | know | **knew** |\n| come | **came** | | think | **thought** |\n\nDüzensiz fiiller de **her özne için aynıdır**: I went, she went, they went.\n\n**Olumsuz ve soruda** yine did + yalın fiil: She **didn't know** anybody. / **Did** you **see** it?",
+        "examples": [
+          {
+            "en": "We took a taxi to the airport.",
+            "tr": "Havalimanına taksiyle gittik."
+          },
+          {
+            "en": "I thought it was a good idea.",
+            "tr": "İyi bir fikir olduğunu düşündüm."
+          },
+          {
+            "en": "She didn't come to the party.",
+            "tr": "Partiye gelmedi."
+          }
+        ],
+        "turkishNote": "Düzensiz fiilleri ezberlemenin en iyi yolu onları anlamlı cümlelerle tekrar etmektir. Uygulamadaki kelime kartları her fiili bir örnek cümleyle verir; aralıklı tekrar sistemi unutmaya başladığınız fiilleri size tekrar gösterir. \"didn't went\" A2'de bile çok sık yapılan bir hatadır: did geçmişi zaten gösterir, fiil yalın kalır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "go",
+              "right": "went"
+            },
+            {
+              "left": "see",
+              "right": "saw"
+            },
+            {
+              "left": "take",
+              "right": "took"
+            },
+            {
+              "left": "give",
+              "right": "gave"
+            },
+            {
+              "left": "think",
+              "right": "thought"
+            }
+          ],
+          "explanation": "Fiillerin geçmiş hallerini eşleştirin.",
+          "id": "a2-u01-l1-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ my keys at home this morning. (leave)",
+          "answers": [
+            "left"
+          ],
+          "explanation": "leave → left.",
+          "id": "a2-u01-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ a lovely cake for my birthday. (make)",
+          "answers": [
+            "made"
+          ],
+          "explanation": "make → made.",
+          "id": "a2-u01-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ the Eiffel Tower last summer. (see)",
+          "answers": [
+            "saw"
+          ],
+          "explanation": "see → saw.",
+          "id": "a2-u01-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ home at midnight. (come)",
+          "answers": [
+            "came"
+          ],
+          "explanation": "come → came.",
+          "id": "a2-u01-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She didn't knew the answer.",
+            "She didn't know the answer.",
+            "She not knew the answer."
+          ],
+          "answerIndex": 1,
+          "explanation": "didn't + yalın fiil.",
+          "id": "a2-u01-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"get\" fiilinin geçmiş hali:",
+          "options": [
+            "getted",
+            "got",
+            "gotten"
+          ],
+          "answerIndex": 1,
+          "explanation": "get → got. (gotten past simple değildir.)",
+          "id": "a2-u01-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Last year I got a new job, so I sent my old boss a thank-you card. He gave me some great advice.",
+          "prompt": "Konuşan eski patronuna ne gönderdi?",
+          "options": [
+            "Hediye",
+            "Teşekkür kartı",
+            "E-posta"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I sent my old boss a thank-you card\"",
+          "id": "a2-u01-l1-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "took",
+            "She",
+            "photos",
+            "of",
+            "everything"
+          ],
+          "answer": "She took photos of everything.",
+          "explanation": "Özne + geçmiş fiil + nesne.",
+          "translation": "Her şeyin fotoğrafını çekti.",
+          "id": "a2-u01-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İyi bir fikir olduğunu düşündüm.\"",
+          "accepted": [
+            "I thought it was a good idea.",
+            "I thought it was a good idea",
+            "I thought that it was a good idea.",
+            "I thought that it was a good idea"
+          ],
+          "explanation": "think → thought.",
+          "id": "a2-u01-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızdaki önemli bir günü anlatın (ilk iş günü, mezuniyet, bir yolculuk...). En az 5 düzensiz fiil kullanın.",
+          "modelAnswer": "My first day at university was in September 2012. I got up very early and took the bus. I didn't know anybody, but I met a girl in the café. We had lunch together and she became my best friend.",
+          "rubric": [
+            "Düzensiz fiiller doğru",
+            "didn't + yalın fiil",
+            "Olaylar sıralı"
+          ]
+        },
+        "id": "a2-u01-l1-use"
+      }
+    },
+    {
+      "id": "a2-u01-l2",
+      "number": 2,
+      "title": "Düzensiz fiiller (2)",
+      "goal": "Yaşam olaylarını düzensiz fiillerle anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Büyükannemin hikâyesi",
+        "lines": [
+          {
+            "speaker": "Elif",
+            "text": "Grandma, how did you and Grandpa meet?"
+          },
+          {
+            "speaker": "Grandma",
+            "text": "We met at a wedding in 1968. He wore a terrible brown suit!"
+          },
+          {
+            "speaker": "Elif",
+            "text": "Ha ha! And did you fall in love immediately?"
+          },
+          {
+            "speaker": "Grandma",
+            "text": "No! I thought he was boring. But he wrote me a letter every week."
+          },
+          {
+            "speaker": "Elif",
+            "text": "That's so romantic! When did you get married?"
+          },
+          {
+            "speaker": "Grandma",
+            "text": "Two years later. Then we bought a little house and your father was born in 1972."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did Elif's grandparents meet?",
+            "options": [
+              "At work",
+              "At a wedding",
+              "At school"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"We met at a wedding\"",
+            "id": "a2-u01-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When did they get married?",
+            "options": [
+              "1968",
+              "1970",
+              "1972"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Two years later\" → 1968 + 2 = 1970.",
+            "id": "a2-u01-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Yaşam olaylarında sık kullanılan düzensiz fiiller:**\n\n| Fiil | Geçmiş | | Fiil | Geçmiş |\n|---|---|---|---|---|\n| meet | **met** | | grow up | **grew up** |\n| become | **became** | | leave | **left** |\n| buy | **bought** | | begin | **began** |\n| write | **wrote** | | win | **won** |\n| fall | **fell** | | wear | **wore** |\n| find | **found** | | sell | **sold** |\n\n**Gruplar halinde öğrenmek kolaylaştırır:**\n\n- -ought / -aught: buy → bought, think → thought, bring → brought, teach → taught\n- i → a: begin → began, swim → swam, sing → sang, drink → drank\n- değişmeyenler: put → put, cut → cut, cost → cost",
+        "examples": [
+          {
+            "en": "They bought a flat in Kadıköy.",
+            "tr": "Kadıköy'de bir daire aldılar."
+          },
+          {
+            "en": "He became a doctor in 2010.",
+            "tr": "2010'da doktor oldu."
+          },
+          {
+            "en": "The concert began at eight.",
+            "tr": "Konser sekizde başladı."
+          }
+        ],
+        "turkishNote": "Türkçede \"olmak\" fiili çok geniş kullanılır; İngilizcede karşılığı duruma göre değişir: doktor oldu = became a doctor, evlendi = got married, bebeği oldu = had a baby. \"Evlendi\" için \"married with\" değil, \"got married to\" kullanılır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "buy",
+              "right": "bought"
+            },
+            {
+              "left": "meet",
+              "right": "met"
+            },
+            {
+              "left": "become",
+              "right": "became"
+            },
+            {
+              "left": "write",
+              "right": "wrote"
+            },
+            {
+              "left": "begin",
+              "right": "began"
+            }
+          ],
+          "explanation": "Fiilleri eşleştirin.",
+          "id": "a2-u01-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "My parents ___ at university. (meet)",
+          "answers": [
+            "met"
+          ],
+          "explanation": "meet → met.",
+          "id": "a2-u01-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ a famous singer at 20. (become)",
+          "answers": [
+            "became"
+          ],
+          "explanation": "become → became.",
+          "id": "a2-u01-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ a new car last month. (buy)",
+          "answers": [
+            "bought"
+          ],
+          "explanation": "buy → bought.",
+          "id": "a2-u01-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ up in a small town near Bursa. (grow)",
+          "answers": [
+            "grew"
+          ],
+          "explanation": "grow → grew.",
+          "id": "a2-u01-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She got married with a pilot.",
+            "She got married to a pilot.",
+            "She married with a pilot."
+          ],
+          "answerIndex": 1,
+          "explanation": "get married to + kişi.",
+          "id": "a2-u01-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"teach\" fiilinin geçmiş hali:",
+          "options": [
+            "teached",
+            "taught",
+            "tought"
+          ],
+          "answerIndex": 1,
+          "explanation": "teach → taught (-aught grubu).",
+          "id": "a2-u01-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My uncle left school at sixteen and found a job in a factory. Later he bought the factory!",
+          "prompt": "Amca sonunda ne yaptı?",
+          "options": [
+            "Fabrikadan ayrıldı",
+            "Fabrikayı satın aldı",
+            "Okula döndü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Later he bought the factory!\"",
+          "id": "a2-u01-l2-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "fell",
+            "They",
+            "in",
+            "love",
+            "in",
+            "Paris"
+          ],
+          "answer": "They fell in love in Paris.",
+          "explanation": "fall → fell + in love.",
+          "translation": "Paris'te aşık oldular.",
+          "id": "a2-u01-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"2015'te evlendik.\"",
+          "accepted": [
+            "We got married in 2015.",
+            "We got married in 2015",
+            "In 2015 we got married.",
+            "In 2015 we got married",
+            "In 2015, we got married.",
+            "In 2015, we got married"
+          ],
+          "explanation": "got married + in 2015.",
+          "id": "a2-u01-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ailenizden yaşlı bir kişinin (büyükanne, büyükbaba, anne, baba) hayat hikâyesini 6 cümleyle anlatın.",
+          "modelAnswer": "My grandfather was born in Rize in 1945. He grew up on a tea farm. He left school at fourteen and became a fisherman. He met my grandmother in 1965 and they got married a year later. They had five children.",
+          "rubric": [
+            "Yaşam olayı kelimeleri",
+            "Düzensiz fiiller doğru",
+            "Yıllar ve zaman ifadeleri"
+          ]
+        },
+        "id": "a2-u01-l2-use"
+      }
+    },
+    {
+      "id": "a2-u01-l3",
+      "number": 3,
+      "title": "Geçmişi sormak",
+      "goal": "Birine hayatı hakkında Did ...? ve Wh- soruları sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Radyo röportajı",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Welcome, Chef Murat. Where were you born?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "I was born in Gaziantep, but I grew up in Mersin."
+          },
+          {
+            "speaker": "Host",
+            "text": "When did you start cooking?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "When I was seven. My grandmother taught me."
+          },
+          {
+            "speaker": "Host",
+            "text": "Did you go to a cooking school?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "No, I didn't. I learned in restaurant kitchens. I washed dishes for two years!"
+          },
+          {
+            "speaker": "Host",
+            "text": "Why did you open your restaurant in London?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "Because I wanted to show Turkish food to the world."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who taught Murat to cook?",
+            "options": [
+              "His mother",
+              "His grandmother",
+              "A teacher"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My grandmother taught me.\"",
+            "id": "a2-u01-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Did Murat go to a cooking school?",
+            "options": [
+              "Yes, he did.",
+              "No, he didn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, I didn't. I learned in restaurant kitchens.\"",
+            "id": "a2-u01-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Evet/hayır sorusu:** Did + özne + yalın fiil?\n\n- **Did** you **grow up** here? – Yes, I **did**. / No, I **didn't**.\n\n**Bilgi sorusu:** Soru kelimesi + did + özne + yalın fiil?\n\n| Soru kelimesi | Örnek |\n|---|---|\n| Where | Where **did** you **go** to school? |\n| When | When **did** she **move** to Ankara? |\n| Why | Why **did** they **leave**? |\n| How | How **did** you **meet**? |\n| What | What **did** you **study**? |\n| How long | How long **did** you **live** there? |\n\n**Doğum:** be born bir be yapısıdır, did kullanılmaz:\n\n- **Where were** you **born**? (~~Where did you born?~~)\n- **When was** he **born**?",
+        "examples": [
+          {
+            "en": "What did you study at university?",
+            "tr": "Üniversitede ne okudun?"
+          },
+          {
+            "en": "How long did you live in Germany?",
+            "tr": "Almanya'da ne kadar yaşadın?"
+          },
+          {
+            "en": "When was your mother born?",
+            "tr": "Annen ne zaman doğdu?"
+          }
+        ],
+        "turkishNote": "Türkçede \"doğdum\" etken bir fiil gibidir; İngilizcede \"be born\" edilgendir: I was born. Bu yüzden \"Where did you born?\" yanlıştır, \"Where were you born?\" doğrudur. Ayrıca \"üniversitede ne okudun?\" sorusunda read değil study kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Where did you born?",
+            "Where were you born?",
+            "Where you were born?"
+          ],
+          "answerIndex": 1,
+          "explanation": "be born → were you born?",
+          "id": "a2-u01-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "When did you moved here?",
+            "When did you move here?",
+            "When you moved here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "did + yalın fiil.",
+          "id": "a2-u01-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you study at university?",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Geçmiş bilgi sorusu → did.",
+          "id": "a2-u01-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "When ___ your father born?",
+          "answers": [
+            "was"
+          ],
+          "explanation": "he → was born.",
+          "id": "a2-u01-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "How did you ___ your wife? (meet)",
+          "answers": [
+            "meet"
+          ],
+          "explanation": "did + yalın fiil.",
+          "id": "a2-u01-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Did you grow up in Izmir?\" (Hayır.)",
+          "options": [
+            "No, I didn't.",
+            "No, I wasn't.",
+            "No, I don't."
+          ],
+          "answerIndex": 0,
+          "explanation": "Did → No, I didn't.",
+          "id": "a2-u01-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "long",
+            "How",
+            "did",
+            "you",
+            "live",
+            "in",
+            "Germany",
+            "?"
+          ],
+          "answer": "How long did you live in Germany?",
+          "explanation": "How long + did + özne + yalın fiil?",
+          "translation": "Almanya'da ne kadar yaşadın?",
+          "id": "a2-u01-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Why did you leave your job? – Because I wanted to start my own company.",
+          "prompt": "Konuşan işini neden bıraktı?",
+          "options": [
+            "Maaşı düşüktü",
+            "Kendi şirketini kurmak istedi",
+            "Taşındı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Because I wanted to start my own company.\"",
+          "id": "a2-u01-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Cümle için soru yazın: \"She moved to London in 2018.\" (When?)",
+          "accepted": [
+            "When did she move to London?",
+            "When did she move to London"
+          ],
+          "explanation": "When + did + she + move + to London?",
+          "id": "a2-u01-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Üniversitede ne okudun?\"",
+          "accepted": [
+            "What did you study at university?",
+            "What did you study at university",
+            "What did you study at uni?",
+            "What did you study at uni"
+          ],
+          "explanation": "What did you study + at university?",
+          "id": "a2-u01-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ünlü bir kişiyi canlandıracak. Ona hayatı hakkında en az 6 soru sorun: doğum yeri, çocukluk, eğitim, kariyer, ve en az bir Why sorusu.",
+          "modelAnswer": "Where were you born? Where did you grow up? Did you go to university? What did you study? When did you become famous? Why did you choose this job?",
+          "rubric": [
+            "was/were born doğru",
+            "did + yalın fiil düzeni",
+            "Farklı soru kelimeleri kullandı"
+          ]
+        },
+        "id": "a2-u01-l3-use"
+      }
+    },
+    {
+      "id": "a2-u01-l4",
+      "number": 4,
+      "title": "Kim yaptı?",
+      "goal": "Özne soruları ile nesne sorularını ayırt edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bilgi yarışması",
+        "body": "QUIZ NIGHT – Round 3: Famous people\n\n1. Who painted the Mona Lisa?\n2. Who discovered penicillin?\n3. What happened in Turkey in 1923?\n4. Who wrote 'The Black Book'?\n5. Who did Mimar Sinan build the Süleymaniye Mosque for?\n\nAnswers: 1. Leonardo da Vinci painted it. 2. Alexander Fleming discovered it in 1928. 3. The Republic of Turkey began. 4. Orhan Pamuk wrote it. 5. He built it for Sultan Süleyman.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who discovered penicillin?",
+            "options": [
+              "Leonardo da Vinci",
+              "Alexander Fleming",
+              "Orhan Pamuk"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Alexander Fleming discovered it in 1928.\"",
+            "id": "a2-u01-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened in Turkey in 1923?",
+            "options": [
+              "The Republic began.",
+              "A mosque was built.",
+              "A book was written."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"The Republic of Turkey began.\"",
+            "id": "a2-u01-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Who** ve **What** iki farklı soru sorabilir:\n\n**1. Özne sorusu** (yapanı soruyoruz): did **kullanılmaz**, fiil geçmiş halde kalır.\n\n- **Who wrote** 'Snow'? – Orhan Pamuk wrote it.\n- **What happened**? – I lost my wallet.\n\n**2. Nesne sorusu** (eylemin yapıldığı kişiyi/şeyi soruyoruz): did **kullanılır**.\n\n- **Who did** you **see** at the party? – I saw Ayşe.\n- **What did** she **buy**? – She bought a coat.\n\n**Karşılaştırın:**\n\n| Özne sorusu | Nesne sorusu |\n|---|---|\n| Who called you? (Seni kim aradı?) | Who did you call? (Sen kimi aradın?) |\n| Who met Ali? (Ali'yle kim buluştu?) | Who did Ali meet? (Ali kiminle buluştu?) |",
+        "examples": [
+          {
+            "en": "Who invented the telephone?",
+            "tr": "Telefonu kim icat etti?"
+          },
+          {
+            "en": "What happened at the meeting?",
+            "tr": "Toplantıda ne oldu?"
+          },
+          {
+            "en": "Who did you invite?",
+            "tr": "Kimi davet ettin?"
+          }
+        ],
+        "turkishNote": "Türkçede \"kim\" ve \"kimi\" farklı kelimelerdir, bu yüzden fark kolay anlaşılır: \"Kim aradı?\" = Who called? (özne), \"Kimi aradın?\" = Who did you call? (nesne). \"What did happen?\" yanlıştır; happen her zaman özne sorusudur: What happened?"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Seni kim aradı?\"",
+          "options": [
+            "Who called you?",
+            "Who did you call?",
+            "Who did call you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Özne sorusu → did yok.",
+          "id": "a2-u01-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sen kimi aradın?\"",
+          "options": [
+            "Who called you?",
+            "Who did you call?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nesne sorusu → did var.",
+          "id": "a2-u01-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "What did happen?",
+            "What happened?",
+            "What did happened?"
+          ],
+          "answerIndex": 1,
+          "explanation": "happen → özne sorusu.",
+          "id": "a2-u01-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Who ___ the Mona Lisa? (paint)",
+          "answers": [
+            "painted"
+          ],
+          "explanation": "Özne sorusu → painted.",
+          "id": "a2-u01-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you buy at the market?",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Nesne sorusu → did.",
+          "id": "a2-u01-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Who won the match?\" cevabı:",
+          "options": [
+            "Galatasaray won.",
+            "Galatasaray did win it the match.",
+            "I won Galatasaray."
+          ],
+          "answerIndex": 0,
+          "explanation": "Özne sorusuna cevap: kim kazandı.",
+          "id": "a2-u01-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "did",
+            "Who",
+            "you",
+            "meet",
+            "at",
+            "the",
+            "party",
+            "?"
+          ],
+          "answer": "Who did you meet at the party?",
+          "explanation": "Nesne sorusu: Who + did + özne + fiil?",
+          "translation": "Partide kiminle tanıştın?",
+          "id": "a2-u01-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Who broke the window? – I don't know. But I know who did it... the cat!",
+          "prompt": "Pencereyi kim kırdı?",
+          "options": [
+            "Çocuk",
+            "Kedi",
+            "Konuşan"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the cat!\"",
+          "id": "a2-u01-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Özne sorusu yazın: \"Alexander Graham Bell invented the telephone.\" (Who?)",
+          "accepted": [
+            "Who invented the telephone?",
+            "Who invented the telephone"
+          ],
+          "explanation": "Who + invented + the telephone?",
+          "id": "a2-u01-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Nesne sorusu yazın: \"Mert invited Leyla.\" (Who? → Leyla'yı soruyoruz)",
+          "accepted": [
+            "Who did Mert invite?",
+            "Who did Mert invite"
+          ],
+          "explanation": "Who + did + Mert + invite?",
+          "id": "a2-u01-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Arkadaşlarınız için 5 soruluk bir bilgi yarışması yazın: en az 3 özne sorusu (Who wrote/invented...?) ve 2 nesne sorusu (What did...?). Cevapları da yazın.",
+          "modelAnswer": "1. Who wrote 'Romeo and Juliet'? – Shakespeare wrote it.\n2. Who invented the light bulb? – Edison invented it.\n3. What happened in 1969? – People walked on the moon.\n4. What did Marie Curie discover? – She discovered radium.\n5. Which city did Mehmed II conquer in 1453? – He conquered Istanbul.",
+          "rubric": [
+            "Özne sorularında did yok",
+            "Nesne sorularında did + yalın fiil",
+            "Cevaplarda doğru geçmiş fiiller"
+          ]
+        },
+        "id": "a2-u01-l4-use"
+      }
+    },
+    {
+      "id": "a2-u01-l5",
+      "number": 5,
+      "title": "Bir hayat hikâyesi",
+      "goal": "Bir hayat hikâyesini zaman ifadeleriyle sıralı ve akıcı bir şekilde anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kısa biyografi: Sabiha Gökçen",
+        "body": "Sabiha Gökçen was born in Bursa in 1913. When she was twelve, she met Atatürk and he adopted her.\n\nIn 1935 she went to a flying school and fell in love with planes. Only a year later, at the age of 23, she became the first Turkish woman pilot. In 1937 she flew military planes, and she became the world's first woman combat pilot.\n\nLater, she flew to many Balkan countries. She taught young pilots for many years. She died in 2001, but today one of Istanbul's airports has her name.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How old was Sabiha Gökçen when she became a pilot?",
+            "options": [
+              "Twelve",
+              "Twenty-three",
+              "Thirty-five"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"at the age of 23, she became the first Turkish woman pilot\"",
+            "id": "a2-u01-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What has her name today?",
+            "options": [
+              "A school",
+              "An airport",
+              "A plane"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"one of Istanbul's airports has her name\"",
+            "id": "a2-u01-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir hayat hikâyesini akıcı anlatmak için zaman ifadeleri kullanırız:\n\n| İfade | Örnek |\n|---|---|\n| in + yıl | She was born **in** 1913. |\n| on + tarih | He died **on** 10 November 1938. |\n| when + I/she was ... | **When she was** twelve, she met Atatürk. |\n| at the age of ... | **At the age of** 23, she became a pilot. |\n| ... later | Two years **later**, they got married. |\n| after + isim / -ing | **After** university, he moved to London. |\n| then / after that | **Then** she started teaching. |\n| from ... to ... | He lived in Paris **from** 1990 **to** 2005. |\n\n**Yıl okumak:** 1913 = nineteen thirteen, 2001 = two thousand and one, 2015 = twenty fifteen",
+        "examples": [
+          {
+            "en": "When I was a teenager, I wanted to be a pilot.",
+            "tr": "Ergenken pilot olmak istiyordum."
+          },
+          {
+            "en": "After school, she worked in a bank.",
+            "tr": "Okuldan sonra bir bankada çalıştı."
+          },
+          {
+            "en": "A year later, he won the Nobel Prize.",
+            "tr": "Bir yıl sonra Nobel ödülü kazandı."
+          }
+        ],
+        "turkishNote": "Türkçede \"iki yıl sonra\" deriz; İngilizcede geçmişi anlatırken \"two years later\" ya da \"after two years\" denir. \"on iki yaşındayken\" = when she was twelve (when she was twelve years old da olur)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "She was born ___ 1998.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yıl → in.",
+          "id": "a2-u01-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "He died ___ 3 March 2010.",
+          "options": [
+            "in",
+            "on",
+            "at"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tarih → on.",
+          "id": "a2-u01-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ the age of 18, she left home.",
+          "options": [
+            "In",
+            "On",
+            "At"
+          ],
+          "answerIndex": 2,
+          "explanation": "at the age of.",
+          "id": "a2-u01-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Three years ___, they had a baby.",
+          "answers": [
+            "later"
+          ],
+          "explanation": "süre + later.",
+          "id": "a2-u01-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I was a child, I lived in Konya.",
+          "answers": [
+            "When"
+          ],
+          "explanation": "When I was a child.",
+          "id": "a2-u01-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "He lived in Rome ___ 2001 to 2008.",
+          "answers": [
+            "from"
+          ],
+          "explanation": "from ... to ...",
+          "id": "a2-u01-l5-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "2007 nasıl okunur?",
+          "options": [
+            "twenty seven",
+            "two thousand and seven",
+            "two hundred seven"
+          ],
+          "answerIndex": 1,
+          "explanation": "two thousand and seven.",
+          "id": "a2-u01-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "After university, I worked in a hotel in Antalya. Two years later, I moved to Istanbul and opened my own café.",
+          "prompt": "Konuşan İstanbul'a ne zaman taşındı?",
+          "options": [
+            "Üniversiteden hemen sonra",
+            "Otelde iki yıl çalıştıktan sonra",
+            "Antalya'ya gitmeden önce"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Two years later, I moved to Istanbul\"",
+          "id": "a2-u01-l5-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "the",
+            "At",
+            "age",
+            "of",
+            "twenty",
+            "she",
+            "became",
+            "a",
+            "teacher"
+          ],
+          "answer": "At the age of twenty she became a teacher.",
+          "explanation": "At the age of + yaş + cümle.",
+          "translation": "Yirmi yaşında öğretmen oldu.",
+          "id": "a2-u01-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Çocukken İzmir'de yaşıyordum.\"",
+          "accepted": [
+            "When I was a child, I lived in Izmir.",
+            "When I was a child, I lived in Izmir",
+            "When I was a child I lived in Izmir.",
+            "When I was a child I lived in Izmir",
+            "I lived in Izmir when I was a child.",
+            "I lived in Izmir when I was a child",
+            "When I was a kid, I lived in Izmir.",
+            "When I was a kid, I lived in Izmir"
+          ],
+          "explanation": "When I was a child, I lived in Izmir.",
+          "id": "a2-u01-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Kendi hayat hikâyenizi ya da hayran olduğunuz birinin kısa biyografisini yazın (80–100 kelime). En az 4 farklı zaman ifadesi ve 6 düzensiz fiil kullanın.",
+          "modelAnswer": "I was born in Samsun in 1994. When I was eight, my family moved to Ankara because my father got a new job there. I grew up in Çankaya and went to a great school. At the age of eighteen, I began university in Izmir and studied engineering. After university, I found a job in a big company. In 2021 I met my wife, and two years later we got married. Last year we bought our first flat.",
+          "rubric": [
+            "Zaman ifadeleri doğru (in/on/at, when, later, after)",
+            "Düzensiz fiiller doğru",
+            "Olaylar mantıklı sırada",
+            "Akıcı paragraflar"
+          ]
+        },
+        "id": "a2-u01-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "She ___ a letter to her grandma. (write)",
+        "answers": [
+          "wrote"
+        ],
+        "explanation": "write → wrote",
+        "id": "a2-u01-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ a lot of photos in Rome. (take)",
+        "answers": [
+          "took"
+        ],
+        "explanation": "take → took",
+        "id": "a2-u01-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "They ___ a house by the sea. (buy)",
+        "answers": [
+          "bought"
+        ],
+        "explanation": "buy → bought",
+        "id": "a2-u01-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I didn't saw him.",
+          "I didn't see him."
+        ],
+        "answerIndex": 1,
+        "explanation": "didn't + yalın fiil.",
+        "id": "a2-u01-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Where did you born?",
+          "Where were you born?"
+        ],
+        "answerIndex": 1,
+        "explanation": "were you born",
+        "id": "a2-u01-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She got married with Ali.",
+          "She got married to Ali."
+        ],
+        "answerIndex": 1,
+        "explanation": "get married to",
+        "id": "a2-u01-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "How did you ___ your husband? (meet)",
+        "answers": [
+          "meet"
+        ],
+        "explanation": "did + yalın fiil",
+        "id": "a2-u01-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Seni kim aradı?\"",
+        "options": [
+          "Who did call you?",
+          "Who called you?",
+          "Who did you call?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Özne sorusu.",
+        "id": "a2-u01-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "What did happen?",
+          "What happened?"
+        ],
+        "answerIndex": 1,
+        "explanation": "What happened?",
+        "id": "a2-u01-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "He was born ___ 1985.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answerIndex": 0,
+        "explanation": "in + yıl",
+        "id": "a2-u01-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Two years ___, she became a manager.",
+        "answers": [
+          "later"
+        ],
+        "explanation": "later",
+        "id": "a2-u01-t11"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "did",
+          "What",
+          "you",
+          "study",
+          "at",
+          "university",
+          "?"
+        ],
+        "answer": "What did you study at university?",
+        "explanation": "What + did + you + study?",
+        "translation": "Üniversitede ne okudun?",
+        "id": "a2-u01-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "My mother grew up in a village. She left school at fifteen, but later she went back and became a teacher at forty.",
+        "prompt": "Anne kaç yaşında öğretmen oldu?",
+        "options": [
+          "15",
+          "30",
+          "40"
+        ],
+        "answerIndex": 2,
+        "explanation": "\"became a teacher at forty\"",
+        "id": "a2-u01-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Telefonu kim icat etti?\"",
+        "accepted": [
+          "Who invented the telephone?",
+          "Who invented the telephone",
+          "Who invented the phone?",
+          "Who invented the phone"
+        ],
+        "explanation": "Özne sorusu: Who invented ...?",
+        "id": "a2-u01-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir arkadaşınızın ya da aile üyenizin hayatını anlatan 6–8 cümlelik bir metin yazın. Doğum, çocukluk, eğitim, iş ve önemli bir olay olsun.",
+        "modelAnswer": "My best friend Selin was born in Eskişehir in 1996. She grew up with three brothers. When she was ten, she won a painting competition. She went to university in Istanbul and studied architecture. After university, she got a job in Berlin. Two years later she started her own company. Last summer she came back to Turkey and opened an office in Izmir.",
+        "rubric": [
+          "Düzensiz fiiller doğru",
+          "Zaman ifadeleri çeşitli",
+          "Yaşam olayı kelimeleri",
+          "Anlamlı sıralama"
+        ],
+        "id": "a2-u01-t15"
+      }
+    ]
+  }
+}
