@@ -14,7 +14,10 @@ struct LessonPathView: View {
 
     // Ölçüler referans görselden piksel piksel alındı (1pt ≈ 1.48px).
     private let rowHeight: CGFloat = 96
-    private let roadTop: CGFloat = 23
+    /// Yol ilk satırın üstünden başlar: ünite kartının (yolun 13–87pt yukarısında) altında kalır, başlangıcı görünmez.
+    private let roadTop: CGFloat = -70
+    /// Yol sayfanın sonundan da bu kadar aşağı uzanır; en alta kaydırınca sekme çubuğunun ve ekranın altına girer.
+    private let roadOverrun: CGFloat = 800
     private let edgeOffset: CGFloat = 9.5
     /// Son dersten sonra yolun aşağı doğru devam ettiği boşluk (referanstaki gibi yol sayfanın sonuna kadar iner).
     private let tail: CGFloat = 140
@@ -52,7 +55,7 @@ struct LessonPathView: View {
     private var underRoad: CGFloat { Self.underRoad }
 
     private func rows(width w: CGFloat) -> [Row] {
-        let emojis = LessonEmoji.sequence(for: unit.lessons.map(\.title))
+        let emojis = LessonEmoji.sequence(for: unit)
         return (0...unit.lessons.count).map { i in
             let y = rowHeight * (CGFloat(i) + 0.5)
             let roadX = w * roadRatio(y)
@@ -83,7 +86,7 @@ struct LessonPathView: View {
         GeometryReader { geo in
             let w = geo.size.width
             let rows = rows(width: w)
-            let center = samples(width: w, from: roadTop, to: total)
+            let center = samples(width: w, from: roadTop, to: total + roadOverrun)
             // Mavi çizgi yolun başından sıradaki dersin satırına kadar.
             let currentY = rowHeight * (CGFloat(min(doneCount, unit.lessons.count)) + 0.5)
             // Katmanlar (referanstaki gibi): önce haplar, üstüne yol (beyaz dolgu hapların ucunu örter, sonra gri
@@ -135,7 +138,7 @@ struct LessonPathView: View {
                     }
                     Text(row.emoji)
                         .font(.system(size: 68))
-                        .shadow(color: Theme.ink.opacity(0.2), radius: 6, x: 2, y: 5)
+                        .shadow(color: Theme.ink.opacity(0.12), radius: 4, x: 0, y: 3)
                         .position(x: min(max(row.extendsRight ? row.roadX - 58 : row.roadX + 58, 40), w - 40), y: row.y - 2)
                         .staggeredAppear(row.id, delay: 0.08)
                         .accessibilityHidden(true)
@@ -204,19 +207,98 @@ struct LessonPathView: View {
 /// Sözcük başına bakılır ("ev" "seviye"nin içinde eşleşmesin); bulunamazsa sırayla yedek emojiler.
 enum LessonEmoji {
     private static let map: [(String, String)] = [
-        ("selam", "👋"), ("merhaba", "👋"), ("ben, sen", "🧑‍🤝‍🧑"), ("nereli", "🌍"), ("ülke", "🌍"), ("yaş", "🎂"),
-        ("evet", "✅"), ("aile", "👨‍👩‍👧"), ("kardeş", "👫"), ("nasıl biri", "🧑‍🎨"), ("benim, senin", "🎒"),
+        ("selam", "👋"), ("merhaba", "👋"), ("ben, sen", "🪪"), ("nereli", "🌍"), ("ülke", "🌍"), ("yaş", "🎂"),
+        ("evet", "💬"), ("aile", "🖼️"), ("kardeş", "🎈"), ("nasıl biri", "🪞"), ("benim, senin", "🎒"),
         ("çoğul", "🧺"), ("bu ve şu", "👉"), ("bunlar", "👉"), ("renk", "🎨"), ("ev", "🏠"), ("oda", "🛏️"),
         ("içinde", "📦"), ("yanında", "🪑"), ("var mı", "🔎"), ("sayı", "🔢"), ("saat", "⏰"), ("gün", "📅"),
         ("rutin", "⏰"), ("yemek", "🍽️"), ("kafe", "☕"), ("kahve", "☕"), ("restoran", "🍽️"), ("sipariş", "🧾"),
         ("alışveriş", "🛒"), ("market", "🛒"), ("fiyat", "🏷️"), ("giysi", "👕"), ("kıyafet", "👕"), ("şehir", "🏙️"),
         ("yol", "🗺️"), ("tarif", "🗺️"), ("ulaşım", "🚌"), ("otobüs", "🚌"), ("taksi", "🚕"), ("otel", "🏨"),
-        ("havaalanı", "✈️"), ("seyahat", "✈️"), ("uçak", "✈️"), ("tatil", "🏖️"), ("hava", "⛅"), ("iş", "💼"),
+        ("havaalanı", "✈️"), ("havalimanı", "✈️"), ("seyahat", "✈️"), ("uçak", "✈️"), ("tatil", "🏖️"), ("hava", "⛅"), ("iş", "💼"),
         ("meslek", "💼"), ("okul", "🏫"), ("spor", "⚽"), ("müzik", "🎵"), ("film", "🎬"), ("sağlık", "🩺"),
         ("doktor", "🩺"), ("telefon", "📱"), ("hafta sonu", "🎉"), ("parti", "🎉"), ("yetenek", "🎸"),
         ("geçmiş", "🕰️"), ("gelecek", "🔮"), ("plan", "🗓️"), ("hikâye", "📖"), ("hikaye", "📖"), ("kitap", "📚"),
     ]
     private static let fallbacks = ["📘", "✏️", "💬", "🎯", "🧩", "💡", "📝", "🎧", "🌟", "📌"]
+
+    /// Her ünitenin dersleri için elle seçilmiş emojiler (ders sırasıyla). Dilbilgisi başlıkları sözcükten tahmin
+    /// edilemediği için burada; kişi, el ve kutu simgelerinden kaçınılır, nesne gibi duran emojiler seçilir.
+    private static let curated: [String: [String]] = [
+        "a1-u01": ["👋", "🪪", "🌍", "🎂", "💬"],
+        "a1-u02": ["🖼️", "🎒", "🎀", "🎈", "🪞"],
+        "a1-u03": ["🍎", "🧺", "👉", "📦", "🎨"],
+        "a1-u04": ["🏠", "🔎", "🛋️", "🪑", "🛏️"],
+        "a1-u05": ["🪥", "⏰", "🛑", "🤔", "📅"],
+        "a1-u06": ["💼", "💻", "💤", "🔧", "🏢"],
+        "a1-u07": ["🍪", "🥛", "☕", "🧾", "💳"],
+        "a1-u08": ["🏙️", "🚦", "🗺️", "🚪", "🚌"],
+        "a1-u09": ["⚽", "🏅", "🎸", "❤️", "💌"],
+        "a1-u10": ["👕", "🏷️", "💰", "🛍️", "👟"],
+        "a1-u11": ["⛅", "📱", "👀", "📆", "📸"],
+        "a1-u12": ["📍", "❓", "✍️", "🎳", "🎉"],
+        "a2-u01": ["📜", "📝", "🕰️", "🕵️", "📖"],
+        "a2-u02": ["🏖️", "⏳", "🎬", "🌧️", "📷"],
+        "a2-u03": ["🐘", "💎", "🏆", "⚖️", "🤔"],
+        "a2-u04": ["🎯", "🗓️", "📒", "🌦️", "🗺️"],
+        "a2-u05": ["🤕", "🩺", "💡", "🧭", "💊"],
+        "a2-u06": ["🗽", "🪂", "✈️", "📍", "🌟"],
+        "a2-u07": ["💻", "⚡", "⏱️", "📲", "🛠️"],
+        "a2-u08": ["📋", "😌", "⛔", "🚭", "🏫"],
+        "a2-u09": ["🔮", "🤨", "🎲", "🚀", "🌍"],
+        "a2-u10": ["💌", "😔", "🍿", "✉️", "🎉"],
+        "a2-u11": ["✈️", "🏨", "🧳", "🐢", "⭐"],
+        "a2-u12": ["😊", "🔗", "🪜", "⚡", "📖"],
+        "b1-u01": ["🎭", "🌦️", "💭", "🪞", "🌟"],
+        "b1-u02": ["⏳", "🏁", "⏱️", "🧮", "🦋"],
+        "b1-u03": ["🛣️", "💰", "🚧", "⚡", "⚖️"],
+        "b1-u04": ["🎰", "👟", "☁️", "🤔", "🏝️"],
+        "b1-u05": ["⌛", "🧮", "📖", "📰", "👂"],
+        "b1-u06": ["🏭", "💡", "⚙️", "🧱", "🚀"],
+        "b1-u07": ["💬", "🕰️", "📅", "📣", "📨"],
+        "b1-u08": ["👥", "🔗", "📍", "🤯", "🏡"],
+        "b1-u09": ["📼", "🧸", "🏕️", "🍂", "🎈"],
+        "b1-u10": ["🎨", "📌", "🎯", "❓", "🧠"],
+        "b1-u11": ["🔍", "🌫️", "👀", "🕵️", "🗝️"],
+        "b1-u12": ["💭", "🌧️", "☔", "⚖️", "✍️"],
+        "b2-u01": ["🎭", "⏳", "🎞️", "⚡", "📖"],
+        "b2-u02": ["📆", "🔮", "🏁", "💼", "📄"],
+        "b2-u03": ["🌠", "🚪", "⭐", "😣", "📝"],
+        "b2-u04": ["🔧", "📋", "✂️", "🚗", "✉️"],
+        "b2-u05": ["❓", "📩", "📜", "❌", "🎙️"],
+        "b2-u06": ["🔗", "💡", "🧩", "🗻", "🧳"],
+        "b2-u07": ["🔍", "🤔", "😬", "😅", "🕵️"],
+        "b2-u08": ["🍀", "💌", "🏔️", "🧩", "💛"],
+        "b2-u09": ["🤔", "🪶", "👔", "🗣️", "📧"],
+        "b2-u10": ["🔬", "📌", "🧪", "⚗️", "📊"],
+        "b2-u11": ["💰", "😟", "🏦", "📈", "💡"],
+        "b2-u12": ["🧱", "🔗", "📝", "⚖️", "🗞️"],
+        "c1-u01": ["😲", "✨", "🔒", "🤯", "🎚️"],
+        "c1-u02": ["🎯", "🔑", "🎁", "🎤", "📊"],
+        "c1-u03": ["⏳", "🪞", "🪄", "💭", "🛤️"],
+        "c1-u04": ["✂️", "📎", "🧵", "🎓", "📚"],
+        "c1-u05": ["🎲", "📊", "🔍", "🤨", "🔮"],
+        "c1-u06": ["👁️", "🌡️", "📉", "🤫", "⚖️"],
+        "c1-u07": ["💼", "😊", "🔗", "💪", "🍃"],
+        "c1-u08": ["🗣️", "🤔", "💭", "📰", "✍️"],
+        "c1-u09": ["🎨", "👔", "💬", "🎭", "✍️"],
+        "c1-u10": ["♻️", "✂️", "🗨️", "☕", "📝"],
+        "c1-u11": ["🏷️", "🎨", "🌑", "🔧", "🌳"],
+        "c1-u12": ["🏛️", "⚔️", "🔍", "🎤", "✍️"],
+        "c2-u01": ["🚀", "🌀", "📣", "🗝️", "🎵"],
+        "c2-u02": ["🧠", "🎯", "🎭", "🔥", "👓"],
+        "c2-u03": ["🏷️", "🧱", "📚", "🧪", "🎓"],
+        "c2-u04": ["📢", "🌓", "❓", "🌈", "🎤"],
+        "c2-u05": ["👁️", "🎬", "📖", "🪶", "✍️"],
+        "c2-u06": ["🗣️", "🇬🇧", "📱", "🧩", "😎"],
+        "c2-u07": ["🐜", "🙃", "🃏", "😂", "😄"],
+        "c2-u08": ["🔑", "🧩", "🔎", "🎙️", "📝"],
+    ]
+
+    /// Ünitenin dersleri için emojiler: elle seçilmiş liste varsa o, yoksa başlıktaki sözcüklerden.
+    static func sequence(for unit: CourseUnit) -> [String] {
+        if let list = curated[unit.id], list.count == unit.lessons.count { return list }
+        return sequence(for: unit.lessons.map(\.title))
+    }
 
     static func emoji(for title: String) -> String? {
         let lower = title.lowercased(with: Locale(identifier: "tr"))

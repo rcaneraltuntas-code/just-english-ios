@@ -42,6 +42,8 @@ struct UnitView: View {
                 .padding(.horizontal, -3)
                 .padding(.bottom, -7)
                 .staggeredAppear(0)
+                // Yolun başı bu kartın altına girer; kart yolun üstünde çizilsin.
+                .zIndex(1)
 
                 LessonPathView(unit: unit) { lesson in
                     activeLesson = LessonRoute(unit: unit, lesson: lesson)
@@ -55,6 +57,10 @@ struct UnitView: View {
         .tabBarSpacer()
         // Referanstaki gibi düz beyaz sayfa; gezinme çubuğu yerine kendi üst satırımız.
         .background(Theme.surface.ignoresSafeArea())
+        // Kaydırınca içerik saatin altına girmesin diye durum çubuğunun arkası beyaz.
+        .safeAreaInset(edge: .top, spacing: 0) {
+            Color.clear.frame(height: 0).background(Theme.surface, ignoresSafeAreaEdges: .top)
+        }
         .toolbar(.hidden, for: .navigationBar)
         .fullScreenCover(item: $activeLesson) { LessonFlowView(unit: $0.unit, lesson: $0.lesson) }
         .fullScreenCover(isPresented: $showTest) { UnitTestView(unit: unit) }
