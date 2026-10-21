@@ -45,10 +45,19 @@ struct UnitView: View {
                 // Yolun başı bu kartın altına girer; kart yolun üstünde çizilsin.
                 .zIndex(1)
 
-                LessonPathView(unit: unit) { lesson in
+                LessonPathView(unit: unit, onLesson: { lesson in
                     activeLesson = LessonRoute(unit: unit, lesson: lesson)
-                } onTest: {
+                }, onTest: {
                     showTest = true
+                }, endsUnderButton: nextUnit != nil)
+
+                // Yolun sonu bu düğmenin altına girer: düğme yolun son 40pt'sinin üstüne biner ve onu örter.
+                if let next = nextUnit {
+                    NavigationLink(value: next) { NextUnitButton(unit: next) }
+                        .buttonStyle(PressableCardStyle())
+                        .padding(.top, -60)
+                        .padding(.bottom, 12)
+                        .zIndex(1)
                 }
             }
             .padding(.horizontal, 20)
@@ -67,6 +76,13 @@ struct UnitView: View {
         .sheet(isPresented: $showInfo, onDismiss: {
             if testAfterInfo { testAfterInfo = false; showTest = true }
         }) { infoSheet }
+    }
+
+    /// Ders sırasına göre sonraki ünite: aynı seviyenin bir sonrakisi, seviyenin sonuncusuysa sonraki seviyenin ilki.
+    private var nextUnit: CourseUnit? {
+        let units = CEFRLevel.allCases.flatMap { model.units(for: $0) }
+        guard let index = units.firstIndex(where: { $0.id == unit.id }), index + 1 < units.count else { return nil }
+        return units[index + 1]
     }
 
     /// Bilgi simgesinin açtığı sayfa: ünitenin hedefi, konular, ünite testi, canlı ders ve kelimeler.
@@ -225,5 +241,39 @@ struct VocabularyRow: View {
 struct TightLabelStyle: LabelStyle {
     func makeBody(configuration: Configuration) -> some View {
         HStack(spacing: 4) { configuration.icon; configuration.title.foregroundStyle(Theme.ink) }
+    }
+}
+
+/// Yolun sonundaki "sonraki üniteye geç" düğmesi: dolu vurgu renginde, altı koyu kenarlı; yolun ucu bunun altında biter.
+struct NextUnitButton: View {
+    let unit: CourseUnit
+
+    var body: some View {
+        HStack(spacing: 12) {
+            VStack(alignment: .leading, spacing: 2) {
+                Text("Ünite \(unit.number)\(Self.dative(unit.number)) geç")
+                    .font(.custom(Theme.fontFamily, size: 18, relativeTo: .headline).weight(.bold))
+                Text("\(unit.level.rawValue) · \(unit.title)")
+                    .font(.custom(Theme.fontFamily, size: 14, relativeTo: .subheadline))
+                    .opacity(0.85)
+            }
+            Spacer()
+            Image(systemName: "arrow.right")
+                .font(.system(size: 18, weight: .semibold))
+        }
+        .foregroundStyle(.white)
+        .padding(.horizontal, 20)
+        .frame(height: 62)
+        .background(Theme.accent, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .background(RoundedRectangle(cornerRadius: 14, style: .continuous).fill(Theme.accentDeep).offset(y: 3))
+        .accessibilityLabel("Ünite \(unit.number)\(Self.dative(unit.number)) geç: \(unit.title)")
+    }
+
+    /// Sayının okunuşuna göre yönelme eki: 1'e, 2'ye, 6'ya, 9'a, 10'a, 20'ye.
+    static func dative(_ number: Int) -> String {
+        let ones = ["'a", "'e", "'ye", "'e", "'e", "'e", "'ya", "'ye", "'e", "'a"]
+        let tens = ["", "'a", "'ye", "'a", "'a", "'ye", "'a", "'e", "'e", "'a"]
+        if number % 10 != 0 { return ones[number % 10] }
+        return number % 100 == 0 ? "'e" : tens[(number / 10) % 10]
     }
 }

@@ -8,6 +8,9 @@ struct LessonPathView: View {
     let unit: CourseUnit
     let onLesson: (Lesson) -> Void
     let onTest: () -> Void
+    /// Altta "sonraki ünite" düğmesi varsa yol çerçevenin sonunda biter (uç o düğmenin altında kalır);
+    /// yoksa ekranın altına doğru uzar.
+    var endsUnderButton = false
 
     @Environment(AppModel.self) private var model
     @State private var drawn = false
@@ -16,8 +19,8 @@ struct LessonPathView: View {
     private let rowHeight: CGFloat = 96
     /// Yol ilk satırın üstünden başlar: ünite kartının (yolun 13–87pt yukarısında) altında kalır, başlangıcı görünmez.
     private let roadTop: CGFloat = -70
-    /// Yol sayfanın sonundan da bu kadar aşağı uzanır; en alta kaydırınca sekme çubuğunun ve ekranın altına girer.
-    private let roadOverrun: CGFloat = 800
+    /// Düğme yoksa yol sayfanın sonundan bu kadar aşağı uzanır; en alta kaydırınca sekme çubuğunun ve ekranın altına girer.
+    private var roadOverrun: CGFloat { endsUnderButton ? 0 : 800 }
     private let edgeOffset: CGFloat = 9.5
     /// Son dersten sonra yolun aşağı doğru devam ettiği boşluk (referanstaki gibi yol sayfanın sonuna kadar iner).
     private let tail: CGFloat = 140
@@ -208,7 +211,7 @@ struct LessonPathView: View {
 enum LessonEmoji {
     private static let map: [(String, String)] = [
         ("selam", "👋"), ("merhaba", "👋"), ("ben, sen", "🪪"), ("nereli", "🌍"), ("ülke", "🌍"), ("yaş", "🎂"),
-        ("evet", "💬"), ("aile", "🖼️"), ("kardeş", "🎈"), ("nasıl biri", "🪞"), ("benim, senin", "🎒"),
+        ("evet", "💬"), ("aile", "🏡"), ("kardeş", "🎈"), ("nasıl biri", "🪞"), ("benim, senin", "🎒"),
         ("çoğul", "🧺"), ("bu ve şu", "👉"), ("bunlar", "👉"), ("renk", "🎨"), ("ev", "🏠"), ("oda", "🛏️"),
         ("içinde", "📦"), ("yanında", "🪑"), ("var mı", "🔎"), ("sayı", "🔢"), ("saat", "⏰"), ("gün", "📅"),
         ("rutin", "⏰"), ("yemek", "🍽️"), ("kafe", "☕"), ("kahve", "☕"), ("restoran", "🍽️"), ("sipariş", "🧾"),
@@ -225,7 +228,7 @@ enum LessonEmoji {
     /// edilemediği için burada; kişi, el ve kutu simgelerinden kaçınılır, nesne gibi duran emojiler seçilir.
     private static let curated: [String: [String]] = [
         "a1-u01": ["👋", "🪪", "🌍", "🎂", "💬"],
-        "a1-u02": ["🖼️", "🎒", "🎀", "🎈", "🪞"],
+        "a1-u02": ["🏡", "🎒", "🎀", "🎈", "🪞"],
         "a1-u03": ["🍎", "🧺", "👉", "📦", "🎨"],
         "a1-u04": ["🏠", "🔎", "🛋️", "🪑", "🛏️"],
         "a1-u05": ["🪥", "⏰", "🛑", "🤔", "📅"],
