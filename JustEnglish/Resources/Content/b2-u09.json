@@ -1,0 +1,1357 @@
+{
+  "id": "b2-u09",
+  "level": "B2",
+  "number": 9,
+  "title": "İkna",
+  "titleEn": "Persuasion",
+  "canDo": "Dolaylı ve yumuşatılmış yapılarla kibar ricada bulunabilir, resmî ve samimi üslup arasında geçiş yapabilir, bir fikri ikna edici gerekçelerle savunabilir ve iş hayatında kullanılabilecek resmî bir rica e-postası yazabilirim.",
+  "grammar": [
+    "kibar rica: I was wondering if, Would you mind, Would it be possible",
+    "yumuşatma: geçmiş zamanla mesafe, I'm afraid, slightly",
+    "resmî kelime seçimi (register)",
+    "ikna dili",
+    "resmî e-posta ve iş yazışması"
+  ],
+  "vocabularyThemes": [
+    "iş yazışmaları",
+    "müzakere ve rica",
+    "ikna ve gerekçe"
+  ],
+  "liveClass": {
+    "title": "Ricam var",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler ikili gruplarda zor bir rica senaryosu alır (patrondan izin istemek, bir otelden ücret iadesi, komşudan gürültüyü azaltmasını istemek). Önce çok kaba, sonra çok kibar ve en son \"tam kıvamında\" bir versiyonunu canlandırırlar. Sınıf hangi yapıların en ikna edici olduğunu tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u09-v01",
+      "en": "request",
+      "tr": "rica, talep; rica etmek",
+      "example": "I'd like to make a request.",
+      "exampleTr": "Bir ricada bulunmak istiyorum."
+    },
+    {
+      "id": "b2-u09-v02",
+      "en": "enquire",
+      "tr": "bilgi almak, sormak (resmî)",
+      "example": "I am writing to enquire about your courses.",
+      "exampleTr": "Kurslarınız hakkında bilgi almak için yazıyorum.",
+      "note": "AmE: inquire"
+    },
+    {
+      "id": "b2-u09-v03",
+      "en": "regarding",
+      "tr": "ile ilgili olarak",
+      "example": "I'm writing regarding your invoice.",
+      "exampleTr": "Faturanızla ilgili olarak yazıyorum."
+    },
+    {
+      "id": "b2-u09-v04",
+      "en": "assist",
+      "tr": "yardımcı olmak (resmî)",
+      "example": "How can I assist you?",
+      "exampleTr": "Size nasıl yardımcı olabilirim?"
+    },
+    {
+      "id": "b2-u09-v05",
+      "en": "require",
+      "tr": "gerektirmek, ihtiyaç duymak (resmî)",
+      "example": "Please let us know if you require any further information.",
+      "exampleTr": "Ek bilgiye ihtiyaç duyarsanız lütfen bildirin."
+    },
+    {
+      "id": "b2-u09-v06",
+      "en": "grateful",
+      "tr": "minnettar",
+      "example": "I would be grateful if you could reply soon.",
+      "exampleTr": "Kısa sürede cevap verirseniz minnettar olurum."
+    },
+    {
+      "id": "b2-u09-v07",
+      "en": "appreciate",
+      "tr": "takdir etmek, minnettar olmak",
+      "example": "I'd really appreciate your help.",
+      "exampleTr": "Yardımınız için çok minnettar olurum."
+    },
+    {
+      "id": "b2-u09-v08",
+      "en": "convenient",
+      "tr": "uygun",
+      "example": "Would Monday be convenient for you?",
+      "exampleTr": "Pazartesi sizin için uygun olur mu?"
+    },
+    {
+      "id": "b2-u09-v09",
+      "en": "attached",
+      "tr": "ekte",
+      "example": "Please find attached my CV.",
+      "exampleTr": "Özgeçmişim ekte yer almaktadır."
+    },
+    {
+      "id": "b2-u09-v10",
+      "en": "further",
+      "tr": "ek, daha fazla",
+      "example": "For further details, please contact us.",
+      "exampleTr": "Daha fazla ayrıntı için lütfen bize ulaşın."
+    },
+    {
+      "id": "b2-u09-v11",
+      "en": "in advance",
+      "tr": "şimdiden",
+      "example": "Thank you in advance for your help.",
+      "exampleTr": "Yardımınız için şimdiden teşekkürler."
+    },
+    {
+      "id": "b2-u09-v12",
+      "en": "at your earliest convenience",
+      "tr": "en kısa sürede (size uygun olan ilk fırsatta)",
+      "example": "Please reply at your earliest convenience.",
+      "exampleTr": "Lütfen en kısa sürede cevap verin."
+    },
+    {
+      "id": "b2-u09-v13",
+      "en": "unfortunately",
+      "tr": "maalesef",
+      "example": "Unfortunately, we are unable to accept your offer.",
+      "exampleTr": "Maalesef teklifinizi kabul edemiyoruz."
+    },
+    {
+      "id": "b2-u09-v14",
+      "en": "be unable to",
+      "tr": "yapamamak (resmî)",
+      "example": "We are unable to offer a refund.",
+      "exampleTr": "Ücret iadesi yapamıyoruz."
+    },
+    {
+      "id": "b2-u09-v15",
+      "en": "proposal",
+      "tr": "öneri, teklif",
+      "example": "I'd like to present a proposal.",
+      "exampleTr": "Bir öneri sunmak istiyorum."
+    },
+    {
+      "id": "b2-u09-v16",
+      "en": "benefit",
+      "tr": "fayda; fayda sağlamak",
+      "example": "This change would benefit everyone.",
+      "exampleTr": "Bu değişiklik herkese fayda sağlar."
+    },
+    {
+      "id": "b2-u09-v17",
+      "en": "persuade",
+      "tr": "ikna etmek",
+      "example": "She persuaded me to apply.",
+      "exampleTr": "Başvurmam için beni ikna etti."
+    },
+    {
+      "id": "b2-u09-v18",
+      "en": "convince",
+      "tr": "inandırmak, ikna etmek",
+      "example": "I'm not convinced it's a good idea.",
+      "exampleTr": "İyi bir fikir olduğuna ikna olmadım."
+    },
+    {
+      "id": "b2-u09-v19",
+      "en": "compromise",
+      "tr": "uzlaşma, orta yol",
+      "example": "Let's try to find a compromise.",
+      "exampleTr": "Bir orta yol bulmaya çalışalım."
+    },
+    {
+      "id": "b2-u09-v20",
+      "en": "negotiate",
+      "tr": "pazarlık etmek, müzakere etmek",
+      "example": "We need to negotiate a better price.",
+      "exampleTr": "Daha iyi bir fiyat için pazarlık yapmamız gerek."
+    },
+    {
+      "id": "b2-u09-v21",
+      "en": "deadline",
+      "tr": "son tarih",
+      "example": "Could we extend the deadline?",
+      "exampleTr": "Son tarihi uzatabilir miyiz?"
+    },
+    {
+      "id": "b2-u09-v22",
+      "en": "extend",
+      "tr": "uzatmak",
+      "example": "They agreed to extend my contract.",
+      "exampleTr": "Sözleşmemi uzatmayı kabul ettiler."
+    },
+    {
+      "id": "b2-u09-v23",
+      "en": "look forward to",
+      "tr": "dört gözle beklemek",
+      "example": "I look forward to hearing from you.",
+      "exampleTr": "Sizden haber almayı dört gözle bekliyorum.",
+      "note": "+ -ing"
+    },
+    {
+      "id": "b2-u09-v24",
+      "en": "on behalf of",
+      "tr": "adına",
+      "example": "I'm writing on behalf of my team.",
+      "exampleTr": "Ekibim adına yazıyorum."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u09-l1",
+      "number": 1,
+      "title": "Acaba ... mümkün mü?",
+      "goal": "I was wondering if, Would you mind ve Would it be possible gibi yapılarla kibar ricalarda bulunabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yöneticiyle konuşma",
+        "lines": [
+          {
+            "speaker": "Aslı",
+            "text": "Sorry to bother you, Mr Demir. Have you got a minute?"
+          },
+          {
+            "speaker": "Mr Demir",
+            "text": "Of course, Aslı. Come in."
+          },
+          {
+            "speaker": "Aslı",
+            "text": "I was wondering if I could work from home on Fridays. My commute takes nearly two hours."
+          },
+          {
+            "speaker": "Mr Demir",
+            "text": "Hmm. I'll need to think about it. Would you mind sending me a short proposal?"
+          },
+          {
+            "speaker": "Aslı",
+            "text": "Not at all. Would it be possible to try it for a month first?"
+          },
+          {
+            "speaker": "Mr Demir",
+            "text": "That sounds reasonable. Send me the details and we'll discuss it next week."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Aslı want?",
+            "options": [
+              "A pay rise",
+              "To work from home on Fridays",
+              "A new office"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"work from home on Fridays\"",
+            "id": "b2-u09-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Mr Demir ask her to do?",
+            "options": [
+              "Send a short proposal",
+              "Talk to HR",
+              "Come back tomorrow"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Would you mind sending me a short proposal?\"",
+            "id": "b2-u09-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir şeyi ne kadar **dolaylı** isterseniz o kadar **kibar** olursunuz.\n\n| Kibarlık | Yapı |\n|---|---|\n| Doğrudan | **Can** I work from home? |\n| Kibar | **Could** I work from home? |\n| Daha kibar | **Would it be possible** (for me) **to** work from home? |\n| Daha kibar | **Do you think I could** work from home? |\n| Çok kibar | **I was wondering if** I could work from home. |\n\n**Would you mind ...?**\n\n| Yapı | Anlam |\n|---|---|\n| **Would you mind** + **-ing**? | Sizin bir şey yapmanızı rica ederim. |\n| *Would you mind **sending** me the file?* | Dosyayı gönderir misiniz? |\n| **Would you mind if I** + past? | Ben bir şey yapabilir miyim? |\n| *Would you mind **if I opened** the window?* | Pencereyi açmamın sakıncası var mı? |\n\n**Dikkat:** \"Would you mind\" sorusunu **kabul ederken \"No\"** denir, çünkü soru \"sakıncası var mı?\" demektir:\n\n- *Would you mind waiting?* → **Not at all.** / **No, of course not.** (Hayır, sakıncası yok = tamam.)\n\n**Ricaya giriş:** *Sorry to bother you, but ...* / *I hope you don't mind me asking, but ...*",
+        "examples": [
+          {
+            "en": "I was wondering if you could help me with this report.",
+            "tr": "Acaba bu raporda bana yardım edebilir misiniz diye düşünüyordum."
+          },
+          {
+            "en": "Would you mind closing the door?",
+            "tr": "Kapıyı kapatır mısınız?"
+          },
+          {
+            "en": "Would it be possible to change my appointment?",
+            "tr": "Randevumu değiştirmek mümkün olur mu?"
+          }
+        ],
+        "turkishNote": "Türkçede kibarlık genellikle \"-ebilir misiniz\", \"rica etsem\", \"acaba\" gibi kelimelerle sağlanır. İngilizcede \"I was wondering if\" Türkçedeki \"acaba\"ya çok yakındır. Türkçe konuşanların en sık hatası \"Would you mind\" sorusuna \"Yes\" diyerek kabul etmektir: \"Yes\" aslında \"Evet, sakıncası var\" anlamına gelir! Ayrıca \"Would you mind to send\" yanlıştır; \"mind\" -ing alır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En kibar olanı:",
+          "options": [
+            "Can you help me?",
+            "I was wondering if you could help me."
+          ],
+          "answerIndex": 1,
+          "explanation": "I was wondering if.",
+          "id": "b2-u09-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Would you mind to wait?",
+            "Would you mind waiting?"
+          ],
+          "answerIndex": 1,
+          "explanation": "mind + -ing.",
+          "id": "b2-u09-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Would you mind helping me?\" Kabul etmek için:",
+          "options": [
+            "Yes, I would.",
+            "Not at all."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sakıncası yok → Not at all.",
+          "id": "b2-u09-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Pencereyi açmamın sakıncası var mı?\"",
+          "options": [
+            "Would you mind if I opened the window?",
+            "Would you mind opening the window?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ben → if I + past.",
+          "id": "b2-u09-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was ___ if I could leave early today.",
+          "answers": [
+            "wondering"
+          ],
+          "explanation": "I was wondering if.",
+          "id": "b2-u09-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would it be ___ to reschedule the meeting?",
+          "answers": [
+            "possible"
+          ],
+          "explanation": "Would it be possible to.",
+          "id": "b2-u09-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would you mind ___ (repeat) that, please?",
+          "answers": [
+            "repeating"
+          ],
+          "explanation": "mind + -ing.",
+          "id": "b2-u09-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Sorry to ___ you, but have you got a minute?",
+          "answers": [
+            "bother"
+          ],
+          "explanation": "Sorry to bother you.",
+          "id": "b2-u09-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Excuse me, I hope you don't mind me asking, but would it be possible to swap seats? My friend is sitting just behind you, and we'd love to sit together.",
+          "prompt": "Konuşan ne istiyor?",
+          "options": [
+            "Pencere kenarı",
+            "Koltuk değiştirmek",
+            "Bir içecek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"would it be possible to swap seats?\"",
+          "id": "b2-u09-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Kibarlaştırın (I was wondering if): \"Can you give me a lift?\"",
+          "accepted": [
+            "I was wondering if you could give me a lift.",
+            "I was wondering if you could give me a lift",
+            "I was wondering if you could give me a lift?"
+          ],
+          "explanation": "I was wondering if you could give me a lift.",
+          "id": "b2-u09-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki ricaları üç farklı kibarlık düzeyinde (Could you / Would you mind / I was wondering if) söyleyin: (1) Komşunuzdan müziğin sesini kısmasını istemek. (2) Öğretmeninizden ödevin teslim tarihini uzatmasını istemek. (3) Bir iş arkadaşınızdan sunumunuza göz atmasını istemek. Her ricaya kısa bir gerekçe ekleyin.",
+          "modelAnswer": "One: Could you turn the music down, please? Would you mind turning the music down? I've got an exam tomorrow. Two: Could I have a few more days for the essay? I was wondering if it would be possible to extend the deadline, because I've been ill all week. Three: Would you mind having a look at my presentation? I was wondering if you could give me some feedback before Monday.",
+          "rubric": [
+            "Kibarlık düzeyleri",
+            "Would you mind + -ing",
+            "Gerekçe ekleme"
+          ]
+        },
+        "id": "b2-u09-l1-use"
+      }
+    },
+    {
+      "id": "b2-u09-l2",
+      "number": 2,
+      "title": "Yumuşatarak söylemek",
+      "goal": "Olumsuz haberleri ve eleştirileri yumuşatma teknikleriyle diplomatik bir şekilde iletebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir müşteriye yanıt: iki versiyon",
+        "body": "Version A:\n\"Your order is late. We can't deliver it this week. There is a problem with our supplier. You have to wait until next month.\"\n\nVersion B:\n\"I'm afraid there has been a slight delay with your order. Unfortunately, we won't be able to deliver it this week, as there seems to be a small problem with our supplier. We were hoping to send it by Friday, but it looks as though it may not arrive until early next month. We do apologise for any inconvenience.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which version sounds more professional?",
+            "options": [
+              "Version A",
+              "Version B"
+            ],
+            "answerIndex": 1,
+            "explanation": "Yumuşatılmış dil.",
+            "id": "b2-u09-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When will the order probably arrive?",
+            "options": [
+              "This Friday",
+              "Early next month",
+              "Next year"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"may not arrive until early next month\"",
+            "id": "b2-u09-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Kötü haber verirken, eleştiri yaparken ya da hayır derken **yumuşatma** (softening) teknikleri kullanılır.\n\n| Teknik | Doğrudan | Yumuşatılmış |\n|---|---|---|\n| **I'm afraid / Unfortunately** | It's late. | **I'm afraid** it's a little late. |\n| **Küçültücüler:** slight, a bit, a little, small | There's a problem. | There's **a slight** problem. |\n| **seem / appear** | You made a mistake. | There **seems to be** a mistake. |\n| **Geçmiş zamanla mesafe** | We hope to send it. | We **were hoping** to send it. |\n| **Olumsuz + olumlu sıfat** | It's bad. | It's **not ideal**. / It's **not very** good. |\n| **Modal'larla belirsizlik** | It won't arrive. | It **may not** arrive. |\n| **Kişisizleştirme (passive)** | You didn't pay. | The payment **hasn't been received**. |\n\n**Geçmiş zamanla mesafe:** Şu an için konuşsanız bile geçmiş (sürekli) zaman ricayı daha az ısrarcı yapar:\n\n- *I **wanted** to ask you something.*\n- *We **were wondering** if you could ...*\n- *I **was hoping** you might help.*\n\n**Olumsuz durumu kabul etme:** *We do apologise for any inconvenience.* (**do** vurgu için)",
+        "examples": [
+          {
+            "en": "I'm afraid we won't be able to attend the meeting.",
+            "tr": "Maalesef toplantıya katılamayacağız."
+          },
+          {
+            "en": "There seems to be a small mistake in the invoice.",
+            "tr": "Faturada küçük bir hata var gibi görünüyor."
+          },
+          {
+            "en": "Your idea isn't bad, but it might not be ideal for this project.",
+            "tr": "Fikriniz kötü değil, ama bu proje için ideal olmayabilir."
+          }
+        ],
+        "turkishNote": "Türkçede yumuşatma için \"maalesef\", \"biraz\", \"galiba\", \"-ebilir\" gibi kelimeler kullanılır; İngilizcede de benzer araçlar var, ama iş dünyasında çok daha sistematik kullanılır. Türkçeden doğrudan çevrilen \"You did this wrong\" gibi cümleler İngilizcede çok kaba algılanabilir. \"There seems to be a mistake\" gibi kişisizleştirilmiş yapılar suçlamadan sorunu belirtmenin en iyi yoludur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En diplomatik:",
+          "options": [
+            "You made a mistake.",
+            "There seems to be a mistake."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kişisizleştirme + seem.",
+          "id": "b2-u09-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm afraid\" burada ne anlama gelir? \"I'm afraid we're fully booked.\"",
+          "options": [
+            "Korkuyorum",
+            "Maalesef"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yumuşatma.",
+          "id": "b2-u09-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş zamanla mesafe:",
+          "options": [
+            "I hope you can help.",
+            "I was hoping you could help."
+          ],
+          "answerIndex": 1,
+          "explanation": "Daha kibar.",
+          "id": "b2-u09-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"It's bad\" yumuşatılmışı:",
+          "options": [
+            "It's terrible.",
+            "It's not ideal."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumsuz + olumlu.",
+          "id": "b2-u09-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's a ___ problem with your booking. (küçük, hafif)",
+          "answers": [
+            "slight",
+            "small"
+          ],
+          "explanation": "slight / small.",
+          "id": "b2-u09-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, we are unable to offer a refund. (Maalesef)",
+          "answers": [
+            "Unfortunately"
+          ],
+          "explanation": "Unfortunately.",
+          "id": "b2-u09-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We do apologise for any ___. (rahatsızlık)",
+          "answers": [
+            "inconvenience"
+          ],
+          "explanation": "inconvenience.",
+          "id": "b2-u09-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The payment ___ not been received yet.",
+          "answers": [
+            "has"
+          ],
+          "explanation": "Edilgen ile kişisizleştirme.",
+          "id": "b2-u09-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Thank you for your report. It's very detailed. However, I'm afraid there seem to be a few small errors in the figures, and the conclusion might be a bit too long. Would you mind having another look before Friday?",
+          "prompt": "Yönetici raporla ilgili ne düşünüyor?",
+          "options": [
+            "Mükemmel",
+            "İyi ama birkaç küçük hata var",
+            "Tamamen yanlış"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"very detailed. However... a few small errors\"",
+          "id": "b2-u09-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Yumuşatın: \"You sent the wrong file.\" (seems)",
+          "accepted": [
+            "It seems the wrong file was sent.",
+            "It seems the wrong file was sent",
+            "There seems to be a problem with the file.",
+            "There seems to be a problem with the file",
+            "It seems that the wrong file was sent.",
+            "It seems that the wrong file was sent",
+            "I think the wrong file may have been sent.",
+            "I think the wrong file may have been sent"
+          ],
+          "explanation": "It seems the wrong file was sent.",
+          "id": "b2-u09-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir iş ortamında bu üç kötü haberi diplomatik bir dille verin: (1) Bir müşteriye ürününün iki hafta gecikeceğini söylemek. (2) Bir iş arkadaşına raporunda hatalar olduğunu söylemek. (3) Bir toplantı davetini reddetmek. I'm afraid, unfortunately, seem, slight, geçmiş zamanla mesafe ve modal'ları kullanın.",
+          "modelAnswer": "One: I'm afraid there's been a slight delay with your order. Unfortunately, it may not arrive for another two weeks. We do apologise for the inconvenience. Two: I had a look at your report. It's really good, but there seem to be a couple of small errors in the figures. Would you mind checking them again? Three: Thank you for the invitation. I was hoping to come, but unfortunately I won't be able to attend, as I have another meeting at that time.",
+          "rubric": [
+            "Yumuşatma teknikleri",
+            "Diplomatik üslup",
+            "Olumlu ile olumsuzu dengeleme"
+          ]
+        },
+        "id": "b2-u09-l2-use"
+      }
+    },
+    {
+      "id": "b2-u09-l3",
+      "number": 3,
+      "title": "Resmî mi, samimi mi?",
+      "goal": "Aynı mesajı resmî ve samimi üslupta ifade edebilir ve bağlama uygun kelimeyi seçebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Aynı mesaj, iki üslup",
+        "body": "Message to a friend:\n\"Hi Burcu! Just wanted to ask about the course you told me about. How much is it, and when does it start? Can you send me the link? Thanks a lot!\"\n\nEmail to a language school:\n\"Dear Sir or Madam,\nI am writing to enquire about your advanced Spanish course. I would be grateful if you could provide information regarding the fees and start dates. In addition, I would appreciate it if you could send me a copy of the course programme.\nThank you in advance for your assistance.\nYours faithfully,\nSevgi Çelik\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Sevgi want to know?",
+            "options": [
+              "The teacher's name",
+              "The fees and start dates",
+              "The school's address"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"information regarding the fees and start dates\"",
+            "id": "b2-u09-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which message uses \"enquire\"?",
+            "options": [
+              "The message to a friend",
+              "The email to the school"
+            ],
+            "answerIndex": 1,
+            "explanation": "Resmî.",
+            "id": "b2-u09-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Register (üslup):** Kime yazdığınıza göre kelime ve yapı seçimi değişir.\n\n| Samimi | Resmî |\n|---|---|\n| ask about | **enquire about** |\n| get | **receive / obtain** |\n| need | **require** |\n| help | **assist / assistance** |\n| about | **regarding / concerning** |\n| want | **would like / wish to** |\n| give | **provide** |\n| also | **in addition / furthermore** |\n| but | **however** |\n| sorry | **I apologise / We regret** |\n| can't | **am unable to** |\n| tell | **inform** |\n| start / end | **commence / conclude** (çok resmî) |\n\n**Resmî yazının diğer özellikleri:**\n\n- **Kısaltma yok:** I'm → I am, can't → cannot\n- **Edilgen yapılar daha sık:** *Your application has been received.*\n- **Phrasal verb'ler yerine tek kelime:** find out → discover, put off → postpone\n- **Uzun ve kibar ricalar:** *I would be grateful if you could ...* / *I would appreciate it if you could ...*\n\n**Dikkat:** Çok resmî dili arkadaşlara kullanmak tuhaf, hatta komik durur!",
+        "examples": [
+          {
+            "en": "I would be grateful if you could send me further information.",
+            "tr": "Bana ek bilgi gönderirseniz minnettar olurum."
+          },
+          {
+            "en": "We regret to inform you that the event has been cancelled.",
+            "tr": "Etkinliğin iptal edildiğini üzülerek bildiririz."
+          },
+          {
+            "en": "Please do not hesitate to contact me if you require any assistance.",
+            "tr": "Herhangi bir yardıma ihtiyacınız olursa benimle iletişime geçmekten çekinmeyin."
+          }
+        ],
+        "turkishNote": "Türkçede resmî yazışmada \"Sayın\", \"arz ederim\", \"bilgilerinize sunarım\" gibi kalıplar kullanılır. İngilizce resmî yazı daha sadedir ama kelime seçimi çok önemlidir. Türkçe konuşanlar bazen iki uç arasında kalır: ya fazla samimi (\"Hi, I want info\") ya da fazla süslü yazarlar. B2 seviyesinde amaç, açık, kibar ve profesyonel olmaktır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî: \"I want to ask about the job.\"",
+          "options": [
+            "I wish to enquire about the position.",
+            "I wanna ask about the job."
+          ],
+          "answerIndex": 0,
+          "explanation": "Resmî.",
+          "id": "b2-u09-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"need\" resmî karşılığı:",
+          "options": [
+            "require",
+            "acquire"
+          ],
+          "answerIndex": 0,
+          "explanation": "require.",
+          "id": "b2-u09-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"about\" resmî karşılığı:",
+          "options": [
+            "regarding",
+            "around"
+          ],
+          "answerIndex": 0,
+          "explanation": "regarding.",
+          "id": "b2-u09-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî bir e-postada:",
+          "options": [
+            "I can't come.",
+            "I am unable to attend."
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmî.",
+          "id": "b2-u09-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I would be ___ if you could reply by Friday. (minnettar)",
+          "answers": [
+            "grateful"
+          ],
+          "explanation": "would be grateful.",
+          "id": "b2-u09-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We regret to ___ you that your application was unsuccessful. (bildirmek)",
+          "answers": [
+            "inform"
+          ],
+          "explanation": "inform.",
+          "id": "b2-u09-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Please do not ___ to contact me. (çekinmeyin)",
+          "answers": [
+            "hesitate"
+          ],
+          "explanation": "do not hesitate.",
+          "id": "b2-u09-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I would ___ it if you could send me a copy. (minnettar olurum)",
+          "answers": [
+            "appreciate"
+          ],
+          "explanation": "appreciate it if.",
+          "id": "b2-u09-l3-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "get",
+              "right": "receive"
+            },
+            {
+              "left": "help",
+              "right": "assist"
+            },
+            {
+              "left": "give",
+              "right": "provide"
+            },
+            {
+              "left": "tell",
+              "right": "inform"
+            },
+            {
+              "left": "but",
+              "right": "however"
+            }
+          ],
+          "explanation": "Samimi kelimeyi resmî karşılığıyla eşleştirin.",
+          "id": "b2-u09-l3-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "Good morning. I'm calling regarding the invoice I received yesterday. I'm afraid there seems to be an error. I was charged twice for the same service. I would be grateful if you could look into it and inform me when it has been corrected.",
+          "prompt": "Konuşan neden arıyor?",
+          "options": [
+            "Yeni bir hizmet almak için",
+            "Faturada iki kez ücretlendirildiği için",
+            "Bir randevuyu iptal etmek için"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I was charged twice for the same service.\"",
+          "id": "b2-u09-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aynı mesajı iki kez söyleyin: önce bir arkadaşa sesli mesaj olarak, sonra bir otelin rezervasyon bölümüne telefonda. Mesaj: Haziranda 3 gece kalmak istiyorsunuz, fiyatı ve kahvaltının dahil olup olmadığını soruyorsunuz, havaalanı transferi var mı öğrenmek istiyorsunuz.",
+          "modelAnswer": "To a friend: Hey Aylin! So, I'm thinking of staying at that hotel you told me about for three nights in June. Do you know how much it is? Is breakfast included? Oh, and can they pick us up from the airport? Thanks! To the hotel: Good morning. I'm calling to enquire about availability for three nights in June. Could you tell me the price per night, and whether breakfast is included? I would also like to know if you provide an airport transfer service. Thank you very much.",
+          "rubric": [
+            "Samimi üslup",
+            "Resmî kelime seçimi",
+            "Dolaylı sorular",
+            "Üsluplar arası net fark"
+          ]
+        },
+        "id": "b2-u09-l3-use"
+      }
+    },
+    {
+      "id": "b2-u09-l4",
+      "number": 4,
+      "title": "İkna etmek",
+      "goal": "Bir öneriyi faydalarını vurgulayarak, itirazları önceden cevaplayarak ve uzlaşma önererek ikna edici bir şekilde savunabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Toplantıda bir öneri",
+        "lines": [
+          {
+            "speaker": "Kerim",
+            "text": "I'd like to suggest that we move the team meeting from Monday morning to Tuesday afternoon."
+          },
+          {
+            "speaker": "Manager",
+            "text": "Why? Monday's always been fine."
+          },
+          {
+            "speaker": "Kerim",
+            "text": "Well, on Monday mornings, most of us are dealing with emails from the weekend. If we met on Tuesday, everyone would be better prepared."
+          },
+          {
+            "speaker": "Manager",
+            "text": "But some people work from home on Tuesdays."
+          },
+          {
+            "speaker": "Kerim",
+            "text": "That's true, but we could easily do it online. In fact, it would save time, because nobody would need to book a room."
+          },
+          {
+            "speaker": "Manager",
+            "text": "I'm still not entirely convinced."
+          },
+          {
+            "speaker": "Kerim",
+            "text": "How about trying it for a month? If it doesn't work, we can always go back to Monday."
+          },
+          {
+            "speaker": "Manager",
+            "text": "OK, that seems fair. Let's give it a try."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Kerim want to change the day?",
+            "options": [
+              "Monday is a holiday.",
+              "People are busy with emails on Monday mornings.",
+              "The room isn't available."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"dealing with emails from the weekend\"",
+            "id": "b2-u09-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What compromise does Kerim suggest?",
+            "options": [
+              "Meeting every day",
+              "Trying it for a month",
+              "Cancelling the meeting"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"How about trying it for a month?\"",
+            "id": "b2-u09-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İkna edici konuşmanın adımları:**\n\n| Adım | Kalıplar |\n|---|---|\n| **1. Öneri** | *I'd like to suggest that we ...* / *What if we ...?* / *I think we should consider ...* |\n| **2. Fayda** | *This would mean that ...* / *The main advantage is ...* / *It would save / help / allow us to ...* |\n| **3. Koşul** | *If we ..., we would ...* (2nd conditional) |\n| **4. İtirazı kabul edip cevaplamak** | *That's true, but ...* / *I see your point, however ...* / *I understand your concern, but ...* |\n| **5. Güçlendirme** | *In fact, ...* / *It would not only save time but also ...* / *On top of that, ...* |\n| **6. Uzlaşma** | *How about ...?* / *Why don't we try ...?* / *Would you be willing to ...?* / *What if we met halfway?* |\n\n**suggest yapıları:**\n\n- *I suggest **that we move** the meeting.* (that + özne + fiilin yalın hali)\n- *I suggest **moving** the meeting.* (-ing)\n- ~~I suggest to move the meeting.~~ ✗\n\n**Retorik soru:** *Wouldn't it be better if ...?* / *Isn't it worth trying?*",
+        "examples": [
+          {
+            "en": "I'd like to suggest that we start a recycling programme.",
+            "tr": "Bir geri dönüşüm programı başlatmamızı önermek istiyorum."
+          },
+          {
+            "en": "I see your point, but it would actually save us money in the long run.",
+            "tr": "Ne demek istediğinizi anlıyorum ama aslında uzun vadede bize para kazandırır."
+          },
+          {
+            "en": "Wouldn't it be better to try it first?",
+            "tr": "Önce denemek daha iyi olmaz mı?"
+          }
+        ],
+        "turkishNote": "Türkçede \"önermek\" fiili \"-mesini önermek\" yapısıyla kullanılır ve doğrudan \"suggest to do\" diye çevrilmeye çalışılır. Bu yanlıştır: \"I suggest to go\" değil, \"I suggest going\" ya da \"I suggest that we go\" deyin. İkna ederken Türkçede yaygın olan \"Kesinlikle böyle yapmalıyız\" gibi kesin ifadeler İngilizcede ısrarcı algılanabilir; itirazı önce kabul etmek (That's true, but...) daha ikna edicidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I suggest to change the plan.",
+            "I suggest changing the plan."
+          ],
+          "answerIndex": 1,
+          "explanation": "suggest + -ing.",
+          "id": "b2-u09-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I suggest that we change the plan.",
+            "I suggest us to change the plan."
+          ],
+          "answerIndex": 0,
+          "explanation": "suggest that + özne + V1.",
+          "id": "b2-u09-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İtirazı kabul edip cevaplamak:",
+          "options": [
+            "You're wrong.",
+            "I see your point, but ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Diplomatik.",
+          "id": "b2-u09-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Uzlaşma önerisi:",
+          "options": [
+            "How about trying it for a week?",
+            "We must do it now."
+          ],
+          "answerIndex": 0,
+          "explanation": "Uzlaşma.",
+          "id": "b2-u09-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd like to ___ that we hire another designer. (önermek)",
+          "answers": [
+            "suggest"
+          ],
+          "explanation": "suggest that.",
+          "id": "b2-u09-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "If we changed suppliers, we ___ save 20%.",
+          "answers": [
+            "would",
+            "could"
+          ],
+          "explanation": "2nd conditional.",
+          "id": "b2-u09-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I understand your ___, but the benefits are clear. (endişe)",
+          "answers": [
+            "concern"
+          ],
+          "explanation": "I understand your concern.",
+          "id": "b2-u09-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ it be better to wait until next year? (olmaz mı)",
+          "answers": [
+            "Wouldn't"
+          ],
+          "explanation": "Retorik soru.",
+          "id": "b2-u09-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I know some of you are worried about the cost of new laptops. That's a fair point. But our current laptops are seven years old, and they break down almost every week. If we replaced them, we'd save hours of lost work. And the IT company has offered us a 15% discount if we order before March.",
+          "prompt": "Konuşanın en önemli argümanı ne?",
+          "options": [
+            "Yeni bilgisayarlar daha güzel",
+            "Eski bilgisayarlar sürekli bozuluyor ve zaman kaybettiriyor",
+            "Herkes istiyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"they break down almost every week... we'd save hours of lost work\"",
+          "id": "b2-u09-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Önce denemeyi öneriyorum.\" (suggest + -ing)",
+          "accepted": [
+            "I suggest trying it first.",
+            "I suggest trying it first",
+            "I suggest trying first.",
+            "I suggest trying first"
+          ],
+          "explanation": "I suggest trying it first.",
+          "id": "b2-u09-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Okulunuzda, işyerinizde ya da mahallenizde değişmesini istediğiniz bir şeyi öneren 1–2 dakikalık ikna edici bir konuşma yapın. Öneriyi sunun, en az iki fayda söyleyin, bir itirazı önceden cevaplayın (That's true, but ...) ve sonunda bir uzlaşma önerin.",
+          "modelAnswer": "I'd like to suggest that our office introduces flexible working hours. The main advantage is that people could avoid the rush-hour traffic, which would mean less stress and more energy. It would also help parents who need to pick up their children from school. Some people might say that it would be hard to organise meetings. That's true, but we could have core hours from ten to three, when everyone must be available. How about trying it for three months? If it doesn't work, we can always go back to the old system.",
+          "rubric": [
+            "Öneri kalıpları ve suggest",
+            "Fayda ve koşul cümleleri",
+            "İtirazı cevaplama",
+            "Uzlaşma önerisi"
+          ]
+        },
+        "id": "b2-u09-l4-use"
+      }
+    },
+    {
+      "id": "b2-u09-l5",
+      "number": 5,
+      "title": "Resmî rica e-postası",
+      "goal": "Doğru yapı, açılış-kapanış ve kibar dil kullanarak iş hayatına uygun ikna edici bir rica e-postası yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek e-posta: Sponsorluk ricası",
+        "body": "Subject: Request for sponsorship – Children's Reading Festival\n\nDear Ms Aksoy,\n\nI am writing on behalf of the Kadıköy Parents' Association to ask whether your bookshop would consider sponsoring our first Children's Reading Festival, which will take place on 14 May.\n\nThe festival aims to encourage children aged 6 to 12 to read for pleasure. We are expecting around 500 families, and the programme will include storytelling sessions, workshops with local authors and a book swap.\n\nWe would be very grateful if you could provide 100 books as prizes. In return, your bookshop's logo would appear on all our posters and on our social media pages, which have more than 8,000 followers. We would also be happy to offer you a stand at the festival.\n\nI have attached a short description of the programme. If you require any further information, please do not hesitate to contact me.\n\nThank you for considering our request. I look forward to hearing from you.\n\nYours sincerely,\n\nTolga Yurt\nChair, Kadıköy Parents' Association",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the association ask for?",
+            "options": [
+              "Money",
+              "100 books as prizes",
+              "A venue"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"provide 100 books as prizes\"",
+            "id": "b2-u09-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the bookshop get in return?",
+            "options": [
+              "Free tickets",
+              "Its logo on posters and social media, and a stand",
+              "A discount"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"your bookshop's logo would appear... offer you a stand\"",
+            "id": "b2-u09-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Resmî rica e-postasının yapısı:**\n\n| Bölüm | Kalıplar |\n|---|---|\n| **Konu (Subject)** | Kısa ve net: *Request for ... / Enquiry regarding ...* |\n| **Hitap** | *Dear Mr / Ms + soyadı,* (ismi biliyorsanız) / *Dear Sir or Madam,* (bilmiyorsanız) |\n| **Amaç** | *I am writing to request / ask whether / enquire about ...* / *I am writing on behalf of ...* |\n| **Arka plan** | Kim olduğunuzu ve durumu kısaca açıklayın. |\n| **Rica** | *I would be grateful if you could ...* / *I would appreciate it if you could ...* / *Would it be possible to ...?* |\n| **Karşılık / fayda** | *In return, ...* / *This would allow you to ...* |\n| **Ek ve iletişim** | *I have attached ... / Please find attached ...* / *If you require any further information, please do not hesitate to contact me.* |\n| **Kapanış cümlesi** | *Thank you for considering my request.* / *I look forward to hearing from you.* |\n| **Kapanış** | **Yours sincerely,** (ismi biliyorsanız) / **Yours faithfully,** (Dear Sir or Madam ile) / **Kind regards,** (yarı resmî) |\n\n**Dikkat:**\n\n- *I look forward to **hearing** from you.* (to + **-ing**; ~~to hear~~)\n- **Ms** evli/bekâr ayrımı yapmayan güvenli unvandır.\n- Paragraflar kısa olmalı; her paragrafta tek fikir.",
+        "examples": [
+          {
+            "en": "I am writing to request an extension to the deadline.",
+            "tr": "Son tarihin uzatılmasını talep etmek için yazıyorum."
+          },
+          {
+            "en": "Please find attached the documents you requested.",
+            "tr": "Talep ettiğiniz belgeler ektedir."
+          },
+          {
+            "en": "I look forward to hearing from you at your earliest convenience.",
+            "tr": "En kısa sürede sizden haber almayı bekliyorum."
+          }
+        ],
+        "turkishNote": "Türkçe resmî yazışmalarda \"Saygılarımla\" her duruma uyar; İngilizcede ise Yours sincerely (alıcının adını biliyorsanız) ve Yours faithfully (Dear Sir or Madam ile) ayrımı vardır. En sık hata \"I look forward to hear from you\" demektir: buradaki \"to\" bir edattır ve -ing alır. Ayrıca Türkçedeki \"Sayın Ahmet Bey\" yapısını \"Dear Mr Ahmet\" diye çevirmeyin: Mr / Ms soyadıyla kullanılır (Dear Mr Yılmaz)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Alıcının adını bilmiyorsanız:",
+          "options": [
+            "Dear Sir or Madam,",
+            "Hi there,"
+          ],
+          "answerIndex": 0,
+          "explanation": "Resmî.",
+          "id": "b2-u09-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Dear Ms Aksoy\" ile kapanış:",
+          "options": [
+            "Yours faithfully,",
+            "Yours sincerely,"
+          ],
+          "answerIndex": 1,
+          "explanation": "İsim biliniyor → sincerely.",
+          "id": "b2-u09-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I look forward to hear from you.",
+            "I look forward to hearing from you."
+          ],
+          "answerIndex": 1,
+          "explanation": "to + -ing.",
+          "id": "b2-u09-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sayın Ahmet Yılmaz\" İngilizce:",
+          "options": [
+            "Dear Mr Ahmet,",
+            "Dear Mr Yılmaz,"
+          ],
+          "answerIndex": 1,
+          "explanation": "Soyadı.",
+          "id": "b2-u09-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I am writing on ___ of our company. (adına)",
+          "answers": [
+            "behalf"
+          ],
+          "explanation": "on behalf of.",
+          "id": "b2-u09-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Please find ___ my CV. (ekte)",
+          "answers": [
+            "attached"
+          ],
+          "explanation": "Please find attached.",
+          "id": "b2-u09-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Thank you for ___ (consider) my request.",
+          "answers": [
+            "considering"
+          ],
+          "explanation": "for + -ing.",
+          "id": "b2-u09-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "If you require any ___ information, please contact me. (ek)",
+          "answers": [
+            "further"
+          ],
+          "explanation": "further information.",
+          "id": "b2-u09-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi, it's Meral from accounts. Just a quick note about your email to the client. It's very good, but you started with \"Dear Sir or Madam\" and finished with \"Yours sincerely\". Since you don't know their name, it should be \"Yours faithfully\". Otherwise, it's perfect.",
+          "prompt": "Meral hangi hatayı fark etti?",
+          "options": [
+            "Konu satırı eksik",
+            "Kapanış hitapla uyumlu değil",
+            "Çok uzun"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it should be Yours faithfully\"",
+          "id": "b2-u09-l5-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "I",
+            "would",
+            "be",
+            "grateful",
+            "if",
+            "you",
+            "could",
+            "send",
+            "me",
+            "the",
+            "details"
+          ],
+          "answer": "I would be grateful if you could send me the details.",
+          "explanation": "would be grateful if + could.",
+          "translation": "Bana ayrıntıları gönderirseniz minnettar olurum.",
+          "id": "b2-u09-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki durumlardan birini seçin ve resmî bir rica e-postası yazın (150–200 kelime): (a) Çalıştığınız şirketin müdürüne, ekibiniz için bir İngilizce kursunun ücretini karşılamasını rica edin. (b) Belediyeye, mahallenizdeki parka çocuk oyun alanı yapılmasını rica edin. Konu satırı, uygun hitap, amaç, arka plan, kibar rica, fayda / gerekçe, iletişim cümlesi ve doğru kapanışı kullanın.",
+          "modelAnswer": "Subject: Request for funding – English course for the sales team\n\nDear Mr Kaya,\n\nI am writing on behalf of the sales team to ask whether the company would be willing to cover the cost of a business English course for our six team members.\n\nAs you know, we have recently started working with several clients in Germany and the Netherlands, and all of our meetings and emails are now in English. Although most of the team can communicate, many of us feel that we are not as confident or professional as we would like to be.\n\nThe course we have found is run by a local language school. It consists of two evening classes a week for three months and costs 4,500 TL per person.\n\nWe believe this would benefit the company directly. Better communication would help us build stronger relationships with our clients and avoid costly misunderstandings. In return, we would be happy to attend the classes outside working hours.\n\nI have attached the course programme and the price list. If you require any further information, please do not hesitate to contact me.\n\nThank you for considering our request. I look forward to hearing from you.\n\nYours sincerely,\n\nElif Öztürk\nSales Executive",
+          "rubric": [
+            "Konu satırı ve doğru hitap",
+            "Açık amaç ve arka plan",
+            "Kibar rica kalıpları",
+            "Fayda ve gerekçe",
+            "Doğru kapanış ve resmî üslup"
+          ]
+        },
+        "id": "b2-u09-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "En kibar olanı:",
+        "options": [
+          "Can I leave early?",
+          "I was wondering if I could leave early."
+        ],
+        "answerIndex": 1,
+        "explanation": "I was wondering if",
+        "id": "b2-u09-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Would you mind to close the door?",
+          "Would you mind closing the door?"
+        ],
+        "answerIndex": 1,
+        "explanation": "mind + -ing",
+        "id": "b2-u09-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Would you mind waiting?\" Kabul etmek için:",
+        "options": [
+          "Yes, I would.",
+          "No, not at all."
+        ],
+        "answerIndex": 1,
+        "explanation": "Not at all",
+        "id": "b2-u09-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "En diplomatik:",
+        "options": [
+          "You made a mistake in the report.",
+          "There seems to be a small mistake in the report."
+        ],
+        "answerIndex": 1,
+        "explanation": "Yumuşatma",
+        "id": "b2-u09-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I suggest to wait.",
+          "I suggest waiting."
+        ],
+        "answerIndex": 1,
+        "explanation": "suggest + -ing",
+        "id": "b2-u09-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "I am writing to ___ about your courses. (bilgi almak, resmî)",
+        "answers": [
+          "enquire",
+          "inquire"
+        ],
+        "explanation": "enquire",
+        "id": "b2-u09-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "I would be ___ if you could reply soon. (minnettar)",
+        "answers": [
+          "grateful"
+        ],
+        "explanation": "grateful",
+        "id": "b2-u09-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "I look forward to ___ (hear) from you.",
+        "answers": [
+          "hearing"
+        ],
+        "explanation": "to + -ing",
+        "id": "b2-u09-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "___, we are unable to accept your offer. (Maalesef)",
+        "answers": [
+          "Unfortunately"
+        ],
+        "explanation": "Unfortunately",
+        "id": "b2-u09-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "Please find ___ the contract. (ekte)",
+        "answers": [
+          "attached"
+        ],
+        "explanation": "attached",
+        "id": "b2-u09-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Dear Sir or Madam\" ile kapanış:",
+        "options": [
+          "Yours sincerely,",
+          "Yours faithfully,"
+        ],
+        "answerIndex": 1,
+        "explanation": "faithfully",
+        "id": "b2-u09-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"help\" resmî karşılığı:",
+        "options": [
+          "assist",
+          "insist"
+        ],
+        "answerIndex": 0,
+        "explanation": "assist",
+        "id": "b2-u09-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I understand your concern about the cost, and that's a fair point. But if we hired a second receptionist, customers wouldn't have to wait so long, and we'd probably get fewer complaints. How about trying it for the summer, when we're busiest?",
+        "prompt": "Konuşan nasıl bir uzlaşma öneriyor?",
+        "options": [
+          "Hiç kimseyi işe almamak",
+          "Yaz boyunca denemek",
+          "Maaşları düşürmek"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"How about trying it for the summer\"",
+        "id": "b2-u09-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Resmîleştirin: \"I want to ask about the job.\" (wish, enquire, position)",
+        "accepted": [
+          "I wish to enquire about the position.",
+          "I wish to enquire about the position",
+          "I would like to enquire about the position.",
+          "I would like to enquire about the position",
+          "I wish to inquire about the position.",
+          "I wish to inquire about the position",
+          "I would like to inquire about the position.",
+          "I would like to inquire about the position"
+        ],
+        "explanation": "I wish to enquire about the position.",
+        "id": "b2-u09-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir otelde kaldınız ve sorunlar yaşadınız (oda temiz değildi, klima çalışmadı, söz verilen deniz manzarası yoktu). Otel müdürüne resmî bir e-posta yazın (150–200 kelime) ve kısmi bir ücret iadesi rica edin. Yumuşatma teknikleri, resmî kelimeler, kibar rica kalıpları ve doğru açılış-kapanış kullanın; tonunuz kızgın değil, kararlı ve kibar olsun.",
+        "modelAnswer": "Subject: Request for a partial refund – Booking no. 48213\n\nDear Sir or Madam,\n\nI am writing regarding my recent stay at your hotel from 3 to 7 August.\n\nI had booked a double room with a sea view, as advertised on your website. Unfortunately, the room I was given overlooked the car park, and I was informed that no sea-view rooms were available.\n\nIn addition, I am afraid there were a number of other problems. The room did not seem to have been cleaned properly before our arrival, and the air conditioning stopped working on the second night. Although I reported this to reception, it was not repaired until the final day of our stay.\n\nI have stayed at your hotel twice before and have always been very satisfied, which is why I was particularly disappointed on this occasion.\n\nI would therefore be grateful if you could consider offering me a partial refund for the difference in price between a standard room and a sea-view room. I have attached a copy of my booking confirmation.\n\nThank you for your attention to this matter. I look forward to hearing from you at your earliest convenience.\n\nYours faithfully,\n\nGökhan Tekin",
+        "rubric": [
+          "Doğru yapı ve açılış-kapanış",
+          "Yumuşatma ve diplomatik ton",
+          "Resmî kelime seçimi",
+          "Açık ve kibar rica",
+          "Kararlı ama kibar üslup"
+        ],
+        "id": "b2-u09-t15"
+      }
+    ]
+  }
+}
