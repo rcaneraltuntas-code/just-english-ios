@@ -58,13 +58,17 @@ struct LeagueView: View {
             VStack(spacing: 18) {
                 header
                 if !auth.isSignedIn {
-                    ContentUnavailableView("Lige katılmak için giriş yapın", systemImage: "person.crop.circle.badge.plus",
-                                           description: Text("Profil sekmesinden Apple ile giriş yaptığınızda bu haftanın ligine otomatik katılırsınız."))
+                    JAIEmptyState(title: "Lige katılmak için giriş yapın",
+                                  message: "Profil sekmesinden Apple ile giriş yaptığınızda bu haftanın ligine otomatik katılırsınız.",
+                                  mood: .idle)
                 } else if loading && rows.isEmpty {
                     ProgressView().padding(40)
                 } else if failed && rows.isEmpty {
-                    ContentUnavailableView("Lig yüklenemedi", systemImage: "wifi.exclamationmark",
-                                           description: Text("İnternet bağlantınızı kontrol edip aşağı çekerek yenileyin."))
+                    JAIEmptyState(title: "Lig yüklenemedi",
+                                  message: "İnternet bağlantınızı kontrol edip yeniden deneyin.",
+                                  mood: .sad, actionTitle: "Tekrar deneyin") {
+                        Task { await load() }
+                    }
                 } else {
                     VStack(spacing: 0) {
                         ForEach(rows) { row in
@@ -78,84 +82,96 @@ struct LeagueView: View {
                                 .staggeredAppear(row.rank, delay: 0.03)
                         }
                     }
-                    .background(Theme.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    .padding(.vertical, 6)
+                    .modifier(HomeCard())
                 }
             }
-            .padding(20)
+            .padding(16)
         }
         .tabBarSpacer()
-        .appBackground()
+        .background(Theme.surface.ignoresSafeArea())
         .navigationTitle("Haftalık lig")
         .navigationBarTitleDisplayMode(.inline)
         .refreshable { await load() }
         .task { await load() }
     }
 
+    /// Açık mavi kart: 3B kupa, lig adı, kural ve bu haftanın XP'si.
     private var header: some View {
         VStack(spacing: 10) {
-            ZStack {
-                Image(systemName: "shield.fill")
-                    .font(.system(size: 92))
-                    .foregroundStyle(LinearGradient(colors: [tier.color, tier.color.blended(with: .black, amount: 0.25)],
-                                                    startPoint: .top, endPoint: .bottom))
-                    .shadow(color: tier.color.opacity(0.45), radius: 16, y: 8)
-                Image(systemName: "trophy.fill").font(.system(size: 34, weight: .bold)).foregroundStyle(.white)
-            }
-            .symbolEffect(.bounce, value: rows.count)
-            Text("\(tier.title) Ligi").font(.jakarta(.title, weight: .heavy))
-            Text("İlk \(Self.promote) bir üst lige çıkar. Liste her pazartesi yenilenir.")
-                .font(.jakarta(.subheadline))
-                .foregroundStyle(.secondary)
+            Image("lesson-trophy")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 84, height: 84)
+                .symbolEffect(.bounce, value: rows.count)
+            Text("\(tier.title) Ligi")
+                .font(.custom(Theme.fontFamily, size: 24, relativeTo: .title2).weight(.bold))
+                .foregroundStyle(HomeStyle.title)
+            Text("İlk \(Self.promote) kişi bir üst lige çıkar. Liste her pazartesi yenilenir.")
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                .foregroundStyle(HomeStyle.body)
                 .multilineTextAlignment(.center)
-            HStack(spacing: 4) {
-                Image(systemName: "bolt.fill").foregroundStyle(Theme.warning)
+            HStack(spacing: 6) {
+                Image("lesson-medal").resizable().scaledToFit().frame(width: 22, height: 22)
                 RollingNumber(value: model.state.progress.weekXP(at: .now), suffix: " XP bu hafta",
-                              font: .jakarta(.headline, weight: .heavy))
+                              font: .custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                    .foregroundStyle(HomeStyle.title)
             }
+            .padding(.horizontal, 14)
+            .frame(height: 36)
+            .background(Theme.surface, in: Capsule())
+            .padding(.top, 4)
         }
+        .padding(.vertical, 22)
+        .padding(.horizontal, 20)
+        .frame(maxWidth: .infinity)
+        .background(Color(light: 0xEAF1FF, dark: 0x151C38), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
     }
 
     private func rowView(_ row: LeagueRow) -> some View {
-        HStack(spacing: 14) {
+        HStack(spacing: 12) {
             Group {
                 if row.rank <= 3 {
-                    Image(systemName: "medal.fill")
-                        .foregroundStyle([Theme.warning, LeagueTier.silver.color, LeagueTier.bronze.color][row.rank - 1])
+                    Text(["🥇", "🥈", "🥉"][row.rank - 1]).font(.system(size: 24))
                 } else {
-                    Text("\(row.rank)").foregroundStyle(row.rank <= Self.promote ? Theme.success : .secondary)
+                    Text("\(row.rank)")
+                        .font(.custom(Theme.fontFamily, size: 16, relativeTo: .headline).weight(.bold))
+                        .foregroundStyle(row.rank <= Self.promote ? Theme.success : HomeStyle.body)
                 }
             }
-            .font(.jakarta(.headline, weight: .heavy))
-            .frame(width: 28)
+            .frame(width: 30)
             Text(String(row.displayName.prefix(1)).uppercased())
-                .font(.jakarta(.headline, weight: .bold))
-                .foregroundStyle(.white)
-                .frame(width: 40, height: 40)
-                .background(avatarColor(row.displayName), in: Circle())
+                .font(.custom(Theme.fontFamily, size: 16, relativeTo: .headline).weight(.bold))
+                .foregroundStyle(Theme.accent)
+                .frame(width: 38, height: 38)
+                .background(Theme.accentSoft, in: Circle())
             Text(row.isMe ? "\(row.displayName) (siz)" : row.displayName)
-                .font(.jakarta(.body, weight: row.isMe ? .heavy : .semibold))
+                .font(.custom(Theme.fontFamily, size: 16, relativeTo: .body).weight(row.isMe ? .bold : .medium))
+                .foregroundStyle(HomeStyle.title)
                 .lineLimit(1)
             Spacer()
-            Text("\(row.xp) XP").font(.jakarta(.subheadline, weight: .bold)).foregroundStyle(.secondary).monospacedDigit()
+            Text("\(row.xp) XP")
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                .foregroundStyle(HomeStyle.body)
+                .monospacedDigit()
         }
-        .padding(.horizontal, 16)
-        .padding(.vertical, 12)
-        .background(row.isMe ? Theme.accent.opacity(0.12) : .clear)
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .background(row.isMe ? Theme.accentSoft : .clear, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+        .padding(.horizontal, 6)
     }
 
     private func zoneDivider(_ text: String, icon: String, color: Color) -> some View {
         HStack(spacing: 6) {
-            Rectangle().fill(color.opacity(0.4)).frame(height: 1.5)
-            Label(text, systemImage: icon).font(.jakarta(.caption, weight: .heavy)).foregroundStyle(color).fixedSize()
-            Rectangle().fill(color.opacity(0.4)).frame(height: 1.5)
+            Rectangle().fill(color.opacity(0.35)).frame(height: 1.5)
+            Label(text, systemImage: icon)
+                .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.semibold))
+                .foregroundStyle(color)
+                .fixedSize()
+            Rectangle().fill(color.opacity(0.35)).frame(height: 1.5)
         }
         .padding(.horizontal, 16)
         .padding(.vertical, 8)
-    }
-
-    private func avatarColor(_ name: String) -> Color {
-        let palette: [Color] = [Theme.accent, Theme.success, Theme.streak, Theme.color(for: .b2), Theme.color(for: .c1), Theme.color(for: .a2)]
-        return palette[abs(name.unicodeScalars.reduce(0) { $0 &+ Int($1.value) }) % palette.count]
     }
 
     private func load() async {
