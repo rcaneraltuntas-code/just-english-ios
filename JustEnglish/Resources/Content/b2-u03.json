@@ -1,0 +1,1405 @@
+{
+  "id": "b2-u03",
+  "level": "B2",
+  "number": 3,
+  "title": "Pişmanlıklar",
+  "titleEn": "Regrets",
+  "canDo": "Geçmişteki kararları ve olayları third conditional ile değerlendirebilir, şimdiki ve geçmişteki pişmanlıklarımı wish ve if only ile ifade edebilir, başkalarının davranışlarından duyduğum rahatsızlığı wish + would ile dile getirebilirim.",
+  "grammar": [
+    "third conditional (if + past perfect, would have + V3)",
+    "could have / might have ile third conditional",
+    "wish / if only + past simple (şimdi)",
+    "wish / if only + past perfect (geçmiş)",
+    "wish + would (şikâyet) ve wish + could"
+  ],
+  "vocabularyThemes": [
+    "kararlar",
+    "pişmanlık ve hayal kırıklığı",
+    "dönüm noktaları"
+  ],
+  "liveClass": {
+    "title": "Keşke...",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler hayatlarındaki bir dönüm noktasını (bir okul seçimi, bir taşınma, bir tesadüf) anlatır ve partneri If you hadn't..., would you have...? sorularıyla \"alternatif hayatı\" keşfeder. İkinci bölümde gruplar I wish... / If only... cümleleriyle küçük ve büyük pişmanlıklarını paylaşır ve birbirlerine tavsiye verir. Son olarak sınıf \"pişmanlık mı, ders mi?\" sorusunu tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u03-v01",
+      "en": "regret",
+      "tr": "pişmanlık; pişman olmak",
+      "example": "I don't regret leaving.",
+      "exampleTr": "Ayrıldığıma pişman değilim.",
+      "note": "regret + -ing"
+    },
+    {
+      "id": "b2-u03-v02",
+      "en": "decision",
+      "tr": "karar",
+      "example": "It was the best decision of my life.",
+      "exampleTr": "Hayatımın en iyi kararıydı.",
+      "note": "make a decision"
+    },
+    {
+      "id": "b2-u03-v03",
+      "en": "turning point",
+      "tr": "dönüm noktası",
+      "example": "Moving abroad was a turning point.",
+      "exampleTr": "Yurt dışına taşınmak bir dönüm noktasıydı."
+    },
+    {
+      "id": "b2-u03-v04",
+      "en": "opportunity",
+      "tr": "fırsat",
+      "example": "I missed a great opportunity.",
+      "exampleTr": "Harika bir fırsatı kaçırdım."
+    },
+    {
+      "id": "b2-u03-v05",
+      "en": "miss out on",
+      "tr": "kaçırmak (fırsat)",
+      "example": "Don't miss out on this chance.",
+      "exampleTr": "Bu şansı kaçırma."
+    },
+    {
+      "id": "b2-u03-v06",
+      "en": "in hindsight",
+      "tr": "geriye dönüp bakınca, şimdi düşününce",
+      "example": "In hindsight, I should have stayed.",
+      "exampleTr": "Şimdi düşünüyorum da kalmalıydım."
+    },
+    {
+      "id": "b2-u03-v07",
+      "en": "by chance",
+      "tr": "tesadüfen",
+      "example": "We met by chance at a concert.",
+      "exampleTr": "Bir konserde tesadüfen tanıştık."
+    },
+    {
+      "id": "b2-u03-v08",
+      "en": "take a risk",
+      "tr": "risk almak",
+      "example": "Sometimes you have to take a risk.",
+      "exampleTr": "Bazen risk alman gerekir."
+    },
+    {
+      "id": "b2-u03-v09",
+      "en": "play it safe",
+      "tr": "riske girmemek",
+      "example": "I played it safe and stayed in my job.",
+      "exampleTr": "Riske girmedim ve işimde kaldım."
+    },
+    {
+      "id": "b2-u03-v10",
+      "en": "follow your heart",
+      "tr": "kalbinin sesini dinlemek",
+      "example": "She followed her heart and became an artist.",
+      "exampleTr": "Kalbinin sesini dinleyip sanatçı oldu."
+    },
+    {
+      "id": "b2-u03-v11",
+      "en": "make a mistake",
+      "tr": "hata yapmak",
+      "example": "Everyone makes mistakes.",
+      "exampleTr": "Herkes hata yapar.",
+      "note": "do a mistake ✗"
+    },
+    {
+      "id": "b2-u03-v12",
+      "en": "learn from",
+      "tr": "-den ders çıkarmak",
+      "example": "You learn from your mistakes.",
+      "exampleTr": "Hatalarından ders çıkarırsın."
+    },
+    {
+      "id": "b2-u03-v13",
+      "en": "disappointed",
+      "tr": "hayal kırıklığına uğramış",
+      "example": "I was disappointed with the result.",
+      "exampleTr": "Sonuçtan hayal kırıklığına uğradım."
+    },
+    {
+      "id": "b2-u03-v14",
+      "en": "relieved",
+      "tr": "rahatlamış",
+      "example": "I'm relieved I didn't take that job.",
+      "exampleTr": "O işi almadığım için rahatladım."
+    },
+    {
+      "id": "b2-u03-v15",
+      "en": "ashamed",
+      "tr": "utanmış",
+      "example": "I'm ashamed of what I said.",
+      "exampleTr": "Söylediklerimden utanıyorum."
+    },
+    {
+      "id": "b2-u03-v16",
+      "en": "if only",
+      "tr": "keşke",
+      "example": "If only I had more time!",
+      "exampleTr": "Keşke daha fazla vaktim olsaydı!"
+    },
+    {
+      "id": "b2-u03-v17",
+      "en": "wish",
+      "tr": "keşke ... olsa / dilemek",
+      "example": "I wish I lived by the sea.",
+      "exampleTr": "Keşke deniz kenarında yaşasam."
+    },
+    {
+      "id": "b2-u03-v18",
+      "en": "would have",
+      "tr": "-ardı / -mış olurdu",
+      "example": "I would have called you.",
+      "exampleTr": "Seni arardım.",
+      "note": "would've"
+    },
+    {
+      "id": "b2-u03-v19",
+      "en": "could have",
+      "tr": "-ebilirdi",
+      "example": "We could have won.",
+      "exampleTr": "Kazanabilirdik.",
+      "note": "could've"
+    },
+    {
+      "id": "b2-u03-v20",
+      "en": "should have",
+      "tr": "-meliydi",
+      "example": "I should have listened to you.",
+      "exampleTr": "Seni dinlemeliydim.",
+      "note": "should've"
+    },
+    {
+      "id": "b2-u03-v21",
+      "en": "it's too late",
+      "tr": "artık çok geç",
+      "example": "It's too late to change now.",
+      "exampleTr": "Artık değiştirmek için çok geç."
+    },
+    {
+      "id": "b2-u03-v22",
+      "en": "look back on",
+      "tr": "geriye dönüp bakmak",
+      "example": "I look back on those years with joy.",
+      "exampleTr": "O yıllara sevinçle bakıyorum."
+    },
+    {
+      "id": "b2-u03-v23",
+      "en": "second chance",
+      "tr": "ikinci şans",
+      "example": "Everyone deserves a second chance.",
+      "exampleTr": "Herkes ikinci bir şansı hak eder."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u03-l1",
+      "number": 1,
+      "title": "Olsaydı, olurdu",
+      "goal": "Geçmişte olmayan bir durumu ve onun hayali sonucunu third conditional ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir tesadüfün hikâyesi",
+        "body": "Twelve years ago, Nazlı missed her train to Ankara by thirty seconds.\n\n\"I was furious,\" she remembers. \"I had an important exam the next morning. I had to wait two hours for the next train.\"\n\nWhile she was waiting, she started talking to a young man who was reading her favourite novel. His name was Tarık.\n\n\"If I hadn't missed that train, I would never have met him,\" Nazlı says. \"And if we hadn't started talking about that book, we wouldn't have discovered how much we had in common.\"\n\nToday, they are married with two children, and they run a small bookshop together. \"If the train had been on time,\" Tarık laughs, \"I'd probably have spent that evening reading alone!\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why was Nazlı furious at first?",
+            "options": [
+              "She lost her ticket.",
+              "She missed her train.",
+              "She failed her exam."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Nazlı missed her train\"",
+            "id": "b2-u03-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What were they talking about?",
+            "options": [
+              "The weather",
+              "A novel",
+              "The exam"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"talking about that book\"",
+            "id": "b2-u03-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Third conditional**, geçmişte **gerçekleşmemiş** bir durumu ve onun **hayali sonucunu** anlatır. Geçmiş değiştirilemez, bu yüzden tamamen hayalidir.\n\n| If + **past perfect** | , **would have** + V3 |\n|---|---|\n| If I **hadn't missed** the train, | I **would never have met** him. |\n| If you **had studied** harder, | you **would have passed**. |\n| If it **had rained**, | we **wouldn't have gone** to the beach. |\n\n**Gerçekte ne oldu?**\n\n- If I **hadn't missed** the train ... → Gerçekte treni **kaçırdım**.\n- ... I **would never have met** him. → Gerçekte onunla **tanıştım**.\n\n**Kısaltmalar (konuşmada):**\n\n- If I**'d** known, I**'d have** told you. (**'d** = had / would)\n- would have → **would've** /ˈwʊdəv/\n\n**Soru:** What **would** you **have done** if you **had lost** your job?\n\n**Dikkat:** if kısmında would kullanılmaz: ~~If I would have known~~",
+        "examples": [
+          {
+            "en": "If I'd known you were coming, I'd have made a cake.",
+            "tr": "Geleceğini bilseydim pasta yapardım."
+          },
+          {
+            "en": "We wouldn't have got lost if we'd taken a map.",
+            "tr": "Harita alsaydık kaybolmazdık."
+          },
+          {
+            "en": "What would you have done if you hadn't gone to university?",
+            "tr": "Üniversiteye gitmeseydin ne yapardın?"
+          }
+        ],
+        "turkishNote": "Türkçede \"bilseydim ... yapardım\" yapısı hem second hem third conditional anlamına gelebilir; bağlamdan anlarız. İngilizcede geçmiş için mutlaka past perfect + would have + V3 kullanılır. \"If I knew, I would tell you\" (şu an bilmiyorum) ile \"If I had known, I would have told you\" (o zaman bilmiyordum) farklıdır. Ayrıca \"I'd\" kısaltmasının iki anlamı vardır: if kısmında had, sonuç kısmında would."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş: \"Bilseydim sana söylerdim.\" (o zaman bilmiyordum)",
+          "options": [
+            "If I knew, I'd tell you.",
+            "If I had known, I would have told you."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmiş → third conditional.",
+          "id": "b2-u03-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "If I would have studied, I would have passed.",
+            "If I had studied, I would have passed."
+          ],
+          "answerIndex": 1,
+          "explanation": "if + past perfect.",
+          "id": "b2-u03-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"If I'd seen him, I'd have said hello.\" İlk 'd ne?",
+          "options": [
+            "would",
+            "had"
+          ],
+          "answerIndex": 1,
+          "explanation": "if kısmında 'd = had.",
+          "id": "b2-u03-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "If we ___ (leave) earlier, we would have caught the train.",
+          "answers": [
+            "had left",
+            "'d left"
+          ],
+          "explanation": "if + past perfect.",
+          "id": "b2-u03-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ (not / get) the job if she hadn't spoken English.",
+          "answers": [
+            "wouldn't have got",
+            "would not have got",
+            "wouldn't have gotten",
+            "would not have gotten"
+          ],
+          "explanation": "wouldn't have + V3.",
+          "id": "b2-u03-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What would you have done if you ___ (lose) your passport?",
+          "answers": [
+            "had lost",
+            "'d lost"
+          ],
+          "explanation": "past perfect.",
+          "id": "b2-u03-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If it hadn't rained, we would ___ (go) to the beach.",
+          "answers": [
+            "have gone"
+          ],
+          "explanation": "would have + V3.",
+          "id": "b2-u03-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "hadn't",
+            "If",
+            "I",
+            "missed",
+            "the",
+            "train",
+            "I",
+            "wouldn't",
+            "have",
+            "met",
+            "him"
+          ],
+          "answer": "If I hadn't missed the train I wouldn't have met him.",
+          "explanation": "If + past perfect, would have + V3.",
+          "translation": "Treni kaçırmasaydım onunla tanışmazdım.",
+          "id": "b2-u03-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "If I hadn't broken my leg when I was sixteen, I would have become a professional footballer. But in hospital I read a book about medicine, and now I'm a doctor.",
+          "prompt": "Konuşan neden profesyonel futbolcu olmadı?",
+          "options": [
+            "Ailesi istemedi",
+            "On altı yaşında bacağını kırdı",
+            "Yetenekli değildi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"If I hadn't broken my leg when I was sixteen\"",
+          "id": "b2-u03-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Geleceğini bilseydim pasta yapardım.\"",
+          "accepted": [
+            "If I'd known you were coming, I'd have made a cake.",
+            "If I'd known you were coming, I'd have made a cake",
+            "If I would known you were coming, I would have made a cake",
+            "If I would known you were coming, I would have made a cake.",
+            "If I had known you were coming, I would have made a cake.",
+            "If I had known you were coming, I would have made a cake",
+            "If I had known you were coming, I'd have made a cake.",
+            "If I had known you were coming, I'd have made a cake",
+            "If I'd known you were coming, I would have made a cake.",
+            "If I'd known you were coming, I would have made a cake",
+            "I'd have made a cake if I'd known you were coming.",
+            "I'd have made a cake if I'd known you were coming",
+            "I would have made a cake if I would known you were coming",
+            "I would have made a cake if I would known you were coming.",
+            "I would have made a cake if I had known you were coming.",
+            "I would have made a cake if I had known you were coming",
+            "If I'd known that you were coming, I'd have made a cake.",
+            "If I'd known that you were coming, I'd have made a cake",
+            "If I would known that you were coming, I would have made a cake",
+            "If I would known that you were coming, I would have made a cake.",
+            "If I had known that you were coming, I would have made a cake.",
+            "If I had known that you were coming, I would have made a cake"
+          ],
+          "explanation": "If I'd known you were coming, I'd have made a cake.",
+          "id": "b2-u03-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızdaki bir dönüm noktasını anlatın (bir okul ya da iş seçimi, bir taşınma, bir tesadüf). Sonra \"alternatif hayatınızı\" en az 4 third conditional cümlesiyle hayal edin: Eğer o olmasaydı ne olurdu?",
+          "modelAnswer": "In 2015, I chose to study engineering instead of music. If I had studied music, I would have moved to Istanbul. I wouldn't have met my wife, because we met at the engineering faculty. If I hadn't become an engineer, I wouldn't have got my job in Germany. But maybe I would have become a famous pianist!",
+          "rubric": [
+            "if + past perfect",
+            "would have + V3",
+            "Mantıklı zincir",
+            "Kısaltmalar doğru"
+          ]
+        },
+        "id": "b2-u03-l1-use"
+      }
+    },
+    {
+      "id": "b2-u03-l2",
+      "number": 2,
+      "title": "Olabilirdi, yapabilirdik",
+      "goal": "Third conditional'da could have ve might have kullanarak geçmişteki olasılıkları ve kaçırılan fırsatları anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kaybedilen maç",
+        "lines": [
+          {
+            "speaker": "Coach",
+            "text": "That was so close. If we'd scored that penalty, we might have won the cup."
+          },
+          {
+            "speaker": "Player",
+            "text": "I know. It's my fault. If I hadn't been so nervous, I could have scored easily."
+          },
+          {
+            "speaker": "Coach",
+            "text": "Don't blame yourself. If the referee hadn't given them that free kick, we wouldn't have needed the penalty."
+          },
+          {
+            "speaker": "Player",
+            "text": "True. And if Burak hadn't been injured, we could have played a different system."
+          },
+          {
+            "speaker": "Coach",
+            "text": "Exactly. We can't change the past. Let's learn from it."
+          },
+          {
+            "speaker": "Player",
+            "text": "You're right. Next year we'll be ready."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What might have happened if they had scored the penalty?",
+            "options": [
+              "They might have lost.",
+              "They might have won the cup.",
+              "The match would have finished earlier."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"we might have won the cup\"",
+            "id": "b2-u03-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why couldn't they play a different system?",
+            "options": [
+              "The coach didn't want to.",
+              "Burak was injured.",
+              "It was raining."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"if Burak hadn't been injured\"",
+            "id": "b2-u03-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Third conditional'ın sonuç kısmında would have yerine **could have** ya da **might have** kullanılabilir:\n\n| Modal | Anlam | Örnek |\n|---|---|---|\n| **would have** + V3 | kesin hayali sonuç | If we'd scored, we **would have won**. |\n| **might have** + V3 | olası sonuç (belki) | If we'd scored, we **might have won**. |\n| **could have** + V3 | yetenek / olanak | If I'd been calm, I **could have scored**. |\n\n**Olumsuz:**\n\n- **wouldn't have** = olmazdı\n- **might not have** = olmayabilirdi\n- **couldn't have** = olamazdı / yapamazdım\n\n**Tek başına could have / might have:** Koşul cümlesi olmadan da kaçırılan fırsatları ya da tehlikeleri anlatır:\n\n- You **could have** told me! (Bana söyleyebilirdin! → Söylemedin, kızgınım.)\n- Be careful! You **might have** hurt yourself. (Kendine zarar verebilirdin.)\n\n**if'siz third conditional (konuşmada):**\n\n- **Without** your help, I **wouldn't have** finished. (= If you hadn't helped me ...)\n- **But for** the rain, we'd have gone. (resmî)",
+        "examples": [
+          {
+            "en": "If I'd left five minutes earlier, I might have caught the bus.",
+            "tr": "Beş dakika erken çıksaydım otobüsü yakalayabilirdim belki."
+          },
+          {
+            "en": "You could have called me! I was worried.",
+            "tr": "Beni arayabilirdin! Endişelendim."
+          },
+          {
+            "en": "Without your advice, I would have made a terrible mistake.",
+            "tr": "Tavsiyen olmasaydı korkunç bir hata yapardım."
+          }
+        ],
+        "turkishNote": "\"-ebilirdi\" (yapabilirdim, kazanabilirdik) Türkçede hem olanak hem olasılık anlatır. İngilizcede olanak için could have, belirsiz olasılık için might have tercih edilir. \"You could have told me!\" cümlesi Türkçedeki sitemli \"Söyleyebilirdin ama!\" tonunu taşır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Belki: \"If we'd left earlier, we ___ the flight.\"",
+          "options": [
+            "would have caught",
+            "might have caught"
+          ],
+          "answerIndex": 1,
+          "explanation": "Belirsiz → might have.",
+          "id": "b2-u03-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Yetenek / olanak: \"If I'd had a car, I ___ you a lift.\"",
+          "options": [
+            "could have given",
+            "might give"
+          ],
+          "answerIndex": 0,
+          "explanation": "Olanak → could have.",
+          "id": "b2-u03-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sitem: \"Bana söyleyebilirdin!\"",
+          "options": [
+            "You can tell me!",
+            "You could have told me!"
+          ],
+          "answerIndex": 1,
+          "explanation": "could have + V3.",
+          "id": "b2-u03-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "If she'd trained harder, she ___ (might / win) the race.",
+          "answers": [
+            "might have won"
+          ],
+          "explanation": "might have + V3.",
+          "id": "b2-u03-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I'd had more money, I ___ (could / buy) that house.",
+          "answers": [
+            "could have bought"
+          ],
+          "explanation": "could have + V3.",
+          "id": "b2-u03-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ your help, I wouldn't have passed. (yardımın olmasaydı)",
+          "answers": [
+            "Without"
+          ],
+          "explanation": "Without.",
+          "id": "b2-u03-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Be careful! You ___ have fallen! (düşebilirdin)",
+          "answers": [
+            "might",
+            "could"
+          ],
+          "explanation": "might / could have.",
+          "id": "b2-u03-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "If they hadn't been late, they ___ (not / miss) the start.",
+          "answers": [
+            "wouldn't have missed",
+            "would not have missed"
+          ],
+          "explanation": "wouldn't have + V3.",
+          "id": "b2-u03-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I didn't apply for the job in Barcelona because I thought I wasn't good enough. If I'd applied, I might have got it. I could have moved to Spain!",
+          "prompt": "Konuşan neden başvurmadı?",
+          "options": [
+            "İspanyolca bilmiyordu",
+            "Yeterince iyi olmadığını düşündü",
+            "Ailesi istemedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I thought I wasn't good enough\"",
+          "id": "b2-u03-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Tavsiyen olmasaydı korkunç bir hata yapardım.\"",
+          "accepted": [
+            "Without your advice, I would have made a terrible mistake.",
+            "Without your advice, I would have made a terrible mistake",
+            "Without your advice, I'd have made a terrible mistake.",
+            "Without your advice, I'd have made a terrible mistake",
+            "If it hadn't been for your advice, I would have made a terrible mistake.",
+            "If it hadn't been for your advice, I would have made a terrible mistake",
+            "I would have made a terrible mistake without your advice.",
+            "I would have made a terrible mistake without your advice",
+            "Without your advice I would have made a terrible mistake.",
+            "Without your advice I would have made a terrible mistake",
+            "If you hadn't advised me, I would have made a terrible mistake.",
+            "If you hadn't advised me, I would have made a terrible mistake"
+          ],
+          "explanation": "Without your advice, I would have made a terrible mistake.",
+          "id": "b2-u03-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kaçırdığınız bir fırsatı ya da kıl payı atlattığınız bir tehlikeyi anlatın. would have, might have ve could have'i en az birer kez kullanın ve bir \"without\" cümlesi ekleyin.",
+          "modelAnswer": "Two years ago, I was offered a place on a photography course in Florence, but I said no because it was expensive. If I'd gone, I might have become a professional photographer. I could have learned Italian too. On the other hand, if I'd spent all my savings, I wouldn't have been able to buy my car. And without that car, I wouldn't have got my current job.",
+          "rubric": [
+            "would / might / could have doğru",
+            "Without + isim",
+            "Anlam farkı bilinçli"
+          ]
+        },
+        "id": "b2-u03-l2-use"
+      }
+    },
+    {
+      "id": "b2-u03-l3",
+      "number": 3,
+      "title": "Keşke şimdi...",
+      "goal": "wish ve if only ile şimdiki durumlardan duyduğum pişmanlığı ve özlemi ifade edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Sosyal medyada bir paylaşım",
+        "body": "Monday morning thoughts...\n\nI wish I didn't have to go to work today. I wish I lived by the sea and could swim every morning instead of sitting in traffic for an hour.\n\nIf only I had more free time! I wish I knew how to play the guitar, and I wish I could speak Italian.\n\nBut then I look at my daughter, who's still asleep, and I think: I wish she weren't growing up so fast.\n\nOK, enough dreaming. Coffee time! #mondaymood",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does the writer wish they lived?",
+            "options": [
+              "In the city",
+              "By the sea",
+              "In Italy"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I wish I lived by the sea\"",
+            "id": "b2-u03-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the writer wish about their daughter?",
+            "options": [
+              "That she was older",
+              "That she weren't growing up so fast",
+              "That she could speak Italian"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I wish she weren't growing up so fast\"",
+            "id": "b2-u03-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**wish / if only + past simple** → **şu anki** bir durumun farklı olmasını isteriz (\"keşke ... olsa\").\n\n| Gerçek (şimdi) | Dilek |\n|---|---|\n| I **have** to go to work. | I wish I **didn't have** to go to work. |\n| I **don't live** by the sea. | I wish I **lived** by the sea. |\n| I **can't** speak Italian. | I wish I **could** speak Italian. |\n| She **is** growing up so fast. | I wish she **weren't** growing up so fast. |\n\nZaman **bir adım geriye** gider: present → past, can → could, is -ing → was/were -ing.\n\n**be fiili:** Resmî dilde tüm kişilerde **were**: I wish I **were** taller. (Günlük dilde **was** da kullanılır.)\n\n**if only** = wish'in daha **güçlü, duygusal** hali:\n\n- **If only** I had more time! (Keşke daha fazla vaktim olsaydı!)\n\n**Dikkat:** Gelecekte gerçekçi olarak olmasını istediğimiz şeyler için **hope** kullanılır:\n\n- I **hope** it **stops** raining. (Olabilir.) ≠ I **wish** it **wasn't** raining. (Şu an yağıyor.)",
+        "examples": [
+          {
+            "en": "I wish I had a bigger flat.",
+            "tr": "Keşke daha büyük bir dairem olsa."
+          },
+          {
+            "en": "If only I could sing!",
+            "tr": "Keşke şarkı söyleyebilsem!"
+          },
+          {
+            "en": "I wish it weren't so cold today.",
+            "tr": "Keşke bugün bu kadar soğuk olmasa."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"keşke\" kelimesinden sonra genellikle \"-sa / -saydı\" eki gelir. İngilizcede şimdiki durumlar için wish + past simple kullanılır; fiil geçmiş zamanda olsa da anlam şimdiyi anlatır. \"I wish I have more money\" yanlıştır; doğrusu \"I wish I had more money\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Keşke daha fazla param olsa.\"",
+          "options": [
+            "I wish I have more money.",
+            "I wish I had more money."
+          ],
+          "answerIndex": 1,
+          "explanation": "wish + past simple.",
+          "id": "b2-u03-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Keşke yüzebilsem.\"",
+          "options": [
+            "I wish I can swim.",
+            "I wish I could swim."
+          ],
+          "answerIndex": 1,
+          "explanation": "can → could.",
+          "id": "b2-u03-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gerçekçi gelecek isteği:",
+          "options": [
+            "I wish you pass your exam.",
+            "I hope you pass your exam."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gerçekçi → hope.",
+          "id": "b2-u03-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî: \"I wish I ___ taller.\"",
+          "options": [
+            "am",
+            "were"
+          ],
+          "answerIndex": 1,
+          "explanation": "were.",
+          "id": "b2-u03-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish I ___ (live) closer to my parents.",
+          "answers": [
+            "lived"
+          ],
+          "explanation": "wish + past.",
+          "id": "b2-u03-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish I ___ (not / have) so much work.",
+          "answers": [
+            "didn't have",
+            "did not have"
+          ],
+          "explanation": "Olumsuz.",
+          "id": "b2-u03-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If ___ I knew the answer! (keşke)",
+          "answers": [
+            "only"
+          ],
+          "explanation": "If only.",
+          "id": "b2-u03-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish it ___ (not / rain) right now.",
+          "answers": [
+            "wasn't raining",
+            "weren't raining"
+          ],
+          "explanation": "is raining → was/were raining.",
+          "id": "b2-u03-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I wish I could take a holiday, but we're so busy at work. If only I didn't have this huge project!",
+          "prompt": "Konuşan neden tatile çıkamıyor?",
+          "options": [
+            "Parası yok",
+            "İşte büyük bir proje var",
+            "Hasta"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"If only I didn't have this huge project!\"",
+          "id": "b2-u03-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Keşke İtalyanca konuşabilsem.\"",
+          "accepted": [
+            "I wish I could speak Italian.",
+            "I wish I could speak Italian",
+            "If only I could speak Italian.",
+            "If only I could speak Italian",
+            "I wish I spoke Italian.",
+            "I wish I spoke Italian",
+            "If only I spoke Italian.",
+            "If only I spoke Italian"
+          ],
+          "explanation": "I wish I could speak Italian.",
+          "id": "b2-u03-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızda şu an farklı olmasını istediğiniz 6 şeyi wish ve if only ile söyleyin (ev, iş, yetenekler, hava, alışkanlıklar). En az birinde could, birinde were, birinde olumsuz yapı kullanın. Sonra gerçekçi bir umudunuzu hope ile ekleyin.",
+          "modelAnswer": "I wish I had a garden. I wish I could play the piano. I wish my job weren't so stressful. I wish I didn't spend so much time on my phone. If only I lived nearer the city centre! I wish it were summer already. But I hope I'll find a better flat next year.",
+          "rubric": [
+            "wish + past simple",
+            "could / were / olumsuz",
+            "wish ve hope farkı"
+          ]
+        },
+        "id": "b2-u03-l3-use"
+      }
+    },
+    {
+      "id": "b2-u03-l4",
+      "number": 4,
+      "title": "Keşke yapmasaydım",
+      "goal": "wish / if only + past perfect ile geçmişteki pişmanlıkları, wish + would ile başkalarının davranışlarına duyduğum rahatsızlığı ifade edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kötü bir tatil",
+        "lines": [
+          {
+            "speaker": "Mehmet",
+            "text": "I wish I'd never booked that hotel. It was a disaster."
+          },
+          {
+            "speaker": "Selin",
+            "text": "What happened?"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "The room was tiny and dirty. If only I'd read the reviews first! And the people next door had parties every night."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Oh no. Did you complain?"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "Every day! But nothing changed. And my brother kept playing loud music in our room. I wish he would listen to me sometimes."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Next time, you should check everything before you book."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Mehmet wish he had done?",
+            "options": [
+              "Booked a bigger room",
+              "Read the reviews first",
+              "Stayed at home"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"If only I'd read the reviews first!\"",
+            "id": "b2-u03-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Mehmet complain about his brother?",
+            "options": [
+              "He doesn't listen to him.",
+              "He's always late.",
+              "He spends too much money."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"I wish he would listen to me sometimes.\"",
+            "id": "b2-u03-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. wish / if only + past perfect** → **geçmişteki** bir pişmanlık (\"keşke ... yapsaydım / yapmasaydım\")\n\n| Gerçek (geçmiş) | Pişmanlık |\n|---|---|\n| I **booked** that hotel. | I wish I **hadn't booked** that hotel. |\n| I **didn't read** the reviews. | If only I **had read** the reviews! |\n| I **said** something stupid. | I wish I **hadn't said** that. |\n\n**should have** ile benzer anlam:\n\n- I wish I **had studied** more. ≈ I **should have studied** more.\n\n**2. wish + would** → başkasının (ya da bir durumun) **sürekli davranışından şikâyet** ve değişmesini istemek\n\n- I wish my brother **would** listen to me. (Hiç dinlemiyor, sinir oluyorum.)\n- I wish it **would** stop raining! (Durmuyor!)\n- I wish you **wouldn't** leave your clothes on the floor.\n\n**Dikkat:** Kendimiz için wish + would kullanılmaz: ~~I wish I would~~ → I wish I **could** ...\n\n**Özet:**\n\n| Yapı | Zaman | Anlam |\n|---|---|---|\n| wish + past simple | şimdi | Keşke ... olsa |\n| wish + past perfect | geçmiş | Keşke ... olsaydı |\n| wish + would | başkasının davranışı | Keşke ... yapsa (şikâyet) |\n| wish + could | yetenek | Keşke ... yapabilsem |",
+        "examples": [
+          {
+            "en": "I wish I hadn't eaten so much.",
+            "tr": "Keşke bu kadar çok yemeseydim."
+          },
+          {
+            "en": "If only we had left earlier!",
+            "tr": "Keşke daha erken çıksaydık!"
+          },
+          {
+            "en": "I wish you wouldn't interrupt me all the time.",
+            "tr": "Keşke sürekli sözümü kesmesen."
+          }
+        ],
+        "turkishNote": "Türkçede \"Keşke o oteli ayırtmasaydım\" ve \"Keşke beni dinlese\" cümleleri aynı \"keşke\" ile kurulur. İngilizcede ilki wish + past perfect (geçmiş pişmanlık), ikincisi wish + would (başkasından şikâyet) ile ifade edilir. wish + would genellikle bir sitem tonu taşır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş pişmanlık: \"Keşke o kadar çok yemeseydim.\"",
+          "options": [
+            "I wish I didn't eat so much.",
+            "I wish I hadn't eaten so much."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmiş → past perfect.",
+          "id": "b2-u03-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Şikâyet: \"Keşke sürekli sözümü kesmese.\"",
+          "options": [
+            "I wish he wouldn't interrupt me all the time.",
+            "I wish he hadn't interrupt me."
+          ],
+          "answerIndex": 0,
+          "explanation": "Başkasının davranışı → would.",
+          "id": "b2-u03-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi yanlış?",
+          "options": [
+            "I wish I would be taller.",
+            "I wish I were taller."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kendimiz için wish + would olmaz.",
+          "id": "b2-u03-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I wish I had studied more.\" ≈",
+          "options": [
+            "I should have studied more.",
+            "I should study more."
+          ],
+          "answerIndex": 0,
+          "explanation": "Geçmiş pişmanlık.",
+          "id": "b2-u03-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish I ___ (not / say) that to her.",
+          "answers": [
+            "hadn't said",
+            "had not said"
+          ],
+          "explanation": "wish + past perfect.",
+          "id": "b2-u03-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "If only I ___ (listen) to your advice!",
+          "answers": [
+            "had listened",
+            "'d listened"
+          ],
+          "explanation": "if only + past perfect.",
+          "id": "b2-u03-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish the neighbours ___ stop making so much noise. (şikâyet)",
+          "answers": [
+            "would"
+          ],
+          "explanation": "wish + would.",
+          "id": "b2-u03-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I wish you ___ leave your dirty dishes in the sink! (olumsuz şikâyet)",
+          "answers": [
+            "wouldn't",
+            "would not"
+          ],
+          "explanation": "wish + wouldn't.",
+          "id": "b2-u03-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I wish I'd learned to drive when I was younger. Now I'm forty and I have to ask my husband to take me everywhere. And I wish he wouldn't complain about it every time!",
+          "prompt": "Konuşanın kocası hakkında şikâyeti ne?",
+          "options": [
+            "Hiç yardım etmiyor",
+            "Her seferinde şikâyet ediyor",
+            "Çok hızlı sürüyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I wish he wouldn't complain about it every time!\"",
+          "id": "b2-u03-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Keşke daha erken çıksaydık!\"",
+          "accepted": [
+            "If only we had left earlier!",
+            "If only we had left earlier",
+            "If only we'd left earlier!",
+            "If only we'd left earlier",
+            "I wish we had left earlier!",
+            "I wish we had left earlier",
+            "I wish we'd left earlier!",
+            "I wish we'd left earlier",
+            "If only we had left earlier.",
+            "I wish we had left earlier."
+          ],
+          "explanation": "If only we had left earlier!",
+          "id": "b2-u03-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Önce geçmişteki 3 pişmanlığınızı wish / if only + past perfect ile söyleyin ve her birinin sonucunu third conditional ile açıklayın. Sonra çevrenizdeki insanların ya da durumların sizi rahatsız eden 3 davranışını wish + would ile söyleyin.",
+          "modelAnswer": "I wish I'd studied abroad. If I had, my English would have improved faster. If only I hadn't sold my old guitar! I wish I'd spent more time with my grandmother. ... I wish my colleague would stop talking on the phone so loudly. I wish it would stop raining. I wish people wouldn't drop rubbish in the park.",
+          "rubric": [
+            "wish + past perfect",
+            "Third conditional ile sonuç",
+            "wish + would (şikâyet)"
+          ]
+        },
+        "id": "b2-u03-l4-use"
+      }
+    },
+    {
+      "id": "b2-u03-l5",
+      "number": 5,
+      "title": "Pişmanlık mı, ders mi?",
+      "goal": "Geçmiş kararları dengeli bir şekilde değerlendirebilir, pişmanlıkları ve çıkarılan dersleri bir yazıda bir araya getirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Röportaj: \"Pişman değilim\"",
+        "body": "At 45, Gökhan Demir left his job as a bank manager to become a farmer. We asked him about the decision.\n\n\"People ask me if I regret it. Honestly? Sometimes. In the first year, I made every mistake possible. If I'd done a course in agriculture first, I wouldn't have lost so much money. I wish I'd been more patient.\n\nBut in hindsight, I'm glad I took the risk. If I had played it safe, I would have spent the rest of my life wondering 'what if?'\n\nMy advice? Don't spend your life wishing things were different. Learn from your mistakes, and don't be afraid of second chances. The only real regret is the chance you never took.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Gökhan wish he had done?",
+            "options": [
+              "Stayed at the bank",
+              "Been more patient",
+              "Moved to the city"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I wish I'd been more patient.\"",
+            "id": "b2-u03-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What would have happened if he had played it safe?",
+            "options": [
+              "He would have become rich.",
+              "He would have spent his life wondering 'what if?'",
+              "He would have become a farmer anyway."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I would have spent the rest of my life wondering 'what if?'\"",
+            "id": "b2-u03-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Geçmiş kararları değerlendirmek için kalıplar:**\n\n| Duygu | Kalıp |\n|---|---|\n| **Pişmanlık** | I **regret** + -ing / I **wish I'd** ... / I **should have** ... |\n| **Memnuniyet** | I'm **glad** I + past simple / I **don't regret** + -ing / It was **the best decision** ... |\n| **Rahatlama** | I'm **relieved** I didn't ... / **Thank goodness** I ... |\n| **Ders** | I've **learned** that ... / **In hindsight**, ... / **Looking back**, ... |\n| **Kabullenme** | **It's too late now.** / **There's no point in** + -ing / **What's done is done.** |\n\n**regret + -ing:**\n\n- I **regret leaving** school early. (Okulu erken bıraktığım için pişmanım.)\n- I **don't regret taking** the risk.\n\n**Dengeli bir değerlendirme yazısı:**\n\n1. **Kararı tanıtın**: Ne oldu, ne zaman?\n2. **Olumsuz tarafı**: wish / third conditional\n3. **Olumlu tarafı**: I'm glad ... / If I hadn't ..., I wouldn't have ...\n4. **Ders ve sonuç**: In hindsight / I've learned that ...",
+        "examples": [
+          {
+            "en": "I regret not travelling more when I was young.",
+            "tr": "Gençken daha fazla seyahat etmediğim için pişmanım."
+          },
+          {
+            "en": "I'm glad I didn't accept that offer.",
+            "tr": "O teklifi kabul etmediğime sevindim."
+          },
+          {
+            "en": "There's no point in worrying about it now.",
+            "tr": "Şimdi bunun için endişelenmenin anlamı yok."
+          }
+        ],
+        "turkishNote": "\"Pişmanım\" için \"I'm regret\" demek yaygın bir hatadır; regret bir fiildir: I regret it. \"... yapmadığım için pişmanım\" ise \"I regret not doing ...\" olur. \"There's no point in\" kalıbından sonra -ing gelir: There's no point in crying."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm regret leaving.",
+            "I regret leaving."
+          ],
+          "answerIndex": 1,
+          "explanation": "regret bir fiil.",
+          "id": "b2-u03-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Daha fazla seyahat etmediğim için pişmanım.\"",
+          "options": [
+            "I regret not travelling more.",
+            "I regret to not travel more."
+          ],
+          "answerIndex": 0,
+          "explanation": "regret not + -ing.",
+          "id": "b2-u03-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Memnuniyet:",
+          "options": [
+            "I'm glad I took the job.",
+            "I wish I took the job."
+          ],
+          "answerIndex": 0,
+          "explanation": "I'm glad + past simple.",
+          "id": "b2-u03-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's no point ___ worrying about it now.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "There's no point in.",
+          "id": "b2-u03-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___, it was the right decision. (geriye dönüp bakınca)",
+          "answers": [
+            "hindsight"
+          ],
+          "explanation": "In hindsight.",
+          "id": "b2-u03-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I don't regret ___ (take) the risk.",
+          "answers": [
+            "taking"
+          ],
+          "explanation": "regret + -ing.",
+          "id": "b2-u03-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ I didn't buy that car. It broke down a month later. (rahatladım)",
+          "answers": [
+            "relieved",
+            "glad"
+          ],
+          "explanation": "relieved.",
+          "id": "b2-u03-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I'd ___ (play) it safe, I would never have started my own business.",
+          "answers": [
+            "played"
+          ],
+          "explanation": "past perfect.",
+          "id": "b2-u03-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I regret not learning my grandmother's language. When she was alive, I was too busy. If I'd spent more time with her, I could have learned so much. It's too late now, but I'm teaching my children instead.",
+          "prompt": "Konuşan şimdi ne yapıyor?",
+          "options": [
+            "Büyükannesinin dilini öğreniyor",
+            "Çocuklarına bu dili öğretiyor",
+            "Büyükannesini ziyaret ediyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'm teaching my children instead\"",
+          "id": "b2-u03-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"O teklifi kabul etmediğime sevindim.\"",
+          "accepted": [
+            "I'm glad I didn't accept that offer.",
+            "I'm glad I didn't accept that offer",
+            "I'm glad I did not accept that offer",
+            "I am glad I didn't accept that offer",
+            "I am glad I didn't accept that offer.",
+            "I am glad I did not accept that offer",
+            "I'm glad I did not accept that offer.",
+            "I am glad I did not accept that offer.",
+            "I'm glad that I didn't accept that offer.",
+            "I'm glad that I didn't accept that offer",
+            "I am glad that I didn't accept that offer",
+            "I'm glad that I did not accept that offer",
+            "I'm glad that I did not accept that offer.",
+            "I am glad that I did not accept that offer",
+            "I am glad that I didn't accept that offer.",
+            "I am glad that I did not accept that offer.",
+            "I'm glad I didn't accept the offer.",
+            "I'm glad I didn't accept the offer",
+            "I am glad I didn't accept the offer",
+            "I'm glad I did not accept the offer",
+            "I am glad I didn't accept the offer.",
+            "I am glad I did not accept the offer",
+            "I'm glad I did not accept the offer.",
+            "I am glad I did not accept the offer.",
+            "I'm happy I didn't accept that offer.",
+            "I'm happy I didn't accept that offer",
+            "I am happy I didn't accept that offer",
+            "I'm happy I did not accept that offer",
+            "I'm happy I did not accept that offer.",
+            "I am happy I did not accept that offer",
+            "I am happy I didn't accept that offer.",
+            "I am happy I did not accept that offer."
+          ],
+          "explanation": "I'm glad I didn't accept that offer.",
+          "id": "b2-u03-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Hayatınızda verdiğiniz önemli bir kararı (ya da vermediğiniz bir kararı) değerlendiren bir blog yazısı yazın (180–220 kelime). Kararı tanıtın; olumsuz tarafını wish / if only ve third conditional ile, olumlu tarafını I'm glad / I don't regret ile anlatın; sonunda in hindsight / I've learned that ile bir ders çıkarın.",
+          "modelAnswer": "The Year I Said No\n\nFive years ago, I was offered a job in London. The salary was double what I was earning in Izmir, and it was a big international company. After a week of thinking, I said no.\n\nAt first, I regretted it terribly. I wish I had been braver. If I had accepted, my English would have improved much faster, and I might have climbed the career ladder more quickly. Every time I saw my friends' photos from abroad, I thought: that could have been me.\n\nBut in hindsight, I'm glad I stayed. Six months later, my father became seriously ill. If I had been in London, I couldn't have looked after him, and I would never have forgiven myself. I also wouldn't have met my wife, who joined my company that year.\n\nI don't regret my decision any more. I've learned that there's no point in comparing your life with an imaginary one. Every choice has a cost, and the \"perfect\" path doesn't exist. What matters is that you make your decisions honestly, and then make the best of them.",
+          "rubric": [
+            "Third conditional",
+            "wish / if only + past perfect",
+            "I'm glad / I don't regret / regret + -ing",
+            "Dengeli değerlendirme",
+            "Düzenli ve akıcı yazı"
+          ]
+        },
+        "id": "b2-u03-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "If I would have known, I would have told you.",
+          "If I had known, I would have told you."
+        ],
+        "answerIndex": 1,
+        "explanation": "Third conditional",
+        "id": "b2-u03-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "If we had left earlier, we ___ the train.",
+        "options": [
+          "would catch",
+          "would have caught"
+        ],
+        "answerIndex": 1,
+        "explanation": "would have + V3",
+        "id": "b2-u03-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Belki: \"If she'd asked, he ___ yes.\"",
+        "options": [
+          "might have said",
+          "will say"
+        ],
+        "answerIndex": 0,
+        "explanation": "might have",
+        "id": "b2-u03-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Keşke daha fazla param olsa.\" (şimdi)",
+        "options": [
+          "I wish I had more money.",
+          "I wish I had had more money."
+        ],
+        "answerIndex": 0,
+        "explanation": "wish + past simple",
+        "id": "b2-u03-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Keşke ona söylemeseydim.\" (geçmiş)",
+        "options": [
+          "I wish I didn't tell her.",
+          "I wish I hadn't told her."
+        ],
+        "answerIndex": 1,
+        "explanation": "wish + past perfect",
+        "id": "b2-u03-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Şikâyet: \"I wish my neighbour ___ his dog bark all night.\"",
+        "options": [
+          "wouldn't let",
+          "doesn't let"
+        ],
+        "answerIndex": 0,
+        "explanation": "wish + would",
+        "id": "b2-u03-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Gerçekçi istek:",
+        "options": [
+          "I wish you feel better soon.",
+          "I hope you feel better soon."
+        ],
+        "answerIndex": 1,
+        "explanation": "hope",
+        "id": "b2-u03-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "If I ___ (not / miss) the bus, I wouldn't have met her.",
+        "answers": [
+          "hadn't missed",
+          "had not missed"
+        ],
+        "explanation": "if + past perfect",
+        "id": "b2-u03-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I wish I ___ (can) speak Japanese.",
+        "answers": [
+          "could"
+        ],
+        "explanation": "wish + could",
+        "id": "b2-u03-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "If ___ I had listened to you!",
+        "answers": [
+          "only"
+        ],
+        "explanation": "If only",
+        "id": "b2-u03-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "You ___ have told me! I was so worried. (söyleyebilirdin)",
+        "answers": [
+          "could"
+        ],
+        "explanation": "could have",
+        "id": "b2-u03-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "I don't regret ___ (move) to Izmir.",
+        "answers": [
+          "moving"
+        ],
+        "explanation": "regret + -ing",
+        "id": "b2-u03-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "If I hadn't taken that wrong turn, we would have arrived on time. But then we wouldn't have found that amazing little restaurant in the mountains!",
+        "prompt": "Yanlış yola sapmanın olumlu sonucu ne oldu?",
+        "options": [
+          "Daha erken vardılar",
+          "Dağda harika bir restoran buldular",
+          "Eski bir arkadaşla karşılaştılar"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"we wouldn't have found that amazing little restaurant\"",
+        "id": "b2-u03-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Keşke daha sabırlı olsaydım.\" (geçmiş)",
+        "accepted": [
+          "I wish I had been more patient.",
+          "I wish I had been more patient",
+          "I wish I'd been more patient.",
+          "I wish I'd been more patient",
+          "I wish I would been more patient",
+          "I wish I would been more patient.",
+          "If only I had been more patient.",
+          "If only I had been more patient",
+          "If only I'd been more patient.",
+          "If only I'd been more patient",
+          "If only I would been more patient",
+          "If only I would been more patient."
+        ],
+        "explanation": "I wish I had been more patient.",
+        "id": "b2-u03-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Hayatımı değiştiren bir an\" başlıklı bir yazı yazın (160–200 kelime). O anı kısaca anlatın; o an olmasaydı neler farklı olurdu (third conditional: would / might / could have); bugün o anla ilgili neler hissettiğinizi wish, if only, I'm glad ve regret ile ifade edin.",
+        "modelAnswer": "The moment that changed my life was a phone call from my aunt when I was nineteen. She asked if I wanted to help in her small hotel in Kaş for the summer. I almost said no, because I'd planned to work in my father's shop in Ankara.\n\nIf I hadn't said yes, I would never have discovered how much I love the sea and meeting people from all over the world. I wouldn't have learned English so quickly, and I might never have studied tourism. I certainly wouldn't have met my best friend, Lena, who was staying at the hotel with her family.\n\nOf course, there are things I wish I'd done differently. I wish I had spent more time with my father during those years, because he needed help in the shop. If only I had understood that then!\n\nBut overall, I'm glad I took the chance. I don't regret leaving Ankara at all. Today, I run my own guesthouse, and every summer I think about that phone call and smile.",
+        "rubric": [
+          "Third conditional (would / might / could have)",
+          "wish / if only",
+          "I'm glad / regret + -ing",
+          "Duygusal derinlik",
+          "Düzenli ve akıcı yazı"
+        ],
+        "id": "b2-u03-t15"
+      }
+    ]
+  }
+}
