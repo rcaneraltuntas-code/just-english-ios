@@ -1,0 +1,1396 @@
+{
+  "id": "b1-u02",
+  "level": "B1",
+  "number": 2,
+  "title": "Değişimler",
+  "titleEn": "Life Changes",
+  "canDo": "Hayatımdaki değişiklikleri ve ne kadar süredir devam ettiklerini anlatabilir, geçmişte başlayıp hâlâ süren durumlar ile yakın zamandaki etkinlikleri ayırt edebilirim.",
+  "grammar": [
+    "present perfect + for / since",
+    "How long have you ...?",
+    "present perfect ve past simple (süre)",
+    "present perfect continuous",
+    "present perfect simple ve continuous farkı",
+    "recently / lately / since then"
+  ],
+  "vocabularyThemes": [
+    "yaşam değişiklikleri",
+    "kariyer ve eğitim",
+    "alışkanlık değişiklikleri"
+  ],
+  "liveClass": {
+    "title": "O zamandan beri...",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler ikili olarak 5 yıl sonra karşılaşan iki eski arkadaşı canlandırır. Birbirlerine How long have you...? / What have you been doing? soruları sorarlar ve hayatlarındaki değişiklikleri for / since ile anlatırlar. Sonra her öğrenci, partnerinin hayatındaki en büyük değişikliği sınıfa aktarır."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u02-v01",
+      "en": "move house",
+      "tr": "taşınmak",
+      "example": "We've moved house three times since 2015.",
+      "exampleTr": "2015'ten beri üç kez taşındık."
+    },
+    {
+      "id": "b1-u02-v02",
+      "en": "settle down",
+      "tr": "düzen kurmak, yerleşmek",
+      "example": "After years of travelling, he wants to settle down.",
+      "exampleTr": "Yıllarca seyahat ettikten sonra yerleşmek istiyor."
+    },
+    {
+      "id": "b1-u02-v03",
+      "en": "get promoted",
+      "tr": "terfi etmek",
+      "example": "She's just got promoted to manager.",
+      "exampleTr": "Yeni yönetici olarak terfi etti.",
+      "note": "promotion (terfi)"
+    },
+    {
+      "id": "b1-u02-v04",
+      "en": "change career",
+      "tr": "kariyer değiştirmek",
+      "example": "He changed career at 40 and became a chef.",
+      "exampleTr": "40 yaşında kariyer değiştirip aşçı oldu."
+    },
+    {
+      "id": "b1-u02-v05",
+      "en": "quit",
+      "tr": "bırakmak (iş, alışkanlık)",
+      "example": "I quit my job to start my own business.",
+      "exampleTr": "Kendi işimi kurmak için işimi bıraktım.",
+      "note": "quit → quit → quit"
+    },
+    {
+      "id": "b1-u02-v06",
+      "en": "retire",
+      "tr": "emekli olmak",
+      "example": "My parents have been retired for five years.",
+      "exampleTr": "Ailem beş yıldır emekli."
+    },
+    {
+      "id": "b1-u02-v07",
+      "en": "split up",
+      "tr": "ayrılmak (çift)",
+      "example": "They split up last year.",
+      "exampleTr": "Geçen yıl ayrıldılar.",
+      "note": "break up da olur."
+    },
+    {
+      "id": "b1-u02-v08",
+      "en": "start a family",
+      "tr": "aile kurmak (çocuk sahibi olmak)",
+      "example": "They want to start a family soon.",
+      "exampleTr": "Yakında çocuk sahibi olmak istiyorlar."
+    },
+    {
+      "id": "b1-u02-v09",
+      "en": "take up",
+      "tr": "başlamak (hobi)",
+      "example": "I've taken up running.",
+      "exampleTr": "Koşuya başladım."
+    },
+    {
+      "id": "b1-u02-v10",
+      "en": "give up",
+      "tr": "bırakmak (alışkanlık)",
+      "example": "He's given up sugar.",
+      "exampleTr": "Şekeri bıraktı."
+    },
+    {
+      "id": "b1-u02-v11",
+      "en": "since",
+      "tr": "-den beri (başlangıç noktası)",
+      "example": "I've lived here since 2018.",
+      "exampleTr": "2018'den beri burada yaşıyorum.",
+      "note": "since + zaman noktası"
+    },
+    {
+      "id": "b1-u02-v12",
+      "en": "for",
+      "tr": "-dır, -dir (süre)",
+      "example": "I've lived here for six years.",
+      "exampleTr": "Altı yıldır burada yaşıyorum.",
+      "note": "for + süre"
+    },
+    {
+      "id": "b1-u02-v13",
+      "en": "How long ...?",
+      "tr": "Ne kadar zamandır ...?",
+      "example": "How long have you known her?",
+      "exampleTr": "Onu ne zamandır tanıyorsun?"
+    },
+    {
+      "id": "b1-u02-v14",
+      "en": "recently",
+      "tr": "son zamanlarda",
+      "example": "Have you seen any good films recently?",
+      "exampleTr": "Son zamanlarda iyi bir film izledin mi?"
+    },
+    {
+      "id": "b1-u02-v15",
+      "en": "lately",
+      "tr": "son zamanlarda",
+      "example": "I've been feeling tired lately.",
+      "exampleTr": "Son zamanlarda yorgun hissediyorum.",
+      "note": "Genelde cümle sonunda."
+    },
+    {
+      "id": "b1-u02-v16",
+      "en": "since then",
+      "tr": "o zamandan beri",
+      "example": "We met in 2010. Since then we've been best friends.",
+      "exampleTr": "2010'da tanıştık. O zamandan beri en iyi arkadaşız."
+    },
+    {
+      "id": "b1-u02-v17",
+      "en": "ever since",
+      "tr": "-den beri hiç durmadan",
+      "example": "I've loved music ever since I was a child.",
+      "exampleTr": "Çocukluğumdan beri müziği severim."
+    },
+    {
+      "id": "b1-u02-v18",
+      "en": "degree",
+      "tr": "diploma, derece (üniversite)",
+      "example": "She's been studying for her degree for three years.",
+      "exampleTr": "Üç yıldır diploması için okuyor."
+    },
+    {
+      "id": "b1-u02-v19",
+      "en": "course",
+      "tr": "kurs",
+      "example": "I've been taking a cooking course.",
+      "exampleTr": "Bir yemek kursuna gidiyorum."
+    },
+    {
+      "id": "b1-u02-v20",
+      "en": "habit",
+      "tr": "alışkanlık",
+      "example": "Changing a habit takes time.",
+      "exampleTr": "Bir alışkanlığı değiştirmek zaman alır."
+    },
+    {
+      "id": "b1-u02-v21",
+      "en": "grow",
+      "tr": "büyümek, artmak",
+      "example": "Our company has grown a lot.",
+      "exampleTr": "Şirketimiz çok büyüdü.",
+      "note": "grow → grew → grown"
+    },
+    {
+      "id": "b1-u02-v22",
+      "en": "improve",
+      "tr": "gelişmek, geliştirmek",
+      "example": "Your English has improved a lot!",
+      "exampleTr": "İngilizcen çok gelişti!"
+    },
+    {
+      "id": "b1-u02-v23",
+      "en": "whole new",
+      "tr": "bambaşka, yepyeni",
+      "example": "Moving abroad was a whole new life.",
+      "exampleTr": "Yurt dışına taşınmak bambaşka bir hayattı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u02-l1",
+      "number": 1,
+      "title": "Ne zamandır?",
+      "goal": "for ve since ile hâlâ devam eden durumların ne zamandır sürdüğünü anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Mezunlar buluşması",
+        "lines": [
+          {
+            "speaker": "Ela",
+            "text": "Murat! I haven't seen you for ages! Where are you living now?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "In Izmir. I've lived there since 2019."
+          },
+          {
+            "speaker": "Ela",
+            "text": "Wow. And are you still a teacher?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "No, I changed career. I've worked as a web designer for three years now."
+          },
+          {
+            "speaker": "Ela",
+            "text": "That's a big change! Are you married?"
+          },
+          {
+            "speaker": "Murat",
+            "text": "Yes, I've been married for two years. And we've had a dog since last summer. What about you?"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Since when has Murat lived in Izmir?",
+            "options": [
+              "Since 2016",
+              "Since 2019",
+              "For two years"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've lived there since 2019.\"",
+            "id": "b1-u02-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How long has Murat been married?",
+            "options": [
+              "Three years",
+              "Two years",
+              "Since last summer"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've been married for two years.\"",
+            "id": "b1-u02-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Geçmişte başlayıp **şu anda da devam eden** durumlar için **present perfect** kullanılır.\n\n- I**'ve lived** in Izmir **since** 2019. (Hâlâ orada yaşıyorum.)\n- She**'s been** married **for** two years. (Hâlâ evli.)\n\n| for + **süre** | since + **başlangıç noktası** |\n|---|---|\n| for three years | since 2019 |\n| for six months | since January |\n| for a long time / ages | since last summer |\n| for two hours | since 9 o'clock |\n| for a week | since I was a child |\n\n**Soru:** **How long have** you **lived** here? – **For** five years. / **Since** 2020.\n\n**Durum fiilleri** (know, be, have, like) bu yapıda simple halde kalır:\n\n- I**'ve known** her **for** ten years. (~~I know her for ten years.~~)",
+        "examples": [
+          {
+            "en": "I've known Selin since primary school.",
+            "tr": "Selin'i ilkokuldan beri tanıyorum."
+          },
+          {
+            "en": "How long have you had your car?",
+            "tr": "Arabana ne zamandır sahipsin?"
+          },
+          {
+            "en": "We haven't seen each other for ages.",
+            "tr": "Uzun zamandır görüşmüyoruz."
+          }
+        ],
+        "turkishNote": "Türkçede \"2019'dan beri İzmir'de yaşıyorum\" deriz ve şimdiki zaman kullanırız; bu yüzden Türkçe konuşanlar \"I live here since 2019\" ya da \"I am living here for three years\" der. İngilizcede geçmişten bugüne süren bir durum için present perfect zorunludur: I've lived here since 2019."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I live here since 2018.",
+            "I've lived here since 2018."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmişten bugüne → present perfect.",
+          "id": "b1-u02-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I know him for ten years.",
+            "I've known him for ten years."
+          ],
+          "answerIndex": 1,
+          "explanation": "know → present perfect simple.",
+          "id": "b1-u02-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ three months",
+          "options": [
+            "for",
+            "since"
+          ],
+          "answerIndex": 0,
+          "explanation": "Süre → for.",
+          "id": "b1-u02-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ last Christmas",
+          "options": [
+            "for",
+            "since"
+          ],
+          "answerIndex": 1,
+          "explanation": "Başlangıç noktası → since.",
+          "id": "b1-u02-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ I was a child",
+          "options": [
+            "for",
+            "since"
+          ],
+          "answerIndex": 1,
+          "explanation": "since + cümle.",
+          "id": "b1-u02-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's worked here ___ 2020.",
+          "answers": [
+            "since"
+          ],
+          "explanation": "since + yıl.",
+          "id": "b1-u02-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We've been married ___ fifteen years.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "for + süre.",
+          "id": "b1-u02-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "How long ___ you had this phone?",
+          "answers": [
+            "have"
+          ],
+          "explanation": "How long have you...?",
+          "id": "b1-u02-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've had this flat since I got my first job, so that's about eight years now. I love it, but it's getting a bit small.",
+          "prompt": "Ne zamandır bu dairede yaşıyor?",
+          "options": [
+            "İlk işinden beri, yaklaşık sekiz yıl",
+            "Sekiz aydır",
+            "Geçen yıldan beri"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"since I got my first job, so that's about eight years now\"",
+          "id": "b1-u02-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Uzun zamandır görüşmüyoruz.\"",
+          "accepted": [
+            "We haven't seen each other for ages.",
+            "We haven't seen each other for ages",
+            "We haven't seen each other for a long time.",
+            "We haven't seen each other for a long time",
+            "We have not seen each other for ages.",
+            "We have not seen each other for ages",
+            "We haven't seen each other in ages.",
+            "We haven't seen each other in ages",
+            "We haven't met for ages.",
+            "We haven't met for ages",
+            "We haven't met for a long time.",
+            "We haven't met for a long time"
+          ],
+          "explanation": "We haven't seen each other + for ages.",
+          "id": "b1-u02-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendi hayatınızdan 5 durumu ne zamandır sürdüğüyle anlatın (yaşadığınız yer, işiniz/okulunuz, bir hobi, bir arkadaşlık, sahip olduğunuz bir şey). for ve since'i en az ikişer kez kullanın.",
+          "modelAnswer": "I've lived in Ankara since 2012. I've worked at the same bank for seven years. I've known my best friend Deniz since we were six. I've had my cat for three years, and I've played the guitar since university.",
+          "rubric": [
+            "Present perfect doğru",
+            "for / since doğru seçildi",
+            "Durum fiilleri simple halde"
+          ]
+        },
+        "id": "b1-u02-l1-use"
+      }
+    },
+    {
+      "id": "b1-u02-l2",
+      "number": 2,
+      "title": "Hâlâ mı, bitti mi?",
+      "goal": "Bitmiş bir süre ile hâlâ devam eden bir süreyi doğru zamanla ayırt edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir yazarın biyografisi",
+        "body": "Leyla Kara is a novelist and teacher.\n\nShe was born in Kayseri and lived there for eighteen years. Then she moved to Istanbul to study literature. She worked as a journalist for ten years, from 2005 to 2015.\n\nIn 2015 she published her first novel. Since then, she has written four more books, and she has won two national prizes.\n\nShe has lived in Bodrum for the last six years, and she has taught creative writing at a local school since 2020.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Is Leyla still a journalist?",
+            "options": [
+              "Yes, she is.",
+              "No, she isn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She worked as a journalist for ten years, from 2005 to 2015.\" (bitti)",
+            "id": "b1-u02-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How many books has she written in total?",
+            "options": [
+              "Four",
+              "Five",
+              "Two"
+            ],
+            "answerIndex": 1,
+            "explanation": "İlk roman + \"four more books\" = beş.",
+            "id": "b1-u02-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**for** hem past simple hem present perfect ile kullanılabilir, ama anlam farklıdır:\n\n| Past simple + for | Present perfect + for |\n|---|---|\n| Süre **bitti**. | Süre **hâlâ devam ediyor**. |\n| She **lived** in Kayseri **for** 18 years. (Artık orada yaşamıyor.) | She**'s lived** in Bodrum **for** six years. (Hâlâ orada.) |\n| I **worked** there **for** ten years. | I**'ve worked** here **for** ten years. |\n\n**since** neredeyse her zaman **present perfect** ile kullanılır (bugüne kadar).\n\n**Sorularda:**\n\n- **How long did** you **live** in Paris? (Artık Paris'te değil.)\n- **How long have** you **lived** in Paris? (Hâlâ Paris'te.)\n\n**since + past simple cümle:**\n\n- I**'ve lived** here **since** I **got** married.",
+        "examples": [
+          {
+            "en": "I studied in Germany for two years. Then I came back.",
+            "tr": "İki yıl Almanya'da okudum. Sonra geri döndüm."
+          },
+          {
+            "en": "I've studied English for two years, and I'm still learning.",
+            "tr": "İki yıldır İngilizce çalışıyorum ve hâlâ öğreniyorum."
+          },
+          {
+            "en": "He's been much happier since he changed jobs.",
+            "tr": "İş değiştirdiğinden beri çok daha mutlu."
+          }
+        ],
+        "turkishNote": "Türkçede \"İki yıl Almanya'da okudum\" (bitti) ve \"İki yıldır İngilizce çalışıyorum\" (sürüyor) farkı -dı / -yor ekleriyle verilir. İngilizcede bu fark past simple / present perfect ile verilir. Bir durumun hâlâ sürüp sürmediğini kendinize sorun."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Ali artık Londra'da yaşamıyor:",
+          "options": [
+            "He's lived in London for five years.",
+            "He lived in London for five years."
+          ],
+          "answerIndex": 1,
+          "explanation": "Bitmiş süre → past simple.",
+          "id": "b1-u02-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ayşe hâlâ bu şirkette:",
+          "options": [
+            "She worked here for ten years.",
+            "She's worked here for ten years."
+          ],
+          "answerIndex": 1,
+          "explanation": "Devam eden → present perfect.",
+          "id": "b1-u02-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hâlâ Paris'te olan birine:",
+          "options": [
+            "How long did you live in Paris?",
+            "How long have you lived in Paris?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hâlâ orada → present perfect.",
+          "id": "b1-u02-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My grandfather ___ in the army for twenty years. He retired in 1990. (serve)",
+          "answers": [
+            "served"
+          ],
+          "explanation": "Bitmiş → past simple.",
+          "id": "b1-u02-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've been happier since I ___ yoga. (take up → geçmiş)",
+          "answers": [
+            "took up"
+          ],
+          "explanation": "since + past simple.",
+          "id": "b1-u02-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ won three prizes since 2015.",
+          "answers": [
+            "has",
+            "'s"
+          ],
+          "explanation": "since → present perfect.",
+          "id": "b1-u02-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I've lived here since I've got married.",
+            "I've lived here since I got married."
+          ],
+          "answerIndex": 1,
+          "explanation": "since + past simple cümle.",
+          "id": "b1-u02-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I worked in a bank for twelve years, but I hated it. Three years ago I quit and opened a café. I've been my own boss since then, and I love it.",
+          "prompt": "Konuşan ne kadar süre bankada çalıştı?",
+          "options": [
+            "Üç yıl",
+            "On iki yıl",
+            "Hâlâ çalışıyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I worked in a bank for twelve years\"",
+          "id": "b1-u02-l2-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "has",
+            "She",
+            "taught",
+            "at",
+            "this",
+            "school",
+            "since",
+            "2020"
+          ],
+          "answer": "She has taught at this school since 2020.",
+          "explanation": "has + V3 + since + yıl.",
+          "translation": "2020'den beri bu okulda öğretmenlik yapıyor.",
+          "id": "b1-u02-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İki yıl Almanya'da okudum.\" (artık orada değil)",
+          "accepted": [
+            "I studied in Germany for two years.",
+            "I studied in Germany for two years",
+            "I studied for two years in Germany.",
+            "I studied for two years in Germany"
+          ],
+          "explanation": "Bitmiş süre → I studied in Germany for two years.",
+          "id": "b1-u02-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayat çizginizi anlatın: geçmişte yaptığınız ve bitmiş 2 şeyi (past simple + for) ve hâlâ devam eden 3 şeyi (present perfect + for/since) söyleyin. Bir tane de since + past simple kullanın.",
+          "modelAnswer": "I lived in Trabzon for twenty years. I worked in a hotel for two years when I was a student. I've lived in Istanbul since 2016. I've worked as a nurse for six years, and I've felt much more confident since I started this job.",
+          "rubric": [
+            "Past simple ile bitmiş süre",
+            "Present perfect ile devam eden süre",
+            "since + past simple"
+          ]
+        },
+        "id": "b1-u02-l2-use"
+      }
+    },
+    {
+      "id": "b1-u02-l3",
+      "number": 3,
+      "title": "Ne zamandır yapıyorsun?",
+      "goal": "Present perfect continuous ile geçmişte başlayıp hâlâ devam eden etkinlikleri anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Spor salonunda",
+        "lines": [
+          {
+            "speaker": "Tarık",
+            "text": "You look fantastic! Have you been training a lot?"
+          },
+          {
+            "speaker": "Nil",
+            "text": "Thanks! Yes, I've been coming here four times a week since January."
+          },
+          {
+            "speaker": "Tarık",
+            "text": "That's impressive. How long have you been doing yoga?"
+          },
+          {
+            "speaker": "Nil",
+            "text": "Only for two months. And I've been eating more healthily too."
+          },
+          {
+            "speaker": "Tarık",
+            "text": "I should do the same. I've been sitting at a desk all day for years."
+          },
+          {
+            "speaker": "Nil",
+            "text": "Why don't you come with me tomorrow?"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Since when has Nil been coming to the gym?",
+            "options": [
+              "Since January",
+              "For two months",
+              "Since last year"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"since January\"",
+            "id": "b1-u02-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What else has Nil been doing?",
+            "options": [
+              "Sleeping more",
+              "Eating more healthily",
+              "Running every day"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've been eating more healthily too.\"",
+            "id": "b1-u02-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Present perfect continuous** geçmişte başlayıp **hâlâ devam eden** (ya da az önce biten) **etkinlikleri** anlatır. **Süreç ve süre** vurgulanır.\n\n**Yapı:** have / has + **been** + fiil-**ing**\n\n| | |\n|---|---|\n| I / You / We / They **have been** | working |\n| He / She / It **has been** | working |\n\n- I**'ve been learning** English **for** three years.\n- She**'s been working** here **since** May.\n- **How long have** you **been waiting**? – **For** twenty minutes.\n\n**Az önce biten etkinlik + görünen sonuç:**\n\n- You look tired. – Yes, I**'ve been running**. (Koştum, o yüzden yorgunum.)\n- It**'s been raining**. The streets are wet.\n\n**Olumsuz:** I **haven't been sleeping** well lately.",
+        "examples": [
+          {
+            "en": "I've been studying for this exam for weeks.",
+            "tr": "Haftalardır bu sınava çalışıyorum."
+          },
+          {
+            "en": "How long have you been living here?",
+            "tr": "Ne zamandır burada yaşıyorsun?"
+          },
+          {
+            "en": "Your eyes are red. Have you been crying?",
+            "tr": "Gözlerin kızarmış. Ağladın mı?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-dır / -dir ...-yor\" yapısı (üç yıldır çalışıyorum) genellikle present perfect continuous'a denk gelir: I've been working for three years. \"I am working here for three years\" çok yaygın bir hatadır; for/since ile şimdiki zaman kullanılmaz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm learning English for three years.",
+            "I've been learning English for three years."
+          ],
+          "answerIndex": 1,
+          "explanation": "Süre + devam eden etkinlik → present perfect continuous.",
+          "id": "b1-u02-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She has been work here since May.",
+            "She has been working here since May."
+          ],
+          "answerIndex": 1,
+          "explanation": "have been + -ing.",
+          "id": "b1-u02-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "How long have you been ___? (wait)",
+          "answers": [
+            "waiting"
+          ],
+          "explanation": "been + -ing.",
+          "id": "b1-u02-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's ___ raining all day. (been)",
+          "answers": [
+            "been"
+          ],
+          "explanation": "has been + -ing.",
+          "id": "b1-u02-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ been sleeping well lately. (haven't)",
+          "answers": [
+            "haven't",
+            "have not"
+          ],
+          "explanation": "Olumsuz.",
+          "id": "b1-u02-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gözleri kırmızı, yüzü ıslak:",
+          "options": [
+            "Have you cried?",
+            "Have you been crying?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Görünen sonuç + etkinlik → continuous.",
+          "id": "b1-u02-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "been",
+            "I've",
+            "studying",
+            "for",
+            "this",
+            "exam",
+            "for",
+            "weeks"
+          ],
+          "answer": "I've been studying for this exam for weeks.",
+          "explanation": "have been + -ing + for + süre.",
+          "translation": "Haftalardır bu sınava çalışıyorum.",
+          "id": "b1-u02-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Sorry I'm late! Have you been waiting long? – Not really, I've only been sitting here for about ten minutes.",
+          "prompt": "Ne kadar süredir bekliyor?",
+          "options": [
+            "Yarım saat",
+            "Yaklaşık on dakika",
+            "Bir saat"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"for about ten minutes\"",
+          "id": "b1-u02-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Ne zamandır burada yaşıyorsun?\"",
+          "accepted": [
+            "How long have you been living here?",
+            "How long have you been living here",
+            "How long have you lived here?",
+            "How long have you lived here"
+          ],
+          "explanation": "How long have you been living here?",
+          "id": "b1-u02-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Son zamanlarda çok çalışıyorum.\"",
+          "accepted": [
+            "I've been working a lot lately.",
+            "I've been working a lot lately",
+            "I've been working a lot recently.",
+            "I've been working a lot recently",
+            "Lately I've been working a lot.",
+            "Lately I've been working a lot",
+            "Recently I've been working a lot.",
+            "Recently I've been working a lot",
+            "I've been working hard lately.",
+            "I've been working hard lately",
+            "I've been working hard recently.",
+            "I've been working hard recently",
+            "I have been working a lot lately.",
+            "I have been working a lot lately"
+          ],
+          "explanation": "I've been working a lot + lately.",
+          "id": "b1-u02-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son zamanlarda yaptığınız 4 etkinliği ve ne zamandır yaptığınızı present perfect continuous ile anlatın. JAI size \"You look...!\" diyecek; nedenini continuous ile açıklayın.",
+          "modelAnswer": "I've been learning to cook Italian food since last autumn. I've been running in the park for two months. I've been reading a lot of crime novels lately, and I've been planning a trip to Japan. ... I look tired because I've been working on a report all night.",
+          "rubric": [
+            "have/has been + -ing",
+            "for / since / lately",
+            "Görünen sonuç açıklaması"
+          ]
+        },
+        "id": "b1-u02-l3-use"
+      }
+    },
+    {
+      "id": "b1-u02-l4",
+      "number": 4,
+      "title": "Kaç tane mi, ne kadar süre mi?",
+      "goal": "Present perfect simple ve continuous arasında doğru seçimi yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yazarla röportaj",
+        "lines": [
+          {
+            "speaker": "Reporter",
+            "text": "You've written eight novels. How long have you been writing?"
+          },
+          {
+            "speaker": "Writer",
+            "text": "I've been writing since I was fifteen, but I've only been doing it professionally for ten years."
+          },
+          {
+            "speaker": "Reporter",
+            "text": "What are you working on now?"
+          },
+          {
+            "speaker": "Writer",
+            "text": "I've been writing a new book for about a year. I've finished six chapters so far."
+          },
+          {
+            "speaker": "Reporter",
+            "text": "And have you ever thought about writing for children?"
+          },
+          {
+            "speaker": "Writer",
+            "text": "Actually, I've been thinking about it a lot recently!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many chapters of the new book has the writer finished?",
+            "options": [
+              "Eight",
+              "Six",
+              "Ten"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've finished six chapters so far.\"",
+            "id": "b1-u02-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What has the writer been thinking about recently?",
+            "options": [
+              "Retiring",
+              "Writing for children",
+              "Moving abroad"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've been thinking about it a lot recently!\"",
+            "id": "b1-u02-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "| Present perfect **simple** | Present perfect **continuous** |\n|---|---|\n| **Sonuç, tamamlanan iş** | **Süreç, etkinliğin kendisi** |\n| **Kaç tane / ne kadar?** (how many / how much) | **Ne zamandır?** (how long) |\n| I**'ve written** three emails. | I**'ve been writing** emails all morning. |\n| She**'s read** 200 pages. | She**'s been reading** for two hours. |\n| I**'ve painted** the kitchen. (bitti) | I**'ve been painting** the kitchen. (bitmeyebilir; üstüm boyalı) |\n\n**Sayı ya da miktar varsa → simple:**\n\n- I**'ve drunk** four coffees today. (~~I've been drinking four coffees~~)\n\n**Durum fiilleri → her zaman simple:**\n\n- I**'ve known** her for years. (~~I've been knowing~~)\n- He**'s had** that car since 2010.\n\n**Bazı fiillerde ikisi de doğru, anlam neredeyse aynı:** live, work, study, teach\n\n- I've lived / I've been living here for five years.",
+        "examples": [
+          {
+            "en": "I've been cleaning all day, and I've cleaned three rooms.",
+            "tr": "Bütün gün temizlik yapıyorum ve üç oda temizledim."
+          },
+          {
+            "en": "How many countries have you visited?",
+            "tr": "Kaç ülke gezdin?"
+          },
+          {
+            "en": "How long have you been travelling?",
+            "tr": "Ne zamandır seyahat ediyorsun?"
+          }
+        ],
+        "turkishNote": "Basit bir test: Cümlede bir sayı ya da \"kaç tane\" sorusu varsa simple; \"ne zamandır\" ya da \"bütün gün\" gibi bir süre vurgusu varsa continuous kullanın. \"so far\" (şimdiye kadar) genellikle simple ile kullanılır: I've read 50 pages so far."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I ___ three books this month.",
+          "options": [
+            "'ve read",
+            "'ve been reading"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sayı → simple.",
+          "id": "b1-u02-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I ___ this book for two weeks.",
+          "options": [
+            "'ve read",
+            "'ve been reading"
+          ],
+          "answerIndex": 1,
+          "explanation": "Süre, süreç → continuous.",
+          "id": "b1-u02-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I've been knowing him for years.",
+            "I've known him for years."
+          ],
+          "answerIndex": 1,
+          "explanation": "know → durum fiili.",
+          "id": "b1-u02-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ emails have you sent today?",
+          "options": [
+            "long",
+            "many"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sayı → How many + simple.",
+          "id": "b1-u02-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ four coffees today! (drink)",
+          "answers": [
+            "drunk",
+            "had"
+          ],
+          "explanation": "Sayı → simple (V3).",
+          "id": "b1-u02-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's been ___ the piano since she was six. (play)",
+          "answers": [
+            "playing"
+          ],
+          "explanation": "Süre → continuous.",
+          "id": "b1-u02-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We've visited five museums ___ far. (şimdiye kadar)",
+          "answers": [
+            "so"
+          ],
+          "explanation": "so far.",
+          "id": "b1-u02-l4-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Üstü başı boya içinde, oda yarım:",
+          "options": [
+            "I've painted the room.",
+            "I've been painting the room."
+          ],
+          "answerIndex": 1,
+          "explanation": "Süreç, bitmemiş → continuous.",
+          "id": "b1-u02-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've been looking for a new flat for three months. I've seen about twenty flats, but I haven't found the right one yet.",
+          "prompt": "Kaç daire gördü?",
+          "options": [
+            "Üç",
+            "Yaklaşık yirmi",
+            "Hiç"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I've seen about twenty flats\"",
+          "id": "b1-u02-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Doğru zamanla yazın: \"I / call / her / five times / today\"",
+          "accepted": [
+            "I've called her five times today.",
+            "I've called her five times today",
+            "I have called her five times today.",
+            "I have called her five times today"
+          ],
+          "explanation": "Sayı → I've called her five times today.",
+          "id": "b1-u02-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şu sıralar üzerinde çalıştığınız bir projeyi ya da hedefi anlatın (bir kurs, bir ev tadilatı, bir spor hedefi). Ne zamandır yaptığınızı continuous ile, şimdiye kadar ne kadar tamamladığınızı simple ile söyleyin.",
+          "modelAnswer": "I've been training for a half marathon since March. I've been running four times a week. So far I've run about 300 kilometres and I've lost five kilos. I haven't run the full distance yet, but I've done 18 kilometres.",
+          "rubric": [
+            "Continuous ile süre",
+            "Simple ile sonuç / sayı",
+            "so far / yet doğru"
+          ]
+        },
+        "id": "b1-u02-l4-use"
+      }
+    },
+    {
+      "id": "b1-u02-l5",
+      "number": 5,
+      "title": "Neler değişti?",
+      "goal": "Uzun zamandır görmediğim birine hayatımdaki değişiklikleri doğal bir şekilde anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Eski bir arkadaşa e-posta",
+        "body": "Hi Jess,\n\nIt's been ages since we last spoke! I'm sorry I haven't written for so long. A lot has changed since we finished university.\n\nFirst, big news: I've moved to Barcelona! I've been living here for about eight months. I've been learning Spanish, and I've just passed my first exam.\n\nI've also changed career. I was an accountant for five years, but I never really enjoyed it. Since September I've been working as a tour guide, and I love it.\n\nThe only bad thing is that I've been missing my family a lot lately. What about you? What have you been doing? Have you finished your master's yet?\n\nLove,\nDefne",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How long has Defne been living in Barcelona?",
+            "options": [
+              "Five years",
+              "About eight months",
+              "Since university"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've been living here for about eight months.\"",
+            "id": "b1-u02-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was Defne's old job?",
+            "options": [
+              "Tour guide",
+              "Teacher",
+              "Accountant"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"I was an accountant for five years\"",
+            "id": "b1-u02-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Uzun aradan sonra yazmak / konuşmak:**\n\n- **It's been ages** since we last spoke. / Long time no see!\n- I'm sorry I **haven't written for** so long.\n- **A lot has changed since** ...\n\n**Haberleri vermek:**\n\n- **Big news:** I've moved / I've got engaged / I've changed jobs!\n- I**'ve just** + V3 → I've just passed my exam.\n- I**'ve been** + -ing **for** ... → I've been living here for eight months.\n\n**Değişimi anlatmak:**\n\n| Kalıp | Örnek |\n|---|---|\n| I used to ..., but now ... | I used to be shy, but now I'm more confident. (9. ünitede ayrıntılı) |\n| I was ... for ..., but since ... I've been ... | I was an accountant for five years, but since September I've been working as a guide. |\n| I've become + sıfat | I've become more patient. |\n| ... has changed a lot | My life has changed a lot. |\n\n**Karşı tarafa sormak:** What have you been doing? / What have you been up to? / Have you ... yet?",
+        "examples": [
+          {
+            "en": "It's been ages since we last met!",
+            "tr": "Son görüşmemizin üzerinden çok zaman geçti!"
+          },
+          {
+            "en": "What have you been up to?",
+            "tr": "Neler yapıyorsun bu aralar?"
+          },
+          {
+            "en": "I've become much more confident since I moved here.",
+            "tr": "Buraya taşındığımdan beri çok daha özgüvenli oldum."
+          }
+        ],
+        "turkishNote": "\"Neler yapıyorsun bu aralar?\" sorusunun en doğal karşılığı \"What have you been up to?\"dır. \"It's been ages\" kalıbında it's = it has: \"It has been ages since...\" (... beri uzun zaman oldu)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Uzun aradan sonra selamlaşma:",
+          "options": [
+            "It's been ages!",
+            "It was ages!",
+            "It is ages!"
+          ],
+          "answerIndex": 0,
+          "explanation": "It's (has) been ages.",
+          "id": "b1-u02-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Neler yapıyorsun bu aralar?\"",
+          "options": [
+            "What are you doing these times?",
+            "What have you been up to?",
+            "What did you do?"
+          ],
+          "answerIndex": 1,
+          "explanation": "What have you been up to?",
+          "id": "b1-u02-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm sorry I haven't written ___ so long.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "for + süre.",
+          "id": "b1-u02-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "A lot has ___ since we finished school. (change)",
+          "answers": [
+            "changed"
+          ],
+          "explanation": "has + V3.",
+          "id": "b1-u02-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ much more patient since I had kids. (become)",
+          "answers": [
+            "become"
+          ],
+          "explanation": "become → become (V3).",
+          "id": "b1-u02-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Since September I've ___ working as a tour guide.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "have been + -ing.",
+          "id": "b1-u02-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Have you finished your degree ___? (henüz)",
+          "answers": [
+            "yet"
+          ],
+          "explanation": "yet.",
+          "id": "b1-u02-l5-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "been",
+            "It's",
+            "ages",
+            "since",
+            "we",
+            "last",
+            "spoke"
+          ],
+          "answer": "It's been ages since we last spoke.",
+          "explanation": "It's been + süre + since + past simple.",
+          "translation": "Son konuşmamızın üzerinden çok zaman geçti.",
+          "id": "b1-u02-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Long time no see! So, what's new? – Well, I've just got engaged, and we've been looking for a flat together for a few weeks.",
+          "prompt": "Konuşan ne zamandır ev arıyor?",
+          "options": [
+            "Birkaç aydır",
+            "Birkaç haftadır",
+            "Bir yıldır"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"for a few weeks\"",
+          "id": "b1-u02-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Buraya taşındığımdan beri çok daha mutluyum.\"",
+          "accepted": [
+            "I've been much happier since I moved here.",
+            "I've been much happier since I moved here",
+            "I have been much happier since I moved here.",
+            "I have been much happier since I moved here",
+            "Since I moved here, I've been much happier.",
+            "Since I moved here, I've been much happier",
+            "Since I moved here I've been much happier.",
+            "Since I moved here I've been much happier",
+            "I've been a lot happier since I moved here.",
+            "I've been a lot happier since I moved here"
+          ],
+          "explanation": "I've been much happier + since I moved here.",
+          "id": "b1-u02-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Uzun zamandır görüşmediğiniz bir arkadaşınıza e-posta yazın (120–150 kelime). Defne'nin e-postasındaki kalıpları kullanın: selamlama, en az 3 değişiklik (present perfect simple ve continuous, for/since), bitmiş bir durum (past simple + for) ve sorular.",
+          "modelAnswer": "Hi Can,\nIt's been ages since we last spoke! I'm sorry I haven't been in touch for so long. A lot has happened since your wedding.\nBig news first: I've got a new job! I worked at the bank for six years, but last spring I quit. Since June I've been working for a small design company, and I'm much happier. I've also moved to a flat near the sea. I've been living here for four months, and I've been swimming almost every morning.\nAnd guess what? I've taken up the guitar. I've been practising for two months and I've already learned ten songs!\nWhat have you been up to? Have you and Ayşe found a house yet? I'd love to hear from you.\nBest,\nMert",
+          "rubric": [
+            "Present perfect simple / continuous doğru",
+            "for / since doğru",
+            "Past simple ile bitmiş durum",
+            "E-posta kalıpları",
+            "Sorular"
+          ]
+        },
+        "id": "b1-u02-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I live here since 2015.",
+          "I've lived here since 2015."
+        ],
+        "answerIndex": 1,
+        "explanation": "Present perfect",
+        "id": "b1-u02-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ two weeks",
+        "options": [
+          "for",
+          "since"
+        ],
+        "answerIndex": 0,
+        "explanation": "for + süre",
+        "id": "b1-u02-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ Monday",
+        "options": [
+          "for",
+          "since"
+        ],
+        "answerIndex": 1,
+        "explanation": "since + nokta",
+        "id": "b1-u02-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I know her for years.",
+          "I've known her for years."
+        ],
+        "answerIndex": 1,
+        "explanation": "Durum fiili",
+        "id": "b1-u02-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Ahmet artık Londra'da değil:",
+        "options": [
+          "He's lived in London for six years.",
+          "He lived in London for six years."
+        ],
+        "answerIndex": 1,
+        "explanation": "Bitmiş → past simple",
+        "id": "b1-u02-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "I've been happier since I ___ jobs. (change → geçmiş)",
+        "answers": [
+          "changed"
+        ],
+        "explanation": "since + past simple",
+        "id": "b1-u02-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "How long have you been ___ English? (learn)",
+        "answers": [
+          "learning"
+        ],
+        "explanation": "been + -ing",
+        "id": "b1-u02-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm working here for five years.",
+          "I've been working here for five years."
+        ],
+        "answerIndex": 1,
+        "explanation": "Present perfect continuous",
+        "id": "b1-u02-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I ___ four cups of tea today.",
+        "options": [
+          "'ve drunk",
+          "'ve been drinking"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sayı → simple",
+        "id": "b1-u02-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "You're all wet!",
+        "options": [
+          "Have you swum?",
+          "Have you been swimming?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Görünen sonuç → continuous",
+        "id": "b1-u02-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I've read 100 pages so ___.",
+        "answers": [
+          "far"
+        ],
+        "explanation": "so far",
+        "id": "b1-u02-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Bu aralar neler yapıyorsun?\"",
+        "options": [
+          "What have you been up to?",
+          "What are you up?"
+        ],
+        "answerIndex": 0,
+        "explanation": "What have you been up to?",
+        "id": "b1-u02-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I've been teaching for twenty years. I taught in a village school for the first five years, and I've worked in this city since 2009.",
+        "prompt": "Köy okulunda kaç yıl öğretmenlik yaptı?",
+        "options": [
+          "Yirmi",
+          "Beş",
+          "On beş"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I taught in a village school for the first five years\"",
+        "id": "b1-u02-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Haftalardır bu projede çalışıyorum.\"",
+        "accepted": [
+          "I've been working on this project for weeks.",
+          "I've been working on this project for weeks",
+          "I have been working on this project for weeks.",
+          "I have been working on this project for weeks"
+        ],
+        "explanation": "I've been working on this project + for weeks.",
+        "id": "b1-u02-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Son 5 yılda hayatım nasıl değişti?\" başlıklı bir paragraf yazın (120–150 kelime). Present perfect simple ve continuous, for / since, past simple ile bitmiş durumlar ve recently / lately / since then kullanın.",
+        "modelAnswer": "My life has changed a lot in the last five years. Five years ago I was a student in Eskişehir. I lived in a small flat with three friends for four years, and I worked part-time in a café. Then, in 2021, I got my first job in Istanbul. I've worked as a software developer since then, and I've been promoted once. I've also met the love of my life. We've been together for three years, and we've been living together since last summer. Recently I've been learning to cook, and I've become much more organised. I've also been trying to exercise more lately. I think I've grown up a lot!",
+        "rubric": [
+          "Present perfect simple / continuous",
+          "for / since doğru",
+          "Past simple ile bitmiş durumlar",
+          "Zaman ifadeleri (recently, since then)",
+          "Akıcı ve düzenli paragraf"
+        ],
+        "id": "b1-u02-t15"
+      }
+    ]
+  }
+}
