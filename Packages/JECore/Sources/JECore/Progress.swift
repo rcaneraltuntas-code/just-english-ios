@@ -5,6 +5,25 @@ import Foundation
 /// Seri, öğrencinin günlük hedefini (dakika değil, XP) tutturduğu ardışık günlerdir.
 /// Bir günü kaçırmak seriyi bozar; ancak öğrenci haftada bir kez "seri koruyucu" kullanabilir.
 /// Amaç tekrar alışkanlığı kazandırmak: düzenli ve kısa çalışma, seyrek ve uzun çalışmadan iyidir.
+/// Öğrencinin seçtiği günlük çalışma süresi ve karşılık gelen XP hedefi.
+public enum DailyGoal: Int, Codable, CaseIterable, Sendable, Identifiable {
+    case casual = 10
+    case regular = 20
+    case serious = 30
+
+    public var id: Int { rawValue }
+    public var minutes: Int { rawValue }
+    public var xp: Int { rawValue * 2 }
+
+    public var title: String {
+        switch self {
+        case .casual: "Rahat"
+        case .regular: "Düzenli"
+        case .serious: "Ciddi"
+        }
+    }
+}
+
 public struct StudyProgress: Codable, Hashable, Sendable {
     public var dailyGoalXP: Int
     public var totalXP: Int
@@ -17,7 +36,7 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     public var todayDay: Date?
     public var freezesAvailable: Int
 
-    public init(dailyGoalXP: Int = 30) {
+    public init(dailyGoalXP: Int = DailyGoal.regular.xp) {
         self.dailyGoalXP = dailyGoalXP
         self.totalXP = 0
         self.streak = 0
