@@ -1,0 +1,1367 @@
+{
+  "id": "c2-u02",
+  "level": "C2",
+  "number": 2,
+  "title": "İnce anlamlar",
+  "titleEn": "Shades of Meaning",
+  "canDo": "Eşanlamlı kelimeler arasındaki olumlu, nötr ve olumsuz çağrışımları (connotation) ayırt edebilir, bakma, konuşma ve yürüme gibi eylemleri kesin fiillerle anlatabilir, örtmeceleri ve yüklü dili fark edebilir, yoğunlaştırıcıları doğru eşdizimlerle kullanabilir ve aynı olguları farklı bir bakış açısıyla yazabilirim.",
+  "grammar": [
+    "çağrışım: olumlu, nötr, olumsuz eşanlamlılar",
+    "kesin fiiller: glance / stare / gaze, mutter / insist, stroll / stride",
+    "örtmece ve yüklü dil",
+    "yoğunlaştırıcılar ve eşdizimler: bitterly disappointed, highly unlikely",
+    "aynı olgular, farklı bakış açısı"
+  ],
+  "vocabularyThemes": [
+    "medya",
+    "insan ilişkileri",
+    "edebiyat"
+  ],
+  "liveClass": {
+    "title": "Kelimelerin rengi",
+    "durationMinutes": 45,
+    "goal": "Gruplar aynı olayı (bir mahallede yeni bir alışveriş merkezi açılması) iki farklı gazete için yazar: biri destekleyen, biri karşı çıkan. Olgular aynı kalmalı, sadece kelime seçimi değişmeli. Gruplar metinlerini okur ve sınıf hangi kelimelerin bakış açısını değiştirdiğini işaretler. Son bölümde öğrenciler bir fotoğrafı kesin fiiller (glance, stroll, mutter) kullanarak betimler."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u02-v01",
+      "en": "connotation",
+      "tr": "çağrışım, yan anlam",
+      "example": "\"Skinny\" has a negative connotation.",
+      "exampleTr": "\"Skinny\" olumsuz bir çağrışıma sahip."
+    },
+    {
+      "id": "c2-u02-v02",
+      "en": "denotation",
+      "tr": "temel anlam, düz anlam",
+      "example": "The denotation of \"home\" is simply a place to live.",
+      "exampleTr": "\"Home\" kelimesinin düz anlamı sadece yaşanan yerdir."
+    },
+    {
+      "id": "c2-u02-v03",
+      "en": "slim",
+      "tr": "ince, narin (olumlu)",
+      "example": "She has a slim figure.",
+      "exampleTr": "İnce bir vücudu var."
+    },
+    {
+      "id": "c2-u02-v04",
+      "en": "skinny",
+      "tr": "sıska (olumsuz)",
+      "example": "He was a skinny little boy.",
+      "exampleTr": "Sıska küçük bir çocuktu."
+    },
+    {
+      "id": "c2-u02-v05",
+      "en": "thrifty",
+      "tr": "tutumlu (olumlu)",
+      "example": "My grandmother was very thrifty.",
+      "exampleTr": "Büyükannem çok tutumluydu."
+    },
+    {
+      "id": "c2-u02-v06",
+      "en": "stingy",
+      "tr": "cimri (olumsuz)",
+      "example": "Don't be so stingy!",
+      "exampleTr": "Bu kadar cimri olma!"
+    },
+    {
+      "id": "c2-u02-v07",
+      "en": "assertive",
+      "tr": "kendinden emin, iddialı (olumlu)",
+      "example": "You need to be more assertive in meetings.",
+      "exampleTr": "Toplantılarda daha kendinden emin olmalısın."
+    },
+    {
+      "id": "c2-u02-v08",
+      "en": "pushy",
+      "tr": "ısrarcı, saldırgan (olumsuz)",
+      "example": "The salesman was really pushy.",
+      "exampleTr": "Satıcı gerçekten çok ısrarcıydı."
+    },
+    {
+      "id": "c2-u02-v09",
+      "en": "glance",
+      "tr": "göz atmak",
+      "example": "She glanced at her watch.",
+      "exampleTr": "Saatine göz attı."
+    },
+    {
+      "id": "c2-u02-v10",
+      "en": "stare",
+      "tr": "dik dik bakmak",
+      "example": "It's rude to stare.",
+      "exampleTr": "Dik dik bakmak kabalıktır."
+    },
+    {
+      "id": "c2-u02-v11",
+      "en": "gaze",
+      "tr": "uzun uzun / hayranlıkla bakmak",
+      "example": "They gazed at the stars.",
+      "exampleTr": "Yıldızlara uzun uzun baktılar."
+    },
+    {
+      "id": "c2-u02-v12",
+      "en": "peer",
+      "tr": "gözlerini kısarak bakmak",
+      "example": "He peered through the fog.",
+      "exampleTr": "Sisin içinden gözlerini kısarak baktı."
+    },
+    {
+      "id": "c2-u02-v13",
+      "en": "mutter",
+      "tr": "mırıldanmak (genellikle şikâyetle)",
+      "example": "He muttered something under his breath.",
+      "exampleTr": "Kendi kendine bir şey mırıldandı."
+    },
+    {
+      "id": "c2-u02-v14",
+      "en": "stroll",
+      "tr": "gezinmek, ağır ağır yürümek",
+      "example": "We strolled along the beach.",
+      "exampleTr": "Sahil boyunca ağır ağır yürüdük."
+    },
+    {
+      "id": "c2-u02-v15",
+      "en": "stride",
+      "tr": "uzun adımlarla yürümek",
+      "example": "She strode confidently into the room.",
+      "exampleTr": "Kendinden emin uzun adımlarla odaya girdi."
+    },
+    {
+      "id": "c2-u02-v16",
+      "en": "stagger",
+      "tr": "sendelemek",
+      "example": "He staggered under the weight of the box.",
+      "exampleTr": "Kutunun ağırlığı altında sendeledi."
+    },
+    {
+      "id": "c2-u02-v17",
+      "en": "euphemism",
+      "tr": "örtmece",
+      "example": "\"Passed away\" is a euphemism for \"died\".",
+      "exampleTr": "\"Passed away\" \"öldü\" için bir örtmecedir."
+    },
+    {
+      "id": "c2-u02-v18",
+      "en": "loaded language",
+      "tr": "yüklü dil, taraflı dil",
+      "example": "The article is full of loaded language.",
+      "exampleTr": "Makale taraflı dille dolu."
+    },
+    {
+      "id": "c2-u02-v19",
+      "en": "bitterly disappointed",
+      "tr": "derin hayal kırıklığına uğramış",
+      "example": "We were bitterly disappointed by the result.",
+      "exampleTr": "Sonuçtan derin hayal kırıklığına uğradık."
+    },
+    {
+      "id": "c2-u02-v20",
+      "en": "highly unlikely",
+      "tr": "hiç olası değil",
+      "example": "It's highly unlikely that he'll come.",
+      "exampleTr": "Gelmesi hiç olası değil."
+    },
+    {
+      "id": "c2-u02-v21",
+      "en": "deeply moved",
+      "tr": "derinden etkilenmiş",
+      "example": "I was deeply moved by her speech.",
+      "exampleTr": "Konuşmasından derinden etkilendim."
+    },
+    {
+      "id": "c2-u02-v22",
+      "en": "utterly",
+      "tr": "tamamen, büsbütün",
+      "example": "I was utterly exhausted.",
+      "exampleTr": "Tamamen bitkindim."
+    },
+    {
+      "id": "c2-u02-v23",
+      "en": "slant",
+      "tr": "bakış açısı, eğilim (haberde)",
+      "example": "The article had a clear political slant.",
+      "exampleTr": "Makalenin açık bir siyasi eğilimi vardı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u02-l1",
+      "number": 1,
+      "title": "Çağrışım",
+      "goal": "Aynı temel anlama sahip kelimelerin olumlu, nötr ve olumsuz çağrışımlarını (slim / thin / skinny, thrifty / careful / stingy) ayırt edip bilinçli seçebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İki arkadaş, bir yeni komşu",
+        "lines": [
+          {
+            "speaker": "Melis",
+            "text": "Have you met our new neighbour? She's lovely. Very slim, very elegant."
+          },
+          {
+            "speaker": "Okan",
+            "text": "Elegant? I'd say she's rather skinny. And a bit pushy, too. She asked me three times to move my car."
+          },
+          {
+            "speaker": "Melis",
+            "text": "Pushy? She's just assertive. She knows what she wants."
+          },
+          {
+            "speaker": "Okan",
+            "text": "Hmm. And did you notice she refused to give anything for the street party?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "That's not stingy, Okan. She's thrifty. She told me she's saving for a house."
+          },
+          {
+            "speaker": "Okan",
+            "text": "Well, you clearly like her more than I do!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Okan think the neighbour is pushy?",
+            "options": [
+              "She shouted at him.",
+              "She asked him three times to move his car.",
+              "She took his parking space."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She asked me three times to move my car.\"",
+            "id": "c2-u02-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do Melis and Okan disagree about?",
+            "options": [
+              "The facts",
+              "How to describe the neighbour"
+            ],
+            "answerIndex": 1,
+            "explanation": "Aynı olgular, farklı kelimeler.",
+            "id": "c2-u02-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Her kelimenin bir **düz anlamı (denotation)** ve bir **çağrışımı (connotation)** vardır. Aynı kişiyi ya da durumu tarif eden kelimeler, konuşanın **tutumunu** açığa çıkarır.\n\n| Olumlu | Nötr | Olumsuz |\n|---|---|---|\n| slim, slender | thin | skinny, scrawny, bony |\n| thrifty, economical | careful with money | stingy, mean, tight-fisted |\n| assertive, confident | direct | pushy, aggressive, arrogant |\n| curious, inquisitive | interested | nosy, prying |\n| determined, persistent | firm | stubborn, obstinate, pig-headed |\n| youthful | young | childish, immature |\n| relaxed, easy-going | calm | lazy, careless |\n| frank, honest | direct | blunt, tactless |\n| unique, unconventional | unusual | weird, odd, peculiar |\n| aroma, fragrance, scent | smell | odour, stench, stink |\n| cosy, compact | small | cramped, poky |\n| mature, experienced | old, elderly (kibar) | past it, ancient (alaycı) |\n\n**Nasıl kullanılır?**\n\n- **İkna** ederken: *Our compact flat* (emlak ilanı) vs. *a cramped flat* (eleştiri)\n- **Diplomasi** gerektiğinde: *He's very direct.* (= *He's blunt.*)\n- **Edebiyatta** karakter betimlemesinde: yazarın tutumunu açığa çıkarır.\n\n**Dikkat:** Bazı kelimeler **bağlama göre** çağrışım değiştirir: *ambitious* (olumlu: hırslı ve başarılı / olumsuz: aşırı hırslı), *proud* (gururlu / kibirli).",
+        "examples": [
+          {
+            "en": "The estate agent described the flat as \"cosy\". It was cramped.",
+            "tr": "Emlakçı daireyi \"şirin ve sıcak\" diye tanımladı. Sıkış tıkıştı."
+          },
+          {
+            "en": "She's not stubborn; she's determined.",
+            "tr": "O inatçı değil, kararlı."
+          },
+          {
+            "en": "I'd rather be called frank than blunt.",
+            "tr": "Kaba yerine dürüst denmesini tercih ederim."
+          }
+        ],
+        "turkishNote": "Türkçede de benzer çağrışım farkları vardır: \"ince / zayıf / sıska\", \"tutumlu / cimri\", \"kararlı / inatçı\", \"meraklı / burnunu sokan\". Ancak İngilizcede bu farklar daha geniş bir kelime yelpazesiyle ifade edilir ve yanlış seçim istemeden kaba görünmenize yol açabilir. Örneğin bir arkadaşınızın annesine \"She's very thin\" yerine \"skinny\" demek kabalık olur. Özellikle \"old\" yerine \"elderly\" ya da \"older\" kullanmak daha kibar kabul edilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Olumlu çağrışım:",
+          "options": [
+            "slim",
+            "skinny"
+          ],
+          "answerIndex": 0,
+          "explanation": "slim.",
+          "id": "c2-u02-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Olumsuz çağrışım:",
+          "options": [
+            "thrifty",
+            "stingy"
+          ],
+          "answerIndex": 1,
+          "explanation": "stingy.",
+          "id": "c2-u02-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"nosy\" anlamı:",
+          "options": [
+            "Meraklı ve ilgili (olumlu)",
+            "Başkasının işine burnunu sokan (olumsuz)"
+          ],
+          "answerIndex": 1,
+          "explanation": "nosy.",
+          "id": "c2-u02-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Emlak ilanında olumlu kelime:",
+          "options": [
+            "cramped",
+            "cosy"
+          ],
+          "answerIndex": 1,
+          "explanation": "cosy.",
+          "id": "c2-u02-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He's not stubborn; he's ___. He never gives up. (olumlu: kararlı)",
+          "answers": [
+            "determined",
+            "persistent"
+          ],
+          "explanation": "determined.",
+          "id": "c2-u02-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What a lovely ___! Is that jasmine? (olumlu: koku)",
+          "answers": [
+            "fragrance",
+            "scent",
+            "aroma"
+          ],
+          "explanation": "fragrance.",
+          "id": "c2-u02-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's very ___; she always tells you exactly what she thinks. (olumlu: açık sözlü)",
+          "answers": [
+            "frank",
+            "honest",
+            "direct"
+          ],
+          "explanation": "frank.",
+          "id": "c2-u02-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "There was a terrible ___ coming from the bin. (olumsuz: koku)",
+          "answers": [
+            "stench",
+            "smell",
+            "odour",
+            "stink"
+          ],
+          "explanation": "stench.",
+          "id": "c2-u02-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I wouldn't call him lazy. He's just very relaxed. And he's not childish, he's youthful. OK, he's a bit stubborn sometimes. Fine, he's my brother, and I love him.",
+          "prompt": "Konuşan kardeşini nasıl tanıtıyor?",
+          "options": [
+            "Olumsuz kelimelerle eleştiriyor",
+            "Olumsuz özellikleri olumlu kelimelerle yumuşatıyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "lazy → relaxed, childish → youthful.",
+          "id": "c2-u02-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "slim",
+              "right": "skinny"
+            },
+            {
+              "left": "thrifty",
+              "right": "stingy"
+            },
+            {
+              "left": "assertive",
+              "right": "pushy"
+            },
+            {
+              "left": "curious",
+              "right": "nosy"
+            },
+            {
+              "left": "frank",
+              "right": "blunt"
+            }
+          ],
+          "explanation": "Her olumlu kelimeyi olumsuz karşılığıyla eşleştirin.",
+          "id": "c2-u02-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Tanıdığınız bir kişiyi (ya da hayali birini) iki kez tanıtın (her biri 30 saniye): (1) Onu çok seven bir arkadaşı gibi, olumlu çağrışımlı kelimelerle. (2) Ondan hoşlanmayan biri gibi, aynı özellikler için olumsuz çağrışımlı kelimelerle. Olgular aynı kalsın, sadece kelimeler değişsin.",
+          "modelAnswer": "Positive: My colleague Ece is one of the most determined people I know. She's very assertive in meetings and always frank about what she thinks. She's quite thrifty, too; she brings her own lunch every day and is saving to travel the world. She's slim, energetic and has a wonderfully unconventional sense of style. Negative: Honestly, Ece is incredibly stubborn. She's pushy in meetings and can be really blunt, even rude. She's also a bit stingy; she never joins us for lunch. And her clothes? Let's just say they're rather odd.",
+          "rubric": [
+            "Olumlu çağrışımlı kelimeler",
+            "Olumsuz çağrışımlı kelimeler",
+            "Aynı olgular",
+            "Çeşitlilik"
+          ]
+        },
+        "id": "c2-u02-l1-use"
+      }
+    },
+    {
+      "id": "c2-u02-l2",
+      "number": 2,
+      "title": "Kesin fiiller",
+      "goal": "Bakma (glance, stare, gaze, peer, glimpse), konuşma (mutter, whisper, insist, snap, mumble) ve yürüme (stroll, stride, stagger, wander, tiptoe) eylemlerini kesin fiillerle anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir öyküden",
+        "body": "Kemal strode into the station, glanced at the board and groaned. The train was delayed again. He wandered over to a bench and sat down. Across the platform, a little girl was staring at him. Her mother whispered something to her, and the girl quickly looked away. An old man shuffled past, muttering about the weather. Kemal peered down the tunnel. In the distance, he glimpsed a faint light. \"Finally,\" he mumbled, and staggered to his feet, his heavy bag over his shoulder.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Kemal see on the board?",
+            "options": [
+              "His train was cancelled.",
+              "His train was delayed.",
+              "His train had left."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The train was delayed again.\"",
+            "id": "c2-u02-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the old man doing?",
+            "options": [
+              "Shouting",
+              "Muttering about the weather",
+              "Running"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"muttering about the weather\"",
+            "id": "c2-u02-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "C2 seviyesinde *look, say, walk* gibi genel fiiller yerine, **nasıl** yapıldığını da anlatan **kesin fiiller** kullanılır.\n\n**1. Bakma fiilleri:**\n\n| Fiil | Anlam |\n|---|---|\n| **glance** (at) | kısa bir an bakmak |\n| **glimpse** / catch a glimpse of | bir an için görmek (istemeden) |\n| **stare** (at) | uzun süre, dik dik bakmak (çoğu zaman kaba) |\n| **gaze** (at) | uzun uzun, hayranlıkla ya da dalgın bakmak |\n| **peer** (at / into) | zor görünen bir şeye gözlerini kısarak bakmak |\n| **glare** (at) | öfkeyle bakmak |\n| **scan** | hızla gözden geçirmek |\n\n**2. Konuşma fiilleri:**\n\n| Fiil | Anlam |\n|---|---|\n| **whisper** | fısıldamak |\n| **mutter** | mırıldanmak (genellikle şikâyet) |\n| **mumble** | anlaşılmaz şekilde konuşmak |\n| **insist** | ısrar etmek |\n| **snap** | sinirle, sert bir şekilde söylemek |\n| **groan** | inlemek, söylenmek (hayal kırıklığı) |\n| **stammer** / **stutter** | kekelemek |\n| **exclaim** | heyecanla söylemek |\n\n**3. Yürüme fiilleri:**\n\n| Fiil | Anlam |\n|---|---|\n| **stroll** | keyifle, ağır ağır yürümek |\n| **stride** | kararlı, uzun adımlarla yürümek |\n| **wander** | amaçsızca dolaşmak |\n| **stagger** | sendeleyerek yürümek |\n| **shuffle** | ayaklarını sürüyerek yürümek |\n| **tiptoe** | parmak uçlarında yürümek |\n| **march** | kararlı / öfkeli yürümek |\n| **limp** | topallamak |\n\n**Etki:** *\"He walked into the room\"* bilgi verir; *\"He strode into the room\"* karakteri ve ruh halini de anlatır.",
+        "examples": [
+          {
+            "en": "She glared at me when I interrupted her.",
+            "tr": "Sözünü kestiğimde bana öfkeyle baktı."
+          },
+          {
+            "en": "We tiptoed past the baby's room.",
+            "tr": "Bebeğin odasının önünden parmak uçlarımızda geçtik."
+          },
+          {
+            "en": "\"Leave me alone!\" he snapped.",
+            "tr": "\"Beni rahat bırak!\" diye çıkıştı."
+          }
+        ],
+        "turkishNote": "Türkçede bu ayrımlar genellikle zarflarla yapılır: \"dik dik bakmak\", \"göz ucuyla bakmak\", \"ağır ağır yürümek\", \"sendeleyerek yürümek\". İngilizcede ise tek bir fiil hem eylemi hem de biçimini anlatır. Türk öğrenciler genellikle \"look\", \"say\" ve \"walk\" fiillerini aşırı kullanır. Hikâye ve betimleme yazarken bu kesin fiilleri kullanmak, yazınızı çok daha canlı ve C2 seviyesine uygun hale getirir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kısa bir an bakmak:",
+          "options": [
+            "glance",
+            "gaze"
+          ],
+          "answerIndex": 0,
+          "explanation": "glance.",
+          "id": "c2-u02-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Öfkeyle bakmak:",
+          "options": [
+            "glare",
+            "glimpse"
+          ],
+          "answerIndex": 0,
+          "explanation": "glare.",
+          "id": "c2-u02-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kendinden emin, uzun adımlarla yürümek:",
+          "options": [
+            "stride",
+            "shuffle"
+          ],
+          "answerIndex": 0,
+          "explanation": "stride.",
+          "id": "c2-u02-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sinirle, sert bir şekilde söylemek:",
+          "options": [
+            "snap",
+            "whisper"
+          ],
+          "answerIndex": 0,
+          "explanation": "snap.",
+          "id": "c2-u02-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ along the river, enjoying the sunshine. (keyifle yürümek)",
+          "answers": [
+            "strolled",
+            "wandered"
+          ],
+          "explanation": "strolled.",
+          "id": "c2-u02-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ at the stars for hours. (hayranlıkla bakmak)",
+          "answers": [
+            "gazed"
+          ],
+          "explanation": "gazed.",
+          "id": "c2-u02-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ through the dirty window, trying to see inside. (gözlerini kısarak bakmak)",
+          "answers": [
+            "peered"
+          ],
+          "explanation": "peered.",
+          "id": "c2-u02-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I didn't do it,\" he ___, looking at the floor. (anlaşılmaz konuşmak)",
+          "answers": [
+            "mumbled",
+            "muttered"
+          ],
+          "explanation": "mumbled.",
+          "id": "c2-u02-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "She tiptoed down the stairs, careful not to wake anyone. In the kitchen, she glimpsed a shadow by the window. Her heart was racing. \"Who's there?\" she whispered. A familiar voice muttered, \"It's only me. I couldn't sleep.\"",
+          "prompt": "Mutfakta kim vardı?",
+          "options": [
+            "Bir hırsız",
+            "Evden tanıdık biri",
+            "Bir kedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"A familiar voice ... It's only me.\"",
+          "id": "c2-u02-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "glance",
+              "right": "kısa bir an bakmak"
+            },
+            {
+              "left": "stare",
+              "right": "dik dik bakmak"
+            },
+            {
+              "left": "stagger",
+              "right": "sendelemek"
+            },
+            {
+              "left": "whisper",
+              "right": "fısıldamak"
+            },
+            {
+              "left": "wander",
+              "right": "amaçsızca dolaşmak"
+            }
+          ],
+          "explanation": "Her fiili anlamıyla eşleştirin.",
+          "id": "c2-u02-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kalabalık bir yeri (havalimanı, pazar, hastane bekleme salonu, park) bir romandan bir sahne gibi betimleyin (1 dakika). Gördüğünüz en az 4 kişinin ne yaptığını anlatın ve en az 2 bakma, 2 konuşma ve 2 yürüme fiili kullanın (look, say, walk kullanmadan!).",
+          "modelAnswer": "It's Saturday morning at the market. An elderly woman shuffles between the stalls, peering at the tomatoes as if they've personally offended her. A young couple stroll past, hand in hand, gazing at each other rather than the vegetables. Behind the cheese stall, a tired seller is muttering about the prices to anyone who'll listen. Suddenly, a man in a suit strides through the crowd, glancing at his watch and snapping at his phone. A small boy stares at him, open-mouthed, until his mother whispers, \"Don't stare,\" and gently pulls him away.",
+          "rubric": [
+            "Kesin bakma fiilleri",
+            "Kesin konuşma fiilleri",
+            "Kesin yürüme fiilleri",
+            "Canlı betimleme"
+          ]
+        },
+        "id": "c2-u02-l2-use"
+      }
+    },
+    {
+      "id": "c2-u02-l3",
+      "number": 3,
+      "title": "Örtmece ve yüklü dil",
+      "goal": "Örtmeceleri (passed away, let go, between jobs) ve medyada / siyasette kullanılan yüklü dili fark edip yorumlayabilir, gerektiğinde nazik bir dil kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki gazete, bir haber",
+        "body": "Newspaper A:\n\"Hundreds of peaceful protesters gathered outside the town hall yesterday to defend their local park from a controversial building project. Campaigners say the scheme will destroy one of the last green spaces in the area.\"\n\nNewspaper B:\n\"A crowd of angry activists blocked the entrance to the town hall yesterday in an attempt to halt a new housing development. Supporters say the project will provide much-needed homes for local families.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which newspaper seems to support the protest?",
+            "options": [
+              "Newspaper A",
+              "Newspaper B"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"peaceful protesters\", \"defend\", \"destroy\"",
+            "id": "c2-u02-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the project, according to Newspaper B?",
+            "options": [
+              "A shopping centre",
+              "A housing development",
+              "A new road"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a new housing development\"",
+            "id": "c2-u02-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Örtmece (euphemism):** Hoş olmayan, utandırıcı ya da hassas bir şeyi **yumuşatarak** söylemek.\n\n| Örtmece | Doğrudan anlam |\n|---|---|\n| **pass away** | die |\n| **let someone go / downsize / make redundant** | fire people |\n| **between jobs** | unemployed |\n| **senior citizens / older people** | old people |\n| **economical with the truth** | lying |\n| **under the weather** | ill |\n| **a little on the heavy side** | fat |\n| **the restroom / the bathroom** | the toilet |\n| **financially challenged** (genellikle şaka) | poor |\n\n**İş dünyası ve siyasette örtmeceler:**\n\n- *restructuring* (çoğu zaman = işten çıkarma)\n- *price adjustment* (= zam)\n- *collateral damage* (= sivil kayıplar)\n- *negative growth* (= küçülme)\n\n**2. Yüklü dil (loaded language):** Okuyucunun **duygusal tepkisini** yönlendirmek için seçilen kelimeler.\n\n| Olumlu / sempatik | Olumsuz / eleştirel |\n|---|---|\n| peaceful protesters / campaigners | angry activists / a mob |\n| defend the park | block the entrance / halt the development |\n| tax relief | tax cuts for the rich |\n| reform | shake-up / upheaval |\n| a bold decision | a reckless gamble |\n| revealed | admitted / confessed |\n\n**Eleştirel okuma soruları:**\n\n1. Hangi kelimeler **duygusal** tepki yaratmak için seçilmiş?\n2. Kim **etken**, kim **edilgen** olarak gösteriliyor?\n3. Hangi bilgiler **eksik**?\n4. Aynı olay **nötr** kelimelerle nasıl anlatılırdı?",
+        "examples": [
+          {
+            "en": "I'm afraid her grandfather passed away last week.",
+            "tr": "Maalesef dedesi geçen hafta vefat etti."
+          },
+          {
+            "en": "The company is restructuring, which means around 200 jobs will go.",
+            "tr": "Şirket yeniden yapılanıyor, bu da yaklaşık 200 kişinin işini kaybedeceği anlamına geliyor."
+          },
+          {
+            "en": "The minister was being economical with the truth.",
+            "tr": "Bakan gerçeği tam söylemiyordu."
+          }
+        ],
+        "turkishNote": "Türkçede de çok sayıda örtmece vardır: \"vefat etmek\", \"rahatsızlanmak\", \"işten ayrılmak\", \"tuvalet\" yerine \"lavabo\" demek. Medyadaki yüklü dil de evrenseldir: Aynı grup bir gazetede \"göstericiler\", diğerinde \"provokatörler\" olarak adlandırılabilir. İngilizce haber okurken bu kelimelere dikkat etmek, eleştirel okuma becerinizi geliştirir. Sınavlarda (IELTS, CPE) \"Yazarın tutumu nedir?\" sorularının cevabı genellikle bu yüklü kelimelerde gizlidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He passed away last year.\" anlamı:",
+          "options": [
+            "Geçen yıl taşındı.",
+            "Geçen yıl vefat etti."
+          ],
+          "answerIndex": 1,
+          "explanation": "pass away.",
+          "id": "c2-u02-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm between jobs at the moment.\" anlamı:",
+          "options": [
+            "İki işte çalışıyorum.",
+            "Şu an işsizim."
+          ],
+          "answerIndex": 1,
+          "explanation": "between jobs.",
+          "id": "c2-u02-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sempatik bir haber dili:",
+          "options": [
+            "a mob of angry activists",
+            "peaceful campaigners"
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumlu yüklü dil.",
+          "id": "c2-u02-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The company is restructuring.\" genellikle:",
+          "options": [
+            "İşten çıkarmalar olacak.",
+            "Ofis yenilenecek."
+          ],
+          "answerIndex": 0,
+          "explanation": "Örtmece.",
+          "id": "c2-u02-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm feeling a bit under the ___ today. I think I've got a cold.",
+          "answers": [
+            "weather"
+          ],
+          "explanation": "under the weather.",
+          "id": "c2-u02-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The company had to let 50 employees ___. (işten çıkarmak)",
+          "answers": [
+            "go"
+          ],
+          "explanation": "let go.",
+          "id": "c2-u02-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The politician was being economical with the ___. (yalan söylemek)",
+          "answers": [
+            "truth"
+          ],
+          "explanation": "economical with the truth.",
+          "id": "c2-u02-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Supporters called it a bold decision; critics called it a reckless ___. (kumar)",
+          "answers": [
+            "gamble"
+          ],
+          "explanation": "a reckless gamble.",
+          "id": "c2-u02-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The government has announced what it calls a modest price adjustment for public transport. In practice, this means that a monthly travel card will go up by twenty per cent from January.",
+          "prompt": "\"Price adjustment\" aslında ne anlama geliyor?",
+          "options": [
+            "İndirim",
+            "%20 zam",
+            "Fiyat değişmeyecek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"go up by twenty per cent\"",
+          "id": "c2-u02-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "pass away",
+              "right": "die"
+            },
+            {
+              "left": "let go",
+              "right": "fire"
+            },
+            {
+              "left": "under the weather",
+              "right": "ill"
+            },
+            {
+              "left": "between jobs",
+              "right": "unemployed"
+            },
+            {
+              "left": "economical with the truth",
+              "right": "lying"
+            }
+          ],
+          "explanation": "Her örtmeceyi doğrudan anlamıyla eşleştirin.",
+          "id": "c2-u02-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aynı olayı iki farklı haber spikeri gibi sunun (her biri 30 saniye). Olay: \"Şehir belediyesi, eski bir pazar yerini kapatıp yerine bir otopark yapmaya karar verdi. Yaklaşık 80 esnaf yer değiştirmek zorunda kalacak.\" (1) Kararı destekleyen bir kanal. (2) Karara karşı çıkan bir kanal. Olgular aynı kalsın, sadece kelimeler değişsin.",
+          "modelAnswer": "Supportive: The city council has announced a bold plan to modernise the city centre. The old market, which has long suffered from poor facilities, will be replaced by a new car park, easing traffic for thousands of shoppers. Around 80 traders will be relocated to a new site. Critical: In a controversial move, the city council has decided to demolish the historic market, a beloved local landmark, to make way for yet another car park. Around 80 traders, many of whom have worked there for decades, will be forced out of their stalls.",
+          "rubric": [
+            "Olumlu yüklü dil",
+            "Olumsuz yüklü dil",
+            "Aynı olgular",
+            "Haber üslubu"
+          ]
+        },
+        "id": "c2-u02-l3-use"
+      }
+    },
+    {
+      "id": "c2-u02-l4",
+      "number": 4,
+      "title": "Yoğunlaştırıcılar ve eşdizimler",
+      "goal": "Derecelendirilebilir ve derecelendirilemez sıfatlarla doğru yoğunlaştırıcıları (very / absolutely) ve doğal eşdizimleri (bitterly disappointed, highly unlikely, deeply moved) kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir film eleştirisinden",
+        "body": "I went into the cinema with high expectations and came out bitterly disappointed. The first half is painfully slow, and the dialogue is utterly unconvincing. It is highly unlikely that anyone will remember the plot a week later. That said, the lead actor gives a deeply moving performance, and the final scene is absolutely stunning. It is a great pity that the rest of the film does not live up to it. Overall, it is a seriously flawed film with one or two genuinely brilliant moments.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the reviewer think of the lead actor?",
+            "options": [
+              "The performance was deeply moving.",
+              "The performance was unconvincing.",
+              "The actor was absent."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"a deeply moving performance\"",
+            "id": "c2-u02-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the reviewer's overall opinion?",
+            "options": [
+              "A perfect film",
+              "A seriously flawed film with some brilliant moments",
+              "A terrible film with nothing good"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"seriously flawed ... genuinely brilliant moments\"",
+            "id": "c2-u02-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Derecelendirilebilir ve derecelendirilemez sıfatlar:**\n\n| Derecelendirilebilir (gradable) | Derecelendirilemez (ungradable / extreme) |\n|---|---|\n| good, tired, cold, big, interesting | brilliant, exhausted, freezing, enormous, fascinating |\n| **very, extremely, really, fairly, quite** | **absolutely, utterly, completely, totally, really** |\n| ✓ *very tired* ✗ *absolutely tired* | ✓ *absolutely exhausted* ✗ *very exhausted* |\n\n**Not:** *really* her iki türle de kullanılabilir. *quite* ise uç sıfatlarla \"tamamen\" anlamına gelir: *quite brilliant, quite impossible*.\n\n**2. Doğal eşdizimler (collocations):** Bazı zarf + sıfat kombinasyonları kalıplaşmıştır. C2 seviyesinde bunları kullanmak çok doğal görünür.\n\n| Zarf | Sıfat |\n|---|---|\n| **bitterly** | disappointed, cold, opposed |\n| **deeply** | moved, concerned, offended, grateful |\n| **highly** | unlikely, recommended, successful, controversial |\n| **painfully** | slow, shy, obvious, aware |\n| **utterly** | ridiculous, convinced, exhausted |\n| **seriously** | ill, injured, flawed |\n| **strongly** | opposed, recommended |\n| **fully** | aware, booked, understand |\n| **perfectly** | clear, normal, capable |\n| **wide** | awake, open |\n| **fast** | asleep |\n| **genuinely** | interested, surprised |\n\n**Doğal olmayanlar:** ✗ *highly disappointed*, ✗ *bitterly unlikely*, ✗ *deeply slow*.\n\n**3. Dikkat: understatement (C2 Ünite 7):** Bazen yoğunlaştırıcıların tersi de etkilidir: *It's not exactly cheap* (= çok pahalı).",
+        "examples": [
+          {
+            "en": "I'm fully aware of the risks.",
+            "tr": "Risklerin tamamen farkındayım."
+          },
+          {
+            "en": "The restaurant is highly recommended.",
+            "tr": "Restoran şiddetle tavsiye ediliyor."
+          },
+          {
+            "en": "By midnight, the children were fast asleep.",
+            "tr": "Gece yarısı çocuklar derin uykudaydı."
+          }
+        ],
+        "turkishNote": "Türkçede \"çok\" kelimesi hemen her sıfatla kullanılabilir: \"çok yorgun\", \"çok bitkin\", \"çok harika\". İngilizcede ise \"very\" sadece derecelendirilebilir sıfatlarla kullanılır; \"very exhausted\" ya da \"very fantastic\" doğal değildir. Türk öğrencilerin C2'de dikkat etmesi gereken asıl nokta eşdizimlerdir: \"derin hayal kırıklığı\" İngilizcede \"deeply disappointed\" olabilir ama \"bitterly disappointed\" çok daha yaygın ve doğaldır. \"Derin uykuda\" ise \"fast asleep\" olur, \"deeply asleep\" değil."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "very exhausted",
+            "absolutely exhausted"
+          ],
+          "answerIndex": 1,
+          "explanation": "Uç sıfat + absolutely.",
+          "id": "c2-u02-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "absolutely tired",
+            "extremely tired"
+          ],
+          "answerIndex": 1,
+          "explanation": "Derecelendirilebilir + extremely.",
+          "id": "c2-u02-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğal eşdizim:",
+          "options": [
+            "highly disappointed",
+            "bitterly disappointed"
+          ],
+          "answerIndex": 1,
+          "explanation": "bitterly disappointed.",
+          "id": "c2-u02-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğal eşdizim:",
+          "options": [
+            "fast asleep",
+            "deeply asleep"
+          ],
+          "answerIndex": 0,
+          "explanation": "fast asleep.",
+          "id": "c2-u02-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's ___ unlikely that the flight will leave on time. (hiç)",
+          "answers": [
+            "highly"
+          ],
+          "explanation": "highly unlikely.",
+          "id": "c2-u02-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was ___ moved by her story. (derinden)",
+          "answers": [
+            "deeply"
+          ],
+          "explanation": "deeply moved.",
+          "id": "c2-u02-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The hotel is fully ___ for the whole of August. (dolu)",
+          "answers": [
+            "booked"
+          ],
+          "explanation": "fully booked.",
+          "id": "c2-u02-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "He's ___ shy; he can hardly speak to strangers. (acı verecek kadar)",
+          "answers": [
+            "painfully"
+          ],
+          "explanation": "painfully shy.",
+          "id": "c2-u02-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'd highly recommend the new exhibition. The paintings are absolutely stunning, and the guide was genuinely interesting. My only complaint is that the café was painfully slow.",
+          "prompt": "Konuşanın tek şikâyeti neydi?",
+          "options": [
+            "Resimler",
+            "Rehber",
+            "Kafenin çok yavaş olması"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"the café was painfully slow\"",
+          "id": "c2-u02-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "bitterly",
+              "right": "disappointed"
+            },
+            {
+              "left": "highly",
+              "right": "unlikely"
+            },
+            {
+              "left": "deeply",
+              "right": "grateful"
+            },
+            {
+              "left": "wide",
+              "right": "awake"
+            },
+            {
+              "left": "seriously",
+              "right": "injured"
+            }
+          ],
+          "explanation": "Her zarfı en doğal sıfatla eşleştirin.",
+          "id": "c2-u02-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son izlediğiniz bir filmi, okuduğunuz bir kitabı ya da gittiğiniz bir restoranı bir eleştirmen gibi değerlendirin (1 dakika). En az 6 doğal zarf + sıfat eşdizimi kullanın (bitterly disappointed, highly recommended, deeply moving, painfully slow, utterly ridiculous, absolutely stunning, genuinely funny, seriously flawed ...). very kullanmayın!",
+          "modelAnswer": "Last weekend, I finally watched a film that everyone had been talking about, and I have to say, I was bitterly disappointed. The opening scenes are absolutely stunning, but after that, the story becomes painfully slow. Some of the dialogue is utterly ridiculous, and the ending is highly predictable. To be fair, the lead actress is genuinely talented, and there's one deeply moving scene with her father. But overall, it's a seriously flawed film. I wouldn't say it's terrible, but it's certainly not as brilliant as the critics claimed.",
+          "rubric": [
+            "Doğal eşdizimler",
+            "Doğru yoğunlaştırıcılar",
+            "Eleştirel ton",
+            "Akıcılık"
+          ]
+        },
+        "id": "c2-u02-l4-use"
+      }
+    },
+    {
+      "id": "c2-u02-l5",
+      "number": 5,
+      "title": "Aynı olgular, farklı bakış açısı",
+      "goal": "Aynı olguları kelime seçimi, çağrışım, kesin fiiller ve yoğunlaştırıcılarla farklı bakış açılarından yazabilir ve bir metnin tarafını eleştirel olarak analiz edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir şirket olayı, iki rapor",
+        "body": "Report A (from the company):\n\"Following a thorough review, the company has made the difficult decision to streamline its operations. A small number of roles will be affected, and every effort will be made to support colleagues through this transition. These changes will allow us to invest in innovation and secure our long-term future.\"\n\nReport B (from the workers' union):\n\"Despite record profits, the company has announced plans to cut 300 jobs. Many of the workers affected have been with the firm for over twenty years. The union is deeply concerned that the cuts are being driven by short-term financial targets rather than by the needs of the business.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many jobs will be lost, according to the union?",
+            "options": [
+              "A small number",
+              "300",
+              "20"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"cut 300 jobs\"",
+            "id": "c2-u02-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which fact does Report A NOT mention?",
+            "options": [
+              "That the company is making record profits",
+              "That changes will allow investment"
+            ],
+            "answerIndex": 0,
+            "explanation": "Report A omits profits.",
+            "id": "c2-u02-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Aynı olaylar, yazarın **amacına** ve **bakış açısına** göre çok farklı anlatılabilir. Bu derste ünitedeki tüm araçları birleştiriyoruz.\n\n**Bakış açısını belirleyen araçlar:**\n\n| Araç | Rapor A (şirket) | Rapor B (sendika) |\n|---|---|---|\n| **Örtmece** | *streamline, roles affected, transition* | — |\n| **Doğrudan dil** | — | *cut 300 jobs* |\n| **Sayıların sunumu** | *a small number* (belirsiz) | *300* (kesin) |\n| **Seçici bilgi** | geleceğe yatırım | rekor kâr, 20 yıllık çalışanlar |\n| **Çağrışım** | *difficult decision, thorough review* | *short-term financial targets* |\n| **Yoğunlaştırıcı** | *every effort* | *deeply concerned* |\n| **Edilgen / etken** | *roles will be affected* (kim yapıyor?) | *the company has announced plans to cut* |\n\n**Kendi yazınızda bakış açısını kontrol etmek için:**\n\n1. **Kelime seçimi:** Olumlu / nötr / olumsuz çağrışım (Ders 1)\n2. **Fiiller:** *walked* mı, *strode* mu, *staggered* mı? (Ders 2)\n3. **Örtmece veya doğrudan dil:** Yumuşatmak mı, açık olmak mı? (Ders 3)\n4. **Yoğunlaştırıcılar:** *slightly concerned* mı, *deeply concerned* mı? (Ders 4)\n5. **Seçici bilgi:** Hangi olguları öne çıkarıyorsunuz, hangilerini atlıyorsunuz?\n6. **Edilgen yapı:** Sorumluyu gizlemek mi, göstermek mi?\n\n**Etik not:** Bakış açısı yaratmak meşru bir yazı becerisidir (reklam, köşe yazısı, kampanya). Ancak **olguları çarpıtmak** ya da **yalan söylemek** değildir. C2 seviyesinde bir yazar, hem bu araçları kullanabilmeli hem de başkalarının kullanımını fark edebilmelidir.",
+        "examples": [
+          {
+            "en": "Company: A small number of roles will be affected.",
+            "tr": "Şirket: Az sayıda pozisyon etkilenecek."
+          },
+          {
+            "en": "Union: The company plans to cut 300 jobs.",
+            "tr": "Sendika: Şirket 300 kişiyi işten çıkarmayı planlıyor."
+          },
+          {
+            "en": "Neutral: The company plans to reduce its workforce by 300.",
+            "tr": "Nötr: Şirket iş gücünü 300 kişi azaltmayı planlıyor."
+          }
+        ],
+        "turkishNote": "Türk medyasında da aynı olay farklı kaynaklarda çok farklı kelimelerle anlatılır. İngilizce okurken bu farkı görmek, sınavlardaki \"yazarın tutumu\" (writer's attitude) ve \"ima edilen anlam\" (implied meaning) sorularını çözmenin anahtarıdır. Yazarken ise Türk öğrencilerin İngilizce metinlerinde genellikle tek bir \"nötr\" ton kullandığı görülür. Bu dersteki araçlarla, aynı içeriği bilinçli olarak farklı tonlarda yazabilirsiniz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The company will streamline its operations.\" büyük ihtimalle:",
+          "options": [
+            "İşten çıkarmalar olacak.",
+            "Yeni çalışanlar alınacak."
+          ],
+          "answerIndex": 0,
+          "explanation": "Örtmece.",
+          "id": "c2-u02-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi sorumluyu gizler?",
+          "options": [
+            "Mistakes were made.",
+            "The manager made a mistake."
+          ],
+          "answerIndex": 0,
+          "explanation": "Edilgen.",
+          "id": "c2-u02-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi daha nötr?",
+          "options": [
+            "The company plans to reduce its workforce by 300.",
+            "The greedy company is throwing 300 loyal workers onto the street."
+          ],
+          "answerIndex": 0,
+          "explanation": "Nötr.",
+          "id": "c2-u02-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"a small number of roles\" ile \"300 jobs\" arasındaki fark:",
+          "options": [
+            "Belirsiz ve yumuşatıcı vs. kesin ve doğrudan",
+            "Hiçbir fark yok"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sayıların sunumu.",
+          "id": "c2-u02-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The union is ___ concerned about the job cuts. (derinden)",
+          "answers": [
+            "deeply"
+          ],
+          "explanation": "deeply concerned.",
+          "id": "c2-u02-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Every ___ will be made to support staff. (çaba)",
+          "answers": [
+            "effort"
+          ],
+          "explanation": "every effort.",
+          "id": "c2-u02-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The writer's ___ is clearly in favour of the plan. (bakış açısı, eğilim)",
+          "answers": [
+            "slant",
+            "bias",
+            "attitude"
+          ],
+          "explanation": "slant.",
+          "id": "c2-u02-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "By leaving out the profits, the report gives a ___ picture. (seçici, taraflı)",
+          "answers": [
+            "one-sided",
+            "selective",
+            "biased",
+            "misleading"
+          ],
+          "explanation": "one-sided.",
+          "id": "c2-u02-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Neutral version: Yesterday, the council voted to close two of the city's five public libraries. The decision will save around two million lira a year. Around forty staff will be moved to other council departments.",
+          "prompt": "Bu nötr haberde kaç kütüphane kapanacak?",
+          "options": [
+            "İki",
+            "Beş",
+            "Kırk"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"close two of the city's five public libraries\"",
+          "id": "c2-u02-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Nötr dille yeniden yazın: \"The reckless council has destroyed our beloved park.\" (The council has ...)",
+          "accepted": [
+            "The council has removed the park.",
+            "The council has removed the park",
+            "The council has closed the park.",
+            "The council has closed the park",
+            "The council has demolished the park.",
+            "The council has demolished the park",
+            "The council has built on the park.",
+            "The council has built on the park",
+            "The council has redeveloped the park.",
+            "The council has redeveloped the park"
+          ],
+          "explanation": "The council has closed the park.",
+          "id": "c2-u02-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki olgulara dayanarak iki farklı kısa haber / rapor yazın (her biri 90–120 kelime). Olgular: Bir şehir, merkezdeki ana caddeyi araç trafiğine kapatıp yayalara açtı. Esnafın bir kısmı müşteri kaybından şikâyetçi. Hava kirliliği ilk üç ayda %25 azaldı. Bazı sakinler otobüs güzergâhlarının uzadığını söylüyor. (A) Kararı destekleyen bir belediye basın bülteni. (B) Karara karşı çıkan bir esnaf derneği açıklaması. Olguları değiştirmeyin; kelime seçimi, çağrışım, örtmece, yoğunlaştırıcılar ve seçici vurgu kullanın. Sonra 2–3 cümleyle iki metni karşılaştırın.",
+          "modelAnswer": "(A) Council press release:\n\nThree months after the city transformed its main street into a vibrant pedestrian zone, the results are highly encouraging. Air pollution in the city centre has fallen by an impressive 25%, making the area cleaner and safer for families. Residents can now stroll freely, enjoy outdoor cafés and rediscover the historic heart of their city. While some bus routes have been adjusted, the council is fully committed to working with local businesses during this exciting period of transition.\n\n(B) Traders' association statement:\n\nThe association is deeply concerned about the impact of the council's decision to close the main street to traffic. Many long-established shops have reported a painful drop in customers, and some owners fear they may be forced to close. Residents, particularly older people, have complained that bus journeys now take considerably longer. While cleaner air is, of course, welcome, it should not come at the cost of local livelihoods.\n\nComparison:\n\nBoth texts use the same facts, but each one selects and frames them differently. The council emphasises the 25% fall in pollution and uses euphemisms such as \"adjusted\" and \"transition\", while the traders highlight lost customers and longer journeys, using emotionally charged language such as \"deeply concerned\" and \"painful drop\".",
+          "rubric": [
+            "İki net bakış açısı",
+            "Olgular değişmemiş",
+            "Çağrışım ve yüklü dil",
+            "Örtmece ve yoğunlaştırıcılar",
+            "Karşılaştırma analizi"
+          ]
+        },
+        "id": "c2-u02-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Olumsuz çağrışım:",
+        "options": [
+          "slim",
+          "skinny"
+        ],
+        "answerIndex": 1,
+        "explanation": "skinny",
+        "id": "c2-u02-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"She's very nosy.\" anlamı:",
+        "options": [
+          "Başkasının işine burnunu sokuyor.",
+          "Çok meraklı ve araştırmacı."
+        ],
+        "answerIndex": 0,
+        "explanation": "nosy",
+        "id": "c2-u02-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Öfkeyle bakmak:",
+        "options": [
+          "glare",
+          "gaze"
+        ],
+        "answerIndex": 0,
+        "explanation": "glare",
+        "id": "c2-u02-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olan:",
+        "options": [
+          "very exhausted",
+          "absolutely exhausted"
+        ],
+        "answerIndex": 1,
+        "explanation": "Uç sıfat",
+        "id": "c2-u02-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"The company is downsizing.\" anlamı:",
+        "options": [
+          "Şirket işçi çıkarıyor.",
+          "Şirket küçük bir ofise taşınıyor."
+        ],
+        "answerIndex": 0,
+        "explanation": "Örtmece",
+        "id": "c2-u02-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "She's not stubborn; she's ___. (olumlu)",
+        "answers": [
+          "determined",
+          "persistent"
+        ],
+        "explanation": "determined",
+        "id": "c2-u02-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ along the beach at sunset. (keyifle yürümek)",
+        "answers": [
+          "strolled",
+          "wandered"
+        ],
+        "explanation": "strolled",
+        "id": "c2-u02-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"Go away!\" he ___. (sinirle söylemek)",
+        "answers": [
+          "snapped"
+        ],
+        "explanation": "snapped",
+        "id": "c2-u02-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'm sorry to hear that your grandmother passed ___.",
+        "answers": [
+          "away"
+        ],
+        "explanation": "passed away",
+        "id": "c2-u02-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "We were ___ disappointed by the result. (derin)",
+        "answers": [
+          "bitterly",
+          "deeply"
+        ],
+        "explanation": "bitterly disappointed",
+        "id": "c2-u02-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "It's highly ___ that it will snow in July. (olası değil)",
+        "answers": [
+          "unlikely"
+        ],
+        "explanation": "highly unlikely",
+        "id": "c2-u02-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "By ten o'clock, the children were ___ asleep.",
+        "answers": [
+          "fast",
+          "sound"
+        ],
+        "explanation": "fast asleep",
+        "id": "c2-u02-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "The minister described the new policy as a minor adjustment to the pension system. Critics, however, say it means that millions of people will have to work three years longer before they can retire.",
+        "prompt": "Eleştirmenlere göre yeni politika ne anlama geliyor?",
+        "options": [
+          "Küçük bir değişiklik",
+          "Milyonlarca kişinin üç yıl daha uzun çalışması",
+          "Emekli maaşlarının artması"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"work three years longer\"",
+        "id": "c2-u02-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Nötr dille yeniden yazın: \"A mob of angry protesters blocked the road.\" (A group of ...)",
+        "accepted": [
+          "A group of protesters blocked the road.",
+          "A group of protesters blocked the road",
+          "A group of people blocked the road.",
+          "A group of people blocked the road",
+          "A group of demonstrators blocked the road.",
+          "A group of demonstrators blocked the road",
+          "A group of campaigners blocked the road.",
+          "A group of campaigners blocked the road"
+        ],
+        "explanation": "A group of protesters blocked the road.",
+        "id": "c2-u02-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Aşağıdaki olgulara dayanarak iki kısa metin yazın (her biri 90–120 kelime): Bir üniversite, ders ücretlerini %15 artırdı. Ek gelir yeni laboratuvarlara ve bursa harcanacak. Bazı öğrenciler okulu bırakmayı düşündüğünü söylüyor. (A) Üniversite yönetiminin öğrencilere e-postası (olumlu bakış açısı, örtmece). (B) Öğrenci birliğinin bir açıklaması (eleştirel bakış açısı, yüklü dil). Olguları değiştirmeyin. Çağrışım, kesin fiiller, örtmece ve doğal yoğunlaştırıcı eşdizimleri kullanın.",
+        "modelAnswer": "(A) University email:\n\nDear students,\n\nWe are writing to inform you of a modest adjustment to tuition fees for the coming academic year. Fees will rise by 15%, a decision that was not taken lightly. This additional investment will allow us to build state-of-the-art laboratories and significantly expand our scholarship programme, ensuring that talented students from all backgrounds can continue to thrive here. We are fully aware that any increase can be challenging, and our student support team is ready to help anyone who has concerns.\n\nKind regards,\nThe University Management\n\n(B) Student union statement:\n\nThe student union is bitterly disappointed by the university's decision to raise tuition fees by a staggering 15%. Many students, already struggling with the rising cost of living, have told us they are now seriously considering dropping out. While new laboratories and scholarships are welcome, it is utterly unacceptable that current students should be forced to pay for them. We strongly urge the management to reconsider this deeply unfair decision and to meet with student representatives without delay.",
+        "rubric": [
+          "İki net bakış açısı",
+          "Olgular aynı",
+          "Örtmece ve yüklü dil",
+          "Doğal yoğunlaştırıcı eşdizimleri",
+          "Uygun üslup"
+        ],
+        "id": "c2-u02-t15"
+      }
+    ]
+  }
+}
