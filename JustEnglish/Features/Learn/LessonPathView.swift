@@ -1,9 +1,9 @@
 import SwiftUI
 import JECore
 
-/// Ünitenin dersleri, referanstaki senaryo yolu gibi: yukarıdan aşağı kıvrılan geniş, açık gri bir yol
-/// (ortasında ince beyaz çizgi), üzerinde sırayla sağa sola yerleşen hap etiketler ve her birinin karşı
-/// yanında konusuna uygun büyük bir görsel. Bitirilen kısım mavi; sıradaki dersin yanında "Başla" balonu.
+/// Ünitenin dersleri, referanstaki senaryo yolu gibi: yukarıdan aşağı kıvrılan, iki açık gri kenar çizgili bir yol;
+/// yolun altından sırayla sağa sola çıkan hap etiketler ve her birinin karşı yanında konusuna uygun büyük bir emoji.
+/// Bitirilen kısım mavi; sıradaki dersin yanında "Başla" balonu.
 struct LessonPathView: View {
     let unit: CourseUnit
     let onLesson: (Lesson) -> Void
@@ -13,9 +13,11 @@ struct LessonPathView: View {
     @State private var drawn = false
 
     // Ölçüler referans görselden piksel piksel alındı (1pt ≈ 1.48px).
-    private let rowHeight: CGFloat = 88
+    private let rowHeight: CGFloat = 96
     private let roadTop: CGFloat = 23
-    private let edgeOffset: CGFloat = 7.75
+    private let edgeOffset: CGFloat = 9.5
+    /// Son dersten sonra yolun aşağı doğru devam ettiği boşluk (referanstaki gibi yol sayfanın sonuna kadar iner).
+    private let tail: CGFloat = 140
     private let pillHeight: CGFloat = 42
     private let pillWidth: CGFloat = 167
     private let bubbleWidth: CGFloat = 66
@@ -30,69 +32,113 @@ struct LessonPathView: View {
         0.468 - 0.144 * CGFloat(cos(2 * Double.pi * (Double(y) / Double(rowHeight) - 1.6) / 5))
     }
 
+    /// Bir satırın yerleşimi: hap, yıldız ve emoji aynı hesaptan çizilir (katmanlar ayrı olduğu için).
+    private struct Row: Identifiable {
+        let id: Int
+        let y: CGFloat
+        let roadX: CGFloat
+        let title: String
+        let lesson: Lesson?
+        let state: PathPill.State
+        let extendsRight: Bool
+        let width: CGFloat
+        let twoLines: Bool
+        let emoji: String
+        var pillCenter: CGFloat { extendsRight ? roadX - underRoad + width / 2 : roadX + underRoad - width / 2 }
+    }
+
+    /// Hapın yola bakan ucu yolun ortasını bu kadar geçip yolun altında kalır; yuvarlak köşesi görünmez.
+    private static let underRoad: CGFloat = 14
+    private var underRoad: CGFloat { Self.underRoad }
+
+    private func rows(width w: CGFloat) -> [Row] {
+        let emojis = LessonEmoji.sequence(for: unit.lessons.map(\.title))
+        return (0...unit.lessons.count).map { i in
+            let y = rowHeight * (CGFloat(i) + 0.5)
+            let roadX = w * roadRatio(y)
+            let isTest = i == unit.lessons.count
+            let lesson = isTest ? nil : unit.lessons[i]
+            let done = lesson.map { model.state.completedLessons.contains($0.id) } ?? model.isUnitPassed(unit)
+            let current = isTest ? (nextIndex == nil && !done) : i == nextIndex
+            // Yol ekranın solundaysa hap sağa, sağındaysa sola uzanır; yola bakan ucu yolun altına girer.
+            let extendsRight = roadRatio(y) < 0.47
+            // Sıradaki hapın balonu da ekrana sığsın diye genişlik gerekirse kısalır.
+            let room = extendsRight ? (w - 6 - (current ? bubbleWidth + 8 : 0)) - (roadX - underRoad)
+                                    : (roadX + underRoad) - (6 + (current ? bubbleWidth + 8 : 0))
+            let title = lesson?.title ?? "Ünite testi"
+            let locked = !done && !current
+            // Hap başlığı tek satıra sığacak kadar uzar (en fazla yer kadar); yine sığmazsa 15pt iki satır olur.
+            let needed = Self.textWidth(title, size: 17) + PathPill.roadSidePadding + 12 + (locked ? 23 : 0) + 4
+            let width = max(150, min(max(pillWidth, needed), room))
+            return Row(id: i, y: y, roadX: roadX, title: title, lesson: lesson,
+                       state: done ? .done : (current ? .current : .locked),
+                       extendsRight: extendsRight, width: width, twoLines: needed > width,
+                       emoji: isTest ? "🏆" : emojis[i])
+        }
+    }
+
     var body: some View {
-        let count = unit.lessons.count + 1
         let doneCount = unit.lessons.filter { model.state.completedLessons.contains($0.id) }.count
-        let arts = LessonArt.sequence(for: unit.lessons.map(\.title))
-        let total = rowHeight * CGFloat(count) + 40
+        let total = rowHeight * CGFloat(unit.lessons.count + 1) + tail
         GeometryReader { geo in
             let w = geo.size.width
+            let rows = rows(width: w)
             let center = samples(width: w, from: roadTop, to: total)
             // Mavi çizgi yolun başından sıradaki dersin satırına kadar.
-            let currentY = rowHeight * (CGFloat(min(doneCount, count - 1)) + 0.5)
+            let currentY = rowHeight * (CGFloat(min(doneCount, unit.lessons.count)) + 0.5)
+            // Katmanlar (referanstaki gibi): önce haplar, üstüne yol (beyaz dolgu hapların ucunu örter, sonra gri
+            // kenar çizgileri), mavi ilerleme çizgisi, en üstte yıldızlar; emojiler yolun öbür yanında.
             ZStack(alignment: .topLeading) {
-                offsetLine(center, by: edgeOffset)
-                    .stroke(Color(light: 0xD8DFEA, dark: 0x2A3150), style: StrokeStyle(lineWidth: 6.5, lineCap: .butt, lineJoin: .round))
-                offsetLine(center, by: -edgeOffset)
-                    .stroke(Color(light: 0xD8DFEA, dark: 0x2A3150), style: StrokeStyle(lineWidth: 6.5, lineCap: .butt, lineJoin: .round))
-                offsetLine(center.filter { $0.y <= currentY }, by: 2.5)
-                    .trim(from: 0, to: drawn ? 1 : 0)
-                    .stroke(Theme.accent, style: StrokeStyle(lineWidth: 4, lineCap: .round, lineJoin: .round))
-                    .animation(.easeInOut(duration: 1.1).delay(0.25), value: drawn)
-
-                ForEach(0..<count, id: \.self) { i in
-                    let y = rowHeight * (CGFloat(i) + 0.5)
-                    let roadX = w * roadRatio(y)
-                    let isTest = i == unit.lessons.count
-                    let lesson = isTest ? nil : unit.lessons[i]
-                    let done = lesson.map { model.state.completedLessons.contains($0.id) } ?? model.isUnitPassed(unit)
-                    let current = isTest ? (nextIndex == nil && !done) : i == nextIndex
-                    // Yol ekranın solundaysa hap sağa, sağındaysa sola uzanır; yola değen ucu yolun ortasında.
-                    let extendsRight = roadRatio(y) < 0.47
-                    // Sıradaki hapın balonu da ekrana sığsın diye genişlik gerekirse kısalır.
-                    let room = extendsRight ? (w - 6 - (current ? bubbleWidth + 8 : 0)) - (roadX - 4)
-                                            : (roadX + 4) - (6 + (current ? bubbleWidth + 8 : 0))
-                    let title = lesson?.title ?? "Ünite testi"
-                    let locked = !done && !current
-                    // Hap başlığı tek satıra sığacak kadar uzar (en fazla yer kadar); yine sığmazsa 15pt iki satır olur.
-                    let needed = Self.textWidth(title, size: 17) + 34 + (locked ? 23 : 0) + 4
-                    let width = max(140, min(max(pillWidth, needed), room))
-                    let twoLines = needed > width
-                    let pillCenter = extendsRight ? roadX - 4 + width / 2 : roadX + 4 - width / 2
-                    PathPill(title: title,
-                             state: done ? .done : (current ? .current : .locked),
-                             width: width, height: twoLines ? 56 : pillHeight, twoLines: twoLines,
-                             extendsRight: extendsRight) {
-                        if let lesson { onLesson(lesson) } else { onTest() }
+                // Haplar yolun orta çizgisinde kesilir: kıvrımlarda bile ucu yolun altından çıkıyormuş gibi görünür.
+                // Sağa ve sola uzananlar ayrı katmanlarda, her biri yolun kendi tarafıyla maskelenir.
+                ForEach([true, false], id: \.self) { right in
+                    ZStack(alignment: .topLeading) {
+                        ForEach(rows.filter { $0.extendsRight == right }) { row in
+                            PathPill(title: row.title, state: row.state,
+                                     width: row.width, height: row.twoLines ? 56 : pillHeight, twoLines: row.twoLines,
+                                     extendsRight: row.extendsRight) {
+                                if let lesson = row.lesson { onLesson(lesson) } else { onTest() }
+                            }
+                            .position(x: row.pillCenter, y: row.y)
+                            .staggeredAppear(row.id, delay: 0.08)
+                        }
                     }
-                    .position(x: pillCenter, y: y)
-                    .staggeredAppear(i, delay: 0.08)
-                    // Yıldız yolun ortasında, hapın yola değen ucunun üstünde.
-                    if done || current {
+                    .frame(width: w, height: total)
+                    .mask { side(of: center, right: right, width: w, height: total) }
+                }
+
+                Group {
+                    linePath(center)
+                        .stroke(Theme.surface, style: StrokeStyle(lineWidth: edgeOffset * 2, lineCap: .butt, lineJoin: .round))
+                    offsetLine(center, by: edgeOffset)
+                        .stroke(Color(light: 0xE2E7EF, dark: 0x2A3150), style: StrokeStyle(lineWidth: 7, lineCap: .butt, lineJoin: .round))
+                    offsetLine(center, by: -edgeOffset)
+                        .stroke(Color(light: 0xE2E7EF, dark: 0x2A3150), style: StrokeStyle(lineWidth: 7, lineCap: .butt, lineJoin: .round))
+                    // Mavi çizgi sol kenar çizgisinin hemen içinde, ona yaslanarak akar.
+                    offsetLine(center.filter { $0.y <= currentY }, by: edgeOffset - 5.5)
+                        .trim(from: 0, to: drawn ? 1 : 0)
+                        .stroke(Theme.accent, style: StrokeStyle(lineWidth: 4, lineCap: .round, lineJoin: .round))
+                        .animation(.easeInOut(duration: 1.1).delay(0.25), value: drawn)
+                }
+                .allowsHitTesting(false)
+
+                ForEach(rows) { row in
+                    // Yıldız yolun ortasında, hapın yolun altına giren ucunun üstünde.
+                    if row.state != .locked {
                         Image(systemName: "star.fill")
                             .font(.system(size: 20))
                             .foregroundStyle(Color(light: 0xF5B400, dark: 0xFBBF24))
                             .shadow(color: Color.orange.opacity(0.35), radius: 1.5, y: 1)
-                            .position(x: roadX, y: y)
-                            .staggeredAppear(i, delay: 0.08)
+                            .position(x: row.roadX, y: row.y)
+                            .staggeredAppear(row.id, delay: 0.08)
+                            .allowsHitTesting(false)
                     }
-                    // Referanstaki gibi 3B görsel (Microsoft Fluent 3D Emoji, MIT lisanslı), yolun öbür yanında.
-                    Image("lesson-\(isTest ? "trophy" : arts[i])")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 76, height: 76)
-                        .position(x: min(max(extendsRight ? roadX - 56 : roadX + 56, 40), w - 40), y: y - 4)
-                        .staggeredAppear(i, delay: 0.08)
+                    Text(row.emoji)
+                        .font(.system(size: 68))
+                        .shadow(color: Theme.ink.opacity(0.2), radius: 6, x: 2, y: 5)
+                        .position(x: min(max(row.extendsRight ? row.roadX - 58 : row.roadX + 58, 40), w - 40), y: row.y - 2)
+                        .staggeredAppear(row.id, delay: 0.08)
+                        .accessibilityHidden(true)
                 }
             }
         }
@@ -115,6 +161,28 @@ struct LessonPathView: View {
         stride(from: top, through: bottom, by: 2).map { CGPoint(x: width * roadRatio($0), y: $0) }
     }
 
+    /// Orta çizginin sağında (ya da solunda) kalan alan: hapları yolun ortasında kesmek için.
+    private func side(of points: [CGPoint], right: Bool, width: CGFloat, height: CGFloat) -> Path {
+        var path = Path()
+        guard let first = points.first, let last = points.last else { return path }
+        let edge: CGFloat = right ? width + 200 : -200
+        path.move(to: CGPoint(x: edge, y: -200))
+        path.addLine(to: CGPoint(x: first.x, y: -200))
+        // addLines yeni bir alt yol başlatır; çokgen kopmasın diye noktalar tek tek eklenir.
+        for point in points { path.addLine(to: point) }
+        path.addLine(to: CGPoint(x: last.x, y: height + 200))
+        path.addLine(to: CGPoint(x: edge, y: height + 200))
+        path.closeSubpath()
+        return path
+    }
+
+    /// Orta çizgi (yolun beyaz dolgusu için).
+    private func linePath(_ points: [CGPoint]) -> Path {
+        var path = Path()
+        path.addLines(points)
+        return path
+    }
+
     /// Orta çizgiye her noktada dik (normal) yönde `distance` kadar kaydırılmış paralel çizgi.
     /// Pozitif değer yolun soluna (akış yönüne göre) kaydırır.
     private func offsetLine(_ points: [CGPoint], by distance: CGFloat) -> Path {
@@ -132,27 +200,25 @@ struct LessonPathView: View {
     }
 }
 
-/// Ders adındaki sözcüklere göre konu görseli (Assets → Lessons içindeki `lesson-*` görselleri).
-/// Sözcük başına bakılır ("ev" "seviye"nin içinde eşleşmesin); bulunamazsa sırayla yedek görseller.
-enum LessonArt {
+/// Ders adındaki sözcüklere göre konu emojisi (Apple sistem emojisi).
+/// Sözcük başına bakılır ("ev" "seviye"nin içinde eşleşmesin); bulunamazsa sırayla yedek emojiler.
+enum LessonEmoji {
     private static let map: [(String, String)] = [
-        ("selam", "wave"), ("merhaba", "wave"), ("ben, sen", "pointright"), ("nereli", "globe"), ("ülke", "globe"),
-        ("yaş", "cake"), ("evet", "check"), ("aile", "couple"), ("kardeş", "couple"), ("nasıl biri", "palette"),
-        ("benim, senin", "backpack"), ("çoğul", "basket"), ("bu ve şu", "pointright"), ("bunlar", "pointright"),
-        ("renk", "palette"), ("ev", "house"), ("oda", "bed"), ("içinde", "package"), ("yanında", "chair"),
-        ("var mı", "search"), ("sayı", "numbers"), ("saat", "clock"), ("gün", "calendar"), ("rutin", "clock"),
-        ("yemek", "food"), ("kafe", "coffee"), ("kahve", "coffee"), ("restoran", "food"), ("sipariş", "receipt"),
-        ("alışveriş", "cart"), ("market", "cart"), ("fiyat", "label"), ("giysi", "tshirt"), ("kıyafet", "tshirt"),
-        ("şehir", "city"), ("yol", "map"), ("tarif", "map"), ("ulaşım", "bus"), ("otobüs", "bus"), ("taksi", "taxi"),
-        ("otel", "hotel"), ("havaalanı", "airplane"), ("seyahat", "airplane"), ("uçak", "airplane"), ("tatil", "beach"),
-        ("hava", "weather"), ("iş", "briefcase"), ("meslek", "briefcase"), ("okul", "school"), ("spor", "ball"),
-        ("müzik", "music"), ("film", "film"), ("sağlık", "health"), ("doktor", "health"), ("telefon", "phone"),
-        ("hafta sonu", "party"), ("parti", "party"), ("yetenek", "guitar"), ("geçmiş", "hourglass"),
-        ("gelecek", "crystal"), ("plan", "spiral"), ("hikâye", "book"), ("hikaye", "book"), ("kitap", "books"),
+        ("selam", "👋"), ("merhaba", "👋"), ("ben, sen", "🧑‍🤝‍🧑"), ("nereli", "🌍"), ("ülke", "🌍"), ("yaş", "🎂"),
+        ("evet", "✅"), ("aile", "👨‍👩‍👧"), ("kardeş", "👫"), ("nasıl biri", "🧑‍🎨"), ("benim, senin", "🎒"),
+        ("çoğul", "🧺"), ("bu ve şu", "👉"), ("bunlar", "👉"), ("renk", "🎨"), ("ev", "🏠"), ("oda", "🛏️"),
+        ("içinde", "📦"), ("yanında", "🪑"), ("var mı", "🔎"), ("sayı", "🔢"), ("saat", "⏰"), ("gün", "📅"),
+        ("rutin", "⏰"), ("yemek", "🍽️"), ("kafe", "☕"), ("kahve", "☕"), ("restoran", "🍽️"), ("sipariş", "🧾"),
+        ("alışveriş", "🛒"), ("market", "🛒"), ("fiyat", "🏷️"), ("giysi", "👕"), ("kıyafet", "👕"), ("şehir", "🏙️"),
+        ("yol", "🗺️"), ("tarif", "🗺️"), ("ulaşım", "🚌"), ("otobüs", "🚌"), ("taksi", "🚕"), ("otel", "🏨"),
+        ("havaalanı", "✈️"), ("seyahat", "✈️"), ("uçak", "✈️"), ("tatil", "🏖️"), ("hava", "⛅"), ("iş", "💼"),
+        ("meslek", "💼"), ("okul", "🏫"), ("spor", "⚽"), ("müzik", "🎵"), ("film", "🎬"), ("sağlık", "🩺"),
+        ("doktor", "🩺"), ("telefon", "📱"), ("hafta sonu", "🎉"), ("parti", "🎉"), ("yetenek", "🎸"),
+        ("geçmiş", "🕰️"), ("gelecek", "🔮"), ("plan", "🗓️"), ("hikâye", "📖"), ("hikaye", "📖"), ("kitap", "📚"),
     ]
-    private static let fallbacks = ["books", "pencil", "chat", "target", "puzzle", "bulb", "memo", "headphone", "star", "pushpin"]
+    private static let fallbacks = ["📘", "✏️", "💬", "🎯", "🧩", "💡", "📝", "🎧", "🌟", "📌"]
 
-    static func key(for title: String) -> String? {
+    static func emoji(for title: String) -> String? {
         let lower = title.lowercased(with: Locale(identifier: "tr"))
         let words = lower.split { !$0.isLetter }.map(String.init)
         return map.first { entry in
@@ -160,19 +226,19 @@ enum LessonArt {
         }?.1
     }
 
-    /// Bir ünitenin dersleri için görseller; aynı görsel art arda gelmez, eşleşmeyenler yedeklerden alınır.
+    /// Bir ünitenin dersleri için emojiler; aynı emoji art arda gelmez, eşleşmeyenler yedeklerden alınır.
     static func sequence(for titles: [String]) -> [String] {
         var result: [String] = []
         var spare = fallbacks.makeIterator()
         for title in titles {
-            var art = key(for: title)
-            if art == nil || art == result.last {
-                art = nil
+            var emoji = self.emoji(for: title)
+            if emoji == nil || emoji == result.last {
+                emoji = nil
                 while let next = spare.next() {
-                    if !result.contains(next) { art = next; break }
+                    if !result.contains(next) { emoji = next; break }
                 }
             }
-            result.append(art ?? "books")
+            result.append(emoji ?? "📘")
         }
         return result
     }
@@ -191,6 +257,8 @@ struct PathPill: View {
     /// Hap yoldan sağa mı uzanıyor (yol ucu solda) yoksa sola mı.
     var extendsRight = true
     let action: () -> Void
+    /// Yola bakan uçtaki iç boşluk: ucun bir kısmı yolun altında kaldığı için geniş.
+    static let roadSidePadding: CGFloat = 34
 
     @SwiftUI.State private var bob = false
     @SwiftUI.State private var shakes = 0
@@ -216,8 +284,8 @@ struct PathPill: View {
             }
             .font(.custom(Theme.fontFamily, size: twoLines ? 15 : 17, relativeTo: .body).weight(.medium))
             .foregroundStyle(state == .locked ? Color(light: 0xA0A8B5, dark: 0x6C7690) : .white)
-            .padding(.leading, extendsRight ? 22 : 12)
-            .padding(.trailing, extendsRight ? 12 : 22)
+            .padding(.leading, extendsRight ? Self.roadSidePadding : 12)
+            .padding(.trailing, extendsRight ? 12 : Self.roadSidePadding)
             .frame(width: width)
             .frame(minHeight: height)
             .background {

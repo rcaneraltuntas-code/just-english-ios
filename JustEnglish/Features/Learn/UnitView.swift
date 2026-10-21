@@ -9,6 +9,9 @@ struct UnitView: View {
     @Environment(\.selectTab) private var selectTab
     @State private var activeLesson: LessonRoute?
     @State private var showTest = false
+    @State private var showInfo = false
+    /// Bilgi sayfasından teste geçilirken test, sayfa kapandıktan sonra açılır.
+    @State private var testAfterInfo = false
 
     var body: some View {
         ScrollView {
@@ -45,54 +48,9 @@ struct UnitView: View {
                 } onTest: {
                     showTest = true
                 }
-
-                VStack(alignment: .leading, spacing: 10) {
-                    SectionHeader(title: "Bu ünitede")
-                    Text(unit.canDo).font(.jakarta(.subheadline, weight: .medium)).foregroundStyle(.secondary)
-                    if !unit.grammar.isEmpty {
-                        FlowLayout(spacing: 6) {
-                            ForEach(unit.grammar, id: \.self) { tag($0, color: Theme.accent) }
-                            ForEach(unit.vocabularyThemes, id: \.self) { tag($0, color: Theme.color(for: unit.level)) }
-                        }
-                    }
-                }
-                .card()
-
-                SectionTitle(text: "Ünite testi")
-                Button { showTest = true } label: {
-                    HStack(spacing: 14) {
-                        Image(systemName: model.isUnitPassed(unit) ? "checkmark.seal.fill" : "doc.text.fill")
-                            .font(.title2)
-                            .foregroundStyle(model.isUnitPassed(unit) ? Theme.success : Theme.accent)
-                        VStack(alignment: .leading, spacing: 3) {
-                            Text("\(unit.unitTest.questions.count) soru · geçme notu %\(unit.unitTest.passPercent)")
-                                .font(.jakarta(.headline))
-                            if let best = model.state.unitTestScores[unit.id] {
-                                Text("En iyi sonucunuz: %\(best)").font(.jakarta(.footnote)).foregroundStyle(.secondary)
-                            } else {
-                                Text("Tüm dersleri bitirdikten sonra önerilir.").font(.jakarta(.footnote)).foregroundStyle(.secondary)
-                            }
-                        }
-                        Spacer()
-                        Image(systemName: "chevron.right").foregroundStyle(.tertiary)
-                    }
-                    .card()
-                }
-                .buttonStyle(.plain)
-
-                SectionTitle(text: "Canlı ders")
-                LiveClassCard(unit: unit)
-
-                SectionTitle(text: "Kelimeler (\(unit.vocabulary.count))")
-                VStack(spacing: 0) {
-                    ForEach(unit.vocabulary) { card in
-                        VocabularyRow(card: card)
-                        if card.id != unit.vocabulary.last?.id { Divider() }
-                    }
-                }
-                .card()
             }
-            .padding(20)
+            .padding(.horizontal, 20)
+            .padding(.top, 20)
         }
         .tabBarSpacer()
         // Referanstaki gibi düz beyaz sayfa; gezinme çubuğu yerine kendi üst satırımız.
@@ -100,6 +58,75 @@ struct UnitView: View {
         .toolbar(.hidden, for: .navigationBar)
         .fullScreenCover(item: $activeLesson) { LessonFlowView(unit: $0.unit, lesson: $0.lesson) }
         .fullScreenCover(isPresented: $showTest) { UnitTestView(unit: unit) }
+        .sheet(isPresented: $showInfo, onDismiss: {
+            if testAfterInfo { testAfterInfo = false; showTest = true }
+        }) { infoSheet }
+    }
+
+    /// Bilgi simgesinin açtığı sayfa: ünitenin hedefi, konular, ünite testi, canlı ders ve kelimeler.
+    /// Ana ekran referanstaki gibi yalnızca başlık kartı ve yoldan oluşur.
+    private var infoSheet: some View {
+        NavigationStack {
+            ScrollView {
+                VStack(alignment: .leading, spacing: 20) {
+                    VStack(alignment: .leading, spacing: 10) {
+                        SectionHeader(title: "Bu ünitede")
+                        Text(unit.canDo).font(.jakarta(.subheadline, weight: .medium)).foregroundStyle(.secondary)
+                        if !unit.grammar.isEmpty {
+                            FlowLayout(spacing: 6) {
+                                ForEach(unit.grammar, id: \.self) { tag($0, color: Theme.accent) }
+                                ForEach(unit.vocabularyThemes, id: \.self) { tag($0, color: Theme.color(for: unit.level)) }
+                            }
+                        }
+                    }
+                    .card()
+
+                    SectionTitle(text: "Ünite testi")
+                    Button { testAfterInfo = true; showInfo = false } label: {
+                        HStack(spacing: 14) {
+                            Image(systemName: model.isUnitPassed(unit) ? "checkmark.seal.fill" : "doc.text.fill")
+                                .font(.title2)
+                                .foregroundStyle(model.isUnitPassed(unit) ? Theme.success : Theme.accent)
+                            VStack(alignment: .leading, spacing: 3) {
+                                Text("\(unit.unitTest.questions.count) soru · geçme notu %\(unit.unitTest.passPercent)")
+                                    .font(.jakarta(.headline))
+                                if let best = model.state.unitTestScores[unit.id] {
+                                    Text("En iyi sonucunuz: %\(best)").font(.jakarta(.footnote)).foregroundStyle(.secondary)
+                                } else {
+                                    Text("Tüm dersleri bitirdikten sonra önerilir.").font(.jakarta(.footnote)).foregroundStyle(.secondary)
+                                }
+                            }
+                            Spacer()
+                            Image(systemName: "chevron.right").foregroundStyle(.tertiary)
+                        }
+                        .card()
+                    }
+                    .buttonStyle(.plain)
+
+                    SectionTitle(text: "Canlı ders")
+                    LiveClassCard(unit: unit)
+
+                    SectionTitle(text: "Kelimeler (\(unit.vocabulary.count))")
+                    VStack(spacing: 0) {
+                        ForEach(unit.vocabulary) { card in
+                            VocabularyRow(card: card)
+                            if card.id != unit.vocabulary.last?.id { Divider() }
+                        }
+                    }
+                    .card()
+                }
+                .padding(20)
+            }
+            .background(Theme.background.ignoresSafeArea())
+            .navigationTitle("Ünite \(unit.number): \(unit.title)")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Kapat") { showInfo = false }
+                }
+            }
+        }
+        .presentationDetents([.large])
     }
 
     /// Üst satır: geri, büyük kalın başlık, zil ve bayrak (referanstaki "Scenarios" satırı).
@@ -107,15 +134,21 @@ struct UnitView: View {
         HStack(spacing: 12) {
             Button { dismiss() } label: {
                 Image(systemName: "chevron.left")
-                    .font(.system(size: 19, weight: .semibold))
-                    .foregroundStyle(Theme.ink)
-                    .frame(width: 30, height: 36, alignment: .leading)
+                    .font(.system(size: 17, weight: .semibold))
+                    .foregroundStyle(.secondary)
+                    .frame(width: 24, height: 36, alignment: .leading)
             }
             .accessibilityLabel("Geri")
             Text("Ünite \(unit.number)")
-                .font(.custom(Theme.fontFamily, size: 24, relativeTo: .title2).weight(.bold))
+                .font(.custom(Theme.fontFamily, size: 22, relativeTo: .title2).weight(.bold))
                 .foregroundStyle(Theme.ink)
             Spacer()
+            Button { showInfo = true } label: {
+                Image(systemName: "info.circle")
+                    .font(.system(size: 21, weight: .regular))
+                    .foregroundStyle(Theme.ink)
+            }
+            .accessibilityLabel("Ünite bilgisi, test ve kelimeler")
             Button { selectTab(.practice) } label: {
                 Image(systemName: "bell")
                     .font(.system(size: 21, weight: .regular))
