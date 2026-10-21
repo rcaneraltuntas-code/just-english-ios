@@ -126,27 +126,27 @@ struct LiveClassesView: View {
         VStack(alignment: .leading, spacing: 12) {
             SectionHeader(title: "Nasıl çalışır?")
             HStack(alignment: .top, spacing: 10) {
-                step(1, "calendar.badge.plus", "Yer ayırtın", "Seviyenize uygun dersi seçin.")
-                step(2, "book.fill", "Hazırlanın", "Bağlı üniteyi bitirin.")
-                step(3, "video.fill", "Katılın", "Bağlantı dersten 10 dk önce açılır.")
+                step(1, "calendar.badge.plus", "Yer ayırtın", "Seviyenize uygun dersi seçin.", Theme.color(for: .a2))
+                step(2, "book.fill", "Hazırlanın", "Bağlı üniteyi bitirin.", Theme.color(for: .b2))
+                step(3, "video.fill", "Katılın", "Bağlantı dersten 10 dk önce açılır.", Theme.accent)
             }
         }
     }
 
-    private func step(_ number: Int, _ icon: String, _ title: String, _ detail: String) -> some View {
+    private func step(_ number: Int, _ icon: String, _ title: String, _ detail: String, _ color: Color) -> some View {
         VStack(alignment: .leading, spacing: 8) {
             ZStack(alignment: .topTrailing) {
                 Image(systemName: icon)
                     .font(.system(size: 18, weight: .bold))
                     .foregroundStyle(.white)
                     .frame(width: 40, height: 40)
-                    .background(Theme.brandGradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                    .background(color.gradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
                 Text("\(number)")
                     .font(.jakarta(.caption2, weight: .heavy))
-                    .foregroundStyle(Theme.accent)
+                    .foregroundStyle(color)
                     .frame(width: 18, height: 18)
                     .background(.white, in: Circle())
-                    .overlay(Circle().stroke(Theme.accent, lineWidth: 1.5))
+                    .overlay(Circle().stroke(color, lineWidth: 1.5))
                     .offset(x: 6, y: -6)
             }
             Text(title).font(.jakarta(.subheadline, weight: .heavy)).foregroundStyle(Theme.ink)

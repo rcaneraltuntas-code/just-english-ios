@@ -43,8 +43,8 @@ struct LearnView: View {
             .background {
                 ZStack(alignment: .top) {
                     Theme.background
-                    AuroraBackground(colors: [Theme.accent, Theme.streak, Theme.color(for: level)],
-                                     intensity: 0.35)
+                    AuroraBackground(colors: [Theme.color(for: .a2), Theme.accent.opacity(0.35), Theme.warning],
+                                     intensity: 0.16)
                         .frame(height: 360)
                         .mask(LinearGradient(colors: [.black, .clear], startPoint: .top, endPoint: .bottom))
                 }
@@ -169,8 +169,9 @@ struct ContinueCard: View {
         .padding(18)
         .background {
             ZStack(alignment: .topTrailing) {
-                LinearGradient(colors: [Theme.accent, Theme.color(for: unit.level)],
-                               startPoint: .topLeading, endPoint: .bottomTrailing)
+                Theme.inkGradient
+                // Seviyenin rengi köşeden hafifçe sızar; kart kırmızıya boğulmaz.
+                Circle().fill(Theme.color(for: unit.level).opacity(0.45)).frame(width: 220).blur(radius: 50).offset(x: 60, y: -60)
                 // Arka plandaki büyük, yarı saydam simge karta derinlik verir.
                 Image(systemName: "graduationcap.fill")
                     .font(.system(size: 120, weight: .black))
@@ -180,7 +181,7 @@ struct ContinueCard: View {
             }
             .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
         }
-        .shadow(color: Theme.accent.opacity(0.3), radius: 14, y: 8)
+        .shadow(color: Theme.ink.opacity(0.25), radius: 14, y: 8)
     }
 }
 

@@ -35,10 +35,10 @@ struct WeekActivityCard: View {
                     VStack(spacing: 6) {
                         Text(day.xp > 0 ? "\(day.xp)" : "")
                             .font(.jakarta(.caption2, weight: .bold))
-                            .foregroundStyle(isToday ? Theme.accent : .secondary)
+                            .foregroundStyle(isToday ? Theme.accent : reached ? Theme.success : .secondary)
                         Capsule()
                             .fill(isToday ? AnyShapeStyle(Theme.brandGradient)
-                                  : reached ? AnyShapeStyle(Theme.accent.opacity(0.55)) : AnyShapeStyle(Theme.accent.opacity(0.14)))
+                                  : reached ? AnyShapeStyle(Theme.success.gradient) : AnyShapeStyle(Color(uiColor: .systemGray4)))
                             .frame(height: grown ? max(8, 84 * CGFloat(day.xp) / CGFloat(peak)) : 8)
                             .overlay(alignment: .top) {
                                 if reached {
@@ -65,7 +65,7 @@ struct WeekActivityCard: View {
     }
 }
 
-/// Dört kısayol: diğer sekmelere tek dokunuşla geçiş.
+/// Dört kısayol: diğer sekmelere tek dokunuşla geçiş. Beyaz kartlar, her birinin kendi renkli simgesi var.
 struct QuickActionsGrid: View {
     @Environment(AppModel.self) private var model
     @Environment(\.selectTab) private var selectTab
@@ -74,44 +74,44 @@ struct QuickActionsGrid: View {
         let due = model.dueCards().count
         LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
             tile("Kelime tekrarı", detail: due > 0 ? "\(due) kart bekliyor" : "Bugünlük tamam",
-                 icon: "rectangle.stack.fill", gradient: Theme.brandGradient, index: 0) { selectTab(.practice) }
+                 icon: "rectangle.stack.fill", color: Theme.accent, badge: due, index: 0) { selectTab(.practice) }
             tile("Oyunlar", detail: "Eşleştir, yarış, yaz", icon: "gamecontroller.fill",
-                 gradient: Theme.warmGradient, index: 1) { selectTab(.practice) }
+                 color: Theme.warning, index: 1) { selectTab(.practice) }
             tile("Sözlük", detail: "\(model.dictionary.count) kelime", icon: "character.book.closed.fill",
-                 gradient: LinearGradient(colors: [Theme.color(for: .b2), Theme.color(for: .c1)], startPoint: .topLeading, endPoint: .bottomTrailing),
-                 index: 2) { selectTab(.dictionary) }
-            tile("Canlı ders", detail: "Öğretmenle konuşun", icon: "video.fill", gradient: Theme.inkGradient, index: 3) { selectTab(.live) }
+                 color: Theme.color(for: .a2), index: 2) { selectTab(.dictionary) }
+            tile("Canlı ders", detail: "Öğretmenle konuşun", icon: "video.fill",
+                 color: Theme.color(for: .c2), index: 3) { selectTab(.live) }
         }
     }
 
-    private func tile(_ title: String, detail: String, icon: String, gradient: LinearGradient, index: Int,
+    private func tile(_ title: String, detail: String, icon: String, color: Color, badge: Int = 0, index: Int,
                       action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            VStack(alignment: .leading, spacing: 10) {
-                Image(systemName: icon)
-                    .font(.system(size: 20, weight: .bold))
-                    .foregroundStyle(.white)
-                    .frame(width: 42, height: 42)
-                    .background(.white.opacity(0.2), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-                    .symbolEffect(.bounce, value: index)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(.white)
-                    Text(detail).font(.jakarta(.caption, weight: .semibold)).foregroundStyle(.white.opacity(0.85)).lineLimit(1)
-                }
-            }
-            .padding(14)
-            .frame(maxWidth: .infinity, minHeight: 118, alignment: .topLeading)
-            .background {
-                ZStack(alignment: .bottomTrailing) {
-                    gradient
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(alignment: .top) {
                     Image(systemName: icon)
-                        .font(.system(size: 64, weight: .black))
-                        .foregroundStyle(.white.opacity(0.12))
-                        .rotationEffect(.degrees(-14))
-                        .offset(x: 14, y: 12)
+                        .font(.system(size: 19, weight: .bold))
+                        .foregroundStyle(.white)
+                        .frame(width: 44, height: 44)
+                        .background(color.gradient, in: RoundedRectangle(cornerRadius: 13, style: .continuous))
+                        .shadow(color: color.opacity(0.35), radius: 6, y: 3)
+                    Spacer()
+                    if badge > 0 {
+                        Text("\(badge)")
+                            .font(.jakarta(.caption, weight: .heavy))
+                            .foregroundStyle(.white)
+                            .padding(.horizontal, 8)
+                            .padding(.vertical, 3)
+                            .background(Theme.accent, in: Capsule())
+                    }
                 }
-                .clipShape(RoundedRectangle(cornerRadius: 20, style: .continuous))
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
+                    Text(detail).font(.jakarta(.caption, weight: .semibold)).foregroundStyle(.secondary).lineLimit(1)
+                }
             }
+            .frame(maxWidth: .infinity, alignment: .topLeading)
+            .card()
         }
         .buttonStyle(PressableCardStyle())
         .staggeredAppear(index)
@@ -186,8 +186,8 @@ struct WordOfTheDayCard: View {
             .padding(18)
             .background {
                 ZStack(alignment: .topTrailing) {
-                    Theme.inkGradient
-                    Circle().fill(Theme.accent.opacity(0.35)).frame(width: 160).blur(radius: 40).offset(x: 40, y: -40)
+                    Theme.violetGradient
+                    Circle().fill(.white.opacity(0.12)).frame(width: 160).blur(radius: 30).offset(x: 40, y: -40)
                 }
                 .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
             }

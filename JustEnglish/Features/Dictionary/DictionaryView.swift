@@ -15,8 +15,8 @@ struct DictionaryView: View {
                 VStack(alignment: .leading, spacing: 18) {
                     HeroHeader(title: "Sözlük",
                                subtitle: "\(model.dictionary.count) kelime ve kalıp. İngilizce ya da Türkçe arayın.",
-                               gradient: LinearGradient(colors: [Theme.color(for: .b2), Theme.accent], startPoint: .topLeading, endPoint: .bottomTrailing),
-                               glow: Theme.color(for: .b2)) {
+                               gradient: LinearGradient(colors: [Theme.color(for: .a2), Theme.color(for: .c2)], startPoint: .topLeading, endPoint: .bottomTrailing),
+                               glow: Theme.color(for: .a2)) {
                         Image(systemName: "character.book.closed.fill")
                             .font(.system(size: 34, weight: .bold))
                             .foregroundStyle(.white)

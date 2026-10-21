@@ -75,8 +75,10 @@ struct ProfileView: View {
 
     private var hero: some View {
         let level = model.state.currentLevel
+        // Lacivert başlık; kırmızı yalnızca avatardaki baş harfte.
         return HeroHeader(title: model.state.name.ifEmpty("Öğrenci"),
-                          subtitle: "\(level.rawValue) · \(level.title) seviyesinde çalışıyorsunuz") {
+                          subtitle: "\(level.rawValue) · \(level.title) seviyesinde çalışıyorsunuz",
+                          gradient: Theme.inkGradient, glow: Theme.ink) {
             AnimatedAvatar(initial: String(model.state.name.prefix(1)).uppercased().ifEmpty("?"))
         } bottom: {
             HStack(spacing: 8) {

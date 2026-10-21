@@ -25,7 +25,7 @@ struct PracticeView: View {
                     SectionTitle(text: "Oyunlar").padding(.top, 8)
                     tile(icon: "bolt.fill", color: Theme.warning, title: "Eşleştirme yarışı",
                          detail: "Kelimeleri anlamlarıyla olabildiğince hızlı eşleştirin.") { session = .matchRace }
-                    tile(icon: "timer", color: Theme.accent, title: "60 saniye",
+                    tile(icon: "timer", color: Theme.color(for: .b1), title: "60 saniye",
                          detail: "Süre bitmeden kaç kelimenin anlamını bilebilirsiniz?") { session = .speedQuiz }
                     tile(icon: "ear.fill", color: Theme.success, title: "Dinle ve yaz",
                          detail: "Duyduğunuz kelimeyi doğru yazın.") { session = .spelling }
@@ -71,7 +71,7 @@ struct PracticeView: View {
         .padding(18)
         .background {
             ZStack(alignment: .topTrailing) {
-                LinearGradient(colors: [Theme.accent, Theme.color(for: .b2)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                Theme.violetGradient
                 Image(systemName: "rectangle.stack.fill")
                     .font(.system(size: 110, weight: .black))
                     .foregroundStyle(.white.opacity(0.12))

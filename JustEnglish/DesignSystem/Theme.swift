@@ -2,8 +2,9 @@ import SwiftUI
 import UIKit
 import JECore
 
-/// Uygulamanın tüm renk ve yazı tipi kararları burada. Marka rengi Just English kırmızısı (#E21724);
-/// diğer renkler onunla uyumlu sıcak bir aileden seçildi: koyu kırmızı, mercan, turuncu, altın ve lacivert.
+/// Uygulamanın tüm renk ve yazı tipi kararları burada. Marka rengi Just English kırmızısı (#E21724).
+/// Kırmızı yalnızca vurgu içindir (düğmeler, seçili sekme, küçük ayrıntılar); büyük yüzeyler beyaz,
+/// lacivert ya da seviye renginde kalır ki ekran tek renge boğulmasın.
 enum Theme {
     static let accent = Color("AccentColor")
     /// Marka kırmızısının koyu tonu: degradelerin alt ucu ve 3D düğme kenarları.
@@ -20,11 +21,11 @@ enum Theme {
     static let danger = Color(light: 0x9B1C31, dark: 0xF0697D)
     static let warning = Color(light: 0xF2A100, dark: 0xFBBF24)
     static let streak = Color(light: 0xFF6A13, dark: 0xFF9248)
-    static let background = Color(light: 0xFFF7F5, dark: 0x0E0E11)
+    static let background = Color(light: 0xF6F6F9, dark: 0x0E0E11)
     static let surface = Color(light: 0xFFFFFF, dark: 0x1B1B20)
     /// İkincil düğmelerin yüzeyi: açık temada sıcak gri, koyu temada bir ton açık.
-    static let surfaceRaised = Color(light: 0xF3EEEC, dark: 0x2A2A30)
-    static let hairline = Color(light: 0xECE6E4, dark: 0x2C2C33)
+    static let surfaceRaised = Color(light: 0xEFEFF4, dark: 0x2A2A30)
+    static let hairline = Color(light: 0xE7E7EE, dark: 0x2C2C33)
     static let muted = Color.secondary
 
     /// Marka degradesi: kahraman kartları ve başlıklar.
@@ -34,19 +35,22 @@ enum Theme {
                                              startPoint: .topLeading, endPoint: .bottomTrailing)
     static let inkGradient = LinearGradient(colors: [Color(light: 0x2A2D45, dark: 0x2A2D45), Color(light: 0x14152A, dark: 0x101120)],
                                             startPoint: .topLeading, endPoint: .bottomTrailing)
+    /// Mor-lacivert degrade: sözlük ve kelime kartları.
+    static let violetGradient = LinearGradient(colors: [Color(light: 0x6D4AE0, dark: 0x6D4AE0), Color(light: 0x2B2A6B, dark: 0x22215A)],
+                                               startPoint: .topLeading, endPoint: .bottomTrailing)
 
     static let cornerRadius: CGFloat = 16
     static let fontFamily = "Plus Jakarta Sans"
 
     static func color(for level: CEFRLevel) -> Color {
         switch level {
-        // Sıcaktan koyuya bir merdiven: amber → turuncu → marka kırmızısı → ahududu → mor → lacivert.
-        case .a1: Color(light: 0xF59E0B, dark: 0xFBBF24)
-        case .a2: Color(light: 0xF97316, dark: 0xFB923C)
-        case .b1: Color(light: 0xE21724, dark: 0xFF4A55)
-        case .b2: Color(light: 0xBE185D, dark: 0xF472B6)
-        case .c1: Color(light: 0x7C3AED, dark: 0xA78BFA)
-        case .c2: Color(light: 0x1E3A8A, dark: 0x7B9BFF)
+        // Çeşitli ama uyumlu bir merdiven: yeşil → camgöbeği → mavi → mor → magenta → lacivert.
+        case .a1: Color(light: 0x22A06B, dark: 0x4ADE80)
+        case .a2: Color(light: 0x0EA5A4, dark: 0x2DD4BF)
+        case .b1: Color(light: 0x2F6FED, dark: 0x6B9BFF)
+        case .b2: Color(light: 0x7C5CFF, dark: 0xA594FF)
+        case .c1: Color(light: 0xC2338A, dark: 0xF06BB8)
+        case .c2: Color(light: 0x1E2A5A, dark: 0x8FA3E8)
         }
     }
 

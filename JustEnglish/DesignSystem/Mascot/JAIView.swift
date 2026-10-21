@@ -9,7 +9,7 @@ struct JAIView: View {
 
     var mood: Mood = .idle
     var size: CGFloat = 120
-    var color: Color = Theme.accent
+    var color: Color = Theme.coral
     /// Değiştiğinde JAI bir kez zıplar (ör. her doğru cevapta artırın).
     var bounceTrigger: Int = 0
 
