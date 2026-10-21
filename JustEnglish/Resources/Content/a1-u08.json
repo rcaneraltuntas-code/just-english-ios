@@ -1,0 +1,1518 @@
+{
+  "id": "a1-u08",
+  "level": "A1",
+  "number": 8,
+  "title": "Şehirde",
+  "titleEn": "In Town",
+  "canDo": "Şehirde bir yerin nerede olduğunu sorabilir, yol tarif edebilir ve ulaşımla ilgili basit ricalarda bulunabilirim.",
+  "grammar": [
+    "emir cümleleri (olumlu ve olumsuz)",
+    "yol tarifi ifadeleri",
+    "can (rica ve izin)",
+    "ulaşım: by bus, on foot"
+  ],
+  "vocabularyThemes": [
+    "şehirdeki yerler",
+    "yön ifadeleri",
+    "ulaşım"
+  ],
+  "liveClass": {
+    "title": "Kayıp turist",
+    "durationMinutes": 45,
+    "goal": "Öğrencilere aynı şehir haritası verilir; biri turist olur ve bir yere nasıl gideceğini sorar, diğeri tarif eder. Turist doğru yere vardı mı, haritada kontrol edilir."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u08-v01",
+      "en": "bank",
+      "tr": "banka",
+      "example": "Is there a bank near here?",
+      "exampleTr": "Buralarda banka var mı?"
+    },
+    {
+      "id": "a1-u08-v02",
+      "en": "pharmacy",
+      "tr": "eczane",
+      "example": "The pharmacy is on the corner.",
+      "exampleTr": "Eczane köşede.",
+      "note": "İngiliz İngilizcesinde chemist's da denir."
+    },
+    {
+      "id": "a1-u08-v03",
+      "en": "post office",
+      "tr": "postane",
+      "example": "The post office opens at nine.",
+      "exampleTr": "Postane dokuzda açılır."
+    },
+    {
+      "id": "a1-u08-v04",
+      "en": "supermarket",
+      "tr": "süpermarket",
+      "example": "I go to the supermarket on Saturdays.",
+      "exampleTr": "Cumartesileri süpermarkete giderim."
+    },
+    {
+      "id": "a1-u08-v05",
+      "en": "museum",
+      "tr": "müze",
+      "example": "The museum is closed on Mondays.",
+      "exampleTr": "Müze pazartesileri kapalı."
+    },
+    {
+      "id": "a1-u08-v06",
+      "en": "station",
+      "tr": "istasyon",
+      "example": "Where's the train station?",
+      "exampleTr": "Tren istasyonu nerede?"
+    },
+    {
+      "id": "a1-u08-v07",
+      "en": "bus stop",
+      "tr": "otobüs durağı",
+      "example": "The bus stop is opposite the bank.",
+      "exampleTr": "Otobüs durağı bankanın karşısında."
+    },
+    {
+      "id": "a1-u08-v08",
+      "en": "square",
+      "tr": "meydan",
+      "example": "The café is in the main square.",
+      "exampleTr": "Kafe ana meydanda."
+    },
+    {
+      "id": "a1-u08-v09",
+      "en": "street",
+      "tr": "sokak, cadde",
+      "example": "Go along this street.",
+      "exampleTr": "Bu cadde boyunca gidin."
+    },
+    {
+      "id": "a1-u08-v10",
+      "en": "corner",
+      "tr": "köşe",
+      "example": "It's on the corner.",
+      "exampleTr": "Köşede.",
+      "note": "on the corner (köşede)"
+    },
+    {
+      "id": "a1-u08-v11",
+      "en": "traffic lights",
+      "tr": "trafik ışıkları",
+      "example": "Turn right at the traffic lights.",
+      "exampleTr": "Işıklardan sağa dönün.",
+      "note": "Her zaman çoğul."
+    },
+    {
+      "id": "a1-u08-v12",
+      "en": "turn left / right",
+      "tr": "sola / sağa dönmek",
+      "example": "Turn left at the bank.",
+      "exampleTr": "Bankadan sola dönün."
+    },
+    {
+      "id": "a1-u08-v13",
+      "en": "go straight on",
+      "tr": "düz gitmek",
+      "example": "Go straight on for 200 metres.",
+      "exampleTr": "200 metre düz gidin.",
+      "note": "Amerikan: go straight ahead."
+    },
+    {
+      "id": "a1-u08-v14",
+      "en": "cross",
+      "tr": "karşıya geçmek",
+      "example": "Cross the road at the lights.",
+      "exampleTr": "Yolun karşısına ışıklardan geçin."
+    },
+    {
+      "id": "a1-u08-v15",
+      "en": "first / second / third",
+      "tr": "birinci / ikinci / üçüncü",
+      "example": "Take the second street on the left.",
+      "exampleTr": "Soldaki ikinci sokağa girin."
+    },
+    {
+      "id": "a1-u08-v16",
+      "en": "near",
+      "tr": "yakın, yakınında",
+      "example": "Is it near here?",
+      "exampleTr": "Buraya yakın mı?"
+    },
+    {
+      "id": "a1-u08-v17",
+      "en": "far",
+      "tr": "uzak",
+      "example": "It isn't far.",
+      "exampleTr": "Uzak değil."
+    },
+    {
+      "id": "a1-u08-v18",
+      "en": "map",
+      "tr": "harita",
+      "example": "Can you show me on the map?",
+      "exampleTr": "Bana haritada gösterebilir misiniz?"
+    },
+    {
+      "id": "a1-u08-v19",
+      "en": "by bus / by train / by car",
+      "tr": "otobüsle / trenle / arabayla",
+      "example": "I go to work by bus.",
+      "exampleTr": "İşe otobüsle giderim.",
+      "note": "by + araç (the yok)."
+    },
+    {
+      "id": "a1-u08-v20",
+      "en": "on foot",
+      "tr": "yürüyerek",
+      "example": "It's ten minutes on foot.",
+      "exampleTr": "Yürüyerek on dakika.",
+      "note": "by foot değil, on foot."
+    },
+    {
+      "id": "a1-u08-v21",
+      "en": "get off",
+      "tr": "(araçtan) inmek",
+      "example": "Get off at the third stop.",
+      "exampleTr": "Üçüncü durakta inin.",
+      "note": "Binmek: get on."
+    },
+    {
+      "id": "a1-u08-v22",
+      "en": "ticket",
+      "tr": "bilet",
+      "example": "Two tickets to Ankara, please.",
+      "exampleTr": "Ankara'ya iki bilet lütfen."
+    },
+    {
+      "id": "a1-u08-v23",
+      "en": "Excuse me",
+      "tr": "Affedersiniz",
+      "example": "Excuse me, where's the museum?",
+      "exampleTr": "Affedersiniz, müze nerede?",
+      "note": "Birine bir şey sormadan önce söylenir."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u08-l1",
+      "number": 1,
+      "title": "Şehirdeki yerler",
+      "goal": "Şehirdeki yerlerin adını söyleyip nerede olduklarını sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Turizm ofisi",
+        "lines": [
+          {
+            "speaker": "Tourist",
+            "text": "Excuse me, is there a pharmacy near here?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "Yes, there's one on Atatürk Street, next to the post office."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "And where's the museum?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "It's in the main square, opposite the bank."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "Is it far?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "No, it isn't. It's five minutes on foot."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where's the pharmacy?",
+            "options": [
+              "Next to the post office",
+              "Opposite the bank",
+              "In the main square"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"next to the post office\"",
+            "id": "a1-u08-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How far is the museum?",
+            "options": [
+              "Five minutes by bus",
+              "Five minutes on foot",
+              "Fifteen minutes on foot"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's five minutes on foot.\"",
+            "id": "a1-u08-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir yer sormanın iki yolu var:\n\n- Belirli bir yer: **Where's the** museum? (Şehirde bir tane müze var, hangisi olduğu belli.)\n- Herhangi biri: **Is there a** pharmacy **near here**? (Herhangi bir eczane.)\n\nSoru sormadan önce **Excuse me** deriz.\n\nCevapta 4. ünitedeki yer edatlarını kullanırız: next to, opposite, between, on the corner, in the square, on ... Street.",
+        "examples": [
+          {
+            "en": "Excuse me, where's the station?",
+            "tr": "Affedersiniz, istasyon nerede?"
+          },
+          {
+            "en": "Is there a bank near here?",
+            "tr": "Buralarda banka var mı?"
+          },
+          {
+            "en": "It's on the corner of Park Street.",
+            "tr": "Park Caddesi'nin köşesinde."
+          }
+        ],
+        "turkishNote": "Cadde adlarıyla \"on\" kullanılır: on Atatürk Street (Atatürk Caddesi'nde). \"in Atatürk Street\" İngiliz İngilizcesinde de duyulur ama \"on\" daha yaygındır. Meydanda ise \"in the square\" denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "pharmacy",
+              "right": "eczane"
+            },
+            {
+              "left": "post office",
+              "right": "postane"
+            },
+            {
+              "left": "station",
+              "right": "istasyon"
+            },
+            {
+              "left": "square",
+              "right": "meydan"
+            },
+            {
+              "left": "museum",
+              "right": "müze"
+            }
+          ],
+          "explanation": "Yerleri eşleştirin.",
+          "id": "a1-u08-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Herhangi bir ATM arıyorsunuz:",
+          "options": [
+            "Where's the ATM?",
+            "Is there an ATM near here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Herhangi biri → Is there a/an ... near here?",
+          "id": "a1-u08-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Şehirdeki tek tren istasyonunu arıyorsunuz:",
+          "options": [
+            "Where's the station?",
+            "Is there a station?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Belirli yer → Where's the ...?",
+          "id": "a1-u08-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ me, where's the bus stop?",
+          "answers": [
+            "Excuse"
+          ],
+          "explanation": "Soru öncesi: Excuse me.",
+          "id": "a1-u08-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The bank is ___ the corner.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "köşede = on the corner.",
+          "id": "a1-u08-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The café is ___ the main square.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "meydanda = in the square.",
+          "id": "a1-u08-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "there",
+            "Is",
+            "a",
+            "near",
+            "supermarket",
+            "here",
+            "?"
+          ],
+          "answer": "Is there a supermarket near here?",
+          "explanation": "Is there a + yer + near here?",
+          "translation": "Buralarda süpermarket var mı?",
+          "id": "a1-u08-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The post office? It's on Park Street, between the bank and the bakery.",
+          "prompt": "Postane nerede?",
+          "options": [
+            "Bankayla fırının arasında",
+            "Bankanın karşısında",
+            "Meydanda"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"between the bank and the bakery\"",
+          "id": "a1-u08-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Affedersiniz, müze nerede?\"",
+          "accepted": [
+            "Excuse me, where's the museum?",
+            "Excuse me, where's the museum",
+            "Excuse me, where is the museum?",
+            "Excuse me, where is the museum"
+          ],
+          "explanation": "Excuse me, where's the museum?",
+          "id": "a1-u08-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is it far?\" (Uzak değil.)",
+          "options": [
+            "No, it isn't.",
+            "No, it doesn't.",
+            "No, far."
+          ],
+          "answerIndex": 0,
+          "explanation": "be sorusu → No, it isn't.",
+          "id": "a1-u08-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir turiste, mahallenizdeki üç yerin nerede olduğunu anlatın.",
+          "modelAnswer": "The bank is on Atatürk Street. There's a pharmacy next to the bank. The bus stop is opposite the supermarket.",
+          "rubric": [
+            "Yer isimleri doğru",
+            "Yer edatları doğru",
+            "there is / the doğru"
+          ]
+        },
+        "id": "a1-u08-l1-use"
+      }
+    },
+    {
+      "id": "a1-u08-l2",
+      "number": 2,
+      "title": "Emir cümleleri",
+      "goal": "Talimat ve uyarıları emir cümlesiyle verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Müzede",
+        "lines": [
+          {
+            "speaker": "Guide",
+            "text": "Welcome to the museum! Please listen carefully."
+          },
+          {
+            "speaker": "Guide",
+            "text": "Stay with the group and don't touch the paintings."
+          },
+          {
+            "speaker": "Guide",
+            "text": "Don't use your camera flash, please."
+          },
+          {
+            "speaker": "Guide",
+            "text": "Turn off your phones in the cinema room."
+          },
+          {
+            "speaker": "Guide",
+            "text": "And enjoy the visit!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What can't visitors use?",
+            "options": [
+              "Their phones",
+              "Their camera flash",
+              "Their maps"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Don't use your camera flash.\"",
+            "id": "a1-u08-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where do they turn off their phones?",
+            "options": [
+              "In the café",
+              "In the cinema room",
+              "At the door"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Turn off your phones in the cinema room.\"",
+            "id": "a1-u08-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Emir cümlesi** fiilin yalın hali ile başlar. Özne (you) söylenmez.\n\n- **Turn** left.\n- **Open** the window, please.\n- **Be** careful!\n\n**Olumsuz emir:** **Don't** + fiil\n\n- **Don't** park here.\n- **Don't** be late!\n\nKibar olmak için **please** eklenir: Please sit down. / Sit down, please.",
+        "examples": [
+          {
+            "en": "Close the door, please.",
+            "tr": "Kapıyı kapatın lütfen."
+          },
+          {
+            "en": "Don't worry!",
+            "tr": "Merak etme!"
+          },
+          {
+            "en": "Be quiet in the library.",
+            "tr": "Kütüphanede sessiz olun."
+          }
+        ],
+        "turkishNote": "Türkçede emir kipi sen/siz için farklıdır (kapat / kapatın). İngilizcede tek bir biçim vardır: Close the door. Kibarlık \"please\" ile sağlanır. \"Don't be late\" kalıbındaki \"be\" unutulmamalı: \"Don't late\" yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Turn",
+              "right": "left"
+            },
+            {
+              "left": "Don't",
+              "right": "park here"
+            },
+            {
+              "left": "Be",
+              "right": "careful"
+            },
+            {
+              "left": "Close",
+              "right": "the window"
+            }
+          ],
+          "explanation": "Emir cümlelerini tamamlayın.",
+          "id": "a1-u08-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Geç kalma!\"",
+          "options": [
+            "Don't late!",
+            "Don't be late!",
+            "Not be late!"
+          ],
+          "answerIndex": 1,
+          "explanation": "be ile: Don't be late.",
+          "wrongFeedback": {
+            "0": "\"late\" bir sıfat; önüne be gerekir."
+          },
+          "id": "a1-u08-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi bir emir cümlesi?",
+          "options": [
+            "You turn left.",
+            "Turn left.",
+            "Turning left."
+          ],
+          "answerIndex": 1,
+          "explanation": "Emir fiille başlar, özne yoktur.",
+          "id": "a1-u08-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ touch the paintings! (dokunmayın)",
+          "answers": [
+            "Don't",
+            "Do not"
+          ],
+          "explanation": "Olumsuz emir: Don't + fiil.",
+          "id": "a1-u08-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ quiet, please. The baby is asleep.",
+          "answers": [
+            "Be"
+          ],
+          "explanation": "Sıfatla emir: Be + sıfat.",
+          "id": "a1-u08-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kibar bir rica:",
+          "options": [
+            "Sit down!",
+            "Please sit down.",
+            "You sit."
+          ],
+          "answerIndex": 1,
+          "explanation": "please ile kibar.",
+          "id": "a1-u08-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "your",
+            "Turn",
+            "off",
+            "phone",
+            "please"
+          ],
+          "answer": "Turn off your phone please.",
+          "explanation": "Fiil + nesne + please.",
+          "translation": "Telefonunuzu kapatın lütfen.",
+          "id": "a1-u08-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Don't cross the road here. Go to the traffic lights and cross there.",
+          "prompt": "Nerede karşıya geçmeli?",
+          "options": [
+            "Burada",
+            "Trafik ışıklarında",
+            "Köşede"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Go to the traffic lights and cross there.\"",
+          "id": "a1-u08-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz emir yapın: \"Park here.\"",
+          "accepted": [
+            "Don't park here.",
+            "Don't park here",
+            "Do not park here",
+            "Do not park here."
+          ],
+          "explanation": "Don't + park here.",
+          "id": "a1-u08-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Tabelada \"No smoking\" yazıyor. Aynı anlam:",
+          "options": [
+            "Don't smoke.",
+            "Smoke here.",
+            "You smoke."
+          ],
+          "answerIndex": 0,
+          "explanation": "No smoking = Don't smoke.",
+          "id": "a1-u08-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Evinize gelen bir misafire 3 kural söyleyin (2 olumlu, 1 olumsuz emir).",
+          "modelAnswer": "Take off your shoes, please. Sit down and relax. Don't open the balcony door, the cat is outside.",
+          "rubric": [
+            "Fiille başladı",
+            "Don't + fiil doğru",
+            "please kullandı"
+          ]
+        },
+        "id": "a1-u08-l2-use"
+      }
+    },
+    {
+      "id": "a1-u08-l3",
+      "number": 3,
+      "title": "Yol tarifi",
+      "goal": "Bir yere nasıl gidileceğini sorup tarif edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sokakta",
+        "lines": [
+          {
+            "speaker": "Mia",
+            "text": "Excuse me, how do I get to the train station?"
+          },
+          {
+            "speaker": "Man",
+            "text": "Go straight on and turn left at the traffic lights."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Left at the traffic lights. OK."
+          },
+          {
+            "speaker": "Man",
+            "text": "Then take the second right. The station is at the end of the street, on your left."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Thank you very much!"
+          },
+          {
+            "speaker": "Man",
+            "text": "You're welcome."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Mia turn left?",
+            "options": [
+              "At the station",
+              "At the traffic lights",
+              "At the second street"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"turn left at the traffic lights\"",
+            "id": "a1-u08-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is the station?",
+            "options": [
+              "On the right",
+              "At the end of the street, on the left",
+              "Next to the lights"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"at the end of the street, on your left\"",
+            "id": "a1-u08-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Yol sormak:**\n\n- **How do I get to** the station?\n- **Can you tell me the way to** the museum?\n\n**Yol tarif etmek:**\n\n| İfade | Anlam |\n|---|---|\n| Go straight on. | Düz gidin. |\n| Turn left / right. | Sola / sağa dönün. |\n| Take the first / second left. | Soldaki birinci / ikinci sokağa girin. |\n| Go past the bank. | Bankayı geçin. |\n| Cross the road. | Karşıya geçin. |\n| It's on your left / right. | Solunuzda / sağınızda. |\n| at the end of the street | sokağın sonunda |",
+        "examples": [
+          {
+            "en": "Go past the park and turn right.",
+            "tr": "Parkı geçip sağa dönün."
+          },
+          {
+            "en": "Take the first left.",
+            "tr": "İlk soldan girin."
+          },
+          {
+            "en": "The bank is on your right.",
+            "tr": "Banka sağınızda."
+          }
+        ],
+        "turkishNote": "\"Sağa dön\" = turn right (turn to right değil). \"sağınızda\" = on your right. Teşekküre cevap olarak \"You're welcome\" (rica ederim) denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Go straight on.",
+              "right": "Düz gidin."
+            },
+            {
+              "left": "Turn right.",
+              "right": "Sağa dönün."
+            },
+            {
+              "left": "Take the first left.",
+              "right": "İlk soldan girin."
+            },
+            {
+              "left": "Go past the bank.",
+              "right": "Bankayı geçin."
+            },
+            {
+              "left": "It's on your left.",
+              "right": "Solunuzda."
+            }
+          ],
+          "explanation": "İfadeleri eşleştirin.",
+          "id": "a1-u08-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "Turn ___ at the traffic lights. (sağa)",
+          "answers": [
+            "right"
+          ],
+          "explanation": "sağ = right",
+          "id": "a1-u08-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Take the ___ left. (ikinci)",
+          "answers": [
+            "second"
+          ],
+          "explanation": "ikinci = second",
+          "id": "a1-u08-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The museum is ___ your right.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "on your right",
+          "id": "a1-u08-l3-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Turn to left.",
+            "Turn left.",
+            "Turn the left."
+          ],
+          "answerIndex": 1,
+          "explanation": "Turn left (to/the yok).",
+          "id": "a1-u08-l3-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "do",
+            "How",
+            "get",
+            "I",
+            "to",
+            "the",
+            "station",
+            "?"
+          ],
+          "answer": "How do I get to the station?",
+          "explanation": "How do I get to + yer?",
+          "translation": "İstasyona nasıl giderim?",
+          "id": "a1-u08-l3-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Go straight on, go past the supermarket and take the first right. The pharmacy is on your left.",
+          "prompt": "Eczane nerede?",
+          "options": [
+            "İlk sağdan girince solda",
+            "Süpermarketin yanında",
+            "İlk soldan girince sağda"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"take the first right ... on your left\"",
+          "id": "a1-u08-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Turn left at the bank, then go straight on. The bus stop is at the end of the street.",
+          "prompt": "Otobüs durağı nerede?",
+          "options": [
+            "Bankanın yanında",
+            "Sokağın sonunda",
+            "Köşede"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"at the end of the street\"",
+          "id": "a1-u08-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Işıklardan sola dönün.\"",
+          "accepted": [
+            "Turn left at the traffic lights.",
+            "Turn left at the traffic lights",
+            "Turn left at the lights.",
+            "Turn left at the lights"
+          ],
+          "explanation": "Turn left + at the traffic lights.",
+          "id": "a1-u08-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Thank you!\" sözüne cevap:",
+          "options": [
+            "You're welcome.",
+            "Yes, please.",
+            "Excuse me."
+          ],
+          "answerIndex": 0,
+          "explanation": "Rica ederim = You're welcome.",
+          "id": "a1-u08-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI evinizin yakınında kayboldu. Ona evinizden en yakın markete nasıl gideceğini tarif edin.",
+          "modelAnswer": "Go out of my building and turn right. Go straight on and take the second left. The supermarket is on your right, next to the bank.",
+          "rubric": [
+            "Emir cümleleriyle tarif",
+            "left/right ve first/second doğru",
+            "on your left/right kullandı"
+          ]
+        },
+        "id": "a1-u08-l3-use"
+      }
+    },
+    {
+      "id": "a1-u08-l4",
+      "number": 4,
+      "title": "Rica ve izin",
+      "goal": "can ile kibarca rica edip izin isteyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Otoparkta",
+        "lines": [
+          {
+            "speaker": "Driver",
+            "text": "Excuse me, can I park here?"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "Sorry, you can't. It's only for buses."
+          },
+          {
+            "speaker": "Driver",
+            "text": "Oh. Can you help me? Where can I park?"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "You can park behind the museum. It's free after six."
+          },
+          {
+            "speaker": "Driver",
+            "text": "Great. Can you show me on the map?"
+          },
+          {
+            "speaker": "Attendant",
+            "text": "Sure. Here it is."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why can't the driver park there?",
+            "options": [
+              "It's only for buses.",
+              "It isn't free.",
+              "It's after six."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Sorry, you can't. It's only for buses.\"",
+            "id": "a1-u08-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where can he park?",
+            "options": [
+              "In front of the museum",
+              "Behind the museum",
+              "Next to the buses"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"You can park behind the museum.\"",
+            "id": "a1-u08-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**can** her özneyle aynıdır ve ardından **yalın fiil** gelir.\n\n- **İzin istemek:** **Can I** park here? – Yes, you **can**. / No, you **can't**.\n- **Rica etmek:** **Can you** help me? – Sure. / Of course.\n- **Olasılık / izin:** You **can** park behind the museum. You **can't** smoke here.\n\n**can** ile -s, do/does ya da to kullanılmaz: ~~He cans~~, ~~Do you can~~, ~~can to go~~.",
+        "examples": [
+          {
+            "en": "Can I sit here?",
+            "tr": "Buraya oturabilir miyim?"
+          },
+          {
+            "en": "Can you repeat that, please?",
+            "tr": "Tekrar eder misiniz lütfen?"
+          },
+          {
+            "en": "You can't take photos here.",
+            "tr": "Burada fotoğraf çekemezsiniz."
+          }
+        ],
+        "turkishNote": "\"Can you...?\" Türkçedeki \"...ebilir misiniz?\" ricasının tam karşılığıdır. Daha da kibar olmak için \"Could you...?\" denir. Yeteneği anlatan can (I can swim) 9. ünitede gelecek."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "İzin istemek: \"Buraya oturabilir miyim?\"",
+          "options": [
+            "Can I sit here?",
+            "Can you sit here?",
+            "Do I can sit here?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Can I + fiil?",
+          "id": "a1-u08-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Rica: \"Bana yardım edebilir misiniz?\"",
+          "options": [
+            "Can I help you?",
+            "Can you help me?",
+            "You can help me."
+          ],
+          "answerIndex": 1,
+          "explanation": "Can you + fiil + me?",
+          "id": "a1-u08-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ smoke here. It's a hospital.",
+          "answers": [
+            "can't",
+            "cannot"
+          ],
+          "explanation": "Yasak → can't.",
+          "id": "a1-u08-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Can I to park here?",
+            "Can I park here?",
+            "Do I can park here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "can + yalın fiil (to yok).",
+          "id": "a1-u08-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Can I use your pen?\" (Evet.)",
+          "options": [
+            "Yes, you can.",
+            "Yes, I can.",
+            "Yes, you do."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yes, you can. / Sure.",
+          "id": "a1-u08-l4-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Can",
+            "show",
+            "me",
+            "on",
+            "the",
+            "map",
+            "?"
+          ],
+          "answer": "Can you show me on the map?",
+          "explanation": "Can you + fiil + me + ...?",
+          "translation": "Bana haritada gösterebilir misiniz?",
+          "id": "a1-u08-l4-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Excuse me, can I take photos in the museum? – Yes, you can, but you can't use the flash.",
+          "prompt": "Müzede ne yasak?",
+          "options": [
+            "Fotoğraf çekmek",
+            "Flaş kullanmak",
+            "Telefon kullanmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"you can't use the flash\"",
+          "id": "a1-u08-l4-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Tekrar eder misiniz lütfen?\"",
+          "accepted": [
+            "Can you repeat that, please?",
+            "Can you repeat that, please",
+            "Can you repeat, please?",
+            "Can you repeat, please",
+            "Could you repeat that, please?",
+            "Could you repeat that, please",
+            "Can you say that again, please?",
+            "Can you say that again, please"
+          ],
+          "explanation": "Can you repeat that, please?",
+          "id": "a1-u08-l4-p08"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I pay by card? – Yes, of course.",
+          "answers": [
+            "Can"
+          ],
+          "explanation": "İzin: Can I...?",
+          "id": "a1-u08-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She cans drive.",
+            "She can drive.",
+            "She can drives."
+          ],
+          "answerIndex": 1,
+          "explanation": "can her özneyle aynı, fiil yalın.",
+          "id": "a1-u08-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir otel resepsiyonundasınız. JAI resepsiyonist. 2 izin isteyin ve 1 rica edin.",
+          "modelAnswer": "Can I leave my bag here? Can I pay by card? Can you call a taxi for me, please?",
+          "rubric": [
+            "Can I (izin) doğru",
+            "Can you (rica) doğru",
+            "Fiil yalın, please kullandı"
+          ]
+        },
+        "id": "a1-u08-l4-use"
+      }
+    },
+    {
+      "id": "a1-u08-l5",
+      "number": 5,
+      "title": "Ulaşım",
+      "goal": "Bir yere hangi araçla gidileceğini sorup söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Metro gişesi",
+        "lines": [
+          {
+            "speaker": "Tourist",
+            "text": "Excuse me, how do I get to Taksim?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "Take the M2 metro line. Get off at Taksim station."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "How many stops is it?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "It's four stops from here."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "And can I buy a ticket here?"
+          },
+          {
+            "speaker": "Officer",
+            "text": "Yes. Buy an Istanbulkart. You can use it on buses, ferries and the metro."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does the tourist get off?",
+            "options": [
+              "At the fourth stop, Taksim",
+              "At the second stop",
+              "At the ferry"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"It's four stops... Get off at Taksim station.\"",
+            "id": "a1-u08-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where can you use an Istanbulkart?",
+            "options": [
+              "Only on the metro",
+              "On buses, ferries and the metro",
+              "Only on buses"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"on buses, ferries and the metro\"",
+            "id": "a1-u08-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Araçla gitmek:** **by** + araç (the yok): by bus, by train, by car, by taxi, by metro, by ferry, by plane\n\n**Yürüyerek:** **on foot** (~~by foot~~ değil)\n\n**Toplu taşıma ifadeleri:**\n\n- **take** the bus / the metro / a taxi (otobüse / metroya binmek)\n- **get on** (binmek) / **get off** (inmek)\n- How many stops is it? (Kaç durak?)\n- How do you get to work? – I go **by** bus.",
+        "examples": [
+          {
+            "en": "I go to school by bus.",
+            "tr": "Okula otobüsle giderim."
+          },
+          {
+            "en": "Take the number 25 bus.",
+            "tr": "25 numaralı otobüse binin."
+          },
+          {
+            "en": "Get off at the third stop.",
+            "tr": "Üçüncü durakta inin."
+          }
+        ],
+        "turkishNote": "Türkçede \"otobüse binmek\" deriz; İngilizcede genellikle \"take the bus\" denir. \"by\" ile araç arasında \"the\" ya da \"a\" olmaz: by car (by the car değil). Ama \"in my car\" (benim arabamla) denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "by",
+              "right": "bus"
+            },
+            {
+              "left": "on",
+              "right": "foot"
+            },
+            {
+              "left": "get",
+              "right": "off"
+            },
+            {
+              "left": "take",
+              "right": "a taxi"
+            }
+          ],
+          "explanation": "İfadeleri tamamlayın.",
+          "id": "a1-u08-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I go to work by foot.",
+            "I go to work on foot.",
+            "I go to work with foot."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yürüyerek = on foot.",
+          "id": "a1-u08-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "by the car",
+            "by car",
+            "with car"
+          ],
+          "answerIndex": 1,
+          "explanation": "by + araç (the yok).",
+          "id": "a1-u08-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Get ___ at the next stop. (inin)",
+          "answers": [
+            "off"
+          ],
+          "explanation": "inmek = get off.",
+          "id": "a1-u08-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ the metro to Kadıköy. (binin)",
+          "answers": [
+            "Take"
+          ],
+          "explanation": "Metroya binmek = take the metro.",
+          "id": "a1-u08-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "How",
+            "get",
+            "do",
+            "work",
+            "to",
+            "?"
+          ],
+          "answer": "How do you get to work?",
+          "explanation": "How do you get to + yer?",
+          "translation": "İşe nasıl gidiyorsun?",
+          "id": "a1-u08-l5-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "I usually go to work by ferry, but on rainy days I take the metro.",
+          "prompt": "Konuşan genellikle işe nasıl gidiyor?",
+          "options": [
+            "Metroyla",
+            "Vapurla",
+            "Otobüsle"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I usually go to work by ferry\"",
+          "id": "a1-u08-l5-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İşe otobüsle giderim.\"",
+          "accepted": [
+            "I go to work by bus.",
+            "I go to work by bus"
+          ],
+          "explanation": "go to work + by bus.",
+          "id": "a1-u08-l5-p08"
+        },
+        {
+          "type": "gapFill",
+          "text": "How many ___ is it? (durak)",
+          "answers": [
+            "stops"
+          ],
+          "explanation": "durak = stop, çoğul: stops.",
+          "id": "a1-u08-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"How do you get to school?\" sorusuna uygun cevap:",
+          "options": [
+            "By train.",
+            "At eight.",
+            "Yes, I do."
+          ],
+          "answerIndex": 0,
+          "explanation": "Nasıl → araç.",
+          "id": "a1-u08-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir arkadaşınıza evinizden şehir merkezine nasıl geleceğini yazın: hangi araç, nerede inmeli, sonra nasıl yürümeli.",
+          "modelAnswer": "Take the number 12 bus from the station. Get off at the fifth stop, Cumhuriyet Square. Then go straight on and turn left at the bank. My flat is on your right.",
+          "rubric": [
+            "take / get off doğru",
+            "Emir cümleleri",
+            "Yön ifadeleri doğru",
+            "by / on foot doğru"
+          ]
+        },
+        "id": "a1-u08-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Herhangi bir eczane arıyorsunuz:",
+        "options": [
+          "Where's the pharmacy?",
+          "Is there a pharmacy near here?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Herhangi biri → Is there a ...?",
+        "id": "a1-u08-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "The bank is ___ the corner.",
+        "answers": [
+          "on"
+        ],
+        "explanation": "on the corner",
+        "id": "a1-u08-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Geç kalma!\"",
+        "options": [
+          "Don't be late!",
+          "Don't late!",
+          "Not late!"
+        ],
+        "answerIndex": 0,
+        "explanation": "Don't be + sıfat.",
+        "id": "a1-u08-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ park here. It's for buses. (Park etmeyin)",
+        "answers": [
+          "Don't",
+          "Do not"
+        ],
+        "explanation": "Olumsuz emir.",
+        "id": "a1-u08-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Turn to right.",
+          "Turn right.",
+          "Turn the right."
+        ],
+        "answerIndex": 1,
+        "explanation": "Turn right.",
+        "id": "a1-u08-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "Take the ___ left. (birinci)",
+        "answers": [
+          "first"
+        ],
+        "explanation": "birinci = first",
+        "id": "a1-u08-t06"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "get",
+          "How",
+          "do",
+          "I",
+          "to",
+          "museum",
+          "the",
+          "?"
+        ],
+        "answer": "How do I get to the museum?",
+        "explanation": "How do I get to + yer?",
+        "translation": "Müzeye nasıl giderim?",
+        "id": "a1-u08-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "İzin: \"Kartla ödeyebilir miyim?\"",
+        "options": [
+          "Can you pay by card?",
+          "Can I pay by card?",
+          "Do I can pay by card?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Can I + fiil?",
+        "id": "a1-u08-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Can you to help me?",
+          "Can you help me?",
+          "Do you can help me?"
+        ],
+        "answerIndex": 1,
+        "explanation": "can + yalın fiil.",
+        "id": "a1-u08-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I go to school by foot.",
+          "I go to school on foot."
+        ],
+        "answerIndex": 1,
+        "explanation": "on foot",
+        "id": "a1-u08-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Get ___ the bus at the third stop. (inin)",
+        "answers": [
+          "off"
+        ],
+        "explanation": "get off",
+        "id": "a1-u08-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "Go straight on and take the second left. The museum is on your right, opposite the park.",
+        "prompt": "Müze nerede?",
+        "options": [
+          "İkinci soldan girince sağda",
+          "İkinci sağdan girince solda",
+          "Parkın yanında"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"take the second left ... on your right\"",
+        "id": "a1-u08-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Sağınızda.\"",
+        "accepted": [
+          "It's on your right.",
+          "It's on your right",
+          "It is on your right",
+          "It is on your right.",
+          "On your right.",
+          "On your right"
+        ],
+        "explanation": "on your right",
+        "id": "a1-u08-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Thank you very much!\" sözüne cevap:",
+        "options": [
+          "You're welcome.",
+          "Excuse me.",
+          "Yes, please."
+        ],
+        "answerIndex": 0,
+        "explanation": "Rica ederim.",
+        "id": "a1-u08-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir turiste, şehrinizdeki en sevdiğiniz yere nasıl gideceğini 5 cümleyle tarif edin.",
+        "modelAnswer": "Take the metro to Şişhane and get off there. Go straight on and cross the road at the traffic lights. Turn right and go past the bookshop. The Galata Tower is at the end of the street. You can't miss it!",
+        "rubric": [
+          "Emir cümleleri doğru",
+          "Yön ifadeleri doğru",
+          "Ulaşım ifadeleri doğru",
+          "Yer edatları doğru"
+        ],
+        "id": "a1-u08-t15"
+      }
+    ]
+  }
+}

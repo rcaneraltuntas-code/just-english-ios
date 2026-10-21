@@ -165,6 +165,10 @@ class Unit:
                 err(l["id"], f"alıştırma sayısı {len(l['practice'])}")
             if len(l["discover"]["questions"]) < 2:
                 err(l["id"], "keşfet sorusu az")
+            kind = l["discover"]["kind"]
+            if kind not in ("dialogue", "text") or (kind == "dialogue") != ("lines" in l["discover"]) \
+                    or (kind == "text") != ("body" in l["discover"]):
+                err(l["id"], "keşfet: dialogue → lines, text → body olmalı")
             for q in l["discover"]["questions"] + l["practice"] + [l["use"]["task"] | {"id": l["use"]["id"]}]:
                 check(q, l["id"])
             kinds = {ex["type"] for ex in l["practice"]}

@@ -6,3 +6,4 @@ DerivedData/
 .swiftpm/
 Config/Secrets.xcconfig
 supabase/.temp/
+__pycache__/

@@ -156,7 +156,7 @@ u.lesson(
         {"speaker": "Driver", "text": "Great. Can you show me on the map?"},
         {"speaker": "Attendant", "text": "Sure. Here it is."}],
      "questions": [
-        mc("Can the driver park there?", ["Yes, he can.", "No, he can't."], 1, "\"Sorry, you can't. It's only for buses.\""),
+        mc("Why can't the driver park there?", ["It's only for buses.", "It isn't free.", "It's after six."], 0, "\"Sorry, you can't. It's only for buses.\""),
         mc("Where can he park?", ["In front of the museum", "Behind the museum", "Next to the buses"], 1, "\"You can park behind the museum.\""),
      ]},
     {"explanation": "**can** her özneyle aynıdır ve ardından **yalın fiil** gelir.\n\n- **İzin istemek:** **Can I** park here? – Yes, you **can**. / No, you **can't**.\n- **Rica etmek:** **Can you** help me? – Sure. / Of course.\n- **Olasılık / izin:** You **can** park behind the museum. You **can't** smoke here.\n\n**can** ile -s, do/does ya da to kullanılmaz: ~~He cans~~, ~~Do you can~~, ~~can to go~~.",

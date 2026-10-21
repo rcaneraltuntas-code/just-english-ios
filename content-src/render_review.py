@@ -39,7 +39,10 @@ for l in u["lessons"]:
     d = l["discover"]
     out += [f"## Ders {l['number']}: {l['title']}", "", f"**Hedef:** {l['goal']}", "",
             f"### Keşfet: {d['title']}", ""]
-    out += [f"- **{line['speaker']}:** {line['text']}" for line in d["lines"]]
+    if d["kind"] == "text":
+        out += ["> " + para if para else ">" for para in d["body"].split("\n")]
+    else:
+        out += [f"- **{line['speaker']}:** {line['text']}" for line in d["lines"]]
     out += [""] + [exercise(i + 1, q) for i, q in enumerate(d["questions"])]
     out += ["", "### Öğren", "", l["learn"]["explanation"], "", "Örnekler: " +
             " · ".join(f"*{e['en']}* ({e['tr']})" for e in l["learn"]["examples"]), "",

@@ -1,0 +1,1447 @@
+{
+  "id": "a1-u09",
+  "level": "A1",
+  "number": 9,
+  "title": "Yeteneklerim",
+  "titleEn": "Abilities and Free Time",
+  "canDo": "Neler yapabildiğimi ve boş zamanımda neler yapmayı sevdiğimi anlatabilir, birini bir etkinliğe davet edebilirim.",
+  "grammar": [
+    "can / can't (yetenek)",
+    "Can you ...? soruları ve kısa cevaplar",
+    "like / love / hate + -ing",
+    "Do you want to ...? / Let's ..."
+  ],
+  "vocabularyThemes": [
+    "sporlar",
+    "hobiler",
+    "müzik aletleri"
+  ],
+  "liveClass": {
+    "title": "Yetenek avı",
+    "durationMinutes": 45,
+    "goal": "Her öğrenciye 'Find someone who can...' kartı verilir. Öğrenciler birbirine Can you...? soruları sorarak kartı doldurur; sonra sınıfa 'Elif can play the guitar, but she can't swim' gibi cümlelerle rapor verir."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u09-v01",
+      "en": "swim",
+      "tr": "yüzmek",
+      "example": "I can swim, but not very well.",
+      "exampleTr": "Yüzebilirim ama çok iyi değil."
+    },
+    {
+      "id": "a1-u09-v02",
+      "en": "ride a bike",
+      "tr": "bisiklete binmek",
+      "example": "My son can ride a bike.",
+      "exampleTr": "Oğlum bisiklete binebiliyor."
+    },
+    {
+      "id": "a1-u09-v03",
+      "en": "drive",
+      "tr": "araba sürmek",
+      "example": "Can you drive?",
+      "exampleTr": "Araba kullanabilir misin?"
+    },
+    {
+      "id": "a1-u09-v04",
+      "en": "cook",
+      "tr": "yemek yapmak",
+      "example": "My dad cooks very well.",
+      "exampleTr": "Babam çok iyi yemek yapar."
+    },
+    {
+      "id": "a1-u09-v05",
+      "en": "sing",
+      "tr": "şarkı söylemek",
+      "example": "She can sing beautifully.",
+      "exampleTr": "Çok güzel şarkı söyleyebiliyor."
+    },
+    {
+      "id": "a1-u09-v06",
+      "en": "dance",
+      "tr": "dans etmek",
+      "example": "I can't dance!",
+      "exampleTr": "Dans edemem!"
+    },
+    {
+      "id": "a1-u09-v07",
+      "en": "draw",
+      "tr": "çizmek, resim yapmak",
+      "example": "Can you draw a cat?",
+      "exampleTr": "Kedi çizebilir misin?"
+    },
+    {
+      "id": "a1-u09-v08",
+      "en": "speak",
+      "tr": "konuşmak (bir dili)",
+      "example": "I can speak Turkish and a little English.",
+      "exampleTr": "Türkçe ve biraz İngilizce konuşabiliyorum."
+    },
+    {
+      "id": "a1-u09-v09",
+      "en": "play football / basketball / tennis",
+      "tr": "futbol / basketbol / tenis oynamak",
+      "example": "We play football on Sundays.",
+      "exampleTr": "Pazarları futbol oynarız.",
+      "note": "Top oyunlarıyla play (the yok)."
+    },
+    {
+      "id": "a1-u09-v10",
+      "en": "play the guitar / the piano",
+      "tr": "gitar / piyano çalmak",
+      "example": "He can play the guitar.",
+      "exampleTr": "Gitar çalabiliyor.",
+      "note": "Müzik aletleriyle play the."
+    },
+    {
+      "id": "a1-u09-v11",
+      "en": "go swimming / running / cycling",
+      "tr": "yüzmeye / koşuya / bisiklete gitmek",
+      "example": "I go running every morning.",
+      "exampleTr": "Her sabah koşuya giderim.",
+      "note": "-ing ile biten etkinliklerle go."
+    },
+    {
+      "id": "a1-u09-v12",
+      "en": "do yoga / karate",
+      "tr": "yoga / karate yapmak",
+      "example": "My sister does yoga.",
+      "exampleTr": "Kız kardeşim yoga yapıyor."
+    },
+    {
+      "id": "a1-u09-v13",
+      "en": "chess",
+      "tr": "satranç",
+      "example": "Can you play chess?",
+      "exampleTr": "Satranç oynayabilir misin?"
+    },
+    {
+      "id": "a1-u09-v14",
+      "en": "hobby",
+      "tr": "hobi",
+      "example": "My hobby is photography.",
+      "exampleTr": "Hobim fotoğrafçılık.",
+      "note": "Çoğul: hobbies."
+    },
+    {
+      "id": "a1-u09-v15",
+      "en": "free time",
+      "tr": "boş zaman",
+      "example": "What do you do in your free time?",
+      "exampleTr": "Boş zamanında ne yaparsın?"
+    },
+    {
+      "id": "a1-u09-v16",
+      "en": "team",
+      "tr": "takım",
+      "example": "I'm in the school volleyball team.",
+      "exampleTr": "Okulun voleybol takımındayım."
+    },
+    {
+      "id": "a1-u09-v17",
+      "en": "well",
+      "tr": "iyi (bir şekilde)",
+      "example": "She speaks English very well.",
+      "exampleTr": "Çok iyi İngilizce konuşuyor.",
+      "note": "good sıfat, well zarf: a good singer / sing well."
+    },
+    {
+      "id": "a1-u09-v18",
+      "en": "love",
+      "tr": "çok sevmek, bayılmak",
+      "example": "I love dancing.",
+      "exampleTr": "Dans etmeye bayılırım."
+    },
+    {
+      "id": "a1-u09-v19",
+      "en": "hate",
+      "tr": "nefret etmek",
+      "example": "I hate running.",
+      "exampleTr": "Koşmaktan nefret ederim."
+    },
+    {
+      "id": "a1-u09-v20",
+      "en": "enjoy",
+      "tr": "keyif almak",
+      "example": "I enjoy cooking for my friends.",
+      "exampleTr": "Arkadaşlarıma yemek yapmaktan keyif alırım.",
+      "note": "enjoy + -ing"
+    },
+    {
+      "id": "a1-u09-v21",
+      "en": "join",
+      "tr": "katılmak",
+      "example": "Do you want to join our team?",
+      "exampleTr": "Takımımıza katılmak ister misin?"
+    },
+    {
+      "id": "a1-u09-v22",
+      "en": "practise",
+      "tr": "pratik yapmak, çalışmak",
+      "example": "I practise the piano every day.",
+      "exampleTr": "Her gün piyano çalışırım.",
+      "note": "Amerikan yazımı: practice."
+    },
+    {
+      "id": "a1-u09-v23",
+      "en": "Let's ...",
+      "tr": "Hadi ...",
+      "example": "Let's play tennis!",
+      "exampleTr": "Hadi tenis oynayalım!",
+      "note": "Let's + yalın fiil."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u09-l1",
+      "number": 1,
+      "title": "Sporlar ve hobiler",
+      "goal": "Yaptığım sporları ve hobileri play / go / do ile söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Spor merkezi duyurusu",
+        "body": "CITY SPORTS CENTRE – What's on this week?\n\nMonday: Play basketball with our coach, Ali. 7 pm.\nTuesday: Do yoga in the garden. 8 am.\nWednesday: Go swimming in the big pool. All day.\nThursday: Play tennis. Rackets are free!\nSaturday: Go cycling by the sea. Meet at the door at 10 am.\n\nAll activities are free for students.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When can you do yoga?",
+            "options": [
+              "On Monday evening",
+              "On Tuesday morning",
+              "On Saturday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Tuesday: Do yoga in the garden. 8 am.\"",
+            "id": "a1-u09-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What's free on Thursday?",
+            "options": [
+              "The rackets",
+              "The bikes",
+              "The pool"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Rackets are free!\"",
+            "id": "a1-u09-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Spor ve etkinliklerle üç fiil kullanılır:\n\n| Fiil | Ne ile? | Örnek |\n|---|---|---|\n| **play** | top ve karşılıklı oyunlar | play football, play tennis, play chess |\n| **go** | -ing ile biten etkinlikler | go swimming, go running, go cycling |\n| **do** | bireysel sporlar, dövüş sanatları | do yoga, do karate, do exercise |\n\nMüzik aletlerinde **play the**: play **the** guitar, play **the** piano.\nSporlarda **the yok**: play football (~~play the football~~).",
+        "examples": [
+          {
+            "en": "I play volleyball at school.",
+            "tr": "Okulda voleybol oynarım."
+          },
+          {
+            "en": "We go swimming in summer.",
+            "tr": "Yazın yüzmeye gideriz."
+          },
+          {
+            "en": "My mum does yoga.",
+            "tr": "Annem yoga yapar."
+          }
+        ],
+        "turkishNote": "Türkçede \"gitar çalmak\" ve \"futbol oynamak\" farklı fiillerdir; İngilizcede ikisi de play. \"Yüzmeye gitmek\" = go swimming (go to swimming değil)."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "play",
+              "right": "tennis"
+            },
+            {
+              "left": "go",
+              "right": "running"
+            },
+            {
+              "left": "do",
+              "right": "karate"
+            },
+            {
+              "left": "play the",
+              "right": "piano"
+            }
+          ],
+          "explanation": "Fiilleri eşleştirin.",
+          "id": "a1-u09-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ swimming",
+          "options": [
+            "play",
+            "go",
+            "do"
+          ],
+          "answerIndex": 1,
+          "explanation": "-ing etkinlik → go.",
+          "id": "a1-u09-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ chess",
+          "options": [
+            "play",
+            "go",
+            "do"
+          ],
+          "answerIndex": 0,
+          "explanation": "Karşılıklı oyun → play.",
+          "id": "a1-u09-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ yoga",
+          "options": [
+            "play",
+            "go",
+            "do"
+          ],
+          "answerIndex": 2,
+          "explanation": "Bireysel spor → do.",
+          "id": "a1-u09-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She plays the football.",
+            "She plays football.",
+            "She does football."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sporda the yok: play football.",
+          "id": "a1-u09-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "He plays ___ guitar in a band.",
+          "answers": [
+            "the"
+          ],
+          "explanation": "Müzik aleti → play the.",
+          "id": "a1-u09-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ cycling on Sundays.",
+          "answers": [
+            "go"
+          ],
+          "explanation": "go cycling",
+          "id": "a1-u09-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "In my free time I play basketball and I do karate. I don't go swimming. I hate water!",
+          "prompt": "Konuşan hangisini yapmıyor?",
+          "options": [
+            "Basketbol",
+            "Karate",
+            "Yüzme"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"I don't go swimming.\"",
+          "id": "a1-u09-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Her sabah koşuya giderim.\"",
+          "accepted": [
+            "I go running every morning.",
+            "I go running every morning"
+          ],
+          "explanation": "go running + every morning.",
+          "id": "a1-u09-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What do you do in your free time?\" cevabı:",
+          "options": [
+            "I play the piano.",
+            "I'm a doctor.",
+            "At nine o'clock."
+          ],
+          "answerIndex": 0,
+          "explanation": "Boş zaman → hobi.",
+          "id": "a1-u09-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Boş zamanınızda yaptığınız 3 etkinliği play, go ve do ile anlatın.",
+          "modelAnswer": "In my free time I play tennis with my friends. On Sundays I go cycling. I also do yoga at home.",
+          "rubric": [
+            "play/go/do doğru",
+            "the doğru kullanıldı",
+            "Geniş zaman doğru"
+          ]
+        },
+        "id": "a1-u09-l1-use"
+      }
+    },
+    {
+      "id": "a1-u09-l2",
+      "number": 2,
+      "title": "Yapabilirim, yapamam",
+      "goal": "can / can't ile neler yapabildiğimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni oda arkadaşı",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "So, tell me about you. What can you do?"
+          },
+          {
+            "speaker": "Emma",
+            "text": "Well, I can cook. I can make great pasta!"
+          },
+          {
+            "speaker": "Selin",
+            "text": "Great! I can't cook at all."
+          },
+          {
+            "speaker": "Emma",
+            "text": "And I can play the piano, but I can't sing."
+          },
+          {
+            "speaker": "Selin",
+            "text": "I can sing! We can make music together."
+          },
+          {
+            "speaker": "Emma",
+            "text": "Perfect!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What can Emma cook?",
+            "options": [
+              "Pizza",
+              "Pasta",
+              "Soup"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I can make great pasta!\"",
+            "id": "a1-u09-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who can sing?",
+            "options": [
+              "Emma",
+              "Selin",
+              "Both"
+            ],
+            "answerIndex": 1,
+            "explanation": "Selin: \"I can sing!\"",
+            "id": "a1-u09-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**can** yetenek de anlatır (8. ünitede rica ve izin için gördük).\n\n| Olumlu | Olumsuz |\n|---|---|\n| I **can** swim. | I **can't** swim. |\n| She **can** drive. | She **can't** drive. |\n\n- Her özneyle aynıdır: he can (~~he cans~~).\n- Ardından **yalın fiil** gelir: can swim (~~can swims~~, ~~can to swim~~).\n- Derece: very well (çok iyi), well (iyi), a little (biraz), not at all (hiç).\n\n**Telaffuz:** Olumlu cümlede can zayıf okunur (/kən/), can't ise vurguludur (/kɑːnt/). Bu fark dinlerken çok önemli.",
+        "examples": [
+          {
+            "en": "I can speak English a little.",
+            "tr": "Biraz İngilizce konuşabiliyorum."
+          },
+          {
+            "en": "My grandma can't use a computer.",
+            "tr": "Büyükannem bilgisayar kullanamıyor."
+          },
+          {
+            "en": "He can swim very well.",
+            "tr": "Çok iyi yüzebiliyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"-ebil\" fiile eklenir; İngilizcede can ayrı bir kelimedir ve fiilin önüne gelir. \"I can't cook at all\" = Hiç yemek yapamam. \"Very well\" cümlenin sonuna gelir: I can very well swim değil, I can swim very well."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She cans swim.",
+            "She can swim.",
+            "She can swims."
+          ],
+          "answerIndex": 1,
+          "explanation": "can + yalın fiil, -s yok.",
+          "id": "a1-u09-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I can to drive.",
+            "I can drive.",
+            "I can driving."
+          ],
+          "answerIndex": 1,
+          "explanation": "can + yalın fiil (to yok).",
+          "id": "a1-u09-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ swim. I'm afraid of water. (yüzemem)",
+          "answers": [
+            "can't",
+            "cannot"
+          ],
+          "explanation": "Olumsuz: can't.",
+          "id": "a1-u09-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My brother can play the piano very ___.",
+          "answers": [
+            "well"
+          ],
+          "explanation": "çok iyi = very well.",
+          "id": "a1-u09-l2-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "can",
+            "My",
+            "sister",
+            "speak",
+            "French",
+            "a",
+            "little"
+          ],
+          "answer": "My sister can speak French a little.",
+          "explanation": "Özne + can + fiil + nesne + derece.",
+          "translation": "Kız kardeşim biraz Fransızca konuşabiliyor.",
+          "id": "a1-u09-l2-p05"
+        },
+        {
+          "type": "listening",
+          "audioText": "I can ride a bike, but I can't drive a car.",
+          "prompt": "Konuşan ne yapamıyor?",
+          "options": [
+            "Bisiklete binmek",
+            "Araba sürmek",
+            "İkisini de"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I can't drive a car\" (can't vurgulu).",
+          "id": "a1-u09-l2-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "My dad can cook very well. He can make fantastic kebabs.",
+          "prompt": "Baba yemek yapabiliyor mu?",
+          "options": [
+            "Evet, çok iyi",
+            "Hayır",
+            "Biraz"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"can cook very well\"",
+          "id": "a1-u09-l2-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Hiç dans edemem.\"",
+          "options": [
+            "I can't dance at all.",
+            "I can dance at all.",
+            "I don't can dance."
+          ],
+          "answerIndex": 0,
+          "explanation": "not at all = hiç.",
+          "id": "a1-u09-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Gitar çalabiliyorum ama şarkı söyleyemiyorum.\"",
+          "accepted": [
+            "I can play the guitar, but I can't sing.",
+            "I can play the guitar, but I can't sing",
+            "I can play the guitar, but I cannot sing",
+            "I can play the guitar, but I cannot sing.",
+            "I can play the guitar but I can't sing.",
+            "I can play the guitar but I can't sing",
+            "I can play the guitar but I cannot sing",
+            "I can play the guitar but I cannot sing."
+          ],
+          "explanation": "can play the guitar, but can't sing.",
+          "id": "a1-u09-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "good mi well mi? \"She is a ___ singer.\"",
+          "options": [
+            "good",
+            "well"
+          ],
+          "answerIndex": 0,
+          "explanation": "İsimden önce sıfat: a good singer.",
+          "id": "a1-u09-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Yapabildiğiniz 3 şeyi ve yapamadığınız 2 şeyi söyleyin. En az birine derece ekleyin (very well, a little).",
+          "modelAnswer": "I can swim very well. I can cook and I can speak English a little. I can't drive and I can't play the guitar.",
+          "rubric": [
+            "can + yalın fiil",
+            "can't doğru",
+            "Derece ifadesi doğru yerde"
+          ]
+        },
+        "id": "a1-u09-l2-use"
+      }
+    },
+    {
+      "id": "a1-u09-l3",
+      "number": 3,
+      "title": "Can you ...?",
+      "goal": "Birine neler yapabildiğini sorup kısa cevap verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yaz kampı başvurusu",
+        "lines": [
+          {
+            "speaker": "Coach",
+            "text": "Hi, Mert. Can you swim?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Yes, I can."
+          },
+          {
+            "speaker": "Coach",
+            "text": "Can you play any instruments?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "No, I can't. But I can sing."
+          },
+          {
+            "speaker": "Coach",
+            "text": "Great. And what sports can you play?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "I can play volleyball and basketball."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Can Mert play an instrument?",
+            "options": [
+              "Yes, he can.",
+              "No, he can't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, I can't.\"",
+            "id": "a1-u09-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What sports can Mert play?",
+            "options": [
+              "Football and tennis",
+              "Volleyball and basketball",
+              "Only swimming"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"volleyball and basketball\"",
+            "id": "a1-u09-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Soru:** **Can** + özne + fiil?\n\n- **Can you** swim? – Yes, I **can**. / No, I **can't**.\n- **Can she** drive? – Yes, she **can**. / No, she **can't**.\n\n**Bilgi sorusu:** Soru kelimesi + can + özne + fiil?\n\n- **What** can you cook?\n- **How many** languages can you speak?\n\nKısa cevapta fiil tekrar edilmez: ~~Yes, I can swim~~ değil, **Yes, I can.** (Uzun cevap da yanlış değil ama doğal olan kısa cevaptır.)",
+        "examples": [
+          {
+            "en": "Can your mum speak English? – Yes, she can.",
+            "tr": "Annen İngilizce konuşabiliyor mu? – Evet."
+          },
+          {
+            "en": "What instruments can you play?",
+            "tr": "Hangi enstrümanları çalabiliyorsun?"
+          },
+          {
+            "en": "How many languages can you speak?",
+            "tr": "Kaç dil konuşabiliyorsun?"
+          }
+        ],
+        "turkishNote": "\"Do you can swim?\" Türkçe konuşanların sık yaptığı bir hatadır. can soruyu kendisi kurar, do gerekmez."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Do you can swim?",
+            "Can you swim?",
+            "You can swim?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Can + özne + fiil?",
+          "wrongFeedback": {
+            "0": "can ile do kullanılmaz."
+          },
+          "id": "a1-u09-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Can your brother drive?\" (Evet.)",
+          "options": [
+            "Yes, he can.",
+            "Yes, he does.",
+            "Yes, he drives."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kısa cevap: Yes, he can.",
+          "id": "a1-u09-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Can you play chess?\" (Hayır.)",
+          "options": [
+            "No, I don't.",
+            "No, I can't.",
+            "No, I not."
+          ],
+          "answerIndex": 1,
+          "explanation": "No, I can't.",
+          "id": "a1-u09-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you speak German? – No, I can't.",
+          "answers": [
+            "Can"
+          ],
+          "explanation": "Can ile soru.",
+          "id": "a1-u09-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you cook? – Pasta and soup.",
+          "answers": [
+            "can"
+          ],
+          "explanation": "Soru kelimesi + can.",
+          "id": "a1-u09-l3-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "languages",
+            "How",
+            "many",
+            "can",
+            "you",
+            "speak",
+            "?"
+          ],
+          "answer": "How many languages can you speak?",
+          "explanation": "How many + isim + can + özne + fiil?",
+          "translation": "Kaç dil konuşabiliyorsun?",
+          "id": "a1-u09-l3-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Can you ride a horse? – No, I can't. But I can ride a bike.",
+          "prompt": "Konuşan neye binebiliyor?",
+          "options": [
+            "Ata",
+            "Bisiklete",
+            "İkisine de"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I can ride a bike\"",
+          "id": "a1-u09-l3-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"She can play the violin.\"",
+          "accepted": [
+            "Can she play the violin?",
+            "Can she play the violin"
+          ],
+          "explanation": "Can + she + play the violin?",
+          "id": "a1-u09-l3-p08"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Can they dance?\" (Evet.)",
+          "options": [
+            "Yes, they can.",
+            "Yes, they do.",
+            "Yes, can they."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yes, they can.",
+          "id": "a1-u09-l3-p09"
+        },
+        {
+          "type": "gapFill",
+          "text": "Can Ayşe swim? – No, she ___.",
+          "answers": [
+            "can't",
+            "cannot"
+          ],
+          "explanation": "Olumsuz kısa cevap.",
+          "id": "a1-u09-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile yaz kampı görüşmesi yapın. JAI'ye 4 tane Can you...? sorusu sorun.",
+          "modelAnswer": "Can you swim? Can you play the guitar? Can you cook? What sports can you play?",
+          "rubric": [
+            "Can + özne + fiil düzeni",
+            "do kullanmadı",
+            "Bilgi sorusu (What/How many) kurdu"
+          ]
+        },
+        "id": "a1-u09-l3-use"
+      }
+    },
+    {
+      "id": "a1-u09-l4",
+      "number": 4,
+      "title": "Sevdiklerim",
+      "goal": "like / love / hate + -ing ile neyi yapmayı sevdiğimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir forum mesajı",
+        "body": "Hi everyone! I'm Kaan from İzmir. I'm 24 and I'm a nurse.\n\nIn my free time I love reading, especially science fiction. I like cooking too, and I often cook for my friends at the weekend. I don't like watching TV. It's boring! And I hate shopping. Crowded shops are terrible.\n\nWhat do you like doing? Write to me!",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Kaan love?",
+            "options": [
+              "Watching TV",
+              "Reading",
+              "Shopping"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I love reading\"",
+            "id": "a1-u09-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why doesn't Kaan like watching TV?",
+            "options": [
+              "It's boring.",
+              "It's expensive.",
+              "He doesn't have a TV."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"It's boring!\"",
+            "id": "a1-u09-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Sevme fiillerinden sonra genellikle fiilin **-ing** hali gelir:\n\n| | |\n|---|---|\n| ❤️❤️ | I **love** dancing. |\n| ❤️ | I **like** cooking. / I **enjoy** cooking. |\n| 😐 | I **don't like** running. |\n| 💔 | I **hate** shopping. |\n\n**-ing yazım kuralları:**\n\n- Çoğu fiil: read → read**ing**, play → play**ing**\n- Sondaki -e düşer: dance → danc**ing**, ride → rid**ing**\n- Kısa fiilde son ünsüz ikilenir: swim → swi**mm**ing, run → ru**nn**ing\n\nSoru: **Do you like** swimming? – Yes, I **do**. / No, I **don't**.",
+        "examples": [
+          {
+            "en": "I love listening to music.",
+            "tr": "Müzik dinlemeye bayılırım."
+          },
+          {
+            "en": "My dad doesn't like flying.",
+            "tr": "Babam uçmayı sevmez."
+          },
+          {
+            "en": "Do you enjoy cooking?",
+            "tr": "Yemek yapmaktan keyif alır mısın?"
+          }
+        ],
+        "turkishNote": "Türkçede \"okumayı severim\" deriz; İngilizcede \"I like read\" yanlıştır, \"I like reading\" doğrudur. can sorusunun aksine like sorusunda do / does kullanılır: Do you like...? / Does she like...?"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I like read.",
+            "I like reading.",
+            "I like to reading."
+          ],
+          "answerIndex": 1,
+          "explanation": "like + -ing.",
+          "id": "a1-u09-l4-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She loves ___. (dance)",
+          "answers": [
+            "dancing"
+          ],
+          "explanation": "dance → dancing (-e düşer).",
+          "id": "a1-u09-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We enjoy ___ in the sea. (swim)",
+          "answers": [
+            "swimming"
+          ],
+          "explanation": "swim → swimming (m ikilenir).",
+          "id": "a1-u09-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My kids hate ___ up early. (get)",
+          "answers": [
+            "getting"
+          ],
+          "explanation": "get → getting.",
+          "id": "a1-u09-l4-p04"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "❤️❤️",
+              "right": "love"
+            },
+            {
+              "left": "❤️",
+              "right": "like"
+            },
+            {
+              "left": "😐",
+              "right": "don't like"
+            },
+            {
+              "left": "💔",
+              "right": "hate"
+            }
+          ],
+          "explanation": "Sembolleri eşleştirin.",
+          "id": "a1-u09-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Does your sister like cooking?\" (Evet.)",
+          "options": [
+            "Yes, she can.",
+            "Yes, she does.",
+            "Yes, she likes."
+          ],
+          "answerIndex": 1,
+          "explanation": "Does ile soru → Yes, she does.",
+          "id": "a1-u09-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Do",
+            "you",
+            "like",
+            "watching",
+            "football",
+            "?"
+          ],
+          "answer": "Do you like watching football?",
+          "explanation": "Do + özne + like + -ing?",
+          "translation": "Futbol izlemeyi sever misin?",
+          "id": "a1-u09-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I love swimming and I like running, but I hate going to the gym.",
+          "prompt": "Konuşan neyden nefret ediyor?",
+          "options": [
+            "Yüzmekten",
+            "Koşmaktan",
+            "Spor salonuna gitmekten"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"I hate going to the gym\"",
+          "id": "a1-u09-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Müzik dinlemeyi severim.\"",
+          "accepted": [
+            "I like listening to music.",
+            "I like listening to music",
+            "I enjoy listening to music.",
+            "I enjoy listening to music"
+          ],
+          "explanation": "like + listening to music.",
+          "id": "a1-u09-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kaan'ın mesajına göre doğru olan:",
+          "options": [
+            "He enjoys shopping.",
+            "He doesn't like watching TV.",
+            "He hates cooking."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I don't like watching TV.\"",
+          "id": "a1-u09-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Kaan'ın mesajına cevap yazın: kendinizi tanıtın, sevdiğiniz 2 şeyi, sevmediğiniz 1 şeyi ve nefret ettiğiniz 1 şeyi yazın.",
+          "modelAnswer": "Hi Kaan! I'm Zeynep from Bursa. I love reading too, but I prefer novels. I like going for walks with my dog. I don't like cooking, and I hate cleaning the house!",
+          "rubric": [
+            "like/love/hate + -ing doğru",
+            "-ing yazımı doğru",
+            "Kendini tanıttı"
+          ]
+        },
+        "id": "a1-u09-l4-use"
+      }
+    },
+    {
+      "id": "a1-u09-l5",
+      "number": 5,
+      "title": "Davet etmek",
+      "goal": "Birini bir etkinliğe davet edebilir, daveti kabul edip kibarca reddedebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Telefonda",
+        "lines": [
+          {
+            "speaker": "Burak",
+            "text": "Hi, Leyla! Do you want to play tennis on Saturday?"
+          },
+          {
+            "speaker": "Leyla",
+            "text": "Sorry, I can't. I'm busy on Saturday."
+          },
+          {
+            "speaker": "Burak",
+            "text": "What about Sunday?"
+          },
+          {
+            "speaker": "Leyla",
+            "text": "Sunday is fine. But I can't play very well!"
+          },
+          {
+            "speaker": "Burak",
+            "text": "No problem. I can teach you. Let's meet at the sports centre at ten."
+          },
+          {
+            "speaker": "Leyla",
+            "text": "Great idea! See you on Sunday."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When do they play tennis?",
+            "options": [
+              "On Saturday",
+              "On Sunday",
+              "On Monday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Sunday is fine.\"",
+            "id": "a1-u09-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where do they meet?",
+            "options": [
+              "At the park",
+              "At the sports centre",
+              "At Leyla's house"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Let's meet at the sports centre at ten.\"",
+            "id": "a1-u09-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Davet etmek / öneri:**\n\n- **Do you want to** + fiil? → Do you want to go swimming?\n- **Let's** + fiil. → Let's play chess.\n- **What about** + gün / -ing? → What about Sunday? / What about going to the cinema?\n\n**Kabul etmek:** Great idea! / Sure! / I'd love to. / OK, why not?\n\n**Reddetmek:** Sorry, I can't. I'm busy. / Sorry, I don't really like ...\n\nReddederken bir sebep ve başka bir öneri vermek kibar ve doğaldır.",
+        "examples": [
+          {
+            "en": "Do you want to come to my party?",
+            "tr": "Partime gelmek ister misin?"
+          },
+          {
+            "en": "Let's go cycling this afternoon.",
+            "tr": "Bu öğleden sonra bisiklete binelim."
+          },
+          {
+            "en": "Sorry, I can't. I have a lesson.",
+            "tr": "Kusura bakma, yapamam. Dersim var."
+          }
+        ],
+        "turkishNote": "\"Let's\" = let us; ardından yalın fiil gelir: Let's go (Let's going değil, Let's to go değil). \"Do you want to\" da yalın fiil alır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Let's to go swimming.",
+            "Let's go swimming.",
+            "Let's going swimming."
+          ],
+          "answerIndex": 1,
+          "explanation": "Let's + yalın fiil.",
+          "id": "a1-u09-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir daveti kibarca reddetmek:",
+          "options": [
+            "No.",
+            "Sorry, I can't. I'm busy.",
+            "I don't want."
+          ],
+          "answerIndex": 1,
+          "explanation": "Özür + sebep.",
+          "id": "a1-u09-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Daveti kabul etmek:",
+          "options": [
+            "Great idea!",
+            "No problem, I'm busy.",
+            "Sorry."
+          ],
+          "answerIndex": 0,
+          "explanation": "Great idea! / Sure!",
+          "id": "a1-u09-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Do you want ___ play chess?",
+          "answers": [
+            "to"
+          ],
+          "explanation": "want to + fiil.",
+          "id": "a1-u09-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ Saturday? (Cumartesiye ne dersin?)",
+          "answers": [
+            "about"
+          ],
+          "explanation": "What about + gün?",
+          "id": "a1-u09-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Do",
+            "want",
+            "to",
+            "come",
+            "to",
+            "the",
+            "cinema",
+            "?"
+          ],
+          "answer": "Do you want to come to the cinema?",
+          "explanation": "Do you want to + fiil?",
+          "translation": "Sinemaya gelmek ister misin?",
+          "id": "a1-u09-l5-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Let's go running tomorrow morning. – Sorry, I can't. I work in the morning. What about the evening?",
+          "prompt": "İkinci konuşan ne öneriyor?",
+          "options": [
+            "Sabah koşmak",
+            "Akşam koşmak",
+            "Hiç koşmamak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"What about the evening?\"",
+          "id": "a1-u09-l5-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hadi tenis oynayalım!\"",
+          "accepted": [
+            "Let's play tennis!",
+            "Let's play tennis"
+          ],
+          "explanation": "Let's + play tennis.",
+          "id": "a1-u09-l5-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Do you want to",
+              "right": "go cycling?"
+            },
+            {
+              "left": "Let's",
+              "right": "meet at six."
+            },
+            {
+              "left": "What about",
+              "right": "Friday?"
+            },
+            {
+              "left": "Sorry,",
+              "right": "I can't."
+            }
+          ],
+          "explanation": "Cümleleri tamamlayın.",
+          "id": "a1-u09-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Do you want to play football?\" Futboldan hoşlanmıyorsunuz:",
+          "options": [
+            "Sorry, I don't really like football. Let's go swimming.",
+            "Yes, I do.",
+            "I can football."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sebep + yeni öneri.",
+          "id": "a1-u09-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'yi hafta sonu bir etkinliğe davet edin. JAI ilk öneriyi reddedecek; başka bir gün ya da etkinlik önerin ve buluşma yeri/saati belirleyin.",
+          "modelAnswer": "Do you want to go cycling on Saturday? ... Oh, OK. What about Sunday? ... Great! Let's meet at the park at eleven.",
+          "rubric": [
+            "Do you want to / Let's doğru",
+            "What about ile yeni öneri",
+            "Yer ve saat belirtti"
+          ]
+        },
+        "id": "a1-u09-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "___ the piano",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answerIndex": 0,
+        "explanation": "Müzik aleti → play the.",
+        "id": "a1-u09-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ swimming",
+        "options": [
+          "play",
+          "go",
+          "do"
+        ],
+        "answerIndex": 1,
+        "explanation": "go swimming",
+        "id": "a1-u09-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "He cans drive.",
+          "He can drive.",
+          "He can drives."
+        ],
+        "answerIndex": 1,
+        "explanation": "can + yalın fiil.",
+        "id": "a1-u09-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "I ___ swim. (yüzemem)",
+        "answers": [
+          "can't",
+          "cannot"
+        ],
+        "explanation": "can't",
+        "id": "a1-u09-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Do you can cook?",
+          "Can you cook?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Can + özne + fiil?",
+        "id": "a1-u09-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Can your sister sing?\" (Evet.)",
+        "options": [
+          "Yes, she does.",
+          "Yes, she can.",
+          "Yes, she sings."
+        ],
+        "answerIndex": 1,
+        "explanation": "Yes, she can.",
+        "id": "a1-u09-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "She speaks English very ___.",
+        "answers": [
+          "well"
+        ],
+        "explanation": "very well",
+        "id": "a1-u09-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I love read.",
+          "I love reading.",
+          "I love to reading."
+        ],
+        "answerIndex": 1,
+        "explanation": "love + -ing",
+        "id": "a1-u09-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "We enjoy ___ in the park. (run)",
+        "answers": [
+          "running"
+        ],
+        "explanation": "run → running",
+        "id": "a1-u09-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Does he like dancing?\" (Hayır.)",
+        "options": [
+          "No, he can't.",
+          "No, he doesn't.",
+          "No, he isn't."
+        ],
+        "answerIndex": 1,
+        "explanation": "Does → No, he doesn't.",
+        "id": "a1-u09-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Let's going.",
+          "Let's go.",
+          "Let's to go."
+        ],
+        "answerIndex": 1,
+        "explanation": "Let's + yalın fiil.",
+        "id": "a1-u09-t11"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "want",
+          "Do",
+          "you",
+          "to",
+          "play",
+          "chess",
+          "?"
+        ],
+        "answer": "Do you want to play chess?",
+        "explanation": "Do you want to + fiil?",
+        "translation": "Satranç oynamak ister misin?",
+        "id": "a1-u09-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I can play the guitar, but I can't play the piano. I love singing too.",
+        "prompt": "Konuşan neyi çalamıyor?",
+        "options": [
+          "Gitar",
+          "Piyano",
+          "İkisini de"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I can't play the piano\"",
+        "id": "a1-u09-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Boş zamanında ne yaparsın?\"",
+        "accepted": [
+          "What do you do in your free time?",
+          "What do you do in your free time"
+        ],
+        "explanation": "What do you do + in your free time?",
+        "id": "a1-u09-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Kendinizi bir spor kulübüne tanıtın: neler yapabildiğiniz, neler yapamadığınız, ne yapmayı sevdiğiniz (5 cümle).",
+        "modelAnswer": "Hi, I'm Can. I can swim very well and I can play volleyball. I can't play tennis, but I want to learn. I love running in the morning. I don't like going to the gym.",
+        "rubric": [
+          "can / can't doğru",
+          "like/love + -ing doğru",
+          "play/go/do doğru",
+          "Anlamlı bir tanıtım"
+        ],
+        "id": "a1-u09-t15"
+      }
+    ]
+  }
+}
