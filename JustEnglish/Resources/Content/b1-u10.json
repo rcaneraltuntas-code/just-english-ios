@@ -1,0 +1,1415 @@
+{
+  "id": "b1-u10",
+  "level": "B1",
+  "number": 10,
+  "title": "Boş zaman",
+  "titleEn": "Free Time",
+  "canDo": "Hobilerim ve boş zaman etkinliklerim hakkında konuşurken fiilden sonra -ing ya da to + fiil kullanmayı doğru seçebilir, edat + -ing yapısını ve amaç bildiren to'yu kullanabilir, remember / stop / try fiillerinin iki anlamını ayırt edebilirim.",
+  "grammar": [
+    "-ing (gerund) özne olarak ve like / enjoy / mind sonrası",
+    "fiil + to + fiil (want, decide, hope...)",
+    "edat + -ing (good at, interested in...)",
+    "amaç bildiren to ve sıfat + to",
+    "remember / stop / try + -ing ya da to"
+  ],
+  "vocabularyThemes": [
+    "hobiler",
+    "spor ve etkinlikler",
+    "boş zaman alışkanlıkları"
+  ],
+  "liveClass": {
+    "title": "Hobi kulübü",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler hayali bir \"hobi kulübü\" kurar. Her grup bir kulüp seçer (fotoğraf, doğa yürüyüşü, satranç...) ve diğer öğrencileri ikna etmeye çalışır: Joining our club is..., You'll learn to..., If you're interested in..., We go there to... Sonunda herkes hangi kulübe katılmaya karar verdiğini ve nedenini I've decided to... çünkü I enjoy... ile açıklar."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u10-v01",
+      "en": "hobby",
+      "tr": "hobi",
+      "example": "My hobby is photography.",
+      "exampleTr": "Hobim fotoğrafçılık."
+    },
+    {
+      "id": "b1-u10-v02",
+      "en": "enjoy",
+      "tr": "-den keyif almak",
+      "example": "I enjoy cooking for my friends.",
+      "exampleTr": "Arkadaşlarıma yemek yapmaktan keyif alırım.",
+      "note": "enjoy + -ing"
+    },
+    {
+      "id": "b1-u10-v03",
+      "en": "can't stand",
+      "tr": "dayanamamak, hiç sevmemek",
+      "example": "I can't stand waiting in queues.",
+      "exampleTr": "Kuyrukta beklemeye dayanamam.",
+      "note": "can't stand + -ing"
+    },
+    {
+      "id": "b1-u10-v04",
+      "en": "don't mind",
+      "tr": "sorun etmemek",
+      "example": "I don't mind getting up early.",
+      "exampleTr": "Erken kalkmayı dert etmem.",
+      "note": "mind + -ing"
+    },
+    {
+      "id": "b1-u10-v05",
+      "en": "be keen on",
+      "tr": "-e meraklı olmak",
+      "example": "She's keen on hiking.",
+      "exampleTr": "Doğa yürüyüşüne meraklı.",
+      "note": "keen on + -ing"
+    },
+    {
+      "id": "b1-u10-v06",
+      "en": "be good at",
+      "tr": "-de iyi olmak",
+      "example": "He's good at drawing.",
+      "exampleTr": "Resim çizmede iyi."
+    },
+    {
+      "id": "b1-u10-v07",
+      "en": "be interested in",
+      "tr": "-e ilgi duymak",
+      "example": "I'm interested in learning Spanish.",
+      "exampleTr": "İspanyolca öğrenmekle ilgileniyorum."
+    },
+    {
+      "id": "b1-u10-v08",
+      "en": "be fond of",
+      "tr": "-i sevmek",
+      "example": "My uncle is fond of fishing.",
+      "exampleTr": "Amcam balık tutmayı sever."
+    },
+    {
+      "id": "b1-u10-v09",
+      "en": "take up",
+      "tr": "(hobiye) başlamak",
+      "example": "I took up yoga last year.",
+      "exampleTr": "Geçen yıl yogaya başladım."
+    },
+    {
+      "id": "b1-u10-v10",
+      "en": "hiking",
+      "tr": "doğa yürüyüşü",
+      "example": "We go hiking every weekend.",
+      "exampleTr": "Her hafta sonu doğa yürüyüşüne gideriz."
+    },
+    {
+      "id": "b1-u10-v11",
+      "en": "knitting",
+      "tr": "örgü",
+      "example": "My grandmother taught me knitting.",
+      "exampleTr": "Büyükannem bana örgü öğretti."
+    },
+    {
+      "id": "b1-u10-v12",
+      "en": "gardening",
+      "tr": "bahçıvanlık",
+      "example": "Gardening helps me relax.",
+      "exampleTr": "Bahçıvanlık rahatlamama yardım ediyor."
+    },
+    {
+      "id": "b1-u10-v13",
+      "en": "board game",
+      "tr": "kutu oyunu",
+      "example": "We play board games on Friday nights.",
+      "exampleTr": "Cuma akşamları kutu oyunu oynarız."
+    },
+    {
+      "id": "b1-u10-v14",
+      "en": "chess",
+      "tr": "satranç",
+      "example": "Is chess difficult to learn?",
+      "exampleTr": "Satranç öğrenmek zor mu?"
+    },
+    {
+      "id": "b1-u10-v15",
+      "en": "volunteer",
+      "tr": "gönüllü; gönüllü olmak",
+      "example": "I volunteer at an animal shelter.",
+      "exampleTr": "Bir hayvan barınağında gönüllüyüm."
+    },
+    {
+      "id": "b1-u10-v16",
+      "en": "relax",
+      "tr": "rahatlamak",
+      "example": "Reading helps me relax.",
+      "exampleTr": "Okumak rahatlamama yardımcı oluyor."
+    },
+    {
+      "id": "b1-u10-v17",
+      "en": "spare time",
+      "tr": "boş zaman",
+      "example": "What do you do in your spare time?",
+      "exampleTr": "Boş zamanında ne yaparsın?",
+      "note": "free time ile aynı"
+    },
+    {
+      "id": "b1-u10-v18",
+      "en": "manage",
+      "tr": "başarmak, becermek",
+      "example": "I managed to finish the marathon.",
+      "exampleTr": "Maratonu bitirmeyi başardım.",
+      "note": "manage + to"
+    },
+    {
+      "id": "b1-u10-v19",
+      "en": "refuse",
+      "tr": "reddetmek",
+      "example": "He refused to play.",
+      "exampleTr": "Oynamayı reddetti.",
+      "note": "refuse + to"
+    },
+    {
+      "id": "b1-u10-v20",
+      "en": "afford",
+      "tr": "(parası) yetmek",
+      "example": "I can't afford to join the gym.",
+      "exampleTr": "Spor salonuna yazılmaya param yetmiyor.",
+      "note": "afford + to"
+    },
+    {
+      "id": "b1-u10-v21",
+      "en": "give up",
+      "tr": "bırakmak",
+      "example": "I gave up playing the piano.",
+      "exampleTr": "Piyano çalmayı bıraktım.",
+      "note": "give up + -ing"
+    },
+    {
+      "id": "b1-u10-v22",
+      "en": "instead of",
+      "tr": "yerine",
+      "example": "Let's walk instead of taking the bus.",
+      "exampleTr": "Otobüse binmek yerine yürüyelim.",
+      "note": "instead of + -ing"
+    },
+    {
+      "id": "b1-u10-v23",
+      "en": "look forward to",
+      "tr": "dört gözle beklemek",
+      "example": "I'm looking forward to seeing you.",
+      "exampleTr": "Seni görmeyi dört gözle bekliyorum.",
+      "note": "to + -ing!"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u10-l1",
+      "number": 1,
+      "title": "Yapmayı severim",
+      "goal": "Sevdiğim ve sevmediğim etkinlikleri -ing ile anlatabilir, -ing'i cümle öznesi olarak kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni ev arkadaşları",
+        "lines": [
+          {
+            "speaker": "Ayça",
+            "text": "So, what do you enjoy doing in your spare time?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "I love cooking, and I enjoy playing board games. What about you?"
+          },
+          {
+            "speaker": "Ayça",
+            "text": "I'm into running. Running in the morning gives me energy for the whole day."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Wow. I can't stand getting up early!"
+          },
+          {
+            "speaker": "Ayça",
+            "text": "Don't worry, I don't mind running alone. But I hate doing the washing-up."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Perfect. I'll cook and wash up, and you can buy the coffee!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Kerem enjoy?",
+            "options": [
+              "Running and cooking",
+              "Cooking and board games",
+              "Getting up early"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I love cooking, and I enjoy playing board games.\"",
+            "id": "b1-u10-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Ayça hate?",
+            "options": [
+              "Running",
+              "Cooking",
+              "Doing the washing-up"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"I hate doing the washing-up\"",
+            "id": "b1-u10-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**-ing (gerund)**, fiili bir **isim gibi** kullanmamızı sağlar.\n\n**1. Bazı fiillerden sonra -ing gelir:**\n\n| Fiil | Örnek |\n|---|---|\n| **enjoy** | I enjoy **cooking**. |\n| **like / love / hate** | I love **reading**. |\n| **don't mind** | I don't mind **waiting**. |\n| **can't stand** | I can't stand **getting** up early. |\n| **finish** | Have you finished **eating**? |\n| **give up** | She gave up **smoking**. |\n| **spend (time)** | I spend hours **reading**. |\n\n(like / love / hate'ten sonra **to + fiil** de olabilir: I like **to read**. İkisi de doğru.)\n\n**2. -ing cümlenin öznesi olabilir:**\n\n- **Running** gives me energy.\n- **Learning** a language takes time.\n- **Swimming** is good for your back.\n\nÖzne olarak kullanılan -ing **tekil** sayılır: Swimming **is** ... (~~are~~)",
+        "examples": [
+          {
+            "en": "I enjoy spending time with my family.",
+            "tr": "Ailemle vakit geçirmekten keyif alırım."
+          },
+          {
+            "en": "Cooking for friends is my favourite thing.",
+            "tr": "Arkadaşlara yemek yapmak en sevdiğim şey."
+          },
+          {
+            "en": "Do you mind closing the window?",
+            "tr": "Pencereyi kapatır mısın? (Sakıncası var mı?)"
+          }
+        ],
+        "turkishNote": "Türkçede \"koşmak bana enerji veriyor\" derken mastar (-mak) kullanırız. İngilizcede bunun karşılığı \"to run\" değil, çoğunlukla -ing'dir: Running gives me energy. \"I enjoy to cook\" da yaygın bir hatadır; enjoy'dan sonra her zaman -ing gelir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I enjoy to cook.",
+            "I enjoy cooking."
+          ],
+          "answerIndex": 1,
+          "explanation": "enjoy + -ing.",
+          "id": "b1-u10-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ is good for your health.",
+          "options": [
+            "Swim",
+            "Swimming",
+            "To swimming"
+          ],
+          "answerIndex": 1,
+          "explanation": "Özne → -ing.",
+          "id": "b1-u10-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I can't stand ___ in traffic.",
+          "options": [
+            "sit",
+            "sitting",
+            "to sitting"
+          ],
+          "answerIndex": 1,
+          "explanation": "can't stand + -ing.",
+          "id": "b1-u10-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I don't mind ___ (wait) for a few minutes.",
+          "answers": [
+            "waiting"
+          ],
+          "explanation": "mind + -ing.",
+          "id": "b1-u10-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She gave up ___ (eat) sugar.",
+          "answers": [
+            "eating"
+          ],
+          "explanation": "give up + -ing.",
+          "id": "b1-u10-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ (learn) a language takes time.",
+          "answers": [
+            "Learning"
+          ],
+          "explanation": "Özne → -ing.",
+          "id": "b1-u10-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I spend hours ___ (read) every weekend.",
+          "answers": [
+            "reading"
+          ],
+          "explanation": "spend time + -ing.",
+          "id": "b1-u10-l1-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Reading books are relaxing.",
+            "Reading books is relaxing."
+          ],
+          "answerIndex": 1,
+          "explanation": "-ing özne → tekil.",
+          "id": "b1-u10-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I really enjoy gardening. Growing my own tomatoes makes me so happy. But I can't stand cutting the grass!",
+          "prompt": "Konuşan neye dayanamıyor?",
+          "options": [
+            "Domates yetiştirmeye",
+            "Çim biçmeye",
+            "Bahçede çalışmaya"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I can't stand cutting the grass\"",
+          "id": "b1-u10-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kuyrukta beklemeye dayanamam.\"",
+          "accepted": [
+            "I can't stand waiting in queues.",
+            "I can't stand waiting in queues",
+            "I cannot stand waiting in queues",
+            "I cannot stand waiting in queues.",
+            "I can't stand waiting in line.",
+            "I can't stand waiting in line",
+            "I cannot stand waiting in line",
+            "I cannot stand waiting in line.",
+            "I can't stand waiting in a queue.",
+            "I can't stand waiting in a queue",
+            "I cannot stand waiting in a queue",
+            "I cannot stand waiting in a queue.",
+            "I hate waiting in queues.",
+            "I hate waiting in queues"
+          ],
+          "explanation": "I can't stand waiting in queues.",
+          "id": "b1-u10-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Boş zamanınızı anlatın: enjoy, love, don't mind, can't stand, hate ve spend time + -ing kullanarak 6 cümle kurun. Sonra -ing ile başlayan 2 cümle söyleyin (\"Walking by the sea is...\").",
+          "modelAnswer": "I enjoy watching documentaries. I love playing chess with my father. I don't mind cleaning the house. I can't stand shopping in crowded malls. I spend a lot of time reading. Walking by the sea is my favourite way to relax. Playing the guitar helps me forget my problems.",
+          "rubric": [
+            "Fiil + -ing doğru",
+            "-ing özne ve tekil fiil",
+            "Çeşitli fiiller"
+          ]
+        },
+        "id": "b1-u10-l1-use"
+      }
+    },
+    {
+      "id": "b1-u10-l2",
+      "number": 2,
+      "title": "Yapmaya karar verdim",
+      "goal": "want, decide, hope, plan, learn gibi fiillerden sonra to + fiil kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Yeni yıl kararları",
+        "body": "We asked our readers about their plans for this year.\n\n\"I've decided to learn the guitar. I've always wanted to play in a band.\" – Emre, 24\n\n\"I'm hoping to run my first half marathon in April. I need to train more!\" – Hilal, 31\n\n\"Last year I promised to spend less time on my phone, but I didn't manage to do it. This year I'm planning to try again.\" – Cansu, 19\n\n\"My wife and I would like to visit Japan. We're saving up, but we can't afford to go yet.\" – Hasan, 45\n\n\"I've agreed to teach chess to the children in my building. They're learning to play really quickly!\" – Nevin, 68",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What has Emre decided to do?",
+            "options": [
+              "Join a gym",
+              "Learn the guitar",
+              "Visit Japan"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've decided to learn the guitar.\"",
+            "id": "b1-u10-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What didn't Cansu manage to do last year?",
+            "options": [
+              "Run a marathon",
+              "Spend less time on her phone",
+              "Save money"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I promised to spend less time on my phone, but I didn't manage to do it.\"",
+            "id": "b1-u10-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bazı fiillerden sonra **to + yalın fiil (infinitive)** gelir. Bu fiiller çoğunlukla **gelecek, plan, istek ve karar** anlatır.\n\n| Fiil | Örnek |\n|---|---|\n| **want** | I want **to learn** the guitar. |\n| **would like** | We'd like **to visit** Japan. |\n| **decide** | I've decided **to join** a gym. |\n| **hope** | I'm hoping **to run** a marathon. |\n| **plan** | They're planning **to move**. |\n| **need** | I need **to train** more. |\n| **learn** | They're learning **to play** chess. |\n| **promise** | He promised **to call**. |\n| **agree / refuse** | She agreed **to help**. He refused **to come**. |\n| **manage** | I managed **to finish**. |\n| **afford** | We can't afford **to go**. |\n| **try** | Try **to relax**. |\n\n**Olumsuz:** **not to** + fiil → I decided **not to go**.",
+        "examples": [
+          {
+            "en": "I've decided to take up swimming.",
+            "tr": "Yüzmeye başlamaya karar verdim."
+          },
+          {
+            "en": "She refused to lend me her car.",
+            "tr": "Arabasını bana ödünç vermeyi reddetti."
+          },
+          {
+            "en": "We decided not to go out because of the rain.",
+            "tr": "Yağmur yüzünden dışarı çıkmamaya karar verdik."
+          }
+        ],
+        "turkishNote": "Türkçede \"gitmemeye karar verdim\" derken olumsuzluk fiile eklenir. İngilizcede \"not\" to'dan önce gelir: I decided not to go (~~I decided to not go~~ günlük dilde duyulsa da). \"I didn't decide to go\" ise farklı bir anlama gelir: Gitmeye ben karar vermedim."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I want learning the piano.",
+            "I want to learn the piano."
+          ],
+          "answerIndex": 1,
+          "explanation": "want + to.",
+          "id": "b1-u10-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I've decided ___ a new hobby.",
+          "options": [
+            "to start",
+            "starting"
+          ],
+          "answerIndex": 0,
+          "explanation": "decide + to.",
+          "id": "b1-u10-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gitmemeye karar verdim.\"",
+          "options": [
+            "I didn't decide to go.",
+            "I decided not to go."
+          ],
+          "answerIndex": 1,
+          "explanation": "decide not to.",
+          "id": "b1-u10-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We're planning ___ (move) to the coast.",
+          "answers": [
+            "to move"
+          ],
+          "explanation": "plan + to.",
+          "id": "b1-u10-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He refused ___ (help) us.",
+          "answers": [
+            "to help"
+          ],
+          "explanation": "refuse + to.",
+          "id": "b1-u10-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I finally managed ___ (finish) the book.",
+          "answers": [
+            "to finish"
+          ],
+          "explanation": "manage + to.",
+          "id": "b1-u10-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "They can't afford ___ (buy) a new car.",
+          "answers": [
+            "to buy"
+          ],
+          "explanation": "afford + to.",
+          "id": "b1-u10-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She promised ___ (not be) late again.",
+          "answers": [
+            "not to be"
+          ],
+          "explanation": "promise not to.",
+          "id": "b1-u10-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'd love to learn to dance. My friend has agreed to come to a salsa class with me next week, so I'm really excited.",
+          "prompt": "Arkadaşı neyi kabul etti?",
+          "options": [
+            "Dans öğretmeyi",
+            "Salsa dersine birlikte gelmeyi",
+            "Parti vermeyi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"My friend has agreed to come to a salsa class with me\"",
+          "id": "b1-u10-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yüzmeye başlamaya karar verdim.\"",
+          "accepted": [
+            "I've decided to take up swimming.",
+            "I've decided to take up swimming",
+            "I have decided to take up swimming.",
+            "I have decided to take up swimming",
+            "I decided to take up swimming.",
+            "I decided to take up swimming",
+            "I've decided to start swimming.",
+            "I've decided to start swimming",
+            "I decided to start swimming.",
+            "I decided to start swimming",
+            "I have decided to start swimming.",
+            "I have decided to start swimming"
+          ],
+          "explanation": "I've decided to take up swimming.",
+          "id": "b1-u10-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bu yıl için hobi ve boş zaman planlarınızı anlatın. want, would like, hope, plan, decide, need ve en az bir \"not to\" kullanın. Geçen yıl başardığınız bir şeyi manage to ile söyleyin.",
+          "modelAnswer": "This year I want to read twenty books. I'd like to learn to cook Indian food, and I'm hoping to go on a hiking trip in the Kaçkar Mountains. I'm planning to join a photography club. I've decided not to buy any new clothes for six months! Last year I managed to run 10 kilometres without stopping.",
+          "rubric": [
+            "Fiil + to doğru",
+            "not to",
+            "manage to"
+          ]
+        },
+        "id": "b1-u10-l2-use"
+      }
+    },
+    {
+      "id": "b1-u10-l3",
+      "number": 3,
+      "title": "İyi misin, ilgili misin?",
+      "goal": "Edatlardan sonra -ing kullanarak ilgi alanlarımı ve yeteneklerimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Gönüllü başvurusu",
+        "lines": [
+          {
+            "speaker": "Coordinator",
+            "text": "Thanks for coming. Why are you interested in volunteering with us?"
+          },
+          {
+            "speaker": "Melike",
+            "text": "I'm really keen on working with children, and I'm good at organising games."
+          },
+          {
+            "speaker": "Coordinator",
+            "text": "Great. Is it OK for you to work at weekends?"
+          },
+          {
+            "speaker": "Melike",
+            "text": "Yes, no problem. Actually, I'm tired of spending my weekends at home doing nothing."
+          },
+          {
+            "speaker": "Coordinator",
+            "text": "Wonderful. Before starting, you'll do a short training day."
+          },
+          {
+            "speaker": "Melike",
+            "text": "I'm looking forward to meeting the kids!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Melike good at?",
+            "options": [
+              "Teaching English",
+              "Organising games",
+              "Cooking"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm good at organising games\"",
+            "id": "b1-u10-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Melike tired of?",
+            "options": [
+              "Working with children",
+              "Spending her weekends at home doing nothing",
+              "Training"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm tired of spending my weekends at home doing nothing\"",
+            "id": "b1-u10-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Edatlardan (in, at, of, on, about, for, before, after, without...) sonra fiil gelirse -ing olur.**\n\n| Kalıp | Örnek |\n|---|---|\n| be **good at** | She's good at **drawing**. |\n| be **interested in** | I'm interested in **learning** Italian. |\n| be **keen on** | He's keen on **cycling**. |\n| be **fond of** | My aunt is fond of **knitting**. |\n| be **tired of** | I'm tired of **waiting**. |\n| be **afraid of** | She's afraid of **flying**. |\n| **think about** | I'm thinking about **joining** a club. |\n| **instead of** | Let's walk instead of **driving**. |\n| **before / after** | Before **starting**, read the rules. |\n| **without** | He left without **saying** goodbye. |\n| **How about** | How about **going** to the cinema? |\n\n**Dikkat: look forward to**'daki **to** bir edattır, bu yüzden -ing gelir:\n\n- I'm looking forward to **seeing** you. (~~to see~~)",
+        "examples": [
+          {
+            "en": "I'm thinking about taking up tennis.",
+            "tr": "Tenise başlamayı düşünüyorum."
+          },
+          {
+            "en": "He's afraid of swimming in the sea.",
+            "tr": "Denizde yüzmekten korkuyor."
+          },
+          {
+            "en": "How about having a picnic on Sunday?",
+            "tr": "Pazar günü pikniğe ne dersin?"
+          }
+        ],
+        "turkishNote": "\"Seni görmeyi dört gözle bekliyorum\" cümlesi için \"I'm looking forward to see you\" demek Türkçe konuşanların en sık yaptığı hatalardan biridir. look forward to'dan sonra her zaman -ing gelir: I'm looking forward to seeing you."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I'm good at ___.",
+          "options": [
+            "swim",
+            "swimming",
+            "to swim"
+          ],
+          "answerIndex": 1,
+          "explanation": "at + -ing.",
+          "id": "b1-u10-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm looking forward to see you.",
+            "I'm looking forward to seeing you."
+          ],
+          "answerIndex": 1,
+          "explanation": "look forward to + -ing.",
+          "id": "b1-u10-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How about ___ to the beach?",
+          "options": [
+            "go",
+            "to go",
+            "going"
+          ],
+          "answerIndex": 2,
+          "explanation": "How about + -ing.",
+          "id": "b1-u10-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's interested ___ learning Japanese.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "interested in.",
+          "id": "b1-u10-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm tired of ___ (wait) for the bus.",
+          "answers": [
+            "waiting"
+          ],
+          "explanation": "of + -ing.",
+          "id": "b1-u10-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "He left without ___ (say) goodbye.",
+          "answers": [
+            "saying"
+          ],
+          "explanation": "without + -ing.",
+          "id": "b1-u10-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let's cook at home instead of ___ (eat) out.",
+          "answers": [
+            "eating"
+          ],
+          "explanation": "instead of + -ing.",
+          "id": "b1-u10-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "My son is afraid ___ swimming in deep water.",
+          "answers": [
+            "of"
+          ],
+          "explanation": "afraid of.",
+          "id": "b1-u10-l3-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "good",
+              "right": "at"
+            },
+            {
+              "left": "interested",
+              "right": "in"
+            },
+            {
+              "left": "keen",
+              "right": "on"
+            },
+            {
+              "left": "tired",
+              "right": "of"
+            },
+            {
+              "left": "look forward",
+              "right": "to"
+            }
+          ],
+          "explanation": "Edatları eşleştirin.",
+          "id": "b1-u10-l3-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'm thinking about joining a choir. I'm not very good at singing, but I'm keen on meeting new people.",
+          "prompt": "Konuşan neyi düşünüyor?",
+          "options": [
+            "Koroya katılmayı",
+            "Şarkı dersi vermeyi",
+            "Konsere gitmeyi"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I'm thinking about joining a choir\"",
+          "id": "b1-u10-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir gönüllü kuruluşu ya da hobi kulübüyle mülakat yaptığınızı düşünün. JAI sorular soracak. Cevaplarınızda good at, interested in, keen on, tired of, thinking about ve looking forward to + -ing kullanın.",
+          "modelAnswer": "I'm interested in helping older people because I'm good at listening. I'm also keen on cooking, so I could cook for them. To be honest, I'm tired of sitting in front of a computer all day. I've been thinking about volunteering for a long time, and I'm really looking forward to starting!",
+          "rubric": [
+            "Edat + -ing doğru",
+            "look forward to + -ing",
+            "Doğal mülakat dili"
+          ]
+        },
+        "id": "b1-u10-l3-use"
+      }
+    },
+    {
+      "id": "b1-u10-l4",
+      "number": 4,
+      "title": "Ne için?",
+      "goal": "Amaç bildirmek için to kullanabilir, sıfat + to + fiil yapısıyla etkinlikleri değerlendirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Neden satranç?",
+        "body": "Chess is one of the oldest board games in the world, and millions of people play it to train their brains.\n\nIs it difficult to learn? Not really. It's easy to learn the rules, but it's hard to become a good player. Many people use apps to practise, and some join clubs to meet other players.\n\nIt's important to start slowly. Play against friends first, and don't be afraid of losing. It's normal to lose a lot at the beginning.\n\nThe best thing about chess? It's cheap to play. All you need is a board, and you can play it anywhere: in a park, on a train or online.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why do many people play chess, according to the text?",
+            "options": [
+              "To make money",
+              "To train their brains",
+              "To relax on trains"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"to train their brains\"",
+            "id": "b1-u10-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is hard about chess?",
+            "options": [
+              "Learning the rules",
+              "Becoming a good player",
+              "Finding a board"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it's hard to become a good player\"",
+            "id": "b1-u10-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Amaç bildiren to** (= in order to, \"-mek için\")\n\n- I go to the gym **to keep** fit.\n- She uses apps **to practise**.\n- **Why** do you go there? – **To meet** friends.\n\n**Dikkat:** Amaç için ~~for + fiil~~ kullanılmaz:\n\n- I went to the shop **to buy** bread. (~~for buy~~ / ~~for buying~~)\n- Ama **for + isim** olur: I went to the shop **for** bread.\n\n**2. It's + sıfat + to + fiil** (… yapmak … dır)\n\n| Kalıp | Örnek |\n|---|---|\n| It's **easy to** ... | It's easy to learn the rules. |\n| It's **hard / difficult to** ... | It's hard to become a good player. |\n| It's **important to** ... | It's important to start slowly. |\n| It's **cheap / expensive to** ... | It's cheap to play. |\n| It's **fun / boring to** ... | It's fun to play with friends. |\n\n**Kişiyle:** It's difficult **for me to** wake up early.",
+        "examples": [
+          {
+            "en": "I'm learning English to travel more easily.",
+            "tr": "Daha kolay seyahat etmek için İngilizce öğreniyorum."
+          },
+          {
+            "en": "It's important to warm up before running.",
+            "tr": "Koşmadan önce ısınmak önemli."
+          },
+          {
+            "en": "It's hard for me to sit still for long.",
+            "tr": "Uzun süre kıpırdamadan oturmak benim için zor."
+          }
+        ],
+        "turkishNote": "\"Ekmek almak için markete gittim\" cümlesindeki \"için\" yüzünden Türkçe konuşanlar sık sık \"for to buy\" ya da \"for buying\" der. İngilizcede amaç için sadece to yeterlidir: I went to the shop to buy bread."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I went out for buy milk.",
+            "I went out to buy milk."
+          ],
+          "answerIndex": 1,
+          "explanation": "Amaç → to + fiil.",
+          "id": "b1-u10-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I went out for milk.",
+            "I went out for to buy milk."
+          ],
+          "answerIndex": 0,
+          "explanation": "for + isim olur.",
+          "id": "b1-u10-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "It's ___ to learn the rules of chess.",
+          "options": [
+            "easy",
+            "easily"
+          ],
+          "answerIndex": 0,
+          "explanation": "It's + sıfat + to.",
+          "id": "b1-u10-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I go running ___ stay fit.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "Amaç → to.",
+          "id": "b1-u10-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's important ___ drink water when you exercise.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "It's important to.",
+          "id": "b1-u10-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's difficult ___ me to get up early.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "for me to.",
+          "id": "b1-u10-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Why are you learning Italian? – ___ talk to my grandmother.",
+          "answers": [
+            "To"
+          ],
+          "explanation": "To + fiil.",
+          "id": "b1-u10-l4-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "easy",
+            "It's",
+            "to",
+            "learn",
+            "but",
+            "hard",
+            "to",
+            "master"
+          ],
+          "answer": "It's easy to learn but hard to master.",
+          "explanation": "It's + sıfat + to + fiil.",
+          "translation": "Öğrenmesi kolay ama ustalaşması zor.",
+          "id": "b1-u10-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I joined a hiking club to meet new people. It's not expensive to join, and it's a great way to see the countryside.",
+          "prompt": "Konuşan kulübe neden katıldı?",
+          "options": [
+            "Kilo vermek için",
+            "Yeni insanlarla tanışmak için",
+            "Para kazanmak için"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"to meet new people\"",
+          "id": "b1-u10-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Koşmadan önce ısınmak önemli.\"",
+          "accepted": [
+            "It's important to warm up before running.",
+            "It's important to warm up before running",
+            "It is important to warm up before running",
+            "It is important to warm up before running.",
+            "It's important to warm up before you run.",
+            "It's important to warm up before you run",
+            "It is important to warm up before you run",
+            "It is important to warm up before you run."
+          ],
+          "explanation": "It's important to warm up before running.",
+          "id": "b1-u10-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir hobiyi ya da sporu yeni başlayan birine tanıtın. Neden yapıldığını amaç bildiren to ile, zorluk ve kolaylıklarını It's easy / hard / important / cheap to ile anlatın (en az 6 cümle).",
+          "modelAnswer": "I do yoga to relax and to improve my posture. It's easy to start. You only need a mat. It's important to listen to your body and not to push too hard. It's hard to do some of the positions at first, but it gets easier. It's not expensive to practise at home with videos. Many people do it to sleep better.",
+          "rubric": [
+            "Amaç bildiren to (for değil)",
+            "It's + sıfat + to",
+            "Tavsiye ve değerlendirme"
+          ]
+        },
+        "id": "b1-u10-l4-use"
+      }
+    },
+    {
+      "id": "b1-u10-l5",
+      "number": 5,
+      "title": "Hatırla, dur, dene",
+      "goal": "remember, stop ve try fiillerinin -ing ve to ile değişen anlamlarını kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Bisiklet turunda",
+        "lines": [
+          {
+            "speaker": "Sinan",
+            "text": "Did you remember to bring the water?"
+          },
+          {
+            "speaker": "Gizem",
+            "text": "Yes, I've got two bottles. Oh, I remember cycling here with my dad when I was little!"
+          },
+          {
+            "speaker": "Sinan",
+            "text": "That's nice. Shall we stop to have a rest? My legs hurt."
+          },
+          {
+            "speaker": "Gizem",
+            "text": "OK. You should stop eating so much chocolate before cycling!"
+          },
+          {
+            "speaker": "Sinan",
+            "text": "Ha ha. My chain keeps making a noise. I've tried to fix it, but it's still noisy."
+          },
+          {
+            "speaker": "Gizem",
+            "text": "Try putting some oil on it. That usually works."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Gizem remember from her childhood?",
+            "options": [
+              "Swimming with her mum",
+              "Cycling there with her dad",
+              "Eating chocolate"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I remember cycling here with my dad\"",
+            "id": "b1-u10-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Gizem suggest for the chain?",
+            "options": [
+              "Buying a new bike",
+              "Putting some oil on it",
+              "Cycling faster"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Try putting some oil on it.\"",
+            "id": "b1-u10-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bazı fiillerden sonra hem **-ing** hem **to** gelebilir, ama **anlam değişir**:\n\n| Fiil | + to | + -ing |\n|---|---|---|\n| **remember** | yapmayı **unutmamak** (önce hatırla, sonra yap) | yaptığını **hatırlamak** (anı) |\n| | Remember **to bring** water. | I remember **cycling** here as a child. |\n| **forget** | yapmayı **unutmak** | yaptığını **unutmak** (çoğunlukla \"I'll never forget\") |\n| | I forgot **to lock** the door. | I'll never forget **meeting** her. |\n| **stop** | bir şey **yapmak için durmak** | bir şeyi **yapmayı bırakmak** |\n| | We stopped **to have** a rest. | Stop **eating** chocolate! |\n| **try** | **çabalamak** (zor bir şey) | **denemek** (çözüm olarak) |\n| | I tried **to fix** it, but I couldn't. | Try **putting** some oil on it. |\n\n**İpucu:** remember / forget + **to** → gelecekteki görev; + **-ing** → geçmişteki anı.",
+        "examples": [
+          {
+            "en": "Please remember to turn off the lights.",
+            "tr": "Lütfen ışıkları kapatmayı unutma."
+          },
+          {
+            "en": "I'll never forget seeing the sea for the first time.",
+            "tr": "Denizi ilk kez gördüğümü asla unutmayacağım."
+          },
+          {
+            "en": "He stopped to answer his phone.",
+            "tr": "Telefonunu açmak için durdu."
+          }
+        ],
+        "turkishNote": "\"Sigarayı bıraktı\" ile \"Sigara içmek için durdu\" Türkçede çok farklı cümlelerdir; İngilizcede ikisi de stop ile kurulur: He stopped smoking (bıraktı) / He stopped to smoke (sigara içmek için durdu). Anlamı belirleyen, stop'tan sonraki -ing ya da to'dur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sigarayı bıraktı.\"",
+          "options": [
+            "He stopped to smoke.",
+            "He stopped smoking."
+          ],
+          "answerIndex": 1,
+          "explanation": "stop + -ing = bırakmak.",
+          "id": "b1-u10-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Benzin almak için durduk.\"",
+          "options": [
+            "We stopped to get petrol.",
+            "We stopped getting petrol."
+          ],
+          "answerIndex": 0,
+          "explanation": "stop + to = ... için durmak.",
+          "id": "b1-u10-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Kapıyı kilitlemeyi unuttum.\"",
+          "options": [
+            "I forgot locking the door.",
+            "I forgot to lock the door."
+          ],
+          "answerIndex": 1,
+          "explanation": "forget + to = görevi unutmak.",
+          "id": "b1-u10-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Çocukken burada oynadığımı hatırlıyorum.\"",
+          "options": [
+            "I remember to play here as a child.",
+            "I remember playing here as a child."
+          ],
+          "answerIndex": 1,
+          "explanation": "remember + -ing = anı.",
+          "id": "b1-u10-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Please remember ___ (call) your grandmother.",
+          "answers": [
+            "to call"
+          ],
+          "explanation": "Görev → to.",
+          "id": "b1-u10-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Your computer is slow? Try ___ (restart) it.",
+          "answers": [
+            "restarting"
+          ],
+          "explanation": "Çözüm denemek → -ing.",
+          "id": "b1-u10-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I tried ___ (open) the jar, but it was too tight.",
+          "answers": [
+            "to open"
+          ],
+          "explanation": "Çabalamak → to.",
+          "id": "b1-u10-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'll never forget ___ (meet) my favourite singer.",
+          "answers": [
+            "meeting"
+          ],
+          "explanation": "Anı → -ing.",
+          "id": "b1-u10-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I remember learning to ride a bike in this park. My dad tried to hold the bike, but I kept falling! In the end, he told me to stop looking at my feet.",
+          "prompt": "Babası ona neyi bırakmasını söyledi?",
+          "options": [
+            "Ayaklarına bakmayı",
+            "Hızlı sürmeyi",
+            "Ağlamayı"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"stop looking at my feet\"",
+          "id": "b1-u10-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Lütfen ışıkları kapatmayı unutma.\" (remember)",
+          "accepted": [
+            "Please remember to turn off the lights.",
+            "Please remember to turn off the lights",
+            "Please remember to switch off the lights.",
+            "Please remember to switch off the lights",
+            "Remember to turn off the lights, please.",
+            "Remember to turn off the lights, please",
+            "Remember to switch off the lights, please.",
+            "Remember to switch off the lights, please",
+            "Please remember to turn the lights off.",
+            "Please remember to turn the lights off",
+            "Please remember to switch the lights off.",
+            "Please remember to switch the lights off"
+          ],
+          "explanation": "Please remember to turn off the lights.",
+          "id": "b1-u10-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir forumda \"En sevdiğim boş zaman etkinliği\" konulu bir gönderi yazın (130–160 kelime). Etkinliği nasıl başladığınızı, neden yaptığınızı ve yeni başlayanlar için tavsiyelerinizi anlatın. enjoy / can't stand + -ing, decide / want + to, edat + -ing, amaç bildiren to, It's easy / important to ve remember / stop / try'dan en az birini doğru kullanın.",
+          "modelAnswer": "My favourite free-time activity is photography. I took it up three years ago after I found my grandfather's old camera. I remember taking my first photo with it. It was a picture of a cat on a wall, and it was terrible!\n\nI enjoy walking around the city to find interesting people and places. I'm especially interested in taking photos of old buildings. I can't stand using filters; I prefer natural colours.\n\nLast year I decided to join a photography club to learn from other people, and it was the best decision.\n\nIf you want to start, here's my advice. It's easy to take photos with your phone, so you don't need an expensive camera. It's important to practise every day. Try looking at the light before you take a photo. And remember to stop worrying about perfect photos. Just have fun!",
+          "rubric": [
+            "-ing / to doğru seçimi",
+            "Edat + -ing",
+            "Amaç bildiren to",
+            "remember / stop / try anlamı",
+            "Forum üslubu ve düzen"
+          ]
+        },
+        "id": "b1-u10-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I enjoy to read.",
+          "I enjoy reading."
+        ],
+        "answerIndex": 1,
+        "explanation": "enjoy + -ing",
+        "id": "b1-u10-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I've decided ___ a new language.",
+        "options": [
+          "learning",
+          "to learn"
+        ],
+        "answerIndex": 1,
+        "explanation": "decide + to",
+        "id": "b1-u10-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I'm good at ___.",
+        "options": [
+          "cook",
+          "cooking"
+        ],
+        "answerIndex": 1,
+        "explanation": "at + -ing",
+        "id": "b1-u10-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm looking forward to hear from you.",
+          "I'm looking forward to hearing from you."
+        ],
+        "answerIndex": 1,
+        "explanation": "look forward to + -ing",
+        "id": "b1-u10-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Amaç: \"I went to the library ___ a book.\"",
+        "options": [
+          "for borrow",
+          "to borrow",
+          "for borrowing"
+        ],
+        "answerIndex": 1,
+        "explanation": "to + fiil",
+        "id": "b1-u10-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ (swim) is my favourite sport.",
+        "answers": [
+          "Swimming"
+        ],
+        "explanation": "Özne → -ing",
+        "id": "b1-u10-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "He refused ___ (pay) the bill.",
+        "answers": [
+          "to pay"
+        ],
+        "explanation": "refuse + to",
+        "id": "b1-u10-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "I don't mind ___ (work) at weekends.",
+        "answers": [
+          "working"
+        ],
+        "explanation": "mind + -ing",
+        "id": "b1-u10-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "It's important ___ sleep eight hours.",
+        "answers": [
+          "to"
+        ],
+        "explanation": "It's important to",
+        "id": "b1-u10-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "How about ___ (go) for a walk?",
+        "answers": [
+          "going"
+        ],
+        "explanation": "How about + -ing",
+        "id": "b1-u10-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Sigarayı bıraktım.\"",
+        "options": [
+          "I stopped to smoke.",
+          "I stopped smoking."
+        ],
+        "answerIndex": 1,
+        "explanation": "stop + -ing",
+        "id": "b1-u10-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Ekmek almayı unuttum.\"",
+        "options": [
+          "I forgot to buy bread.",
+          "I forgot buying bread."
+        ],
+        "answerIndex": 0,
+        "explanation": "forget + to",
+        "id": "b1-u10-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I've always wanted to learn to paint. Last month I finally managed to find a class near my office. It's hard to paint well, but I really enjoy trying.",
+        "prompt": "Konuşan geçen ay neyi başardı?",
+        "options": [
+          "Bir resim satmayı",
+          "Ofisine yakın bir kurs bulmayı",
+          "Bir sergi açmayı"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I finally managed to find a class near my office\"",
+        "id": "b1-u10-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Tenise başlamayı düşünüyorum.\"",
+        "accepted": [
+          "I'm thinking about taking up tennis.",
+          "I'm thinking about taking up tennis",
+          "I am thinking about taking up tennis",
+          "I am thinking about taking up tennis.",
+          "I'm thinking of taking up tennis.",
+          "I'm thinking of taking up tennis",
+          "I am thinking of taking up tennis",
+          "I am thinking of taking up tennis.",
+          "I'm thinking about starting tennis.",
+          "I'm thinking about starting tennis",
+          "I am thinking about starting tennis",
+          "I am thinking about starting tennis.",
+          "I'm thinking of starting tennis.",
+          "I'm thinking of starting tennis",
+          "I am thinking of starting tennis",
+          "I am thinking of starting tennis.",
+          "I'm thinking about playing tennis.",
+          "I'm thinking about playing tennis",
+          "I am thinking about playing tennis",
+          "I am thinking about playing tennis.",
+          "I'm thinking of playing tennis.",
+          "I'm thinking of playing tennis",
+          "I am thinking of playing tennis",
+          "I am thinking of playing tennis."
+        ],
+        "explanation": "I'm thinking about taking up tennis.",
+        "id": "b1-u10-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir arkadaşınıza, yeni başladığınız bir hobiyi anlatan ve onu da katılmaya davet eden bir e-posta yazın (120–150 kelime). -ing ve to + fiil yapılarını çeşitli fiillerle doğru kullanın; edat + -ing, amaç bildiren to ve It's + sıfat + to ekleyin.",
+        "modelAnswer": "Hi Selin,\n\nGuess what? I've taken up rock climbing! I decided to try it after I watched a documentary about it. I wanted to do something different, because I was tired of sitting at home every evening.\n\nThere's a climbing centre near my office, and I go there twice a week to practise. At first I was afraid of falling, but the instructors are great. It's not difficult to learn the basics, and it's a fantastic way to get fit. I really enjoy solving the routes; it's like a puzzle!\n\nWhy don't you come with me next Thursday? You don't need to buy anything, because you can rent shoes there. Remember to wear comfortable clothes. I'm sure you'll love it.\n\nI'm looking forward to hearing from you!\n\nLove,\nDuygu",
+        "rubric": [
+          "-ing / to doğru",
+          "Edat + -ing",
+          "Amaç bildiren to",
+          "It's + sıfat + to",
+          "Davet ve e-posta üslubu"
+        ],
+        "id": "b1-u10-t15"
+      }
+    ]
+  }
+}
