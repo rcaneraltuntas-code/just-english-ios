@@ -1,0 +1,1320 @@
+{
+  "id": "c2-u08",
+  "level": "C2",
+  "number": 8,
+  "title": "Sınav stratejisi",
+  "titleEn": "Exam Strategy",
+  "canDo": "IELTS (Band 8+) ve Cambridge C2 Proficiency sınavlarının yapısını bilir, anahtar kelimeli dönüşüm (key word transformation) ve boşluk doldurma sorularında C2 yapılarını kullanabilir, okumada çıkarım ve yazarın tutumu sorularını çözebilir, konuşma sınavında cevaplarımı geliştirip zaman kazanabilir ve iki metni özetleyip değerlendiren yüksek puanlı bir deneme yazabilirim.",
+  "grammar": [
+    "anahtar kelimeli dönüşüm (key word transformation)",
+    "boşluk doldurma: eşdizimler, sabit ifadeler, edatlar",
+    "okuma: çıkarım, yazarın tutumu, metin bağlılığı",
+    "konuşma: cevabı geliştirmek, zaman kazanmak, kelimeyi dolaylı anlatmak",
+    "deneme: iki metni özetleme ve değerlendirme"
+  ],
+  "vocabularyThemes": [
+    "sınavlar",
+    "akademik hayat",
+    "kariyer"
+  ],
+  "liveClass": {
+    "title": "Sınav provası",
+    "durationMinutes": 45,
+    "goal": "Ders kısa bir sınav provası olarak yapılır. Önce öğrenciler 10 dakikada 6 anahtar kelimeli dönüşüm sorusu çözer ve cevapları ikili gruplar halinde karşılaştırır. Sonra öğretmen IELTS Konuşma Bölüm 3 tarzı sorular sorar; her öğrenci bir cevabı en az 45 saniye geliştirir ve sınıf, kullanılan geliştirme stratejilerini (neden, örnek, karşı görüş, sonuç) not eder. Son bölümde öğretmen yaygın sınav hatalarını özetler."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u08-v01",
+      "en": "key word transformation",
+      "tr": "anahtar kelimeli dönüşüm",
+      "example": "Key word transformations test grammar and vocabulary.",
+      "exampleTr": "Anahtar kelimeli dönüşümler dilbilgisi ve kelime bilgisini ölçer."
+    },
+    {
+      "id": "c2-u08-v02",
+      "en": "open cloze",
+      "tr": "açık boşluk doldurma",
+      "example": "In the open cloze, there are no options.",
+      "exampleTr": "Açık boşluk doldurmada seçenek yoktur."
+    },
+    {
+      "id": "c2-u08-v03",
+      "en": "collocation",
+      "tr": "eşdizim",
+      "example": "\"Make a decision\" is a common collocation.",
+      "exampleTr": "\"Make a decision\" yaygın bir eşdizimdir."
+    },
+    {
+      "id": "c2-u08-v04",
+      "en": "dependent preposition",
+      "tr": "bağımlı edat",
+      "example": "\"Depend on\" has a dependent preposition.",
+      "exampleTr": "\"Depend on\" bağımlı bir edat içerir."
+    },
+    {
+      "id": "c2-u08-v05",
+      "en": "inference",
+      "tr": "çıkarım",
+      "example": "This question tests inference.",
+      "exampleTr": "Bu soru çıkarım yapmayı ölçer."
+    },
+    {
+      "id": "c2-u08-v06",
+      "en": "to infer",
+      "tr": "çıkarım yapmak",
+      "example": "What can we infer from the last paragraph?",
+      "exampleTr": "Son paragraftan ne çıkarabiliriz?"
+    },
+    {
+      "id": "c2-u08-v07",
+      "en": "to imply",
+      "tr": "ima etmek",
+      "example": "The writer implies that the plan will fail.",
+      "exampleTr": "Yazar planın başarısız olacağını ima ediyor."
+    },
+    {
+      "id": "c2-u08-v08",
+      "en": "writer's attitude",
+      "tr": "yazarın tutumu",
+      "example": "What is the writer's attitude towards the project?",
+      "exampleTr": "Yazarın projeye karşı tutumu nedir?"
+    },
+    {
+      "id": "c2-u08-v09",
+      "en": "distractor",
+      "tr": "çeldirici",
+      "example": "Option B is a distractor.",
+      "exampleTr": "B seçeneği bir çeldirici."
+    },
+    {
+      "id": "c2-u08-v10",
+      "en": "paraphrase",
+      "tr": "başka sözcüklerle ifade etmek",
+      "example": "The answer is usually a paraphrase of the text.",
+      "exampleTr": "Cevap genellikle metnin başka sözcüklerle ifadesidir."
+    },
+    {
+      "id": "c2-u08-v11",
+      "en": "band score",
+      "tr": "bant puanı (IELTS)",
+      "example": "She needs a band score of 8.",
+      "exampleTr": "8 bant puanına ihtiyacı var."
+    },
+    {
+      "id": "c2-u08-v12",
+      "en": "lexical resource",
+      "tr": "kelime kaynağı (değerlendirme ölçütü)",
+      "example": "Lexical resource is one of the four criteria.",
+      "exampleTr": "Kelime kaynağı dört ölçütten biri."
+    },
+    {
+      "id": "c2-u08-v13",
+      "en": "coherence and cohesion",
+      "tr": "tutarlılık ve bağlılık",
+      "example": "Coherence and cohesion are assessed in writing.",
+      "exampleTr": "Yazmada tutarlılık ve bağlılık değerlendirilir."
+    },
+    {
+      "id": "c2-u08-v14",
+      "en": "to elaborate",
+      "tr": "ayrıntılandırmak, geliştirmek",
+      "example": "Could you elaborate on that?",
+      "exampleTr": "Bunu biraz açabilir misiniz?"
+    },
+    {
+      "id": "c2-u08-v15",
+      "en": "to buy time",
+      "tr": "zaman kazanmak",
+      "example": "\"That's an interesting question\" helps you buy time.",
+      "exampleTr": "\"İlginç bir soru\" demek zaman kazanmanıza yardım eder."
+    },
+    {
+      "id": "c2-u08-v16",
+      "en": "circumlocution",
+      "tr": "dolaylı anlatım (kelimeyi bilmeyince)",
+      "example": "Use circumlocution if you forget a word.",
+      "exampleTr": "Bir kelimeyi unutursan dolaylı anlat."
+    },
+    {
+      "id": "c2-u08-v17",
+      "en": "time management",
+      "tr": "zaman yönetimi",
+      "example": "Time management is crucial in exams.",
+      "exampleTr": "Sınavlarda zaman yönetimi çok önemlidir."
+    },
+    {
+      "id": "c2-u08-v18",
+      "en": "word limit",
+      "tr": "kelime sınırı",
+      "example": "Stay within the word limit.",
+      "exampleTr": "Kelime sınırı içinde kalın."
+    },
+    {
+      "id": "c2-u08-v19",
+      "en": "to proofread",
+      "tr": "metni gözden geçirip hata kontrolü yapmak",
+      "example": "Always leave time to proofread.",
+      "exampleTr": "Her zaman gözden geçirmeye zaman ayırın."
+    },
+    {
+      "id": "c2-u08-v20",
+      "en": "to summarise",
+      "tr": "özetlemek",
+      "example": "Summarise the key points of both texts.",
+      "exampleTr": "İki metnin ana noktalarını özetleyin."
+    },
+    {
+      "id": "c2-u08-v21",
+      "en": "to evaluate",
+      "tr": "değerlendirmek",
+      "example": "Evaluate the arguments in the texts.",
+      "exampleTr": "Metinlerdeki argümanları değerlendirin."
+    },
+    {
+      "id": "c2-u08-v22",
+      "en": "stand / position",
+      "tr": "görüş, tutum",
+      "example": "Make your own position clear.",
+      "exampleTr": "Kendi görüşünüzü netleştirin."
+    },
+    {
+      "id": "c2-u08-v23",
+      "en": "under exam conditions",
+      "tr": "sınav koşullarında",
+      "example": "Practise writing under exam conditions.",
+      "exampleTr": "Sınav koşullarında yazma pratiği yapın."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u08-l1",
+      "number": 1,
+      "title": "Anahtar kelimeli dönüşüm",
+      "goal": "Cambridge C2 Proficiency tarzı anahtar kelimeli dönüşüm sorularında (verilen kelimeyi değiştirmeden 3–8 kelimeyle) anlamı koruyarak cümleyi C2 yapılarıyla yeniden yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek sorular ve çözüm",
+        "body": "Instructions: Complete the second sentence so that it has a similar meaning to the first sentence, using the word given. Do not change the word given. You must use between three and eight words, including the word given.\n\nExample 1:\nI didn't realise how serious the situation was until I read the report.\nUNTIL\nIt was ______ how serious the situation was.\nAnswer: not until I read the report that I realised\n\nExample 2:\nAlthough he tried very hard, he couldn't open the door.\nHOWEVER\n______, he couldn't open the door.\nAnswer: However hard he tried\n\nExample 3:\nIf you hadn't helped me, I would have failed.\nBEEN\nHad it ______, I would have failed.\nAnswer: not been for your help",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many words can you use in the answer?",
+            "options": [
+              "One or two",
+              "Between three and eight, including the key word",
+              "As many as you like"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"between three and eight words, including the word given\"",
+            "id": "c2-u08-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Can you change the key word?",
+            "options": [
+              "Yes, if needed",
+              "No, never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Do not change the word given.\"",
+            "id": "c2-u08-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Anahtar kelimeli dönüşüm (key word transformation),** Cambridge C2 Proficiency sınavının Reading and Use of English bölümünde yer alır. Hem **dilbilgisi** hem **kelime bilgisi** ölçer.\n\n**Kurallar:**\n\n1. Verilen kelimeyi **değiştirmeyin** (*UNTIL* → ✗ *till*).\n2. Genellikle **3–8 kelime** (kısaltmalar 2 kelime sayılır: *didn't* = did not).\n3. Anlam **aynı** kalmalı.\n4. Cevap genellikle **iki puan** değerindedir; yarısı doğruysa bir puan alabilirsiniz.\n\n**C2'de sık test edilen yapılar (önceki ünitelerimizden):**\n\n| Yapı | Örnek dönüşüm |\n|---|---|\n| **Not until / It was not until** (C1 Ü1) | *I didn't realise until ...* → *It was **not until** I read the report **that** I realised ...* |\n| **However + sıfat / zarf** | *Although he tried hard* → ***However hard** he tried* |\n| **Had it not been for** (C2 Ü1) | *If you hadn't helped me* → *Had it **not been for your help*** |\n| **Hardly / No sooner** (C1 Ü1) | *As soon as I arrived, it started raining* → ***No sooner** had I arrived **than** ...* |\n| **Such was / So + sıfat** (C2 Ü1) | *The noise was so loud that ...* → ***Such was the noise** that ...* |\n| **Passive reporting** (C1 Ü8) | *People believe he left* → *He **is believed to have left*** |\n| **Modal perfect** (B2 Ü7) | *I'm sure he forgot* → *He **must have forgotten*** |\n| **Deyimler ve phrasal verbs** | *I couldn't understand him* → *I couldn't **make head or tail of** what he said* |\n| **İsimleştirme** (C2 Ü3) | *She decided to leave* → *She **made the decision to** leave* |\n\n**Strateji:**\n\n1. İlk cümlenin **anlamını** tam olarak anlayın.\n2. Anahtar kelimenin **hangi yapıyı** gerektirdiğini düşünün (*UNTIL → not until*, *BEEN → had it not been for*).\n3. İkinci cümlenin **başını ve sonunu** dikkatle okuyun; cevabınız ikisine de uymalı.\n4. **Kelimeleri sayın** ve **zamanı** kontrol edin.",
+        "examples": [
+          {
+            "en": "People say that she is very wealthy. → She is said to be very wealthy.",
+            "tr": "İnsanlar onun çok zengin olduğunu söylüyor. → Onun çok zengin olduğu söyleniyor."
+          },
+          {
+            "en": "I'm sure he didn't mean it. → He can't have meant it.",
+            "tr": "Eminim öyle demek istemedi. → Öyle demek istemiş olamaz."
+          },
+          {
+            "en": "As soon as she left, the phone rang. → No sooner had she left than the phone rang.",
+            "tr": "O çıkar çıkmaz telefon çaldı."
+          }
+        ],
+        "turkishNote": "Türk öğrencilerin anahtar kelimeli dönüşümlerde en sık yaptığı hatalar: (1) Anahtar kelimeyi değiştirmek (örneğin UNTIL yerine \"till\" yazmak). (2) Zamanı yanlış kullanmak (\"Had it not been for\" yapısında geçmiş zamanı unutmak). (3) Devrik yapılarda yardımcı fiili atlamak (\"No sooner I had arrived\" yerine \"No sooner had I arrived\"). (4) Kelime sınırını aşmak. Cevabınızı yazdıktan sonra mutlaka tüm cümleyi baştan sona okuyun ve kelimeleri sayın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I'm sure she forgot. MUST → She ___.",
+          "options": [
+            "must have forgotten",
+            "must forget"
+          ],
+          "answerIndex": 0,
+          "explanation": "Modal perfect.",
+          "id": "c2-u08-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "People believe he left the country. BELIEVED → He ___ the country.",
+          "options": [
+            "is believed to have left",
+            "is believed that he left"
+          ],
+          "answerIndex": 0,
+          "explanation": "Passive reporting.",
+          "id": "c2-u08-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The noise was so loud that we couldn't sleep. SUCH → ___ that we couldn't sleep.",
+          "options": [
+            "Such was the noise",
+            "Such the noise was"
+          ],
+          "answerIndex": 0,
+          "explanation": "Such was.",
+          "id": "c2-u08-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kısaltmalar (didn't) kaç kelime sayılır?",
+          "options": [
+            "Bir",
+            "İki"
+          ],
+          "answerIndex": 1,
+          "explanation": "did + not.",
+          "id": "c2-u08-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Although she was tired, she kept working. HOWEVER → ___ tired she was, she kept working.",
+          "answers": [
+            "However"
+          ],
+          "explanation": "However + sıfat.",
+          "id": "c2-u08-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "As soon as I sat down, the phone rang. SOONER → No sooner ___ I sat down than the phone rang.",
+          "answers": [
+            "had"
+          ],
+          "explanation": "No sooner had I.",
+          "id": "c2-u08-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If it hadn't been for the map, we would have got lost. BEEN → Had it not ___ for the map, we would have got lost.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "Had it not been for.",
+          "id": "c2-u08-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She decided to resign. DECISION → She made the ___ to resign.",
+          "answers": [
+            "decision"
+          ],
+          "explanation": "made the decision.",
+          "id": "c2-u08-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Here's a tip for key word transformations. Before you write anything, read the whole of the second sentence, including the words after the gap. Many students write a perfectly good answer, but it doesn't fit with the end of the sentence, so they lose marks.",
+          "prompt": "Bu ipucuna göre öğrenciler neden puan kaybediyor?",
+          "options": [
+            "Anahtar kelimeyi bilmedikleri için",
+            "Cevap cümlenin geri kalanına uymadığı için",
+            "Çok yavaş yazdıkları için"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it doesn't fit with the end of the sentence\"",
+          "id": "c2-u08-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Dönüştürün (UNTIL): \"I didn't understand the problem until my teacher explained it.\" → It was ___ that I understood the problem.",
+          "accepted": [
+            "not until my teacher explained it",
+            "not until my teacher had explained it"
+          ],
+          "explanation": "not until my teacher explained it",
+          "id": "c2-u08-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki cümleleri verilen kelimeyle sözlü olarak dönüştürün ve her biri için hangi yapıyı kullandığınızı tek cümleyle açıklayın: (1) I'm certain he didn't steal the money. (CAN'T) (2) As soon as we arrived, the concert started. (HARDLY) (3) People say that the castle is haunted. (SAID) (4) She was so talented that she won every competition. (SUCH) (5) If you hadn't warned me, I would have made a terrible mistake. (FOR)",
+          "modelAnswer": "One: He can't have stolen the money. I used a modal perfect to express certainty about the past. Two: Hardly had we arrived when the concert started. That's negative inversion with hardly and when. Three: The castle is said to be haunted. That's a passive reporting structure. Four: Such was her talent that she won every competition. That's inversion with such plus a noun. Five: Had it not been for your warning, I would have made a terrible mistake. That's an inverted third conditional with had it not been for.",
+          "rubric": [
+            "Doğru dönüşümler",
+            "Yapıların adlandırılması",
+            "Doğru zaman",
+            "Akıcılık"
+          ]
+        },
+        "id": "c2-u08-l1-use"
+      }
+    },
+    {
+      "id": "c2-u08-l2",
+      "number": 2,
+      "title": "Boşluk doldurma: eşdizimler ve sabit ifadeler",
+      "goal": "Çoktan seçmeli ve açık boşluk doldurma sorularında eşdizimleri, sabit ifadeleri, bağımlı edatları ve dilbilgisel kelimeleri (whereby, albeit, whatsoever) doğru tahmin edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek boşluk doldurma metni",
+        "body": "The rise of remote work has (1) ___ rise to a number of unexpected challenges. While many employees have welcomed the freedom it offers, others have found it difficult to (2) ___ a clear line between work and home life. (3) ___ to some estimates, a significant proportion of remote workers regularly check emails late at night. Experts warn that this (4) ___ of constant availability may, in the long (5) ___, lead to burnout. Companies are therefore being urged to take the (6) ___ seriously.\n\nAnswers: (1) given, (2) draw, (3) According, (4) culture, (5) run, (6) issue / problem / matter",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the main topic of the text?",
+            "options": [
+              "The challenges of remote work",
+              "How to find a job",
+              "The history of email"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"unexpected challenges\"",
+            "id": "c2-u08-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What may constant availability lead to?",
+            "options": [
+              "Higher salaries",
+              "Burnout",
+              "Better results"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"lead to burnout\"",
+            "id": "c2-u08-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Cambridge C2 Proficiency'nin **Part 1** (çoktan seçmeli boşluk doldurma) ve **Part 2** (açık boşluk doldurma) bölümleri ile IELTS okuma bölümündeki bazı sorular, **sabit ifadeleri** ve **dilbilgisel kelimeleri** ölçer.\n\n**1. Eşdizimler ve sabit ifadeler (Part 1'de sık):**\n\n| Fiil + isim | Örnek |\n|---|---|\n| **give rise to** | *has given rise to challenges* (yol açmak) |\n| **draw a line / distinction** | *draw a clear line between work and home* |\n| **take sth seriously** | *take the issue seriously* |\n| **pose a threat / a question** | *pose a serious threat* |\n| **bear in mind** | *Bear in mind that ...* |\n| **come to terms with** | *come to terms with the loss* |\n| **meet a deadline / demand** | *meet the deadline* |\n\n| Sabit ifade | Anlam |\n|---|---|\n| **in the long run** | uzun vadede |\n| **by and large** | genel olarak |\n| **to a certain extent** | bir ölçüde |\n| **on the verge of** | -mek üzere |\n| **in the wake of** | -in ardından |\n| **at the expense of** | -in pahasına |\n\n**2. Açık boşluk doldurma (Part 2):** Genellikle **dilbilgisel** kelimeler: edat, bağlaç, zamir, yardımcı fiil, belirleyici.\n\n| Kelime | Örnek |\n|---|---|\n| **whereby** | *a system **whereby** users can ...* |\n| **albeit** | *a small, **albeit** important, change* (her ne kadar ... olsa da) |\n| **whatsoever** | *no evidence **whatsoever*** (hiçbir) |\n| **lest** | *... **lest** we forget* (-mesin diye; çok resmî) |\n| **hence** | ***hence** the delay* |\n| **nor** | *Not only ... **nor** ...; Neither ... **nor** ...* |\n| **as / such** | ***As** far **as** I know / **such** as* |\n| **it / there** | ***It** is said that ... / **There** is no doubt that ...* |\n\n**Strateji:**\n\n1. Önce **bütün metni** okuyun.\n2. Boşluktan **önceki ve sonraki** kelimelere bakın: Hangi tür kelime gerekiyor?\n3. Part 1'de: Seçenekler genellikle **eşanlamlıdır**; doğru olanı **eşdizim** belirler (*give rise to*, ✗ *make rise to*).\n4. Part 2'de: Her boşluğa **tek bir kelime**.",
+        "examples": [
+          {
+            "en": "The new policy has given rise to widespread protests.",
+            "tr": "Yeni politika yaygın protestolara yol açtı."
+          },
+          {
+            "en": "There is no evidence whatsoever to support this claim.",
+            "tr": "Bu iddiayı destekleyecek hiçbir kanıt yok."
+          },
+          {
+            "en": "The change was small, albeit significant.",
+            "tr": "Değişiklik küçüktü, her ne kadar önemli olsa da."
+          }
+        ],
+        "turkishNote": "Türk öğrenciler çoktan seçmeli boşluk doldurmada genellikle seçenekleri Türkçe anlamlarına göre değerlendirir ve hepsi \"doğru\" görünür. Örneğin \"give / make / take / do rise to\" seçeneklerinin hepsi Türkçede \"yol açmak\" anlamında kullanılabilecekmiş gibi görünür, ama İngilizcede sadece \"give rise to\" doğrudur. Bu sorular anlam değil, eşdizim bilgisini ölçer. En iyi hazırlık, kelimeleri tek tek değil, eşdizimleri ve sabit ifadeleriyle birlikte öğrenmektir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "The new law has ___ rise to many protests.",
+          "options": [
+            "given",
+            "made"
+          ],
+          "answerIndex": 0,
+          "explanation": "give rise to.",
+          "id": "c2-u08-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "It's important to ___ a distinction between the two cases.",
+          "options": [
+            "draw",
+            "make up"
+          ],
+          "answerIndex": 0,
+          "explanation": "draw a distinction.",
+          "id": "c2-u08-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "In the long ___, the investment will pay off.",
+          "options": [
+            "run",
+            "way"
+          ],
+          "answerIndex": 0,
+          "explanation": "in the long run.",
+          "id": "c2-u08-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "There is no evidence ___ to support it.",
+          "options": [
+            "whatsoever",
+            "whereby"
+          ],
+          "answerIndex": 0,
+          "explanation": "whatsoever.",
+          "id": "c2-u08-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "By and ___, the project has been a success. (genel olarak)",
+          "answers": [
+            "large"
+          ],
+          "explanation": "by and large.",
+          "id": "c2-u08-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The company is on the ___ of collapse. (-mek üzere)",
+          "answers": [
+            "verge",
+            "brink",
+            "edge"
+          ],
+          "explanation": "on the verge of.",
+          "id": "c2-u08-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "They introduced a system ___ employees can work flexible hours.",
+          "answers": [
+            "whereby"
+          ],
+          "explanation": "whereby.",
+          "id": "c2-u08-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was a small, ___ important, improvement. (her ne kadar ... olsa da)",
+          "answers": [
+            "albeit"
+          ],
+          "explanation": "albeit.",
+          "id": "c2-u08-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "A common mistake in multiple-choice cloze tasks is choosing the word with the right meaning but the wrong collocation. For example, we say \"pose a threat\", not \"make a threat\" in this sense, and \"meet a deadline\", not \"reach a deadline\". Always ask yourself which word naturally goes with the words around it.",
+          "prompt": "Çoktan seçmeli boşluk doldurmada sık yapılan hata nedir?",
+          "options": [
+            "Yanlış anlamlı kelimeyi seçmek",
+            "Doğru anlamlı ama yanlış eşdizimli kelimeyi seçmek",
+            "Boşluğu boş bırakmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the right meaning but the wrong collocation\"",
+          "id": "c2-u08-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "give",
+              "right": "rise to"
+            },
+            {
+              "left": "pose",
+              "right": "a threat"
+            },
+            {
+              "left": "meet",
+              "right": "a deadline"
+            },
+            {
+              "left": "bear",
+              "right": "in mind"
+            },
+            {
+              "left": "come",
+              "right": "to terms with"
+            }
+          ],
+          "explanation": "Her fiili doğru eşdizimiyle eşleştirin.",
+          "id": "c2-u08-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki eşdizimleri ve sabit ifadeleri kullanarak, sınavlara hazırlanma deneyiminiz (ya da planınız) hakkında bir dakikalık bir konuşma yapın. En az 6 tanesini doğal bir şekilde kullanın: give rise to, take sth seriously, bear in mind, in the long run, by and large, to a certain extent, on the verge of, meet a deadline, come to terms with, at the expense of.",
+          "modelAnswer": "When I started preparing for my English exam, I didn't take it seriously enough at first. By and large, I thought my English was good, and to a certain extent it was, but I soon realised that the exam tests very specific skills. At one point, I was on the verge of giving up, because my practice scores weren't improving. Then my teacher told me to bear in mind that progress at this level is slow. I had to come to terms with the fact that there are no shortcuts. I started studying a little every day, even at the expense of some of my free time. In the long run, it really paid off.",
+          "rubric": [
+            "En az 6 doğru eşdizim",
+            "Doğal kullanım",
+            "Akıcı anlatım",
+            "Doğru telaffuz"
+          ]
+        },
+        "id": "c2-u08-l2-use"
+      }
+    },
+    {
+      "id": "c2-u08-l3",
+      "number": 3,
+      "title": "Okuma: çıkarım ve yazarın tutumu",
+      "goal": "Okuma sınavlarında çıkarım (inference), yazarın tutumu (attitude) ve çeldirici seçenekleri tanıyabilir, metin bağlılığı ipuçlarıyla boşluklu metin (gapped text) sorularını çözebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek okuma metni",
+        "body": "There is a curious tendency among technology companies to announce each new product as though it were about to change the course of human history. The latest smartwatch, we are told, will \"revolutionise\" the way we live. One cannot help wondering how many revolutions a single species can survive in one decade.\n\nThis is not to say that such devices are without value. For people with certain medical conditions, a watch that monitors heart rate may genuinely be life-changing. For the rest of us, however, the benefits are rather more modest: we can now be reminded, every hour, that we have not walked enough.\n\nQuestion: What is the writer's attitude towards the claims made by technology companies?\nA. Enthusiastic\nB. Sceptical and mildly ironic\nC. Angry and hostile\nD. Completely neutral\n\nAnswer: B",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who might genuinely benefit from smartwatches, according to the writer?",
+            "options": [
+              "Everyone",
+              "People with certain medical conditions",
+              "Technology companies"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"For people with certain medical conditions ...\"",
+            "id": "c2-u08-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why is option C (Angry and hostile) wrong?",
+            "options": [
+              "The writer is ironic, not angry, and admits some value.",
+              "The writer loves technology."
+            ],
+            "answerIndex": 0,
+            "explanation": "Çeldirici: tutum çok güçlü.",
+            "id": "c2-u08-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Çıkarım (inference):** Metinde **açıkça yazılmayan** ama **ima edilen** bilgiyi bulmak.\n\n- *One cannot help wondering how many revolutions a single species can survive in one decade.* → Yazar \"devrim\" kelimesinin **aşırı kullanıldığını** düşünüyor (açıkça söylemiyor).\n\n**Çıkarım soruları:** *What does the writer imply ...? / What can be inferred ...? / The writer suggests that ...*\n\n**2. Yazarın tutumu (writer's attitude):** Yazarın konuya karşı duygusu ya da görüşü.\n\n| Tutum kelimesi | Anlam |\n|---|---|\n| **sceptical** | şüpheci |\n| **ironic / sardonic** | ironik / alaycı |\n| **ambivalent** | karışık duygular |\n| **dismissive** | küçümseyen |\n| **cautious / tentative** | temkinli |\n| **enthusiastic** | coşkulu |\n| **nostalgic** | nostaljik |\n| **resigned** | kabullenmiş |\n\n**İpuçları:** Yüklü kelimeler (C2 Ü2), ironi ve hafife alma (C2 Ü7), temkinli dil (C1 Ü6), tırnak içindeki kelimeler (*\"revolutionise\"* = yazar bu kelimeye mesafeli).\n\n**3. Çeldiriciler (distractors):**\n\n| Çeldirici türü | Örnek |\n|---|---|\n| **Çok güçlü** | *Angry and hostile* (yazar sadece ironik) |\n| **Metinde geçen kelime, ama yanlış anlam** | Metindeki bir kelimeyi kopyalayan seçenek |\n| **Doğru, ama soruya cevap değil** | Metinde var, ama sorulan bu değil |\n| **Kısmen doğru** | Metnin sadece bir kısmını yansıtıyor |\n\n**4. Boşluklu metin (gapped text):** Metinden çıkarılmış paragrafları doğru yerlere yerleştirmek. **Bağlılık ipuçları:**\n\n- Zamirler: *this, these, such, it, they* neyi gösteriyor?\n- Bağlaçlar: *However, Moreover, As a result*\n- Tekrar eden ya da eşanlamlı kelimeler\n- Zaman ifadeleri: *Later, Two years after this*\n\n**Altın kural:** Cevabınızı **metindeki somut bir kanıtla** destekleyebilmelisiniz.",
+        "examples": [
+          {
+            "en": "The writer implies that the product is overhyped.",
+            "tr": "Yazar ürünün abartıldığını ima ediyor."
+          },
+          {
+            "en": "The writer's tone is sceptical and mildly ironic.",
+            "tr": "Yazarın tonu şüpheci ve hafif ironik."
+          },
+          {
+            "en": "Option A is a distractor because it is too strong.",
+            "tr": "A seçeneği çok güçlü olduğu için bir çeldirici."
+          }
+        ],
+        "turkishNote": "Türk sınav sisteminde (YDS, YÖKDİL) de çıkarım ve yazarın tutumu soruları vardır, ama C2 seviyesindeki İngilizce sınavlarda (CPE, IELTS 8+) bu sorular çok daha incedir. En büyük zorluk, ironiyi ve hafife almayı fark etmektir: Yazar olumlu kelimeler kullanıp aslında eleştiriyor olabilir. Türk öğrencilerin sık yaptığı bir hata, metinde geçen bir kelimeyi içeren seçeneği hemen işaretlemektir; bu genellikle bir çeldiricidir. Doğru cevap çoğunlukla metindeki fikrin başka sözcüklerle ifadesidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"sceptical\" anlamı:",
+          "options": [
+            "Şüpheci",
+            "Coşkulu"
+          ],
+          "answerIndex": 0,
+          "explanation": "sceptical.",
+          "id": "c2-u08-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"ambivalent\" anlamı:",
+          "options": [
+            "Karışık duygular",
+            "Çok kızgın"
+          ],
+          "answerIndex": 0,
+          "explanation": "ambivalent.",
+          "id": "c2-u08-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Metinde geçen bir kelimeyi aynen içeren seçenek genellikle:",
+          "options": [
+            "Kesin doğrudur.",
+            "Bir çeldirici olabilir."
+          ],
+          "answerIndex": 1,
+          "explanation": "Distractor.",
+          "id": "c2-u08-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru cevap genellikle:",
+          "options": [
+            "Metindeki fikrin başka sözcüklerle ifadesidir.",
+            "Metindeki cümlenin aynısıdır."
+          ],
+          "answerIndex": 0,
+          "explanation": "Paraphrase.",
+          "id": "c2-u08-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What does the writer ___ in the final paragraph? (ima etmek)",
+          "answers": [
+            "imply",
+            "suggest"
+          ],
+          "explanation": "imply.",
+          "id": "c2-u08-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What can be ___ from the second paragraph? (çıkarım yapılmak)",
+          "answers": [
+            "inferred"
+          ],
+          "explanation": "inferred.",
+          "id": "c2-u08-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The writer's tone is ___; she seems to miss the old days. (nostaljik)",
+          "answers": [
+            "nostalgic"
+          ],
+          "explanation": "nostalgic.",
+          "id": "c2-u08-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Option D is wrong because it is too ___. (güçlü)",
+          "answers": [
+            "strong",
+            "extreme"
+          ],
+          "explanation": "too strong.",
+          "id": "c2-u08-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The new museum is, I suppose, impressive in its own way. The architecture certainly attracts attention, and the café is excellent. Whether anyone will remember the exhibitions themselves is, however, another matter entirely.",
+          "prompt": "Konuşanın müzeye karşı tutumu nedir?",
+          "options": [
+            "Coşkulu ve hayran",
+            "Karışık, biraz şüpheci",
+            "Tamamen nötr"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I suppose\", \"another matter entirely\"",
+          "id": "c2-u08-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "sceptical",
+              "right": "şüpheci"
+            },
+            {
+              "left": "dismissive",
+              "right": "küçümseyen"
+            },
+            {
+              "left": "tentative",
+              "right": "temkinli"
+            },
+            {
+              "left": "resigned",
+              "right": "kabullenmiş"
+            },
+            {
+              "left": "enthusiastic",
+              "right": "coşkulu"
+            }
+          ],
+          "explanation": "Her tutum kelimesini anlamıyla eşleştirin.",
+          "id": "c2-u08-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ders metnindeki akıllı saat metnini sözlü olarak analiz edin (1 dakika): (1) Yazarın tutumu nedir ve bunu hangi kelime ve ifadelerden çıkarıyorsunuz? (2) Yazar neyi açıkça söylemeden ima ediyor? (3) Örnek sorudaki A, C ve D seçeneklerinin neden yanlış olduğunu açıklayın.",
+          "modelAnswer": "The writer's attitude is sceptical and mildly ironic. We can see this in the phrase \"as though it were about to change the course of human history\", which suggests that the companies are exaggerating. The word \"revolutionise\" is in quotation marks, which shows that the writer is distancing themselves from it. The writer implies that the word \"revolution\" is used so often that it has lost its meaning, and that, for most people, smartwatches are not very useful. In the example question, A, enthusiastic, is clearly wrong. C, angry and hostile, is too strong, because the writer is ironic rather than angry and even admits that the devices have some value. And D, neutral, is wrong because the irony shows a clear opinion.",
+          "rubric": [
+            "Doğru tutum analizi",
+            "Metinden kanıt",
+            "Çıkarım",
+            "Çeldiricilerin açıklanması"
+          ]
+        },
+        "id": "c2-u08-l3-use"
+      }
+    },
+    {
+      "id": "c2-u08-l4",
+      "number": 4,
+      "title": "Konuşma sınavı stratejileri",
+      "goal": "Konuşma sınavında cevaplarımı geliştirebilir (neden, örnek, karşı görüş, sonuç), doğal şekilde zaman kazanabilir, bilmediğim bir kelimeyi dolaylı anlatabilir ve kendimi düzeltebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "IELTS Konuşma Bölüm 3 tarzı soru",
+        "lines": [
+          {
+            "speaker": "Examiner",
+            "text": "Do you think that the government should invest more in public transport?"
+          },
+          {
+            "speaker": "Candidate A",
+            "text": "Yes. Public transport is good."
+          },
+          {
+            "speaker": "Candidate B",
+            "text": "That's an interesting question. On the whole, I'd say yes, for a couple of reasons. First of all, good public transport reduces traffic and pollution, which benefits everyone, not just the people who use it. In my city, for example, a new metro line opened a few years ago, and the difference in traffic has been quite noticeable. Having said that, I don't think investment alone is enough. If the service isn't reliable or affordable, people simply won't use it. So, in short, I'd support more investment, but only if it's well planned."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why is Candidate B's answer better?",
+            "options": [
+              "It is longer and more developed, with reasons, an example and a counterpoint.",
+              "It uses more difficult words only."
+            ],
+            "answerIndex": 0,
+            "explanation": "Geliştirilmiş cevap.",
+            "id": "c2-u08-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What example does Candidate B give?",
+            "options": [
+              "A new metro line in their city",
+              "A bus strike",
+              "A new airport"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"a new metro line opened a few years ago\"",
+            "id": "c2-u08-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**IELTS Speaking** (3 bölüm, yaklaşık 11–14 dakika) ve **Cambridge C2 Proficiency Speaking** sınavında yüksek puan için **akıcılık, tutarlılık, kelime çeşitliliği, dilbilgisi çeşitliliği** ve **telaffuz** değerlendirilir.\n\n**1. Cevabı geliştirme formülü:**\n\n| Adım | Kalıp |\n|---|---|\n| **Doğrudan cevap** | *On the whole, I'd say yes / I'm not entirely convinced ...* |\n| **Neden** | *First of all, ... / The main reason is that ...* |\n| **Örnek** | *In my city, for example, ... / I remember when ...* |\n| **Karşı görüş** | *Having said that, ... / On the other hand, ...* |\n| **Sonuç** | *So, in short, ... / All things considered, ...* |\n\n**2. Zaman kazanma (doğal yollarla):**\n\n- *That's an interesting question.*\n- *That's not something I've thought about much, but ...*\n- *Let me think about that for a moment.*\n- *Well, it depends on what you mean by ...*\n\n**Dikkat:** Bu ifadeleri **her soruda** kullanmayın; yapay görünür.\n\n**3. Dolaylı anlatım (circumlocution):** Bir kelimeyi unuttuğunuzda **durmayın**, açıklayın:\n\n- *It's a kind of ... / It's the thing you use to ...*\n- *I can't think of the exact word, but it's similar to ...*\n- *It's the opposite of ...*\n\n**4. Kendini düzeltme (self-correction):** Doğal ve olumludur.\n\n- *He go... sorry, he went to ...*\n- *... or rather, ... / What I mean is ...*\n\n**5. C2 seviyesinde puan getiren özellikler:**\n\n- **Temkinli dil:** *I'd say, It seems to me, to some extent*\n- **Deyimler** (doğal ve az): *a double-edged sword, the tip of the iceberg*\n- **Çeşitli yapılar:** cleft (*What worries me is ...*), şart (*Were the government to ...*), devrik yapı (ölçülü)\n- **Kesin kelimeler:** *noticeable, affordable, reliable*\n\n**Kaçının:** Ezberlenmiş uzun kalıplar, çok kısa cevaplar, aynı bağlaçların tekrarı (*and ... and ...*).",
+        "examples": [
+          {
+            "en": "That's not something I've thought about much, but I'd say ...",
+            "tr": "Bu pek düşündüğüm bir şey değil ama ... diyebilirim."
+          },
+          {
+            "en": "I can't think of the exact word, but it's a kind of tool for ...",
+            "tr": "Tam kelimeyi hatırlayamıyorum ama ... için kullanılan bir tür alet."
+          },
+          {
+            "en": "What worries me most is the cost.",
+            "tr": "Beni en çok endişelendiren maliyet."
+          }
+        ],
+        "turkishNote": "Türk öğrenciler konuşma sınavlarında genellikle iki hata yapar: Ya çok kısa cevap verir (\"Yes, I think so\") ya da önceden ezberlenmiş uzun paragrafları tekrarlar. Sınav görevlisi her ikisini de fark eder. En iyi strateji, \"Cevap + Neden + Örnek + Karşı görüş + Sonuç\" yapısını içselleştirmektir. Ayrıca bir kelimeyi unuttuğunuzda Türkçe düşünüp susmak yerine, kelimeyi İngilizce olarak dolaylı anlatmak akıcılık puanınızı korur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Daha yüksek puan alacak cevap:",
+          "options": [
+            "Yes, it's good.",
+            "On the whole, yes. The main reason is ... For example, ... Having said that, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geliştirilmiş cevap.",
+          "id": "c2-u08-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir kelimeyi unuttuğunuzda:",
+          "options": [
+            "Uzun süre susun.",
+            "Kelimeyi dolaylı anlatın: \"It's a kind of ...\""
+          ],
+          "answerIndex": 1,
+          "explanation": "Circumlocution.",
+          "id": "c2-u08-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Zaman kazanma ifadeleri:",
+          "options": [
+            "Her soruda kullanılmalı.",
+            "Ara sıra ve doğal kullanılmalı."
+          ],
+          "answerIndex": 1,
+          "explanation": "Ölçü.",
+          "id": "c2-u08-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı görüş eklemek için:",
+          "options": [
+            "Having said that, ...",
+            "First of all, ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Counterpoint.",
+          "id": "c2-u08-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "That's an ___ question. Let me think. (ilginç)",
+          "answers": [
+            "interesting"
+          ],
+          "explanation": "That's an interesting question.",
+          "id": "c2-u08-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Having ___ that, I don't think it's the only solution.",
+          "answers": [
+            "said"
+          ],
+          "explanation": "Having said that.",
+          "id": "c2-u08-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I can't think of the exact ___, but it's similar to a ladder.",
+          "answers": [
+            "word"
+          ],
+          "explanation": "the exact word.",
+          "id": "c2-u08-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "All things ___, I'd support the idea. (göz önüne alındığında)",
+          "answers": [
+            "considered"
+          ],
+          "explanation": "All things considered.",
+          "id": "c2-u08-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Examiner: Is it important for children to learn a second language? Candidate: Absolutely, though perhaps not for the reasons people usually give. Of course, it helps with future jobs, but what I find more important is that it teaches children that there's more than one way of seeing the world. My niece, for instance, started learning Spanish at seven, and she's become much more curious about other cultures. That said, I don't think it should be forced on children who are struggling with their first language.",
+          "prompt": "Aday hangi geliştirme adımlarını kullanıyor?",
+          "options": [
+            "Sadece doğrudan cevap",
+            "Cevap, neden, örnek ve karşı görüş",
+            "Sadece bir örnek"
+          ],
+          "answerIndex": 1,
+          "explanation": "Absolutely + what I find more important + My niece + That said.",
+          "id": "c2-u08-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "That's an interesting question.",
+              "right": "zaman kazanmak"
+            },
+            {
+              "left": "It's a kind of ...",
+              "right": "dolaylı anlatım"
+            },
+            {
+              "left": "Having said that, ...",
+              "right": "karşı görüş"
+            },
+            {
+              "left": "In my city, for example, ...",
+              "right": "örnek"
+            },
+            {
+              "left": "All things considered, ...",
+              "right": "sonuç"
+            }
+          ],
+          "explanation": "Her ifadeyi işleviyle eşleştirin.",
+          "id": "c2-u08-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki IELTS Bölüm 3 / CPE tarzı sorulardan ikisine, her biri en az 45 saniye olacak şekilde cevap verin. \"Cevap + Neden + Örnek + Karşı görüş + Sonuç\" yapısını kullanın, en az bir C2 yapısı (cleft, inversion, mixed conditional) ve temkinli dil ekleyin: (1) Do you think social media has made people more or less connected? (2) Should university education be free for everyone? (3) How might cities change in the next fifty years?",
+          "modelAnswer": "One: That's a really interesting question. I'd say that, paradoxically, social media has made us both more and less connected. On the one hand, it's never been easier to stay in touch with friends and family who live far away. My cousin, for instance, lives in Canada, and we talk almost every day thanks to messaging apps. Having said that, what worries me is that many people now spend more time scrolling than actually talking to the people around them. So, all things considered, I think it depends on how we use it. Three: Well, it's hard to say exactly, but I suspect cities will look very different. If current trends continue, we'll probably see far fewer private cars and much more green space. Were governments to invest seriously in renewable energy, cities could also become much cleaner. On the other hand, rising populations may put enormous pressure on housing. In short, I think cities will be greener, but perhaps also more crowded.",
+          "rubric": [
+            "Geliştirilmiş cevaplar",
+            "Neden, örnek, karşı görüş, sonuç",
+            "C2 yapıları",
+            "Temkinli dil ve akıcılık"
+          ]
+        },
+        "id": "c2-u08-l4-use"
+      }
+    },
+    {
+      "id": "c2-u08-l5",
+      "number": 5,
+      "title": "Deneme: iki metni özetle ve değerlendir",
+      "goal": "Cambridge C2 Proficiency Writing Part 1 tarzında, iki kısa metnin ana fikirlerini kendi sözlerimle özetleyip değerlendiren ve kendi görüşümü ekleyen yüksek puanlı bir deneme yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek görev",
+        "body": "Read the two texts below. Write an essay summarising and evaluating the key points from both texts. Use your own words throughout as far as possible, and include your own ideas in your answer. (240–280 words)\n\nText 1:\n\"Tourism brings undeniable economic benefits to local communities. It creates jobs, supports small businesses and often funds the preservation of historic sites that might otherwise fall into ruin. For many regions, it is quite simply the main source of income.\"\n\nText 2:\n\"Mass tourism can do lasting damage to the very places it claims to celebrate. Popular destinations become overcrowded, local residents are priced out of their own neighbourhoods, and fragile ecosystems are put under severe pressure. The economic gains are rarely shared fairly.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What must you do in this task?",
+            "options": [
+              "Only give your opinion",
+              "Summarise and evaluate both texts, and include your own ideas",
+              "Copy the key sentences from the texts"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"summarising and evaluating ... include your own ideas\"",
+            "id": "c2-u08-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the main point of Text 2?",
+            "options": [
+              "Tourism creates jobs.",
+              "Mass tourism can harm places and people.",
+              "Tourism should be banned."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"can do lasting damage\"",
+            "id": "c2-u08-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Cambridge C2 Proficiency Writing Part 1:** İki kısa metnin **ana noktalarını özetleyip değerlendiren** zorunlu bir deneme (240–280 kelime). Bu görev, C2 Ünite 3'teki (akademik yazı) **yeniden ifade** ve **sentez** becerilerini gerektirir.\n\n**Değerlendirme ölçütleri:** İçerik (her iki metnin ana noktaları), iletişimsel başarı (uygun üslup ve okuyucu etkisi), organizasyon ve dil.\n\n**Önerilen yapı (4 paragraf):**\n\n| Paragraf | İçerik |\n|---|---|\n| **1. Giriş** | Konuyu tanıt; iki metnin genel olarak **farklı / benzer** bakış açılarını belirt |\n| **2. Metin 1** | Ana noktaları **kendi sözlerinle** özetle + **değerlendir** (katılıyor musun? ne kadar ikna edici?) |\n| **3. Metin 2** | Ana noktaları **kendi sözlerinle** özetle + **değerlendir** |\n| **4. Sonuç** | Kendi **net görüşünü** belirt; iki metni **sentezle** |\n\n**Değerlendirme kalıpları:**\n\n- *The first text makes a compelling case for ...*\n- *While this argument has some merit, it overlooks ...*\n- *The writer of the second text rightly points out that ...*\n- *This view is, in my opinion, somewhat one-sided / overstated.*\n- *Both texts, however, fail to consider ...*\n- *A more balanced view would be that ...*\n\n**Yeniden ifade (paraphrase) zorunlu!**\n\n| Metindeki ifade | Kendi sözlerinizle |\n|---|---|\n| *undeniable economic benefits* | *clear financial advantages* |\n| *fall into ruin* | *be neglected / deteriorate* |\n| *priced out of their own neighbourhoods* | *can no longer afford to live in the areas where they grew up* |\n| *fragile ecosystems* | *vulnerable natural environments* |\n\n**Sık yapılan hatalar:**\n\n1. Metinlerden **cümleleri kopyalamak** (puan kaybı)\n2. Sadece **özetleyip değerlendirmemek**\n3. Bir metni **atlamak**\n4. **Kendi görüşünü** eklememek\n5. **Kelime sınırını** aşmak ya da altında kalmak\n\n**Zaman yönetimi:** Planlama (5–10 dk) → Yazma (25–30 dk) → Gözden geçirme (5 dk).",
+        "examples": [
+          {
+            "en": "The first text makes a compelling case for the economic value of tourism.",
+            "tr": "İlk metin turizmin ekonomik değeri için ikna edici bir savunma yapıyor."
+          },
+          {
+            "en": "While this argument has some merit, it overlooks the social cost.",
+            "tr": "Bu argümanın bazı haklı yönleri olsa da sosyal maliyeti göz ardı ediyor."
+          },
+          {
+            "en": "A more balanced view would be that tourism must be carefully managed.",
+            "tr": "Daha dengeli bir görüş, turizmin dikkatle yönetilmesi gerektiği olurdu."
+          }
+        ],
+        "turkishNote": "Türk öğrenciler bu görevde genellikle iki hata yapar: Metinlerden cümleleri neredeyse aynen kopyalar (Ünite 3'teki \"patchwriting\") ve özetlemekle yetinip değerlendirme yapmaz. Sınav görevlisi sizin metinleri anlayıp anlamadığınızı değil, onları kendi sözlerinizle yeniden ifade edip eleştirel bir şekilde değerlendirip değerlendiremediğinizi ölçer. Her metin için şu soruyu sorun: \"Bu argüman ne kadar güçlü? Neyi göz ardı ediyor?\" Son paragrafta mutlaka kendi net görüşünüzü belirtin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu görevde metinlerden cümle kopyalamak:",
+          "options": [
+            "Puan getirir.",
+            "Puan kaybettirir."
+          ],
+          "answerIndex": 1,
+          "explanation": "Paraphrase.",
+          "id": "c2-u08-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Değerlendirme cümlesi:",
+          "options": [
+            "Text 1 says tourism creates jobs.",
+            "While this argument has some merit, it overlooks the social cost."
+          ],
+          "answerIndex": 1,
+          "explanation": "Evaluation.",
+          "id": "c2-u08-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kendi görüşünüz nerede en açık olmalı?",
+          "options": [
+            "Sonuç paragrafında",
+            "Hiçbir yerde"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sonuç.",
+          "id": "c2-u08-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"priced out of their own neighbourhoods\" için iyi bir yeniden ifade:",
+          "options": [
+            "priced out of their neighbourhoods",
+            "unable to afford to live in the areas where they grew up"
+          ],
+          "answerIndex": 1,
+          "explanation": "Paraphrase.",
+          "id": "c2-u08-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The first text makes a ___ case for tourism. (ikna edici)",
+          "answers": [
+            "compelling",
+            "convincing",
+            "strong",
+            "persuasive"
+          ],
+          "explanation": "compelling case.",
+          "id": "c2-u08-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "While this argument has some ___, it is rather one-sided. (haklılık payı)",
+          "answers": [
+            "merit",
+            "validity"
+          ],
+          "explanation": "has some merit.",
+          "id": "c2-u08-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The writer rightly ___ out that ecosystems are fragile.",
+          "answers": [
+            "points"
+          ],
+          "explanation": "points out.",
+          "id": "c2-u08-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Both texts, however, fail to ___ the role of local governments. (göz önüne almak)",
+          "answers": [
+            "consider",
+            "mention",
+            "address"
+          ],
+          "explanation": "fail to consider.",
+          "id": "c2-u08-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When you write the summary-and-evaluation essay, don't simply say \"Text 1 says this, Text 2 says that.\" The examiner wants to see you weigh the arguments. Ask yourself: which text is more convincing, and why? What does each writer leave out? Then make your own position clear at the end.",
+          "prompt": "Sınav görevlisi bu denemede ne görmek istiyor?",
+          "options": [
+            "Sadece iki metnin özeti",
+            "Argümanların tartılması ve yazarın kendi net görüşü",
+            "Metinlerden doğrudan alıntılar"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"weigh the arguments ... make your own position clear\"",
+          "id": "c2-u08-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Kendi sözlerinizle ifade edin: \"fragile ecosystems are put under severe pressure\" (vulnerable natural environments ...)",
+          "accepted": [
+            "vulnerable natural environments are seriously threatened",
+            "vulnerable natural environments are under serious threat",
+            "vulnerable natural environments are badly damaged",
+            "vulnerable natural environments come under great strain",
+            "vulnerable natural environments are placed under great strain",
+            "vulnerable natural environments suffer considerable harm"
+          ],
+          "explanation": "vulnerable natural environments are seriously threatened",
+          "id": "c2-u08-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Ders metnindeki iki turizm metnini okuyun ve bir deneme yazın (240–280 kelime): Her iki metnin ana noktalarını mümkün olduğunca kendi sözlerinizle özetleyin ve değerlendirin, ve kendi görüşünüzü ekleyin. Dört paragraflık yapıyı ve değerlendirme kalıplarını kullanın; metinlerden cümle kopyalamayın.",
+          "modelAnswer": "Tourism is often presented as either a blessing or a curse for the places that receive visitors. The two texts take markedly different positions on this issue, focusing respectively on its financial advantages and its social and environmental costs.\n\nThe first text argues that tourism offers clear economic benefits. It generates employment, helps local enterprises to survive and frequently provides the money needed to protect historic buildings that would otherwise deteriorate. For some areas, the writer claims, visitors are the most important source of revenue. This argument is undoubtedly persuasive, particularly in relation to rural or economically isolated regions. However, it presents tourism in an entirely positive light and makes no mention of who actually receives the profits.\n\nThe second text, by contrast, focuses on the harm caused by large numbers of visitors. The writer rightly points out that popular places can become unbearably crowded, that rising property prices may force local people to leave the areas where they grew up, and that vulnerable natural environments can suffer considerable damage. The claim that the profits are seldom distributed fairly is, in my view, the most important point in either text, although the writer arguably overstates the case by implying that the costs always outweigh the benefits.\n\nIn my opinion, both texts contain some truth, but neither offers a complete picture. Tourism is neither inherently good nor inherently harmful; its impact depends largely on how it is managed. Measures such as limiting visitor numbers, investing tourist taxes in local housing and protecting sensitive natural areas could allow communities to enjoy the economic advantages without paying such a high social and environmental price.",
+          "rubric": [
+            "Her iki metnin ana noktaları",
+            "Kendi sözleriyle ifade (kopyalama yok)",
+            "Eleştirel değerlendirme",
+            "Net kendi görüşü",
+            "Yapı, üslup ve kelime sınırı"
+          ]
+        },
+        "id": "c2-u08-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "I'm sure he didn't see us. CAN'T → He ___ us.",
+        "options": [
+          "can't have seen",
+          "can't see"
+        ],
+        "answerIndex": 0,
+        "explanation": "Modal perfect",
+        "id": "c2-u08-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Anahtar kelimeli dönüşümde verilen kelime:",
+        "options": [
+          "Değiştirilebilir.",
+          "Asla değiştirilmez."
+        ],
+        "answerIndex": 1,
+        "explanation": "Kural",
+        "id": "c2-u08-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "The new policy has ___ rise to criticism.",
+        "options": [
+          "given",
+          "made"
+        ],
+        "answerIndex": 0,
+        "explanation": "give rise to",
+        "id": "c2-u08-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Yazarın tutumu \"sceptical\":",
+        "options": [
+          "Şüpheci",
+          "Coşkulu"
+        ],
+        "answerIndex": 0,
+        "explanation": "sceptical",
+        "id": "c2-u08-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Konuşma sınavında bir kelimeyi unutunca:",
+        "options": [
+          "Susun.",
+          "Dolaylı anlatın."
+        ],
+        "answerIndex": 1,
+        "explanation": "Circumlocution",
+        "id": "c2-u08-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "As soon as I arrived, it started to rain. SOONER → No sooner ___ I arrived than it started to rain.",
+        "answers": [
+          "had"
+        ],
+        "explanation": "No sooner had I",
+        "id": "c2-u08-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "People say that the house is haunted. SAID → The house is ___ to be haunted.",
+        "answers": [
+          "said"
+        ],
+        "explanation": "Passive reporting",
+        "id": "c2-u08-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Although he tried hard, he failed. HOWEVER → ___ hard he tried, he failed.",
+        "answers": [
+          "However"
+        ],
+        "explanation": "However + zarf",
+        "id": "c2-u08-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "In the long ___, the plan will save money.",
+        "answers": [
+          "run"
+        ],
+        "explanation": "in the long run",
+        "id": "c2-u08-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "There is no proof ___ that he was there. (hiçbir)",
+        "answers": [
+          "whatsoever"
+        ],
+        "explanation": "whatsoever",
+        "id": "c2-u08-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "What can be ___ from the last paragraph? (çıkarım)",
+        "answers": [
+          "inferred"
+        ],
+        "explanation": "inferred",
+        "id": "c2-u08-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "Having ___ that, I don't think it will work.",
+        "answers": [
+          "said"
+        ],
+        "explanation": "Having said that",
+        "id": "c2-u08-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "When answering reading questions, always look for evidence in the text. If you can't point to a specific word or sentence that supports your answer, it's probably wrong. And be careful with options that repeat words from the text exactly; they're often distractors.",
+        "prompt": "Bu tavsiyeye göre metindeki kelimeleri aynen tekrarlayan seçenekler:",
+        "options": [
+          "Her zaman doğrudur.",
+          "Genellikle çeldiricidir."
+        ],
+        "answerIndex": 1,
+        "explanation": "Distractors.",
+        "id": "c2-u08-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Dönüştürün (BEEN): \"If you hadn't helped me, I would have failed.\" → Had it ___, I would have failed.",
+        "accepted": [
+          "not been for your help",
+          "not been for you",
+          "not been for your assistance"
+        ],
+        "explanation": "not been for your help",
+        "id": "c2-u08-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Aşağıdaki iki metni okuyun ve bir deneme yazın (240–280 kelime): İki metnin ana noktalarını mümkün olduğunca kendi sözlerinizle özetleyip değerlendirin ve kendi görüşünüzü ekleyin.\n\nText 1: \"Working from home has transformed the lives of millions of employees. Freed from long commutes, they enjoy more time with their families, greater control over their schedules and, in many cases, higher productivity.\"\n\nText 2: \"The shift to remote work comes at a hidden cost. Without the informal conversations of office life, younger employees miss out on vital learning opportunities, and many workers report feeling isolated and unable to switch off at the end of the day.\"",
+        "modelAnswer": "The rapid growth of remote working has provoked considerable debate, and the two texts offer contrasting perspectives on its impact on employees.\n\nThe first text presents an overwhelmingly positive view. According to the writer, avoiding daily journeys to the office gives employees more family time and allows them to organise their working day as they wish. The writer also suggests that many people actually achieve more at home. These points are certainly valid, particularly for parents and for those who previously spent hours travelling. However, the claim about productivity is stated rather than supported, and the text ignores the possibility that the benefits may not be shared equally by all workers.\n\nThe second text, on the other hand, draws attention to less obvious disadvantages. The writer argues convincingly that the casual exchanges which happen naturally in an office play an important role in the development of less experienced staff. The text also highlights two widespread problems: loneliness and the difficulty of separating work from private life. In my view, the point about younger employees is particularly significant, since it suggests that the long-term cost of remote work may only become apparent years from now.\n\nOverall, I believe that both writers make reasonable points but present an incomplete picture. Remote work is clearly beneficial for many people, yet it is not suitable for everyone or for every stage of a career. A hybrid model, in which employees spend part of the week in the office, seems to me the most sensible way to combine the freedom described in the first text with the support and contact emphasised in the second.",
+        "rubric": [
+          "Her iki metnin özeti",
+          "Kendi sözleriyle ifade",
+          "Eleştirel değerlendirme",
+          "Net görüş",
+          "Yapı ve kelime sınırı"
+        ],
+        "id": "c2-u08-t15"
+      }
+    ]
+  }
+}
