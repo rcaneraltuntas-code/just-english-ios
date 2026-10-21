@@ -1,0 +1,1432 @@
+{
+  "id": "a2-u08",
+  "level": "A2",
+  "number": 8,
+  "title": "Kurallar",
+  "titleEn": "Rules",
+  "canDo": "Okulda, işte ve kamusal alanlarda kuralları anlatabilir, neyin zorunlu, neyin yasak, neyin gereksiz olduğunu ayırt edebilirim.",
+  "grammar": [
+    "have to / has to",
+    "don't have to ve Do you have to ...?",
+    "must / mustn't",
+    "mustn't ve don't have to farkı",
+    "had to (geçmiş zorunluluk)"
+  ],
+  "vocabularyThemes": [
+    "iş hayatı",
+    "okul",
+    "tabelalar ve kamu kuralları"
+  ],
+  "liveClass": {
+    "title": "Kurallar kitabı",
+    "durationMinutes": 45,
+    "goal": "Gruplar hayali bir okul, ofis ya da apartman için 'kurallar kitabı' hazırlar: 3 tane must, 3 tane mustn't, 2 tane don't have to. Sonra diğer gruplar Do we have to...? / Can we...? diye sorular sorar ve kuralların adil olup olmadığını tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u08-v01",
+      "en": "have to",
+      "tr": "zorunda olmak",
+      "example": "I have to wear a uniform at work.",
+      "exampleTr": "İşte üniforma giymek zorundayım.",
+      "note": "he/she → has to"
+    },
+    {
+      "id": "a2-u08-v02",
+      "en": "must",
+      "tr": "-meli (kesin)",
+      "example": "You must wear a seatbelt.",
+      "exampleTr": "Emniyet kemeri takmalısınız.",
+      "note": "must + yalın fiil"
+    },
+    {
+      "id": "a2-u08-v03",
+      "en": "mustn't",
+      "tr": "yasak, -memeli",
+      "example": "You mustn't use your phone here.",
+      "exampleTr": "Burada telefon kullanmamalısınız.",
+      "note": "Okunuşu: /ˈmʌsnt/"
+    },
+    {
+      "id": "a2-u08-v04",
+      "en": "don't have to",
+      "tr": "zorunda değil",
+      "example": "You don't have to come if you're busy.",
+      "exampleTr": "Meşgulsen gelmek zorunda değilsin."
+    },
+    {
+      "id": "a2-u08-v05",
+      "en": "rule",
+      "tr": "kural",
+      "example": "Every school has rules.",
+      "exampleTr": "Her okulun kuralları vardır."
+    },
+    {
+      "id": "a2-u08-v06",
+      "en": "allowed",
+      "tr": "izin verilen",
+      "example": "Dogs aren't allowed in the shop.",
+      "exampleTr": "Mağazaya köpek alınmaz.",
+      "note": "be allowed to + fiil"
+    },
+    {
+      "id": "a2-u08-v07",
+      "en": "uniform",
+      "tr": "üniforma",
+      "example": "Nurses have to wear a uniform.",
+      "exampleTr": "Hemşireler üniforma giymek zorunda."
+    },
+    {
+      "id": "a2-u08-v08",
+      "en": "on time",
+      "tr": "zamanında",
+      "example": "You must be on time for the exam.",
+      "exampleTr": "Sınava zamanında gelmelisin."
+    },
+    {
+      "id": "a2-u08-v09",
+      "en": "deadline",
+      "tr": "son teslim tarihi",
+      "example": "The deadline for the project is Friday.",
+      "exampleTr": "Projenin son teslim tarihi cuma."
+    },
+    {
+      "id": "a2-u08-v10",
+      "en": "shift",
+      "tr": "vardiya",
+      "example": "I work the night shift this week.",
+      "exampleTr": "Bu hafta gece vardiyasındayım."
+    },
+    {
+      "id": "a2-u08-v11",
+      "en": "overtime",
+      "tr": "fazla mesai",
+      "example": "We sometimes have to work overtime.",
+      "exampleTr": "Bazen fazla mesai yapmak zorundayız."
+    },
+    {
+      "id": "a2-u08-v12",
+      "en": "day off",
+      "tr": "izin günü",
+      "example": "I have a day off on Wednesday.",
+      "exampleTr": "Çarşamba izin günüm."
+    },
+    {
+      "id": "a2-u08-v13",
+      "en": "boss",
+      "tr": "patron",
+      "example": "My boss is very strict.",
+      "exampleTr": "Patronum çok katı."
+    },
+    {
+      "id": "a2-u08-v14",
+      "en": "strict",
+      "tr": "katı, sıkı",
+      "example": "Our teacher is strict about homework.",
+      "exampleTr": "Öğretmenimiz ödev konusunda katı."
+    },
+    {
+      "id": "a2-u08-v15",
+      "en": "homework",
+      "tr": "ödev",
+      "example": "Do we have to do the homework tonight?",
+      "exampleTr": "Ödevi bu akşam yapmak zorunda mıyız?",
+      "note": "Sayılamaz."
+    },
+    {
+      "id": "a2-u08-v16",
+      "en": "exam",
+      "tr": "sınav",
+      "example": "You mustn't talk during the exam.",
+      "exampleTr": "Sınav sırasında konuşmamalısınız."
+    },
+    {
+      "id": "a2-u08-v17",
+      "en": "fine",
+      "tr": "para cezası",
+      "example": "You have to pay a fine for parking here.",
+      "exampleTr": "Buraya park edersen ceza ödemek zorundasın."
+    },
+    {
+      "id": "a2-u08-v18",
+      "en": "seatbelt",
+      "tr": "emniyet kemeri",
+      "example": "Always wear your seatbelt.",
+      "exampleTr": "Her zaman emniyet kemerini tak."
+    },
+    {
+      "id": "a2-u08-v19",
+      "en": "helmet",
+      "tr": "kask",
+      "example": "Cyclists must wear a helmet.",
+      "exampleTr": "Bisikletliler kask takmalı."
+    },
+    {
+      "id": "a2-u08-v20",
+      "en": "sign",
+      "tr": "tabela, işaret",
+      "example": "What does that sign mean?",
+      "exampleTr": "O tabela ne anlama geliyor?"
+    },
+    {
+      "id": "a2-u08-v21",
+      "en": "smoke",
+      "tr": "sigara içmek",
+      "example": "You mustn't smoke in the building.",
+      "exampleTr": "Binada sigara içmemelisiniz."
+    },
+    {
+      "id": "a2-u08-v22",
+      "en": "fill in",
+      "tr": "doldurmak (form)",
+      "example": "You have to fill in this form.",
+      "exampleTr": "Bu formu doldurmanız gerekiyor."
+    },
+    {
+      "id": "a2-u08-v23",
+      "en": "ID card",
+      "tr": "kimlik kartı",
+      "example": "You must show your ID card at the door.",
+      "exampleTr": "Kapıda kimlik kartınızı göstermelisiniz."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u08-l1",
+      "number": 1,
+      "title": "Zorundayım",
+      "goal": "have to / has to ile iş ve okuldaki zorunlulukları anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir pilotun günü",
+        "body": "Captain Selin Arslan is a pilot. She started flying ten years ago.\n\n\"My job is amazing, but there are a lot of rules. I have to arrive at the airport two hours before every flight. I have to check the weather and the plane carefully. Pilots also have to take a medical test every year.\n\nI often have to work at night and at weekends, and sometimes I have to sleep in hotels for three or four days. My husband has to look after our daughter when I'm away. It's not easy, but I love flying!\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When does Selin have to arrive at the airport?",
+            "options": [
+              "One hour before a flight",
+              "Two hours before a flight",
+              "At midnight"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I have to arrive at the airport two hours before every flight.\"",
+            "id": "a2-u08-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do pilots have to do every year?",
+            "options": [
+              "Learn a new language",
+              "Take a medical test",
+              "Fly to a new country"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Pilots also have to take a medical test every year.\"",
+            "id": "a2-u08-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**have to** + yalın fiil → zorunluluk (genellikle kurallardan ya da durumdan gelir)\n\n| | |\n|---|---|\n| I / You / We / They **have to** | work |\n| He / She / It **has to** | work |\n\n- I **have to** get up at six.\n- She **has to** wear a uniform.\n- We **have to** finish this by Friday.\n\nhave to **bir kalıptır**: \"have\" burada \"sahip olmak\" anlamında değildir. Okunuşu genellikle /ˈhæftə/, has to ise /ˈhæstə/.\n\n**Zaman ifadeleri:** every day, on Mondays, sometimes, often → I often **have to** work late.",
+        "examples": [
+          {
+            "en": "I have to take the bus at seven every morning.",
+            "tr": "Her sabah yedide otobüse binmek zorundayım."
+          },
+          {
+            "en": "My brother has to study for his exam.",
+            "tr": "Erkek kardeşim sınavına çalışmak zorunda."
+          },
+          {
+            "en": "Doctors often have to work at night.",
+            "tr": "Doktorlar sık sık gece çalışmak zorunda kalır."
+          }
+        ],
+        "turkishNote": "\"-mek zorundayım\" ve \"-mem lazım / gerek\" yapılarının ikisi de have to ile söylenebilir: \"Gitmem lazım\" = I have to go. Günlük konuşmada \"I have to go\" bir vedalaşma ifadesi olarak da çok kullanılır (Gitmem lazım, görüşürüz)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She have to work.",
+            "She has to work.",
+            "She has to works."
+          ],
+          "answerIndex": 1,
+          "explanation": "she → has to + yalın fiil.",
+          "id": "a2-u08-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I have to get up early.",
+            "I have get up early.",
+            "I have to getting up early."
+          ],
+          "answerIndex": 0,
+          "explanation": "have to + yalın fiil.",
+          "id": "a2-u08-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nurses ___ to wear a uniform.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "nurses → have to.",
+          "id": "a2-u08-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My dad ___ to work on Saturdays.",
+          "answers": [
+            "has"
+          ],
+          "explanation": "he → has to.",
+          "id": "a2-u08-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We have to ___ this report by Friday. (finish)",
+          "answers": [
+            "finish"
+          ],
+          "explanation": "have to + yalın fiil.",
+          "id": "a2-u08-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gitmem lazım, görüşürüz!\"",
+          "options": [
+            "I have to go. See you!",
+            "I must going. See you!",
+            "I have go. See you!"
+          ],
+          "answerIndex": 0,
+          "explanation": "I have to go.",
+          "id": "a2-u08-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "have",
+            "I",
+            "to",
+            "take",
+            "the",
+            "bus",
+            "at",
+            "seven"
+          ],
+          "answer": "I have to take the bus at seven.",
+          "explanation": "have to + fiil + nesne + zaman.",
+          "translation": "Yedide otobüse binmek zorundayım.",
+          "id": "a2-u08-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I work in a hospital, so I often have to work at night. Next week I have to work four night shifts!",
+          "prompt": "Gelecek hafta kaç gece vardiyası var?",
+          "options": [
+            "İki",
+            "Dört",
+            "Hiç"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I have to work four night shifts\"",
+          "id": "a2-u08-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İşte üniforma giymek zorundayım.\"",
+          "accepted": [
+            "I have to wear a uniform at work.",
+            "I have to wear a uniform at work"
+          ],
+          "explanation": "I have to + wear a uniform + at work.",
+          "id": "a2-u08-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Pilots",
+              "right": "have to check the weather."
+            },
+            {
+              "left": "Students",
+              "right": "have to do homework."
+            },
+            {
+              "left": "Drivers",
+              "right": "have to wear a seatbelt."
+            },
+            {
+              "left": "A waiter",
+              "right": "has to be polite."
+            }
+          ],
+          "explanation": "Cümleleri tamamlayın.",
+          "id": "a2-u08-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "İşinizde ya da okulunuzda yapmak zorunda olduğunuz 4 şeyi have to ile anlatın. Bir aile üyenizin zorunluluklarını da has to ile söyleyin.",
+          "modelAnswer": "At work I have to start at eight. I have to answer a lot of emails and I sometimes have to work late. I also have to wear smart clothes. My wife is a teacher, so she has to get up very early.",
+          "rubric": [
+            "have to / has to doğru",
+            "Yalın fiil doğru",
+            "Sıklık ifadeleri"
+          ]
+        },
+        "id": "a2-u08-l1-use"
+      }
+    },
+    {
+      "id": "a2-u08-l2",
+      "number": 2,
+      "title": "Zorunda değilim",
+      "goal": "don't have to ile gereksiz olan şeyleri anlatabilir, zorunlulukları sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni iş",
+        "lines": [
+          {
+            "speaker": "Emre",
+            "text": "So, how's the new job?"
+          },
+          {
+            "speaker": "Damla",
+            "text": "It's great! I don't have to wear a suit, and I don't have to start at nine. The hours are flexible."
+          },
+          {
+            "speaker": "Emre",
+            "text": "Lucky you! Do you have to go to the office every day?"
+          },
+          {
+            "speaker": "Damla",
+            "text": "No, I don't. I work from home on Mondays and Fridays."
+          },
+          {
+            "speaker": "Emre",
+            "text": "Does your boss have to check your work?"
+          },
+          {
+            "speaker": "Damla",
+            "text": "Yes, she does. But she's very nice."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Does Damla have to wear a suit?",
+            "options": [
+              "Yes, she does.",
+              "No, she doesn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I don't have to wear a suit\"",
+            "id": "a2-u08-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When does she work from home?",
+            "options": [
+              "Every day",
+              "On Mondays and Fridays",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I work from home on Mondays and Fridays.\"",
+            "id": "a2-u08-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**don't / doesn't have to** → zorunda değil, gerek yok (istersen yapabilirsin)\n\n- You **don't have to** come. (Gelmek zorunda değilsin.)\n- She **doesn't have to** work tomorrow.\n\n**Soru:** Do / Does + özne + have to + fiil?\n\n- **Do** you **have to** wear a uniform? – Yes, I **do**. / No, I **don't**.\n- **Does** he **have to** travel a lot? – Yes, he **does**. / No, he **doesn't**.\n- **What time do** you **have to** start?\n\nhave to normal bir fiil gibi davranır: soru ve olumsuzda **do / does** kullanılır. ~~Have you to...?~~ / ~~She hasn't to...~~ yanlıştır.",
+        "examples": [
+          {
+            "en": "It's Saturday. I don't have to get up early.",
+            "tr": "Cumartesi. Erken kalkmak zorunda değilim."
+          },
+          {
+            "en": "Do we have to bring anything?",
+            "tr": "Bir şey getirmemiz gerekiyor mu?"
+          },
+          {
+            "en": "What time does she have to leave?",
+            "tr": "Saat kaçta çıkması gerekiyor?"
+          }
+        ],
+        "turkishNote": "\"Gerek yok\" demek için \"You don't have to\" en doğal yoldur: \"Kusura bakma, gelmek zorunda değilsin\" = You don't have to come. Bu cümle yasak bildirmez; sadece zorunluluk olmadığını söyler. Yasak için mustn't kullanılır (sonraki ders)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She doesn't have to work.",
+            "She don't have to work.",
+            "She hasn't to work."
+          ],
+          "answerIndex": 0,
+          "explanation": "doesn't have to.",
+          "id": "a2-u08-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Have you to wear a uniform?",
+            "Do you have to wear a uniform?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Do + you + have to?",
+          "id": "a2-u08-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Do you have to work on Sundays?\" (Hayır.)",
+          "options": [
+            "No, I don't.",
+            "No, I haven't.",
+            "No, I don't have."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, I don't.",
+          "id": "a2-u08-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's a holiday. We ___ have to go to school. (değil)",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "don't have to.",
+          "id": "a2-u08-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ your sister have to travel for work?",
+          "answers": [
+            "Does"
+          ],
+          "explanation": "she → Does.",
+          "id": "a2-u08-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What time do you ___ to start work?",
+          "answers": [
+            "have"
+          ],
+          "explanation": "have to.",
+          "id": "a2-u08-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "I",
+            "don't",
+            "have",
+            "to",
+            "get",
+            "up",
+            "early",
+            "tomorrow"
+          ],
+          "answer": "I don't have to get up early tomorrow.",
+          "explanation": "don't have to + fiil.",
+          "translation": "Yarın erken kalkmak zorunda değilim.",
+          "id": "a2-u08-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "You don't have to bring food to the party. We have a lot. But you have to bring something to drink.",
+          "prompt": "Partiye ne getirmek zorunlu?",
+          "options": [
+            "Yemek",
+            "İçecek",
+            "Hiçbir şey"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"you have to bring something to drink\"",
+          "id": "a2-u08-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"He has to work late.\"",
+          "accepted": [
+            "Does he have to work late?",
+            "Does he have to work late"
+          ],
+          "explanation": "Does + he + have to work late?",
+          "id": "a2-u08-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bir şey getirmemiz gerekiyor mu?\"",
+          "accepted": [
+            "Do we have to bring anything?",
+            "Do we have to bring anything",
+            "Do we need to bring anything?",
+            "Do we need to bring anything",
+            "Do we have to bring something?",
+            "Do we have to bring something"
+          ],
+          "explanation": "Do we have to + bring anything?",
+          "id": "a2-u08-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'ye işi hakkında 5 tane Do you have to...? sorusu sorun. Sonra kendi hayatınızda yapmak zorunda olmadığınız 2 şeyi söyleyin.",
+          "modelAnswer": "Do you have to wear a uniform? Do you have to work at weekends? What time do you have to start? Do you have to travel? Does your boss have to check your work? ... I don't have to cook on Sundays because my mum cooks. I don't have to wear a tie.",
+          "rubric": [
+            "Do/Does + have to doğru",
+            "Kısa cevaplar",
+            "don't have to doğru anlamda"
+          ]
+        },
+        "id": "a2-u08-l2-use"
+      }
+    },
+    {
+      "id": "a2-u08-l3",
+      "number": 3,
+      "title": "Must ve mustn't",
+      "goal": "must ve mustn't ile kuralları ve yasakları anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Yüzme havuzu kuralları",
+        "body": "CITY POOL – RULES\n\n1. You must have a shower before you swim.\n2. You must wear a swimming cap.\n3. You mustn't run near the pool.\n4. You mustn't eat or drink in the water.\n5. Children under 10 must swim with an adult.\n6. You mustn't dive in the shallow end.\n\nThank you. Have fun and stay safe!",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What must you do before you swim?",
+            "options": [
+              "Eat something",
+              "Have a shower",
+              "Dive"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"You must have a shower before you swim.\"",
+            "id": "a2-u08-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who must swim with an adult?",
+            "options": [
+              "Children under 10",
+              "Everybody",
+              "Children under 16"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Children under 10 must swim with an adult.\"",
+            "id": "a2-u08-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**must** + yalın fiil → güçlü zorunluluk, kural (genellikle yazılı kurallarda ya da konuşanın kendi kararında)\n\n- You **must** wear a helmet.\n- I **must** call my mum tonight. (Kendi kararım.)\n\n**mustn't** + yalın fiil → **yasak** (yapma!)\n\n- You **mustn't** smoke here.\n- You **mustn't** be late.\n\n**must** her özneyle aynıdır, -s ya da to almaz: ~~She musts~~ / ~~You must to~~\n\n**must ve have to:**\n\n| must | have to |\n|---|---|\n| yazılı kurallar, tabelalar, konuşanın kendi fikri | dışarıdan gelen zorunluluk, günlük konuşma |\n| Passengers **must** show their tickets. | I **have to** show my ticket on the bus. |\n\nGünlük konuşmada **have to** çok daha sık kullanılır.",
+        "examples": [
+          {
+            "en": "Visitors must sign in at the reception.",
+            "tr": "Ziyaretçiler resepsiyonda kayıt yaptırmalı."
+          },
+          {
+            "en": "You mustn't tell anyone. It's a secret!",
+            "tr": "Kimseye söylememelisin. Bu bir sır!"
+          },
+          {
+            "en": "I must remember to buy bread.",
+            "tr": "Ekmek almayı unutmamalıyım."
+          }
+        ],
+        "turkishNote": "mustn't'ün okunuşunda ilk t okunmaz: /ˈmʌsnt/. Türkçedeki \"-meli\" eki hem should (tavsiye) hem must (kural) karşılığı olabilir; kural ya da yasak söz konusuysa must/mustn't, tavsiye ise should kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "You must to wear a helmet.",
+            "You must wear a helmet.",
+            "You musts wear a helmet."
+          ],
+          "answerIndex": 1,
+          "explanation": "must + yalın fiil.",
+          "id": "a2-u08-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Tabelada \"No smoking\" yazıyor:",
+          "options": [
+            "You mustn't smoke.",
+            "You don't have to smoke.",
+            "You must smoke."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yasak → mustn't.",
+          "id": "a2-u08-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ run near the pool. It's dangerous. (yasak)",
+          "answers": [
+            "mustn't",
+            "must not"
+          ],
+          "explanation": "Yasak → mustn't.",
+          "id": "a2-u08-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Passengers ___ show their tickets. (kural)",
+          "answers": [
+            "must"
+          ],
+          "explanation": "Kural → must.",
+          "id": "a2-u08-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "You mustn't ___ late for the exam. (be)",
+          "answers": [
+            "be"
+          ],
+          "explanation": "mustn't + yalın fiil.",
+          "id": "a2-u08-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi tavsiye, hangisi kural? \"You should drink more water.\"",
+          "options": [
+            "Tavsiye",
+            "Kural"
+          ],
+          "answerIndex": 0,
+          "explanation": "should → tavsiye.",
+          "id": "a2-u08-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "mustn't",
+            "You",
+            "use",
+            "your",
+            "phone",
+            "in",
+            "the",
+            "exam"
+          ],
+          "answer": "You mustn't use your phone in the exam.",
+          "explanation": "mustn't + fiil + nesne + yer.",
+          "translation": "Sınavda telefon kullanmamalısınız.",
+          "id": "a2-u08-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Welcome to the museum. You must leave your bags at the door, and you mustn't touch the paintings. Photos are OK.",
+          "prompt": "Müzede ne yasak?",
+          "options": [
+            "Fotoğraf çekmek",
+            "Tablolara dokunmak",
+            "Çanta taşımak (girişte bırakılmalı)"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"you mustn't touch the paintings\"",
+          "id": "a2-u08-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kimseye söylememelisin!\"",
+          "accepted": [
+            "You mustn't tell anyone!",
+            "You mustn't tell anyone",
+            "You must not tell anyone!",
+            "You must not tell anyone",
+            "You mustn't tell anybody!",
+            "You mustn't tell anybody",
+            "You mustn't tell anyone."
+          ],
+          "explanation": "You mustn't + tell anyone!",
+          "id": "a2-u08-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "No parking",
+              "right": "You mustn't park here."
+            },
+            {
+              "left": "Wear a helmet",
+              "right": "You must wear a helmet."
+            },
+            {
+              "left": "No dogs",
+              "right": "Dogs aren't allowed."
+            },
+            {
+              "left": "Silence",
+              "right": "You mustn't talk."
+            }
+          ],
+          "explanation": "Tabelaları anlamlarıyla eşleştirin.",
+          "id": "a2-u08-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir kütüphane, spor salonu ya da apartmanınız için 6 kurallık bir liste yazın: 3 must ve 3 mustn't.",
+          "modelAnswer": "APARTMENT RULES\n1. You must close the main door at night.\n2. You must put your rubbish in the bins.\n3. You must park only in your space.\n4. You mustn't make noise after 11 pm.\n5. You mustn't leave bikes on the stairs.\n6. You mustn't smoke in the lift.",
+          "rubric": [
+            "must + yalın fiil",
+            "mustn't + yalın fiil",
+            "Gerçekçi kurallar"
+          ]
+        },
+        "id": "a2-u08-l3-use"
+      }
+    },
+    {
+      "id": "a2-u08-l4",
+      "number": 4,
+      "title": "Yasak mı, gereksiz mi?",
+      "goal": "mustn't ile don't have to arasındaki önemli farkı doğru kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sınav öncesi",
+        "lines": [
+          {
+            "speaker": "Student",
+            "text": "Do we have to answer all the questions?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "No, you don't have to. Answer five out of eight."
+          },
+          {
+            "speaker": "Student",
+            "text": "Can we use a dictionary?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "No, you can't. And you mustn't talk to other students."
+          },
+          {
+            "speaker": "Student",
+            "text": "Do we have to write in pen?"
+          },
+          {
+            "speaker": "Teacher",
+            "text": "No, you don't have to. A pencil is fine. But you mustn't leave before 10 o'clock."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many questions do students have to answer?",
+            "options": [
+              "All eight",
+              "Five",
+              "Three"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Answer five out of eight.\"",
+            "id": "a2-u08-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What mustn't students do?",
+            "options": [
+              "Use a pencil",
+              "Talk to other students",
+              "Answer five questions"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"you mustn't talk to other students\"",
+            "id": "a2-u08-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bu iki yapı Türkçede birbirine benzese de **anlamları çok farklıdır**:\n\n| | Anlam | Örnek |\n|---|---|---|\n| **mustn't** | YASAK, yapma! | You **mustn't** use your phone. (Kullanamazsın.) |\n| **don't have to** | GEREK YOK, istersen yap | You **don't have to** use a pen. (Kalem de olur.) |\n\n**İzin için can / can't:**\n\n- **Can** we use a dictionary? – Yes, you **can**. / No, you **can't**.\n- You **can't** park here. (≈ mustn't, günlük dil)\n\n**be allowed to:** You **aren't allowed to** smoke here. (resmi)\n\n**Özet:**\n\n- zorunlu → must / have to\n- yasak → mustn't / can't / not allowed to\n- gereksiz → don't have to\n- izinli → can / be allowed to",
+        "examples": [
+          {
+            "en": "You mustn't park here. It's for ambulances.",
+            "tr": "Buraya park edemezsin. Ambulanslar için."
+          },
+          {
+            "en": "You don't have to park here. There's a free car park.",
+            "tr": "Buraya park etmek zorunda değilsin. Ücretsiz bir otopark var."
+          },
+          {
+            "en": "Are we allowed to take photos?",
+            "tr": "Fotoğraf çekmemize izin var mı?"
+          }
+        ],
+        "turkishNote": "Türkçe konuşanların en kritik hatası \"zorunda değilsin\" anlamında mustn't kullanmaktır. \"You mustn't come\" = Gelmemelisin (yasak!). \"You don't have to come\" = Gelmek zorunda değilsin (istersen gel). Yanlış kullanım ciddi bir yanlış anlaşılmaya yol açabilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Sınav ücretsiz, para getirmenize gerek yok:",
+          "options": [
+            "You mustn't pay.",
+            "You don't have to pay."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gerek yok → don't have to.",
+          "id": "a2-u08-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hastanede sigara yasak:",
+          "options": [
+            "You mustn't smoke.",
+            "You don't have to smoke."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yasak → mustn't.",
+          "id": "a2-u08-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"You don't have to come.\" Anlamı:",
+          "options": [
+            "Gelmen yasak.",
+            "Gelmek zorunda değilsin.",
+            "Gelmelisin."
+          ],
+          "answerIndex": 1,
+          "explanation": "don't have to = gerek yok.",
+          "id": "a2-u08-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"You mustn't come.\" Anlamı:",
+          "options": [
+            "Gelmen yasak / gelmemelisin.",
+            "Gelmek zorunda değilsin."
+          ],
+          "answerIndex": 0,
+          "explanation": "mustn't = yasak.",
+          "id": "a2-u08-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's Sunday. You ___ have to get up early. (gerek yok)",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "don't have to.",
+          "id": "a2-u08-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ swim here. There are sharks! (yasak)",
+          "answers": [
+            "mustn't",
+            "must not",
+            "can't",
+            "cannot"
+          ],
+          "explanation": "Yasak → mustn't.",
+          "id": "a2-u08-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are we ___ to eat in the classroom? (izin var mı)",
+          "answers": [
+            "allowed"
+          ],
+          "explanation": "be allowed to.",
+          "id": "a2-u08-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "You don't have to wear a tie, but you mustn't wear jeans or trainers to the meeting.",
+          "prompt": "Toplantıda ne yasak?",
+          "options": [
+            "Kravat takmamak",
+            "Kot ve spor ayakkabı giymek",
+            "Takım elbise giymek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"you mustn't wear jeans or trainers\"",
+          "id": "a2-u08-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bunu bugün bitirmek zorunda değilsin.\"",
+          "accepted": [
+            "You don't have to finish this today.",
+            "You don't have to finish this today",
+            "You do not have to finish this today",
+            "You do not have to finish this today.",
+            "You don't have to finish it today.",
+            "You don't have to finish it today",
+            "You do not have to finish it today",
+            "You do not have to finish it today."
+          ],
+          "explanation": "You don't have to + finish this today.",
+          "id": "a2-u08-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "must",
+              "right": "zorunlu"
+            },
+            {
+              "left": "mustn't",
+              "right": "yasak"
+            },
+            {
+              "left": "don't have to",
+              "right": "gerek yok"
+            },
+            {
+              "left": "can",
+              "right": "izinli"
+            }
+          ],
+          "explanation": "Yapıları anlamlarıyla eşleştirin.",
+          "id": "a2-u08-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ilk kez sizin şehrinize/ülkenize geliyor. Ona 2 tane must/have to, 2 tane mustn't ve 2 tane don't have to ile pratik bilgiler verin (toplu taşıma, müzeler, camiler, bahşiş...).",
+          "modelAnswer": "You have to buy an Istanbulkart for the metro. You must take off your shoes in a mosque. You mustn't smoke on public transport. You mustn't forget your passport. You don't have to tip a lot, ten percent is fine. You don't have to speak Turkish; many people speak English.",
+          "rubric": [
+            "must / have to doğru",
+            "mustn't (yasak) doğru",
+            "don't have to (gerek yok) doğru"
+          ]
+        },
+        "id": "a2-u08-l4-use"
+      }
+    },
+    {
+      "id": "a2-u08-l5",
+      "number": 5,
+      "title": "Eskiden zorundaydık",
+      "goal": "had to ile geçmişteki zorunlulukları anlatabilir ve bugünle karşılaştırabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Büyükbabayla sohbet",
+        "lines": [
+          {
+            "speaker": "Can",
+            "text": "Grandpa, what was school like when you were young?"
+          },
+          {
+            "speaker": "Grandpa",
+            "text": "Very strict! We had to wear black uniforms and we had to stand up when the teacher came in."
+          },
+          {
+            "speaker": "Can",
+            "text": "Did you have to walk to school?"
+          },
+          {
+            "speaker": "Grandpa",
+            "text": "Yes, I did. Five kilometres! In the snow!"
+          },
+          {
+            "speaker": "Can",
+            "text": "Wow. We don't have to wear uniforms now, and I go by bus."
+          },
+          {
+            "speaker": "Grandpa",
+            "text": "Lucky you! But I didn't have to do homework on a computer. We just had books."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Grandpa have to do when the teacher came in?",
+            "options": [
+              "Sit down",
+              "Stand up",
+              "Say hello"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"we had to stand up when the teacher came in\"",
+            "id": "a2-u08-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How did Grandpa get to school?",
+            "options": [
+              "By bus",
+              "He walked",
+              "By car"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Yes, I did. Five kilometres!\"",
+            "id": "a2-u08-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**must** ve **have to**'nun geçmiş hali **had to**'dur. (must'ın geçmiş hali yoktur.)\n\n- I **had to** work late yesterday.\n- We **had to** wear uniforms at school.\n\n**Olumsuz:** didn't have to → gerek yoktu\n\n- I **didn't have to** pay. It was free.\n\n**Soru:** Did + özne + have to + fiil?\n\n- **Did** you **have to** wait long? – Yes, I **did**. / No, I **didn't**.\n\n**Geçmiş yasak** için genellikle **couldn't** ya da **weren't allowed to** kullanılır:\n\n- We **couldn't** use phones at school. / We **weren't allowed to** talk.",
+        "examples": [
+          {
+            "en": "I had to get up at five for my flight.",
+            "tr": "Uçuşum için beşte kalkmak zorunda kaldım."
+          },
+          {
+            "en": "We didn't have to queue. There was nobody there.",
+            "tr": "Sıra beklememiz gerekmedi. Kimse yoktu."
+          },
+          {
+            "en": "Did you have to show your passport?",
+            "tr": "Pasaportunu göstermek zorunda kaldın mı?"
+          }
+        ],
+        "turkishNote": "\"-mek zorunda kaldım\" = I had to. \"musted\" diye bir kelime yoktur; geçmişte her zaman had to kullanılır. \"Didn't have to\" da \"zorunda kalmadım / gerek olmadı\" anlamına gelir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I musted work yesterday.",
+            "I had to work yesterday.",
+            "I have to worked yesterday."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmiş → had to.",
+          "id": "a2-u08-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Did you had to wait?",
+            "Did you have to wait?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Did + have to.",
+          "id": "a2-u08-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ to wear uniforms at my old school.",
+          "answers": [
+            "had"
+          ],
+          "explanation": "had to.",
+          "id": "a2-u08-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I didn't ___ to pay. It was free.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "didn't have to.",
+          "id": "a2-u08-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you have to show your ID at the door?",
+          "answers": [
+            "Did"
+          ],
+          "explanation": "Geçmiş soru → Did.",
+          "id": "a2-u08-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş yasak: \"Okulda telefon kullanamazdık.\"",
+          "options": [
+            "We couldn't use phones at school.",
+            "We mustn't use phones at school.",
+            "We didn't must use phones."
+          ],
+          "answerIndex": 0,
+          "explanation": "Geçmiş yasak → couldn't.",
+          "id": "a2-u08-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "had",
+            "I",
+            "to",
+            "get",
+            "up",
+            "at",
+            "five"
+          ],
+          "answer": "I had to get up at five.",
+          "explanation": "had to + fiil + zaman.",
+          "translation": "Beşte kalkmak zorunda kaldım.",
+          "id": "a2-u08-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The flight was cancelled, so we had to stay at the airport hotel. But we didn't have to pay for it.",
+          "prompt": "Otel için para ödediler mi?",
+          "options": [
+            "Evet",
+            "Hayır, ödemek zorunda kalmadılar",
+            "Yarısını ödediler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we didn't have to pay for it\"",
+          "id": "a2-u08-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dün geç saate kadar çalışmak zorunda kaldım.\"",
+          "accepted": [
+            "I had to work late yesterday.",
+            "I had to work late yesterday",
+            "Yesterday I had to work late.",
+            "Yesterday I had to work late",
+            "Yesterday, I had to work late.",
+            "Yesterday, I had to work late"
+          ],
+          "explanation": "I had to + work late + yesterday.",
+          "id": "a2-u08-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Did you have to wait long?\" (Hayır.)",
+          "options": [
+            "No, I didn't.",
+            "No, I hadn't.",
+            "No, I don't."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, I didn't.",
+          "id": "a2-u08-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Çocukluğunuzdaki okul ya da ev kurallarını bugünle karşılaştırın: eskiden yapmak zorunda olduğunuz 3 şey (had to), yapmak zorunda olmadığınız 1 şey (didn't have to), yasak olan 1 şey (couldn't) ve bugün nasıl olduğu.",
+          "modelAnswer": "When I was at primary school, we had to wear a blue uniform. We had to be in bed at nine and we had to help with the cleaning. I didn't have to cook. We couldn't watch TV on school nights. Now my kids don't have to wear uniforms, and they can watch TV.",
+          "rubric": [
+            "had to doğru",
+            "didn't have to doğru",
+            "couldn't (geçmiş yasak)",
+            "Bugünle karşılaştırma"
+          ]
+        },
+        "id": "a2-u08-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "He have to work.",
+          "He has to work."
+        ],
+        "answerIndex": 1,
+        "explanation": "has to",
+        "id": "a2-u08-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "I have to ___ a uniform at work. (wear)",
+        "answers": [
+          "wear"
+        ],
+        "explanation": "have to + yalın fiil",
+        "id": "a2-u08-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Have you to go?",
+          "Do you have to go?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Do you have to...?",
+        "id": "a2-u08-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ have to work tomorrow. It's a holiday.",
+        "answers": [
+          "doesn't",
+          "does not"
+        ],
+        "explanation": "doesn't have to",
+        "id": "a2-u08-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "You must to stop.",
+          "You must stop."
+        ],
+        "answerIndex": 1,
+        "explanation": "must + yalın fiil",
+        "id": "a2-u08-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "You ___ smoke in the hospital. (yasak)",
+        "answers": [
+          "mustn't",
+          "must not",
+          "can't",
+          "cannot"
+        ],
+        "explanation": "mustn't",
+        "id": "a2-u08-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Müze ücretsiz:",
+        "options": [
+          "You mustn't pay.",
+          "You don't have to pay."
+        ],
+        "answerIndex": 1,
+        "explanation": "Gerek yok",
+        "id": "a2-u08-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"You mustn't open that door.\" Anlamı:",
+        "options": [
+          "O kapıyı açmak yasak.",
+          "O kapıyı açmak zorunda değilsin."
+        ],
+        "answerIndex": 0,
+        "explanation": "mustn't = yasak",
+        "id": "a2-u08-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Are we ___ to take photos here? (izin)",
+        "answers": [
+          "allowed"
+        ],
+        "explanation": "allowed to",
+        "id": "a2-u08-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I musted leave early.",
+          "I had to leave early."
+        ],
+        "answerIndex": 1,
+        "explanation": "had to",
+        "id": "a2-u08-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "We didn't ___ to wait. (have)",
+        "answers": [
+          "have"
+        ],
+        "explanation": "didn't have to",
+        "id": "a2-u08-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Did you have to pay?\" (Evet.)",
+        "options": [
+          "Yes, I did.",
+          "Yes, I had."
+        ],
+        "answerIndex": 0,
+        "explanation": "Yes, I did.",
+        "id": "a2-u08-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "At my new job I don't have to wear a suit, but I have to be in the office by half past eight.",
+        "prompt": "Yeni işinde ne zorunlu?",
+        "options": [
+          "Takım elbise giymek",
+          "Sekiz buçukta ofiste olmak",
+          "Evden çalışmak"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I have to be in the office by half past eight\"",
+        "id": "a2-u08-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Gelmek zorunda değilsin.\"",
+        "accepted": [
+          "You don't have to come.",
+          "You don't have to come",
+          "You do not have to come",
+          "You do not have to come."
+        ],
+        "explanation": "You don't have to come.",
+        "id": "a2-u08-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir arkadaşınız sizin iş yerinizde ya da okulunuzda başlayacak. Ona bir e-posta yazın (70–90 kelime): yapmak zorunda olduğu şeyler, yasak olan şeyler, yapmak zorunda olmadığı şeyler. Geçen yıl sizin yapmak zorunda kaldığınız bir şeyi de ekleyin (had to).",
+        "modelAnswer": "Hi Murat,\nWelcome to the team! Here are some things you need to know. You have to arrive by nine and you must wear your ID card all the time. You mustn't eat at your desk, but there's a nice kitchen. You don't have to wear a suit; smart clothes are fine. You don't have to work at weekends. Last year we had to work late every Friday, but now it's better.\nSee you on Monday!\nSevgi",
+        "rubric": [
+          "have to / must doğru",
+          "mustn't doğru (yasak)",
+          "don't have to doğru (gerek yok)",
+          "had to doğru"
+        ],
+        "id": "a2-u08-t15"
+      }
+    ]
+  }
+}
