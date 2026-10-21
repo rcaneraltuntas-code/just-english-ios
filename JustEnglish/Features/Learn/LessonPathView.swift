@@ -62,11 +62,16 @@ struct LessonPathView: View {
                     // Sıradaki hapın balonu da ekrana sığsın diye genişlik gerekirse kısalır.
                     let room = extendsRight ? (w - 6 - (current ? bubbleWidth + 8 : 0)) - (roadX - 4)
                                             : (roadX + 4) - (6 + (current ? bubbleWidth + 8 : 0))
-                    let width = max(140, min(pillWidth, room))
+                    let title = lesson?.title ?? "Ünite testi"
+                    let locked = !done && !current
+                    // Hap başlığı tek satıra sığacak kadar uzar (en fazla yer kadar); yine sığmazsa 15pt iki satır olur.
+                    let needed = Self.textWidth(title, size: 17) + 34 + (locked ? 23 : 0) + 4
+                    let width = max(140, min(max(pillWidth, needed), room))
+                    let twoLines = needed > width
                     let pillCenter = extendsRight ? roadX - 4 + width / 2 : roadX + 4 - width / 2
-                    PathPill(title: lesson?.title ?? "Ünite testi",
+                    PathPill(title: title,
                              state: done ? .done : (current ? .current : .locked),
-                             width: width, height: pillHeight,
+                             width: width, height: twoLines ? 56 : pillHeight, twoLines: twoLines,
                              extendsRight: extendsRight) {
                         if let lesson { onLesson(lesson) } else { onTest() }
                     }
@@ -93,6 +98,16 @@ struct LessonPathView: View {
         }
         .frame(height: total)
         .onAppear { drawn = true }
+    }
+
+    /// Hap yazı tipinde (Plus Jakarta Sans orta kalınlık, kullanıcının yazı boyutuna göre) başlığın genişliği.
+    static func textWidth(_ text: String, size: CGFloat) -> CGFloat {
+        let descriptor = UIFontDescriptor(fontAttributes: [
+            .family: Theme.fontFamily,
+            .traits: [UIFontDescriptor.TraitKey.weight: UIFont.Weight.medium.rawValue],
+        ])
+        let font = UIFontMetrics(forTextStyle: .body).scaledFont(for: UIFont(descriptor: descriptor, size: size))
+        return ceil((text as NSString).size(withAttributes: [.font: font]).width)
     }
 
     /// Yolun orta çizgisi: 2pt aralıkla örneklenmiş noktalar.
@@ -171,6 +186,8 @@ struct PathPill: View {
     let state: State
     var width: CGFloat = 167
     var height: CGFloat = 42
+    /// Başlık tek satıra sığmıyorsa 15pt, gerektiği kadar satır (hap uzar, yazı kesilmez).
+    var twoLines = false
     /// Hap yoldan sağa mı uzanıyor (yol ucu solda) yoksa sola mı.
     var extendsRight = true
     let action: () -> Void
@@ -192,15 +209,17 @@ struct PathPill: View {
             HStack(spacing: 8) {
                 if state == .locked && extendsRight { lock }
                 Text(title)
-                    .lineLimit(1)
-                    .minimumScaleFactor(0.7)
+                    .lineLimit(twoLines ? nil : 1)
+                    .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
                 if state == .locked && !extendsRight { lock }
             }
-            .font(.custom(Theme.fontFamily, size: 17, relativeTo: .body).weight(.medium))
+            .font(.custom(Theme.fontFamily, size: twoLines ? 15 : 17, relativeTo: .body).weight(.medium))
             .foregroundStyle(state == .locked ? Color(light: 0xA0A8B5, dark: 0x6C7690) : .white)
             .padding(.leading, extendsRight ? 22 : 12)
             .padding(.trailing, extendsRight ? 12 : 22)
-            .frame(width: width, height: height)
+            .frame(width: width)
+            .frame(minHeight: height)
             .background {
                 RoundedRectangle(cornerRadius: 11, style: .continuous)
                     .fill(state == .locked ? Color(light: 0xDCE1E9, dark: 0x262D45) : Theme.accent)
