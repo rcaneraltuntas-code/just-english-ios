@@ -37,6 +37,7 @@ struct PracticeView: View {
                 }
                 .padding(20)
             }
+            .tabBarSpacer()
             .background(Theme.background)
             .navigationTitle("Pratik")
             .fullScreenCover(item: $session) { session in

@@ -40,6 +40,7 @@ struct LearnView: View {
                 }
                 .padding(20)
             }
+            .tabBarSpacer()
             .background {
                 ZStack(alignment: .top) {
                     Theme.background

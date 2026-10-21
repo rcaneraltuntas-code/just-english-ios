@@ -83,6 +83,7 @@ struct LeagueView: View {
             }
             .padding(20)
         }
+        .tabBarSpacer()
         .background(Theme.background)
         .navigationTitle("Haftalık lig")
         .navigationBarTitleDisplayMode(.inline)

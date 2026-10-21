@@ -58,6 +58,7 @@ struct DictionaryView: View {
                 .padding(20)
                 .animation(Motion.smooth, value: levelFilter)
             }
+            .tabBarSpacer()
             .scrollDismissesKeyboard(.immediately)
             .background(Theme.background)
             // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
@@ -241,6 +242,7 @@ struct DictionaryDetailView: View {
             }
             .padding(20)
         }
+        .tabBarSpacer()
         .background(Theme.background)
         .navigationBarTitleDisplayMode(.inline)
     }

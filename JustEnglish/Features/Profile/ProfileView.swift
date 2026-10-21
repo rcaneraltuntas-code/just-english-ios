@@ -41,6 +41,7 @@ struct ProfileView: View {
                 }
                 .padding(20)
             }
+            .tabBarSpacer()
             .background(Theme.background)
             // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
             .safeAreaInset(edge: .top, spacing: 0) {

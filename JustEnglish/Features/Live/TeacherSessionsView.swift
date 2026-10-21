@@ -42,6 +42,7 @@ struct TeacherSessionsView: View {
                 }
             }
         }
+        .tabBarSpacer()
         .navigationTitle("Derslerim")
         .toolbar {
             Button { editing = EditorRoute(session: nil) } label: { Image(systemName: "plus") }
@@ -228,6 +229,7 @@ struct AttendeesView: View {
                 }
             }
         }
+        .tabBarSpacer()
         .navigationTitle(session.title)
         .navigationBarTitleDisplayMode(.inline)
         .task {

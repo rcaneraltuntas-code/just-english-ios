@@ -65,15 +65,16 @@ struct MainTabView: View {
 
     var body: some View {
         // Sistem sekme çubuğu gizlenir; her sekmenin gezinme durumu korunur, alttaki çubuk bizim.
-        // TabView dışarıdan verilen güvenli alanı sekmelere aktarmadığı için her sekmeye
-        // çubuk yüksekliğinde boşluk eklenir; yoksa sayfaların sonu çubuğun arkasında kalır.
+        // Çubuğun yüksekliği ortama verilir; her ekranın ScrollView'ı `tabBarSpacer()` ile bu kadar boşluk bırakır,
+        // yoksa sayfaların sonu çubuğun arkasında kalır.
         TabView(selection: $tab) {
-            LearnView().tabBarSpace(barHeight).tag(AppTab.learn)
-            PracticeView().tabBarSpace(barHeight).tag(AppTab.practice)
-            DictionaryView().tabBarSpace(barHeight).tag(AppTab.dictionary)
-            LiveClassesView().tabBarSpace(barHeight).tag(AppTab.live)
-            ProfileView().tabBarSpace(barHeight).tag(AppTab.profile)
+            LearnView().toolbar(.hidden, for: .tabBar).tag(AppTab.learn)
+            PracticeView().toolbar(.hidden, for: .tabBar).tag(AppTab.practice)
+            DictionaryView().toolbar(.hidden, for: .tabBar).tag(AppTab.dictionary)
+            LiveClassesView().toolbar(.hidden, for: .tabBar).tag(AppTab.live)
+            ProfileView().toolbar(.hidden, for: .tabBar).tag(AppTab.profile)
         }
+        .environment(\.tabBarInset, barHeight)
         .environment(\.selectTab, SelectTabAction { new in
             Haptics.tap()
             withAnimation(.spring(response: 0.38, dampingFraction: 0.78)) { tab = new }
@@ -82,12 +83,5 @@ struct MainTabView: View {
             JETabBar(selection: $tab, badges: [.practice: model.dueCards().count])
                 .onGeometryChange(for: CGFloat.self) { $0.size.height } action: { barHeight = $0 }
         }
-    }
-}
-
-private extension View {
-    func tabBarSpace(_ height: CGFloat) -> some View {
-        toolbar(.hidden, for: .tabBar)
-            .safeAreaInset(edge: .bottom, spacing: 0) { Color.clear.frame(height: height) }
     }
 }

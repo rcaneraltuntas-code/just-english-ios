@@ -73,6 +73,7 @@ struct UnitView: View {
             }
             .padding(20)
         }
+        .tabBarSpacer()
         .background(Theme.background)
         .navigationTitle(unit.title)
         .navigationBarTitleDisplayMode(.large)

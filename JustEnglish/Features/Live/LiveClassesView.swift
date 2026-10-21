@@ -34,6 +34,7 @@ struct LiveClassesView: View {
                 .padding(20)
                 .animation(Motion.smooth, value: levelFilter)
             }
+            .tabBarSpacer()
             .background(Theme.background)
             // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
             .safeAreaInset(edge: .top, spacing: 0) {

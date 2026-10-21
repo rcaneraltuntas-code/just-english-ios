@@ -38,7 +38,30 @@ private struct SelectTabKey: EnvironmentKey {
     static let defaultValue = SelectTabAction { _ in }
 }
 
+private struct TabBarInsetKey: EnvironmentKey {
+    static let defaultValue: CGFloat = 0
+}
+
+extension View {
+    /// Kaydırılan içeriğin sonunu alttaki sekme çubuğunun üstünde bitirir.
+    /// Doğrudan ScrollView'a/List'e uygulanmalı: TabView sayfasına verilen boşluk NavigationStack'in içine ulaşmıyor.
+    func tabBarSpacer() -> some View { modifier(TabBarSpacer()) }
+}
+
+private struct TabBarSpacer: ViewModifier {
+    @Environment(\.tabBarInset) private var inset
+
+    func body(content: Content) -> some View {
+        content.safeAreaInset(edge: .bottom, spacing: 0) { Color.clear.frame(height: inset) }
+    }
+}
+
 extension EnvironmentValues {
+    var tabBarInset: CGFloat {
+        get { self[TabBarInsetKey.self] }
+        set { self[TabBarInsetKey.self] = newValue }
+    }
+
     var selectTab: SelectTabAction {
         get { self[SelectTabKey.self] }
         set { self[SelectTabKey.self] = newValue }
