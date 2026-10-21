@@ -116,8 +116,8 @@ struct AIBuddyCard: View {
     }
 }
 
-/// Beyaz, ince kenarlıklı, gölgesiz ana sayfa kartı.
-private struct HomeCard: ViewModifier {
+/// Beyaz, ince kenarlıklı, gölgesiz kart (ana sayfa, sözlük ve diğer sayfalar).
+struct HomeCard: ViewModifier {
     var radius: CGFloat = 18
     func body(content: Content) -> some View {
         content

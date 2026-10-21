@@ -12,69 +12,108 @@ struct DictionaryView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 18) {
-                    HeroHeader(title: "Sözlük",
-                               subtitle: "\(model.dictionary.count) kelime ve kalıp. İngilizce ya da Türkçe arayın.",
-                               gradient: LinearGradient(colors: [Theme.color(for: .a2), Theme.color(for: .c2)], startPoint: .topLeading, endPoint: .bottomTrailing),
-                               glow: Theme.color(for: .a2)) {
-                        Image(systemName: "character.book.closed.fill")
-                            .font(.system(size: 34, weight: .bold))
-                            .foregroundStyle(.white)
-                            .frame(width: 64, height: 64)
-                            .background(.white.opacity(0.18), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-                    } bottom: {
-                        searchField
-                    }
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack(spacing: 8) {
-                            FilterChip(title: "Tümü", selected: levelFilter == nil) { levelFilter = nil }
-                            ForEach(CEFRLevel.allCases) { level in
-                                FilterChip(title: level.rawValue, selected: levelFilter == level, color: Theme.color(for: level)) {
-                                    levelFilter = levelFilter == level ? nil : level
+                VStack(alignment: .leading, spacing: 0) {
+                    header
+                    VStack(alignment: .leading, spacing: 18) {
+                        levelChips
+                        if query.isEmpty && levelFilter == nil {
+                            WordOfTheDayCard()
+                            Text("Kelimeler")
+                                .font(.custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+                                .foregroundStyle(HomeStyle.title)
+                        }
+                        if results.isEmpty {
+                            JAIEmptyState(title: "Bulunamadı",
+                                          message: "\"\(query)\" için bir sonuç yok. Yazımı kontrol edin ya da Türkçesiyle arayın.")
+                        } else {
+                            LazyVStack(spacing: 10) {
+                                ForEach(Array(results.enumerated()), id: \.element.id) { index, entry in
+                                    NavigationLink(value: entry) { DictionaryRow(entry: entry) }
+                                        .buttonStyle(PressableCardStyle())
+                                        .staggeredAppear(index, delay: 0.02)
                                 }
                             }
                         }
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 4)
                     }
-                    .padding(.horizontal, -20)
-                    if query.isEmpty && levelFilter == nil {
-                        WordOfTheDayCard()
-                        SectionHeader(title: "Kelimeler")
-                    }
-                    if results.isEmpty {
-                        JAIEmptyState(title: "Bulunamadı",
-                                      message: "\"\(query)\" için bir sonuç yok. Yazımı kontrol edin ya da Türkçesiyle arayın.")
-                    } else {
-                        LazyVStack(spacing: 10) {
-                            ForEach(Array(results.enumerated()), id: \.element.id) { index, entry in
-                                NavigationLink(value: entry) { DictionaryRow(entry: entry) }
-                                    .buttonStyle(PressableCardStyle())
-                                    .staggeredAppear(index, delay: 0.02)
-                            }
-                        }
-                    }
+                    .padding(.horizontal, 16)
+                    .padding(.top, 18)
+                    .padding(.bottom, 20)
                 }
-                .padding(20)
                 .animation(Motion.smooth, value: levelFilter)
             }
             .tabBarSpacer()
             .scrollDismissesKeyboard(.immediately)
-            .appBackground()
-            // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
-            .safeAreaInset(edge: .top, spacing: 0) {
-                Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)
-            }
+            .background(Theme.surface.ignoresSafeArea())
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: DictionaryEntry.self) { DictionaryDetailView(entry: $0) }
         }
     }
 
+    /// Üst bant (JAI sohbetiyle aynı): açık mavi degrade, düz alt kenar; başlık, kelime sayısı ve arama alanı.
+    private var header: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 12) {
+                Image("lesson-book").resizable().scaledToFit().frame(width: 40, height: 40)
+                VStack(alignment: .leading, spacing: 2) {
+                    Text("Sözlük")
+                        .font(.custom(Theme.fontFamily, size: 26, relativeTo: .title).weight(.bold))
+                        .foregroundStyle(Theme.ink)
+                    Text("\(model.dictionary.count) kelime ve kalıp")
+                        .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                        .foregroundStyle(HomeStyle.body)
+                }
+            }
+            searchField.padding(.top, 14)
+        }
+        .padding(.horizontal, 16)
+        .padding(.top, 22)
+        .padding(.bottom, 20)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background {
+            LinearGradient(colors: [Color(light: 0xDCE7FF, dark: 0x1C2850), Color(light: 0xEAF1FF, dark: 0x151C38)],
+                           startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea(edges: .top)
+        }
+    }
+
+    /// Seviye süzgeci: seçili olan vurgu renginde, diğerleri açık gri kapsül.
+    private var levelChips: some View {
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(spacing: 8) {
+                chip("Tümü", selected: levelFilter == nil) { levelFilter = nil }
+                ForEach(CEFRLevel.allCases) { level in
+                    chip(level.rawValue, selected: levelFilter == level) {
+                        levelFilter = levelFilter == level ? nil : level
+                    }
+                }
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 2)
+        }
+        .padding(.horizontal, -16)
+    }
+
+    private func chip(_ title: String, selected: Bool, action: @escaping () -> Void) -> some View {
+        Button {
+            Haptics.tap()
+            withAnimation(Motion.smooth) { action() }
+        } label: {
+            Text(title)
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                .foregroundStyle(selected ? .white : HomeStyle.title)
+                .padding(.horizontal, 16)
+                .frame(height: 36)
+                .background(selected ? Theme.accent : HomeStyle.rowFill, in: Capsule())
+        }
+        .buttonStyle(PressableCardStyle())
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+
     private var searchField: some View {
         HStack(spacing: 10) {
-            Image(systemName: "magnifyingglass").font(.jakarta(.headline, weight: .bold)).foregroundStyle(Theme.accent)
-            TextField("Kelime arayın", text: $query)
-                .font(.jakarta(.body, weight: .semibold))
+            Image(systemName: "magnifyingglass").font(.system(size: 17, weight: .medium)).foregroundStyle(HomeStyle.body)
+            TextField("İngilizce ya da Türkçe arayın", text: $query)
+                .font(.custom(Theme.fontFamily, size: 17, relativeTo: .body))
                 .foregroundStyle(Theme.ink)
                 .autocorrectionDisabled()
                 .textInputAutocapitalization(.never)
@@ -92,9 +131,10 @@ struct DictionaryView: View {
         }
         .padding(.horizontal, 14)
         .frame(height: 50)
-        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
-        .scaleEffect(searching ? 1.02 : 1)
-        .animation(Motion.pop, value: searching)
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous)
+            .stroke(searching ? Theme.accent : HomeStyle.cardBorder, lineWidth: searching ? 2 : 1.5))
+        .animation(Motion.smooth, value: searching)
         .animation(Motion.smooth, value: query.isEmpty)
     }
 
@@ -147,20 +187,20 @@ struct DictionaryEntry: Identifiable, Hashable {
     }
 }
 
+/// Sözlük satırı (ana sayfadaki "Akıcılığa giden yol" satırları gibi): açık gri zemin, kelime, Türkçesi, seviye ve hoparlör.
 struct DictionaryRow: View {
     let entry: DictionaryEntry
 
     var body: some View {
         let level = entry.senses.first?.level ?? .a1
         HStack(spacing: 12) {
-            RoundedRectangle(cornerRadius: 3, style: .continuous)
-                .fill(Theme.color(for: level).gradient)
-                .frame(width: 5)
             VStack(alignment: .leading, spacing: 3) {
-                Text(entry.headword).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
+                Text(entry.headword)
+                    .font(.custom(Theme.fontFamily, size: 17, relativeTo: .headline).weight(.semibold))
+                    .foregroundStyle(HomeStyle.title)
                 Text(entry.senses.map(\.card.tr).joined(separator: "; "))
-                    .font(.jakarta(.subheadline))
-                    .foregroundStyle(.secondary)
+                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                    .foregroundStyle(HomeStyle.body)
                     .lineLimit(1)
             }
             Spacer(minLength: 8)
@@ -168,10 +208,10 @@ struct DictionaryRow: View {
             SpeakButton(text: entry.headword)
         }
         .padding(.vertical, 12)
-        .padding(.leading, 10)
-        .padding(.trailing, 12)
-        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Theme.hairline, lineWidth: 1))
+        .padding(.leading, 16)
+        .padding(.trailing, 10)
+        .frame(minHeight: 64)
+        .background(HomeStyle.rowFill, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 }
 
@@ -183,74 +223,75 @@ struct DictionaryDetailView: View {
     var body: some View {
         let level = entry.senses.first?.level ?? .a1
         ScrollView {
-            VStack(alignment: .leading, spacing: 16) {
-                VStack(alignment: .leading, spacing: 10) {
+            VStack(alignment: .leading, spacing: 14) {
+                // Başlık: açık mavi bantta büyük kelime, Türkçesi ve hoparlör.
+                VStack(alignment: .leading, spacing: 8) {
                     LevelBadge(level: level)
-                    HStack(alignment: .center) {
+                    HStack(alignment: .center, spacing: 12) {
                         Text(entry.headword)
-                            .font(.jakarta(.largeTitle, weight: .heavy))
-                            .foregroundStyle(.white)
+                            .font(.custom(Theme.fontFamily, size: 34, relativeTo: .largeTitle).weight(.bold))
+                            .foregroundStyle(Theme.ink)
                             .minimumScaleFactor(0.5)
+                            .lineLimit(1)
                         Spacer()
-                        SpeakButton(text: entry.headword).colorScheme(.dark)
+                        SpeakButton(text: entry.headword)
                     }
                     Text(entry.senses.map(\.card.tr).joined(separator: " · "))
-                        .font(.jakarta(.title3, weight: .bold))
-                        .foregroundStyle(.white.opacity(0.9))
+                        .font(.custom(Theme.fontFamily, size: 18, relativeTo: .title3).weight(.medium))
+                        .foregroundStyle(HomeStyle.body)
                 }
                 .padding(20)
                 .frame(maxWidth: .infinity, alignment: .leading)
-                .background {
-                    ZStack {
-                        LinearGradient(colors: [Theme.color(for: level), Theme.color(for: level).blended(with: .black, amount: 0.3)],
-                                       startPoint: .topLeading, endPoint: .bottomTrailing)
-                        WordPattern(words: [entry.headword])
-                    }
-                    .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
-                }
-                .shadow(color: Theme.color(for: level).opacity(0.35), radius: 16, y: 8)
+                .background(Color(light: 0xEAF1FF, dark: 0x151C38), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                 .staggeredAppear(0)
                 ForEach(Array(entry.senses.enumerated()), id: \.element.card.id) { index, sense in
                     VStack(alignment: .leading, spacing: 12) {
                         HStack {
-                            Text(sense.card.tr).font(.jakarta(.title3, weight: .heavy)).foregroundStyle(Theme.ink)
+                            Text(sense.card.tr)
+                                .font(.custom(Theme.fontFamily, size: 19, relativeTo: .title3).weight(.bold))
+                                .foregroundStyle(HomeStyle.title)
                             Spacer()
                             LevelBadge(level: sense.level)
                         }
                         HStack(alignment: .top, spacing: 10) {
                             RoundedRectangle(cornerRadius: 2).fill(Theme.accent).frame(width: 3)
                             VStack(alignment: .leading, spacing: 4) {
-                                Text(sense.card.example).font(.jakarta(.body, weight: .semibold))
-                                Text(sense.card.exampleTr).font(.jakarta(.subheadline)).foregroundStyle(.secondary)
+                                Text(sense.card.example)
+                                    .font(.custom(Theme.fontFamily, size: 16, relativeTo: .body).weight(.medium))
+                                    .foregroundStyle(Theme.ink)
+                                Text(sense.card.exampleTr)
+                                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                                    .foregroundStyle(HomeStyle.body)
                             }
                             Spacer()
                             SpeakButton(text: sense.card.example)
                         }
                         if let note = sense.card.note, !note.isEmpty {
                             Label(note, systemImage: "lightbulb.fill")
-                                .font(.jakarta(.footnote, weight: .semibold))
-                                .foregroundStyle(Theme.warning)
+                                .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote).weight(.medium))
+                                .foregroundStyle(Color(light: 0xB7791F, dark: 0xFBBF24))
                         }
-                        Label("\(sense.level.rawValue) · \(sense.unitTitle)", systemImage: "book.closed.fill")
-                            .font(.jakarta(.caption, weight: .semibold))
-                            .foregroundStyle(.secondary)
+                        Label("\(sense.level.rawValue) · \(sense.unitTitle)", systemImage: "book.closed")
+                            .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                            .foregroundStyle(HomeStyle.body)
                         deckButton(sense.card)
                     }
-                    .card()
+                    .padding(16)
+                    .modifier(HomeCard())
                     .staggeredAppear(index + 1)
                 }
             }
-            .padding(20)
+            .padding(16)
         }
         .tabBarSpacer()
-        .appBackground()
+        .background(Theme.surface.ignoresSafeArea())
         .navigationBarTitleDisplayMode(.inline)
     }
 
     @ViewBuilder private func deckButton(_ card: VocabularyCard) -> some View {
         if model.isInDeck(card.id) {
             Label("Destenizde", systemImage: "checkmark.circle.fill")
-                .font(.jakarta(.footnote, weight: .semibold))
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .footnote).weight(.semibold))
                 .foregroundStyle(Theme.success)
         } else {
             Button {
@@ -259,7 +300,7 @@ struct DictionaryDetailView: View {
             } label: {
                 Label("Kartlarıma ekle", systemImage: "plus")
             }
-            .buttonStyle(DepthButtonStyle(height: 44))
+            .buttonStyle(OnboardingButtonStyle(filled: true))
         }
     }
 }
