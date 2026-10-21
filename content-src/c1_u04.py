@@ -81,7 +81,7 @@ u.lesson(
      "examples": [{"en": "Written in 1866, the novel is still widely read today.", "tr": "1866'da yazılan roman bugün hâlâ çok okunuyor."},
                   {"en": "The method used in this study is described below.", "tr": "Bu çalışmada kullanılan yöntem aşağıda açıklanmıştır."},
                   {"en": "Students living on campus pay lower rent.", "tr": "Kampüste yaşayan öğrenciler daha düşük kira öder."}],
-     "turkishNote": "Türkçede \"1453'te kurulan Kapalıçarşı\" ya da \"toplanan veriler\" gibi yapılar ismin önüne gelir; İngilizcede ise participle genellikle ismin arkasına gelir: \"the data collected\", \"the Grand Bazaar, founded in 1453\". Türkçe konuşanlar akademik yazıda bu kısaltmaları kullanmayı unutup her seferinde \"which was\" yazarlar; bu metni uzatır. Etken (-ing) ile edilgen (-ed) arasında doğru seçim yapmak için Türkçedeki \"-an\" (yaşayan) ile \"-ılan\" (toplanan) farkını düşünün."},
+     "turkishNote": "Türkçede \"1460'larda inşa edilen Kapalıçarşı\" ya da \"toplanan veriler\" gibi yapılar ismin önüne gelir; İngilizcede ise participle genellikle ismin arkasına gelir: \"the data collected\", \"the Grand Bazaar, built in the 1460s\". Türkçe konuşanlar akademik yazıda bu kısaltmaları kullanmayı unutup her seferinde \"which was\" yazarlar; bu metni uzatır. Etken (-ing) ile edilgen (-ed) arasında doğru seçim yapmak için Türkçedeki \"-an\" (yaşayan) ile \"-ılan\" (toplanan) farkını düşünün."},
     [
         mc("\"Bu yıl yayımlanan bir rapor\"", ["a report publishing this year", "a report published this year"], 1, "Edilgen → V3."),
         mc("\"Yurt dışında yaşayan öğrenciler\"", ["students lived abroad", "students living abroad"], 1, "Etken → -ing."),
