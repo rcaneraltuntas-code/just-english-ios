@@ -1,0 +1,237 @@
+"""B1 Ünite 1: Kişilik."""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib import Unit, gap, listen, match, mc, order, speak, typ, variants, write  # noqa: E402
+
+u = Unit("B1", 1, "Kişilik", "Personality",
+         "İnsanların kişiliğini ayrıntılı ve dengeli bir şekilde anlatabilir, alışkanlıklarını ve geçici davranışlarını ayırt edebilir, kendi güçlü ve zayıf yönlerimi ifade edebilirim.",
+         ["present simple ve present continuous tekrarı", "always + present continuous (yakınma)", "durum fiilleri ve çift anlamlı fiiller (think, have, see)", "What's he like? / What does he look like? / What does he like?", "derece zarfları: quite, rather, extremely, a bit"],
+         ["kişilik sıfatları", "olumsuz ön ekler (un-, im-, dis-, in-)", "güçlü ve zayıf yönler"],
+         {"title": "Kim bu?", "durationMinutes": 45,
+          "goal": "Her öğrenci tanıdığı birini (aile, arkadaş, ünlü) adını söylemeden 6 cümleyle anlatır: kişilik, alışkanlıklar ve şu sıralar yaptıkları. Diğerleri sorular sorarak kim olduğunu tahmin eder. İkinci bölümde öğrenciler ikili iş görüşmesi yapar: 'What are your strengths and weaknesses?' sorusunu dengeli cevaplamayı çalışırlar."})
+
+u.vocab([
+    ("generous", "cömert", "My uncle is very generous; he always pays for dinner.", "Amcam çok cömerttir; yemekte hesabı hep o öder.", "≠ mean (cimri)"),
+    ("reliable", "güvenilir", "She's reliable. If she says she'll come, she comes.", "Güvenilir biridir. Geleceğim derse gelir.", "≠ unreliable"),
+    ("patient", "sabırlı", "You need to be patient with small children.", "Küçük çocuklarla sabırlı olmalısın.", "≠ impatient"),
+    ("honest", "dürüst", "He's always honest, even when it's difficult.", "Zor olsa bile hep dürüsttür.", "h okunmaz: /ˈɒnɪst/. ≠ dishonest"),
+    ("ambitious", "hırslı", "She's ambitious and wants to be a manager.", "Hırslıdır ve yönetici olmak istiyor.", None),
+    ("confident", "kendinden emin", "He's confident when he speaks in public.", "Topluluk önünde konuşurken kendinden emindir.", None),
+    ("shy", "utangaç", "I was very shy as a child.", "Çocukken çok utangaçtım.", None),
+    ("sociable", "sosyal, girişken", "Ayşe is sociable and loves parties.", "Ayşe girişkendir ve partileri sever.", "≠ unsociable"),
+    ("easy-going", "rahat, uysal", "My dad is easy-going; nothing stresses him.", "Babam rahat biridir; hiçbir şey onu strese sokmaz.", None),
+    ("moody", "huysuz, ruh hali değişken", "Teenagers can be moody.", "Ergenler huysuz olabilir.", None),
+    ("stubborn", "inatçı", "My brother is so stubborn; he never changes his mind.", "Kardeşim çok inatçı; fikrini asla değiştirmez.", None),
+    ("sensitive", "hassas, duygusal", "Be careful what you say; she's very sensitive.", "Ne dediğine dikkat et; çok hassastır.", "sensible (mantıklı) ile karıştırmayın!"),
+    ("sensible", "mantıklı, makul", "That's a sensible decision.", "Bu mantıklı bir karar.", "≠ sensitive"),
+    ("selfish", "bencil", "It's selfish to eat all the cake!", "Bütün pastayı yemek bencillik!", None),
+    ("organised", "düzenli", "I'm not very organised; my desk is a mess.", "Pek düzenli değilim; masam dağınık.", "≠ disorganised"),
+    ("hard-working", "çalışkan", "The new intern is really hard-working.", "Yeni stajyer gerçekten çalışkan.", "≠ lazy"),
+    ("bossy", "otoriter, emir veren", "Nobody likes a bossy colleague.", "Kimse otoriter bir iş arkadaşını sevmez.", None),
+    ("thoughtful", "düşünceli, ince", "It was thoughtful of you to bring flowers.", "Çiçek getirmen çok düşünceliydi.", None),
+    ("strength", "güçlü yön", "My biggest strength is that I'm a good listener.", "En güçlü yönüm iyi bir dinleyici olmam.", None),
+    ("weakness", "zayıf yön", "One of my weaknesses is that I'm impatient.", "Zayıf yönlerimden biri sabırsız olmam.", None),
+    ("tend to", "-me eğiliminde olmak", "I tend to worry too much.", "Fazla endişelenme eğilimindeyim.", "tend to + yalın fiil"),
+    ("get on (well) with", "iyi anlaşmak", "I get on well with my colleagues.", "İş arkadaşlarımla iyi anlaşırım.", None),
+    ("character", "karakter", "He has a strong character.", "Güçlü bir karakteri var.", None),
+    ("rather", "oldukça (genelde olumsuz)", "The film was rather long.", "Film oldukça uzundu.", "quite, rather, extremely"),
+])
+
+# ---------------- Ders 1 ----------------
+u.lesson(
+    "Nasıl biri?", "Kişilik sıfatlarını ve zıt anlamlılarını kullanarak insanları tanımlayabilirim.",
+    {"kind": "text", "title": "Kardeşler hakkında bir blog yazısı", "body": "I have two older sisters, and we couldn't be more different.\n\nZehra, the oldest, is incredibly organised and hard-working. She's a surgeon, and she's extremely reliable. However, she can be a bit bossy, especially with me!\n\nNazlı, the middle one, is the opposite. She's easy-going and sociable, and she's always the life of the party. But she's quite disorganised and sometimes unreliable. If she says she'll call you at six, she might call at nine.\n\nAnd me? I'm the shy one. I'm sensitive and patient, and people say I'm a good listener. I'm also stubborn, but don't tell anyone!",
+     "questions": [
+        mc("Which sister is bossy?", ["Zehra", "Nazlı", "The writer"], 0, "\"she can be a bit bossy\" (Zehra)"),
+        mc("Why might Nazlı call at nine instead of six?", ["She's very busy at work.", "She's sometimes unreliable.", "She's shy."], 1, "\"sometimes unreliable. If she says she'll call you at six, she might call at nine.\""),
+     ]},
+    {"explanation": "**Kişilik sıfatlarının zıt anlamlıları** genellikle bir **ön ek** ile yapılır:\n\n| Ön ek | Örnekler |\n|---|---|\n| **un-** | unreliable, unfriendly, unkind, unsociable, unambitious |\n| **im-** (p ve m ile başlayanlar) | impatient, impolite, immature |\n| **in-** | insensitive, inconsiderate |\n| **dis-** | dishonest, disorganised |\n\nBazı sıfatların ön eki yoktur, zıt anlamlısı ayrı bir kelimedir:\n\n- generous ↔ **mean** / selfish\n- hard-working ↔ **lazy**\n- confident ↔ **shy** / insecure\n\n**Olumsuz özellikleri yumuşatmak:** Birini eleştirirken doğrudan söylemek kaba olabilir. Bunun yerine:\n\n- She **can be** a bit bossy. (Bazen biraz otoriter olabiliyor.)\n- He's **not very** patient. (impatient demek yerine)\n- He **tends to** be late.",
+     "examples": [{"en": "He can be a bit moody in the mornings.", "tr": "Sabahları biraz huysuz olabiliyor."},
+                  {"en": "It's impolite to interrupt people.", "tr": "İnsanların sözünü kesmek kabalıktır."},
+                  {"en": "She isn't very organised, but she's very creative.", "tr": "Pek düzenli değil ama çok yaratıcı."}],
+     "turkishNote": "\"sensitive\" (hassas, duygusal) ile \"sensible\" (mantıklı) Türkçe konuşanların en sık karıştırdığı kelimelerdendir. \"Sempatik\" İngilizceye \"sympathetic\" olarak çevrilmez; sympathetic \"anlayışlı, şefkatli\" demektir. Sempatik için \"nice, likeable, friendly\" kullanın."},
+    [
+        match([("patient", "impatient"), ("honest", "dishonest"), ("reliable", "unreliable"), ("organised", "disorganised"), ("polite", "impolite")], "Sıfatları zıt anlamlılarıyla eşleştirin."),
+        mc("generous ↔ ?", ["ungenerous only", "mean", "dishonest"], 1, "generous ↔ mean (cimri)."),
+        mc("\"Çok duygusaldır, kolayca ağlar.\"", ["She's very sensible.", "She's very sensitive."], 1, "sensitive = hassas, duygusal."),
+        mc("\"Mantıklı bir fikir.\"", ["a sensible idea", "a sensitive idea"], 0, "sensible = mantıklı."),
+        gap("He never changes his mind. He's so ___. (inatçı)", ["stubborn"], "stubborn."),
+        gap("She always pays for everyone. She's very ___. (cömert)", ["generous"], "generous."),
+        mc("Eleştiriyi yumuşatmak:", ["He's lazy.", "He can be a bit lazy sometimes."], 1, "can be a bit + sıfat."),
+        listen("My new boss is very ambitious and confident, but she can be a bit impatient when things go wrong.", "Patronun olumsuz yanı ne?", ["Utangaç", "Biraz sabırsız olabiliyor", "Tembel"], 1, "\"she can be a bit impatient\""),
+        typ("İngilizce yazın: \"İş arkadaşlarımla iyi anlaşırım.\"", variants("I get on well with my colleagues.", "I get along well with my colleagues.", "I get on well with my co-workers.", "I get along well with my co-workers."), "I get on well with + my colleagues."),
+        typ("İngilizce yazın (tend to): \"Fazla endişelenme eğilimindeyim.\"", variants("I tend to worry too much.", "I tend to worry a lot."), "I tend to + worry too much."),
+    ],
+    {"kind": "speaking", "task": speak("Ailenizden ya da arkadaşlarınızdan iki kişiyi karşılaştırarak anlatın. Her biri için en az 3 kişilik sıfatı kullanın ve olumsuz özellikleri yumuşatarak söyleyin (can be a bit, not very, tends to).",
+                                       "My best friend Elif is very sociable and generous. She's also really honest. But she can be a bit moody in the mornings. My brother is the opposite. He's quite shy and he tends to be disorganised, but he's extremely patient and thoughtful.",
+                                       ["Sıfat çeşitliliği", "Zıt anlamlılar ve ön ekler doğru", "Yumuşatma ifadeleri", "Karşılaştırma yapısı"])},
+)
+
+# ---------------- Ders 2 ----------------
+u.lesson(
+    "Genelde mi, şu sıralar mı?", "Kalıcı özellikleri ve geçici durumları doğru zamanla anlatabilir, always ile yakınma ifade edebilirim.",
+    {"kind": "dialogue", "title": "İki arkadaş", "lines": [
+        {"speaker": "Defne", "text": "Is everything OK with Kaan? He's being really quiet today."},
+        {"speaker": "Tuna", "text": "I think he's stressed. He's working on a big project this month."},
+        {"speaker": "Defne", "text": "That's strange. He usually talks non-stop!"},
+        {"speaker": "Tuna", "text": "I know. And he normally goes to the gym every evening, but these days he's staying at the office until ten."},
+        {"speaker": "Defne", "text": "Poor guy. My flatmate is the opposite. She's always complaining about her job, but she never does any work!"},
+        {"speaker": "Tuna", "text": "Ha! Everyone knows someone like that."}],
+     "questions": [
+        mc("Why is Kaan quiet today?", ["He's shy by nature.", "He's stressed about a project.", "He's ill."], 1, "\"I think he's stressed. He's working on a big project this month.\""),
+        mc("What does Defne's flatmate always do?", ["Work late", "Complain about her job", "Go to the gym"], 1, "\"She's always complaining about her job\""),
+     ]},
+    {"explanation": "**Present simple** → kalıcı özellikler, alışkanlıklar, genel gerçekler\n\n- He **talks** a lot. (Konuşkan biridir.)\n- She **goes** to the gym every evening.\n\n**Present continuous** → şu an ya da **şu sıralar** olan, **geçici** durumlar\n\n- He**'s working** on a big project **this month**.\n- **These days** she**'s staying** late at the office.\n\n**be + being + sıfat** → normalde öyle olmayan biri **şu an** öyle davranıyor:\n\n- He**'s** quiet. (Sessiz biridir.)\n- He**'s being** quiet today. (Bugün sessiz davranıyor; normalde öyle değil.)\n- You**'re being** very rude! (Şu an çok kaba davranıyorsun!)\n\n**always + present continuous** → **sinir bozucu** bir alışkanlıktan yakınmak:\n\n- She**'s always complaining**! (Hep şikayet edip duruyor!)\n- He**'s always losing** his keys.",
+     "examples": [{"en": "My dad normally works in Ankara, but this week he's working in Izmir.", "tr": "Babam normalde Ankara'da çalışır ama bu hafta İzmir'de çalışıyor."},
+                  {"en": "You're being very selfish right now.", "tr": "Şu an çok bencil davranıyorsun."},
+                  {"en": "My neighbour is always playing loud music at night!", "tr": "Komşum gece hep yüksek sesle müzik çalıp duruyor!"}],
+     "turkishNote": "Türkçede \"Her zaman şikayet ediyor\" cümlesi yakınma tonu taşır; İngilizcede bu ton \"She's always complaining\" yapısıyla verilir. \"She always complains\" da doğrudur ama daha nötr bir bilgi gibi duyulur. \"He's being\" yapısı Türkçede doğrudan karşılığı olmadığı için \"bugün ... davranıyor\" diye düşünün."},
+    [
+        mc("Kalıcı özellik:", ["She's being very kind.", "She's very kind."], 1, "Kalıcı → be + sıfat."),
+        mc("Normalde kaba değil ama şu an kaba davranıyor:", ["He's rude.", "He's being rude."], 1, "Geçici davranış → being."),
+        mc("Yakınma: \"Hep geç kalıp duruyor!\"", ["He's always being late!", "He always is late.", "He's always arriving late!"], 2, "always + continuous ile yakınma."),
+        gap("I usually ___ to work, but this week I'm taking the bus. (walk)", ["walk"], "usually → present simple."),
+        gap("She ___ staying with her aunt this month. (geçici)", ["is", "'s"], "Geçici → continuous."),
+        gap("You're always ___ my things without asking! (take)", ["taking"], "always + -ing (yakınma)."),
+        gap("These days, more people ___ working from home. (are)", ["are"], "These days → continuous."),
+        listen("My son is usually very easy-going, but at the moment he's being really difficult because he's preparing for his exams.", "Oğul neden zor davranıyor?", ["Doğası öyle", "Sınavlara hazırlanıyor", "Hasta"], 1, "\"because he's preparing for his exams\""),
+        order(["always", "He's", "losing", "his", "keys"], "He's always losing his keys.", "always + -ing (yakınma).", "Anahtarlarını hep kaybedip duruyor."),
+        typ("İngilizce yazın: \"Şu an çok bencil davranıyorsun.\"", variants("You're being very selfish right now.", "You are being very selfish right now.", "You're being really selfish right now.", "You're being very selfish now.", "Right now you're being very selfish."), "You're being + very selfish + right now."),
+    ],
+    {"kind": "speaking", "task": speak("Tanıdığınız bir kişinin normal özelliklerini ve şu sıralar farklı olan bir şeyi anlatın. Sonra birinin sizi sinir eden bir alışkanlığından always + -ing ile yakının.",
+                                       "My colleague Ali is normally very calm and easy-going. He usually leaves work at five. But this month he's working on a big project, so he's staying late and he's being a bit moody. And my brother? He's always borrowing my clothes without asking!",
+                                       ["Present simple / continuous ayrımı", "be + being + sıfat", "always + -ing ile yakınma"])},
+)
+
+# ---------------- Ders 3 ----------------
+u.lesson(
+    "Durum fiilleri", "Durum fiillerini doğru kullanabilir ve iki anlamlı fiillerin farkını bilirim.",
+    {"kind": "dialogue", "title": "Yeni iş arkadaşı", "lines": [
+        {"speaker": "Ozan", "text": "What do you think of the new manager?"},
+        {"speaker": "Selin", "text": "I think she's great. She seems very fair."},
+        {"speaker": "Ozan", "text": "I agree. I'm thinking of asking her for more training."},
+        {"speaker": "Selin", "text": "Good idea. Does she have time, though? She's having a meeting with the directors right now."},
+        {"speaker": "Ozan", "text": "I know. I'm seeing her tomorrow at ten."},
+        {"speaker": "Selin", "text": "Oh, I see. Good luck!"}],
+     "questions": [
+        mc("What is Ozan planning to ask the manager?", ["For a pay rise", "For more training", "For a day off"], 1, "\"I'm thinking of asking her for more training.\""),
+        mc("When is Ozan meeting the manager?", ["Right now", "Tomorrow at ten", "Next week"], 1, "\"I'm seeing her tomorrow at ten.\""),
+     ]},
+    {"explanation": "**Durum fiilleri** bir eylem değil, bir **durum** (düşünce, duygu, sahiplik, algı) anlatır ve genellikle **continuous halde kullanılmaz**.\n\n| Grup | Fiiller |\n|---|---|\n| Düşünce | know, believe, understand, remember, forget, mean, agree |\n| Duygu | like, love, hate, want, prefer, need |\n| Sahiplik | have (sahip olmak), own, belong |\n| Algı | seem, look (görünmek), sound, smell, taste |\n\n- I **know** him. (~~I'm knowing~~) / Do you **understand**? (~~Are you understanding?~~)\n\n**İki anlamlı fiiller:**\n\n| Durum (continuous yok) | Eylem (continuous olabilir) |\n|---|---|\n| I **think** she's great. (görüş) | I**'m thinking** about my future. (düşünmek eylemi) |\n| I **have** two cars. (sahiplik) | I**'m having** lunch / a meeting. (yemek, yaşamak) |\n| I **see** what you mean. (anlamak) | I**'m seeing** the doctor tomorrow. (görüşmek) |\n| This soup **tastes** good. | He**'s tasting** the soup. (tadına bakmak) |",
+     "examples": [{"en": "I'm thinking of changing my job.", "tr": "İş değiştirmeyi düşünüyorum."},
+                  {"en": "We're having a great time!", "tr": "Harika vakit geçiriyoruz!"},
+                  {"en": "This bag belongs to my sister.", "tr": "Bu çanta kız kardeşime ait."}],
+     "turkishNote": "Türkçede \"biliyorum, anlıyorum, istiyorum, seviyorum\" -yor ekiyle söylenir, bu yüzden Türkçe konuşanlar sık sık \"I'm knowing, I'm wanting\" der. Bu fiiller İngilizcede durum fiilidir: I know, I want. İstisna: \"I'm loving it\" gibi reklam dili ve günlük argo kullanımlar."},
+    [
+        mc("Hangisi doğru?", ["I'm knowing the answer.", "I know the answer."], 1, "know → durum fiili."),
+        mc("Hangisi doğru?", ["Are you understanding me?", "Do you understand me?"], 1, "understand → durum fiili."),
+        mc("Görüş: \"Bence haklısın.\"", ["I'm thinking you're right.", "I think you're right."], 1, "Görüş → think (continuous yok)."),
+        mc("\"Öğle yemeği yiyorum.\"", ["I have lunch now.", "I'm having lunch."], 1, "have = yemek → continuous olabilir."),
+        mc("\"Ne demek istediğini anlıyorum.\"", ["I see what you mean.", "I'm seeing what you mean."], 0, "see = anlamak → durum."),
+        gap("This car ___ to my uncle. (ait)", ["belongs"], "belong → durum fiili."),
+        gap("I'm ___ of moving to Izmir. (düşünmek eylemi)", ["thinking"], "think of + -ing (eylem)."),
+        gap("Your idea ___ interesting. (görünüyor / kulağa geliyor)", ["sounds", "seems"], "sound / seem → durum."),
+        listen("I'm having a lovely time in Rome. The food tastes amazing, and I think I'm going to stay another week!", "Konuşan ne düşünüyor?", ["Hemen dönmeyi", "Bir hafta daha kalmayı", "Roma'yı sevmediğini"], 1, "\"I think I'm going to stay another week\""),
+        typ("İngilizce yazın: \"İş değiştirmeyi düşünüyorum.\"", variants("I'm thinking of changing my job.", "I'm thinking about changing my job.", "I am thinking of changing my job.", "I am thinking about changing my job.", "I'm thinking of changing jobs.", "I'm thinking about changing jobs."), "I'm thinking of + changing my job."),
+    ],
+    {"kind": "speaking", "task": speak("JAI ile hayatınızdaki planlar ve görüşler hakkında konuşun. think, have ve see fiillerini hem durum hem eylem anlamında en az birer kez kullanın.",
+                                       "I think learning English is really useful. At the moment I'm thinking about doing a master's degree abroad. I have a friend in Canada, and I'm seeing her next month. We're having dinner together. I see why people move abroad now.",
+                                       ["Durum fiilleri continuous'sız", "think / have / see iki anlamda", "Doğal akış"])},
+)
+
+# ---------------- Ders 4 ----------------
+u.lesson(
+    "Nasıl biri, neye benziyor?", "Bir kişinin kişiliğini, görünüşünü ve sevdiklerini doğru sorularla sorup ayrıntılı anlatabilirim.",
+    {"kind": "dialogue", "title": "Kör randevu", "lines": [
+        {"speaker": "Gizem", "text": "So, tell me about this guy. What's he like?"},
+        {"speaker": "Ece", "text": "He's really nice. Quite shy at first, but extremely funny when you get to know him."},
+        {"speaker": "Gizem", "text": "And what does he look like?"},
+        {"speaker": "Ece", "text": "He's tall, with short dark hair and glasses. He looks a bit like a young professor!"},
+        {"speaker": "Gizem", "text": "Ha ha. What does he like doing?"},
+        {"speaker": "Ece", "text": "He loves hiking and he's rather good at cooking. I think you'll get on really well."}],
+     "questions": [
+        mc("What's the man like at first?", ["Very confident", "Quite shy", "Bossy"], 1, "\"Quite shy at first\""),
+        mc("Who does he look a bit like?", ["A young professor", "A famous actor", "Ece's brother"], 0, "\"He looks a bit like a young professor!\""),
+     ]},
+    {"explanation": "**Üç farklı soru, üç farklı cevap:**\n\n| Soru | Ne soruyor? | Cevap |\n|---|---|---|\n| **What's** he **like**? | kişilik (ve genel izlenim) | He's friendly and easy-going. |\n| **What does** he **look like**? | dış görünüş | He's tall with dark hair. |\n| **What does** he **like**? | sevdiği şeyler | He likes hiking. |\n\n**look** ve **look like:**\n\n- She **looks** tired. (look + sıfat)\n- She **looks like** her mother. (look like + isim)\n\n**Derece zarfları:**\n\n| Zarf | Anlam | Örnek |\n|---|---|---|\n| a bit / a little | biraz (genelde olumsuz sıfatla) | a bit lazy |\n| quite | epey, oldukça | quite shy |\n| rather | oldukça (çoğunlukla olumsuz ya da şaşırtıcı) | rather boring |\n| really / very | çok | really funny |\n| extremely / incredibly | son derece | extremely reliable |\n\n**Dikkat:** \"a bit\" olumlu sıfatlarla pek kullanılmaz: ~~a bit kind~~ → quite kind.",
+     "examples": [{"en": "What's your new boss like? – She's quite strict, but fair.", "tr": "Yeni patronun nasıl biri? – Oldukça katı ama adil."},
+                  {"en": "He looks like his father.", "tr": "Babasına benziyor."},
+                  {"en": "The test was rather difficult.", "tr": "Sınav oldukça zordu."}],
+     "turkishNote": "\"Nasıl biri?\" sorusunu \"How is he?\" ile çevirmek yaygın bir hatadır; \"How is he?\" = O nasıl (sağlığı, durumu)? Kişilik için \"What's he like?\" kullanılır. \"Benziyor\" için \"look like\" (görünüş) ya da \"take after\" (huy ve görünüş olarak aileden birine çekmek) denir."},
+    [
+        mc("Kişiliğini sormak:", ["How is your teacher?", "What's your teacher like?", "What does your teacher like?"], 1, "Kişilik → What's ... like?"),
+        mc("Dış görünüşü sormak:", ["What does she look like?", "What is she like?", "How does she look like?"], 0, "Görünüş → What does ... look like?", {2: "How ile look like birlikte kullanılmaz."}),
+        mc("\"What does he like?\" cevabı:", ["He's tall.", "He likes football.", "He's friendly."], 1, "Sevdiği şeyler."),
+        mc("Hangisi doğru?", ["She looks like tired.", "She looks tired."], 1, "look + sıfat."),
+        mc("Hangisi doğru?", ["He looks his dad.", "He looks like his dad."], 1, "look like + isim."),
+        mc("Olumlu bir sıfatla:", ["She's a bit kind.", "She's quite kind."], 1, "a bit genelde olumsuz sıfatla."),
+        gap("He's ___ reliable. You can always trust him. (son derece)", ["extremely", "incredibly"], "extremely."),
+        gap("The film was ___ boring, so we left early. (oldukça)", ["rather", "quite", "a bit", "really"], "rather (olumsuz)."),
+        listen("What's your sister like? – She's incredibly sociable and a bit bossy. She looks like me, but we're completely different!", "Kız kardeşin kişiliği nasıl?", ["Utangaç ve sakin", "Son derece sosyal ve biraz otoriter", "Tembel"], 1, "\"incredibly sociable and a bit bossy\""),
+        typ("İngilizce yazın: \"Yeni patronun nasıl biri?\"", variants("What's your new boss like?", "What is your new boss like?"), "What's + your new boss + like?"),
+    ],
+    {"kind": "speaking", "task": speak("JAI size bir arkadaşınızı tanıştırmak istediğinizi söyleyecek ve 3 soru soracak (What's ... like? / What does ... look like? / What does ... like?). Her soruyu ayrıntılı cevaplayın ve en az 3 farklı derece zarfı kullanın.",
+                                       "She's really friendly and quite funny, but a bit disorganised. She's medium height with long curly hair, and she looks a bit like a famous singer. She loves dancing and she's extremely good at painting.",
+                                       ["Üç soru türü doğru anlaşıldı", "look / look like doğru", "Derece zarfları çeşitli ve doğru"])},
+)
+
+# ---------------- Ders 5 ----------------
+u.lesson(
+    "Güçlü ve zayıf yönlerim", "Bir iş görüşmesinde ya da başvuruda kendi kişiliğimi, güçlü ve zayıf yönlerimi dengeli bir şekilde anlatabilirim.",
+    {"kind": "dialogue", "title": "İş görüşmesi", "lines": [
+        {"speaker": "Interviewer", "text": "How would your friends describe you?"},
+        {"speaker": "Burak", "text": "I think they'd say I'm reliable and hard-working. I'm also quite sociable, so I get on well with most people."},
+        {"speaker": "Interviewer", "text": "What would you say is your biggest strength?"},
+        {"speaker": "Burak", "text": "I'm very organised. In my current job, I'm managing three projects at the same time, and they're all on schedule."},
+        {"speaker": "Interviewer", "text": "And your biggest weakness?"},
+        {"speaker": "Burak", "text": "I tend to be a bit impatient when things move slowly. But I'm working on it. These days I'm trying to listen more before I react."}],
+     "questions": [
+        mc("How many projects is Burak managing now?", ["One", "Two", "Three"], 2, "\"I'm managing three projects at the same time\""),
+        mc("What is Burak doing about his weakness?", ["Nothing", "Trying to listen more before he reacts", "Looking for a new job"], 1, "\"I'm trying to listen more before I react.\""),
+     ]},
+    {"explanation": "**Kendinizi tanıtırken faydalı kalıplar:**\n\n- **I'd describe myself as** + sıfat → I'd describe myself as ambitious.\n- **My friends would say** I'm ...\n- **I'm good at** + -ing / isim → I'm good at solving problems.\n- **One of my strengths is that** + cümle\n\n**Zayıf yönü dengeli anlatmak:**\n\n1. Zayıf yönü yumuşatarak söyleyin: **I tend to** be a bit impatient. / I **can be** a little too direct.\n2. Üzerinde çalıştığınızı gösterin: **I'm working on it.** / These days I**'m trying to** ...\n\n**Örnekle desteklemek (çok önemli!):**\n\n- I'm organised. **For example**, I always plan my week on Sunday.\n- I'm a good team player. **In my last job**, I ...\n\nBu derste ünitedeki her şey bir araya geliyor: kişilik sıfatları, present simple (genel özellik), present continuous (şu sıralar), tend to ve derece zarfları.",
+     "examples": [{"en": "I'd describe myself as a creative and patient person.", "tr": "Kendimi yaratıcı ve sabırlı biri olarak tanımlarım."},
+                  {"en": "I'm good at working under pressure.", "tr": "Baskı altında çalışmakta iyiyimdir."},
+                  {"en": "I can be a little too direct, but I'm learning to be more diplomatic.", "tr": "Bazen fazla dobra olabiliyorum ama daha diplomatik olmayı öğreniyorum."}],
+     "turkishNote": "İş görüşmelerinde \"Zayıf yönüm yok\" ya da \"Mükemmeliyetçiyim\" gibi klişe cevaplar iyi karşılanmaz. Gerçek ama işi engellemeyecek bir zayıf yön seçin ve nasıl geliştirdiğinizi anlatın. \"good at\" kalıbından sonra fiil -ing alır: good at speaking (good at speak değil)."},
+    [
+        mc("Hangisi doğru?", ["I'm good at organise events.", "I'm good at organising events."], 1, "good at + -ing."),
+        mc("Zayıf yönü dengeli anlatmak:", ["I'm lazy.", "I tend to leave things until the last minute, but I'm working on it."], 1, "Yumuşat + geliştirdiğini göster."),
+        gap("I'd describe myself ___ a hard-working person.", ["as"], "describe myself as."),
+        gap("One of my strengths is ___ I stay calm under pressure.", ["that"], "One of my strengths is that..."),
+        gap("I can be a bit too direct, but I'm ___ on it. (üzerinde çalışmak)", ["working"], "I'm working on it."),
+        gap("These days I'm ___ to be more patient. (try)", ["trying"], "Şu sıralar → continuous."),
+        gap("I'm good ___ solving problems.", ["at"], "good at."),
+        order(["tend", "I", "to", "be", "a", "bit", "impatient"], "I tend to be a bit impatient.", "tend to + be + derece + sıfat.", "Biraz sabırsız olma eğilimindeyim."),
+        listen("My biggest strength is that I'm very patient. For example, I volunteer at a children's hospital, and I often spend hours helping kids with their homework.", "Konuşan sabrını nasıl örnekliyor?", ["Ofiste uzun saatler çalışarak", "Hastanede çocuklara ödevlerinde yardım ederek", "Spor yaparak"], 1, "\"I often spend hours helping kids with their homework\""),
+        typ("İngilizce yazın: \"Kendimi yaratıcı biri olarak tanımlarım.\"", variants("I'd describe myself as a creative person.", "I would describe myself as a creative person.", "I'd describe myself as creative.", "I would describe myself as creative."), "I'd describe myself as + a creative person."),
+    ],
+    {"kind": "writing", "task": write("Bir iş ya da burs başvurusu için \"Kendinizi tanıtın\" bölümünü yazın (100–120 kelime): kişiliğiniz, 2 güçlü yön (örnekle), 1 zayıf yön (yumuşatarak ve geliştirdiğinizi göstererek) ve şu sıralar kendinizi geliştirmek için ne yaptığınız.",
+                                      "I'd describe myself as a reliable and hard-working person. My friends would say I'm also quite sociable and easy-going. One of my strengths is that I'm very organised. For example, in my current job I'm responsible for planning all our team events, and they always run smoothly. I'm also good at solving problems under pressure. However, I tend to be a bit too self-critical. I sometimes spend too long checking my work. I'm working on it, and these days I'm learning to trust my first decisions more. At the moment I'm also taking an online course in project management.",
+                                      ["Kişilik sıfatları çeşitli", "Güçlü yönler örnekle desteklendi", "Zayıf yön dengeli anlatıldı", "Present simple / continuous doğru", "Resmi ve akıcı dil"])},
+)
+
+u.test([
+    mc("reliable ↔ ?", ["inreliable", "unreliable", "disreliable"], 1, "un-"),
+    mc("patient ↔ ?", ["impatient", "unpatient"], 0, "im-"),
+    mc("\"Mantıklı bir karar\"", ["a sensitive decision", "a sensible decision"], 1, "sensible"),
+    gap("She's always paying for everyone. She's so ___. (cömert)", ["generous"], "generous"),
+    mc("Normalde kibar ama bugün kaba davranıyor:", ["He's rude today.", "He's being rude today."], 1, "being"),
+    mc("Yakınma:", ["She always loses her keys.", "She's always losing her keys!"], 1, "always + -ing"),
+    mc("Hangisi doğru?", ["I'm wanting a new phone.", "I want a new phone."], 1, "want → durum"),
+    mc("\"İş değiştirmeyi düşünüyorum.\"", ["I think of changing jobs.", "I'm thinking of changing jobs."], 1, "think (eylem)"),
+    gap("We're ___ a meeting at the moment. (have)", ["having"], "have = eylem"),
+    mc("Kişilik sorusu:", ["How is your brother?", "What's your brother like?"], 1, "What's ... like?"),
+    mc("Hangisi doğru?", ["She looks like happy.", "She looks happy."], 1, "look + sıfat"),
+    gap("I'm good ___ working in a team.", ["at"], "good at + -ing"),
+    listen("I'd describe my manager as extremely ambitious. She's always looking for new projects. But she can be a bit impatient with people who work slowly.", "Yöneticinin zayıf yönü ne?", ["Tembel", "Yavaş çalışanlara karşı biraz sabırsız", "Güvenilmez"], 1, "\"a bit impatient with people who work slowly\""),
+    typ("İngilizce yazın: \"Biraz sabırsız olma eğilimindeyim.\"", variants("I tend to be a bit impatient.", "I tend to be a little impatient.", "I tend to be slightly impatient."), "I tend to be + a bit impatient."),
+    write("Hayatınızda önemli bir yeri olan birini anlatan bir paragraf yazın (100–120 kelime): kişiliği (dengeli), dış görünüşü, sevdiği şeyler, her zaman yaptığı bir şey ve şu sıralar farklı olan bir durum. Durum fiillerini doğru kullanın.",
+          "The most important person in my life is my grandmother. She's incredibly generous and patient, but she can be quite stubborn. She's small, with short white hair and bright blue eyes, and people say I look like her. She loves gardening and she's extremely good at making jam. She always calls me on Sunday mornings to ask about my week. At the moment, she's staying with my aunt in Antalya because her knee is hurting, so she's not gardening. I know she misses her plants, and I think she's a bit bored. I'm visiting her next month.",
+          ["Kişilik ve görünüş doğru ifade edildi", "Present simple / continuous ayrımı", "Durum fiilleri doğru", "Derece zarfları", "Akıcı paragraf"]),
+])
+
+if __name__ == "__main__":
+    u.save(sys.argv[1])
