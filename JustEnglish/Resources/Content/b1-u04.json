@@ -1,0 +1,1448 @@
+{
+  "id": "b1-u04",
+  "level": "B1",
+  "number": 4,
+  "title": "Hayaller",
+  "titleEn": "Dreams and Dilemmas",
+  "canDo": "Hayali ya da gerçek dışı durumları second conditional ile anlatabilir, tavsiye verebilir, ikilemler hakkında ne yapacağımı tartışabilir ve gerçekçi ile hayali durumları ayırt edebilirim.",
+  "grammar": [
+    "second conditional (if + past, would)",
+    "If I were you, I'd ...",
+    "first ve second conditional farkı",
+    "would / could / might",
+    "What would you do if ...?"
+  ],
+  "vocabularyThemes": [
+    "hayaller ve hedefler",
+    "ikilemler",
+    "ahlaki seçimler"
+  ],
+  "liveClass": {
+    "title": "Ya olsaydı?",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler \"ikilem kartları\" çeker (sokakta para dolu bir cüzdan bulsan, en iyi arkadaşın kopya çekse...). What would you do if...? sorusuna second conditional ile cevap verip gerekçelerini tartışırlar. Ardından herkes tek bir hayalini If I could..., I'd... kalıbıyla anlatır ve sınıf en ilginç hayali oylar."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u04-v01",
+      "en": "dream",
+      "tr": "hayal, rüya; hayal etmek",
+      "example": "My dream is to open a small hotel.",
+      "exampleTr": "Hayalim küçük bir otel açmak.",
+      "note": "dream of / about + -ing"
+    },
+    {
+      "id": "b1-u04-v02",
+      "en": "dilemma",
+      "tr": "ikilem",
+      "example": "I'm in a real dilemma.",
+      "exampleTr": "Gerçekten bir ikilemdeyim."
+    },
+    {
+      "id": "b1-u04-v03",
+      "en": "win the lottery",
+      "tr": "piyango kazanmak",
+      "example": "What would you do if you won the lottery?",
+      "exampleTr": "Piyango kazansan ne yapardın?"
+    },
+    {
+      "id": "b1-u04-v04",
+      "en": "millionaire",
+      "tr": "milyoner",
+      "example": "If I were a millionaire, I'd travel the world.",
+      "exampleTr": "Milyoner olsaydım dünyayı gezerdim."
+    },
+    {
+      "id": "b1-u04-v05",
+      "en": "give away",
+      "tr": "dağıtmak, bağışlamak",
+      "example": "I'd give away half of the money.",
+      "exampleTr": "Paranın yarısını bağışlardım."
+    },
+    {
+      "id": "b1-u04-v06",
+      "en": "charity",
+      "tr": "hayır kurumu",
+      "example": "She gives money to charity every month.",
+      "exampleTr": "Her ay hayır kurumuna para veriyor."
+    },
+    {
+      "id": "b1-u04-v07",
+      "en": "ambition",
+      "tr": "hırs, büyük hedef",
+      "example": "Her ambition is to become a pilot.",
+      "exampleTr": "Büyük hedefi pilot olmak.",
+      "note": "ambitious (hırslı)"
+    },
+    {
+      "id": "b1-u04-v08",
+      "en": "achieve",
+      "tr": "başarmak, ulaşmak",
+      "example": "You can achieve your goals.",
+      "exampleTr": "Hedeflerine ulaşabilirsin."
+    },
+    {
+      "id": "b1-u04-v09",
+      "en": "goal",
+      "tr": "hedef",
+      "example": "My goal is to speak English fluently.",
+      "exampleTr": "Hedefim akıcı İngilizce konuşmak."
+    },
+    {
+      "id": "b1-u04-v10",
+      "en": "imagine",
+      "tr": "hayal etmek, düşünmek",
+      "example": "Imagine you could fly.",
+      "exampleTr": "Uçabildiğini hayal et."
+    },
+    {
+      "id": "b1-u04-v11",
+      "en": "tell the truth",
+      "tr": "doğruyu söylemek",
+      "example": "I'd always tell the truth.",
+      "exampleTr": "Her zaman doğruyu söylerdim."
+    },
+    {
+      "id": "b1-u04-v12",
+      "en": "tell a lie",
+      "tr": "yalan söylemek",
+      "example": "Would you tell a lie to protect a friend?",
+      "exampleTr": "Bir arkadaşı korumak için yalan söyler miydin?"
+    },
+    {
+      "id": "b1-u04-v13",
+      "en": "honest",
+      "tr": "dürüst",
+      "example": "It's important to be honest.",
+      "exampleTr": "Dürüst olmak önemli.",
+      "note": "dishonest (dürüst olmayan)"
+    },
+    {
+      "id": "b1-u04-v14",
+      "en": "find",
+      "tr": "bulmak",
+      "example": "If I found a wallet, I'd take it to the police.",
+      "exampleTr": "Bir cüzdan bulsam polise götürürdüm.",
+      "note": "find → found"
+    },
+    {
+      "id": "b1-u04-v15",
+      "en": "keep",
+      "tr": "elinde tutmak, saklamak",
+      "example": "Would you keep the money?",
+      "exampleTr": "Parayı kendine saklar mıydın?",
+      "note": "keep → kept"
+    },
+    {
+      "id": "b1-u04-v16",
+      "en": "report",
+      "tr": "bildirmek, şikâyet etmek",
+      "example": "I would report it to my manager.",
+      "exampleTr": "Müdürüme bildirirdim."
+    },
+    {
+      "id": "b1-u04-v17",
+      "en": "pretend",
+      "tr": "-mış gibi yapmak",
+      "example": "I'd pretend I didn't see anything.",
+      "exampleTr": "Hiçbir şey görmemiş gibi yapardım."
+    },
+    {
+      "id": "b1-u04-v18",
+      "en": "risk",
+      "tr": "risk; riske atmak",
+      "example": "I wouldn't risk my job.",
+      "exampleTr": "İşimi riske atmazdım."
+    },
+    {
+      "id": "b1-u04-v19",
+      "en": "chance",
+      "tr": "şans, fırsat",
+      "example": "If I had the chance, I'd live abroad.",
+      "exampleTr": "Fırsatım olsa yurt dışında yaşardım."
+    },
+    {
+      "id": "b1-u04-v20",
+      "en": "famous",
+      "tr": "ünlü",
+      "example": "If you were famous, what would you do?",
+      "exampleTr": "Ünlü olsan ne yapardın?"
+    },
+    {
+      "id": "b1-u04-v21",
+      "en": "invisible",
+      "tr": "görünmez",
+      "example": "If I were invisible for a day, I'd...",
+      "exampleTr": "Bir günlüğüne görünmez olsam..."
+    },
+    {
+      "id": "b1-u04-v22",
+      "en": "in your shoes",
+      "tr": "senin yerinde",
+      "example": "If I were in your shoes, I'd say no.",
+      "exampleTr": "Senin yerinde olsam hayır derdim."
+    },
+    {
+      "id": "b1-u04-v23",
+      "en": "I'd rather",
+      "tr": "tercih ederim",
+      "example": "I'd rather stay at home.",
+      "exampleTr": "Evde kalmayı tercih ederim.",
+      "note": "I'd rather + yalın fiil"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u04-l1",
+      "number": 1,
+      "title": "Piyango kazansan?",
+      "goal": "Gerçek olmayan ya da çok düşük ihtimalli durumları second conditional ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kahve molası",
+        "lines": [
+          {
+            "speaker": "Cem",
+            "text": "Did you buy a lottery ticket this week?"
+          },
+          {
+            "speaker": "Aslı",
+            "text": "No, I never do. But if I won the lottery, I'd quit my job immediately!"
+          },
+          {
+            "speaker": "Cem",
+            "text": "Really? I wouldn't. I'd get bored at home."
+          },
+          {
+            "speaker": "Aslı",
+            "text": "I wouldn't stay at home. I'd travel around South America for a year."
+          },
+          {
+            "speaker": "Cem",
+            "text": "And what would you do after that?"
+          },
+          {
+            "speaker": "Aslı",
+            "text": "I'd buy a house by the sea and I'd give some money to charity."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Does Aslı buy lottery tickets?",
+            "options": [
+              "Yes, every week.",
+              "No, never."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, I never do.\"",
+            "id": "b1-u04-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why wouldn't Cem quit his job?",
+            "options": [
+              "He loves his boss.",
+              "He'd get bored at home.",
+              "He needs the money."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd get bored at home.\"",
+            "id": "b1-u04-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Second conditional**, şu an **gerçek olmayan** ya da gelecekte **pek olası olmayan** hayali durumları anlatır.\n\n| If + **past simple** | , **would** ('d) + fiil |\n|---|---|\n| If I **won** the lottery, | I**'d quit** my job. |\n| If I **had** more time, | I**'d learn** the piano. |\n| If she **lived** near the sea, | she**'d swim** every day. |\n\nGeçmiş zaman kullanılır ama **anlam geçmiş değildir**: hayali bir şimdiki ya da gelecek durum.\n\n**Olumsuz:** would not → **wouldn't**\n\n- If I didn't have a car, I **wouldn't** go to work so easily.\n\n**Soru:** **What would** you **do if** you **won** a million?\n\n**Kısa cevap:** Would you ...? – Yes, I **would**. / No, I **wouldn't**.\n\nif'li kısımda **would kullanılmaz**: ~~If I would win~~",
+        "examples": [
+          {
+            "en": "If I had a lot of money, I'd buy a farm.",
+            "tr": "Çok param olsa bir çiftlik alırdım."
+          },
+          {
+            "en": "If we didn't live in the city, we'd have a big garden.",
+            "tr": "Şehirde yaşamasaydık büyük bir bahçemiz olurdu."
+          },
+          {
+            "en": "What would you do if you lost your job?",
+            "tr": "İşini kaybetsen ne yapardın?"
+          }
+        ],
+        "turkishNote": "Türkçede \"kazansam / kazansaydım ... yapardım\" yapısı second conditional'a denk gelir. \"-sa\" kısmı past simple, \"-ardım\" kısmı would + fiil olur. Türkçe konuşanlar bazen her iki tarafa da would koyar (\"If I would have money, I would buy\"); if kısmına would gelmez."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "If I would win, I'd buy a house.",
+            "If I won, I'd buy a house."
+          ],
+          "answerIndex": 1,
+          "explanation": "if + past simple.",
+          "id": "b1-u04-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "If I ___ more time, I'd learn to paint.",
+          "options": [
+            "have",
+            "had",
+            "would have"
+          ],
+          "answerIndex": 1,
+          "explanation": "Hayali → had.",
+          "id": "b1-u04-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "If she lived in Paris, she ___ French.",
+          "options": [
+            "will speak",
+            "would speak",
+            "speaks"
+          ],
+          "answerIndex": 1,
+          "explanation": "would + fiil.",
+          "id": "b1-u04-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I ___ (know) the answer, I'd tell you.",
+          "answers": [
+            "knew"
+          ],
+          "explanation": "know → knew.",
+          "id": "b1-u04-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We'd go out more if we ___ (not have) kids.",
+          "answers": [
+            "didn't have",
+            "did not have"
+          ],
+          "explanation": "Olumsuz past.",
+          "id": "b1-u04-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you do if you found a lot of money?",
+          "answers": [
+            "would"
+          ],
+          "explanation": "What would you do...?",
+          "id": "b1-u04-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ (not quit) my job if I won the lottery.",
+          "answers": [
+            "wouldn't quit",
+            "would not quit"
+          ],
+          "explanation": "wouldn't + fiil.",
+          "id": "b1-u04-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "would",
+            "What",
+            "do",
+            "if",
+            "you",
+            "won",
+            "the",
+            "lottery",
+            "?"
+          ],
+          "answer": "What would you do if you won the lottery?",
+          "explanation": "What would you do if + past?",
+          "translation": "Piyango kazansan ne yapardın?",
+          "id": "b1-u04-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "If I had more money, I'd move to a bigger flat. But I don't, so I'm staying here for now.",
+          "prompt": "Konuşan neden daha büyük bir daireye taşınmıyor?",
+          "options": [
+            "Yeterli parası yok",
+            "Mevcut dairesini seviyor",
+            "İşi yakın"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"If I had more money... But I don't\"",
+          "id": "b1-u04-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Çok param olsa dünyayı gezerdim.\"",
+          "accepted": [
+            "If I had a lot of money, I'd travel the world.",
+            "If I had a lot of money, I'd travel the world",
+            "If I had a lot of money, I would travel the world",
+            "If I had a lot of money, I would travel the world.",
+            "If I had lots of money, I'd travel the world.",
+            "If I had lots of money, I'd travel the world",
+            "If I had lots of money, I would travel the world",
+            "If I had lots of money, I would travel the world.",
+            "If I had a lot of money, I'd travel around the world.",
+            "If I had a lot of money, I'd travel around the world",
+            "If I had a lot of money, I would travel around the world",
+            "If I had a lot of money, I would travel around the world.",
+            "I'd travel the world if I had a lot of money.",
+            "I'd travel the world if I had a lot of money",
+            "I would travel the world if I had a lot of money",
+            "I would travel the world if I had a lot of money.",
+            "If I had a lot of money I'd travel the world.",
+            "If I had a lot of money I'd travel the world",
+            "If I had a lot of money I would travel the world",
+            "If I had a lot of money I would travel the world.",
+            "If I had lots of money, I would travel around the world.",
+            "If I had lots of money, I would travel around the world"
+          ],
+          "explanation": "If I had a lot of money, I'd travel the world.",
+          "id": "b1-u04-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 5 hayali soru soracak (piyango kazansan, bir günlüğüne görünmez olsan, bir yıl tatil yapabilsen...). Her birine second conditional ile en az iki cümle cevap verin.",
+          "modelAnswer": "If I won the lottery, I'd buy my parents a house. I wouldn't quit my job, but I'd work less. If I were invisible for a day, I'd go into the parliament and listen to the meetings!",
+          "rubric": [
+            "if + past simple",
+            "would / wouldn't + fiil",
+            "if kısmında would yok"
+          ]
+        },
+        "id": "b1-u04-l1-use"
+      }
+    },
+    {
+      "id": "b1-u04-l2",
+      "number": 2,
+      "title": "Senin yerinde olsam",
+      "goal": "If I were you ile tavsiye verebilir, were kullanımını öğrenebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Okur mektubu: Ne yapmalıyım?",
+        "body": "Dear Ask Ayla,\n\nA company in another city has offered me a great job. The salary is much better, but my girlfriend doesn't want to move. She has a good job here, and all her family is here too. I really don't know what to do. What would you do?\n\nEmre, 29\n\n\nDear Emre,\n\nThat's a hard situation. If I were you, I'd talk to her honestly before you make any decision. If the new job were only for a year or two, maybe she would agree. You could also ask the company about working from home some days. If I were in your shoes, I wouldn't say yes to the job until you've found a plan together.\n\nAyla",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Emre's problem?",
+            "options": [
+              "He lost his job.",
+              "He has a job offer in another city.",
+              "His girlfriend wants to move."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"A company in another city has offered me a great job.\"",
+            "id": "b1-u04-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Ayla's first piece of advice?",
+            "options": [
+              "Take the job immediately",
+              "Talk to his girlfriend honestly",
+              "Find a new girlfriend"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd talk to her honestly\"",
+            "id": "b1-u04-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Second conditional'da **be** fiili için tüm kişilerde **were** kullanılabilir. Özellikle **If I were you** kalıbı sabittir.\n\n| Kalıp | Örnek |\n|---|---|\n| If I **were** you, I'd ... | If I were you, I'd take the job. |\n| If I **were** in your shoes, I'd ... | If I were in your shoes, I'd say no. |\n| If he **were** taller, ... | If he were taller, he'd play basketball. |\n\nGünlük dilde **If I / he / she was** de sık duyulur, ama **If I were you** kalıbı hep were ile kullanılır.\n\n**Tavsiye vermenin diğer yolları:**\n\n- **You could** ask your boss. (Seçenek önerme)\n- **Why don't you** talk to her?\n- **I wouldn't** do that **if I were you**.\n\n**Tavsiye istemek:**\n\n- **What would you do** (if you were me)?\n- **What should I do?**",
+        "examples": [
+          {
+            "en": "If I were you, I'd see a doctor.",
+            "tr": "Senin yerinde olsam doktora görünürdüm."
+          },
+          {
+            "en": "I wouldn't buy that car if I were you.",
+            "tr": "Senin yerinde olsam o arabayı almazdım."
+          },
+          {
+            "en": "If it were cheaper, I'd buy it.",
+            "tr": "Daha ucuz olsa alırdım."
+          }
+        ],
+        "turkishNote": "\"Senin yerinde olsam\" ifadesinin en doğal karşılığı \"If I were you\"dur. \"If I was you\" günlük konuşmada duyulsa da sınavlarda ve yazıda were tercih edilir. \"In your place\" çok resmî ve az kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Senin yerinde olsam...\"",
+          "options": [
+            "If I am you...",
+            "If I were you...",
+            "If I would be you..."
+          ],
+          "answerIndex": 1,
+          "explanation": "If I were you.",
+          "id": "b1-u04-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "If I were you, I ___ that job.",
+          "options": [
+            "'ll take",
+            "'d take",
+            "took"
+          ],
+          "answerIndex": 1,
+          "explanation": "would + fiil.",
+          "id": "b1-u04-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "If it was cheaper, I'll buy it.",
+            "If it were cheaper, I'd buy it."
+          ],
+          "answerIndex": 1,
+          "explanation": "were / would.",
+          "id": "b1-u04-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I ___ you, I'd call him. (be)",
+          "answers": [
+            "were"
+          ],
+          "explanation": "If I were you.",
+          "id": "b1-u04-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ (not) do that if I were you.",
+          "answers": [
+            "wouldn't",
+            "would not"
+          ],
+          "explanation": "wouldn't.",
+          "id": "b1-u04-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ would you do if you were me?",
+          "answers": [
+            "What"
+          ],
+          "explanation": "What would you do...?",
+          "id": "b1-u04-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ ask your manager for help. (seçenek önerme)",
+          "answers": [
+            "could"
+          ],
+          "explanation": "You could...",
+          "id": "b1-u04-l2-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Tavsiye istemek:",
+          "options": [
+            "What would you do?",
+            "What will you do?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hayali → would.",
+          "id": "b1-u04-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've had a terrible toothache for three days. – Three days? If I were you, I'd go to the dentist today.",
+          "prompt": "Arkadaşının tavsiyesi ne?",
+          "options": [
+            "Bugün dişçiye gitmesi",
+            "İlaç alması",
+            "Beklemesi"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I'd go to the dentist today\"",
+          "id": "b1-u04-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Senin yerinde olsam o arabayı almazdım.\"",
+          "accepted": [
+            "If I were you, I wouldn't buy that car.",
+            "If I were you, I wouldn't buy that car",
+            "I wouldn't buy that car if I were you.",
+            "I wouldn't buy that car if I were you",
+            "If I were you, I would not buy that car.",
+            "If I were you, I would not buy that car",
+            "If I was you, I wouldn't buy that car.",
+            "If I was you, I wouldn't buy that car",
+            "If I were you I wouldn't buy that car.",
+            "If I were you I wouldn't buy that car",
+            "I would not buy that car if I were you.",
+            "I would not buy that car if I were you"
+          ],
+          "explanation": "If I were you, I wouldn't buy that car.",
+          "id": "b1-u04-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 4 sorununu anlatacak (uyuyamıyor, ev arkadaşı çok gürültülü, İngilizcesi ilerlemiyor, patronu ona fazla iş veriyor). Her biri için If I were you... ve You could... ile tavsiye verin.",
+          "modelAnswer": "If I were you, I wouldn't drink coffee after 4 pm. You could also try reading before bed. If I were in your shoes, I'd talk to your flatmate calmly. And I wouldn't stay quiet if I were you. I'd tell my boss.",
+          "rubric": [
+            "If I were you + would",
+            "You could / Why don't you",
+            "Nazik ve mantıklı tavsiyeler"
+          ]
+        },
+        "id": "b1-u04-l2-use"
+      }
+    },
+    {
+      "id": "b1-u04-l3",
+      "number": 3,
+      "title": "Gerçek mi, hayal mi?",
+      "goal": "First ve second conditional arasında ihtimale göre doğru seçimi yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İki öğrenci",
+        "lines": [
+          {
+            "speaker": "Bora",
+            "text": "If I pass my exams, I'll go to Italy in the summer."
+          },
+          {
+            "speaker": "Ece",
+            "text": "That's a great plan! I'm sure you'll pass."
+          },
+          {
+            "speaker": "Bora",
+            "text": "What about you? Any plans?"
+          },
+          {
+            "speaker": "Ece",
+            "text": "Well, if I had enough money, I'd go to Japan. But I don't, so I'll probably work in my uncle's shop."
+          },
+          {
+            "speaker": "Bora",
+            "text": "If you work all summer, you'll save some money for next year."
+          },
+          {
+            "speaker": "Ece",
+            "text": "Exactly. And if I save enough, I'll go to Japan next summer!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which plan is realistic?",
+            "options": [
+              "Bora going to Italy",
+              "Ece going to Japan this summer"
+            ],
+            "answerIndex": 0,
+            "explanation": "Bora: \"If I pass... I'll go\" (gerçekçi). Ece: \"if I had enough money\" (hayali).",
+            "id": "b1-u04-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What will Ece probably do this summer?",
+            "options": [
+              "Go to Japan",
+              "Work in her uncle's shop",
+              "Study Italian"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'll probably work in my uncle's shop\"",
+            "id": "b1-u04-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "| First conditional | Second conditional |\n|---|---|\n| **Gerçekçi**, olabilir | **Hayali**, pek olası değil ya da gerçek dışı |\n| If + present, **will** | If + past, **would** |\n| If I **pass**, I**'ll go** to Italy. | If I **had** a million, I**'d go** to Japan. |\n| If it **rains**, we**'ll stay** in. | If I **were** a bird, I**'d fly**. |\n\n**Aynı durum, farklı ihtimal:**\n\n- If I **get** the job, I**'ll buy** a car. (İş görüşmem iyi geçti, büyük ihtimalle alırım.)\n- If I **got** the job, I**'d buy** a car. (Pek ihtimal vermiyorum.)\n\n**Kendinize sorun:** Bu olabilir mi? **Evet** → first. **Pek değil / imkânsız** → second.",
+        "examples": [
+          {
+            "en": "If I see Deniz tomorrow, I'll give her the book.",
+            "tr": "Yarın Deniz'i görürsem kitabı veririm."
+          },
+          {
+            "en": "If I lived in Norway, I'd see the northern lights.",
+            "tr": "Norveç'te yaşasaydım kuzey ışıklarını görürdüm."
+          },
+          {
+            "en": "If you asked her, she'd probably say yes.",
+            "tr": "Ona sorsan muhtemelen evet derdi."
+          }
+        ],
+        "turkishNote": "Türkçede \"kazanırsam\" (first) ile \"kazansam\" (second) arasındaki fark İngilizcede de vardır. \"-ırsam ... -ırım\" → first conditional; \"-sam ... -ırdım\" → second conditional. Bu eşleştirme çoğu durumda doğru seçimi yapmanıza yardım eder."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Gerçekçi: Yarın arkadaşınla buluşacaksın.",
+          "options": [
+            "If I see him, I'll tell him.",
+            "If I saw him, I'd tell him."
+          ],
+          "answerIndex": 0,
+          "explanation": "Olası → first.",
+          "id": "b1-u04-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hayali: Bir kuş olmak.",
+          "options": [
+            "If I'm a bird, I'll fly.",
+            "If I were a bird, I'd fly."
+          ],
+          "answerIndex": 1,
+          "explanation": "İmkânsız → second.",
+          "id": "b1-u04-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Kazansam, alırdım.\"",
+          "options": [
+            "If I win, I'll buy it.",
+            "If I won, I'd buy it."
+          ],
+          "answerIndex": 1,
+          "explanation": "-sam / -ırdım → second.",
+          "id": "b1-u04-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Kazanırsam, alırım.\"",
+          "options": [
+            "If I win, I'll buy it.",
+            "If I won, I'd buy it."
+          ],
+          "answerIndex": 0,
+          "explanation": "-ırsam / -ırım → first.",
+          "id": "b1-u04-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "If it ___ (rain) tomorrow, we'll stay at home.",
+          "answers": [
+            "rains"
+          ],
+          "explanation": "Olası → present.",
+          "id": "b1-u04-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I ___ (speak) Chinese, I'd work in Beijing.",
+          "answers": [
+            "spoke"
+          ],
+          "explanation": "Hayali → past.",
+          "id": "b1-u04-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If you study hard, you ___ pass. (olası)",
+          "answers": [
+            "'ll",
+            "will"
+          ],
+          "explanation": "First → will.",
+          "id": "b1-u04-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I were taller, I ___ play basketball. (hayali)",
+          "answers": [
+            "'d",
+            "would"
+          ],
+          "explanation": "Second → would.",
+          "id": "b1-u04-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "If I finish work early today, I'll come to your party. But if I lived closer, I'd come to all your parties!",
+          "prompt": "Konuşan bugün partiye gelecek mi?",
+          "options": [
+            "Kesin gelecek",
+            "İşi erken biterse gelecek",
+            "Hiç gelmeyecek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"If I finish work early today, I'll come\"",
+          "id": "b1-u04-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Norveç'te yaşasaydım kuzey ışıklarını görürdüm.\"",
+          "accepted": [
+            "If I lived in Norway, I'd see the northern lights.",
+            "If I lived in Norway, I'd see the northern lights",
+            "If I lived in Norway, I would see the northern lights",
+            "If I lived in Norway, I would see the northern lights.",
+            "I'd see the northern lights if I lived in Norway.",
+            "I'd see the northern lights if I lived in Norway",
+            "I would see the northern lights if I lived in Norway",
+            "I would see the northern lights if I lived in Norway.",
+            "If I lived in Norway I'd see the northern lights.",
+            "If I lived in Norway I'd see the northern lights",
+            "If I lived in Norway I would see the northern lights",
+            "If I lived in Norway I would see the northern lights.",
+            "If I lived in Norway, I could see the northern lights.",
+            "If I lived in Norway, I could see the northern lights"
+          ],
+          "explanation": "If I lived in Norway, I'd see the northern lights.",
+          "id": "b1-u04-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bu yıl için 3 gerçekçi planınızı first conditional ile, 3 hayalinizi second conditional ile anlatın. Hangisinin hangisi olduğunu açıkça belli edin.",
+          "modelAnswer": "If I save enough money, I'll go to Greece in August. If I pass my driving test, I'll buy a small car. If my team wins the league, I'll celebrate all night! But if I were rich, I'd have a house in every country. If I could speak ten languages, I'd work at the UN. And if I had wings, I'd fly to work!",
+          "rubric": [
+            "First conditional doğru",
+            "Second conditional doğru",
+            "İhtimale göre doğru seçim"
+          ]
+        },
+        "id": "b1-u04-l3-use"
+      }
+    },
+    {
+      "id": "b1-u04-l4",
+      "number": 4,
+      "title": "Sen ne yapardın?",
+      "goal": "Ahlaki ikilemleri tartışabilir, would / could / might ile seçeneklerimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Anket: Sen ne yapardın?",
+        "body": "We asked 500 people three difficult questions. Here are the results.\n\n1. If you found a wallet with 5,000 lira in the street, what would you do?\n72% said they would take it to the police. 18% said they might keep some of the money. 10% said they would keep it all.\n\n2. If your best friend cheated in an exam, would you tell the teacher?\nOnly 15% said yes. Most people said they would talk to their friend first.\n\n3. If you could read people's minds, would you do it?\n61% said no. As one person said: \"If I knew what everyone thought about me, I'd never leave the house!\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What would most people do with the wallet?",
+            "options": [
+              "Keep it",
+              "Take it to the police",
+              "Give it to charity"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"72% said they would take it to the police.\"",
+            "id": "b1-u04-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Would most people like to read minds?",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"61% said no.\"",
+            "id": "b1-u04-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Second conditional'ın sonuç kısmında would dışında başka modallar da kullanılabilir:\n\n| Modal | Anlam | Örnek |\n|---|---|---|\n| **would** | kesin hayali sonuç | I**'d** take it to the police. |\n| **might** | belki | I **might** keep some of the money. |\n| **could** | yapabilirdim (olanak) | If I had a car, I **could** drive you home. |\n\n**if kısmında could:** = was/were able to\n\n- **If I could** read minds, I'd know the truth. (Okuyabilseydim)\n\n**Fikir sormak ve tartışmak:**\n\n- **Would you** tell the teacher? – **It depends.** / I'm not sure.\n- **I'd probably** ... / **I don't think I'd** ...\n- **I'd rather** + fiil: I'd rather talk to my friend first. (… tercih ederdim)",
+        "examples": [
+          {
+            "en": "If I saw someone stealing, I might call the police.",
+            "tr": "Birinin çaldığını görsem polisi arayabilirdim."
+          },
+          {
+            "en": "If I could live anywhere, I'd live in Lisbon.",
+            "tr": "İstediğim yerde yaşayabilsem Lizbon'da yaşardım."
+          },
+          {
+            "en": "I don't think I'd tell anyone.",
+            "tr": "Kimseye söyleyeceğimi sanmıyorum."
+          }
+        ],
+        "turkishNote": "\"Söylemezdim sanırım\" için \"I think I wouldn't tell\" yerine \"I don't think I'd tell\" demek çok daha doğaldır. İngilizcede olumsuzluk genellikle think'e eklenir: I don't think I'd do that."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Belki: \"I ___ keep the money.\"",
+          "options": [
+            "would",
+            "might",
+            "will"
+          ],
+          "answerIndex": 1,
+          "explanation": "Belki → might.",
+          "id": "b1-u04-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "If I had a car, I ___ drive you to the airport. (olanak)",
+          "options": [
+            "could",
+            "can",
+            "will"
+          ],
+          "answerIndex": 0,
+          "explanation": "could.",
+          "id": "b1-u04-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Daha doğal olan:",
+          "options": [
+            "I think I wouldn't tell her.",
+            "I don't think I'd tell her."
+          ],
+          "answerIndex": 1,
+          "explanation": "I don't think I'd...",
+          "id": "b1-u04-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I ___ (could) fly, I'd go to Australia.",
+          "answers": [
+            "could"
+          ],
+          "explanation": "If I could...",
+          "id": "b1-u04-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would you tell the teacher? – It ___. (duruma bağlı)",
+          "answers": [
+            "depends"
+          ],
+          "explanation": "It depends.",
+          "id": "b1-u04-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd ___ talk to my friend first. (tercih ederdim)",
+          "answers": [
+            "rather"
+          ],
+          "explanation": "I'd rather.",
+          "id": "b1-u04-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If you found a wallet, what ___ you do?",
+          "answers": [
+            "would"
+          ],
+          "explanation": "what would you do?",
+          "id": "b1-u04-l4-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I'd",
+              "right": "yapardım"
+            },
+            {
+              "left": "I might",
+              "right": "belki yapardım"
+            },
+            {
+              "left": "I could",
+              "right": "yapabilirdim"
+            },
+            {
+              "left": "I wouldn't",
+              "right": "yapmazdım"
+            },
+            {
+              "left": "I'd rather",
+              "right": "tercih ederdim"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b1-u04-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "If a shop assistant gave me too much change, I'd tell them. I wouldn't feel good if I kept it.",
+          "prompt": "Fazla para üstü alsa ne yapar?",
+          "options": [
+            "Saklar",
+            "Görevliye söyler",
+            "Hayır kurumuna verir"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'd tell them\"",
+          "id": "b1-u04-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İstediğim yerde yaşayabilsem Lizbon'da yaşardım.\"",
+          "accepted": [
+            "If I could live anywhere, I'd live in Lisbon.",
+            "If I could live anywhere, I'd live in Lisbon",
+            "If I could live anywhere, I would live in Lisbon",
+            "If I could live anywhere, I would live in Lisbon.",
+            "I'd live in Lisbon if I could live anywhere.",
+            "I'd live in Lisbon if I could live anywhere",
+            "I would live in Lisbon if I could live anywhere",
+            "I would live in Lisbon if I could live anywhere.",
+            "If I could live anywhere I'd live in Lisbon.",
+            "If I could live anywhere I'd live in Lisbon",
+            "If I could live anywhere I would live in Lisbon",
+            "If I could live anywhere I would live in Lisbon."
+          ],
+          "explanation": "If I could live anywhere, I'd live in Lisbon.",
+          "id": "b1-u04-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Anketteki üç soruya kendi cevabınızı verin ve gerekçenizi söyleyin. would, might, could, I'd rather ve It depends kalıplarını kullanın. JAI size zor bir ek soru soracak.",
+          "modelAnswer": "If I found a wallet with 5,000 lira, I'd take it to the police. I wouldn't feel good if I kept it. If my best friend cheated, I don't think I'd tell the teacher. I'd rather talk to my friend first. If I could read minds, I might do it for one day, but not forever.",
+          "rubric": [
+            "would / might / could",
+            "Gerekçe sunma",
+            "Doğal ifadeler (It depends, I'd rather)"
+          ]
+        },
+        "id": "b1-u04-l4-use"
+      }
+    },
+    {
+      "id": "b1-u04-l5",
+      "number": 5,
+      "title": "Hayalimdeki hayat",
+      "goal": "Hayallerimi ve hedeflerimi anlatabilir, gerçekçi adımlarla hayali durumları bir arada kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kariyer koçuyla",
+        "lines": [
+          {
+            "speaker": "Coach",
+            "text": "So, imagine anything was possible. What would your dream life look like?"
+          },
+          {
+            "speaker": "Yasin",
+            "text": "I'd live by the sea and I'd run my own restaurant."
+          },
+          {
+            "speaker": "Coach",
+            "text": "Lovely. What's stopping you?"
+          },
+          {
+            "speaker": "Yasin",
+            "text": "Money, mainly. And I don't have enough experience. If I had more experience, I'd feel more confident."
+          },
+          {
+            "speaker": "Coach",
+            "text": "OK. So what could you do this year to get closer to your goal?"
+          },
+          {
+            "speaker": "Yasin",
+            "text": "If I take a cooking course and work part-time in a kitchen, I'll learn a lot. That's a realistic first step."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Yasin's dream?",
+            "options": [
+              "To be a teacher",
+              "To run his own restaurant by the sea",
+              "To travel the world"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd live by the sea and I'd run my own restaurant.\"",
+            "id": "b1-u04-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is his realistic first step?",
+            "options": [
+              "Buying a restaurant",
+              "Taking a cooking course and working part-time in a kitchen",
+              "Moving to the sea"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"If I take a cooking course and work part-time in a kitchen\"",
+            "id": "b1-u04-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hayalleri anlatmak:**\n\n- **My dream is to** + fiil: My dream is to run a restaurant.\n- **I've always dreamed of** + -ing: I've always dreamed of living abroad.\n- **I'd love to** + fiil: I'd love to learn to sail.\n- **Imagine** + hayali durum: Imagine you had no job. What would you do?\n\n**Hayal (second) → gerçekçi adım (first):**\n\n| Hayal | Adım |\n|---|---|\n| If I **had** more experience, I**'d feel** more confident. | If I **take** a course, I**'ll learn** a lot. |\n| If I **spoke** perfect English, I**'d work** abroad. | If I **practise** every day, I**'ll improve**. |\n\n**Engelleri anlatmak:**\n\n- **What's stopping me is** ...\n- **The problem is that** ...\n- **I'm not ready yet**, but ...",
+        "examples": [
+          {
+            "en": "I've always dreamed of having a house with a garden.",
+            "tr": "Hep bahçeli bir evim olsun istedim."
+          },
+          {
+            "en": "I'd love to write a novel one day.",
+            "tr": "Bir gün bir roman yazmayı çok isterim."
+          },
+          {
+            "en": "What's stopping me is fear.",
+            "tr": "Beni durduran şey korku."
+          }
+        ],
+        "turkishNote": "\"I'd love to\" (çok isterim) ile \"I love to\" (yapmayı severim) farklıdır. \"I'd love to go to Japan\" bir isteği, \"I love going to the cinema\" ise bir alışkanlığı anlatır. \"dream of\" kalıbında of'tan sonra fiil -ing alır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Japonya'ya gitmeyi çok isterim.\"",
+          "options": [
+            "I love to go to Japan.",
+            "I'd love to go to Japan."
+          ],
+          "answerIndex": 1,
+          "explanation": "İstek → I'd love to.",
+          "id": "b1-u04-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I've always dreamed ___ living abroad.",
+          "options": [
+            "to",
+            "of",
+            "for"
+          ],
+          "answerIndex": 1,
+          "explanation": "dream of + -ing.",
+          "id": "b1-u04-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "My dream is ___ my own business.",
+          "options": [
+            "start",
+            "to start",
+            "starting of"
+          ],
+          "answerIndex": 1,
+          "explanation": "My dream is to...",
+          "id": "b1-u04-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've always dreamed of ___ (have) a big family.",
+          "answers": [
+            "having"
+          ],
+          "explanation": "of + -ing.",
+          "id": "b1-u04-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you had no job. What would you do? (hayal et)",
+          "answers": [
+            "Imagine"
+          ],
+          "explanation": "Imagine...",
+          "id": "b1-u04-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What's ___ me is money. (durduran)",
+          "answers": [
+            "stopping"
+          ],
+          "explanation": "What's stopping me...",
+          "id": "b1-u04-l5-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gerçekçi adım:",
+          "options": [
+            "If I practise every day, I'll improve.",
+            "If I practised every day, I'd improve."
+          ],
+          "answerIndex": 0,
+          "explanation": "Gerçekçi plan → first.",
+          "id": "b1-u04-l5-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "I'd",
+            "to",
+            "love",
+            "write",
+            "a",
+            "novel",
+            "one",
+            "day"
+          ],
+          "answer": "I'd love to write a novel one day.",
+          "explanation": "I'd love to + fiil.",
+          "translation": "Bir gün bir roman yazmayı çok isterim.",
+          "id": "b1-u04-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've always dreamed of being a vet. If I were younger, I'd go back to university. But I'll volunteer at an animal shelter next month. It's a start!",
+          "prompt": "Konuşan gelecek ay ne yapacak?",
+          "options": [
+            "Üniversiteye dönecek",
+            "Bir hayvan barınağında gönüllü çalışacak",
+            "Veteriner olacak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'll volunteer at an animal shelter next month\"",
+          "id": "b1-u04-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hep bahçeli bir evim olsun istedim.\" (dream of)",
+          "accepted": [
+            "I've always dreamed of having a house with a garden.",
+            "I've always dreamed of having a house with a garden",
+            "I have always dreamed of having a house with a garden.",
+            "I have always dreamed of having a house with a garden",
+            "I've always dreamt of having a house with a garden.",
+            "I've always dreamt of having a house with a garden"
+          ],
+          "explanation": "I've always dreamed of + having...",
+          "id": "b1-u04-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "\"Hayalimdeki hayat\" başlıklı bir paragraf yazın (120–150 kelime). Hayalinizi second conditional ile anlatın, sizi durduran engelleri söyleyin ve bu yıl atabileceğiniz gerçekçi adımları first conditional ile yazın. dream of, I'd love to ve If I were... kullanın.",
+          "modelAnswer": "I've always dreamed of living in a small village in Italy. If I lived there, I'd wake up early, walk to the market and buy fresh bread. I'd love to grow my own vegetables, and I'd paint in the afternoons. If I were braver, I'd move tomorrow! What's stopping me is my job and, of course, money. I also don't speak Italian. But I can start now. If I take an Italian course this year, I'll be able to talk to people when I visit. If I save a little every month, I'll go to Italy for a long holiday next summer. Maybe one day my dream will come true.",
+          "rubric": [
+            "Second conditional ile hayal",
+            "First conditional ile gerçekçi adımlar",
+            "dream of / I'd love to",
+            "Engelleri anlatma",
+            "Düzenli paragraf"
+          ]
+        },
+        "id": "b1-u04-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "If I would have money, I'd travel.",
+          "If I had money, I'd travel."
+        ],
+        "answerIndex": 1,
+        "explanation": "if + past",
+        "id": "b1-u04-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "If I ___ you, I'd say sorry.",
+        "options": [
+          "am",
+          "were",
+          "will be"
+        ],
+        "answerIndex": 1,
+        "explanation": "If I were you",
+        "id": "b1-u04-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "If she knew the answer, she ___ tell us.",
+        "options": [
+          "will",
+          "would",
+          "does"
+        ],
+        "answerIndex": 1,
+        "explanation": "would",
+        "id": "b1-u04-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Gerçekçi: \"If it ___ tomorrow, we'll cancel the match.\"",
+        "options": [
+          "rains",
+          "rained"
+        ],
+        "answerIndex": 0,
+        "explanation": "First",
+        "id": "b1-u04-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hayali: \"If I ___ invisible, I'd visit the museum at night.\"",
+        "options": [
+          "am",
+          "were"
+        ],
+        "answerIndex": 1,
+        "explanation": "Second",
+        "id": "b1-u04-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "What would you do if you ___ (lose) your phone?",
+        "answers": [
+          "lost"
+        ],
+        "explanation": "past",
+        "id": "b1-u04-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "I ___ (not) tell anyone if I were you.",
+        "answers": [
+          "wouldn't",
+          "would not"
+        ],
+        "explanation": "wouldn't",
+        "id": "b1-u04-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "If I had a car, I ___ drive you home. (olanak)",
+        "answers": [
+          "could"
+        ],
+        "explanation": "could",
+        "id": "b1-u04-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Daha doğal:",
+        "options": [
+          "I think I wouldn't go.",
+          "I don't think I'd go."
+        ],
+        "answerIndex": 1,
+        "explanation": "I don't think I'd...",
+        "id": "b1-u04-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I've always dreamed ___ being a pilot.",
+        "options": [
+          "of",
+          "to"
+        ],
+        "answerIndex": 0,
+        "explanation": "dream of",
+        "id": "b1-u04-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'd ___ to visit Peru one day. (çok isterim)",
+        "answers": [
+          "love",
+          "like"
+        ],
+        "explanation": "I'd love to",
+        "id": "b1-u04-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Gidersem görürüm.\"",
+        "options": [
+          "If I go, I'll see it.",
+          "If I went, I'd see it."
+        ],
+        "answerIndex": 0,
+        "explanation": "-ırsam → first",
+        "id": "b1-u04-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "If I could change one thing about my city, I'd add more parks. If the mayor listens to us, maybe they'll build one next year.",
+        "prompt": "Konuşan şehrinde neyi değiştirmek isterdi?",
+        "options": [
+          "Daha fazla park",
+          "Daha az trafik",
+          "Daha çok müze"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"I'd add more parks\"",
+        "id": "b1-u04-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Senin yerinde olsam doktora giderdim.\"",
+        "accepted": [
+          "If I were you, I'd go to the doctor.",
+          "If I were you, I'd go to the doctor",
+          "If I were you, I would go to the doctor",
+          "If I were you, I would go to the doctor.",
+          "If I were you, I'd see a doctor.",
+          "If I were you, I'd see a doctor",
+          "If I were you, I would see a doctor",
+          "If I were you, I would see a doctor.",
+          "I'd go to the doctor if I were you.",
+          "I'd go to the doctor if I were you",
+          "I would go to the doctor if I were you",
+          "I would go to the doctor if I were you.",
+          "If I was you, I'd go to the doctor.",
+          "If I was you, I'd go to the doctor",
+          "If I was you, I would go to the doctor",
+          "If I was you, I would go to the doctor.",
+          "If I were you I'd go to the doctor.",
+          "If I were you I'd go to the doctor",
+          "If I were you I would go to the doctor",
+          "If I were you I would go to the doctor."
+        ],
+        "explanation": "If I were you, I'd go to the doctor.",
+        "id": "b1-u04-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Bir yıllığına istediğin her şeyi yapabilseydin ne yapardın?\" sorusuna cevap verin (120–150 kelime). Second conditional (would, could, might), If I were..., I'd love to ve en az bir gerçekçi plan (first conditional) kullanın.",
+        "modelAnswer": "If I could do anything for a year, I'd travel around the world. First, I'd go to South America. I'd love to see Machu Picchu and the Amazon. Then I might spend a few months in Asia. If I had enough time, I'd learn to cook Thai food in Bangkok. I'd also volunteer for a charity, because I'd like to help people too. If I were braver, I'd try skydiving! Of course, I can't do this now because I have a job. But if I save money for the next three years, I'll take a long trip in 2030. I don't think I'd stay away for a whole year, but six months would be amazing.",
+        "rubric": [
+          "Second conditional (would / could / might)",
+          "If I were...",
+          "First conditional ile gerçekçi plan",
+          "Hayal kelimeleri",
+          "Akıcı paragraf"
+        ],
+        "id": "b1-u04-t15"
+      }
+    ]
+  }
+}
