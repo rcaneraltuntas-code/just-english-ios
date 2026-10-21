@@ -113,7 +113,7 @@ u.lesson(
         {"speaker": "Arda", "text": "Fair enough. When we get there, let's have lunch first."},
         {"speaker": "Melis", "text": "Good idea. And unless we leave early, the car park will be full."},
         {"speaker": "Arda", "text": "OK, I'll pick you up at nine. If I'm late, I'll text you."},
-        {"speaker": "Melis", "text": "You'd better not be late!"}],
+        {"speaker": "Melis", "text": "Don't be late this time!"}],
      "questions": [
         mc("When will Melis buy something?", ["Only if it's at least 30% off", "Only if Arda pays", "Only after lunch"], 0, "\"unless it's at least 30% off\""),
         mc("What will happen unless they leave early?", ["The shops will close.", "The car park will be full.", "They will miss lunch."], 1, "\"unless we leave early, the car park will be full\""),
