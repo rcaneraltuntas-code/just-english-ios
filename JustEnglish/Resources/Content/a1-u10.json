@@ -1,0 +1,1471 @@
+{
+  "id": "a1-u10",
+  "level": "A1",
+  "number": 10,
+  "title": "Alışveriş",
+  "titleEn": "Shopping",
+  "canDo": "Mağazada fiyat sorabilir, beden ve renk isteyebilir, bir şeyi deneyip satın alabilirim.",
+  "grammar": [
+    "sayılar 20–1000 ve fiyatlar",
+    "How much / How many",
+    "nesne zamirleri: it / them",
+    "too + sıfat",
+    "Which one? / one / ones"
+  ],
+  "vocabularyThemes": [
+    "kıyafetler",
+    "beden ve fiyat",
+    "mağaza ifadeleri"
+  ],
+  "liveClass": {
+    "title": "Pazar yeri",
+    "durationMinutes": 45,
+    "goal": "Sınıf iki gruba ayrılır: satıcılar ve müşteriler. Her müşterinin bir alışveriş listesi ve 1000 liralık bütçesi vardır. Fiyat sorup beden ve renk isteyerek listedeki her şeyi bütçeyi aşmadan almaya çalışırlar; sonra roller değişir."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u10-v01",
+      "en": "clothes",
+      "tr": "kıyafetler",
+      "example": "I need some new clothes.",
+      "exampleTr": "Yeni kıyafetlere ihtiyacım var.",
+      "note": "Her zaman çoğul; tekili yok."
+    },
+    {
+      "id": "a1-u10-v02",
+      "en": "shirt",
+      "tr": "gömlek",
+      "example": "He's wearing a white shirt.",
+      "exampleTr": "Beyaz bir gömlek giyiyor."
+    },
+    {
+      "id": "a1-u10-v03",
+      "en": "T-shirt",
+      "tr": "tişört",
+      "example": "This T-shirt is cotton.",
+      "exampleTr": "Bu tişört pamuklu."
+    },
+    {
+      "id": "a1-u10-v04",
+      "en": "trousers",
+      "tr": "pantolon",
+      "example": "These trousers are too long.",
+      "exampleTr": "Bu pantolon çok uzun.",
+      "note": "Her zaman çoğul: a pair of trousers. Amerikan: pants."
+    },
+    {
+      "id": "a1-u10-v05",
+      "en": "jeans",
+      "tr": "kot pantolon",
+      "example": "I usually wear jeans.",
+      "exampleTr": "Genelde kot giyerim.",
+      "note": "Çoğul: these jeans."
+    },
+    {
+      "id": "a1-u10-v06",
+      "en": "dress",
+      "tr": "elbise",
+      "example": "That's a beautiful dress.",
+      "exampleTr": "Çok güzel bir elbise."
+    },
+    {
+      "id": "a1-u10-v07",
+      "en": "skirt",
+      "tr": "etek",
+      "example": "She has a long black skirt.",
+      "exampleTr": "Uzun siyah bir eteği var."
+    },
+    {
+      "id": "a1-u10-v08",
+      "en": "jacket",
+      "tr": "ceket, mont",
+      "example": "Take your jacket. It's cold.",
+      "exampleTr": "Montunu al, hava soğuk."
+    },
+    {
+      "id": "a1-u10-v09",
+      "en": "coat",
+      "tr": "palto",
+      "example": "I need a warm coat for winter.",
+      "exampleTr": "Kış için sıcak bir paltoya ihtiyacım var."
+    },
+    {
+      "id": "a1-u10-v10",
+      "en": "jumper",
+      "tr": "kazak",
+      "example": "This jumper is very warm.",
+      "exampleTr": "Bu kazak çok sıcak tutuyor.",
+      "note": "Amerikan: sweater."
+    },
+    {
+      "id": "a1-u10-v11",
+      "en": "shoes",
+      "tr": "ayakkabı",
+      "example": "Where are my shoes?",
+      "exampleTr": "Ayakkabılarım nerede?"
+    },
+    {
+      "id": "a1-u10-v12",
+      "en": "trainers",
+      "tr": "spor ayakkabı",
+      "example": "I wear trainers at the gym.",
+      "exampleTr": "Spor salonunda spor ayakkabı giyerim.",
+      "note": "Amerikan: sneakers."
+    },
+    {
+      "id": "a1-u10-v13",
+      "en": "hat",
+      "tr": "şapka",
+      "example": "Wear a hat in the sun.",
+      "exampleTr": "Güneşte şapka tak."
+    },
+    {
+      "id": "a1-u10-v14",
+      "en": "wear",
+      "tr": "giymek, giyinik olmak",
+      "example": "I wear a uniform at work.",
+      "exampleTr": "İşte üniforma giyerim."
+    },
+    {
+      "id": "a1-u10-v15",
+      "en": "size",
+      "tr": "beden, numara",
+      "example": "What size are you? – Medium.",
+      "exampleTr": "Bedenin ne? – Orta.",
+      "note": "small (S), medium (M), large (L)"
+    },
+    {
+      "id": "a1-u10-v16",
+      "en": "try on",
+      "tr": "denemek (kıyafet)",
+      "example": "Can I try it on?",
+      "exampleTr": "Deneyebilir miyim?",
+      "note": "try it on (it ortada)."
+    },
+    {
+      "id": "a1-u10-v17",
+      "en": "fitting room",
+      "tr": "deneme kabini",
+      "example": "The fitting rooms are over there.",
+      "exampleTr": "Deneme kabinleri şurada."
+    },
+    {
+      "id": "a1-u10-v18",
+      "en": "price",
+      "tr": "fiyat",
+      "example": "The price is on the label.",
+      "exampleTr": "Fiyat etikette yazıyor."
+    },
+    {
+      "id": "a1-u10-v19",
+      "en": "expensive",
+      "tr": "pahalı",
+      "example": "These shoes are too expensive.",
+      "exampleTr": "Bu ayakkabılar çok pahalı."
+    },
+    {
+      "id": "a1-u10-v20",
+      "en": "cheap",
+      "tr": "ucuz",
+      "example": "This market is cheap.",
+      "exampleTr": "Bu pazar ucuz."
+    },
+    {
+      "id": "a1-u10-v21",
+      "en": "sale",
+      "tr": "indirim",
+      "example": "Everything is 50% off in the sale.",
+      "exampleTr": "İndirimde her şey %50 indirimli.",
+      "note": "on sale / in the sale"
+    },
+    {
+      "id": "a1-u10-v22",
+      "en": "pay",
+      "tr": "ödemek",
+      "example": "Can I pay by card?",
+      "exampleTr": "Kartla ödeyebilir miyim?",
+      "note": "pay by card / pay in cash"
+    },
+    {
+      "id": "a1-u10-v23",
+      "en": "hundred",
+      "tr": "yüz",
+      "example": "It's two hundred lira.",
+      "exampleTr": "İki yüz lira.",
+      "note": "two hundred (two hundreds değil)."
+    },
+    {
+      "id": "a1-u10-v24",
+      "en": "thousand",
+      "tr": "bin",
+      "example": "A thousand people work here.",
+      "exampleTr": "Burada bin kişi çalışıyor."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u10-l1",
+      "number": 1,
+      "title": "Kıyafetler",
+      "goal": "Kıyafetlerin adını söyleyip ne giydiğimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Moda blogu: Bir haftam",
+        "body": "Hi, I'm Defne and I'm a teacher. People often ask me: \"What do you wear to work?\"\n\nFrom Monday to Thursday I usually wear trousers, a shirt and comfortable shoes. I stand all day!\n\nOn Fridays our school is casual, so I wear jeans, a T-shirt and trainers.\n\nAt the weekend I love wearing dresses. In winter I always wear my big red coat and a hat.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Defne wear on Fridays?",
+            "options": [
+              "Trousers and a shirt",
+              "Jeans, a T-shirt and trainers",
+              "A dress"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"On Fridays ... I wear jeans, a T-shirt and trainers.\"",
+            "id": "a1-u10-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does she wear comfortable shoes?",
+            "options": [
+              "She walks to school.",
+              "She stands all day.",
+              "They're cheap."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I stand all day!\"",
+            "id": "a1-u10-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**wear** = giymek / üzerinde olmak. Kıyafet, ayakkabı, şapka, gözlük, saat için de kullanılır.\n\n- I **wear** jeans at the weekend.\n- She **wears** glasses.\n\n**Hep çoğul olan kıyafetler:** trousers, jeans, shorts, shoes, trainers, glasses. Bunlarla **are** ve **these/those** kullanılır:\n\n- My jeans **are** blue. (~~My jeans is~~)\n- **These** trousers are nice.\n\nTek bir tane için: **a pair of** trousers / shoes (bir pantolon, bir çift ayakkabı).",
+        "examples": [
+          {
+            "en": "I always wear a jacket in autumn.",
+            "tr": "Sonbaharda hep ceket giyerim."
+          },
+          {
+            "en": "Your shoes are dirty!",
+            "tr": "Ayakkabıların kirli!"
+          },
+          {
+            "en": "I want to buy a pair of jeans.",
+            "tr": "Bir kot pantolon almak istiyorum."
+          }
+        ],
+        "turkishNote": "Türkçede \"pantolon\" tekildir (bu pantolon), İngilizcede trousers çoğuldur (these trousers are). \"Şapka takmak\", \"gözlük takmak\" İngilizcede de wear: wear a hat, wear glasses."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "jumper",
+              "right": "kazak"
+            },
+            {
+              "left": "skirt",
+              "right": "etek"
+            },
+            {
+              "left": "coat",
+              "right": "palto"
+            },
+            {
+              "left": "trainers",
+              "right": "spor ayakkabı"
+            },
+            {
+              "left": "dress",
+              "right": "elbise"
+            }
+          ],
+          "explanation": "Kıyafetleri eşleştirin.",
+          "id": "a1-u10-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My jeans is new.",
+            "My jeans are new."
+          ],
+          "answerIndex": 1,
+          "explanation": "jeans hep çoğul → are.",
+          "id": "a1-u10-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "This trousers are nice.",
+            "These trousers are nice."
+          ],
+          "answerIndex": 1,
+          "explanation": "trousers çoğul → these.",
+          "id": "a1-u10-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ glasses. (takar)",
+          "answers": [
+            "wears"
+          ],
+          "explanation": "wear + -s (she).",
+          "id": "a1-u10-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I need a ___ of shoes for the wedding.",
+          "answers": [
+            "pair"
+          ],
+          "explanation": "a pair of shoes = bir çift ayakkabı.",
+          "id": "a1-u10-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kışın ne giyilir?",
+          "options": [
+            "a coat",
+            "shorts",
+            "a T-shirt"
+          ],
+          "answerIndex": 0,
+          "explanation": "Soğukta palto.",
+          "id": "a1-u10-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "usually",
+            "I",
+            "wear",
+            "jeans",
+            "at",
+            "the",
+            "weekend"
+          ],
+          "answer": "I usually wear jeans at the weekend.",
+          "explanation": "Sıklık zarfı fiilden önce.",
+          "translation": "Hafta sonu genelde kot giyerim.",
+          "id": "a1-u10-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Today I'm in a hurry, so I wear my black jeans, a grey jumper and my old trainers.",
+          "prompt": "Kazak ne renk?",
+          "options": [
+            "Siyah",
+            "Gri",
+            "Beyaz"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"a grey jumper\"",
+          "id": "a1-u10-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İşte üniforma giyerim.\"",
+          "accepted": [
+            "I wear a uniform at work.",
+            "I wear a uniform at work"
+          ],
+          "explanation": "wear a uniform + at work.",
+          "id": "a1-u10-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What do you wear to work?\" cevabı:",
+          "options": [
+            "A shirt and trousers.",
+            "By bus.",
+            "At nine."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ne giyiyorsun → kıyafet.",
+          "id": "a1-u10-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hafta içi ve hafta sonu genelde ne giydiğinizi anlatın. En az 4 kıyafet ve renk kullanın.",
+          "modelAnswer": "On weekdays I wear a white shirt, black trousers and black shoes. At the weekend I usually wear jeans, a blue jumper and trainers.",
+          "rubric": [
+            "Kıyafet isimleri doğru",
+            "Çoğul kıyafetlerde are/these",
+            "wear ve sıklık zarfı doğru"
+          ]
+        },
+        "id": "a1-u10-l1-use"
+      }
+    },
+    {
+      "id": "a1-u10-l2",
+      "number": 2,
+      "title": "Büyük sayılar ve fiyatlar",
+      "goal": "20'den 1000'e kadar sayıları ve fiyatları söyleyip anlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Pazarda",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Excuse me, how much is this scarf?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "It's one hundred and fifty lira."
+          },
+          {
+            "speaker": "Customer",
+            "text": "And how much are those gloves?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "They're ninety-five lira."
+          },
+          {
+            "speaker": "Customer",
+            "text": "OK, I'll take the scarf and the gloves, please."
+          },
+          {
+            "speaker": "Seller",
+            "text": "That's two hundred and forty-five lira."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How much is the scarf?",
+            "options": [
+              "115 lira",
+              "150 lira",
+              "250 lira"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"one hundred and fifty\"",
+            "id": "a1-u10-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How much is everything?",
+            "options": [
+              "245 lira",
+              "195 lira",
+              "205 lira"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"two hundred and forty-five lira\"",
+            "id": "a1-u10-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Onluklar:** twenty (20), thirty (30), forty (40), fifty (50), sixty (60), seventy (70), eighty (80), ninety (90)\n\n- 21 = twenty**-**one, 47 = forty**-**seven (tire ile)\n- Dikkat: **forty** (fourty değil)\n\n**Yüzler ve binler:**\n\n- 100 = **a / one hundred**\n- 350 = three hundred **and** fifty\n- 999 = nine hundred **and** ninety-nine\n- 1000 = **a / one thousand**\n\nİngiliz İngilizcesinde yüzlerden sonra **and** söylenir. hundred ve thousand çoğul -s almaz: ~~two hundreds~~.\n\n**Fiyat sormak:** How much **is** this hat? / How much **are** these shoes? – **It's** / **They're** 300 lira.",
+        "examples": [
+          {
+            "en": "It's sixty-five lira.",
+            "tr": "65 lira."
+          },
+          {
+            "en": "These boots are four hundred and twenty lira.",
+            "tr": "Bu botlar 420 lira."
+          },
+          {
+            "en": "How much is it altogether?",
+            "tr": "Hepsi ne kadar?"
+          }
+        ],
+        "turkishNote": "thirteen (13) ile thirty (30) dinlerken kolay karışır: -teen'de vurgu sondadır (thir-TEEN), -ty'de baştadır (THIR-ty). Türkçedeki gibi İngilizcede de sayıdan sonra para birimi tekil kalabilir: 50 lira; ama dollar ve pound çoğul olur: 50 dollars, 20 pounds."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "40",
+              "right": "forty"
+            },
+            {
+              "left": "15",
+              "right": "fifteen"
+            },
+            {
+              "left": "50",
+              "right": "fifty"
+            },
+            {
+              "left": "90",
+              "right": "ninety"
+            },
+            {
+              "left": "13",
+              "right": "thirteen"
+            }
+          ],
+          "explanation": "Sayıları eşleştirin.",
+          "id": "a1-u10-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "78",
+          "options": [
+            "seventy-eight",
+            "seventeen-eight",
+            "eighty-seven"
+          ],
+          "answerIndex": 0,
+          "explanation": "70 = seventy, + eight.",
+          "id": "a1-u10-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru yazılmış?",
+          "options": [
+            "fourty",
+            "forty"
+          ],
+          "answerIndex": 1,
+          "explanation": "forty (u yok).",
+          "id": "a1-u10-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "300",
+          "options": [
+            "three hundreds",
+            "three hundred",
+            "thirty hundred"
+          ],
+          "answerIndex": 1,
+          "explanation": "hundred -s almaz.",
+          "id": "a1-u10-l2-p04"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Rakamla yazın: \"five hundred and sixty\"",
+          "accepted": [
+            "560"
+          ],
+          "explanation": "500 + 60 = 560",
+          "id": "a1-u10-l2-p05"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Yazıyla yazın: 250",
+          "accepted": [
+            "two hundred and fifty",
+            "two hundred fifty",
+            "two-hundred and fifty"
+          ],
+          "explanation": "two hundred and fifty",
+          "id": "a1-u10-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "How much ___ these shoes?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "shoes çoğul → are.",
+          "id": "a1-u10-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "How much is this hat? – ___ eighty lira.",
+          "answers": [
+            "It's",
+            "It is"
+          ],
+          "explanation": "Tekil → It's.",
+          "id": "a1-u10-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The jacket is seven hundred and thirty lira.",
+          "prompt": "Ceket kaç lira?",
+          "options": [
+            "370",
+            "730",
+            "713"
+          ],
+          "answerIndex": 1,
+          "explanation": "seven hundred and thirty = 730.",
+          "id": "a1-u10-l2-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "These are thirteen pounds, and those are thirty pounds.",
+          "prompt": "\"those\" kaç pound?",
+          "options": [
+            "13",
+            "30",
+            "33"
+          ],
+          "answerIndex": 1,
+          "explanation": "THIR-ty = 30.",
+          "id": "a1-u10-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI pazarcı. Üç ürünün fiyatını sorun (biri çoğul olsun) ve toplamı sorun.",
+          "modelAnswer": "How much is this T-shirt? How much are those socks? OK, I'll take them. How much is it altogether?",
+          "rubric": [
+            "How much is / are doğru",
+            "Sayıları anladı ve tekrar etti",
+            "I'll take ... ile satın aldı"
+          ]
+        },
+        "id": "a1-u10-l2-use"
+      }
+    },
+    {
+      "id": "a1-u10-l3",
+      "number": 3,
+      "title": "How much? How many?",
+      "goal": "Miktar ve sayı sorularını doğru kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Alışveriş listesi",
+        "lines": [
+          {
+            "speaker": "Ece",
+            "text": "We need T-shirts for the volleyball team. How many players are there?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "There are twelve players."
+          },
+          {
+            "speaker": "Ece",
+            "text": "OK, twelve T-shirts. How much money do we have?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "We have two thousand lira."
+          },
+          {
+            "speaker": "Ece",
+            "text": "And how much is one T-shirt?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "It's one hundred and fifty lira. So that's one thousand eight hundred lira."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many players are in the team?",
+            "options": [
+              "Ten",
+              "Twelve",
+              "Twenty"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"There are twelve players.\"",
+            "id": "a1-u10-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How much money do they have?",
+            "options": [
+              "1,800 lira",
+              "2,000 lira",
+              "1,500 lira"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"two thousand lira\"",
+            "id": "a1-u10-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "7. ünitede sayılabilen ve sayılamayan isimleri gördük. Soru kelimesi bu farka göre değişir:\n\n| | Ne ile? | Örnek |\n|---|---|---|\n| **How many** | sayılabilen çoğul | How many **shirts** do you have? |\n| **How much** | sayılamayan | How much **money** / **time** / **water**? |\n| **How much** | fiyat | How much **is** it? |\n\n- How many **people**? (people çoğul: kişiler)\n- How much **milk** do we need?",
+        "examples": [
+          {
+            "en": "How many brothers do you have?",
+            "tr": "Kaç erkek kardeşin var?"
+          },
+          {
+            "en": "How much time do we have?",
+            "tr": "Ne kadar vaktimiz var?"
+          },
+          {
+            "en": "How many people work here?",
+            "tr": "Burada kaç kişi çalışıyor?"
+          }
+        ],
+        "turkishNote": "Türkçede \"kaç\" ve \"ne kadar\" ayrımı İngilizcedeki ayrıma çok benzer: kaç tişört = how many T-shirts, ne kadar para = how much money. Dikkat: Türkçede \"kaç\"tan sonra isim tekildir (kaç tişört), İngilizcede çoğuldur (how many T-shirts)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ apples do you want?",
+          "options": [
+            "much",
+            "many"
+          ],
+          "answerIndex": 1,
+          "explanation": "apples sayılabilen → many.",
+          "id": "a1-u10-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ water do you drink?",
+          "options": [
+            "much",
+            "many"
+          ],
+          "answerIndex": 0,
+          "explanation": "water sayılamayan → much.",
+          "id": "a1-u10-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ people are at the party?",
+          "options": [
+            "much",
+            "many"
+          ],
+          "answerIndex": 1,
+          "explanation": "people çoğul → many.",
+          "id": "a1-u10-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ is this jacket? (fiyat)",
+          "options": [
+            "much",
+            "many"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fiyat → how much.",
+          "id": "a1-u10-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "How many ___ do you have? (shoe)",
+          "answers": [
+            "shoes",
+            "pairs of shoes"
+          ],
+          "explanation": "how many + çoğul.",
+          "id": "a1-u10-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "How ___ money is in your bag?",
+          "answers": [
+            "much"
+          ],
+          "explanation": "money sayılamayan.",
+          "id": "a1-u10-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "time",
+            "How",
+            "much",
+            "do",
+            "we",
+            "have",
+            "?"
+          ],
+          "answer": "How much time do we have?",
+          "explanation": "How much + isim + do + özne + fiil?",
+          "translation": "Ne kadar vaktimiz var?",
+          "id": "a1-u10-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "How many jumpers do you have? – I have five, but I only wear two.",
+          "prompt": "Konuşanın kaç kazağı var?",
+          "options": [
+            "İki",
+            "Beş",
+            "Yedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I have five\"",
+          "id": "a1-u10-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Burada kaç kişi çalışıyor?\"",
+          "accepted": [
+            "How many people work here?",
+            "How many people work here"
+          ],
+          "explanation": "How many people + work here?",
+          "id": "a1-u10-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"How much milk do we need?\" cevabı:",
+          "options": [
+            "Two litres.",
+            "Two milks.",
+            "Twelve people."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sayılamayan → miktar birimi.",
+          "id": "a1-u10-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir doğum günü partisi planlıyorsunuz. Arkadaşınıza How much / How many ile 4 soru yazın.",
+          "modelAnswer": "How many people can come? How much cake do we need? How many bottles of juice do we need? How much money do we have?",
+          "rubric": [
+            "How many + çoğul doğru",
+            "How much + sayılamayan doğru",
+            "Soru düzeni doğru"
+          ]
+        },
+        "id": "a1-u10-l3-use"
+      }
+    },
+    {
+      "id": "a1-u10-l4",
+      "number": 4,
+      "title": "Mağazada",
+      "goal": "Beden isteyip kıyafet deneyebilir ve sorun olduğunda bunu söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Giyim mağazasında",
+        "lines": [
+          {
+            "speaker": "Assistant",
+            "text": "Hello. Can I help you?"
+          },
+          {
+            "speaker": "Zeynep",
+            "text": "Yes, I like this jacket. Can I try it on?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Of course. What size are you?"
+          },
+          {
+            "speaker": "Zeynep",
+            "text": "Medium, I think. ... Hmm, it's too small."
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Here's a large. Try it on."
+          },
+          {
+            "speaker": "Zeynep",
+            "text": "Perfect! I'll take it. Can I pay by card?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Yes, of course."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's the problem with the medium jacket?",
+            "options": [
+              "It's too big.",
+              "It's too small.",
+              "It's too expensive."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it's too small\"",
+            "id": "a1-u10-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What size does Zeynep buy?",
+            "options": [
+              "Small",
+              "Medium",
+              "Large"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"Here's a large.\" ... \"I'll take it.\"",
+            "id": "a1-u10-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Nesne zamirleri:** fiilden sonra isim yerine kullanılır.\n\n| Tekil | Çoğul |\n|---|---|\n| this jacket → **it** | these shoes → **them** |\n\n- Can I try **it** on? (try on **it** değil, zamir ortaya gelir)\n- I like these jeans. I'll take **them**.\n\n**too + sıfat:** gereğinden fazla, bir sorun var.\n\n- It's **too** big. (Çok büyük, olmuyor.)\n- They're **too** expensive.\n\n**Have you got ...?** = Do you have ...? (... var mı?). Mağazada çok kullanılır: Have you got this in a medium? – Yes, we have. / Sorry, we haven't.\n\n**Mağaza ifadeleri:** Can I help you? / What size are you? / Where are the fitting rooms? / I'll take it.",
+        "examples": [
+          {
+            "en": "These boots are too small. Have you got them in a 40?",
+            "tr": "Bu botlar küçük. 40 numarası var mı?"
+          },
+          {
+            "en": "Can I try them on?",
+            "tr": "Onları deneyebilir miyim?"
+          },
+          {
+            "en": "Have you got this in blue?",
+            "tr": "Bunun mavisi var mı?"
+          }
+        ],
+        "turkishNote": "\"very\" ile \"too\" farklıdır: very expensive = çok pahalı (belki yine alırım); too expensive = fazla pahalı (alamam). \"Try on it\" yanlıştır; zamirler try ile on'un arasına girer: try it on."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu ayakkabılar çok büyük, ayağınıza olmuyor:",
+          "options": [
+            "They're very big.",
+            "They're too big."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sorun var → too.",
+          "id": "a1-u10-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Can I try on it?",
+            "Can I try it on?"
+          ],
+          "answerIndex": 1,
+          "explanation": "try it on (zamir ortada).",
+          "id": "a1-u10-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I love these trainers. I'll take ___.",
+          "answers": [
+            "them"
+          ],
+          "explanation": "trainers çoğul → them.",
+          "id": "a1-u10-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "This dress is nice. Can I try ___ on?",
+          "answers": [
+            "it"
+          ],
+          "explanation": "dress tekil → it.",
+          "id": "a1-u10-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This coat is ___ expensive. I can't buy it.",
+          "answers": [
+            "too"
+          ],
+          "explanation": "Alamıyorum → too.",
+          "id": "a1-u10-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Satış danışmanının ilk sorusu:",
+          "options": [
+            "Can I help you?",
+            "Can you help me?",
+            "Do you help?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yardım edebilir miyim?",
+          "id": "a1-u10-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "got",
+            "Have",
+            "you",
+            "this",
+            "in",
+            "blue",
+            "?"
+          ],
+          "answer": "Have you got this in blue?",
+          "explanation": "Have you got + this + in + renk?",
+          "translation": "Bunun mavisi var mı?",
+          "id": "a1-u10-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "These jeans are too long. Have you got them in a smaller size?",
+          "prompt": "Sorun ne?",
+          "options": [
+            "Kot çok kısa",
+            "Kot çok uzun",
+            "Kot çok pahalı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"too long\"",
+          "id": "a1-u10-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Deneme kabinleri nerede?\"",
+          "accepted": [
+            "Where are the fitting rooms?",
+            "Where are the fitting rooms",
+            "Where's the fitting room?",
+            "Where's the fitting room",
+            "Where is the fitting room?",
+            "Where is the fitting room"
+          ],
+          "explanation": "Where are the fitting rooms?",
+          "id": "a1-u10-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What size are you?\" cevabı:",
+          "options": [
+            "Medium.",
+            "Blue.",
+            "Fifty lira."
+          ],
+          "answerIndex": 0,
+          "explanation": "Beden → small / medium / large.",
+          "id": "a1-u10-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI satış danışmanı. Bir kıyafet seçin, denemek isteyin, bir sorun söyleyin (too ...), başka beden veya renk isteyin ve satın alın.",
+          "modelAnswer": "I like these trousers. Can I try them on? ... They're too long. Have you got them in a smaller size? ... Great, I'll take them. Can I pay by card?",
+          "rubric": [
+            "try it/them on doğru",
+            "too + sıfat doğru",
+            "Have you got ... ? / I'll take it doğru"
+          ]
+        },
+        "id": "a1-u10-l4-use"
+      }
+    },
+    {
+      "id": "a1-u10-l5",
+      "number": 5,
+      "title": "Hangisi?",
+      "goal": "Which one? diye sorup the red one / the blue ones gibi seçim yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Hediye seçmek",
+        "lines": [
+          {
+            "speaker": "Can",
+            "text": "It's Mum's birthday. Let's buy her a bag."
+          },
+          {
+            "speaker": "Aslı",
+            "text": "Good idea. Which one? The brown one or the black one?"
+          },
+          {
+            "speaker": "Can",
+            "text": "The black one is nice, but it's too big."
+          },
+          {
+            "speaker": "Aslı",
+            "text": "OK, the brown one. And what about some earrings?"
+          },
+          {
+            "speaker": "Can",
+            "text": "Which ones? These silver ones are beautiful."
+          },
+          {
+            "speaker": "Aslı",
+            "text": "Yes, but the gold ones are cheaper. Mum likes gold too."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which bag do they choose?",
+            "options": [
+              "The black one",
+              "The brown one",
+              "Both"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"OK, the brown one.\"",
+            "id": "a1-u10-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Aslı like the gold earrings?",
+            "options": [
+              "They're bigger.",
+              "They're cheaper.",
+              "They're silver."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the gold ones are cheaper\"",
+            "id": "a1-u10-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Aynı ismi tekrar etmemek için **one / ones** kullanırız.\n\n- **Which** bag? → **Which one**? – The red **one**. (tekil)\n- **Which** shoes? → **Which ones**? – The black **ones**. (çoğul)\n\n**Seçim yaparken:**\n\n- this one / that one\n- these ones / those ones (ya da sadece these / those)\n- the big one, the cheap ones, the one on the left\n\n**Which** seçenekler belli olduğunda kullanılır; **What** seçenekler belli değilse: What colour do you like? / Which colour, red or blue?",
+        "examples": [
+          {
+            "en": "I don't like this one. Can I see that one?",
+            "tr": "Bunu beğenmedim. Şunu görebilir miyim?"
+          },
+          {
+            "en": "Which ones do you want? – The small ones.",
+            "tr": "Hangilerini istiyorsun? – Küçük olanları."
+          },
+          {
+            "en": "The blue one is cheaper.",
+            "tr": "Mavi olan daha ucuz."
+          }
+        ],
+        "turkishNote": "Türkçede \"mavi olan\", \"mavisi\" deriz; İngilizcede sıfat tek başına kalamaz: \"the blue\" değil \"the blue one\" denir. \"cheaper\" (daha ucuz) karşılaştırma yapısını A2'de ayrıntılı göreceğiz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I don't like this shirt. Can I see the white ___?",
+          "options": [
+            "one",
+            "ones"
+          ],
+          "answerIndex": 0,
+          "explanation": "shirt tekil → one.",
+          "id": "a1-u10-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "These shoes are too small. Have you got bigger ___?",
+          "options": [
+            "one",
+            "ones"
+          ],
+          "answerIndex": 1,
+          "explanation": "shoes çoğul → ones.",
+          "id": "a1-u10-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I want the red.",
+            "I want the red one."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sıfat yalnız kalmaz: the red one.",
+          "id": "a1-u10-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ one do you like, the blue one or the green one?",
+          "answers": [
+            "Which"
+          ],
+          "explanation": "Seçenek belli → Which.",
+          "id": "a1-u10-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Which ___ do you want? – The black ones.",
+          "answers": [
+            "ones"
+          ],
+          "explanation": "Cevap çoğul → ones.",
+          "id": "a1-u10-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Seçenekler belli değil: \"___ is your favourite colour?\"",
+          "options": [
+            "What",
+            "Which"
+          ],
+          "answerIndex": 0,
+          "explanation": "Seçenek yok → What.",
+          "id": "a1-u10-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "one",
+            "The",
+            "on",
+            "the",
+            "left",
+            "is",
+            "cheaper"
+          ],
+          "answer": "The one on the left is cheaper.",
+          "explanation": "The one + yer + is + sıfat.",
+          "translation": "Soldaki daha ucuz.",
+          "id": "a1-u10-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Which jacket do you want? – Not the long one. The short one, please.",
+          "prompt": "Konuşan hangisini istiyor?",
+          "options": [
+            "Uzun olanı",
+            "Kısa olanı",
+            "İkisini de"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The short one, please.\"",
+          "id": "a1-u10-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Şunu görebilir miyim?\"",
+          "accepted": [
+            "Can I see that one?",
+            "Can I see that one",
+            "Can I see that one, please?",
+            "Can I see that one, please",
+            "Can I see that?",
+            "Can I see that"
+          ],
+          "explanation": "Can I see that one?",
+          "id": "a1-u10-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Which bag?",
+              "right": "Which one?"
+            },
+            {
+              "left": "Which shoes?",
+              "right": "Which ones?"
+            },
+            {
+              "left": "the black bag",
+              "right": "the black one"
+            },
+            {
+              "left": "the cheap socks",
+              "right": "the cheap ones"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "a1-u10-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir aile üyenize hediye seçiyorsunuz. JAI satış danışmanı iki seçenek gösterecek. Which one ile sorun, one/ones ile seçiminizi ve nedenini söyleyin, fiyatı sorup satın alın.",
+          "modelAnswer": "Which one is better for a man, the grey one or the blue one? I like the blue one. How much is it? Great, I'll take it.",
+          "rubric": [
+            "Which one(s) doğru",
+            "the + sıfat + one(s) doğru",
+            "Fiyat sordu ve satın aldı"
+          ]
+        },
+        "id": "a1-u10-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "My trousers is black.",
+          "My trousers are black."
+        ],
+        "answerIndex": 1,
+        "explanation": "trousers çoğul.",
+        "id": "a1-u10-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ a uniform at work.",
+        "answers": [
+          "wears"
+        ],
+        "explanation": "wear + -s",
+        "id": "a1-u10-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "40",
+        "options": [
+          "fourty",
+          "forty",
+          "fourteen"
+        ],
+        "answerIndex": 1,
+        "explanation": "forty",
+        "id": "a1-u10-t03"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Rakamla yazın: \"three hundred and eighty-five\"",
+        "accepted": [
+          "385"
+        ],
+        "explanation": "385",
+        "id": "a1-u10-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "600",
+        "options": [
+          "six hundreds",
+          "six hundred"
+        ],
+        "answerIndex": 1,
+        "explanation": "hundred -s almaz.",
+        "id": "a1-u10-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "How much ___ these gloves?",
+        "answers": [
+          "are"
+        ],
+        "explanation": "Çoğul → are.",
+        "id": "a1-u10-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "How ___ brothers do you have?",
+        "options": [
+          "much",
+          "many"
+        ],
+        "answerIndex": 1,
+        "explanation": "brothers sayılabilen.",
+        "id": "a1-u10-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "How ___ sugar do you want?",
+        "options": [
+          "much",
+          "many"
+        ],
+        "answerIndex": 0,
+        "explanation": "sugar sayılamayan.",
+        "id": "a1-u10-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Can I try on them?",
+          "Can I try them on?"
+        ],
+        "answerIndex": 1,
+        "explanation": "try them on",
+        "id": "a1-u10-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "I like this hat. I'll take ___.",
+        "answers": [
+          "it"
+        ],
+        "explanation": "Tekil → it.",
+        "id": "a1-u10-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Ceket fazla pahalı, alamıyorsunuz:",
+        "options": [
+          "It's very expensive.",
+          "It's too expensive."
+        ],
+        "answerIndex": 1,
+        "explanation": "too",
+        "id": "a1-u10-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "These boots are too small. Have you got bigger ___?",
+        "answers": [
+          "ones"
+        ],
+        "explanation": "Çoğul → ones.",
+        "id": "a1-u10-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "How much is the dress? – It's eight hundred and fifty lira, but it's in the sale. Now it's four hundred.",
+        "prompt": "Elbisenin indirimli fiyatı ne?",
+        "options": [
+          "850",
+          "400",
+          "450"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Now it's four hundred.\"",
+        "id": "a1-u10-t13"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "you",
+          "Have",
+          "got",
+          "this",
+          "in",
+          "a",
+          "small",
+          "?"
+        ],
+        "answer": "Have you got this in a small?",
+        "explanation": "Have you got + this + in + beden?",
+        "translation": "Bunun small'u var mı?",
+        "id": "a1-u10-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir mağaza diyaloğu yazın (6–8 satır): selamlama, ürün ve beden isteme, deneme, bir sorun (too ...), fiyat sorma ve satın alma.",
+        "modelAnswer": "A: Hello. Can I help you?\nB: Yes. Have you got this shirt in a medium?\nA: Here you are.\nB: Can I try it on? ... It's too long.\nA: Try this one.\nB: Perfect. How much is it?\nA: It's three hundred lira.\nB: I'll take it. Can I pay by card?",
+        "rubric": [
+          "Mağaza ifadeleri doğru",
+          "it/them ve one/ones doğru",
+          "Sayılar ve fiyat doğru",
+          "too + sıfat doğru"
+        ],
+        "id": "a1-u10-t15"
+      }
+    ]
+  }
+}
