@@ -1,0 +1,1463 @@
+{
+  "id": "a1-u11",
+  "level": "A1",
+  "number": 11,
+  "title": "Şu an",
+  "titleEn": "Right Now",
+  "canDo": "Hava durumunu söyleyebilir, şu an ne yaptığımı ve çevremde neler olduğunu anlatabilirim.",
+  "grammar": [
+    "present continuous: olumlu",
+    "present continuous: olumsuz, soru, kısa cevaplar",
+    "present simple ve present continuous karşılaştırması",
+    "What's the weather like?"
+  ],
+  "vocabularyThemes": [
+    "hava durumu",
+    "mevsimler",
+    "günlük eylemler"
+  ],
+  "liveClass": {
+    "title": "Ne yapıyorlar?",
+    "durationMinutes": 45,
+    "goal": "Öğretmen kalabalık bir park fotoğrafı paylaşır. Öğrenciler sırayla bir kişiyi present continuous ile anlatır ('She's wearing a red hat and she's feeding the birds'); diğerleri kim olduğunu bulur. Sonra herkes kendi penceresinden gördüğünü ve havayı anlatır."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u11-v01",
+      "en": "weather",
+      "tr": "hava (durumu)",
+      "example": "What's the weather like today?",
+      "exampleTr": "Bugün hava nasıl?",
+      "note": "Sayılamaz: a weather değil."
+    },
+    {
+      "id": "a1-u11-v02",
+      "en": "sunny",
+      "tr": "güneşli",
+      "example": "It's sunny and warm.",
+      "exampleTr": "Hava güneşli ve ılık."
+    },
+    {
+      "id": "a1-u11-v03",
+      "en": "cloudy",
+      "tr": "bulutlu",
+      "example": "It's cloudy this morning.",
+      "exampleTr": "Bu sabah hava bulutlu."
+    },
+    {
+      "id": "a1-u11-v04",
+      "en": "windy",
+      "tr": "rüzgarlı",
+      "example": "It's very windy by the sea.",
+      "exampleTr": "Deniz kenarında çok rüzgar var."
+    },
+    {
+      "id": "a1-u11-v05",
+      "en": "rain",
+      "tr": "yağmur; yağmur yağmak",
+      "example": "It's raining. Take an umbrella.",
+      "exampleTr": "Yağmur yağıyor. Şemsiye al.",
+      "note": "It's rainy (sıfat) / It's raining (şu an)."
+    },
+    {
+      "id": "a1-u11-v06",
+      "en": "snow",
+      "tr": "kar; kar yağmak",
+      "example": "Look! It's snowing!",
+      "exampleTr": "Bak! Kar yağıyor!"
+    },
+    {
+      "id": "a1-u11-v07",
+      "en": "hot",
+      "tr": "sıcak",
+      "example": "It's very hot in August.",
+      "exampleTr": "Ağustosta hava çok sıcak."
+    },
+    {
+      "id": "a1-u11-v08",
+      "en": "warm",
+      "tr": "ılık",
+      "example": "It's warm in spring.",
+      "exampleTr": "İlkbaharda hava ılık."
+    },
+    {
+      "id": "a1-u11-v09",
+      "en": "cold",
+      "tr": "soğuk",
+      "example": "It's cold. Wear a coat.",
+      "exampleTr": "Hava soğuk. Palto giy."
+    },
+    {
+      "id": "a1-u11-v10",
+      "en": "degrees",
+      "tr": "derece",
+      "example": "It's twenty-five degrees.",
+      "exampleTr": "Hava 25 derece."
+    },
+    {
+      "id": "a1-u11-v11",
+      "en": "spring",
+      "tr": "ilkbahar",
+      "example": "I love spring.",
+      "exampleTr": "İlkbaharı çok severim."
+    },
+    {
+      "id": "a1-u11-v12",
+      "en": "summer",
+      "tr": "yaz",
+      "example": "We go to Bodrum in summer.",
+      "exampleTr": "Yazın Bodrum'a gideriz.",
+      "note": "in summer"
+    },
+    {
+      "id": "a1-u11-v13",
+      "en": "autumn",
+      "tr": "sonbahar",
+      "example": "The trees are beautiful in autumn.",
+      "exampleTr": "Sonbaharda ağaçlar çok güzel.",
+      "note": "Amerikan: fall."
+    },
+    {
+      "id": "a1-u11-v14",
+      "en": "winter",
+      "tr": "kış",
+      "example": "It snows in winter.",
+      "exampleTr": "Kışın kar yağar."
+    },
+    {
+      "id": "a1-u11-v15",
+      "en": "umbrella",
+      "tr": "şemsiye",
+      "example": "Have you got an umbrella?",
+      "exampleTr": "Şemsiyen var mı?"
+    },
+    {
+      "id": "a1-u11-v16",
+      "en": "at the moment",
+      "tr": "şu anda",
+      "example": "I'm busy at the moment.",
+      "exampleTr": "Şu anda meşgulüm.",
+      "note": "right now = tam şu an"
+    },
+    {
+      "id": "a1-u11-v17",
+      "en": "now",
+      "tr": "şimdi",
+      "example": "What are you doing now?",
+      "exampleTr": "Şimdi ne yapıyorsun?"
+    },
+    {
+      "id": "a1-u11-v18",
+      "en": "wait",
+      "tr": "beklemek",
+      "example": "I'm waiting for the bus.",
+      "exampleTr": "Otobüs bekliyorum.",
+      "note": "wait for + kişi/şey"
+    },
+    {
+      "id": "a1-u11-v19",
+      "en": "sit",
+      "tr": "oturmak",
+      "example": "She's sitting in the garden.",
+      "exampleTr": "Bahçede oturuyor.",
+      "note": "sit → sitting"
+    },
+    {
+      "id": "a1-u11-v20",
+      "en": "talk",
+      "tr": "konuşmak",
+      "example": "Who are you talking to?",
+      "exampleTr": "Kiminle konuşuyorsun?"
+    },
+    {
+      "id": "a1-u11-v21",
+      "en": "look at",
+      "tr": "bakmak",
+      "example": "Look at the sky!",
+      "exampleTr": "Gökyüzüne bak!"
+    },
+    {
+      "id": "a1-u11-v22",
+      "en": "feed",
+      "tr": "beslemek, yem vermek",
+      "example": "The children are feeding the ducks.",
+      "exampleTr": "Çocuklar ördeklere yem veriyor."
+    },
+    {
+      "id": "a1-u11-v23",
+      "en": "photo",
+      "tr": "fotoğraf",
+      "example": "In this photo, we're on holiday.",
+      "exampleTr": "Bu fotoğrafta tatildeyiz.",
+      "note": "in the photo (fotoğrafta)"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u11-l1",
+      "number": 1,
+      "title": "Hava nasıl?",
+      "goal": "Hava durumunu sorup söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bugünün hava durumu",
+        "body": "Good morning! Here's today's weather.\n\nIstanbul: It's cloudy and windy this morning, and it's raining in the afternoon. 14 degrees.\n\nAntalya: It's sunny and hot. Perfect for the beach! 30 degrees.\n\nErzurum: It's very cold. It's snowing in the mountains. Minus 5 degrees.\n\nAnkara: It's sunny but cold. 8 degrees.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is it snowing?",
+            "options": [
+              "Ankara",
+              "Erzurum",
+              "Istanbul"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Erzurum: ... It's snowing in the mountains.\"",
+            "id": "a1-u11-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What's the weather like in Antalya?",
+            "options": [
+              "Sunny and hot",
+              "Cloudy and windy",
+              "Sunny but cold"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Antalya: It's sunny and hot.\"",
+            "id": "a1-u11-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hava sormak:** What's the weather like (today / in Antalya)?\n\n**Cevap her zaman It ile başlar:**\n\n- **It's** sunny / cloudy / windy / foggy. (sıfat)\n- **It's** hot / warm / cold. (sıfat)\n- **It's raining.** / **It's snowing.** (şu an oluyor)\n- **It's** twenty degrees. / **It's** minus five.\n\n**Mevsimler:** in spring, in summer, in autumn, in winter\n\n- It **rains** a lot in autumn. (genel)\n- It's **raining** now. (şu an)",
+        "examples": [
+          {
+            "en": "It's sunny but windy.",
+            "tr": "Hava güneşli ama rüzgarlı."
+          },
+          {
+            "en": "It's raining in London.",
+            "tr": "Londra'da yağmur yağıyor."
+          },
+          {
+            "en": "It's very hot in summer.",
+            "tr": "Yazın hava çok sıcak."
+          }
+        ],
+        "turkishNote": "Türkçede özne olmadan \"Yağmur yağıyor\" ya da \"Soğuk\" deriz. İngilizcede cümlenin bir öznesi olmalıdır, bu yüzden It kullanılır: It's cold (Is cold değil). \"Hava\" kelimesini çevirmeye gerek yok: \"The weather is cold\" da doğrudur ama \"It's cold\" çok daha yaygındır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "sunny",
+              "right": "güneşli"
+            },
+            {
+              "left": "cloudy",
+              "right": "bulutlu"
+            },
+            {
+              "left": "windy",
+              "right": "rüzgarlı"
+            },
+            {
+              "left": "cold",
+              "right": "soğuk"
+            },
+            {
+              "left": "warm",
+              "right": "ılık"
+            }
+          ],
+          "explanation": "Hava kelimelerini eşleştirin.",
+          "id": "a1-u11-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Is cold today.",
+            "It's cold today.",
+            "Cold is today."
+          ],
+          "answerIndex": 1,
+          "explanation": "Özne gerekli: It's.",
+          "id": "a1-u11-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What's the weather like?\" cevabı:",
+          "options": [
+            "It's sunny.",
+            "I like sun.",
+            "Yes, it is."
+          ],
+          "answerIndex": 0,
+          "explanation": "It's + hava sıfatı.",
+          "id": "a1-u11-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Take an umbrella. It's ___. (rain)",
+          "answers": [
+            "raining"
+          ],
+          "explanation": "Şu an → It's raining.",
+          "id": "a1-u11-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's very hot ___ summer.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Mevsimlerle in.",
+          "id": "a1-u11-l1-p05"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "spring",
+              "right": "ilkbahar"
+            },
+            {
+              "left": "summer",
+              "right": "yaz"
+            },
+            {
+              "left": "autumn",
+              "right": "sonbahar"
+            },
+            {
+              "left": "winter",
+              "right": "kış"
+            }
+          ],
+          "explanation": "Mevsimleri eşleştirin.",
+          "id": "a1-u11-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "the",
+            "What's",
+            "weather",
+            "like",
+            "today",
+            "?"
+          ],
+          "answer": "What's the weather like today?",
+          "explanation": "What's the weather like + zaman?",
+          "translation": "Bugün hava nasıl?",
+          "id": "a1-u11-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "In Izmir it's sunny and warm today, about twenty-two degrees.",
+          "prompt": "İzmir'de hava kaç derece?",
+          "options": [
+            "12",
+            "22",
+            "32"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"about twenty-two degrees\"",
+          "id": "a1-u11-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Don't forget your coat. It's cloudy and very cold outside.",
+          "prompt": "Hava nasıl?",
+          "options": [
+            "Güneşli ve sıcak",
+            "Bulutlu ve çok soğuk",
+            "Yağmurlu ve ılık"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"cloudy and very cold\"",
+          "id": "a1-u11-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kar yağıyor!\"",
+          "accepted": [
+            "It's snowing!",
+            "It's snowing",
+            "It is snowing",
+            "It is snowing!"
+          ],
+          "explanation": "It's snowing!",
+          "id": "a1-u11-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bugün şehrinizde hava nasıl? Anlatın, sonra en sevdiğiniz mevsimi ve o mevsimde havanın nasıl olduğunu söyleyin.",
+          "modelAnswer": "Today in Bursa it's cloudy and a little cold. It's about twelve degrees. My favourite season is spring. It's warm and sunny, and it doesn't rain a lot.",
+          "rubric": [
+            "It's + hava sıfatı",
+            "Derece söyledi",
+            "in + mevsim doğru"
+          ]
+        },
+        "id": "a1-u11-l1-use"
+      }
+    },
+    {
+      "id": "a1-u11-l2",
+      "number": 2,
+      "title": "Şu an ne yapıyorum?",
+      "goal": "Şu an olan eylemleri present continuous ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Telefonda",
+        "lines": [
+          {
+            "speaker": "Ayla",
+            "text": "Hi, Mum! Where are you?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "Hi, darling. I'm at the market. I'm buying some fruit."
+          },
+          {
+            "speaker": "Ayla",
+            "text": "Is Dad with you?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "No, he's at home. He's cooking dinner."
+          },
+          {
+            "speaker": "Ayla",
+            "text": "Great! And Deniz?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "Deniz is in the garden. The dog and Deniz are playing with a ball."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's Mum doing?",
+            "options": [
+              "She's cooking.",
+              "She's buying fruit.",
+              "She's playing."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm buying some fruit.\"",
+            "id": "a1-u11-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Dad?",
+            "options": [
+              "At the market",
+              "At home",
+              "In the garden"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he's at home. He's cooking dinner.\"",
+            "id": "a1-u11-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Present continuous**, şu an (konuşma anında) olan eylemleri anlatır.\n\n**Yapı:** am / is / are + fiil**-ing**\n\n| | |\n|---|---|\n| I **am** (I'm) | read**ing** |\n| He / She / It **is** ('s) | read**ing** |\n| You / We / They **are** ('re) | read**ing** |\n\n**-ing yazımı** (9. ünitede gördük):\n\n- cook → cook**ing**\n- make → mak**ing** (-e düşer)\n- sit → si**tt**ing, swim → swi**mm**ing (ünsüz ikilenir)\n\nam / is / are **unutulmamalı**: ~~I cooking~~ → I**'m** cooking.",
+        "examples": [
+          {
+            "en": "I'm waiting for the bus.",
+            "tr": "Otobüs bekliyorum."
+          },
+          {
+            "en": "She's talking on the phone.",
+            "tr": "Telefonda konuşuyor."
+          },
+          {
+            "en": "We're having lunch.",
+            "tr": "Öğle yemeği yiyoruz."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-yor\" eki çoğu zaman present continuous'a denk gelir: okuyorum = I'm reading. Ama dikkat: Türkçede \"Her gün işe gidiyorum\" deriz; İngilizcede tekrar eden işler için present simple kullanılır: I go to work every day. Bunu 4. derste ayrıntılı göreceğiz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I reading a book.",
+            "I'm reading a book.",
+            "I'm read a book."
+          ],
+          "answerIndex": 1,
+          "explanation": "am + -ing",
+          "wrongFeedback": {
+            "0": "am unutulmuş."
+          },
+          "id": "a1-u11-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She are sleeping.",
+            "She's sleeping.",
+            "She sleeping."
+          ],
+          "answerIndex": 1,
+          "explanation": "she → is.",
+          "id": "a1-u11-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ watching a film. (are)",
+          "answers": [
+            "are",
+            "'re"
+          ],
+          "explanation": "they → are.",
+          "id": "a1-u11-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "He's ___ dinner. (make)",
+          "answers": [
+            "making"
+          ],
+          "explanation": "make → making.",
+          "id": "a1-u11-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The kids are ___ in the pool. (swim)",
+          "answers": [
+            "swimming"
+          ],
+          "explanation": "swim → swimming.",
+          "id": "a1-u11-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ for my friend. (wait)",
+          "answers": [
+            "waiting"
+          ],
+          "explanation": "wait for = beklemek.",
+          "id": "a1-u11-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "The",
+            "cat",
+            "sleeping",
+            "on",
+            "the",
+            "sofa"
+          ],
+          "answer": "The cat is sleeping on the sofa.",
+          "explanation": "Özne + is + -ing + yer.",
+          "translation": "Kedi kanepede uyuyor.",
+          "id": "a1-u11-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi, I can't talk now. I'm driving. Call you later!",
+          "prompt": "Konuşan şu an ne yapıyor?",
+          "options": [
+            "Yemek yapıyor",
+            "Araba kullanıyor",
+            "Yürüyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'm driving.\"",
+          "id": "a1-u11-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Telefonda konuşuyor.\" (she)",
+          "accepted": [
+            "She's talking on the phone.",
+            "She's talking on the phone",
+            "She is talking on the phone",
+            "She is talking on the phone.",
+            "She's speaking on the phone.",
+            "She's speaking on the phone",
+            "She is speaking on the phone",
+            "She is speaking on the phone."
+          ],
+          "explanation": "She's + talking on the phone.",
+          "id": "a1-u11-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Fotoğrafta iki kişi kahve içiyor:",
+          "options": [
+            "They're drinking coffee.",
+            "They drink coffee.",
+            "They drinking coffee."
+          ],
+          "answerIndex": 0,
+          "explanation": "Şu an / resimde → present continuous.",
+          "id": "a1-u11-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şu an neredesiniz ve ne yapıyorsunuz? Sonra evinizde ya da yanınızdaki diğer iki kişinin şu an ne yaptığını tahmin edin.",
+          "modelAnswer": "I'm at home. I'm sitting on the sofa and I'm practising English. My brother is playing a computer game, and my mum is talking on the phone.",
+          "rubric": [
+            "am/is/are + -ing",
+            "-ing yazımı doğru",
+            "Farklı öznelerle kullandı"
+          ]
+        },
+        "id": "a1-u11-l2-use"
+      }
+    },
+    {
+      "id": "a1-u11-l3",
+      "number": 3,
+      "title": "Ne yapıyorsun?",
+      "goal": "Present continuous ile soru sorup olumsuz cümle kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Mesajlaşma",
+        "lines": [
+          {
+            "speaker": "Onur",
+            "text": "Hey, are you watching the match?"
+          },
+          {
+            "speaker": "Ece",
+            "text": "No, I'm not. I'm studying for my exam."
+          },
+          {
+            "speaker": "Onur",
+            "text": "Oh, sorry! Is your sister watching it?"
+          },
+          {
+            "speaker": "Ece",
+            "text": "Yes, she is. She's screaming in the living room!"
+          },
+          {
+            "speaker": "Onur",
+            "text": "Ha ha! What's the score?"
+          },
+          {
+            "speaker": "Ece",
+            "text": "I don't know. I'm not listening. Good luck with the match!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Is Ece watching the match?",
+            "options": [
+              "Yes, she is.",
+              "No, she isn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, I'm not. I'm studying.\"",
+            "id": "a1-u11-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is watching the match?",
+            "options": [
+              "Ece's sister",
+              "Ece's dad",
+              "Nobody"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Is your sister watching it? – Yes, she is.\"",
+            "id": "a1-u11-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Olumsuz:** am / is / are + **not** + -ing\n\n- I**'m not** sleeping.\n- He **isn't** working today.\n- They **aren't** listening.\n\n**Soru:** Am / Is / Are + özne + -ing?\n\n- **Are you** watching TV? – Yes, I **am**. / No, I**'m not**.\n- **Is she** working? – Yes, she **is**. / No, she **isn't**.\n\n**Bilgi sorusu:** Soru kelimesi + am/is/are + özne + -ing?\n\n- **What are you doing**?\n- **Where is** he **going**?\n- **Who are** you **talking** to?",
+        "examples": [
+          {
+            "en": "What are you doing? – I'm cooking.",
+            "tr": "Ne yapıyorsun? – Yemek yapıyorum."
+          },
+          {
+            "en": "Is it raining? – No, it isn't.",
+            "tr": "Yağmur yağıyor mu? – Hayır."
+          },
+          {
+            "en": "Where are you going?",
+            "tr": "Nereye gidiyorsun?"
+          }
+        ],
+        "turkishNote": "Kısa cevapta Yes'ten sonra kısaltma yapılmaz: Yes, I am (Yes, I'm değil). Soru do/does ile kurulmaz: \"Do you watching?\" yanlıştır; \"Are you watching?\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Do you sleeping?",
+            "Are you sleeping?",
+            "You are sleeping?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Are + you + -ing?",
+          "id": "a1-u11-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is your dad working today?\" (Hayır.)",
+          "options": [
+            "No, he doesn't.",
+            "No, he isn't.",
+            "No, he not."
+          ],
+          "answerIndex": 1,
+          "explanation": "No, he isn't.",
+          "id": "a1-u11-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Are you listening?\" (Evet.)",
+          "options": [
+            "Yes, I'm.",
+            "Yes, I am.",
+            "Yes, I do."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yes, I am (kısaltma yok).",
+          "id": "a1-u11-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ watching TV. I'm reading. (not)",
+          "answers": [
+            "not"
+          ],
+          "explanation": "Olumsuz: I'm not.",
+          "id": "a1-u11-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ working today. It's Sunday. (değil)",
+          "answers": [
+            "isn't",
+            "is not",
+            "'s not"
+          ],
+          "explanation": "she → isn't.",
+          "id": "a1-u11-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you doing?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "you → are.",
+          "id": "a1-u11-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "are",
+            "Where",
+            "you",
+            "going",
+            "?"
+          ],
+          "answer": "Where are you going?",
+          "explanation": "Soru kelimesi + are + özne + -ing?",
+          "translation": "Nereye gidiyorsun?",
+          "id": "a1-u11-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Are the kids sleeping? – No, they aren't. They're playing in their room.",
+          "prompt": "Çocuklar ne yapıyor?",
+          "options": [
+            "Uyuyorlar",
+            "Odalarında oynuyorlar",
+            "Ders çalışıyorlar"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"They're playing in their room.\"",
+          "id": "a1-u11-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"He is cooking.\"",
+          "accepted": [
+            "Is he cooking?",
+            "Is he cooking"
+          ],
+          "explanation": "Is + he + cooking?",
+          "id": "a1-u11-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kiminle konuşuyorsun?\"",
+          "accepted": [
+            "Who are you talking to?",
+            "Who are you talking to",
+            "Who are you talking with?",
+            "Who are you talking with",
+            "Who are you speaking to?",
+            "Who are you speaking to",
+            "Who are you speaking with?",
+            "Who are you speaking with"
+          ],
+          "explanation": "Who are you talking to?",
+          "id": "a1-u11-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'yi arıyorsunuz. Ona şu an ne yaptığını, nerede olduğunu ve kiminle olduğunu sorun (en az 3 soru). Bir sorusuna olumsuz cevap verin.",
+          "modelAnswer": "Hi! What are you doing? Are you working? Where are you going? Who are you with? ... No, I'm not busy. I'm sitting in a café.",
+          "rubric": [
+            "Am/Is/Are + özne + -ing? düzeni",
+            "Kısa cevap doğru",
+            "Olumsuz cümle doğru"
+          ]
+        },
+        "id": "a1-u11-l3-use"
+      }
+    },
+    {
+      "id": "a1-u11-l4",
+      "number": 4,
+      "title": "Her gün mü, şu an mı?",
+      "goal": "Alışkanlıkları ve şu an olanları doğru zamanla ayırt edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir pilotun kartpostalı",
+        "body": "Hi Tom,\n\nI usually fly to European cities like Paris and Rome. I normally work four days a week and I get home in the evening.\n\nBut this week is different! I'm working in Japan. At the moment I'm sitting in a beautiful garden in Kyoto and I'm drinking green tea. It's warm and sunny.\n\nSee you next week!\nSevgi",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Sevgi usually fly?",
+            "options": [
+              "To Japan",
+              "To European cities",
+              "To America"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I usually fly to European cities\"",
+            "id": "a1-u11-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is she doing at the moment?",
+            "options": [
+              "Flying to Rome",
+              "Drinking green tea in Kyoto",
+              "Working in Paris"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"At the moment I'm sitting in a beautiful garden in Kyoto and I'm drinking green tea.\"",
+            "id": "a1-u11-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "| Present simple | Present continuous |\n|---|---|\n| Alışkanlık, rutin, genel gerçek | Şu an olan, geçici durum |\n| I **work** in an office. | I**'m working** at home **today**. |\n| She usually **drinks** coffee. | She**'s drinking** tea **now**. |\n| every day, usually, often, never, on Mondays | now, at the moment, today, this week, Look! |\n\n**Bazı fiiller -ing almaz** (durum fiilleri): like, love, hate, want, know, understand, need\n\n- I **want** a coffee now. (~~I'm wanting~~)\n- Do you **understand**? (~~Are you understanding~~)",
+        "examples": [
+          {
+            "en": "He usually walks to work, but today he's taking a taxi.",
+            "tr": "Genelde işe yürüyerek gider ama bugün taksiye biniyor."
+          },
+          {
+            "en": "It snows in winter. Look! It's snowing now.",
+            "tr": "Kışın kar yağar. Bak! Şu an kar yağıyor."
+          },
+          {
+            "en": "I know the answer.",
+            "tr": "Cevabı biliyorum."
+          }
+        ],
+        "turkishNote": "Türkçede \"biliyorum\", \"anlıyorum\", \"istiyorum\" -yor ekiyle söylenir; İngilizcede bunlar present simple'dır: I know, I understand, I want. Ayrıca Türkçede \"Her gün spor yapıyorum\" doğaldır; İngilizcede \"every day\" ile present simple kullanılır: I do sport every day."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I ___ to work every day.",
+          "options": [
+            "drive",
+            "am driving"
+          ],
+          "answerIndex": 0,
+          "explanation": "every day → present simple.",
+          "id": "a1-u11-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Look! The baby ___.",
+          "options": [
+            "walks",
+            "is walking"
+          ],
+          "answerIndex": 1,
+          "explanation": "Look! → şu an.",
+          "id": "a1-u11-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "She usually ___ tea, but today she's drinking coffee.",
+          "options": [
+            "drinks",
+            "is drinking"
+          ],
+          "answerIndex": 0,
+          "explanation": "usually → present simple.",
+          "id": "a1-u11-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm knowing the answer.",
+            "I know the answer."
+          ],
+          "answerIndex": 1,
+          "explanation": "know -ing almaz.",
+          "id": "a1-u11-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Are you understanding?",
+            "Do you understand?"
+          ],
+          "answerIndex": 1,
+          "explanation": "understand -ing almaz.",
+          "id": "a1-u11-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ English at the moment. (study)",
+          "answers": [
+            "are studying",
+            "'re studying"
+          ],
+          "explanation": "at the moment → continuous.",
+          "id": "a1-u11-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "My dad never ___ coffee. (drink)",
+          "answers": [
+            "drinks"
+          ],
+          "explanation": "never → present simple (he → -s).",
+          "id": "a1-u11-l4-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "this",
+            "week",
+            "working",
+            "from",
+            "home",
+            "He"
+          ],
+          "answer": "He is working from home this week.",
+          "explanation": "Geçici durum → continuous.",
+          "translation": "Bu hafta evden çalışıyor.",
+          "id": "a1-u11-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I usually go to the gym after work, but today I'm staying at home. I'm very tired.",
+          "prompt": "Konuşan bugün ne yapıyor?",
+          "options": [
+            "Spor salonuna gidiyor",
+            "Evde kalıyor",
+            "Çalışıyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"today I'm staying at home\"",
+          "id": "a1-u11-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Şu an bir kahve istiyorum.\"",
+          "accepted": [
+            "I want a coffee now.",
+            "I want a coffee now",
+            "I want a coffee at the moment.",
+            "I want a coffee at the moment",
+            "I want coffee now.",
+            "I want coffee now",
+            "Now I want a coffee.",
+            "Now I want a coffee"
+          ],
+          "explanation": "want -ing almaz: I want a coffee now.",
+          "id": "a1-u11-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Sevgi'nin kartpostalına benzer bir kartpostal yazın: normalde ne yaparsınız (2 cümle), bu hafta ya da şu an ne farklı (2–3 cümle), hava nasıl.",
+          "modelAnswer": "Hi Elif,\nI usually get up at seven and go to the office by metro. I normally have lunch at my desk.\nBut this week I'm on holiday in Fethiye! At the moment I'm lying on the beach and I'm reading a book. It's hot and sunny.\nSee you soon!",
+          "rubric": [
+            "Present simple + sıklık zarfı",
+            "Present continuous + now/this week",
+            "Durum fiilleri doğru",
+            "Hava durumu"
+          ]
+        },
+        "id": "a1-u11-l4-use"
+      }
+    },
+    {
+      "id": "a1-u11-l5",
+      "number": 5,
+      "title": "Bir fotoğrafı anlatmak",
+      "goal": "Bir fotoğrafta kimin ne yaptığını ve ne giydiğini anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Tatil fotoğrafları",
+        "lines": [
+          {
+            "speaker": "Melis",
+            "text": "Look at this photo. It's from our holiday in Kaş."
+          },
+          {
+            "speaker": "Arda",
+            "text": "Nice! Who's the man in the blue T-shirt?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "That's my uncle. He's fishing. He loves fishing."
+          },
+          {
+            "speaker": "Arda",
+            "text": "And who are the girls on the left?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "They're my cousins. They're eating ice cream and laughing."
+          },
+          {
+            "speaker": "Arda",
+            "text": "And where are you?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "I'm not in the photo. I'm taking it!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's Melis's uncle doing?",
+            "options": [
+              "Swimming",
+              "Fishing",
+              "Eating ice cream"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He's fishing.\"",
+            "id": "a1-u11-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why isn't Melis in the photo?",
+            "options": [
+              "She's swimming.",
+              "She's taking the photo.",
+              "She's at home."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm taking it!\"",
+            "id": "a1-u11-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir fotoğrafı anlatırken **present continuous** kullanırız.\n\n**Yer:** in the photo, on the left, on the right, in the middle, at the front, at the back\n\n**Kişiyi tanımlamak:** the man **in** the blue T-shirt, the woman **with** long hair, the girl **on** the left\n\n**Kalıplar:**\n\n- **In this photo**, we're at the beach.\n- **Who's** the woman **in** the red dress?\n- **There's** a boy **on the right**. He's playing football.\n- She**'s wearing** a hat.",
+        "examples": [
+          {
+            "en": "In the middle, a man is selling simit.",
+            "tr": "Ortada bir adam simit satıyor."
+          },
+          {
+            "en": "The woman with the dog is running.",
+            "tr": "Köpekli kadın koşuyor."
+          },
+          {
+            "en": "The children at the front are smiling.",
+            "tr": "Öndeki çocuklar gülümsüyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"mavi tişörtlü adam\" deriz; İngilizcede tanımlayıcı ifade isimden sonra gelir: the man in the blue T-shirt. \"Fotoğrafta\" = in the photo (on the photo değil)."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "on the left",
+              "right": "solda"
+            },
+            {
+              "left": "on the right",
+              "right": "sağda"
+            },
+            {
+              "left": "in the middle",
+              "right": "ortada"
+            },
+            {
+              "left": "at the back",
+              "right": "arkada"
+            }
+          ],
+          "explanation": "Yer ifadelerini eşleştirin.",
+          "id": "a1-u11-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Mavi tişörtlü adam\"",
+          "options": [
+            "the blue T-shirt man",
+            "the man in the blue T-shirt",
+            "the man with blue T-shirt in"
+          ],
+          "answerIndex": 1,
+          "explanation": "isim + in + kıyafet.",
+          "id": "a1-u11-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "on the photo",
+            "in the photo"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fotoğrafta = in the photo.",
+          "id": "a1-u11-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The girl ___ long hair is reading.",
+          "answers": [
+            "with"
+          ],
+          "explanation": "Fiziksel özellik → with.",
+          "id": "a1-u11-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Who's the woman ___ the green dress?",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Kıyafet → in.",
+          "id": "a1-u11-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "In this photo, my parents ___ dancing.",
+          "answers": [
+            "are",
+            "'re"
+          ],
+          "explanation": "parents → are.",
+          "id": "a1-u11-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "wearing",
+            "is",
+            "She",
+            "a",
+            "big",
+            "hat"
+          ],
+          "answer": "She is wearing a big hat.",
+          "explanation": "Özne + is + wearing + kıyafet.",
+          "translation": "Büyük bir şapka takıyor.",
+          "id": "a1-u11-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "In this photo, my brother is on the right. He's wearing a yellow jacket and he's holding a cat.",
+          "prompt": "Kardeşi ne tutuyor?",
+          "options": [
+            "Bir köpek",
+            "Bir kedi",
+            "Bir top"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"he's holding a cat\"",
+          "id": "a1-u11-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu fotoğrafta tatildeyiz.\"",
+          "accepted": [
+            "In this photo, we're on holiday.",
+            "In this photo, we're on holiday",
+            "In this photo, we are on holiday",
+            "In this photo, we are on holiday.",
+            "In this photo we're on holiday.",
+            "In this photo we're on holiday",
+            "In this photo we are on holiday",
+            "In this photo we are on holiday.",
+            "We're on holiday in this photo.",
+            "We're on holiday in this photo",
+            "We are on holiday in this photo",
+            "We are on holiday in this photo."
+          ],
+          "explanation": "In this photo, we're on holiday.",
+          "id": "a1-u11-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Fotoğraftaki kişiyi sormak:",
+          "options": [
+            "Who's the man on the left?",
+            "What's the man on the left?",
+            "Who the man on the left?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kişi → Who's.",
+          "id": "a1-u11-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Telefonunuzdan sevdiğiniz bir fotoğrafı seçin ve JAI'ye anlatın: nerede, kimler var, ne giyiyorlar, ne yapıyorlar, hava nasıl.",
+          "modelAnswer": "In this photo, we're in my grandmother's garden. My grandma is in the middle. She's wearing a white dress and she's smiling. On the left, my cousins are playing football. It's sunny and hot.",
+          "rubric": [
+            "Present continuous doğru",
+            "Yer ifadeleri",
+            "in/with ile kişi tanımı",
+            "Hava durumu"
+          ]
+        },
+        "id": "a1-u11-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Is hot today.",
+          "It's hot today."
+        ],
+        "answerIndex": 1,
+        "explanation": "It's + hava.",
+        "id": "a1-u11-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "Take your umbrella. It's ___. (rain)",
+        "answers": [
+          "raining"
+        ],
+        "explanation": "It's raining.",
+        "id": "a1-u11-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "We go skiing ___ winter.",
+        "options": [
+          "in",
+          "on",
+          "at"
+        ],
+        "answerIndex": 0,
+        "explanation": "in winter",
+        "id": "a1-u11-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She cooking now.",
+          "She's cooking now."
+        ],
+        "answerIndex": 1,
+        "explanation": "is + -ing",
+        "id": "a1-u11-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "They're ___ in the sea. (swim)",
+        "answers": [
+          "swimming"
+        ],
+        "explanation": "swim → swimming",
+        "id": "a1-u11-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Are you working?\" (Hayır.)",
+        "options": [
+          "No, I don't.",
+          "No, I'm not.",
+          "No, I amn't."
+        ],
+        "answerIndex": 1,
+        "explanation": "No, I'm not.",
+        "id": "a1-u11-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Is it snowing?\" (Evet.)",
+        "options": [
+          "Yes, it is.",
+          "Yes, it's.",
+          "Yes, it does."
+        ],
+        "answerIndex": 0,
+        "explanation": "Yes, it is.",
+        "id": "a1-u11-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "What ___ you doing?",
+        "answers": [
+          "are"
+        ],
+        "explanation": "are",
+        "id": "a1-u11-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I usually ___ by bus, but today I'm walking.",
+        "options": [
+          "go",
+          "am going"
+        ],
+        "answerIndex": 0,
+        "explanation": "usually → present simple.",
+        "id": "a1-u11-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Look! The children ___ the ducks.",
+        "options": [
+          "feed",
+          "are feeding"
+        ],
+        "answerIndex": 1,
+        "explanation": "Look! → continuous.",
+        "id": "a1-u11-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm wanting a tea.",
+          "I want a tea."
+        ],
+        "answerIndex": 1,
+        "explanation": "want -ing almaz.",
+        "id": "a1-u11-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Siyah ceketli kadın\"",
+        "options": [
+          "the woman in the black jacket",
+          "the black jacket woman"
+        ],
+        "answerIndex": 0,
+        "explanation": "isim + in + kıyafet.",
+        "id": "a1-u11-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "What's the weather like in Trabzon? – It's raining and it's quite cold, about ten degrees.",
+        "prompt": "Trabzon'da hava nasıl?",
+        "options": [
+          "Güneşli ve sıcak",
+          "Yağmurlu ve soğukça",
+          "Karlı"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"It's raining and it's quite cold\"",
+        "id": "a1-u11-t13"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "is",
+          "Who",
+          "she",
+          "talking",
+          "to",
+          "?"
+        ],
+        "answer": "Who is she talking to?",
+        "explanation": "Soru kelimesi + is + özne + -ing + to?",
+        "translation": "Kiminle konuşuyor?",
+        "id": "a1-u11-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Pencerenizden dışarı bakın. Havayı ve gördüğünüz 3 kişinin ya da hayvanın ne yaptığını anlatın. Sonra bu insanların genelde ne yaptığını tahmin edin (5–6 cümle).",
+        "modelAnswer": "It's cloudy and windy today. A woman is walking her dog. Two boys are playing football in the street. A man is waiting for the bus. He probably goes to work by bus every day.",
+        "rubric": [
+          "Hava durumu doğru",
+          "Present continuous doğru",
+          "Present simple ile karşılaştırma",
+          "Yer ifadeleri"
+        ],
+        "id": "a1-u11-t15"
+      }
+    ]
+  }
+}
