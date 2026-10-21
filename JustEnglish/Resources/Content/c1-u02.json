@@ -1,0 +1,1336 @@
+{
+  "id": "c1-u02",
+  "level": "C1",
+  "number": 2,
+  "title": "Sunumlar",
+  "titleEn": "Presentations",
+  "canDo": "Cleft sentence'larla (It was ... that, What I need is ...) bir bilgiyi öne çıkarabilir, sunum yaparken yönlendirme ifadeleriyle dinleyiciyi yönetebilir, görselleri anlatabilir, soruları profesyonelce cevaplayabilir ve etkili bir sunum metni hazırlayabilirim.",
+  "grammar": [
+    "It-cleft: It was ... that / who",
+    "Wh-cleft: What I need is ... / What happened was ...",
+    "All ... is / The reason ... is that / The thing that",
+    "sunum yönlendirme dili (signposting)",
+    "görselleri anlatma ve soru-cevap"
+  ],
+  "vocabularyThemes": [
+    "iş sunumları",
+    "proje ve fikir sunma",
+    "dinleyiciyle etkileşim"
+  ],
+  "liveClass": {
+    "title": "Üç dakikada fikrim",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci okulunu, işini ya da şehrini iyileştirecek bir fikri 3 dakikalık bir sunumla anlatır. Sunumda en az 3 cleft sentence (What we need is..., It's not money that..., The reason why...) ve açık yönlendirme ifadeleri kullanır. Ardından sınıftan iki soru alır ve kalıplarla cevaplar. Sınıf en ikna edici sunumu oylar."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u02-v01",
+      "en": "presentation",
+      "tr": "sunum",
+      "example": "I have to give a presentation tomorrow.",
+      "exampleTr": "Yarın bir sunum yapmam gerekiyor.",
+      "note": "give / deliver a presentation"
+    },
+    {
+      "id": "c1-u02-v02",
+      "en": "audience",
+      "tr": "dinleyici kitlesi",
+      "example": "Know your audience before you speak.",
+      "exampleTr": "Konuşmadan önce dinleyicini tanı."
+    },
+    {
+      "id": "c1-u02-v03",
+      "en": "outline",
+      "tr": "ana hatlar; ana hatlarıyla anlatmak",
+      "example": "Let me outline the main points.",
+      "exampleTr": "Ana noktaları özetleyeyim."
+    },
+    {
+      "id": "c1-u02-v04",
+      "en": "move on (to)",
+      "tr": "(bir sonraki konuya) geçmek",
+      "example": "Let's move on to the next slide.",
+      "exampleTr": "Bir sonraki slayta geçelim."
+    },
+    {
+      "id": "c1-u02-v05",
+      "en": "highlight",
+      "tr": "vurgulamak, öne çıkarmak",
+      "example": "I'd like to highlight three key points.",
+      "exampleTr": "Üç önemli noktayı vurgulamak istiyorum."
+    },
+    {
+      "id": "c1-u02-v06",
+      "en": "key",
+      "tr": "temel, kilit",
+      "example": "The key issue is cost.",
+      "exampleTr": "Temel sorun maliyet."
+    },
+    {
+      "id": "c1-u02-v07",
+      "en": "slide",
+      "tr": "slayt",
+      "example": "As you can see on this slide, ...",
+      "exampleTr": "Bu slaytta gördüğünüz gibi ..."
+    },
+    {
+      "id": "c1-u02-v08",
+      "en": "chart",
+      "tr": "grafik, çizelge",
+      "example": "This chart shows our sales.",
+      "exampleTr": "Bu grafik satışlarımızı gösteriyor."
+    },
+    {
+      "id": "c1-u02-v09",
+      "en": "figure",
+      "tr": "rakam; şekil",
+      "example": "The figures speak for themselves.",
+      "exampleTr": "Rakamlar kendileri konuşuyor."
+    },
+    {
+      "id": "c1-u02-v10",
+      "en": "illustrate",
+      "tr": "örneklemek, göstermek",
+      "example": "Let me illustrate this with an example.",
+      "exampleTr": "Bunu bir örnekle açıklayayım."
+    },
+    {
+      "id": "c1-u02-v11",
+      "en": "summarise",
+      "tr": "özetlemek",
+      "example": "To summarise, ...",
+      "exampleTr": "Özetlemek gerekirse ...",
+      "note": "AmE: summarize"
+    },
+    {
+      "id": "c1-u02-v12",
+      "en": "conclude",
+      "tr": "sonuçlandırmak",
+      "example": "I'd like to conclude by thanking you all.",
+      "exampleTr": "Hepinize teşekkür ederek bitirmek istiyorum."
+    },
+    {
+      "id": "c1-u02-v13",
+      "en": "digress",
+      "tr": "konudan sapmak",
+      "example": "Sorry, I'm digressing.",
+      "exampleTr": "Pardon, konudan sapıyorum."
+    },
+    {
+      "id": "c1-u02-v14",
+      "en": "elaborate (on)",
+      "tr": "ayrıntılandırmak",
+      "example": "Could you elaborate on that point?",
+      "exampleTr": "O noktayı biraz açar mısınız?"
+    },
+    {
+      "id": "c1-u02-v15",
+      "en": "clarify",
+      "tr": "açıklığa kavuşturmak",
+      "example": "Let me clarify what I mean.",
+      "exampleTr": "Ne demek istediğimi açıklayayım."
+    },
+    {
+      "id": "c1-u02-v16",
+      "en": "handout",
+      "tr": "dağıtılan belge",
+      "example": "You'll find the details in your handout.",
+      "exampleTr": "Ayrıntıları dağıtılan belgede bulacaksınız."
+    },
+    {
+      "id": "c1-u02-v17",
+      "en": "nervous",
+      "tr": "gergin",
+      "example": "Everyone feels nervous before a presentation.",
+      "exampleTr": "Herkes sunumdan önce gergin hisseder."
+    },
+    {
+      "id": "c1-u02-v18",
+      "en": "rehearse",
+      "tr": "prova yapmak",
+      "example": "Rehearse your presentation several times.",
+      "exampleTr": "Sununu birkaç kez prova et."
+    },
+    {
+      "id": "c1-u02-v19",
+      "en": "engage",
+      "tr": "ilgisini çekmek, katılımını sağlamak",
+      "example": "A good story engages the audience.",
+      "exampleTr": "İyi bir hikâye dinleyicinin ilgisini çeker."
+    },
+    {
+      "id": "c1-u02-v20",
+      "en": "pitch",
+      "tr": "(fikir/ürün) sunumu, satış konuşması",
+      "example": "She made a great pitch to investors.",
+      "exampleTr": "Yatırımcılara harika bir sunum yaptı."
+    },
+    {
+      "id": "c1-u02-v21",
+      "en": "stakeholder",
+      "tr": "paydaş",
+      "example": "We need to inform all stakeholders.",
+      "exampleTr": "Tüm paydaşları bilgilendirmemiz gerek."
+    },
+    {
+      "id": "c1-u02-v22",
+      "en": "in a nutshell",
+      "tr": "kısacası",
+      "example": "In a nutshell, we need more time.",
+      "exampleTr": "Kısacası daha fazla zamana ihtiyacımız var."
+    },
+    {
+      "id": "c1-u02-v23",
+      "en": "bear in mind",
+      "tr": "akılda tutmak",
+      "example": "Bear in mind that the budget is limited.",
+      "exampleTr": "Bütçenin sınırlı olduğunu aklınızda tutun."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u02-l1",
+      "number": 1,
+      "title": "Asıl önemli olan",
+      "goal": "It-cleft (It was ... that / who) yapısıyla bir bilgiyi öne çıkarabilir ve bir yanlış anlamayı düzeltebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Proje toplantısı",
+        "lines": [
+          {
+            "speaker": "Director",
+            "text": "So the project was late because the design team didn't finish on time?"
+          },
+          {
+            "speaker": "Okan",
+            "text": "Actually, it wasn't the design team that caused the delay. It was the supplier who sent the wrong materials."
+          },
+          {
+            "speaker": "Director",
+            "text": "I see. And when did you find out?"
+          },
+          {
+            "speaker": "Okan",
+            "text": "It was only last Thursday that we discovered the problem."
+          },
+          {
+            "speaker": "Director",
+            "text": "So it's not more people that we need, it's a better supplier."
+          },
+          {
+            "speaker": "Okan",
+            "text": "Exactly. And it was Gizem who found a new supplier in just two days."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What caused the delay?",
+            "options": [
+              "The design team",
+              "The supplier sent the wrong materials.",
+              "There weren't enough people."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It was the supplier who sent the wrong materials.\"",
+            "id": "c1-u02-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who found a new supplier?",
+            "options": [
+              "Okan",
+              "The director",
+              "Gizem"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"it was Gizem who found a new supplier\"",
+            "id": "c1-u02-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Cleft sentence** (\"bölünmüş cümle\"), bir cümleyi ikiye bölerek **bir bilgiyi öne çıkarır**.\n\n**It + be + [vurgulanan kısım] + that / who + [cümlenin geri kalanı]**\n\n**Normal cümle:** *The supplier caused the delay last week.*\n\n| Vurgulanan | It-cleft |\n|---|---|\n| Kim? | **It was the supplier that / who** caused the delay. |\n| Ne? | **It was the delay that** worried us. |\n| Ne zaman? | **It was last week that** the delay happened. |\n| Nerede? | **It was in Izmir that** we met. |\n| Neden? | **It was because of the rain that** we cancelled. |\n\n**En güçlü kullanım: düzeltme (contrast)**\n\n- ***It wasn't** the design team **that** caused the delay. **It was** the supplier.*\n- ***It's not** money **that** we need, **it's** time.*\n\n**Kurallar:**\n\n- Kişi için **who** ya da **that**; diğerleri için **that**.\n- **be** fiilinin zamanı genellikle cümlenin zamanına uyar: *It **was** ... that ...* (geçmiş) / *It **is** ... that ...* (şimdi)\n- **It was only when / only after ... that ...** = ancak ... -ince: *It was only last Thursday that we discovered it.*\n\n**Konuşmada:** Vurgulanan kelime **yüksek tonla** söylenir.",
+        "examples": [
+          {
+            "en": "It was my grandmother who taught me to cook.",
+            "tr": "Bana yemek yapmayı öğreten büyükannemdi."
+          },
+          {
+            "en": "It isn't the price that worries me, it's the quality.",
+            "tr": "Beni endişelendiren fiyat değil, kalite."
+          },
+          {
+            "en": "It was only when I moved abroad that I learned to appreciate home.",
+            "tr": "Evin değerini ancak yurt dışına taşındığımda anladım."
+          }
+        ],
+        "turkishNote": "Türkçede vurgu, vurgulanan öğeyi fiilin hemen önüne koyarak yapılır: \"Gecikmeye tedarikçi neden oldu\" (vurgu: tedarikçi). İngilizcede kelime sırası sabit olduğu için bu iş için \"It was the supplier that...\" yapısı kullanılır. Türkçedeki \"-an/-en ... -dir\" yapısı da (\"Bana yemek yapmayı öğreten büyükannemdi\") it-cleft'e çok yakındır; çeviri yaparken bu yapıyı düşünün."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Beni arayan Ali'ydi.\"",
+          "options": [
+            "It was Ali who called me.",
+            "Ali was who called me."
+          ],
+          "answerIndex": 0,
+          "explanation": "It was ... who.",
+          "id": "c1-u02-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru düzeltme?",
+          "options": [
+            "It isn't money that we need, it's time.",
+            "Money isn't we need, time is."
+          ],
+          "answerIndex": 0,
+          "explanation": "It isn't ... that ..., it's ...",
+          "id": "c1-u02-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"It was in 2010 that we met.\" vurgulanan:",
+          "options": [
+            "Nerede",
+            "Ne zaman"
+          ],
+          "answerIndex": 1,
+          "explanation": "Zaman.",
+          "id": "c1-u02-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bunu ancak dün öğrendim.\"",
+          "options": [
+            "It was only yesterday that I found out.",
+            "It was yesterday only I found out."
+          ],
+          "answerIndex": 0,
+          "explanation": "It was only ... that.",
+          "id": "c1-u02-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ my sister who told me the news. (geçmiş)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "It was.",
+          "id": "c1-u02-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's not the price ___ worries me, it's the quality.",
+          "answers": [
+            "that"
+          ],
+          "explanation": "that.",
+          "id": "c1-u02-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was in Paris ___ they first met.",
+          "answers": [
+            "that"
+          ],
+          "explanation": "Yer + that.",
+          "id": "c1-u02-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was only ___ I read the report that I understood. (-ince)",
+          "answers": [
+            "when",
+            "after"
+          ],
+          "explanation": "It was only when.",
+          "id": "c1-u02-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Everyone thinks it was Edison who invented the light bulb, but it wasn't only him. Several inventors were working on it at the same time. What Edison did was to make it practical and cheap enough for people's homes.",
+          "prompt": "Konuşan Edison hakkında ne söylüyor?",
+          "options": [
+            "Ampulü tek başına icat etti",
+            "Ampulü pratik ve ucuz hale getirdi",
+            "Ampulle hiç ilgisi yoktu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"What Edison did was to make it practical and cheap\"",
+          "id": "c1-u02-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "It-cleft ile vurgulayın (kim?): \"My teacher encouraged me to apply.\"",
+          "accepted": [
+            "It was my teacher who encouraged me to apply.",
+            "It was my teacher who encouraged me to apply",
+            "It was my teacher that encouraged me to apply.",
+            "It was my teacher that encouraged me to apply"
+          ],
+          "explanation": "It was my teacher who encouraged me to apply.",
+          "id": "c1-u02-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "(1) Hayatınızı etkileyen 3 kişi, yer ya da anı it-cleft ile anlatın (It was ... who / that ...). (2) Hakkınızda ya da şehriniz hakkında yaygın bir yanlış inancı it-cleft ile düzeltin (It's not ... that ..., it's ...).",
+          "modelAnswer": "It was my uncle who got me interested in photography. He gave me his old camera when I was twelve. It was in Cappadocia that I took my first good photo, at sunrise. And it was only when I won a small competition that I started to believe in myself. People often think that it's the camera that makes a good photo. But it isn't the camera that matters, it's the eye of the photographer.",
+          "rubric": [
+            "It-cleft doğruluğu",
+            "who / that seçimi",
+            "Düzeltme yapısı",
+            "Vurgulu tonlama"
+          ]
+        },
+        "id": "c1-u02-l1-use"
+      }
+    },
+    {
+      "id": "c1-u02-l2",
+      "number": 2,
+      "title": "İhtiyacımız olan şey",
+      "goal": "Wh-cleft (What I need is ..., What happened was ...) yapısıyla bir fikri ya da olayı dramatik bir şekilde sunabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir girişimcinin sunumu",
+        "body": "Good afternoon, everyone.\n\nWhat I'd like to talk about today is food waste. What surprised me most when I started researching this topic was that nearly a third of all the food we produce is never eaten.\n\nSo what did we do? What we did was to create an app that connects restaurants with people who want to buy their leftover food at a lower price.\n\nWhat happened next was amazing. In just six months, more than 200 restaurants joined.\n\nWhat we need now is investment, so that we can expand to other cities. And what I'm asking you for today is not just money. What I really want is partners who care about this problem as much as we do.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the app do?",
+            "options": [
+              "It delivers food.",
+              "It connects restaurants with people who buy leftover food.",
+              "It teaches cooking."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"connects restaurants with people who want to buy their leftover food\"",
+            "id": "c1-u02-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the speaker really want?",
+            "options": [
+              "Only money",
+              "Partners who care about the problem",
+              "More restaurants"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"What I really want is partners who care about this problem\"",
+            "id": "c1-u02-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Wh-cleft (pseudo-cleft):** *What* + özne + fiil + **is / was** + [vurgulanan bilgi]\n\nDinleyicinin dikkatini **asıl bilgiye** çekmek için \"merak\" yaratır.\n\n| Normal | Wh-cleft |\n|---|---|\n| We need investment. | **What we need is** investment. |\n| The result surprised me. | **What surprised me was** the result. |\n| I'd like to talk about food waste. | **What I'd like to talk about is** food waste. |\n\n**Eylemi vurgulamak: What ... do / did + is / was + (to) + fiil**\n\n| Normal | Wh-cleft |\n|---|---|\n| We created an app. | **What we did was (to) create** an app. |\n| You should rest. | **What you should do is rest.** |\n\n**Olayı vurgulamak: What happened was (that) ...**\n\n- ***What happened was that** the server crashed.*\n\n**Ters sıralama da mümkün:**\n\n- *Investment **is what we need**.* (daha vurgulu sonuç)\n- *That's **what I mean**.*\n\n**Dikkat:**\n\n- **What** = the thing(s) that; ~~The thing what~~ ✗\n- Vurgulanan kısım çoğul olsa bile genellikle **is** kullanılır: *What we need **is** more volunteers.*",
+        "examples": [
+          {
+            "en": "What I love about this city is the food.",
+            "tr": "Bu şehirde sevdiğim şey yemekleri."
+          },
+          {
+            "en": "What you need to do is talk to your manager.",
+            "tr": "Yapman gereken şey müdürünle konuşmak."
+          },
+          {
+            "en": "What happened was that we missed the last train.",
+            "tr": "Olan şuydu: son treni kaçırdık."
+          }
+        ],
+        "turkishNote": "Türkçede \"Bize lazım olan şey yatırım\" ya da \"Olan şuydu: ...\" yapıları wh-cleft'e çok benzer ve doğal bir şekilde kullanılır. İngilizcede de sunumlarda ve tartışmalarda çok yaygındır. Türkçe konuşanların sık yaptığı hata, \"The thing what\" ya da \"What we need, it is\" gibi fazladan kelimeler eklemektir. \"What we need is...\" yapısı tek başına yeterlidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "What we need it is more time.",
+            "What we need is more time."
+          ],
+          "answerIndex": 1,
+          "explanation": "What ... is.",
+          "id": "c1-u02-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The thing what I love is music.",
+            "What I love is music."
+          ],
+          "answerIndex": 1,
+          "explanation": "What = the thing that.",
+          "id": "c1-u02-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Eylemi vurgulamak:",
+          "options": [
+            "What we did was to call the police.",
+            "What we called was the police."
+          ],
+          "answerIndex": 0,
+          "explanation": "What ... did was (to) + fiil.",
+          "id": "c1-u02-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What we need is more volunteers.\" fiil:",
+          "options": [
+            "is (doğru)",
+            "are (zorunlu)"
+          ],
+          "answerIndex": 0,
+          "explanation": "Genellikle is.",
+          "id": "c1-u02-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What I'd like to talk ___ today is climate change.",
+          "answers": [
+            "about"
+          ],
+          "explanation": "talk about.",
+          "id": "c1-u02-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ was that the server crashed. (oldu)",
+          "answers": [
+            "happened"
+          ],
+          "explanation": "What happened was.",
+          "id": "c1-u02-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "What you should ___ is apologise.",
+          "answers": [
+            "do"
+          ],
+          "explanation": "What you should do is.",
+          "id": "c1-u02-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "What surprised me ___ the size of the city.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "Geçmiş → was.",
+          "id": "c1-u02-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When the project started to fail, what we didn't do was panic. What we did was to sit down together and look at the problem honestly. What we discovered was that we had been trying to do too many things at once.",
+          "prompt": "Ekip ne keşfetti?",
+          "options": [
+            "Paraları bitmişti",
+            "Aynı anda çok fazla şey yapmaya çalışıyorlardı",
+            "Müşteri yoktu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we had been trying to do too many things at once\"",
+          "id": "c1-u02-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Wh-cleft ile yeniden yazın: \"I really need a holiday.\" (What I really need)",
+          "accepted": [
+            "What I really need is a holiday.",
+            "What I really need is a holiday",
+            "What I really need is a holiday!"
+          ],
+          "explanation": "What I really need is a holiday.",
+          "id": "c1-u02-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir sorunu ve çözümünüzü yatırımcılara sunuyormuş gibi kısa bir \"pitch\" yapın (1 dakika). En az 5 wh-cleft kullanın: What I'd like to talk about is ..., What surprised me was ..., What we did was (to) ..., What happened was ..., What we need is ...",
+          "modelAnswer": "Good morning. What I'd like to talk about today is loneliness among older people. What surprised me when I started volunteering was how many elderly people go days without speaking to anyone. So what we did was to create a programme that matches university students with older neighbours for a weekly coffee. What happened next was wonderful: both groups said they felt happier. What we need now is funding to bring this programme to every neighbourhood in the city.",
+          "rubric": [
+            "Wh-cleft çeşitliliği",
+            "What ... did was (to)",
+            "Pitch yapısı",
+            "Merak yaratan sunum"
+          ]
+        },
+        "id": "c1-u02-l2-use"
+      }
+    },
+    {
+      "id": "c1-u02-l3",
+      "number": 3,
+      "title": "Tek istediğim",
+      "goal": "All ... is, The reason ... is that, The thing that ... gibi diğer vurgulu yapıları kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Müşteri görüşmesi",
+        "lines": [
+          {
+            "speaker": "Client",
+            "text": "Look, all I want is a website that works. The last company gave us something beautiful, but nobody could find anything."
+          },
+          {
+            "speaker": "Designer",
+            "text": "I understand. The reason most websites fail is that they're designed for the company, not for the users."
+          },
+          {
+            "speaker": "Client",
+            "text": "Exactly. The thing that annoys me most is the menus. There are too many."
+          },
+          {
+            "speaker": "Designer",
+            "text": "The place to start, then, is with your customers. We'll interview ten of them first."
+          },
+          {
+            "speaker": "Client",
+            "text": "That's the first time anyone has suggested that."
+          },
+          {
+            "speaker": "Designer",
+            "text": "The person who should decide how the website works is the person who uses it."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the client want?",
+            "options": [
+              "A beautiful website",
+              "A website that works",
+              "A cheaper website"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"all I want is a website that works\"",
+            "id": "c1-u02-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why do most websites fail, according to the designer?",
+            "options": [
+              "They're too expensive.",
+              "They're designed for the company, not the users.",
+              "They're too simple."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"designed for the company, not for the users\"",
+            "id": "c1-u02-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Wh-cleft'e benzer, ama **what** yerine bir isim kullanan yapılar:\n\n| Yapı | Anlam | Örnek |\n|---|---|---|\n| **All** + özne + fiil + **is** | tek ... şey | **All I want is** a website that works. |\n| **The reason (why)** ... **is that** | ... -in nedeni ... | **The reason (why)** it failed **is that** nobody tested it. |\n| **The thing (that)** ... **is** | ... şey | **The thing that** annoys me **is** the noise. |\n| **The person who** ... **is** | ... kişi | **The person who** helped me most **was** my coach. |\n| **The place where** ... **is** | ... yer | **The place where** I feel happiest **is** the sea. |\n| **The time when** ... **was** | ... zaman | **The time when** I felt proudest **was** ... |\n| **The first / last / only thing** ... **is** | ilk / son / tek şey | **The only thing** I regret **is** not travelling more. |\n\n**All I did was + (to) + fiil:**\n\n- ***All I did was** ask a question!* (Sadece bir soru sordum! → savunma)\n\n**Dikkat:**\n\n- ~~The reason is because~~ → **The reason is that** (resmî dilde \"because\" tekrarı hatalı kabul edilir)\n- **All** = the only thing: ~~All what I want~~ ✗ → **All I want** ✓",
+        "examples": [
+          {
+            "en": "All I need is a good night's sleep.",
+            "tr": "Tek ihtiyacım güzel bir gece uykusu."
+          },
+          {
+            "en": "The reason I'm calling is that I have a question about my bill.",
+            "tr": "Aramamın nedeni faturamla ilgili bir sorum olması."
+          },
+          {
+            "en": "The only thing I regret is not learning English earlier.",
+            "tr": "Tek pişmanlığım İngilizceyi daha erken öğrenmemek."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"Tek istediğim...\", \"... -mesinin sebebi ...\", \"Beni en çok rahatsız eden şey ...\" yapıları bu kalıplarla birebir örtüşür. Türkçe konuşanların en sık hatası \"All what I want\" demektir (Türkçedeki \"bütün istediğim şey\"den); doğrusu \"All I want\". Bir diğer yaygın hata \"The reason is because...\"; resmî İngilizcede \"The reason is that...\" tercih edilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "All what I want is peace.",
+            "All I want is peace."
+          ],
+          "answerIndex": 1,
+          "explanation": "All I want.",
+          "id": "c1-u02-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî dilde hangisi doğru?",
+          "options": [
+            "The reason is because it's expensive.",
+            "The reason is that it's expensive."
+          ],
+          "answerIndex": 1,
+          "explanation": "The reason is that.",
+          "id": "c1-u02-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"All I did was ask a question!\" tonu:",
+          "options": [
+            "Savunma (sadece soru sordum!)",
+            "Övünme"
+          ],
+          "answerIndex": 0,
+          "explanation": "Savunma.",
+          "id": "c1-u02-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The place where I feel calmest is the forest.\" vurgu:",
+          "options": [
+            "Yer",
+            "Zaman"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yer.",
+          "id": "c1-u02-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I need is five more minutes. (Tek)",
+          "answers": [
+            "All"
+          ],
+          "explanation": "All I need is.",
+          "id": "c1-u02-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The reason I'm late ___ that the train was cancelled.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "The reason ... is that.",
+          "id": "c1-u02-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The only ___ I regret is not saying goodbye.",
+          "answers": [
+            "thing"
+          ],
+          "explanation": "The only thing.",
+          "id": "c1-u02-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The person ___ inspired me most was my teacher.",
+          "answers": [
+            "who",
+            "that"
+          ],
+          "explanation": "The person who.",
+          "id": "c1-u02-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "People often ask me the secret of my success. The truth is, all I did was keep going when others gave up. The reason I never stopped is that I really loved what I was doing. And the thing I'm proudest of isn't the money. It's the team I built.",
+          "prompt": "Konuşanın en gurur duyduğu şey ne?",
+          "options": [
+            "Para",
+            "Kurduğu ekip",
+            "Ödüller"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the thing I'm proudest of isn't the money. It's the team I built.\"",
+          "id": "c1-u02-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Vurgulu yapıyla yeniden yazın: \"I only want a cup of tea.\" (All I want)",
+          "accepted": [
+            "All I want is a cup of tea.",
+            "All I want is a cup of tea",
+            "All I want is a cup of tea!"
+          ],
+          "explanation": "All I want is a cup of tea.",
+          "id": "c1-u02-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendinizi bu yapılarla tanıtın: All I need to be happy is ..., The thing that annoys me most is ..., The person who has influenced me most is ..., The place where I feel most at home is ..., The reason I'm learning English is that ..., The only thing I regret is ...",
+          "modelAnswer": "All I need to be happy is good food and good friends. The thing that annoys me most is people who are always late. The person who has influenced me most is my aunt, who travelled the world on her own. The place where I feel most at home is my grandparents' village. The reason I'm learning English is that I want to work for an international company. And the only thing I regret is not starting earlier!",
+          "rubric": [
+            "Çeşitli vurgulu yapılar",
+            "The reason ... is that",
+            "All ... is",
+            "Akıcılık"
+          ]
+        },
+        "id": "c1-u02-l3-use"
+      }
+    },
+    {
+      "id": "c1-u02-l4",
+      "number": 4,
+      "title": "Sunumu yönetmek",
+      "goal": "Yönlendirme ifadeleri (signposting), görsel anlatım ve soru-cevap kalıplarıyla bir sunumu profesyonelce yönetebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Sunumdan bir bölüm",
+        "body": "Good morning, everyone, and thank you for coming. My name is Tuba Arıkan, and I'm the marketing manager.\n\nToday, I'd like to talk about our new strategy for young customers. I've divided my presentation into three parts. First, I'll look at the current situation. Then, I'll present our research. And finally, I'll suggest some next steps. Please feel free to interrupt if you have any questions.\n\nSo, let's start with the current situation. As you can see from this chart, sales to customers under 25 have fallen steadily over the last two years.\n\nThat brings me to my second point: why? Let me illustrate this with a quote from one of our focus groups: \"Your brand feels like something my parents would buy.\"\n\nMoving on to my final point...\n\n[Later]\n\nThat's a very good question. If I understand correctly, you're asking whether the new strategy will affect older customers. I'm glad you asked that...",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many parts does the presentation have?",
+            "options": [
+              "Two",
+              "Three",
+              "Four"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"three parts\"",
+            "id": "c1-u02-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the chart show?",
+            "options": [
+              "Sales to young customers have fallen.",
+              "Sales have doubled.",
+              "Older customers are leaving."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"sales to customers under 25 have fallen steadily\"",
+            "id": "c1-u02-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sunumun bölümleri ve kalıplar:**\n\n| Bölüm | Kalıplar |\n|---|---|\n| **Açılış** | *Good morning, and thank you for coming.* / *I'd like to talk to you about ...* / *The purpose of this presentation is to ...* |\n| **Plan** | *I've divided my presentation into three parts.* / *First, I'll ... Then, ... Finally, ...* |\n| **Başlama** | *So, let's start with ...* / *I'd like to begin by ...* |\n| **Geçiş** | *Moving on to ...* / *That brings me to my next point.* / *Let's now turn to ...* |\n| **Örnek** | *Let me illustrate this with an example.* / *To give you an idea, ...* |\n| **Vurgu** | *I'd like to highlight ...* / *What's really important here is ...* / *It's worth bearing in mind that ...* |\n| **Konu dışı** | *Sorry, I'm digressing. Back to ...* |\n| **Özet / kapanış** | *To sum up, ...* / *In a nutshell, ...* / *I'd like to finish by ...* / *Thank you for your attention.* |\n\n**Görselleri anlatmak:**\n\n- *As you can see from this chart / on this slide, ...*\n- *This graph shows / illustrates ...*\n- *If you look at the figures on the left, ...*\n- *I'd like to draw your attention to ...*\n\n**Soru-cevap:**\n\n| Durum | Kalıp |\n|---|---|\n| Zaman kazanmak | *That's a very good question.* / *I'm glad you asked that.* |\n| Soruyu kontrol etmek | *If I understand correctly, you're asking ...* |\n| Cevabı bilmiyorsanız | *I'm afraid I don't have that information right now, but I'll find out and get back to you.* |\n| Kapsam dışıysa | *That's slightly outside the scope of today's presentation, but ...* |",
+        "examples": [
+          {
+            "en": "That brings me to my next point.",
+            "tr": "Bu beni bir sonraki noktama getiriyor."
+          },
+          {
+            "en": "As you can see from this chart, costs have risen sharply.",
+            "tr": "Bu grafikte gördüğünüz gibi maliyetler keskin bir şekilde arttı."
+          },
+          {
+            "en": "I'm afraid I don't have the exact figures, but I'll get back to you.",
+            "tr": "Maalesef kesin rakamlar elimde yok ama size dönüş yapacağım."
+          }
+        ],
+        "turkishNote": "Türkçe sunumlarda geçişler genellikle \"Şimdi ...'a geçelim\" gibi tek bir kalıpla yapılır. İngilizce sunumlarda çeşitli yönlendirme ifadeleri dinleyicinin \"haritayı\" kaybetmemesini sağlar ve konuşmacıyı çok daha profesyonel gösterir. Bilmediğiniz bir soruya cevap uydurmak yerine \"I'll get back to you\" demek, İngilizce iş kültüründe gayet kabul görür."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir sonraki konuya geçmek:",
+          "options": [
+            "Moving on to ...",
+            "Moving off to ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Moving on to.",
+          "id": "c1-u02-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Cevabını bilmediğiniz bir soru:",
+          "options": [
+            "I don't know. Next question.",
+            "I'm afraid I don't have that information, but I'll get back to you."
+          ],
+          "answerIndex": 1,
+          "explanation": "Profesyonel.",
+          "id": "c1-u02-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Görsel anlatmak:",
+          "options": [
+            "As you can see from this chart, ...",
+            "As you look this chart, ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "As you can see from.",
+          "id": "c1-u02-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sorry, I'm digressing.\" anlamı:",
+          "options": [
+            "Pardon, konudan sapıyorum.",
+            "Pardon, geç kaldım."
+          ],
+          "answerIndex": 0,
+          "explanation": "digress.",
+          "id": "c1-u02-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ my presentation into three parts.",
+          "answers": [
+            "divided"
+          ],
+          "explanation": "divided into.",
+          "id": "c1-u02-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "That ___ me to my next point.",
+          "answers": [
+            "brings"
+          ],
+          "explanation": "That brings me to.",
+          "id": "c1-u02-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let me ___ this with an example. (örneklemek)",
+          "answers": [
+            "illustrate"
+          ],
+          "explanation": "illustrate.",
+          "id": "c1-u02-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I understand ___, you're asking about the cost.",
+          "answers": [
+            "correctly"
+          ],
+          "explanation": "If I understand correctly.",
+          "id": "c1-u02-l4-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Moving on to ...",
+              "right": "geçiş"
+            },
+            {
+              "left": "To sum up, ...",
+              "right": "özet"
+            },
+            {
+              "left": "Let me illustrate ...",
+              "right": "örnek"
+            },
+            {
+              "left": "I'm glad you asked that.",
+              "right": "soru-cevap"
+            },
+            {
+              "left": "I'd like to begin by ...",
+              "right": "başlangıç"
+            }
+          ],
+          "explanation": "Kalıpları işlevleriyle eşleştirin.",
+          "id": "c1-u02-l4-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "Right, I think that covers the main points. To sum up, we've seen that our costs have risen, that customers want faster delivery, and that a new warehouse could solve both problems. I'd like to finish by thanking the logistics team for their help. Now, are there any questions?",
+          "prompt": "Konuşan sunumun hangi bölümünde?",
+          "options": [
+            "Açılış",
+            "Kapanış",
+            "Ortası"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"To sum up... I'd like to finish by...\"",
+          "id": "c1-u02-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Seçtiğiniz bir konuda (şehriniz, bir hobi, işiniz, bir kitap) 2 dakikalık bir mini sunum yapın. Açılış, üç bölümlü bir plan, en az 3 geçiş ifadesi, bir görsel anlatım (As you can see ...) ve bir özetle bitirin. Sonra kendinize hayali bir soru sorun ve kalıplarla cevaplayın.",
+          "modelAnswer": "Good morning, everyone, and thank you for being here. Today I'd like to talk about urban gardening. I've divided my talk into three parts. First, I'll explain what urban gardening is. Then, I'll look at the benefits. Finally, I'll show you how to start. So, let's begin. Urban gardening simply means growing food in the city. As you can see on this slide, even a small balcony can produce tomatoes and herbs. That brings me to my second point: the benefits. ... To sum up, urban gardening is cheap, healthy and fun. Thank you. Yes, that's a very good question. If I understand correctly, you're asking how much time it takes...",
+          "rubric": [
+            "Açılış ve plan",
+            "Geçiş ifadeleri",
+            "Görsel anlatım",
+            "Özet ve soru-cevap"
+          ]
+        },
+        "id": "c1-u02-l4-use"
+      }
+    },
+    {
+      "id": "c1-u02-l5",
+      "number": 5,
+      "title": "Sunum metni",
+      "goal": "Cleft sentence'lar, yönlendirme dili ve etkili bir yapıyla dinleyiciyi etkileyen bir sunum metni yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kısa bir konuşmanın metni: Neden okumalıyız?",
+        "body": "Good evening.\n\nLet me start with a question. When was the last time you read a book, not on a screen, just a book, for more than an hour?\n\nFor most of us, it's been a while. And that's what I want to talk about tonight.\n\nI'd like to make three points. First, why reading matters. Second, why we've stopped. And third, what we can do about it.\n\nSo, why does reading matter? It isn't just about information. What reading really gives us is empathy. When we read a novel, we live inside someone else's mind. Studies suggest that people who read fiction regularly are better at understanding other people's feelings.\n\nThat brings me to my second point. Why have we stopped? The reason, I think, is not that we've lost interest. It's that our attention is constantly being taken by our phones.\n\nSo what can we do? All it takes is twenty minutes a day. Leave your phone in another room. Pick up a book. That's it.\n\nTo sum up: reading makes us more human. It was a book that changed my life when I was fifteen. Maybe tonight, one will change yours.\n\nThank you.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does reading really give us, according to the speaker?",
+            "options": [
+              "Information",
+              "Empathy",
+              "Money"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"What reading really gives us is empathy.\"",
+            "id": "c1-u02-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the speaker's practical suggestion?",
+            "options": [
+              "Buy an e-reader.",
+              "Read for twenty minutes a day without your phone.",
+              "Join a book club."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"All it takes is twenty minutes a day. Leave your phone in another room.\"",
+            "id": "c1-u02-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Etkili bir sunum metninin yapısı:**\n\n| Bölüm | Teknik | Örnek |\n|---|---|---|\n| **Kanca (hook)** | Soru, şaşırtıcı bir rakam, kısa bir hikâye | *When was the last time you ...?* |\n| **Konu ve plan** | Ne anlatacağınızı söyleyin | *I'd like to make three points.* |\n| **Gelişme** | Her bölüm bir mesaj + kanıt/örnek | *What reading really gives us is empathy.* |\n| **Geçişler** | Signposting | *That brings me to my second point.* |\n| **Çağrı** | Dinleyiciden somut bir eylem | *All it takes is twenty minutes a day.* |\n| **Kapanış** | Özet + başa dönüş + güçlü son | *Maybe tonight, one will change yours.* |\n\n**Konuşma için yazmak ≠ okumak için yazmak:**\n\n- **Kısa cümleler** kullanın; dinleyici geri dönüp okuyamaz.\n- **Tekrar** edin: Ana mesajı başta, ortada ve sonda söyleyin.\n- **Cleft sentence**'larla en önemli bilgiyi **cümlenin sonuna** (dinleyicinin dikkatinin en yüksek olduğu yere) koyun: *What we need is **courage**.*\n- **Doğrudan hitap:** *you, we, us*\n- **Duraklama** yerleri bırakın (yazıda yeni satır).\n\n**Cleft sentence'ların sunumdaki gücü:** Vurgulanan bilgiyi **beklenti yaratarak** sunarlar: *The reason I'm here tonight is ... [duraklama] ... you.*",
+        "examples": [
+          {
+            "en": "Let me start with a question.",
+            "tr": "Bir soruyla başlayayım."
+          },
+          {
+            "en": "What I want you to remember is this: small changes matter.",
+            "tr": "Hatırlamanızı istediğim şey şu: küçük değişiklikler önemlidir."
+          },
+          {
+            "en": "It was a single conversation that changed everything.",
+            "tr": "Her şeyi değiştiren tek bir konuşmaydı."
+          }
+        ],
+        "turkishNote": "Türkçe sunumlarda giriş bölümü bazen uzun teşekkürler ve resmî hitaplarla geçer. İngilizce sunum kültüründe ise ilk 30 saniye dinleyicinin dikkatini çekmek için çok değerlidir: bir soru, bir hikâye ya da şaşırtıcı bir bilgiyle başlamak beklenir. Teşekkürler kısa tutulur ve genellikle sona bırakılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En etkili açılış:",
+          "options": [
+            "Hello, my name is Can and I will talk about reading.",
+            "When was the last time you read a book for an hour?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kanca.",
+          "id": "c1-u02-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Konuşma için yazarken:",
+          "options": [
+            "Uzun ve karmaşık cümleler",
+            "Kısa ve net cümleler"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dinleyici geri dönemez.",
+          "id": "c1-u02-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bilgi cümlenin neresinde en vurgulu?",
+          "options": [
+            "Başında",
+            "Sonunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "End focus.",
+          "id": "c1-u02-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İyi bir kapanış:",
+          "options": [
+            "That's all. Bye.",
+            "To sum up, ... Maybe tonight, one will change yours. Thank you."
+          ],
+          "answerIndex": 1,
+          "explanation": "Özet + güçlü son.",
+          "id": "c1-u02-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let me ___ with a question. (başlamak)",
+          "answers": [
+            "start",
+            "begin"
+          ],
+          "explanation": "Let me start with.",
+          "id": "c1-u02-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What I want you to ___ is this: every vote counts. (hatırlamak)",
+          "answers": [
+            "remember"
+          ],
+          "explanation": "What I want you to remember.",
+          "id": "c1-u02-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ a single book that changed my life.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "It was ... that.",
+          "id": "c1-u02-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "All it ___ is ten minutes a day. (gerektirmek)",
+          "answers": [
+            "takes"
+          ],
+          "explanation": "All it takes is.",
+          "id": "c1-u02-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Imagine a city with no cars. No traffic, no noise, no pollution. Sounds impossible? It isn't. What I'd like to show you tonight is how three European cities did exactly that, and what we can learn from them.",
+          "prompt": "Konuşan açılışta hangi tekniği kullanıyor?",
+          "options": [
+            "Bir istatistik",
+            "Hayal ettirmek ve soru sormak",
+            "Bir şaka"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Imagine a city... Sounds impossible?\"",
+          "id": "c1-u02-l5-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "What",
+            "we",
+            "need",
+            "is",
+            "not",
+            "more",
+            "money",
+            "but",
+            "more",
+            "time"
+          ],
+          "answer": "What we need is not more money but more time.",
+          "explanation": "Wh-cleft + not ... but.",
+          "translation": "İhtiyacımız olan daha fazla para değil, daha fazla zaman.",
+          "id": "c1-u02-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "TED tarzı 3–4 dakikalık bir konuşmanın metnini yazın (250–300 kelime). Konu: Hayatınızda önemli bulduğunuz bir fikir ya da alışkanlık (yürüyüş, gönüllülük, dil öğrenmek, erken kalkmak, vb.). Bir kancayla başlayın, planınızı söyleyin, en az 4 farklı cleft sentence (It was ... that, What ... is, The reason ... is that, All ... is) ve en az 3 yönlendirme ifadesi kullanın; dinleyiciye somut bir çağrıyla ve güçlü bir kapanışla bitirin. Konuşma için yazın: kısa cümleler, doğrudan hitap.",
+          "modelAnswer": "Good evening.\n\nRaise your hand if you've ever said, \"I'm not good at languages.\"\n\nKeep it up if you still believe that.\n\nI used to. For years, I was sure I didn't have \"the gift\". And that's what I want to talk about tonight: the myth of the language gift.\n\nI'd like to make three points. First, why the myth exists. Second, what really makes people successful. And finally, what you can do, starting tomorrow.\n\nSo, let's start with the myth. Why do so many of us believe it? The reason, I think, is that we compare ourselves with children. Children seem to learn effortlessly. But what we forget is that a child hears their language for thousands of hours before they say a full sentence.\n\nThat brings me to my second point. What makes successful language learners different? It isn't talent. It's time and habit. In every study I've read, the best learners are not the most gifted. They're the most consistent.\n\nIt was a simple decision that changed everything for me. I stopped studying for three hours on Sunday, and I started studying for fifteen minutes every single day.\n\nSo, what can you do? All you need is fifteen minutes. A podcast on the bus. Five new words before bed. One conversation a week.\n\nTo sum up: there's no such thing as \"not good at languages\". There's only \"not enough practice yet\".\n\nTomorrow morning, give English your first fifteen minutes. And in a year, I'd love to hear what you say then.\n\nThank you.",
+          "rubric": [
+            "Kanca ve plan",
+            "En az 4 cleft sentence",
+            "Yönlendirme ifadeleri",
+            "Konuşmaya uygun dil",
+            "Somut çağrı ve güçlü kapanış"
+          ]
+        },
+        "id": "c1-u02-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Beni bu işe ikna eden annemdi.\"",
+        "options": [
+          "It was my mother who persuaded me to take this job.",
+          "My mother was who persuaded me to take this job."
+        ],
+        "answerIndex": 0,
+        "explanation": "It was ... who",
+        "id": "c1-u02-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "What we need it is more staff.",
+          "What we need is more staff."
+        ],
+        "answerIndex": 1,
+        "explanation": "What ... is",
+        "id": "c1-u02-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "All what I want is a holiday.",
+          "All I want is a holiday."
+        ],
+        "answerIndex": 1,
+        "explanation": "All I want",
+        "id": "c1-u02-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Resmî dilde:",
+        "options": [
+          "The reason is because it's late.",
+          "The reason is that it's late."
+        ],
+        "answerIndex": 1,
+        "explanation": "The reason is that",
+        "id": "c1-u02-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Bir sonraki konuya geçmek:",
+        "options": [
+          "That brings me to my next point.",
+          "That takes me my next point."
+        ],
+        "answerIndex": 0,
+        "explanation": "That brings me to",
+        "id": "c1-u02-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "It ___ only when I saw the photo that I recognised him.",
+        "answers": [
+          "was"
+        ],
+        "explanation": "It was only when",
+        "id": "c1-u02-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "It isn't the money ___ matters, it's the experience.",
+        "answers": [
+          "that"
+        ],
+        "explanation": "It isn't ... that",
+        "id": "c1-u02-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "What ___ was that the bus broke down. (oldu)",
+        "answers": [
+          "happened"
+        ],
+        "explanation": "What happened was",
+        "id": "c1-u02-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "What you should ___ is speak to a lawyer.",
+        "answers": [
+          "do"
+        ],
+        "explanation": "What you should do is",
+        "id": "c1-u02-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "The only ___ I regret is not travelling more.",
+        "answers": [
+          "thing"
+        ],
+        "explanation": "The only thing",
+        "id": "c1-u02-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "As you can see ___ this chart, sales have doubled.",
+        "answers": [
+          "from",
+          "on",
+          "in"
+        ],
+        "explanation": "As you can see from",
+        "id": "c1-u02-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Cevabı bilmediğiniz bir soru:",
+        "options": [
+          "That's a stupid question.",
+          "I'm afraid I don't have that information, but I'll get back to you."
+        ],
+        "answerIndex": 1,
+        "explanation": "Profesyonel",
+        "id": "c1-u02-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "What I'd like to highlight today is one simple fact: most accidents at work happen on Monday mornings. The reason, according to our research, is that people are tired and distracted after the weekend. What we're proposing is a short safety briefing every Monday at nine.",
+        "prompt": "Ne öneriliyor?",
+        "options": [
+          "Pazartesi tatil",
+          "Her pazartesi saat dokuzda kısa bir güvenlik bilgilendirmesi",
+          "Hafta sonu çalışma"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"a short safety briefing every Monday at nine\"",
+        "id": "c1-u02-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Wh-cleft ile yeniden yazın: \"The ending of the film surprised me.\" (What surprised me)",
+        "accepted": [
+          "What surprised me was the ending of the film.",
+          "What surprised me was the ending of the film",
+          "What surprised me was the film's ending.",
+          "What surprised me was the film's ending"
+        ],
+        "explanation": "What surprised me was the ending of the film.",
+        "id": "c1-u02-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Şirketinize, okulunuza ya da belediyenize bir öneri sunduğunuz kısa bir sunum metni yazın (220–270 kelime). Kancayla başlayın, planı söyleyin, sorunu ve çözümünüzü anlatın, bir görsele atıfta bulunun (As you can see ...), en az 4 cleft sentence ve en az 4 yönlendirme ifadesi kullanın ve bir çağrıyla bitirin.",
+        "modelAnswer": "Good morning, everyone.\n\nLet me start with a number: forty-five. That's how many minutes the average employee in our building spends every day looking for a parking space, waiting for the lift or queuing for lunch.\n\nWhat I'd like to talk about today is how we can win back that time. I've divided my presentation into three parts: the problem, our solution and the next steps.\n\nSo, let's begin with the problem. As you can see from this chart, our staff numbers have doubled in five years, but our building hasn't changed. It isn't laziness that is making people late for meetings. It's the building itself.\n\nThat brings me to our solution. What we're proposing is a simple three-step plan. First, a flexible start time between eight and ten, so that not everyone arrives at once. Second, an online system for booking parking spaces. And third, a second lunch break at one thirty.\n\nThe reason we believe this will work is that two of our partner companies have already tried it. In both cases, staff satisfaction rose by more than twenty percent.\n\nMoving on to the next steps. All we need from you today is approval for a three-month trial. It would cost almost nothing, and if it doesn't work, we can simply go back to the current system.\n\nTo sum up: forty-five minutes a day is almost four hours a week. Imagine what our team could do with that time.\n\nThank you. I'm happy to take any questions.",
+        "rubric": [
+          "Kanca ve plan",
+          "En az 4 cleft sentence",
+          "Yönlendirme ve görsel dili",
+          "Sorun-çözüm yapısı",
+          "Çağrı ve kapanış"
+        ],
+        "id": "c1-u02-t15"
+      }
+    ]
+  }
+}
