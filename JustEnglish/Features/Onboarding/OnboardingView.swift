@@ -10,11 +10,14 @@ struct OnboardingView: View {
     @State private var step: Step = .welcome
     @State private var name = ""
     @State private var goal: DailyGoal = .regular
+    @State private var hop = 0
     @FocusState private var nameFocused: Bool
 
     var body: some View {
         ZStack {
             Theme.background.ignoresSafeArea()
+            AuroraBackground(intensity: step == .welcome ? 0.5 : 0.18)
+                .animation(Motion.smooth, value: step)
             switch step {
             case .welcome: welcome
             case .name: nameStep
@@ -34,25 +37,37 @@ struct OnboardingView: View {
     private var welcome: some View {
         VStack(spacing: 24) {
             Spacer()
-            Image(systemName: "bubble.left.and.text.bubble.right.fill")
-                .font(.system(size: 80))
-                .foregroundStyle(Theme.accent)
+            JAIView(mood: .happy, size: 170, bounceTrigger: hop)
+                .onTapGesture { hop += 1; Haptics.tap() }
+                .task {
+                    // JAI kendini tanıtırken birkaç kez zıplar.
+                    for _ in 0..<3 {
+                        try? await Task.sleep(for: .seconds(1.4))
+                        hop += 1
+                    }
+                }
             VStack(spacing: 10) {
-                Text("Just English'e hoş geldiniz").font(.jakarta(.largeTitle, weight: .bold)).multilineTextAlignment(.center)
-                Text("A1'den C2'ye 68 ünite, kelime kartları, oyunlar ve öğretmenlerimizle canlı dersler. Tamamen ücretsiz.")
-                    .font(.jakarta(.body))
+                Text("Merhaba, ben JAI!")
+                    .font(.jakarta(.largeTitle, weight: .heavy))
+                    .multilineTextAlignment(.center)
+                    .staggeredAppear(1, delay: 0.15)
+                Text("Just English'te İngilizceyi birlikte öğreneceğiz: A1'den C2'ye 68 ünite, oyunlar ve öğretmenlerimizle canlı dersler. Hepsi ücretsiz.")
+                    .font(.jakarta(.body, weight: .medium))
                     .foregroundStyle(.secondary)
                     .multilineTextAlignment(.center)
+                    .staggeredAppear(2, delay: 0.15)
             }
             Spacer()
-            Button("Başlayalım") { step = .name }.buttonStyle(.primary)
+            Button("Başlayalım") { step = .name }
+                .buttonStyle(.primary)
+                .staggeredAppear(3, delay: 0.15)
         }
         .padding(24)
     }
 
     private var nameStep: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Size nasıl hitap edelim?").font(.jakarta(.title, weight: .bold))
+            JAISays(text: "Size nasıl hitap edeyim?", mood: .talking)
             TextField("Adınız", text: $name)
                 .font(.jakarta(.title3))
                 .textContentType(.givenName)
@@ -70,9 +85,10 @@ struct OnboardingView: View {
 
     private var goalStep: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text("Günlük hedefiniz").font(.jakarta(.title, weight: .bold))
+            JAISays(text: name.isEmpty ? "Günde ne kadar çalışmak istersiniz?" : "Tanıştığımıza memnun oldum, \(name)! Günde ne kadar çalışmak istersiniz?",
+                    mood: .happy)
             Text("Her gün biraz çalışmak, haftada bir uzun çalışmaktan çok daha etkilidir. Hedefi sonra değiştirebilirsiniz.")
-                .font(.jakarta(.body))
+                .font(.jakarta(.subheadline))
                 .foregroundStyle(.secondary)
             GoalPicker(selection: $goal)
             Spacer()
@@ -83,7 +99,7 @@ struct OnboardingView: View {
 
     private var levelStep: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Nereden başlayalım?").font(.jakarta(.title, weight: .bold))
+            JAISays(text: "Nereden başlayalım?", mood: .thinking)
             Button { step = .placement } label: {
                 optionCard(icon: "chart.bar.fill", title: "Seviye testine gir",
                            detail: "10 dakikalık uyarlanabilir test seviyenizi bulur ve sizi doğru üniteden başlatır.")

@@ -13,6 +13,9 @@ struct LearnView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 20) {
+                    StatsBar()
+                    JAISays(text: greeting, mood: model.state.progress.goalReachedToday ? .happy : .talking, size: 70)
+                        .frame(maxWidth: .infinity, alignment: .leading)
                     TodayCard().staggeredAppear(0)
                     if let next = model.nextLesson {
                         ContinueCard(unit: next.unit, lesson: next.lesson) {
@@ -31,13 +34,36 @@ struct LearnView: View {
                 }
                 .padding(20)
             }
-            .background(Theme.background)
-            .navigationTitle(model.state.name.isEmpty ? "Merhaba!" : "Merhaba, \(model.state.name)!")
+            .background {
+                ZStack(alignment: .top) {
+                    Theme.background
+                    AuroraBackground(colors: [Theme.color(for: level), Theme.accent, Theme.color(for: level.next ?? level)],
+                                     intensity: 0.35)
+                        .frame(height: 360)
+                        .mask(LinearGradient(colors: [.black, .clear], startPoint: .top, endPoint: .bottom))
+                }
+                .ignoresSafeArea()
+            }
+            .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: CourseUnit.self) { UnitView(unit: $0) }
             .fullScreenCover(item: $activeLesson) { route in
                 LessonFlowView(unit: route.unit, lesson: route.lesson)
             }
         }
+    }
+
+    /// JAI'nin ana sayfadaki selamı: günün saatine ve öğrencinin durumuna göre değişir.
+    private var greeting: String {
+        let name = model.state.name.isEmpty ? "" : ", \(model.state.name)"
+        let hour = Calendar.current.component(.hour, from: .now)
+        let hello = hour < 12 ? "Günaydın" : hour < 18 ? "Merhaba" : "İyi akşamlar"
+        let progress = model.state.progress
+        if progress.goalReachedToday { return "Bugünkü hedef tamam\(name)! Harika gidiyorsunuz." }
+        let due = model.dueCards().count
+        if due >= 10 { return "\(hello)\(name)! \(due) kelime kartı tekrarınızı bekliyor." }
+        let streak = progress.displayedStreak(at: .now)
+        if streak > 0 { return "\(hello)\(name)! \(streak) günlük serinizi bugün de sürdürelim." }
+        return "\(hello)\(name)! Bugün yeni bir şey öğrenmeye hazır mısınız?"
     }
 
     private var levelPicker: some View {
@@ -180,5 +206,43 @@ struct PressableCardStyle: ButtonStyle {
             .scaleEffect(configuration.isPressed ? 0.97 : 1)
             .brightness(configuration.isPressed ? -0.03 : 0)
             .animation(Motion.press, value: configuration.isPressed)
+    }
+}
+
+/// Ana sayfanın en üstündeki satır: seviye, seri, toplam XP ve seri koruyucu.
+struct StatsBar: View {
+    @Environment(AppModel.self) private var model
+
+    var body: some View {
+        let progress = model.state.progress
+        let streak = progress.displayedStreak(at: .now)
+        HStack(spacing: 10) {
+            chip(color: Theme.color(for: model.state.currentLevel)) {
+                Text(model.state.currentLevel.rawValue).font(.jakarta(.subheadline, weight: .heavy))
+            }
+            Spacer()
+            chip(color: streak > 0 ? Theme.streak : .secondary) {
+                Image(systemName: "flame.fill")
+                    .symbolEffect(.bounce, value: streak)
+                RollingNumber(value: streak, font: .jakarta(.subheadline, weight: .heavy))
+            }
+            chip(color: Theme.warning) {
+                Image(systemName: "bolt.fill")
+                RollingNumber(value: progress.totalXP, font: .jakarta(.subheadline, weight: .heavy))
+            }
+            chip(color: Theme.color(for: .a2)) {
+                Image(systemName: "snowflake")
+                RollingNumber(value: progress.freezesAvailable, font: .jakarta(.subheadline, weight: .heavy))
+            }
+        }
+    }
+
+    private func chip<Content: View>(color: Color, @ViewBuilder _ content: () -> Content) -> some View {
+        HStack(spacing: 4) { content() }
+            .foregroundStyle(color)
+            .padding(.horizontal, 10)
+            .padding(.vertical, 6)
+            .background(.ultraThinMaterial, in: Capsule())
+            .overlay(Capsule().stroke(color.opacity(0.25), lineWidth: 1))
     }
 }

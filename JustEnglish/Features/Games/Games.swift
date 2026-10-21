@@ -30,6 +30,7 @@ struct GameShell<Content: View>: View {
     @Environment(\.dismiss) private var dismiss
     @State private var started = false
     @State private var awarded = false
+    @State private var hop = 0
 
     var body: some View {
         ZStack {
@@ -70,6 +71,14 @@ struct GameShell<Content: View>: View {
         ZStack {
             VStack(spacing: 18) {
                 Spacer()
+                JAIView(mood: result.won ? .celebrate : .sad, size: 120, color: color, bounceTrigger: hop)
+                    .task {
+                        guard result.won else { return }
+                        for _ in 0..<3 {
+                            try? await Task.sleep(for: .milliseconds(700))
+                            hop += 1
+                        }
+                    }
                 StarRating(stars: result.stars)
                 Text(result.headline)
                     .font(.jakarta(.largeTitle, weight: .heavy))

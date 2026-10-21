@@ -333,6 +333,7 @@ struct LessonSummaryView: View {
 
     @Environment(AppModel.self) private var model
     @State private var appeared = false
+    @State private var hop = 0
 
     private var percent: Int { total == 0 ? 100 : Int((Double(correct) / Double(total) * 100).rounded()) }
     private var stars: Int { percent >= 95 ? 3 : percent >= 75 ? 2 : 1 }
@@ -342,6 +343,13 @@ struct LessonSummaryView: View {
         ZStack {
             VStack(spacing: 22) {
                 Spacer()
+                JAIView(mood: .celebrate, size: 130, bounceTrigger: hop)
+                    .task {
+                        for _ in 0..<4 {
+                            try? await Task.sleep(for: .milliseconds(650))
+                            hop += 1
+                        }
+                    }
                 StarRating(stars: stars)
                 VStack(spacing: 6) {
                     Text(percent == 100 ? "Kusursuz ders!" : "Ders tamamlandı!")
@@ -371,6 +379,7 @@ struct LessonSummaryView: View {
             .padding(20)
             ConfettiView()
         }
+        .background(AuroraBackground(colors: [Theme.warning, Theme.success, Theme.accent], intensity: 0.22))
         .onAppear {
             Haptics.success()
             withAnimation(Motion.smooth.delay(0.2)) { appeared = true }

@@ -124,18 +124,17 @@ struct FeedbackPanel: View {
     /// Doğru cevapta her seferinde aynı söz tekrarlanmasın diye küçük bir havuz.
     private static let praise = ["Harika!", "Doğru!", "Süper!", "Mükemmel!", "Aynen öyle!", "Çok iyi!"]
     @State private var title = FeedbackPanel.praise.randomElement() ?? "Doğru!"
+    @State private var wrongTitle = ["Olmadı, ama sorun değil", "Neredeyse!", "Bir dahakine!"].randomElement() ?? "Doğru değil"
+    @State private var hop = 0
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             if showsFeedback, let correct = outcome.correct {
                 HStack(spacing: 12) {
-                    Image(systemName: correct ? "checkmark" : "xmark")
-                        .font(.system(size: 20, weight: .black))
-                        .foregroundStyle(.white)
-                        .frame(width: 40, height: 40)
-                        .background(color, in: Circle())
+                    JAIView(mood: correct ? .happy : .sad, size: 56, color: color, bounceTrigger: hop)
+                        .frame(width: 56, height: 56)
                         .scaleEffect(iconScale)
-                    Text(correct ? title : "Doğru değil")
+                    Text(correct ? title : wrongTitle)
                         .font(.jakarta(.title2, weight: .heavy))
                         .foregroundStyle(color)
                 }
@@ -162,7 +161,10 @@ struct FeedbackPanel: View {
         .background(color.opacity(0.12))
         .background(.background)
         .overlay(alignment: .top) { Rectangle().fill(color.opacity(0.35)).frame(height: 2) }
-        .onAppear { withAnimation(Motion.pop.delay(0.05)) { iconScale = 1 } }
+        .onAppear {
+            withAnimation(Motion.pop.delay(0.05)) { iconScale = 1 }
+            if outcome.correct == true { hop += 1 }
+        }
     }
 }
 
@@ -550,22 +552,37 @@ struct SpeakingExercise: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Label("Konuşma", systemImage: "mic.fill")
-                .font(.jakarta(.subheadline, weight: .semibold))
-                .foregroundStyle(.secondary)
-            Text(prompt)
-                .font(.jakarta(.title3, weight: .semibold))
-                .fixedSize(horizontal: false, vertical: true)
+                .font(.jakarta(.subheadline, weight: .bold))
+                .foregroundStyle(Theme.accent)
+            JAISays(text: prompt, mood: recognizer.status == .recording ? .thinking : .talking, size: 64)
 
             VStack(spacing: 12) {
                 Button {
                     Task { await recognizer.toggle() }
                 } label: {
                     Image(systemName: recognizer.status == .recording ? "stop.fill" : "mic.fill")
-                        .font(.system(size: 30, weight: .semibold))
-                        .frame(width: 84, height: 84)
-                        .background(recognizer.status == .recording ? Theme.danger : Theme.accent, in: Circle())
+                        .font(.system(size: 32, weight: .bold))
+                        .frame(width: 92, height: 92)
                         .foregroundStyle(.white)
                         .symbolEffect(.pulse, isActive: recognizer.status == .recording)
+                }
+                .buttonStyle(RoundDepthButtonStyle(color: recognizer.status == .recording ? Theme.danger : Theme.accent))
+                .background {
+                    if recognizer.status == .recording {
+                        // Kayıt sırasında dışa doğru yayılan halkalar.
+                        TimelineView(.animation) { timeline in
+                            let t = timeline.date.timeIntervalSinceReferenceDate
+                            ZStack {
+                                ForEach(0..<3, id: \.self) { i in
+                                    let p = (t * 0.8 + Double(i) / 3).truncatingRemainder(dividingBy: 1)
+                                    Circle()
+                                        .stroke(Theme.danger.opacity(0.5 * (1 - p)), lineWidth: 3)
+                                        .frame(width: 92 + 70 * p, height: 92 + 70 * p)
+                                }
+                            }
+                        }
+                        .offset(y: -2)
+                    }
                 }
                 Text(statusText)
                     .font(.jakarta(.footnote))

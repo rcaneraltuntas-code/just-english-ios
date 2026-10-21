@@ -60,20 +60,19 @@ struct RootView: View {
 
 struct MainTabView: View {
     @Environment(AppModel.self) private var model
+    @State private var tab: AppTab = .learn
 
     var body: some View {
-        TabView {
-            LearnView()
-                .tabItem { Label("Öğren", systemImage: "book.fill") }
-            PracticeView()
-                .tabItem { Label("Pratik", systemImage: "rectangle.stack.fill") }
-                .badge(model.dueCards().count)
-            DictionaryView()
-                .tabItem { Label("Sözlük", systemImage: "character.book.closed.fill") }
-            LiveClassesView()
-                .tabItem { Label("Canlı ders", systemImage: "video.fill") }
-            ProfileView()
-                .tabItem { Label("Profil", systemImage: "person.crop.circle.fill") }
+        // Sistem sekme çubuğu gizlenir; her sekmenin gezinme durumu korunur, alttaki çubuk bizim.
+        TabView(selection: $tab) {
+            LearnView().toolbar(.hidden, for: .tabBar).tag(AppTab.learn)
+            PracticeView().toolbar(.hidden, for: .tabBar).tag(AppTab.practice)
+            DictionaryView().toolbar(.hidden, for: .tabBar).tag(AppTab.dictionary)
+            LiveClassesView().toolbar(.hidden, for: .tabBar).tag(AppTab.live)
+            ProfileView().toolbar(.hidden, for: .tabBar).tag(AppTab.profile)
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            JETabBar(selection: $tab, badges: [.practice: model.dueCards().count])
         }
     }
 }
