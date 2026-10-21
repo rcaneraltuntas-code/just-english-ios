@@ -41,6 +41,9 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     /// Eski kayıtlarla uyumlu olsun diye isteğe bağlı tutulur.
     public var weekStart: Date?
     public var weekXPStored: Int?
+    /// Son günlerin XP'si ("yyyy-MM-dd" → XP), ana sayfadaki haftalık grafik için.
+    /// Eski kayıtlarda yoktur; en fazla 30 gün tutulur.
+    public var dailyXP: [String: Int]?
 
     public init(dailyGoalXP: Int = DailyGoal.regular.xp) {
         self.dailyGoalXP = dailyGoalXP
@@ -68,6 +71,13 @@ public struct StudyProgress: Codable, Hashable, Sendable {
             weekXPStored = 0
         }
         weekXPStored = (weekXPStored ?? 0) + xp
+        var history = dailyXP ?? [:]
+        history[Self.dayKey(today, calendar: calendar), default: 0] += xp
+        if history.count > 30 {
+            // Anahtarlar sıralanabilir biçimde olduğu için en eskiler baştan atılır.
+            for key in history.keys.sorted().prefix(history.count - 30) { history[key] = nil }
+        }
+        dailyXP = history
         let wasReached = goalReachedToday
         todayXP += xp
         totalXP += xp
@@ -93,6 +103,20 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     /// Bu haftanın XP'si; hafta değiştiyse 0.
     public func weekXP(at now: Date, calendar: Calendar = .current) -> Int {
         weekStart == Self.weekStart(of: now, calendar: calendar) ? (weekXPStored ?? 0) : 0
+    }
+
+    /// Bugün dahil son `days` günün XP'si, eskiden yeniye.
+    public func recentDays(_ days: Int, endingAt now: Date, calendar: Calendar = .current) -> [(day: Date, xp: Int)] {
+        let today = calendar.startOfDay(for: now)
+        return (0..<days).reversed().compactMap { offset in
+            guard let day = calendar.date(byAdding: .day, value: -offset, to: today) else { return nil }
+            return (day, dailyXP?[Self.dayKey(day, calendar: calendar)] ?? 0)
+        }
+    }
+
+    static func dayKey(_ date: Date, calendar: Calendar) -> String {
+        let c = calendar.dateComponents([.year, .month, .day], from: date)
+        return String(format: "%04d-%02d-%02d", c.year ?? 0, c.month ?? 0, c.day ?? 0)
     }
 
     /// Haftanın başlangıcı: pazartesi 00:00 (yerel saat).

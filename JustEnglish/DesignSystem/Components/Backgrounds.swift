@@ -2,7 +2,7 @@ import SwiftUI
 
 /// Yavaşça süzülen, bulanık renk lekeleri. Karşılama, ana sayfa başlığı ve sonuç ekranlarının arka planı.
 struct AuroraBackground: View {
-    var colors: [Color] = [Theme.accent, Theme.color(for: .b2), Theme.color(for: .a2)]
+    var colors: [Color] = [Theme.accent, Theme.streak, Theme.warning]
     var intensity: Double = 0.55
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 

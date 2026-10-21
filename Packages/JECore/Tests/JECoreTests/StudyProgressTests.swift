@@ -69,4 +69,19 @@ final class StudyProgressTests: XCTestCase {
         XCTAssertEqual(p.weekXP(at: day(17), calendar: calendar), 5)
         XCTAssertEqual(p.totalXP, 55)
     }
+
+    func testDailyHistoryFeedsWeekChart() {
+        var p = StudyProgress(dailyGoalXP: 20)
+        p.add(xp: 5, at: day(2), calendar: calendar)
+        p.add(xp: 7, at: day(2, hour: 21), calendar: calendar)
+        p.add(xp: 3, at: day(4), calendar: calendar)
+        let week = p.recentDays(3, endingAt: day(4, hour: 23), calendar: calendar)
+        XCTAssertEqual(week.map(\.xp), [12, 0, 3])
+        XCTAssertEqual(week.last?.day, calendar.startOfDay(for: day(4)))
+
+        // Eski kayıtlarda geçmiş yoktur; grafik boş günler gösterir.
+        var old = StudyProgress()
+        old.dailyXP = nil
+        XCTAssertEqual(old.recentDays(7, endingAt: day(4), calendar: calendar).map(\.xp), Array(repeating: 0, count: 7))
+    }
 }

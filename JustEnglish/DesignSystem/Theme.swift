@@ -2,30 +2,51 @@ import SwiftUI
 import UIKit
 import JECore
 
-/// Uygulamanın tüm renk ve yazı tipi kararları burada. Marka renkleri netleşince yalnızca bu dosya değişir.
+/// Uygulamanın tüm renk ve yazı tipi kararları burada. Marka rengi Just English kırmızısı (#E21724);
+/// diğer renkler onunla uyumlu sıcak bir aileden seçildi: koyu kırmızı, mercan, turuncu, altın ve lacivert.
 enum Theme {
     static let accent = Color("AccentColor")
-    static let success = Color(light: 0x1F9D55, dark: 0x4ADE80)
-    static let danger = Color(light: 0xD93636, dark: 0xF87171)
-    static let warning = Color(light: 0xE08A00, dark: 0xFBBF24)
-    static let streak = Color(light: 0xF2620F, dark: 0xFB923C)
-    static let background = Color(uiColor: .systemGroupedBackground)
-    static let surface = Color(uiColor: .secondarySystemGroupedBackground)
-    /// İkincil düğmelerin yüzeyi: açık temada hafif gri, koyu temada bir ton açık.
-    static let surfaceRaised = Color(light: 0xEEF1F8, dark: 0x2C2C30)
+    /// Marka kırmızısının koyu tonu: degradelerin alt ucu ve 3D düğme kenarları.
+    static let accentDeep = Color(light: 0xA50E18, dark: 0xC21F2A)
+    /// Kırmızının çok açık tonu: seçili yüzeyler, rozet zeminleri.
+    static let accentSoft = Color(light: 0xFDEBEC, dark: 0x3A1518)
+    /// Kırmızıyı dengeleyen koyu lacivert: koyu kartlar ve başlık metinleri.
+    static let ink = Color(light: 0x1B1B2F, dark: 0xF2F2F7)
+    static let inkSurface = Color(light: 0x1B1B2F, dark: 0x22232F)
+    static let coral = Color(light: 0xFF6B5B, dark: 0xFF8A7D)
+    static let success = Color(light: 0x16A34A, dark: 0x4ADE80)
+    /// Yanlış cevap rengi marka kırmızısından ayrışsın diye daha koyu, morumsu bir kırmızı;
+    /// her zaman bir simge ve sallanmayla birlikte kullanılır.
+    static let danger = Color(light: 0x9B1C31, dark: 0xF0697D)
+    static let warning = Color(light: 0xF2A100, dark: 0xFBBF24)
+    static let streak = Color(light: 0xFF6A13, dark: 0xFF9248)
+    static let background = Color(light: 0xFFF7F5, dark: 0x0E0E11)
+    static let surface = Color(light: 0xFFFFFF, dark: 0x1B1B20)
+    /// İkincil düğmelerin yüzeyi: açık temada sıcak gri, koyu temada bir ton açık.
+    static let surfaceRaised = Color(light: 0xF3EEEC, dark: 0x2A2A30)
+    static let hairline = Color(light: 0xECE6E4, dark: 0x2C2C33)
     static let muted = Color.secondary
+
+    /// Marka degradesi: kahraman kartları ve başlıklar.
+    static let brandGradient = LinearGradient(colors: [Color(light: 0xF0333E, dark: 0xF0333E), Color(light: 0xE21724, dark: 0xE21724), accentDeep],
+                                              startPoint: .topLeading, endPoint: .bottomTrailing)
+    static let warmGradient = LinearGradient(colors: [Color(light: 0xFF8A3D, dark: 0xFF8A3D), Color(light: 0xE21724, dark: 0xE21724)],
+                                             startPoint: .topLeading, endPoint: .bottomTrailing)
+    static let inkGradient = LinearGradient(colors: [Color(light: 0x2A2D45, dark: 0x2A2D45), Color(light: 0x14152A, dark: 0x101120)],
+                                            startPoint: .topLeading, endPoint: .bottomTrailing)
 
     static let cornerRadius: CGFloat = 16
     static let fontFamily = "Plus Jakarta Sans"
 
     static func color(for level: CEFRLevel) -> Color {
         switch level {
-        case .a1: Color(light: 0x16A34A, dark: 0x4ADE80)
-        case .a2: Color(light: 0x0D9488, dark: 0x2DD4BF)
-        case .b1: Color(light: 0x2563EB, dark: 0x60A5FA)
-        case .b2: Color(light: 0x7C3AED, dark: 0xA78BFA)
-        case .c1: Color(light: 0xC026D3, dark: 0xE879F9)
-        case .c2: Color(light: 0xDC2626, dark: 0xF87171)
+        // Sıcaktan koyuya bir merdiven: amber → turuncu → marka kırmızısı → ahududu → mor → lacivert.
+        case .a1: Color(light: 0xF59E0B, dark: 0xFBBF24)
+        case .a2: Color(light: 0xF97316, dark: 0xFB923C)
+        case .b1: Color(light: 0xE21724, dark: 0xFF4A55)
+        case .b2: Color(light: 0xBE185D, dark: 0xF472B6)
+        case .c1: Color(light: 0x7C3AED, dark: 0xA78BFA)
+        case .c2: Color(light: 0x1E3A8A, dark: 0x7B9BFF)
         }
     }
 

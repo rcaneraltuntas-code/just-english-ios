@@ -24,14 +24,24 @@ enum AppTab: Int, CaseIterable, Identifiable {
         }
     }
 
-    var color: Color {
-        switch self {
-        case .learn: Theme.accent
-        case .practice: Theme.streak
-        case .dictionary: Theme.color(for: .a2)
-        case .live: Theme.success
-        case .profile: Theme.color(for: .b2)
-        }
+    /// Tüm sekmeler marka kırmızısını kullanır; renk karmaşası olmasın.
+    var color: Color { Theme.accent }
+}
+
+/// Herhangi bir ekrandan sekme değiştirmek için (ana sayfadaki kısayollar).
+struct SelectTabAction {
+    let run: (AppTab) -> Void
+    func callAsFunction(_ tab: AppTab) { run(tab) }
+}
+
+private struct SelectTabKey: EnvironmentKey {
+    static let defaultValue = SelectTabAction { _ in }
+}
+
+extension EnvironmentValues {
+    var selectTab: SelectTabAction {
+        get { self[SelectTabKey.self] }
+        set { self[SelectTabKey.self] = newValue }
     }
 }
 

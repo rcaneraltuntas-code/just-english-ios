@@ -23,6 +23,12 @@ struct LearnView: View {
                         }
                         .staggeredAppear(1)
                     }
+                    QuickActionsGrid()
+                    WeekActivityCard().staggeredAppear(2)
+                    WordOfTheDayCard().staggeredAppear(3)
+                    LeagueAndLiveRow().staggeredAppear(4)
+                    SectionHeader(title: "Üniteler")
+                        .padding(.top, 4)
                     levelPicker
                     VStack(spacing: 12) {
                         ForEach(model.units(for: level)) { unit in
@@ -37,7 +43,7 @@ struct LearnView: View {
             .background {
                 ZStack(alignment: .top) {
                     Theme.background
-                    AuroraBackground(colors: [Theme.color(for: level), Theme.accent, Theme.color(for: level.next ?? level)],
+                    AuroraBackground(colors: [Theme.accent, Theme.streak, Theme.color(for: level)],
                                      intensity: 0.35)
                         .frame(height: 360)
                         .mask(LinearGradient(colors: [.black, .clear], startPoint: .top, endPoint: .bottom))
@@ -237,7 +243,7 @@ struct StatsBar: View {
                 Image(systemName: "bolt.fill")
                 RollingNumber(value: progress.totalXP, font: .jakarta(.subheadline, weight: .heavy))
             }
-            chip(color: Theme.color(for: .a2)) {
+            chip(color: Theme.ink) {
                 Image(systemName: "snowflake")
                 RollingNumber(value: progress.freezesAvailable, font: .jakarta(.subheadline, weight: .heavy))
             }

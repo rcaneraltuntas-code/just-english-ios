@@ -21,7 +21,7 @@ enum LeagueTier: Int, CaseIterable {
         case .bronze: Color(light: 0xB8733B, dark: 0xD99A62)
         case .silver: Color(light: 0x8A94A6, dark: 0xB8C1CF)
         case .gold: Color(light: 0xE0A100, dark: 0xFBC531)
-        case .sapphire: Color(light: 0x2563EB, dark: 0x60A5FA)
+        case .sapphire: Color(light: 0x1E3A8A, dark: 0x7B9BFF)
         case .ruby: Color(light: 0xD61F4C, dark: 0xF2557A)
         case .diamond: Color(light: 0x0EA5B7, dark: 0x5EEAD4)
         }

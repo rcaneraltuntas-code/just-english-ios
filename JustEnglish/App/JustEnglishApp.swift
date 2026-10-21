@@ -71,6 +71,10 @@ struct MainTabView: View {
             LiveClassesView().toolbar(.hidden, for: .tabBar).tag(AppTab.live)
             ProfileView().toolbar(.hidden, for: .tabBar).tag(AppTab.profile)
         }
+        .environment(\.selectTab, SelectTabAction { new in
+            Haptics.tap()
+            withAnimation(.spring(response: 0.38, dampingFraction: 0.78)) { tab = new }
+        })
         .safeAreaInset(edge: .bottom, spacing: 0) {
             JETabBar(selection: $tab, badges: [.practice: model.dueCards().count])
         }
