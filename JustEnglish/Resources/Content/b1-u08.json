@@ -1,0 +1,1455 @@
+{
+  "id": "b1-u08",
+  "level": "B1",
+  "number": 8,
+  "title": "İnsanlar ve yerler",
+  "titleEn": "People and Places",
+  "canDo": "İnsanları, nesneleri ve yerleri who, which, that, where ve whose ile tanımlayabilir, bilmediğim bir kelimeyi açıklayarak anlatabilir ve sevdiğim bir yeri ayrıntılı bir şekilde tanıtabilirim.",
+  "grammar": [
+    "defining relative clauses: who / which",
+    "that ve ilgi zamirinin atlanması",
+    "where ve whose",
+    "tanımlama ve açıklama stratejileri",
+    "ilgi cümleleriyle yer tanıtma"
+  ],
+  "vocabularyThemes": [
+    "insanlar ve roller",
+    "şehirdeki yerler",
+    "tanımlama dili"
+  ],
+  "liveClass": {
+    "title": "Tabu!",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler takımlar halinde \"Tabu\" oynar: Kartlardaki kelimeyi söylemeden It's a person who... / It's a thing which... / It's a place where... kalıplarıyla anlatırlar. İkinci turda herkes kendi şehrinden bir yeri ya da tanıdığı ilginç bir kişiyi ilgi cümleleriyle tanıtır ve diğerleri tahmin eder."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u08-v01",
+      "en": "neighbour",
+      "tr": "komşu",
+      "example": "My neighbour is a man who plays the violin.",
+      "exampleTr": "Komşum keman çalan bir adam."
+    },
+    {
+      "id": "b1-u08-v02",
+      "en": "colleague",
+      "tr": "iş arkadaşı",
+      "example": "She's a colleague who helps everyone.",
+      "exampleTr": "Herkese yardım eden bir iş arkadaşı."
+    },
+    {
+      "id": "b1-u08-v03",
+      "en": "stranger",
+      "tr": "yabancı (tanınmayan kişi)",
+      "example": "A stranger helped me with my bag.",
+      "exampleTr": "Bir yabancı çantama yardım etti.",
+      "note": "foreigner = başka ülkeden"
+    },
+    {
+      "id": "b1-u08-v04",
+      "en": "flatmate",
+      "tr": "ev arkadaşı",
+      "example": "My flatmate is the person who cooks.",
+      "exampleTr": "Ev arkadaşım yemek yapan kişi."
+    },
+    {
+      "id": "b1-u08-v05",
+      "en": "owner",
+      "tr": "sahip",
+      "example": "He's the owner of the café.",
+      "exampleTr": "Kafenin sahibi o."
+    },
+    {
+      "id": "b1-u08-v06",
+      "en": "local",
+      "tr": "yerel; yöre halkı",
+      "example": "Ask a local for directions.",
+      "exampleTr": "Yol tarifi için yöre halkından birine sor."
+    },
+    {
+      "id": "b1-u08-v07",
+      "en": "tourist",
+      "tr": "turist",
+      "example": "It's a place which is full of tourists.",
+      "exampleTr": "Turist dolu bir yer."
+    },
+    {
+      "id": "b1-u08-v08",
+      "en": "square",
+      "tr": "meydan",
+      "example": "There's a square where people meet.",
+      "exampleTr": "İnsanların buluştuğu bir meydan var."
+    },
+    {
+      "id": "b1-u08-v09",
+      "en": "market",
+      "tr": "pazar",
+      "example": "It's the market where I buy vegetables.",
+      "exampleTr": "Sebze aldığım pazar bu."
+    },
+    {
+      "id": "b1-u08-v10",
+      "en": "neighbourhood",
+      "tr": "mahalle",
+      "example": "I grew up in a quiet neighbourhood.",
+      "exampleTr": "Sakin bir mahallede büyüdüm."
+    },
+    {
+      "id": "b1-u08-v11",
+      "en": "harbour",
+      "tr": "liman",
+      "example": "We had dinner at a restaurant by the harbour.",
+      "exampleTr": "Limanın yanındaki bir restoranda yemek yedik."
+    },
+    {
+      "id": "b1-u08-v12",
+      "en": "hidden",
+      "tr": "gizli, saklı",
+      "example": "It's a hidden beach that only locals know.",
+      "exampleTr": "Sadece yerlilerin bildiği saklı bir plaj."
+    },
+    {
+      "id": "b1-u08-v13",
+      "en": "crowded",
+      "tr": "kalabalık",
+      "example": "The streets are crowded in summer.",
+      "exampleTr": "Yazın sokaklar kalabalık."
+    },
+    {
+      "id": "b1-u08-v14",
+      "en": "peaceful",
+      "tr": "huzurlu",
+      "example": "It's a peaceful village.",
+      "exampleTr": "Huzurlu bir köy."
+    },
+    {
+      "id": "b1-u08-v15",
+      "en": "lively",
+      "tr": "canlı, hareketli",
+      "example": "Kadıköy is a lively area.",
+      "exampleTr": "Kadıköy hareketli bir semt."
+    },
+    {
+      "id": "b1-u08-v16",
+      "en": "view",
+      "tr": "manzara",
+      "example": "It's a café with an amazing view.",
+      "exampleTr": "Harika manzaralı bir kafe."
+    },
+    {
+      "id": "b1-u08-v17",
+      "en": "whose",
+      "tr": "-in (sahiplik; ilgi zamiri)",
+      "example": "That's the man whose dog bit me.",
+      "exampleTr": "Köpeği beni ısıran adam o."
+    },
+    {
+      "id": "b1-u08-v18",
+      "en": "where",
+      "tr": "-dığı yer (ilgi zamiri)",
+      "example": "This is the house where I was born.",
+      "exampleTr": "Bu, doğduğum ev."
+    },
+    {
+      "id": "b1-u08-v19",
+      "en": "thing",
+      "tr": "şey",
+      "example": "It's a thing which you use for cooking.",
+      "exampleTr": "Yemek yapmak için kullandığın bir şey."
+    },
+    {
+      "id": "b1-u08-v20",
+      "en": "kind of",
+      "tr": "bir çeşit",
+      "example": "It's a kind of bread.",
+      "exampleTr": "Bir çeşit ekmek."
+    },
+    {
+      "id": "b1-u08-v21",
+      "en": "tool",
+      "tr": "alet",
+      "example": "It's a tool that you use to open bottles.",
+      "exampleTr": "Şişe açmak için kullandığın bir alet."
+    },
+    {
+      "id": "b1-u08-v22",
+      "en": "remind (of)",
+      "tr": "hatırlatmak",
+      "example": "This place reminds me of my childhood.",
+      "exampleTr": "Bu yer bana çocukluğumu hatırlatıyor."
+    },
+    {
+      "id": "b1-u08-v23",
+      "en": "worth visiting",
+      "tr": "görülmeye değer",
+      "example": "The old town is worth visiting.",
+      "exampleTr": "Eski şehir görülmeye değer."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u08-l1",
+      "number": 1,
+      "title": "Kim? Hangisi?",
+      "goal": "who ve which ile insanları ve nesneleri tanımlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Düğün fotoğrafları",
+        "lines": [
+          {
+            "speaker": "Pınar",
+            "text": "Who's the woman who's wearing the red dress?"
+          },
+          {
+            "speaker": "Onur",
+            "text": "That's my aunt Nesrin. She's the one who organised the whole wedding."
+          },
+          {
+            "speaker": "Pınar",
+            "text": "And the man who's dancing?"
+          },
+          {
+            "speaker": "Onur",
+            "text": "My cousin Batu. He's a chef. He made the cake which everyone loved."
+          },
+          {
+            "speaker": "Pınar",
+            "text": "It looks amazing! What's that thing which the children are holding?"
+          },
+          {
+            "speaker": "Onur",
+            "text": "They're little bags which have sweets inside. It's a tradition in our family."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who organised the wedding?",
+            "options": [
+              "Onur's cousin",
+              "Onur's aunt",
+              "Pınar"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She's the one who organised the whole wedding.\"",
+            "id": "b1-u08-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Batu make?",
+            "options": [
+              "The bags",
+              "The cake",
+              "The dresses"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He made the cake which everyone loved.\"",
+            "id": "b1-u08-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İlgi cümleleri (relative clauses)**, hangi kişiden ya da şeyden bahsettiğimizi **tanımlar**. İki cümleyi birleştirir.\n\n| İlgi zamiri | Ne için? | Örnek |\n|---|---|---|\n| **who** | **insanlar** | The woman **who** organised the wedding is my aunt. |\n| **which** | **nesneler, hayvanlar** | He made the cake **which** everyone loved. |\n\n**İki cümleyi birleştirmek:**\n\n- The man is a chef. **He** is dancing. → The man **who** is dancing is a chef.\n- I bought a phone. **It** has a great camera. → I bought a phone **which** has a great camera.\n\n**Dikkat:** who / which, he / she / it'in **yerine** geçer. Tekrar etmeyin:\n\n- The man who ~~he~~ is dancing...\n\nBu tür tanımlayıcı ilgi cümlelerinde **virgül kullanılmaz**.",
+        "examples": [
+          {
+            "en": "A pilot is a person who flies planes.",
+            "tr": "Pilot, uçak uçuran kişidir."
+          },
+          {
+            "en": "I've lost the keys which were on the table.",
+            "tr": "Masanın üstündeki anahtarları kaybettim."
+          },
+          {
+            "en": "The people who live next door are very friendly.",
+            "tr": "Yan evde oturan insanlar çok cana yakın."
+          }
+        ],
+        "turkishNote": "Türkçede ilgi cümlesi ismin önüne gelir ve ekle yapılır: \"dans eden adam\", \"herkesin sevdiği pasta\". İngilizcede sıralama tersine döner: isim önce, ilgi cümlesi sonra gelir: \"the man who is dancing\", \"the cake which everyone loved\". Türkçe sırayı korumaya çalışmak (\"the dancing who man\") en sık yapılan hatadır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "A doctor is a person ___ helps sick people.",
+          "options": [
+            "who",
+            "which"
+          ],
+          "answerIndex": 0,
+          "explanation": "İnsan → who.",
+          "id": "b1-u08-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "This is the bus ___ goes to the airport.",
+          "options": [
+            "who",
+            "which"
+          ],
+          "answerIndex": 1,
+          "explanation": "Nesne → which.",
+          "id": "b1-u08-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The man who he lives here is a teacher.",
+            "The man who lives here is a teacher."
+          ],
+          "answerIndex": 1,
+          "explanation": "who + fiil (zamir tekrarı yok).",
+          "id": "b1-u08-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The girl ___ won the race is my sister.",
+          "answers": [
+            "who",
+            "that"
+          ],
+          "explanation": "İnsan → who.",
+          "id": "b1-u08-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I like films ___ make me laugh.",
+          "answers": [
+            "which",
+            "that"
+          ],
+          "explanation": "Nesne → which.",
+          "id": "b1-u08-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The people ___ live upstairs are very noisy.",
+          "answers": [
+            "who",
+            "that"
+          ],
+          "explanation": "who.",
+          "id": "b1-u08-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Dans eden adam\"",
+          "options": [
+            "the dancing who man",
+            "the man who is dancing"
+          ],
+          "answerIndex": 1,
+          "explanation": "İsim + who + fiil.",
+          "id": "b1-u08-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "who",
+            "The",
+            "woman",
+            "lives",
+            "next",
+            "door",
+            "is",
+            "a",
+            "doctor"
+          ],
+          "answer": "The woman who lives next door is a doctor.",
+          "explanation": "İsim + who + fiil + ana fiil.",
+          "translation": "Yan evde oturan kadın doktor.",
+          "id": "b1-u08-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "My best friend is someone who always tells me the truth. She's also the person who taught me to swim.",
+          "prompt": "Konuşanın en iyi arkadaşı ona ne öğretmiş?",
+          "options": [
+            "Yüzmeyi",
+            "Yemek yapmayı",
+            "Araba kullanmayı"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"the person who taught me to swim\"",
+          "id": "b1-u08-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin: \"I have a friend. He speaks five languages.\"",
+          "accepted": [
+            "I have a friend who speaks five languages.",
+            "I have a friend who speaks five languages",
+            "I've got a friend who speaks five languages.",
+            "I've got a friend who speaks five languages",
+            "I have a friend that speaks five languages.",
+            "I have a friend that speaks five languages",
+            "I've got a friend that speaks five languages.",
+            "I've got a friend that speaks five languages"
+          ],
+          "explanation": "I have a friend who speaks five languages.",
+          "id": "b1-u08-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızdaki 5 önemli kişiyi ve 2 önemli nesneyi who ve which ile tanıtın. (\"My uncle is the person who...\", \"My bike is the thing which...\")",
+          "modelAnswer": "My mother is the person who taught me to read. My friend Ece is someone who always makes me laugh. Mr Akın was the teacher who changed my life. My grandfather is a man who loves gardening. My phone is the thing which I use most, and my old guitar is something which I'll never sell.",
+          "rubric": [
+            "who / which doğru seçimi",
+            "Zamir tekrarı yok",
+            "İsim + ilgi cümlesi sırası"
+          ]
+        },
+        "id": "b1-u08-l1-use"
+      }
+    },
+    {
+      "id": "b1-u08-l2",
+      "number": 2,
+      "title": "That ve atlama",
+      "goal": "that kullanabilir, ilgi zamirini ne zaman atlayabileceğimi bilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir şehrin unutulmaz insanları",
+        "body": "Every neighbourhood has people that everyone knows.\n\nIn our street, there's Hüseyin Bey, the shoe repairer. He's the man that fixes everything: shoes, bags, even suitcases. The shop he works in is tiny, but it's always busy.\n\nThen there's Fatma Hanım, the woman who sells simit at the corner every morning. The simit she sells are the best in the city, and she knows everyone's name.\n\nAnd there's Rıza, the cat that sleeps on the bakery window. He's the only cat I know that has his own Instagram account!",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Hüseyin Bey do?",
+            "options": [
+              "He sells simit.",
+              "He repairs shoes and bags.",
+              "He owns the bakery."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the shoe repairer... fixes everything\"",
+            "id": "b1-u08-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Rıza?",
+            "options": [
+              "A baker",
+              "A cat",
+              "A neighbour"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Rıza, the cat that sleeps on the bakery window\"",
+            "id": "b1-u08-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**that**, tanımlayıcı ilgi cümlelerinde **who ve which yerine** kullanılabilir. Günlük konuşmada çok yaygındır.\n\n- The man **that** (= who) fixes everything.\n- The cat **that** (= which) sleeps on the window.\n\n**İlgi zamirini atlamak:**\n\nİlgi zamiri cümlenin **nesnesi** ise (ondan sonra **bir özne** geliyorsa) atlanabilir.\n\n| Özne (atlanamaz) | Nesne (atlanabilir) |\n|---|---|\n| The woman **who sells** simit. | The simit (**that**) **she** sells. |\n| The man **that fixes** shoes. | The shop (**which**) **he** works in. |\n| who / that + **fiil** | (who / that) + **özne** + fiil |\n\n- The book (that) **I** bought is great. ✓\n- The book ~~bought~~... → The book **that** is on the table. (Burada that öznedir, atlanamaz.)",
+        "examples": [
+          {
+            "en": "The film we saw last night was brilliant.",
+            "tr": "Dün gece izlediğimiz film harikaydı."
+          },
+          {
+            "en": "Is this the phone you lost?",
+            "tr": "Kaybettiğin telefon bu mu?"
+          },
+          {
+            "en": "She's the person that told me the news.",
+            "tr": "Bana haberi veren kişi o."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"izlediğimiz film\", \"kaybettiğin telefon\" gibi yapılar İngilizcede çoğunlukla ilgi zamiri olmadan kurulur: the film we saw, the phone you lost. Bu yapı konuşmada çok doğal ve yaygındır; dinlerken fark etmeye çalışın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"that\" hangisinin yerine kullanılabilir?",
+          "options": [
+            "Sadece who",
+            "Sadece which",
+            "Hem who hem which"
+          ],
+          "answerIndex": 2,
+          "explanation": "Tanımlayıcı cümlelerde ikisi de.",
+          "id": "b1-u08-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İlgi zamiri atlanabilir mi? \"The book that I read was boring.\"",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 0,
+          "explanation": "that'ten sonra özne (I) var → atlanabilir.",
+          "id": "b1-u08-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İlgi zamiri atlanabilir mi? \"The man that lives here is old.\"",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 1,
+          "explanation": "that öznedir → atlanamaz.",
+          "id": "b1-u08-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The film we saw was great.",
+            "The film saw was great."
+          ],
+          "answerIndex": 0,
+          "explanation": "Nesne → atlanabilir, özne kalır.",
+          "id": "b1-u08-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Is this the bag ___ you lost? (boş bırakılabilir; bir kelime yazın)",
+          "answers": [
+            "that",
+            "which"
+          ],
+          "explanation": "that / which.",
+          "id": "b1-u08-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The man ___ helped me was very kind.",
+          "answers": [
+            "who",
+            "that"
+          ],
+          "explanation": "Özne → atlanamaz.",
+          "id": "b1-u08-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The pizza ___ made was delicious. (biz)",
+          "answers": [
+            "we"
+          ],
+          "explanation": "the pizza (that) we made.",
+          "id": "b1-u08-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "the",
+            "This",
+            "is",
+            "restaurant",
+            "I",
+            "told",
+            "you",
+            "about"
+          ],
+          "answer": "This is the restaurant I told you about.",
+          "explanation": "Nesne ilgi cümlesi, that atlanmış.",
+          "translation": "Sana bahsettiğim restoran bu.",
+          "id": "b1-u08-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Do you remember the café we found last summer? The one that had the amazing cheesecake? It's closed now.",
+          "prompt": "Kafeye ne olmuş?",
+          "options": [
+            "Taşınmış",
+            "Kapanmış",
+            "Yenilenmiş"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It's closed now.\"",
+          "id": "b1-u08-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın (that kullanmadan): \"Dün gece izlediğimiz film harikaydı.\"",
+          "accepted": [
+            "The film we saw last night was great.",
+            "The film we saw last night was great",
+            "The film we watched last night was great.",
+            "The film we watched last night was great",
+            "The film we saw last night was brilliant.",
+            "The film we saw last night was brilliant",
+            "The film we watched last night was brilliant.",
+            "The film we watched last night was brilliant",
+            "The movie we saw last night was great.",
+            "The movie we saw last night was great",
+            "The movie we watched last night was great.",
+            "The movie we watched last night was great",
+            "The film we saw last night was amazing.",
+            "The film we saw last night was amazing",
+            "The film we watched last night was amazing.",
+            "The film we watched last night was amazing"
+          ],
+          "explanation": "The film we saw last night was great.",
+          "id": "b1-u08-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Mahallenizdeki ya da iş yerinizdeki \"unutulmaz\" 3 kişiyi tanıtın. that kullanın ve ilgi zamirini atladığınız en az 2 cümle kurun (\"The bread he makes...\", \"The songs she sings...\").",
+          "modelAnswer": "In my office there's Recep, the man that knows everything about computers. The coffee he makes is terrible, but everyone loves him. There's also Nihan, the woman that organises all the parties. The cakes she brings on Fridays are famous!",
+          "rubric": [
+            "that doğru",
+            "Nesne ilgi cümlesinde atlama",
+            "Özne cümlesinde atlamama"
+          ]
+        },
+        "id": "b1-u08-l2-use"
+      }
+    },
+    {
+      "id": "b1-u08-l3",
+      "number": 3,
+      "title": "Nerede, kimin?",
+      "goal": "where ile yerleri, whose ile sahipliği tanımlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Eski mahallede",
+        "lines": [
+          {
+            "speaker": "Hande",
+            "text": "This is the street where I grew up!"
+          },
+          {
+            "speaker": "Levent",
+            "text": "Really? Which house was yours?"
+          },
+          {
+            "speaker": "Hande",
+            "text": "The blue one. And that's the park where I learned to ride a bike."
+          },
+          {
+            "speaker": "Levent",
+            "text": "Who lives in the big house on the corner?"
+          },
+          {
+            "speaker": "Hande",
+            "text": "That's the family whose son was my best friend at school. Oh, and look! That's the bakery where we bought bread every morning."
+          },
+          {
+            "speaker": "Levent",
+            "text": "It's like a museum of your childhood!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Hande learn in the park?",
+            "options": [
+              "To swim",
+              "To ride a bike",
+              "To play football"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the park where I learned to ride a bike\"",
+            "id": "b1-u08-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who lives in the big house on the corner?",
+            "options": [
+              "Hande's aunt",
+              "The family of her school best friend",
+              "The baker"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the family whose son was my best friend\"",
+            "id": "b1-u08-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**where** → **yerler** için (-dığı yer)\n\n- This is the street **where** I grew up. (Büyüdüğüm sokak)\n- That's the bakery **where** we bought bread.\n\n**where** = in which / at which. Ondan sonra **özne + fiil** gelir.\n\n**Dikkat:** Yer bir **nesne** gibi kullanılıyorsa **which / that** gelir:\n\n| where (orada bir şey olur) | which / that (yer özne ya da nesne) |\n|---|---|\n| The city **where** I live. | The city **which** has the best food. |\n| The hotel **where** we stayed. | The hotel **that** we chose. |\n\n**whose** → **sahiplik** (-in, -ın)\n\n- That's the family **whose** son was my friend. (Oğlu benim arkadaşım olan aile)\n- I have a friend **whose** father is a famous actor.\n\n**whose + isim** birlikte kullanılır.\n\n**Not:** Dinlediğiniz ve okuduğunuz metinlerde virgülle ayrılmış ilgi cümleleri de göreceksiniz: *My cousin, whose family owns a hotel, ...* Bunlar kişiyi tanımlamaz, sadece **ek bilgi** verir. Ayrıntılarını B2'de göreceğiz.",
+        "examples": [
+          {
+            "en": "Rize is the city where most Turkish tea is grown.",
+            "tr": "Rize, Türk çayının çoğunun yetiştirildiği şehir."
+          },
+          {
+            "en": "That's the woman whose car was stolen.",
+            "tr": "Arabası çalınan kadın o."
+          },
+          {
+            "en": "Do you know a place where we can park?",
+            "tr": "Park edebileceğimiz bir yer biliyor musun?"
+          }
+        ],
+        "turkishNote": "Türkçede \"büyüdüğüm sokak\", \"arabası çalınan kadın\" gibi yapılar ek ile kurulur. İngilizcede yer için where, sahiplik için whose kullanılır. \"The woman who her car was stolen\" yanlıştır; whose zaten \"onun\" anlamını içerir: \"the woman whose car was stolen\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "This is the hotel ___ we stayed last year.",
+          "options": [
+            "where",
+            "which",
+            "whose"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yer + özne + fiil → where.",
+          "id": "b1-u08-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "That's the man ___ dog barks all night.",
+          "options": [
+            "who",
+            "whose",
+            "which"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sahiplik → whose.",
+          "id": "b1-u08-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The woman who her son is a doctor.",
+            "The woman whose son is a doctor."
+          ],
+          "answerIndex": 1,
+          "explanation": "whose + isim.",
+          "id": "b1-u08-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Istanbul is a city ___ is on two continents.",
+          "options": [
+            "where",
+            "which"
+          ],
+          "answerIndex": 1,
+          "explanation": "Şehir özne → which.",
+          "id": "b1-u08-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The café ___ we met is closed now.",
+          "answers": [
+            "where"
+          ],
+          "explanation": "where.",
+          "id": "b1-u08-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I have a friend ___ mother is a pilot.",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "whose.",
+          "id": "b1-u08-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Is there a shop ___ I can buy a charger?",
+          "answers": [
+            "where"
+          ],
+          "explanation": "where.",
+          "id": "b1-u08-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The student ___ phone rang had to leave the room.",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "whose + phone.",
+          "id": "b1-u08-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Bodrum is the town where I spend every summer. My cousin, whose family owns a small hotel there, always finds me a room.",
+          "prompt": "Kuzeninin ailesi neyin sahibi?",
+          "options": [
+            "Bir restoranın",
+            "Küçük bir otelin",
+            "Bir teknenin"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"whose family owns a small hotel there\"",
+          "id": "b1-u08-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu, doğduğum ev.\"",
+          "accepted": [
+            "This is the house where I was born.",
+            "This is the house where I was born",
+            "This is the house I was born in.",
+            "This is the house I was born in",
+            "This is the house that I was born in.",
+            "This is the house that I was born in",
+            "This is the house which I was born in.",
+            "This is the house which I was born in"
+          ],
+          "explanation": "This is the house where I was born.",
+          "id": "b1-u08-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Çocukluğunuzun geçtiği mahalleyi ya da şehri JAI'ye bir \"tur\" gibi anlatın. En az 4 where ve 2 whose cümlesi kurun.",
+          "modelAnswer": "This is the school where I studied for eight years. That's the corner where we played football every evening. There's the shop where I bought my first comic. And that's the house of Mrs Kılıç, whose cakes were famous in the whole neighbourhood. My friend Taner, whose father was a fisherman, lived next to the harbour.",
+          "rubric": [
+            "where doğru",
+            "whose + isim",
+            "Akıcı tur anlatımı"
+          ]
+        },
+        "id": "b1-u08-l3-use"
+      }
+    },
+    {
+      "id": "b1-u08-l4",
+      "number": 4,
+      "title": "Kelimeyi unuttum!",
+      "goal": "Bilmediğim ya da unuttuğum bir kelimeyi ilgi cümleleriyle tarif edip anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Hırdavatçıda",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "Hi, I'm looking for... I don't know the word in English. It's a tool that you use to put nails into wood."
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Oh, a hammer?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "Yes, a hammer! And I also need a thing which holds pictures on the wall."
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Do you mean a hook?"
+          },
+          {
+            "speaker": "Customer",
+            "text": "I'm not sure. It's a kind of small metal thing. It's similar to a nail, but it's curved at the end."
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Yes, that's a hook. They're over there, next to the person who's wearing a red jacket."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is a hammer used for?",
+            "options": [
+              "Putting nails into wood",
+              "Cutting wood",
+              "Painting walls"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"a tool that you use to put nails into wood\"",
+            "id": "b1-u08-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the customer describe as \"similar to a nail, but curved\"?",
+            "options": [
+              "A screw",
+              "A hook",
+              "A hammer"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Yes, that's a hook.\"",
+            "id": "b1-u08-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir kelimeyi bilmediğinizde **durmayın, tarif edin!** Bu, iyi konuşanların en önemli becerilerinden biridir.\n\n| Ne? | Kalıp |\n|---|---|\n| Kişi | It's **a person who** ... / It's **someone who** ... |\n| Nesne | It's **a thing which / that** ... / It's **something you use to / for** ... |\n| Yer | It's **a place where** ... |\n| Tür | It's **a kind of** ... / It's **a type of** ... |\n| Benzerlik | It's **similar to** ... / It's **like** a ..., **but** ... |\n| Görünüş | It's **made of** ... / It **looks like** ... |\n\n**Yardım istemek:**\n\n- **What's the word for** ...?\n- **What do you call** a person who ...?\n- **I don't know the word in English, but** ...\n- **Do you know what I mean?**\n\n**Karşı taraf:** Do you mean ...? / Oh, you mean a ...!",
+        "examples": [
+          {
+            "en": "What do you call a person who designs buildings?",
+            "tr": "Bina tasarlayan kişiye ne denir?"
+          },
+          {
+            "en": "It's a place where you can borrow books.",
+            "tr": "Kitap ödünç alabileceğin bir yer."
+          },
+          {
+            "en": "It's a kind of soup which is made from lentils.",
+            "tr": "Mercimekten yapılan bir çeşit çorba."
+          }
+        ],
+        "turkishNote": "Türkçe konuşanlar İngilizce konuşurken bir kelimeyi bilmediklerinde genellikle duraklar ya da Türkçe kelimeyi söyler. Bunun yerine \"It's a thing which...\" ile tarif etmek hem iletişimi sürdürür hem de pratik yapmanızı sağlar. \"What do you call...?\" sorusu kelime öğrenmenin en kolay yollarından biridir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kitap ödünç alınan yer:",
+          "options": [
+            "It's a person who lends books.",
+            "It's a place where you can borrow books."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yer → a place where.",
+          "id": "b1-u08-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bina tasarlayan kişiye ne denir?\"",
+          "options": [
+            "What do you say a person who designs buildings?",
+            "What do you call a person who designs buildings?"
+          ],
+          "answerIndex": 1,
+          "explanation": "What do you call...?",
+          "id": "b1-u08-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "It's a person who designs buildings.",
+          "options": [
+            "architect",
+            "engineer",
+            "builder"
+          ],
+          "answerIndex": 0,
+          "explanation": "architect.",
+          "id": "b1-u08-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "It's a place where you can see old and valuable things.",
+          "options": [
+            "museum",
+            "market",
+            "harbour"
+          ],
+          "answerIndex": 0,
+          "explanation": "museum.",
+          "id": "b1-u08-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's a ___ of bread which is popular in Turkey. (bir çeşit)",
+          "answers": [
+            "kind",
+            "type",
+            "sort"
+          ],
+          "explanation": "a kind of.",
+          "id": "b1-u08-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's ___ to a sofa, but smaller. (benzer)",
+          "answers": [
+            "similar"
+          ],
+          "explanation": "similar to.",
+          "id": "b1-u08-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's something you use ___ cut paper.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "use to + fiil.",
+          "id": "b1-u08-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Do you ___ a hook? (demek istemek)",
+          "answers": [
+            "mean"
+          ],
+          "explanation": "Do you mean...?",
+          "id": "b1-u08-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "It's a person who works on a plane. They help passengers, serve food and drinks and explain the safety rules.",
+          "prompt": "Tarif edilen kişi kim?",
+          "options": [
+            "Pilot",
+            "Kabin görevlisi",
+            "Mühendis"
+          ],
+          "answerIndex": 1,
+          "explanation": "Uçakta yolculara yardım eden, yemek servis eden → flight attendant.",
+          "id": "b1-u08-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Tarif edin (kelimeyi kullanmadan): \"umbrella\" (It's a thing...)",
+          "accepted": [
+            "It's a thing which you use when it rains.",
+            "It's a thing which you use when it rains",
+            "It is a thing which you use when it rains",
+            "It is a thing which you use when it rains.",
+            "It's a thing that you use when it rains.",
+            "It's a thing that you use when it rains",
+            "It is a thing that you use when it rains",
+            "It is a thing that you use when it rains.",
+            "It's a thing you use when it rains.",
+            "It's a thing you use when it rains",
+            "It is a thing you use when it rains",
+            "It is a thing you use when it rains.",
+            "It's a thing which you use when it's raining.",
+            "It's a thing which you use when it's raining",
+            "It's a thing which you use when it is raining",
+            "It is a thing which you use when it's raining",
+            "It's a thing which you use when it is raining.",
+            "It is a thing which you use when it's raining.",
+            "It's a thing that you use when it's raining.",
+            "It's a thing that you use when it's raining",
+            "It is a thing that you use when it's raining",
+            "It's a thing that you use when it is raining",
+            "It's a thing that you use when it is raining.",
+            "It is a thing that you use when it's raining.",
+            "It's a thing you use when it's raining.",
+            "It's a thing you use when it's raining",
+            "It is a thing you use when it's raining",
+            "It's a thing you use when it is raining",
+            "It's a thing you use when it is raining.",
+            "It is a thing you use when it's raining.",
+            "It's a thing which keeps you dry in the rain.",
+            "It's a thing which keeps you dry in the rain",
+            "It is a thing which keeps you dry in the rain",
+            "It is a thing which keeps you dry in the rain.",
+            "It's a thing that keeps you dry in the rain.",
+            "It's a thing that keeps you dry in the rain",
+            "It is a thing that keeps you dry in the rain",
+            "It is a thing that keeps you dry in the rain.",
+            "It's a thing which you use in the rain.",
+            "It's a thing which you use in the rain",
+            "It is a thing which you use in the rain",
+            "It is a thing which you use in the rain.",
+            "It's a thing you use in the rain.",
+            "It's a thing you use in the rain",
+            "It is a thing you use in the rain",
+            "It is a thing you use in the rain."
+          ],
+          "explanation": "It's a thing which you use when it rains.",
+          "id": "b1-u08-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Tabu oyunu: JAI size 6 kelime verecek (dentist, airport, scissors, librarian, kitchen, fridge). Kelimeyi söylemeden who / which / where, a kind of ve similar to ile tarif edin. JAI tahmin edecek.",
+          "modelAnswer": "It's a person who looks after your teeth. ... It's a place where planes take off and land. ... It's a thing which you use to cut paper. It's made of metal. ... It's a kind of big cold box which keeps food fresh.",
+          "rubric": [
+            "who / which / where doğru",
+            "Tarif kalıpları çeşitli",
+            "Kelimeyi söylemeden anlaşılır tarif"
+          ]
+        },
+        "id": "b1-u08-l4-use"
+      }
+    },
+    {
+      "id": "b1-u08-l5",
+      "number": 5,
+      "title": "Benim yerim",
+      "goal": "Sevdiğim bir yeri ilgi cümleleri ve betimleyici kelimelerle canlı bir şekilde tanıtabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Gezgin blogu: Saklı bir köy",
+        "body": "Last spring I discovered a village that I'll never forget.\n\nIt's a small place in the mountains above Fethiye, where only about 200 people live. The road which goes up to the village is narrow and steep, but the view from the top is worth it.\n\nThe heart of the village is a little square with an old plane tree, where the men play backgammon and drink tea all day. Next to it, there's a café whose owner, Gülsüm Teyze, makes the best gözleme I've ever eaten.\n\nWhat I loved most were the people. Strangers who I'd never met invited me into their homes. It's the kind of place that reminds you how kind people can be.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many people live in the village?",
+            "options": [
+              "About 200",
+              "About 2,000",
+              "About 20"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"only about 200 people live\"",
+            "id": "b1-u08-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the writer say about the people?",
+            "options": [
+              "They were unfriendly.",
+              "They invited the writer into their homes.",
+              "They didn't speak to tourists."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Strangers... invited me into their homes.\"",
+            "id": "b1-u08-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bir yeri tanıtırken:**\n\n| Bilgi | Kalıp |\n|---|---|\n| Genel | It's a **small / lively / peaceful** place **where** ... |\n| Konum | It's **in the mountains / by the sea / near** ... |\n| Öne çıkan | **The heart of** the town is ... / **The best thing about** it is ... |\n| Kişiler | There's a café **whose owner** ... / The people **who live there** ... |\n| Duygu | It's **the kind of place that** ... / It **reminds me of** ... |\n| Tavsiye | It's **worth visiting**. / **If you go there**, don't miss ... |\n\n**Betimleyici sıfatlar:**\n\n| Olumlu | Olumsuz |\n|---|---|\n| peaceful, lively, charming, picturesque | crowded, noisy, dirty, touristy |\n\n**Virgüllü ilgi cümleleri:** Yeri zaten belli olan bir şeye **ek bilgi** eklerken virgül kullanılır: *a village above Fethiye, where only 200 people live*. Bu kullanımda **that** kullanılmaz.\n\n**İlgi cümleleriyle zenginleştirme:**\n\n- There's a café. → There's **a tiny café whose owner** makes the best gözleme **I've ever eaten**.",
+        "examples": [
+          {
+            "en": "It's the kind of place that you never want to leave.",
+            "tr": "Hiç ayrılmak istemeyeceğin türden bir yer."
+          },
+          {
+            "en": "This town reminds me of my grandparents' village.",
+            "tr": "Bu kasaba bana büyükannemlerin köyünü hatırlatıyor."
+          },
+          {
+            "en": "If you go there, don't miss the fish market.",
+            "tr": "Oraya gidersen balık pazarını kaçırma."
+          }
+        ],
+        "turkishNote": "\"Bana ... hatırlatıyor\" için \"It remembers me\" demek yaygın bir hatadır. Doğrusu \"It reminds me of ...\". remember (hatırlamak) ile remind (hatırlatmak) farklı fiillerdir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bana çocukluğumu hatırlatıyor.\"",
+          "options": [
+            "It remembers me my childhood.",
+            "It reminds me of my childhood."
+          ],
+          "answerIndex": 1,
+          "explanation": "remind of.",
+          "id": "b1-u08-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Huzurlu bir köy:",
+          "options": [
+            "a peaceful village",
+            "a crowded village",
+            "a noisy village"
+          ],
+          "answerIndex": 0,
+          "explanation": "peaceful.",
+          "id": "b1-u08-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Turist dolu, doğallığını kaybetmiş:",
+          "options": [
+            "charming",
+            "touristy",
+            "hidden"
+          ],
+          "answerIndex": 1,
+          "explanation": "touristy.",
+          "id": "b1-u08-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's a town ___ you can eat fresh fish every day.",
+          "answers": [
+            "where"
+          ],
+          "explanation": "where.",
+          "id": "b1-u08-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's a shop ___ owner speaks five languages.",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "whose.",
+          "id": "b1-u08-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The old town is worth ___. (ziyaret)",
+          "answers": [
+            "visiting",
+            "seeing"
+          ],
+          "explanation": "worth + -ing.",
+          "id": "b1-u08-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's the kind of place ___ you never forget.",
+          "answers": [
+            "that",
+            "which"
+          ],
+          "explanation": "the kind of place that.",
+          "id": "b1-u08-l5-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "peaceful",
+              "right": "huzurlu"
+            },
+            {
+              "left": "lively",
+              "right": "hareketli"
+            },
+            {
+              "left": "crowded",
+              "right": "kalabalık"
+            },
+            {
+              "left": "hidden",
+              "right": "saklı"
+            },
+            {
+              "left": "view",
+              "right": "manzara"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b1-u08-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "My favourite place in Istanbul is a small tea garden in Üsküdar. It's a place where you can watch the boats and the sunset. It reminds me of summer evenings with my father.",
+          "prompt": "Bu yer konuşana neyi hatırlatıyor?",
+          "options": [
+            "Okul günlerini",
+            "Babasıyla yaz akşamlarını",
+            "İlk işini"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It reminds me of summer evenings with my father.\"",
+          "id": "b1-u08-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Oraya gidersen balık pazarını kaçırma.\"",
+          "accepted": [
+            "If you go there, don't miss the fish market.",
+            "If you go there, don't miss the fish market",
+            "If you go there, do not miss the fish market",
+            "If you go there, do not miss the fish market.",
+            "Don't miss the fish market if you go there.",
+            "Don't miss the fish market if you go there",
+            "Do not miss the fish market if you go there",
+            "Do not miss the fish market if you go there.",
+            "If you go there don't miss the fish market.",
+            "If you go there don't miss the fish market",
+            "If you go there do not miss the fish market",
+            "If you go there do not miss the fish market."
+          ],
+          "explanation": "If you go there, don't miss the fish market.",
+          "id": "b1-u08-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Sevdiğiniz bir yeri (şehir, köy, semt, kafe, park) tanıtan bir blog yazısı yazın (130–160 kelime). En az 5 ilgi cümlesi (who, which, that, where, whose) ve en az 4 betimleyici sıfat kullanın. Sonunda okuyucuya bir tavsiye verin.",
+          "modelAnswer": "Kuzguncuk: Istanbul's Hidden Village\n\nKuzguncuk is a small neighbourhood on the Asian side of Istanbul which feels like a village. It's a peaceful place where old wooden houses stand next to each other on narrow streets.\n\nThe heart of the neighbourhood is the main street, where you can find little cafés, a bakery and a bookshop whose owner always recommends great novels. On Sundays, the street is lively but never too crowded.\n\nWhat I love most are the people who live there. Neighbours still say hello to each other and chat outside their doors. It's the kind of place that reminds me of the Istanbul my grandparents talked about.\n\nIf you go there, don't miss the small garden by the sea, which is perfect for a cup of tea at sunset. It's definitely worth visiting!",
+          "rubric": [
+            "En az 5 ilgi cümlesi",
+            "who / which / where / whose doğru",
+            "Betimleyici sıfatlar",
+            "Tavsiye",
+            "Blog üslubu ve düzen"
+          ]
+        },
+        "id": "b1-u08-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "A teacher is a person ___ helps students learn.",
+        "options": [
+          "who",
+          "which",
+          "where"
+        ],
+        "answerIndex": 0,
+        "explanation": "who",
+        "id": "b1-u08-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "This is the train ___ goes to Ankara.",
+        "options": [
+          "who",
+          "which"
+        ],
+        "answerIndex": 1,
+        "explanation": "which",
+        "id": "b1-u08-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "That's the café ___ we first met.",
+        "options": [
+          "which",
+          "where"
+        ],
+        "answerIndex": 1,
+        "explanation": "where",
+        "id": "b1-u08-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I have a friend ___ brother is a famous singer.",
+        "options": [
+          "who",
+          "whose"
+        ],
+        "answerIndex": 1,
+        "explanation": "whose",
+        "id": "b1-u08-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "The man who he called me was angry.",
+          "The man who called me was angry."
+        ],
+        "answerIndex": 1,
+        "explanation": "Zamir tekrarı yok",
+        "id": "b1-u08-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "İlgi zamiri atlanabilir mi? \"The cake that she made was delicious.\"",
+        "options": [
+          "Evet",
+          "Hayır"
+        ],
+        "answerIndex": 0,
+        "explanation": "Nesne → atlanabilir",
+        "id": "b1-u08-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "The people ___ live next door are from Japan.",
+        "answers": [
+          "who",
+          "that"
+        ],
+        "explanation": "who / that",
+        "id": "b1-u08-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Is this the phone ___ you were looking for?",
+        "answers": [
+          "that",
+          "which"
+        ],
+        "explanation": "that / which",
+        "id": "b1-u08-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "This is the town ___ my father was born.",
+        "answers": [
+          "where"
+        ],
+        "explanation": "where",
+        "id": "b1-u08-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "It reminds me ___ my holiday in Greece.",
+        "answers": [
+          "of"
+        ],
+        "explanation": "remind of",
+        "id": "b1-u08-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Kitap ödünç alınan yer\" →",
+        "options": [
+          "a library",
+          "a bookshop"
+        ],
+        "answerIndex": 0,
+        "explanation": "library",
+        "id": "b1-u08-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "What do you ___ a person who repairs cars? (ne denir)",
+        "answers": [
+          "call"
+        ],
+        "explanation": "What do you call...?",
+        "id": "b1-u08-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "The best teacher I ever had was Ms Sevim, whose lessons were always full of music. She's the person who made me love English.",
+        "prompt": "Konuşanın en iyi öğretmeninin dersleri nasıldı?",
+        "options": [
+          "Çok sessizdi",
+          "Müzikle doluydu",
+          "Çok zordu"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"whose lessons were always full of music\"",
+        "id": "b1-u08-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Birleştirin: \"That's the woman. Her car was stolen.\"",
+        "accepted": [
+          "That's the woman whose car was stolen.",
+          "That's the woman whose car was stolen",
+          "That is the woman whose car was stolen.",
+          "That is the woman whose car was stolen"
+        ],
+        "explanation": "That's the woman whose car was stolen.",
+        "id": "b1-u08-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Hayatınızda önemli bir yere sahip bir kişiyi ve onunla ilgili bir yeri anlatan bir paragraf yazın (130–160 kelime). En az 6 ilgi cümlesi (who, which, that, where, whose, atlanmış zamir) kullanın.",
+        "modelAnswer": "The person who has influenced me most is my grandmother, Saniye. She's a woman who has always worked hard and never complains. She lives in a small village near Bolu, where she has a garden that's full of fruit trees. When I was a child, I spent every summer there. The house where she lives is more than a hundred years old, and the kitchen is the room I remember best. That's the place where she taught me to make bread. She has a neighbour, Hasan Amca, whose stories made us laugh every evening. The food she cooks still tastes better than anything I've eaten in restaurants. She's the kind of person who makes everyone feel at home.",
+        "rubric": [
+          "En az 6 ilgi cümlesi",
+          "Doğru ilgi zamiri seçimi",
+          "Zamir atlama",
+          "Betimleme",
+          "Akıcı paragraf"
+        ],
+        "id": "b1-u08-t15"
+      }
+    ]
+  }
+}
