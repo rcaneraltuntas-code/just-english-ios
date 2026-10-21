@@ -1,0 +1,1427 @@
+{
+  "id": "b2-u01",
+  "level": "B2",
+  "number": 1,
+  "title": "Anlatı",
+  "titleEn": "Storytelling",
+  "canDo": "Bir hikâyeyi bütün anlatı zamanlarını (past perfect continuous dahil) ustaca kullanarak, güçlü sıfat ve zarflarla, dinleyicinin ilgisini canlı tutacak şekilde anlatabilirim.",
+  "grammar": [
+    "anlatı zamanları: tekrar ve ince farklar",
+    "past perfect continuous",
+    "past perfect simple ve continuous farkı",
+    "zaman bağlaçları: as soon as, the moment, no sooner... than (giriş)",
+    "güçlü sıfatlar ve derecelendirme zarfları"
+  ],
+  "vocabularyThemes": [
+    "hikâye anlatımı sıfatları",
+    "duygu ve tepki",
+    "anlatı bağlayıcıları"
+  ],
+  "liveClass": {
+    "title": "Hikâye gecesi",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci başından geçmiş (ya da hayali) unutulmaz bir olayı 2 dakikada anlatır. Anlatımda en az bir past perfect continuous cümlesi, iki güçlü sıfat ve bir gerilim anı olmalıdır. Dinleyenler You'll never guess... / What happened next? gibi tepkilerle katılır, sonunda sınıf en sürükleyici hikâyeyi seçer ve öğretmen dil kullanımına geri bildirim verir."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u01-v01",
+      "en": "terrified",
+      "tr": "çok korkmuş, dehşete düşmüş",
+      "example": "I was absolutely terrified.",
+      "exampleTr": "Tamamen dehşete düşmüştüm.",
+      "note": "scared'in güçlüsü"
+    },
+    {
+      "id": "b2-u01-v02",
+      "en": "exhausted",
+      "tr": "bitkin",
+      "example": "We were exhausted after the climb.",
+      "exampleTr": "Tırmanıştan sonra bitkindik.",
+      "note": "tired'ın güçlüsü"
+    },
+    {
+      "id": "b2-u01-v03",
+      "en": "furious",
+      "tr": "öfkeden kudurmuş",
+      "example": "My boss was furious.",
+      "exampleTr": "Patronum çok öfkeliydi.",
+      "note": "angry'nin güçlüsü"
+    },
+    {
+      "id": "b2-u01-v04",
+      "en": "astonished",
+      "tr": "hayretler içinde",
+      "example": "Everyone was astonished by the news.",
+      "exampleTr": "Herkes habere hayret etti.",
+      "note": "surprised'ın güçlüsü"
+    },
+    {
+      "id": "b2-u01-v05",
+      "en": "delighted",
+      "tr": "çok memnun",
+      "example": "She was delighted with her present.",
+      "exampleTr": "Hediyesinden çok memnun kaldı.",
+      "note": "pleased'in güçlüsü"
+    },
+    {
+      "id": "b2-u01-v06",
+      "en": "devastated",
+      "tr": "yıkılmış",
+      "example": "He was devastated when he lost his job.",
+      "exampleTr": "İşini kaybedince yıkıldı.",
+      "note": "sad'in güçlüsü"
+    },
+    {
+      "id": "b2-u01-v07",
+      "en": "freezing",
+      "tr": "buz gibi",
+      "example": "It was freezing on the mountain.",
+      "exampleTr": "Dağda hava buz gibiydi.",
+      "note": "cold'un güçlüsü"
+    },
+    {
+      "id": "b2-u01-v08",
+      "en": "hilarious",
+      "tr": "çok komik",
+      "example": "The film was hilarious.",
+      "exampleTr": "Film çok komikti.",
+      "note": "funny'nin güçlüsü"
+    },
+    {
+      "id": "b2-u01-v09",
+      "en": "gripping",
+      "tr": "sürükleyici",
+      "example": "It was a gripping story.",
+      "exampleTr": "Sürükleyici bir hikâyeydi."
+    },
+    {
+      "id": "b2-u01-v10",
+      "en": "nerve-racking",
+      "tr": "sinir bozucu, gergin edici",
+      "example": "The interview was nerve-racking.",
+      "exampleTr": "Mülakat çok gerdi."
+    },
+    {
+      "id": "b2-u01-v11",
+      "en": "absolutely",
+      "tr": "tamamen, kesinlikle",
+      "example": "It was absolutely amazing.",
+      "exampleTr": "Kesinlikle muhteşemdi.",
+      "note": "güçlü sıfatlarla"
+    },
+    {
+      "id": "b2-u01-v12",
+      "en": "utterly",
+      "tr": "tamamen, büsbütün",
+      "example": "I was utterly exhausted.",
+      "exampleTr": "Tamamen bitkindim."
+    },
+    {
+      "id": "b2-u01-v13",
+      "en": "gradually",
+      "tr": "yavaş yavaş",
+      "example": "Gradually, the sky got darker.",
+      "exampleTr": "Gökyüzü yavaş yavaş karardı."
+    },
+    {
+      "id": "b2-u01-v14",
+      "en": "all of a sudden",
+      "tr": "birdenbire",
+      "example": "All of a sudden, the lights went out.",
+      "exampleTr": "Birdenbire ışıklar söndü."
+    },
+    {
+      "id": "b2-u01-v15",
+      "en": "eventually",
+      "tr": "sonunda (uzun süreden sonra)",
+      "example": "Eventually, we found the way.",
+      "exampleTr": "Sonunda yolu bulduk.",
+      "note": "≠ eventually 'muhtemelen' değil"
+    },
+    {
+      "id": "b2-u01-v16",
+      "en": "meanwhile",
+      "tr": "bu arada, o sırada",
+      "example": "Meanwhile, the others were waiting.",
+      "exampleTr": "Bu arada diğerleri bekliyordu."
+    },
+    {
+      "id": "b2-u01-v17",
+      "en": "the moment",
+      "tr": "-dığı anda",
+      "example": "The moment I saw her, I knew.",
+      "exampleTr": "Onu gördüğüm anda anladım."
+    },
+    {
+      "id": "b2-u01-v18",
+      "en": "it turned out that",
+      "tr": "anlaşıldı ki",
+      "example": "It turned out that he was her brother.",
+      "exampleTr": "Meğer onun kardeşiymiş."
+    },
+    {
+      "id": "b2-u01-v19",
+      "en": "to my surprise",
+      "tr": "şaşırtıcı bir şekilde",
+      "example": "To my surprise, nobody was there.",
+      "exampleTr": "Şaşırtıcı bir şekilde orada kimse yoktu."
+    },
+    {
+      "id": "b2-u01-v20",
+      "en": "as it happens",
+      "tr": "tesadüfe bak ki",
+      "example": "As it happens, I was there too.",
+      "exampleTr": "Tesadüfe bak ki ben de oradaydım."
+    },
+    {
+      "id": "b2-u01-v21",
+      "en": "plot",
+      "tr": "olay örgüsü",
+      "example": "The plot was hard to follow.",
+      "exampleTr": "Olay örgüsünü takip etmek zordu."
+    },
+    {
+      "id": "b2-u01-v22",
+      "en": "twist",
+      "tr": "beklenmedik gelişme",
+      "example": "The story has an amazing twist at the end.",
+      "exampleTr": "Hikâyenin sonunda harika bir sürpriz var."
+    },
+    {
+      "id": "b2-u01-v23",
+      "en": "anecdote",
+      "tr": "kısa ve ilginç anı",
+      "example": "He told us a funny anecdote.",
+      "exampleTr": "Bize komik bir anı anlattı."
+    },
+    {
+      "id": "b2-u01-v24",
+      "en": "ending",
+      "tr": "son",
+      "example": "I didn't expect that ending.",
+      "exampleTr": "O sonu beklemiyordum."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u01-l1",
+      "number": 1,
+      "title": "Zamanlar sahnede",
+      "goal": "Past simple, past continuous ve past perfect'i bir hikâyede bilinçli olarak ve doğru sırayla kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Sisli gece",
+        "body": "It was nearly midnight when Elif finally left the office. A thick fog had come in from the sea, and the streets were completely empty.\n\nShe was walking towards the car park when she heard footsteps behind her. She stopped. The footsteps stopped too.\n\nHer heart was pounding. She had read about a series of robberies in the area, and she had promised her mother that she would never walk alone at night.\n\nShe turned around slowly. A tall figure was standing under the streetlight, holding something in his hand. Then he stepped forward and smiled.\n\n\"Excuse me,\" he said. \"I think you dropped your keys.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What had Elif read about?",
+            "options": [
+              "A series of robberies",
+              "A missing woman",
+              "A storm"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"She had read about a series of robberies in the area\"",
+            "id": "b2-u01-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the man holding?",
+            "options": [
+              "A knife",
+              "Elif's keys",
+              "A phone"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I think you dropped your keys.\"",
+            "id": "b2-u01-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "B1'de üç temel anlatı zamanını öğrendiniz. B2'de bunları **bilinçli seçimlerle** kullanarak etki yaratırız.\n\n| Zaman | Hikâyedeki işlevi | Örnek |\n|---|---|---|\n| **Past continuous** | Sahneyi kurar, yavaşlatır, gerilim yaratır | She **was walking** towards the car park ... |\n| **Past simple** | Olayları ilerletir, hızlandırır | She **stopped**. The footsteps **stopped** too. |\n| **Past perfect** | Geri dönüş (flashback), arka plan bilgisi | She **had read** about a series of robberies. |\n\n**Ritim için ipuçları:**\n\n- **Kısa past simple cümleleri** gerilim yaratır: *She stopped. The footsteps stopped too.*\n- **Uzun past continuous cümleleri** atmosfer kurar: *The rain was falling softly and the town was sleeping.*\n- Past perfect'i **paragrafın başında bir kez** kullandıktan sonra past simple'a dönebilirsiniz; okuyucu zaten geri dönüşte olduğunu anlar.\n\n**Sık hata:** Her geçmiş olayı past perfect ile anlatmak. Past perfect sadece **zaman çizgisinde geri gittiğinizde** gereklidir.",
+        "examples": [
+          {
+            "en": "The sun was setting and the children were playing on the beach.",
+            "tr": "Güneş batıyordu ve çocuklar sahilde oynuyordu."
+          },
+          {
+            "en": "He opened the door. Nobody was there.",
+            "tr": "Kapıyı açtı. Orada kimse yoktu."
+          },
+          {
+            "en": "She had never seen anything so beautiful.",
+            "tr": "Hiç bu kadar güzel bir şey görmemişti."
+          }
+        ],
+        "turkishNote": "Türkçede hikâye anlatırken zamanlar arasında \"-yordu\", \"-dı\" ve \"-mıştı\" ile geçiş yaparız ve bu İngilizceye oldukça iyi uyar. B2 seviyesinde asıl hedef doğruluktan çok etkidir: Türkçe konuşanlar genellikle tek bir zamana (çoğunlukla past simple) bağlı kalır ve anlatım düz kalır. Zamanları değiştirerek hikâyenin hızını kontrol edin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Atmosfer kuran cümle:",
+          "options": [
+            "The wind was howling and the windows were shaking.",
+            "The wind howled. The windows shook."
+          ],
+          "answerIndex": 0,
+          "explanation": "Past continuous → sahne, atmosfer.",
+          "id": "b2-u01-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gerilimi artıran cümle:",
+          "options": [
+            "She was slowly opening the door while she was thinking.",
+            "She opened the door. Silence."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kısa past simple → gerilim.",
+          "id": "b2-u01-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geri dönüş (flashback):",
+          "options": [
+            "She met him ten years earlier.",
+            "She had met him ten years earlier."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geri dönüş → past perfect.",
+          "id": "b2-u01-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisinde past perfect gereksiz?",
+          "options": [
+            "I woke up, had a shower and had gone to work.",
+            "When I arrived, the meeting had already started."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sıralı olaylar → past simple.",
+          "id": "b2-u01-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was raining heavily and the wind ___ (blow) hard.",
+          "answers": [
+            "was blowing"
+          ],
+          "explanation": "Arka plan → past continuous.",
+          "id": "b2-u01-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ (never / feel) so alone before.",
+          "answers": [
+            "had never felt"
+          ],
+          "explanation": "Önceki deneyim → past perfect.",
+          "id": "b2-u01-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She was reading when the phone ___ (ring).",
+          "answers": [
+            "rang"
+          ],
+          "explanation": "Kesen olay → past simple.",
+          "id": "b2-u01-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "By the time the police arrived, the thieves ___ (disappear).",
+          "answers": [
+            "had disappeared"
+          ],
+          "explanation": "Önce olan → past perfect.",
+          "id": "b2-u01-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I was sitting on the train, half asleep, when a woman sat down next to me. She looked familiar. Then I realised: we had been at primary school together thirty years earlier!",
+          "prompt": "Konuşan kadını nereden tanıyordu?",
+          "options": [
+            "İş yerinden",
+            "İlkokuldan",
+            "Trenden"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we had been at primary school together\"",
+          "id": "b2-u01-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hiç bu kadar güzel bir şey görmemişti.\" (she)",
+          "accepted": [
+            "She had never seen anything so beautiful.",
+            "She had never seen anything so beautiful",
+            "She'd never seen anything so beautiful.",
+            "She'd never seen anything so beautiful",
+            "She had never seen anything as beautiful.",
+            "She had never seen anything as beautiful",
+            "She had never seen such a beautiful thing.",
+            "She had never seen such a beautiful thing",
+            "She had never seen anything this beautiful.",
+            "She had never seen anything this beautiful",
+            "She'd never seen anything as beautiful.",
+            "She'd never seen anything as beautiful"
+          ],
+          "explanation": "She had never seen anything so beautiful.",
+          "id": "b2-u01-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "\"Sisli gece\" hikâyesine benzer, gerilimli bir sahne anlatın (gece eve dönerken, boş bir binada, bir yolculukta). Past continuous ile atmosferi kurun, kısa past simple cümleleriyle gerilimi artırın, bir past perfect ile geri dönüş yapın ve beklenmedik bir sonla bitirin.",
+          "modelAnswer": "It was late and the last bus had already left. I was walking home through the park. The trees were moving in the wind and there wasn't a single person around. Suddenly, I heard a noise. I stopped. Something was moving behind the bushes. I had seen a film about a wolf in a city park only the week before, and I was terrified. Then a small white dog ran out and started licking my shoes!",
+          "rubric": [
+            "Üç zamanın bilinçli kullanımı",
+            "Ritim: kısa ve uzun cümleler",
+            "Beklenmedik son"
+          ]
+        },
+        "id": "b2-u01-l1-use"
+      }
+    },
+    {
+      "id": "b2-u01-l2",
+      "number": 2,
+      "title": "Ne zamandır yapıyordu?",
+      "goal": "Past perfect continuous ile geçmişteki bir andan önce süregelen eylemleri ve görünür sonuçlarını anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Havalimanında uzun bir gün",
+        "lines": [
+          {
+            "speaker": "Zehra",
+            "text": "How was your trip back from Berlin?"
+          },
+          {
+            "speaker": "İlker",
+            "text": "A nightmare! By the time the plane took off, we'd been sitting at the gate for six hours."
+          },
+          {
+            "speaker": "Zehra",
+            "text": "Six hours? Why?"
+          },
+          {
+            "speaker": "İlker",
+            "text": "There was a technical problem. And the worst thing is that I'd been planning to see my daughter's school play that evening."
+          },
+          {
+            "speaker": "Zehra",
+            "text": "Oh no. Did you miss it?"
+          },
+          {
+            "speaker": "İlker",
+            "text": "Completely. When I got home, she was in bed. She'd been crying, my wife said. I felt awful."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How long had they been sitting at the gate?",
+            "options": [
+              "Two hours",
+              "Six hours",
+              "All night"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"we'd been sitting at the gate for six hours\"",
+            "id": "b2-u01-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What had İlker been planning to do?",
+            "options": [
+              "Go to a meeting",
+              "See his daughter's school play",
+              "Have dinner with his wife"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd been planning to see my daughter's school play\"",
+            "id": "b2-u01-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Past perfect continuous:** had been + fiil-**ing**\n\nGeçmişteki bir andan **önce başlamış ve o ana kadar süren** eylemleri anlatır. **Süre** ve **süreç** vurgulanır.\n\n| Kullanım | Örnek |\n|---|---|\n| Geçmişteki bir ana kadar süren eylem (+ süre) | By the time the plane took off, we **had been sitting** there **for six hours**. |\n| Geçmişte görünen bir sonucun nedeni | Her eyes were red. She **had been crying**. |\n| Geçmişte yarım kalan bir plan | I **had been planning** to see the play, but ... |\n\n**Zaman çizgisi:**\n\n```\n  [had been sitting.................]X took off   →  şimdi\n   (6 saat boyunca)                  (geçmişteki an)\n```\n\n**Present perfect continuous ile karşılaştırın:**\n\n- I'm tired. I**'ve been working** all day. (Şimdiye kadar)\n- I was tired. I **had been working** all day. (Geçmişteki bir ana kadar)\n\n**Durum fiilleri** (know, be, have, like) continuous olmaz: She **had known** him for years. (~~had been knowing~~)",
+        "examples": [
+          {
+            "en": "The ground was wet. It had been raining all night.",
+            "tr": "Yer ıslaktı. Bütün gece yağmur yağmıştı."
+          },
+          {
+            "en": "She had been working there for ten years when the company closed.",
+            "tr": "Şirket kapandığında on yıldır orada çalışıyordu."
+          },
+          {
+            "en": "How long had you been waiting when the bus finally came?",
+            "tr": "Otobüs sonunda geldiğinde ne kadar zamandır bekliyordun?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"on yıldır orada çalışıyordu\" (şirket kapandığında) yapısı İngilizcede past perfect continuous'a denk gelir. Türkçe konuşanlar bu durumda genellikle \"she was working there for ten years\" der; ama geçmişteki bir ana kadar süren bir süreden bahsederken had been + -ing gerekir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Şirket kapandığında on yıldır orada çalışıyordu.",
+          "options": [
+            "She was working there for ten years when the company closed.",
+            "She had been working there for ten years when the company closed."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmişteki bir ana kadar süre → past perfect continuous.",
+          "id": "b2-u01-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Görünen sonucun nedeni: \"His clothes were dirty. He ___ in the garden.\"",
+          "options": [
+            "had been working",
+            "has been working"
+          ],
+          "answerIndex": 0,
+          "explanation": "Geçmişteki sonuç → had been + -ing.",
+          "id": "b2-u01-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Durum fiili: \"I ___ her for years before we got married.\"",
+          "options": [
+            "had been knowing",
+            "had known"
+          ],
+          "answerIndex": 1,
+          "explanation": "know → simple.",
+          "id": "b2-u01-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ (wait) for an hour when the doctor finally arrived.",
+          "answers": [
+            "had been waiting",
+            "'d been waiting"
+          ],
+          "explanation": "had been + -ing.",
+          "id": "b2-u01-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The road was wet. It ___ (rain).",
+          "answers": [
+            "had been raining",
+            "'d been raining"
+          ],
+          "explanation": "had been + -ing.",
+          "id": "b2-u01-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "How long had you ___ (live) there before you moved?",
+          "answers": [
+            "been living"
+          ],
+          "explanation": "had been + -ing.",
+          "id": "b2-u01-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd been ___ (plan) to call you, but I forgot.",
+          "answers": [
+            "planning"
+          ],
+          "explanation": "Yarım kalan plan.",
+          "id": "b2-u01-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "been",
+            "They",
+            "had",
+            "arguing",
+            "for",
+            "hours",
+            "when",
+            "I",
+            "arrived"
+          ],
+          "answer": "They had been arguing for hours when I arrived.",
+          "explanation": "had been + -ing + süre + when + past simple.",
+          "translation": "Ben geldiğimde saatlerdir tartışıyorlardı.",
+          "id": "b2-u01-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When I finally found my glasses, I realised I'd been wearing them on my head the whole time. I'd been looking for them for twenty minutes!",
+          "prompt": "Gözlüklerini ne kadar süre aramıştı?",
+          "options": [
+            "İki dakika",
+            "Yirmi dakika",
+            "Bütün gün"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'd been looking for them for twenty minutes\"",
+          "id": "b2-u01-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yer ıslaktı. Bütün gece yağmur yağmıştı.\"",
+          "accepted": [
+            "The ground was wet. It had been raining all night.",
+            "The ground was wet. It had been raining all night",
+            "The ground was wet. It'd been raining all night.",
+            "The ground was wet. It'd been raining all night",
+            "The ground was wet. It had rained all night.",
+            "The ground was wet. It had rained all night",
+            "The ground was wet, it had been raining all night.",
+            "The ground was wet, it had been raining all night",
+            "The ground was wet because it had been raining all night.",
+            "The ground was wet because it had been raining all night"
+          ],
+          "explanation": "The ground was wet. It had been raining all night.",
+          "id": "b2-u01-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Uzun süre beklediğiniz, uğraştığınız ya da bir şey planladığınız ama sonucun farklı çıktığı bir deneyimi anlatın. En az 3 past perfect continuous cümlesi kullanın (süre, görünen sonuç, yarım kalan plan).",
+          "modelAnswer": "Last year I'd been saving money for months to buy a new laptop. I'd been checking prices every day, and when it finally went on sale, I went straight to the shop. I'd been standing in the queue for almost an hour when they announced that they'd sold the last one. I was furious! I'd been dreaming about that laptop for so long.",
+          "rubric": [
+            "had been + -ing doğru",
+            "Süre ve sonuç vurgusu",
+            "Durum fiillerinde simple"
+          ]
+        },
+        "id": "b2-u01-l2-use"
+      }
+    },
+    {
+      "id": "b2-u01-l3",
+      "number": 3,
+      "title": "Simple mı, continuous mu?",
+      "goal": "Past perfect simple ile past perfect continuous arasındaki anlam farkını kavrayıp doğru seçimi yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir maratoncunun günlüğü",
+        "body": "When I crossed the finish line, I burst into tears.\n\nI had been training for this marathon for eighteen months. I had been getting up at five every morning, and I had been running in rain, snow and burning summer heat.\n\nBy race day, I had run more than 3,000 kilometres in training. I had worn out four pairs of running shoes, and I had lost nine kilos.\n\nThree years earlier, I had never run more than five kilometres in my life. My doctor had told me to do more exercise, and I had chosen running almost by accident.\n\nNow, at the age of 52, I had finished my first marathon.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How long had the writer been training?",
+            "options": [
+              "Six months",
+              "Eighteen months",
+              "Three years"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I had been training for this marathon for eighteen months\"",
+            "id": "b2-u01-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did the writer start running?",
+            "options": [
+              "A friend asked them to.",
+              "Their doctor told them to exercise more.",
+              "They wanted to win a race."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My doctor had told me to do more exercise\"",
+            "id": "b2-u01-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "| Past perfect **simple** | Past perfect **continuous** |\n|---|---|\n| **Sonuç, tamamlanmış iş, sayı** | **Süreç, süre, tekrarlanan eylem** |\n| I **had run** 3,000 km. | I **had been running** for 18 months. |\n| I **had worn out** four pairs of shoes. | I **had been getting up** at five every morning. |\n| **How many / How much?** | **How long?** |\n\n**Aynı fiil, farklı vurgu:**\n\n- She **had painted** the kitchen. (Bitmişti; sonuç)\n- She **had been painting** the kitchen. (Süreç; üstü boyalıydı, belki bitmemişti)\n\n**Sayı ya da miktar varsa → simple:**\n\n- He **had written** three novels by the age of 30. (~~had been writing three novels~~)\n\n**Tek seferlik, kısa eylemler → simple:**\n\n- She **had broken** her leg. (~~had been breaking~~)\n\nBu, present perfect simple / continuous farkının (B1) geçmişteki karşılığıdır.",
+        "examples": [
+          {
+            "en": "By midnight, they had been talking for four hours.",
+            "tr": "Gece yarısına kadar dört saattir konuşuyorlardı."
+          },
+          {
+            "en": "By midnight, they had discussed every possible plan.",
+            "tr": "Gece yarısına kadar mümkün olan her planı konuşmuşlardı."
+          },
+          {
+            "en": "She had been crying, but she had stopped by the time I arrived.",
+            "tr": "Ağlamıştı ama ben vardığımda durmuştu."
+          }
+        ],
+        "turkishNote": "Türkçede \"-mıştı\" ve \"-yordu\" ayrımı bu farkı kabaca karşılar: \"3.000 km koşmuştum\" (simple, sonuç) ve \"18 aydır koşuyordum\" (continuous, süre). Cümlede bir sayı ya da \"kaç tane\" sorusu varsa simple, \"ne zamandır\" vurgusu varsa continuous seçin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "By the end of the day, she ___ 50 emails.",
+          "options": [
+            "had written",
+            "had been writing"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sayı → simple.",
+          "id": "b2-u01-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "She was tired because she ___ emails all day.",
+          "options": [
+            "had written",
+            "had been writing"
+          ],
+          "answerIndex": 1,
+          "explanation": "Süreç → continuous.",
+          "id": "b2-u01-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Tek seferlik eylem: \"He couldn't walk. He ___ his leg.\"",
+          "options": [
+            "had been breaking",
+            "had broken"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kısa, tek olay → simple.",
+          "id": "b2-u01-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "How ___ had you been learning English before you moved?",
+          "options": [
+            "many",
+            "long"
+          ],
+          "answerIndex": 1,
+          "explanation": "How long → continuous.",
+          "id": "b2-u01-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "By 2020, they ___ (visit) 40 countries.",
+          "answers": [
+            "had visited",
+            "'d visited"
+          ],
+          "explanation": "Sayı → simple.",
+          "id": "b2-u01-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Her hands were dirty because she ___ (garden).",
+          "answers": [
+            "had been gardening",
+            "'d been gardening"
+          ],
+          "explanation": "Görünür sonuç, süreç → continuous.",
+          "id": "b2-u01-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "By the time I arrived, they ___ (eat) all the cake!",
+          "answers": [
+            "had eaten",
+            "'d eaten"
+          ],
+          "explanation": "Tamamlanmış sonuç → simple.",
+          "id": "b2-u01-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ (smoke) for twenty years before he finally gave up.",
+          "answers": [
+            "had been smoking",
+            "'d been smoking"
+          ],
+          "explanation": "Süre → continuous.",
+          "id": "b2-u01-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "By the time I retired, I had been teaching for thirty-five years, and I had taught more than four thousand students.",
+          "prompt": "Kaç öğrenciye ders vermişti?",
+          "options": [
+            "Otuz beş",
+            "Dört yüzden fazla",
+            "Dört binden fazla"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"more than four thousand students\"",
+          "id": "b2-u01-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Gece yarısına kadar dört saattir konuşuyorlardı.\"",
+          "accepted": [
+            "By midnight, they had been talking for four hours.",
+            "By midnight, they had been talking for four hours",
+            "By midnight they had been talking for four hours.",
+            "By midnight they had been talking for four hours",
+            "By midnight, they'd been talking for four hours.",
+            "By midnight, they'd been talking for four hours",
+            "They had been talking for four hours by midnight.",
+            "They had been talking for four hours by midnight"
+          ],
+          "explanation": "By midnight, they had been talking for four hours.",
+          "id": "b2-u01-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızda uzun bir çabanın sonuna geldiğiniz bir anı anlatın (bir sınavı geçmek, bir projeyi bitirmek, bir hedefe ulaşmak). O ana kadar ne zamandır ne yapıyordunuz (continuous) ve neleri tamamlamıştınız (simple)? İkisini de en az ikişer kez kullanın.",
+          "modelAnswer": "When I got my university acceptance letter, I couldn't stop smiling. I had been preparing for the exam for two years. I had been studying every evening and every weekend. By the day of the exam, I had solved more than 10,000 questions and I had taken 40 practice tests. I had also given up football for a whole year!",
+          "rubric": [
+            "Simple ile sonuç ve sayılar",
+            "Continuous ile süre ve süreç",
+            "Doğru seçim"
+          ]
+        },
+        "id": "b2-u01-l3-use"
+      }
+    },
+    {
+      "id": "b2-u01-l4",
+      "number": 4,
+      "title": "Güçlü kelimelerle anlat",
+      "goal": "Güçlü sıfatlar, derecelendirme zarfları ve anlatı bağlayıcılarıyla hikâyemi daha canlı hale getirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kamp hikâyesi",
+        "lines": [
+          {
+            "speaker": "Selim",
+            "text": "So how was the camping trip?"
+          },
+          {
+            "speaker": "Damla",
+            "text": "Absolutely unforgettable. On the first night it was freezing, and we were utterly exhausted after the climb."
+          },
+          {
+            "speaker": "Selim",
+            "text": "Sounds tough."
+          },
+          {
+            "speaker": "Damla",
+            "text": "It gets better. All of a sudden, we heard something huge moving outside the tent. We were terrified!"
+          },
+          {
+            "speaker": "Selim",
+            "text": "No way! What was it?"
+          },
+          {
+            "speaker": "Damla",
+            "text": "Eventually, Can looked outside, and it turned out that it was a cow! We laughed until we cried. It was hilarious."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How was the weather on the first night?",
+            "options": [
+              "Very hot",
+              "Very cold",
+              "Rainy"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it was freezing\"",
+            "id": "b2-u01-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was outside the tent?",
+            "options": [
+              "A bear",
+              "A cow",
+              "Another camper"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it turned out that it was a cow!\"",
+            "id": "b2-u01-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Normal sıfatlar ve güçlü (aşırı) sıfatlar:**\n\n| Normal | Güçlü |\n|---|---|\n| tired | **exhausted** |\n| scared | **terrified** |\n| angry | **furious** |\n| cold | **freezing** |\n| funny | **hilarious** |\n| surprised | **astonished** |\n| sad | **devastated** |\n| good | **fantastic, superb** |\n\n**Zarf eşleşmeleri** çok önemlidir:\n\n| Normal sıfatlarla | Güçlü sıfatlarla |\n|---|---|\n| **very, extremely, a bit** | **absolutely, utterly, completely** |\n| very tired ✓ | absolutely exhausted ✓ |\n| ~~absolutely tired~~ ✗ | ~~very exhausted~~ ✗ |\n\n**really** ikisiyle de kullanılabilir: really tired ✓ / really exhausted ✓\n\n**Anlatı bağlayıcıları:**\n\n- **All of a sudden / Suddenly** → ani olay\n- **Meanwhile** → aynı anda başka yerde\n- **Eventually / In the end** → uzun süre sonra\n- **It turned out that ...** → sonradan anlaşıldı ki\n- **To my surprise / horror / relief** → duygu",
+        "examples": [
+          {
+            "en": "I was absolutely furious when I saw the bill.",
+            "tr": "Hesabı görünce öfkeden deliye döndüm."
+          },
+          {
+            "en": "Meanwhile, back at home, my parents were getting worried.",
+            "tr": "Bu arada evde annemle babam endişelenmeye başlamıştı."
+          },
+          {
+            "en": "To my relief, the doctor said it was nothing serious.",
+            "tr": "Doktorun ciddi bir şey olmadığını söylemesi beni rahatlattı."
+          }
+        ],
+        "turkishNote": "Türkçede \"çok\" kelimesini her sıfatla kullanabiliriz (çok yorgun, çok bitkin). İngilizcede ise very güçlü sıfatlarla kullanılmaz: \"very exhausted\" ya da \"very hilarious\" doğal değildir. Güçlü sıfatlarla absolutely, utterly, completely ya da really kullanın. \"eventually\" kelimesi Türkçedeki \"eventüel\" (muhtemel) anlamına gelmez; \"sonunda\" demektir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğal?",
+          "options": [
+            "very exhausted",
+            "absolutely exhausted"
+          ],
+          "answerIndex": 1,
+          "explanation": "Güçlü sıfat → absolutely.",
+          "id": "b2-u01-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğal?",
+          "options": [
+            "absolutely tired",
+            "extremely tired"
+          ],
+          "answerIndex": 1,
+          "explanation": "Normal sıfat → extremely / very.",
+          "id": "b2-u01-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"eventually\" ne demektir?",
+          "options": [
+            "muhtemelen",
+            "sonunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "eventually = sonunda.",
+          "id": "b2-u01-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Çok komik\" için güçlü sıfat:",
+          "options": [
+            "hilarious",
+            "furious",
+            "freezing"
+          ],
+          "answerIndex": 0,
+          "explanation": "hilarious.",
+          "id": "b2-u01-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was ___ cold, so we stayed inside. (çok; normal sıfatla)",
+          "answers": [
+            "very",
+            "extremely",
+            "really"
+          ],
+          "explanation": "Normal sıfat → very.",
+          "id": "b2-u01-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The view was ___ amazing. (kesinlikle; güçlü sıfatla)",
+          "answers": [
+            "absolutely",
+            "utterly",
+            "really",
+            "completely"
+          ],
+          "explanation": "Güçlü → absolutely.",
+          "id": "b2-u01-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It turned ___ that the man was a famous actor.",
+          "answers": [
+            "out"
+          ],
+          "explanation": "It turned out that.",
+          "id": "b2-u01-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "To my ___, nobody was hurt. (rahatlama)",
+          "answers": [
+            "relief"
+          ],
+          "explanation": "To my relief.",
+          "id": "b2-u01-l4-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "tired",
+              "right": "exhausted"
+            },
+            {
+              "left": "angry",
+              "right": "furious"
+            },
+            {
+              "left": "scared",
+              "right": "terrified"
+            },
+            {
+              "left": "surprised",
+              "right": "astonished"
+            },
+            {
+              "left": "sad",
+              "right": "devastated"
+            }
+          ],
+          "explanation": "Normal sıfatı güçlüsüyle eşleştirin.",
+          "id": "b2-u01-l4-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "We'd been driving for hours and we were completely lost. Meanwhile, the petrol light was flashing. Eventually, we found a tiny village, and to our surprise, the only petrol station was open.",
+          "prompt": "Sonunda ne buldular?",
+          "options": [
+            "Bir otel",
+            "Küçük bir köy ve açık bir benzin istasyonu",
+            "Polis"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we found a tiny village... the only petrol station was open\"",
+          "id": "b2-u01-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki \"düz\" hikâyeyi JAI'ye daha canlı şekilde yeniden anlatın: \"I went to a concert. It was good. I was tired. It was cold outside. I lost my phone. I found it later.\" Güçlü sıfatlar, doğru zarflar ve en az 4 anlatı bağlayıcısı ekleyin.",
+          "modelAnswer": "Last Saturday I went to an absolutely fantastic concert. The band was superb. By the end, I was utterly exhausted from dancing. When we left, it was freezing outside. All of a sudden, I realised my phone had gone. I was devastated! Meanwhile, my friends were looking everywhere. Eventually, it turned out that a security guard had found it under a seat. To my relief, it wasn't even broken.",
+          "rubric": [
+            "Güçlü sıfatlar",
+            "Zarf-sıfat uyumu",
+            "Anlatı bağlayıcıları",
+            "Zaman çeşitliliği"
+          ]
+        },
+        "id": "b2-u01-l4-use"
+      }
+    },
+    {
+      "id": "b2-u01-l5",
+      "number": 5,
+      "title": "İyi bir hikâyeci olmak",
+      "goal": "Bir anıyı dinleyicinin ilgisini canlı tutacak şekilde yapılandırarak anlatabilir, dinlerken uygun tepkiler verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Akşam yemeğinde bir anı",
+        "lines": [
+          {
+            "speaker": "Kaya",
+            "text": "Did I ever tell you about the time I got locked in a museum?"
+          },
+          {
+            "speaker": "Nehir",
+            "text": "No! You're joking. What happened?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "Well, I'd been looking at this huge painting for ages, and I hadn't noticed that everyone else had left."
+          },
+          {
+            "speaker": "Nehir",
+            "text": "Oh no. So what did you do?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "Hang on, it gets worse. The moment I tried to open the door, the alarm went off!"
+          },
+          {
+            "speaker": "Nehir",
+            "text": "I can't believe it! And then?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "Long story short, I spent an hour explaining to the police that I wasn't an art thief."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why didn't Kaya notice that everyone had left?",
+            "options": [
+              "He was asleep.",
+              "He'd been looking at a painting for a long time.",
+              "He was on the phone."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd been looking at this huge painting for ages\"",
+            "id": "b2-u01-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened when Kaya tried to open the door?",
+            "options": [
+              "It was locked forever.",
+              "The alarm went off.",
+              "A guard opened it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the alarm went off!\"",
+            "id": "b2-u01-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İyi bir anlatının yapısı:**\n\n| Bölüm | Amaç | Kalıplar |\n|---|---|---|\n| **Giriş** | Dikkati çek | **Did I ever tell you about the time** ...? / **You'll never guess what happened** ... / **I'll never forget** ... |\n| **Arka plan** | Sahneyi kur | **It was** a hot summer day ... / I'd been ... for ages |\n| **Gelişme** | Gerilimi artır | **Then, all of a sudden**, ... / **Hang on, it gets worse.** |\n| **Doruk** | Ana olay | **The moment** I ..., ... / **No sooner had** I ... **than** ... (resmî) |\n| **Son** | Toparla | **In the end**, ... / **Long story short**, ... / **Looking back**, ... |\n\n**Dinleyici olarak tepki vermek:**\n\n- Merak: **What happened next? / And then? / Go on!**\n- Şaşkınlık: **You're joking! / No way! / I can't believe it!**\n- Empati: **Oh no! / That must have been awful.** (must have → Ünite 7)\n- Mizah: **That's hilarious!**\n\n**the moment / as soon as** + past simple → \"-ır -maz\":\n\n- **The moment** I opened the door, the alarm **went off**.",
+        "examples": [
+          {
+            "en": "Did I ever tell you about the time I met a famous footballer?",
+            "tr": "Ünlü bir futbolcuyla tanıştığım zamanı sana anlattım mı hiç?"
+          },
+          {
+            "en": "The moment she walked in, everyone stopped talking.",
+            "tr": "İçeri girdiği anda herkes konuşmayı kesti."
+          },
+          {
+            "en": "Long story short, we missed the flight.",
+            "tr": "Uzun lafın kısası, uçağı kaçırdık."
+          }
+        ],
+        "turkishNote": "\"Uzun lafın kısası\" ifadesinin İngilizce karşılığı \"Long story short\" ya da \"To cut a long story short\"tur. Türkçede de olduğu gibi, iyi bir hikâyeci sonucu en başta söylemez; \"Hang on, it gets worse\" gibi ifadelerle dinleyiciyi bekletir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hikâyeye başlamak:",
+          "options": [
+            "Did I ever tell you about the time ...?",
+            "In conclusion, ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Giriş kalıbı.",
+          "id": "b2-u01-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Merakla tepki:",
+          "options": [
+            "What happened next?",
+            "So what?",
+            "I don't care."
+          ],
+          "answerIndex": 0,
+          "explanation": "Merak.",
+          "id": "b2-u01-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Uzun lafın kısası\"",
+          "options": [
+            "Short story long",
+            "Long story short"
+          ],
+          "answerIndex": 1,
+          "explanation": "Long story short.",
+          "id": "b2-u01-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The ___ I saw him, I knew something was wrong. (-dığı anda)",
+          "answers": [
+            "moment"
+          ],
+          "explanation": "The moment.",
+          "id": "b2-u01-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hang on, it gets ___! (daha da kötüleşiyor)",
+          "answers": [
+            "worse"
+          ],
+          "explanation": "it gets worse.",
+          "id": "b2-u01-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "You'll never ___ what happened!",
+          "answers": [
+            "guess"
+          ],
+          "explanation": "You'll never guess.",
+          "id": "b2-u01-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd been waiting for ___ when the bus finally came. (çok uzun süre)",
+          "answers": [
+            "ages",
+            "hours"
+          ],
+          "explanation": "for ages.",
+          "id": "b2-u01-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ back, it was the best day of my life. (geriye dönüp bakınca)",
+          "answers": [
+            "Looking"
+          ],
+          "explanation": "Looking back.",
+          "id": "b2-u01-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "You'll never guess who I saw at the airport. I was queuing for coffee, and the man in front of me turned around. It was my old maths teacher! He'd been living in Canada for twenty years.",
+          "prompt": "Konuşan havalimanında kimi gördü?",
+          "options": [
+            "Eski matematik öğretmenini",
+            "Ünlü bir oyuncuyu",
+            "Kuzenini"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"It was my old maths teacher!\"",
+          "id": "b2-u01-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İçeri girdiği anda herkes konuşmayı kesti.\" (she)",
+          "accepted": [
+            "The moment she walked in, everyone stopped talking.",
+            "The moment she walked in, everyone stopped talking",
+            "The moment she came in, everyone stopped talking.",
+            "The moment she came in, everyone stopped talking",
+            "As soon as she walked in, everyone stopped talking.",
+            "As soon as she walked in, everyone stopped talking",
+            "As soon as she came in, everyone stopped talking.",
+            "As soon as she came in, everyone stopped talking",
+            "The moment she entered, everyone stopped talking.",
+            "The moment she entered, everyone stopped talking",
+            "Everyone stopped talking the moment she walked in.",
+            "Everyone stopped talking the moment she walked in",
+            "The moment she walked in everyone stopped talking.",
+            "The moment she walked in everyone stopped talking"
+          ],
+          "explanation": "The moment she walked in, everyone stopped talking.",
+          "id": "b2-u01-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir hikâye yarışması için \"Hayatımın en tuhaf günü\" başlıklı kısa bir öykü yazın (180–220 kelime). Gerçek ya da hayali olabilir. Bütün anlatı zamanlarını (past perfect continuous dahil), en az 4 güçlü sıfat (doğru zarflarla), anlatı bağlayıcıları ve beklenmedik bir son kullanın.",
+          "modelAnswer": "The Strangest Day of My Life\n\nIt was a grey Monday morning in November, and I was running late for the most important interview of my career. I had been preparing for weeks, and I had practised my answers so many times that I could say them in my sleep.\n\nI was rushing down the stairs of the metro when, all of a sudden, an elderly man in front of me slipped and fell. Everyone else hurried past. I stopped, helped him up and carried his bag to a bench. He had been visiting his granddaughter, he told me, and he was utterly exhausted.\n\nBy the time I reached the office, I was twenty minutes late and absolutely furious with myself. The receptionist looked at me coldly and told me to wait.\n\nEventually, the door opened and the director came out. I couldn't believe my eyes. It was the man from the metro! He smiled and said, \"I've been looking for someone who stops when others don't.\"\n\nLong story short, I got the job. Looking back, being late was the best mistake I've ever made.",
+          "rubric": [
+            "Anlatı zamanları çeşitli ve doğru",
+            "Past perfect continuous",
+            "Güçlü sıfat + doğru zarf",
+            "Anlatı bağlayıcıları",
+            "Yapı ve beklenmedik son"
+          ]
+        },
+        "id": "b2-u01-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Atmosfer kuran zaman:",
+        "options": [
+          "Past simple",
+          "Past continuous",
+          "Past perfect"
+        ],
+        "answerIndex": 1,
+        "explanation": "Past continuous",
+        "id": "b2-u01-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "She was exhausted. She ___ all night.",
+        "options": [
+          "had been studying",
+          "has been studying"
+        ],
+        "answerIndex": 0,
+        "explanation": "Past perfect continuous",
+        "id": "b2-u01-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "By 2015, he ___ five books.",
+        "options": [
+          "had written",
+          "had been writing"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sayı → simple",
+        "id": "b2-u01-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Durum fiili: \"They ___ each other for years before they got married.\"",
+        "options": [
+          "had been knowing",
+          "had known"
+        ],
+        "answerIndex": 1,
+        "explanation": "know",
+        "id": "b2-u01-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğal?",
+        "options": [
+          "very furious",
+          "absolutely furious"
+        ],
+        "answerIndex": 1,
+        "explanation": "Güçlü sıfat",
+        "id": "b2-u01-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğal?",
+        "options": [
+          "absolutely cold",
+          "very cold"
+        ],
+        "answerIndex": 1,
+        "explanation": "Normal sıfat",
+        "id": "b2-u01-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ (walk) for hours when we finally saw the village.",
+        "answers": [
+          "had been walking",
+          "'d been walking"
+        ],
+        "explanation": "had been + -ing",
+        "id": "b2-u01-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "When I got to the station, the train ___ (already / leave).",
+        "answers": [
+          "had already left",
+          "'d already left"
+        ],
+        "explanation": "Past perfect",
+        "id": "b2-u01-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I was cooking when the doorbell ___ (ring).",
+        "answers": [
+          "rang"
+        ],
+        "explanation": "Past simple",
+        "id": "b2-u01-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "It turned ___ that she was his sister.",
+        "answers": [
+          "out"
+        ],
+        "explanation": "It turned out",
+        "id": "b2-u01-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"eventually\"",
+        "options": [
+          "sonunda",
+          "muhtemelen"
+        ],
+        "answerIndex": 0,
+        "explanation": "eventually",
+        "id": "b2-u01-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "The ___ I opened the door, the dog ran out. (-dığı anda)",
+        "answers": [
+          "moment"
+        ],
+        "explanation": "The moment",
+        "id": "b2-u01-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I'd been working at the café for only two days when a famous singer came in. I was so nervous that I dropped her coffee. To my surprise, she just laughed and helped me clean it up.",
+        "prompt": "Şarkıcı nasıl tepki verdi?",
+        "options": [
+          "Kızdı",
+          "Güldü ve temizlemeye yardım etti",
+          "Kafeden çıktı"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"she just laughed and helped me clean it up\"",
+        "id": "b2-u01-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Otobüs geldiğinde bir saattir bekliyorduk.\"",
+        "accepted": [
+          "We had been waiting for an hour when the bus came.",
+          "We had been waiting for an hour when the bus came",
+          "We'd been waiting for an hour when the bus came.",
+          "We'd been waiting for an hour when the bus came",
+          "We had been waiting for an hour when the bus arrived.",
+          "We had been waiting for an hour when the bus arrived",
+          "We'd been waiting for an hour when the bus arrived.",
+          "We'd been waiting for an hour when the bus arrived",
+          "When the bus came, we had been waiting for an hour.",
+          "When the bus came, we had been waiting for an hour",
+          "When the bus arrived, we had been waiting for an hour.",
+          "When the bus arrived, we had been waiting for an hour"
+        ],
+        "explanation": "We had been waiting for an hour when the bus came.",
+        "id": "b2-u01-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir yolculukta başınıza gelen (gerçek ya da hayali) beklenmedik bir olayı anlatın (180–220 kelime). Past simple, past continuous, past perfect ve past perfect continuous'u bilinçli kullanın; güçlü sıfatlar, anlatı bağlayıcıları ve dinleyicinin ilgisini çeken bir giriş ve son ekleyin.",
+        "modelAnswer": "I'll never forget my first trip to Cappadocia. My friends and I had been planning it for months, and we had booked a hot-air balloon flight for sunrise on our second day.\n\nThat morning, we got up at four. It was absolutely freezing, and we were all half asleep. We had been waiting at the take-off field for almost an hour when the pilot announced that the flight was cancelled because of the wind. We were devastated.\n\nWe were walking back to the minibus when, all of a sudden, an old man waved at us from a small farmhouse. He had been watching us, he explained, and he wanted to invite us for breakfast. To our surprise, his wife had already prepared a huge table with fresh bread, cheese, eggs and homemade jam.\n\nMeanwhile, the sun was rising over the valleys, and dozens of balloons from other companies were flying in the distance. It turned out that only our company had cancelled!\n\nLooking back, I'm actually glad. I've seen balloons in a hundred photos, but that breakfast with strangers was something truly unique.",
+        "rubric": [
+          "Dört anlatı zamanı doğru",
+          "Güçlü sıfatlar ve zarflar",
+          "Anlatı bağlayıcıları",
+          "Etkileyici giriş ve son",
+          "Akıcı ve düzenli metin"
+        ],
+        "id": "b2-u01-t15"
+      }
+    ]
+  }
+}
