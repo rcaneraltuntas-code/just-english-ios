@@ -1,0 +1,1318 @@
+{
+  "id": "c1-u06",
+  "level": "C1",
+  "number": 6,
+  "title": "Temkinli dil",
+  "titleEn": "Hedging",
+  "canDo": "Akademik ve profesyonel metinlerde iddialarımı temkinli bir dille (seem to, tend to, arguably, to some extent, It could be argued that) yumuşatabilir, kesinlik bildiren ifadelerle (clearly, undoubtedly) dengeleyebilir, konuşmada diplomatik belirsizlik ifadeleri kullanabilir ve aşırı kesin ya da aşırı temkinli dilden kaçınabilirim.",
+  "grammar": [
+    "temkinli fiiller: seem, appear, tend to, suggest",
+    "modal, zarf ve sıfatlarla temkin: arguably, relatively, to some extent",
+    "miktar ve sıklıkla temkin; kişisiz yapılar",
+    "konuşmada temkin: I'd say, as far as I know, sort of",
+    "temkin ve kesinlik dengesi (hedging vs boosting)"
+  ],
+  "vocabularyThemes": [
+    "akademik tartışma",
+    "bilim ve medya",
+    "diplomatik iletişim"
+  ],
+  "liveClass": {
+    "title": "Kesin mi, değil mi?",
+    "durationMinutes": 45,
+    "goal": "Öğrencilere aşırı kesin cümleler içeren kısa \"sahte haber\" başlıkları verilir (Coffee cures cancer!, Young people never read). Gruplar her başlığı kanıta uygun, temkinli bir bilimsel cümleye çevirir. Sonra tersini yapar: aşırı temkinli bir paragrafı netleştirir. Sınıf \"altın orta\" yolu tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u06-v01",
+      "en": "hedge",
+      "tr": "temkinli konuşmak, ihtiyatlı olmak",
+      "example": "Academics often hedge their claims.",
+      "exampleTr": "Akademisyenler iddialarını sık sık temkinli ifade eder."
+    },
+    {
+      "id": "c1-u06-v02",
+      "en": "tend to",
+      "tr": "-me eğiliminde olmak",
+      "example": "Older people tend to vote more.",
+      "exampleTr": "Yaşlılar daha çok oy verme eğiliminde."
+    },
+    {
+      "id": "c1-u06-v03",
+      "en": "appear",
+      "tr": "görünmek",
+      "example": "The results appear to support the theory.",
+      "exampleTr": "Sonuçlar teoriyi destekliyor gibi görünüyor."
+    },
+    {
+      "id": "c1-u06-v04",
+      "en": "suggest",
+      "tr": "göstermek, işaret etmek",
+      "example": "The data suggest a link.",
+      "exampleTr": "Veriler bir bağlantıya işaret ediyor."
+    },
+    {
+      "id": "c1-u06-v05",
+      "en": "arguably",
+      "tr": "tartışmaya açık olsa da, belki de",
+      "example": "She is arguably the best player in the world.",
+      "exampleTr": "Tartışmaya açık olsa da dünyanın en iyi oyuncusu olabilir."
+    },
+    {
+      "id": "c1-u06-v06",
+      "en": "relatively",
+      "tr": "nispeten",
+      "example": "The test is relatively easy.",
+      "exampleTr": "Test nispeten kolay."
+    },
+    {
+      "id": "c1-u06-v07",
+      "en": "to some extent",
+      "tr": "bir dereceye kadar",
+      "example": "I agree with you to some extent.",
+      "exampleTr": "Sana bir dereceye kadar katılıyorum."
+    },
+    {
+      "id": "c1-u06-v08",
+      "en": "largely",
+      "tr": "büyük ölçüde",
+      "example": "The project was largely successful.",
+      "exampleTr": "Proje büyük ölçüde başarılıydı."
+    },
+    {
+      "id": "c1-u06-v09",
+      "en": "apparently",
+      "tr": "görünüşe göre",
+      "example": "Apparently, the meeting has been cancelled.",
+      "exampleTr": "Görünüşe göre toplantı iptal edilmiş."
+    },
+    {
+      "id": "c1-u06-v10",
+      "en": "presumably",
+      "tr": "muhtemelen, tahminen",
+      "example": "Presumably, he forgot.",
+      "exampleTr": "Muhtemelen unuttu."
+    },
+    {
+      "id": "c1-u06-v11",
+      "en": "potentially",
+      "tr": "potansiyel olarak",
+      "example": "This is a potentially serious problem.",
+      "exampleTr": "Bu potansiyel olarak ciddi bir sorun."
+    },
+    {
+      "id": "c1-u06-v12",
+      "en": "in most cases",
+      "tr": "çoğu durumda",
+      "example": "In most cases, the treatment works.",
+      "exampleTr": "Çoğu durumda tedavi işe yarar."
+    },
+    {
+      "id": "c1-u06-v13",
+      "en": "generally speaking",
+      "tr": "genel olarak",
+      "example": "Generally speaking, prices are lower in the north.",
+      "exampleTr": "Genel olarak kuzeyde fiyatlar daha düşük."
+    },
+    {
+      "id": "c1-u06-v14",
+      "en": "it is widely believed",
+      "tr": "yaygın olarak inanılıyor",
+      "example": "It is widely believed that exercise improves mood.",
+      "exampleTr": "Egzersizin ruh halini iyileştirdiğine yaygın olarak inanılıyor."
+    },
+    {
+      "id": "c1-u06-v15",
+      "en": "tentative",
+      "tr": "geçici, kesin olmayan",
+      "example": "These are only tentative conclusions.",
+      "exampleTr": "Bunlar sadece kesin olmayan sonuçlar."
+    },
+    {
+      "id": "c1-u06-v16",
+      "en": "claim",
+      "tr": "iddia; iddia etmek",
+      "example": "There is no evidence for this claim.",
+      "exampleTr": "Bu iddia için hiçbir kanıt yok."
+    },
+    {
+      "id": "c1-u06-v17",
+      "en": "overgeneralise",
+      "tr": "aşırı genelleme yapmak",
+      "example": "Be careful not to overgeneralise.",
+      "exampleTr": "Aşırı genelleme yapmamaya dikkat et."
+    },
+    {
+      "id": "c1-u06-v18",
+      "en": "undoubtedly",
+      "tr": "şüphesiz",
+      "example": "This is undoubtedly a major achievement.",
+      "exampleTr": "Bu şüphesiz büyük bir başarı."
+    },
+    {
+      "id": "c1-u06-v19",
+      "en": "clearly",
+      "tr": "açıkça",
+      "example": "Clearly, more needs to be done.",
+      "exampleTr": "Açıkça, daha fazlasının yapılması gerekiyor."
+    },
+    {
+      "id": "c1-u06-v20",
+      "en": "as far as I know",
+      "tr": "bildiğim kadarıyla",
+      "example": "As far as I know, the shop is still open.",
+      "exampleTr": "Bildiğim kadarıyla dükkân hâlâ açık."
+    },
+    {
+      "id": "c1-u06-v21",
+      "en": "I'd say",
+      "tr": "diyebilirim ki, bence",
+      "example": "I'd say it's about two kilometres.",
+      "exampleTr": "Yaklaşık iki kilometre diyebilirim."
+    },
+    {
+      "id": "c1-u06-v22",
+      "en": "more or less",
+      "tr": "aşağı yukarı",
+      "example": "We've more or less finished.",
+      "exampleTr": "Aşağı yukarı bitirdik."
+    },
+    {
+      "id": "c1-u06-v23",
+      "en": "somewhat",
+      "tr": "biraz, bir miktar",
+      "example": "The results were somewhat disappointing.",
+      "exampleTr": "Sonuçlar biraz hayal kırıklığı yarattı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u06-l1",
+      "number": 1,
+      "title": "Görünüyor ki",
+      "goal": "seem, appear, tend to ve suggest gibi fiillerle iddialarımı kanıta uygun bir şekilde yumuşatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki gazete, aynı araştırma",
+        "body": "Newspaper A:\n\"SCIENTISTS PROVE: CHOCOLATE MAKES YOU SMARTER!\nA new study shows that people who eat chocolate are more intelligent. Eating chocolate every day improves your memory.\"\n\nNewspaper B:\n\"Chocolate and memory: a possible link?\nA new study suggests that there may be a connection between eating dark chocolate and memory. Participants who ate small amounts of dark chocolate every day appeared to perform slightly better on memory tests. However, the researchers stress that the sample was small and that the effect seems to be modest. People who eat chocolate also tend to have other habits, such as drinking less alcohol, which could explain the results.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which newspaper reports the study more accurately?",
+            "options": [
+              "Newspaper A",
+              "Newspaper B"
+            ],
+            "answerIndex": 1,
+            "explanation": "Temkinli ve dengeli.",
+            "id": "c1-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What could also explain the results?",
+            "options": [
+              "The chocolate brand",
+              "Other habits, such as drinking less alcohol",
+              "The weather"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"People who eat chocolate also tend to have other habits\"",
+            "id": "c1-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hedging** (temkinli dil), bir iddiayı **kanıtın gücüne uygun** şekilde ifade etmektir. Akademik, bilimsel ve profesyonel İngilizcenin vazgeçilmez bir parçasıdır.\n\n**Temkinli fiiller:**\n\n| Fiil | Örnek |\n|---|---|\n| **seem / appear** + to V1 | Participants **appeared to perform** better. |\n| **It seems / appears that** ... | **It seems that** the effect is small. |\n| **tend to** + V1 | Chocolate lovers **tend to** drink less. |\n| **suggest / indicate** (that) | The study **suggests that** there **may** be a link. |\n| **be thought / believed to** | It **is thought to** reduce stress. |\n\n**Kesin → temkinli:**\n\n| Kesin (riskli) | Temkinli |\n|---|---|\n| This **proves** that ... | This **suggests / indicates** that ... |\n| Chocolate **improves** memory. | Chocolate **may improve** / **appears to improve** memory. |\n| Young people **are** lazy. | Young people **tend to** ... / **Some** young people ... |\n| The drug **works**. | The drug **seems to be effective** in most cases. |\n\n**Geçmiş için:** *They **seem to have** misunderstood.* / *The fire **appears to have started** in the kitchen.*\n\n**Neden önemli?** Bilimde bir çalışma nadiren bir şeyi \"kanıtlar\". Temkinli dil, **dürüstlük ve güvenilirlik** göstergesidir.",
+        "examples": [
+          {
+            "en": "The results seem to indicate a positive trend.",
+            "tr": "Sonuçlar olumlu bir eğilime işaret ediyor gibi görünüyor."
+          },
+          {
+            "en": "Women tend to live longer than men.",
+            "tr": "Kadınlar erkeklerden daha uzun yaşama eğilimindedir."
+          },
+          {
+            "en": "The fire appears to have started in the kitchen.",
+            "tr": "Yangın mutfakta başlamış gibi görünüyor."
+          }
+        ],
+        "turkishNote": "Türk medyasında \"Bilim insanları kanıtladı!\" gibi başlıklar sık görülür, ama İngilizce akademik dilde \"prove\" fiili çok nadiren kullanılır. Türkçede \"-dığı görülüyor\", \"-ma eğiliminde\", \"-dığına işaret ediyor\" gibi yapılar temkinli dilin karşılığıdır. Türk öğrencilerin akademik yazılarında en sık görülen sorun, kanıtın desteklemediği kesin ifadeler kullanmaktır (\"This shows that all students...\")."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En temkinli ve doğru:",
+          "options": [
+            "This study proves that coffee causes cancer.",
+            "This study suggests that there may be a link between coffee and cancer."
+          ],
+          "answerIndex": 1,
+          "explanation": "suggest + may.",
+          "id": "c1-u06-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"tend to\" anlamı:",
+          "options": [
+            "Her zaman",
+            "Genellikle, -me eğiliminde"
+          ],
+          "answerIndex": 1,
+          "explanation": "Eğilim.",
+          "id": "c1-u06-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş için temkinli:",
+          "options": [
+            "He seems to forget.",
+            "He seems to have forgotten."
+          ],
+          "answerIndex": 1,
+          "explanation": "seem to have + V3.",
+          "id": "c1-u06-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Young people are lazy.\" temkinli hali:",
+          "options": [
+            "All young people are lazy.",
+            "Some young people tend to be less active."
+          ],
+          "answerIndex": 1,
+          "explanation": "Genelleme yok.",
+          "id": "c1-u06-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The results ___ to support our hypothesis. (görünüyor)",
+          "answers": [
+            "seem",
+            "appear"
+          ],
+          "explanation": "seem / appear to.",
+          "id": "c1-u06-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "People who exercise ___ to sleep better. (eğiliminde)",
+          "answers": [
+            "tend"
+          ],
+          "explanation": "tend to.",
+          "id": "c1-u06-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The data ___ that the policy has been successful. (işaret ediyor)",
+          "answers": [
+            "suggest",
+            "suggests",
+            "indicate",
+            "indicates"
+          ],
+          "explanation": "suggest.",
+          "id": "c1-u06-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ that the meeting has been postponed. (görünüşe göre)",
+          "answers": [
+            "seems",
+            "appears"
+          ],
+          "explanation": "It seems that.",
+          "id": "c1-u06-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The new drug appears to reduce symptoms in many patients. However, it seems to work less well in older people, and some participants tended to experience mild headaches. Further research will be needed before it can be recommended.",
+          "prompt": "İlaç kimlerde daha az etkili görünüyor?",
+          "options": [
+            "Gençlerde",
+            "Yaşlılarda",
+            "Çocuklarda"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it seems to work less well in older people\"",
+          "id": "c1-u06-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Temkinli hale getirin (appear to): \"The plan has failed.\"",
+          "accepted": [
+            "The plan appears to have failed.",
+            "The plan appears to have failed",
+            "It appears that the plan has failed.",
+            "It appears that the plan has failed"
+          ],
+          "explanation": "The plan appears to have failed.",
+          "id": "c1-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki kesin iddiaları temkinli bir bilim insanı gibi yeniden ifade edin ve her birine bir gerekçe ya da sınırlılık ekleyin: (1) Video games make children violent. (2) Breakfast is the most important meal. (3) Social media causes depression. (4) Rich people are happier.",
+          "modelAnswer": "One: Some studies suggest that certain violent video games may be linked to aggressive behaviour in the short term, but the effect seems to be small, and other factors tend to be more important. Two: Breakfast appears to help some people concentrate, but it doesn't seem to matter as much as the overall quality of your diet. Three: Heavy social media use seems to be associated with lower mood in teenagers, although it's not clear which causes which. Four: Higher income tends to increase happiness up to a point, but the effect appears to become smaller after basic needs are met.",
+          "rubric": [
+            "Temkinli fiiller",
+            "Geçmiş için seem to have",
+            "Gerekçe ve sınırlılık"
+          ]
+        },
+        "id": "c1-u06-l1-use"
+      }
+    },
+    {
+      "id": "c1-u06-l2",
+      "number": 2,
+      "title": "Bir dereceye kadar",
+      "goal": "Modal'lar, zarflar ve sınırlayıcı ifadelerle (arguably, relatively, to some extent, largely) iddialarımın gücünü ince ayarlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir tarih makalesinden",
+        "body": "The Industrial Revolution was arguably the most important turning point in modern history. It transformed, to a large extent, the way people lived and worked.\n\nIt is often claimed that the revolution made everyone richer. This is only partly true. In the long term, living standards rose considerably. In the short term, however, conditions for many workers were relatively poor, and in some cases they may even have worsened.\n\nThe revolution was largely driven by new technology, particularly the steam engine. Nevertheless, it could be argued that social and political factors were, to some extent, equally important. Britain's stable government and access to coal were presumably also significant.\n\nIn general, historians agree that the changes were profound. Whether they were mainly positive is, perhaps, more open to debate.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened to living standards in the long term?",
+            "options": [
+              "They fell.",
+              "They rose considerably.",
+              "They didn't change."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"In the long term, living standards rose considerably.\"",
+            "id": "c1-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What were also important factors, according to the writer?",
+            "options": [
+              "Only technology",
+              "Social and political factors",
+              "Weather"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"social and political factors were, to some extent, equally important\"",
+            "id": "c1-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Modal'lar:** may, might, could, would → olasılık\n\n- *This **could** be a problem.* / *This **would** seem to suggest ...* (çok temkinli)\n\n**2. Zarflar:**\n\n| Zarf | Anlam | Örnek |\n|---|---|---|\n| **arguably** | tartışmaya açık ama savunulabilir | **arguably** the most important ... |\n| **probably / possibly / perhaps** | muhtemelen / belki | This is **perhaps** the main reason. |\n| **presumably** | makul bir varsayımla | They **presumably** knew. |\n| **apparently** | görünüşe göre (duyduğuma göre) | **Apparently**, she's left. |\n| **relatively / fairly / somewhat** | nispeten / oldukça / biraz | **relatively** poor |\n| **largely / mainly / mostly** | büyük ölçüde | **largely** driven by technology |\n| **partly** | kısmen | only **partly** true |\n| **generally / usually** | genellikle | **Generally**, ... |\n\n**3. Sınırlayıcı ifadeler:**\n\n| İfade | Örnek |\n|---|---|\n| **to some / a certain extent** | I agree **to some extent**. |\n| **to a large extent** | It changed, **to a large extent**, ... |\n| **in some cases / in most cases** | **In some cases**, it worsened. |\n| **in general / on the whole** | **On the whole**, it was positive. |\n| **up to a point** | That's true **up to a point**. |\n\n**4. Sıfatlar:** *possible, probable, likely, potential* → *a **possible** explanation*, *a **potential** risk*",
+        "examples": [
+          {
+            "en": "This is arguably the best film of the decade.",
+            "tr": "Bu, tartışmaya açık olsa da on yılın en iyi filmi olabilir."
+          },
+          {
+            "en": "I agree with you up to a point.",
+            "tr": "Sana bir noktaya kadar katılıyorum."
+          },
+          {
+            "en": "The project was largely successful, although some problems remain.",
+            "tr": "Proje büyük ölçüde başarılıydı, ancak bazı sorunlar devam ediyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"bir dereceye kadar\", \"büyük ölçüde\", \"nispeten\" gibi ifadeler İngilizcedeki \"to some extent\", \"largely\", \"relatively\" ile birebir örtüşür. \"Arguably\" ise Türkçeye doğrudan çevrilmesi zor bir kelimedir: \"Tartışmaya açık olsa da ... denebilir\" anlamına gelir ve hem iddia hem de temkin içerir. Akademik İngilizcede çok değerli bir kelimedir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"arguably the best\" anlamı:",
+          "options": [
+            "Kesinlikle en iyi",
+            "Tartışmaya açık ama savunulabilir şekilde en iyi"
+          ],
+          "answerIndex": 1,
+          "explanation": "arguably.",
+          "id": "c1-u06-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"This is only partly true.\"",
+          "options": [
+            "Tamamen doğru",
+            "Kısmen doğru"
+          ],
+          "answerIndex": 1,
+          "explanation": "partly.",
+          "id": "c1-u06-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "En temkinli:",
+          "options": [
+            "This proves ...",
+            "This would seem to suggest ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "would seem to suggest.",
+          "id": "c1-u06-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I agree up to a point.\"",
+          "options": [
+            "Tamamen katılıyorum.",
+            "Bir noktaya kadar katılıyorum."
+          ],
+          "answerIndex": 1,
+          "explanation": "up to a point.",
+          "id": "c1-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I agree with you to some ___.",
+          "answers": [
+            "extent"
+          ],
+          "explanation": "to some extent.",
+          "id": "c1-u06-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The changes were ___ driven by technology. (büyük ölçüde)",
+          "answers": [
+            "largely",
+            "mainly",
+            "mostly"
+          ],
+          "explanation": "largely.",
+          "id": "c1-u06-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The test was ___ easy. (nispeten)",
+          "answers": [
+            "relatively",
+            "fairly"
+          ],
+          "explanation": "relatively.",
+          "id": "c1-u06-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "On the ___, the results were positive. (genel olarak)",
+          "answers": [
+            "whole"
+          ],
+          "explanation": "On the whole.",
+          "id": "c1-u06-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Is social media good or bad for democracy? I'd argue that it's partly both. On the whole, it has given ordinary people a voice. However, in some cases, it has also helped false information to spread very quickly. So, to some extent, it depends on how we use it.",
+          "prompt": "Konuşanın görüşü ne?",
+          "options": [
+            "Tamamen kötü",
+            "Kısmen ikisi de; kullanıma bağlı",
+            "Tamamen iyi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it's partly both... it depends on how we use it\"",
+          "id": "c1-u06-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Daha temkinli yazın (arguably): \"Istanbul is the most beautiful city in the world.\"",
+          "accepted": [
+            "Istanbul is arguably the most beautiful city in the world.",
+            "Istanbul is arguably the most beautiful city in the world",
+            "Arguably, Istanbul is the most beautiful city in the world.",
+            "Arguably, Istanbul is the most beautiful city in the world"
+          ],
+          "explanation": "Istanbul is arguably the most beautiful city in the world.",
+          "id": "c1-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki görüşlere \"Evet\" ya da \"Hayır\" demek yerine nüanslı bir cevap verin. arguably, largely, partly, relatively, to some extent, up to a point, in most cases, on the whole gibi ifadelerden en az 6'sını kullanın: (1) Technology has made life better. (2) University is necessary for a good career. (3) Learning English is easy for Turkish speakers.",
+          "modelAnswer": "One: On the whole, I think technology has made life better, but only up to a point. Medical technology, for example, has largely improved our health. However, in some cases, it has also made people more isolated. Two: University is arguably still important for many careers, such as medicine and law. But to some extent, skills and experience are becoming more important than degrees. Three: Learning English is relatively easy at the beginning for Turkish speakers, but some areas, like articles and pronunciation, tend to be quite difficult.",
+          "rubric": [
+            "Zarflar ve sınırlayıcı ifadeler",
+            "Nüanslı görüş",
+            "Dengeli argüman"
+          ]
+        },
+        "id": "c1-u06-l2-use"
+      }
+    },
+    {
+      "id": "c1-u06-l3",
+      "number": 3,
+      "title": "Bazıları, çoğu durumda",
+      "goal": "Miktar, sıklık ve kişisiz yapılarla aşırı genellemeden kaçınabilir ve iddiaları başkalarına mesafeli bir şekilde aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Öğrenci essay'i: önce ve sonra",
+        "body": "First draft:\n\"Students today don't read books. They are always on their phones. Teachers think this is a disaster. Technology has destroyed reading.\"\n\nRevised draft:\n\"Many students today appear to read fewer books than previous generations. A number of surveys suggest that young people spend a considerable amount of time on their phones, and in some cases this may reduce the time available for reading. It is widely believed among teachers that this is a cause for concern. However, it could be argued that technology has changed, rather than destroyed, the way young people read, since many of them read extensively online.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the revised draft say about technology?",
+            "options": [
+              "It has destroyed reading.",
+              "It may have changed the way young people read.",
+              "It has no effect."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"technology has changed, rather than destroyed, the way young people read\"",
+            "id": "c1-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which draft is more appropriate for an academic essay?",
+            "options": [
+              "First draft",
+              "Revised draft"
+            ],
+            "answerIndex": 1,
+            "explanation": "Temkinli ve dengeli.",
+            "id": "c1-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Miktar ifadeleriyle genellemeden kaçınmak:**\n\n| Aşırı genelleme | Temkinli |\n|---|---|\n| **Students** don't read. | **Many / Some / A number of** students ... |\n| **Everyone** knows that ... | **It is widely known / believed that** ... |\n| **All** experts agree. | **Most** experts agree. / **There is broad agreement that** ... |\n| **People** hate taxes. | **A majority of** people ... |\n\n**2. Sıklık ifadeleri:**\n\n- *always → **often, frequently, usually, in most cases***\n- *never → **rarely, seldom, in few cases***\n\n**3. Kişisiz yapılar (iddiayı başkalarına aktarmak):**\n\n| Yapı | Örnek |\n|---|---|\n| **It is widely believed / thought that** ... | **It is widely believed that** ... |\n| **It could / might be argued that** ... | **It could be argued that** technology has changed reading. |\n| **It has been suggested / claimed that** ... | **It has been suggested that** ... |\n| **There is some evidence that** ... | **There is some evidence that** ... |\n| **According to some researchers,** ... | |\n\n**4. Sınırlı iddia:**\n\n- *This **may** reduce the time **available**.*\n- *... **in some cases** ...*\n- *... **at least in the short term** ...*\n- *... **under certain conditions** ...*\n\n**Not:** Kişisiz edilgen yapıları (It is said that, X is thought to) C1 Ünite 8'de ayrıntılı göreceğiz.",
+        "examples": [
+          {
+            "en": "A number of studies have found a link between sleep and memory.",
+            "tr": "Bir dizi çalışma uyku ve hafıza arasında bir bağlantı buldu."
+          },
+          {
+            "en": "It could be argued that the policy has been partly successful.",
+            "tr": "Politikanın kısmen başarılı olduğu savunulabilir."
+          },
+          {
+            "en": "In most cases, the symptoms disappear within a week.",
+            "tr": "Çoğu durumda belirtiler bir hafta içinde kaybolur."
+          }
+        ],
+        "turkishNote": "Türkçe öğrenci essay'lerinde \"Herkes bilir ki...\", \"Günümüz gençleri hiç kitap okumuyor\" gibi genellemeler sık görülür ve Türkçede bunlar daha kabul edilebilir olabilir. İngilizce akademik yazıda ise bu tür ifadeler hemen \"overgeneralisation\" olarak işaretlenir. \"Many\", \"some\", \"a number of\" ve \"It could be argued that\" gibi küçük eklemeler yazınızın güvenilirliğini büyük ölçüde artırır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Aşırı genelleme hangisi?",
+          "options": [
+            "Many teenagers use social media every day.",
+            "All teenagers are addicted to social media."
+          ],
+          "answerIndex": 1,
+          "explanation": "All → genelleme.",
+          "id": "c1-u06-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kişisiz ve temkinli:",
+          "options": [
+            "I think everyone believes this.",
+            "It is widely believed that ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "It is widely believed.",
+          "id": "c1-u06-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"never\" yerine temkinli:",
+          "options": [
+            "rarely",
+            "always"
+          ],
+          "answerIndex": 0,
+          "explanation": "rarely.",
+          "id": "c1-u06-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "En temkinli:",
+          "options": [
+            "Technology destroyed reading.",
+            "It could be argued that technology has changed the way people read."
+          ],
+          "answerIndex": 1,
+          "explanation": "It could be argued.",
+          "id": "c1-u06-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "A ___ of studies suggest a link. (bir dizi)",
+          "answers": [
+            "number"
+          ],
+          "explanation": "A number of.",
+          "id": "c1-u06-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ be argued that the law is unfair. (savunulabilir)",
+          "answers": [
+            "could",
+            "might",
+            "can"
+          ],
+          "explanation": "It could be argued.",
+          "id": "c1-u06-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___ cases, the treatment is effective. (çoğu)",
+          "answers": [
+            "most",
+            "many"
+          ],
+          "explanation": "In most cases.",
+          "id": "c1-u06-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "There is ___ evidence that the diet works. (bazı)",
+          "answers": [
+            "some"
+          ],
+          "explanation": "There is some evidence.",
+          "id": "c1-u06-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "It has been suggested that working from home makes people less productive. However, a number of recent studies indicate that, in many cases, the opposite may be true. Productivity seems to depend largely on the type of job and the individual worker.",
+          "prompt": "Son çalışmalar ne gösteriyor?",
+          "options": [
+            "Evden çalışan herkes daha az verimli",
+            "Birçok durumda tersi doğru olabilir",
+            "Verimlilik ölçülemez"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"in many cases, the opposite may be true\"",
+          "id": "c1-u06-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Temkinli hale getirin: \"Everyone knows that sugar is bad for you.\" (It is widely believed)",
+          "accepted": [
+            "It is widely believed that sugar is bad for you.",
+            "It is widely believed that sugar is bad for you",
+            "It is widely believed that sugar is bad for your health.",
+            "It is widely believed that sugar is bad for your health",
+            "It is widely believed that too much sugar is bad for you.",
+            "It is widely believed that too much sugar is bad for you"
+          ],
+          "explanation": "It is widely believed that sugar is bad for you.",
+          "id": "c1-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki aşırı genellemeleri temkinli bir akademik dile çevirin ve her birine bir karşı görüş ya da sınırlılık ekleyin. Miktar ifadeleri, sıklık zarfları ve kişisiz yapılar kullanın: (1) Turkish people are very hospitable. (2) Old people don't understand technology. (3) Online learning is useless. (4) Everybody in big cities is stressed.",
+          "modelAnswer": "One: It is widely believed that Turkish people are very hospitable, and many visitors report being invited into people's homes. However, hospitality can vary from region to region. Two: Some older people tend to find new technology difficult, but a number of studies suggest that many of them use smartphones and the internet regularly. Three: It has been claimed that online learning is less effective, but in many cases, it seems to work well for motivated adult learners. Four: A large number of people in big cities report high levels of stress, although it could be argued that this is partly due to long working hours rather than the city itself.",
+          "rubric": [
+            "Miktar ifadeleri",
+            "Kişisiz yapılar",
+            "Sıklık zarfları",
+            "Karşı görüş"
+          ]
+        },
+        "id": "c1-u06-l3-use"
+      }
+    },
+    {
+      "id": "c1-u06-l4",
+      "number": 4,
+      "title": "Konuşurken temkin",
+      "goal": "Konuşmada diplomatik belirsizlik ifadelerini (I'd say, as far as I know, I might be wrong, but) ve yuvarlama ifadelerini doğal bir şekilde kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Toplantıda",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "So, how many customers have we lost this year?"
+          },
+          {
+            "speaker": "Emre",
+            "text": "I'd say around 200, more or less. I don't have the exact figure with me."
+          },
+          {
+            "speaker": "Manager",
+            "text": "And why are they leaving?"
+          },
+          {
+            "speaker": "Emre",
+            "text": "As far as I know, it's mainly the price. I might be wrong, but I think our competitors are about 10% cheaper."
+          },
+          {
+            "speaker": "Hande",
+            "text": "To be fair, it's not just the price. Our app is sort of difficult to use, if I'm honest."
+          },
+          {
+            "speaker": "Manager",
+            "text": "Hmm. Is that a common complaint?"
+          },
+          {
+            "speaker": "Hande",
+            "text": "Correct me if I'm wrong, Emre, but I think it came up quite a lot in the last survey."
+          },
+          {
+            "speaker": "Emre",
+            "text": "Yes, that's more or less right."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many customers have they lost, according to Emre?",
+            "options": [
+              "Exactly 200",
+              "Around 200",
+              "2,000"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd say around 200, more or less.\"",
+            "id": "c1-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Hande think is another problem?",
+            "options": [
+              "The staff",
+              "The app is difficult to use",
+              "The location"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Our app is sort of difficult to use\"",
+            "id": "c1-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Konuşmada temkinli dil **kibar, diplomatik ve dürüst** görünmenizi sağlar.\n\n**Emin olmadığınızı belirtmek:**\n\n| İfade | Kullanım |\n|---|---|\n| **I'd say** ... | Tahmini görüş: *I'd say about 200.* |\n| **As far as I know,** ... | Bilgim sınırlı: *As far as I know, it's closed.* |\n| **I might be wrong, but** ... | Görüşü yumuşatma |\n| **Correct me if I'm wrong, but** ... | Kibar itiraz / hatırlatma |\n| **I'm not entirely sure, but** ... | Kısmi bilgi |\n| **If I remember rightly,** ... | Hafızaya dayalı |\n| **I'm under the impression that** ... | İzlenim |\n\n**Yuvarlama ve belirsizlik (rakamlar ve tanımlar):**\n\n| İfade | Örnek |\n|---|---|\n| **around / about / roughly / approximately** | **roughly** 200 |\n| **more or less** | That's **more or less** right. |\n| **or so** | 200 **or so** |\n| **-ish** (samimi) | at six**-ish** / It's blue**-ish**. |\n| **sort of / kind of** (samimi) | It's **sort of** difficult. |\n| **a bit / a little** | It's **a bit** expensive. |\n\n**Diplomatik görüş:**\n\n- ***To be fair,** ...* (adil olmak gerekirse)\n- ***If I'm honest,** ...* / ***To be honest,** ...*\n- ***I see your point, but** ...*\n\n**Dikkat:** *sort of, kind of, -ish* samimidir; resmî yazıda kullanmayın. Fazla kullanmak da **kararsız** bir izlenim verebilir.",
+        "examples": [
+          {
+            "en": "As far as I know, the meeting is still on.",
+            "tr": "Bildiğim kadarıyla toplantı hâlâ geçerli."
+          },
+          {
+            "en": "Correct me if I'm wrong, but didn't we agree on Friday?",
+            "tr": "Yanılıyorsam düzelt ama cumada anlaşmamış mıydık?"
+          },
+          {
+            "en": "We'll be there at seven-ish.",
+            "tr": "Yedi gibi orada oluruz."
+          }
+        ],
+        "turkishNote": "Türkçede \"Bildiğim kadarıyla\", \"Yanılıyor olabilirim ama\", \"Yedi gibi\" ifadeleri günlük konuşmanın doğal bir parçasıdır ve İngilizcede birebir karşılıkları vardır. Türkçe konuşanların İngilizce iş toplantılarında sık yaptığı hata, tahmini rakamları kesin gibi söylemektir (\"We lost 200 customers\"). \"I'd say around 200\" demek hem daha dürüst hem daha profesyoneldir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Tahmini bir rakam vermek:",
+          "options": [
+            "We lost exactly 200 customers.",
+            "I'd say we lost around 200 customers."
+          ],
+          "answerIndex": 1,
+          "explanation": "I'd say + around.",
+          "id": "c1-u06-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Correct me if I'm wrong, but ...\" işlevi:",
+          "options": [
+            "Kaba itiraz",
+            "Kibar itiraz / hatırlatma"
+          ],
+          "answerIndex": 1,
+          "explanation": "Diplomatik.",
+          "id": "c1-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"seven-ish\" anlamı:",
+          "options": [
+            "Tam yedide",
+            "Yedi gibi"
+          ],
+          "answerIndex": 1,
+          "explanation": "-ish.",
+          "id": "c1-u06-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî rapor için uygun değil:",
+          "options": [
+            "approximately 200",
+            "200-ish"
+          ],
+          "answerIndex": 1,
+          "explanation": "-ish samimi.",
+          "id": "c1-u06-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "As far as I ___, the shop closes at nine.",
+          "answers": [
+            "know"
+          ],
+          "explanation": "As far as I know.",
+          "id": "c1-u06-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ be wrong, but I think the deadline is today.",
+          "answers": [
+            "might",
+            "may",
+            "could"
+          ],
+          "explanation": "I might be wrong.",
+          "id": "c1-u06-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "There were 50 people ___ so at the meeting. (civarında)",
+          "answers": [
+            "or"
+          ],
+          "explanation": "or so.",
+          "id": "c1-u06-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "To be ___, he did try his best. (adil olmak gerekirse)",
+          "answers": [
+            "fair"
+          ],
+          "explanation": "To be fair.",
+          "id": "c1-u06-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "How far is the beach? Hmm, I'd say about two kilometres, more or less. If I remember rightly, there's a little café on the way. But I'm not entirely sure it's open in winter.",
+          "prompt": "Konuşan kafe hakkında ne kadar emin?",
+          "options": [
+            "Tamamen emin",
+            "Tam emin değil",
+            "Kafe yok"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'm not entirely sure it's open in winter\"",
+          "id": "c1-u06-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Temkinli söyleyin (As far as I know): \"The museum is closed on Mondays.\"",
+          "accepted": [
+            "As far as I know, the museum is closed on Mondays.",
+            "As far as I know, the museum is closed on Mondays",
+            "As far as I know the museum is closed on Mondays.",
+            "As far as I know the museum is closed on Mondays"
+          ],
+          "explanation": "As far as I know, the museum is closed on Mondays.",
+          "id": "c1-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir iş toplantısında yöneticiniz size sorular soruyor ve kesin bilgilere sahip değilsiniz. Şu sorulara temkinli ve diplomatik cevaplar verin: (1) How many people came to the event? (2) Why did the project go over budget? (3) When will the new website be ready? (4) Do the customers like the new design? I'd say, as far as I know, I might be wrong but, roughly, more or less, to be fair, correct me if I'm wrong kalıplarını kullanın.",
+          "modelAnswer": "One: I'd say about 150 people came, more or less. I'll check the exact number with the registration team. Two: As far as I know, it was mainly because the supplier raised their prices in March. To be fair, we also added two extra features that weren't in the original plan. Three: I might be wrong, but I think the developers said roughly three weeks. Four: If I remember rightly, the feedback was mostly positive. Correct me if I'm wrong, Selin, but I think about 70% said they preferred the new design.",
+          "rubric": [
+            "Konuşmada temkin ifadeleri",
+            "Yuvarlama ifadeleri",
+            "Diplomatik ton",
+            "Profesyonellik"
+          ]
+        },
+        "id": "c1-u06-l4-use"
+      }
+    },
+    {
+      "id": "c1-u06-l5",
+      "number": 5,
+      "title": "Altın orta",
+      "goal": "Temkinli ve kesin ifadeleri (hedging ve boosting) dengeli kullanarak ikna edici ve güvenilir bir akademik paragraf yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Üç versiyon: aynı paragraf",
+        "body": "Version 1 (too certain):\n\"Homework is useless. It doesn't help students learn, and it makes all children stressed. Schools must stop giving homework immediately.\"\n\nVersion 2 (too hedged):\n\"It could perhaps possibly be suggested that homework might, in some cases, potentially have a somewhat limited effect on some aspects of learning for some students, although this may not necessarily always be the case.\"\n\nVersion 3 (balanced):\n\"The value of homework is clearly a matter of debate. Research suggests that, for younger children, homework appears to have relatively little effect on achievement. For older students, however, there is strong evidence that moderate amounts of homework can improve results. It is undoubtedly true that excessive homework may cause stress. Schools should therefore consider limiting, rather than abolishing, homework.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the problem with Version 2?",
+            "options": [
+              "It's too certain.",
+              "It's so hedged that it says almost nothing.",
+              "It has grammar mistakes."
+            ],
+            "answerIndex": 1,
+            "explanation": "Aşırı temkin.",
+            "id": "c1-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Version 3 recommend?",
+            "options": [
+              "Abolishing homework",
+              "Limiting homework",
+              "Giving more homework"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"limiting, rather than abolishing, homework\"",
+            "id": "c1-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hedging** (temkin) ve **boosting** (kesinlik) arasında **denge** kurmak, C1 seviyesinin en önemli becerilerinden biridir.\n\n| Aşırı kesin ✗ | Aşırı temkinli ✗ | Dengeli ✓ |\n|---|---|---|\n| Kanıtsız, mutlak | Hiçbir şey söylemiyor | Kanıta uygun |\n| *Homework is useless.* | *It could perhaps possibly be suggested ...* | *Research suggests that homework appears to have little effect ...* |\n\n**Boosters (güçlendiriciler):** Güçlü kanıt olduğunda kullanın.\n\n| Booster | Örnek |\n|---|---|\n| **clearly / evidently** | **Clearly**, this is a serious issue. |\n| **undoubtedly / without doubt** | It is **undoubtedly** true that ... |\n| **there is strong / clear evidence that** | **There is strong evidence that** smoking causes cancer. |\n| **it is clear / evident that** | **It is clear that** more research is needed. |\n| **certainly / definitely** | This is **certainly** a factor. |\n| **demonstrate / show** | The data **demonstrate** a clear trend. |\n\n**Altın kurallar:**\n\n1. **Kanıt güçlüyse** → boost: *There is **strong evidence** that ...*\n2. **Kanıt zayıf ya da tartışmalıysa** → hedge: *It **may** ... / **appears to** ...*\n3. **Bir cümlede birden fazla hedge kullanmayın:** ~~It **might possibly perhaps** be~~ → *It **may** be*\n4. **Kendi önerinizi** net belirtin: *Schools **should therefore** ...*\n\n**Not:** İyi bir akademik metin \"her şeyden şüphe eden\" değil, **neyin ne kadar kesin olduğunu bilen** bir metindir.",
+        "examples": [
+          {
+            "en": "There is strong evidence that regular exercise reduces the risk of heart disease.",
+            "tr": "Düzenli egzersizin kalp hastalığı riskini azalttığına dair güçlü kanıtlar var."
+          },
+          {
+            "en": "However, its effect on mental health appears to vary considerably.",
+            "tr": "Ancak ruh sağlığı üzerindeki etkisi önemli ölçüde değişkenlik gösteriyor gibi görünüyor."
+          },
+          {
+            "en": "Clearly, further research is needed.",
+            "tr": "Açıkça, daha fazla araştırmaya ihtiyaç var."
+          }
+        ],
+        "turkishNote": "Temkinli dili yeni öğrenen öğrenciler bazen her cümleyi \"may\", \"perhaps\", \"possibly\" ile doldurur; bu da metni zayıf ve kararsız gösterir. İngilizce akademik yazıda amaç, kanıtın gücüne göre doğru dozu bulmaktır. Türkçe akademik yazıda da benzer bir denge vardır: \"Kesinlikle kanıtlanmıştır\" ile \"belki de olabilir\" arasında, kanıta uygun bir ifade seçin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Aşırı temkinli hangisi?",
+          "options": [
+            "It could perhaps possibly be suggested that it might ...",
+            "Research suggests that it may ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Fazla hedge.",
+          "id": "c1-u06-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Güçlü kanıt varsa:",
+          "options": [
+            "There is strong evidence that smoking causes cancer.",
+            "It might be that smoking could possibly cause cancer."
+          ],
+          "answerIndex": 0,
+          "explanation": "Boost.",
+          "id": "c1-u06-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Booster hangisi?",
+          "options": [
+            "arguably",
+            "undoubtedly"
+          ],
+          "answerIndex": 1,
+          "explanation": "undoubtedly.",
+          "id": "c1-u06-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Dengeli bir paragrafta öneri:",
+          "options": [
+            "Schools should therefore consider limiting homework.",
+            "Schools could maybe possibly think about it."
+          ],
+          "answerIndex": 0,
+          "explanation": "Net öneri.",
+          "id": "c1-u06-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "There is ___ evidence that vaccines save lives. (güçlü)",
+          "answers": [
+            "strong",
+            "clear",
+            "overwhelming"
+          ],
+          "explanation": "strong evidence.",
+          "id": "c1-u06-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, more needs to be done. (Açıkça)",
+          "answers": [
+            "Clearly",
+            "Evidently"
+          ],
+          "explanation": "Clearly.",
+          "id": "c1-u06-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It is ___ true that stress affects health. (şüphesiz)",
+          "answers": [
+            "undoubtedly",
+            "certainly"
+          ],
+          "explanation": "undoubtedly.",
+          "id": "c1-u06-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Schools should ___ consider limiting homework. (bu nedenle)",
+          "answers": [
+            "therefore"
+          ],
+          "explanation": "should therefore.",
+          "id": "c1-u06-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "There is clear evidence that air pollution damages the lungs. However, its effects on children's learning appear to be less well understood. Some studies suggest a link, but the findings are not yet consistent. What is certain is that cities need to take action.",
+          "prompt": "Konuşan neyden emin?",
+          "options": [
+            "Kirliliğin öğrenmeyi etkilediğinden",
+            "Şehirlerin harekete geçmesi gerektiğinden",
+            "Hiçbir şeyden"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"What is certain is that cities need to take action.\"",
+          "id": "c1-u06-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Aşırı temkini düzeltin: \"It might possibly perhaps be true.\"",
+          "accepted": [
+            "It may be true.",
+            "It may be true",
+            "It might be true.",
+            "It might be true",
+            "It could be true.",
+            "It could be true",
+            "It is possibly true.",
+            "It is possibly true",
+            "It is perhaps true.",
+            "It is perhaps true"
+          ],
+          "explanation": "It may be true.",
+          "id": "c1-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki konulardan birinde dengeli bir akademik paragraf yazın (150–180 kelime): (a) The effects of social media on teenagers, (b) Should university education be free? (c) The impact of tourism on local communities. Bir topic sentence ile başlayın; güçlü kanıt olan noktalar için en az 2 booster, tartışmalı noktalar için en az 4 farklı temkin aracı (fiil, zarf, miktar ifadesi, kişisiz yapı) kullanın ve net bir sonuç / öneri cümlesiyle bitirin. Aşırı temkinden kaçının.",
+          "modelAnswer": "The impact of tourism on local communities is clearly complex. On the one hand, there is strong evidence that tourism creates jobs and brings money into regions that might otherwise struggle economically. In many coastal towns in Turkey, for example, a large proportion of local families depend on the summer season for most of their income. On the other hand, tourism appears to have a number of negative effects. Rising property prices tend to push local residents out of popular areas, and in some cases traditional businesses have been replaced by souvenir shops. It could also be argued that mass tourism may gradually weaken local culture, although this is arguably more difficult to measure. What is undoubtedly true is that the benefits are not shared equally. Local governments should therefore develop policies that ensure that a fair share of tourism income stays within the community.",
+          "rubric": [
+            "Topic sentence",
+            "En az 2 booster",
+            "En az 4 farklı hedge",
+            "Aşırı temkinden kaçınma",
+            "Net sonuç / öneri"
+          ]
+        },
+        "id": "c1-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "En temkinli ve doğru:",
+        "options": [
+          "This study proves that tea prevents cancer.",
+          "This study suggests that tea may reduce the risk of some cancers."
+        ],
+        "answerIndex": 1,
+        "explanation": "suggest + may",
+        "id": "c1-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"tend to\" anlamı:",
+        "options": [
+          "Her zaman",
+          "-me eğiliminde"
+        ],
+        "answerIndex": 1,
+        "explanation": "tend to",
+        "id": "c1-u06-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Aşırı genelleme:",
+        "options": [
+          "Many students find maths difficult.",
+          "All students hate maths."
+        ],
+        "answerIndex": 1,
+        "explanation": "All",
+        "id": "c1-u06-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Aşırı temkinli:",
+        "options": [
+          "It may be true.",
+          "It could perhaps possibly be true."
+        ],
+        "answerIndex": 1,
+        "explanation": "Fazla hedge",
+        "id": "c1-u06-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Booster:",
+        "options": [
+          "arguably",
+          "undoubtedly"
+        ],
+        "answerIndex": 1,
+        "explanation": "undoubtedly",
+        "id": "c1-u06-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "The results ___ to support the theory. (görünüyor)",
+        "answers": [
+          "seem",
+          "appear"
+        ],
+        "explanation": "seem / appear to",
+        "id": "c1-u06-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "I agree with you to some ___.",
+        "answers": [
+          "extent"
+        ],
+        "explanation": "to some extent",
+        "id": "c1-u06-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "It ___ be argued that the plan is too expensive. (savunulabilir)",
+        "answers": [
+          "could",
+          "might",
+          "can"
+        ],
+        "explanation": "It could be argued",
+        "id": "c1-u06-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "As far as I ___, the shop is still open.",
+        "answers": [
+          "know"
+        ],
+        "explanation": "As far as I know",
+        "id": "c1-u06-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "A ___ of studies have found similar results. (bir dizi)",
+        "answers": [
+          "number"
+        ],
+        "explanation": "A number of",
+        "id": "c1-u06-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "There is ___ evidence that smoking damages health. (güçlü)",
+        "answers": [
+          "strong",
+          "clear",
+          "overwhelming"
+        ],
+        "explanation": "strong evidence",
+        "id": "c1-u06-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"arguably the greatest writer\"",
+        "options": [
+          "Kesinlikle en büyük yazar",
+          "Tartışmaya açık ama savunulabilir şekilde en büyük yazar"
+        ],
+        "answerIndex": 1,
+        "explanation": "arguably",
+        "id": "c1-u06-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "The fire appears to have started in the kitchen, although investigators haven't confirmed this yet. As far as we know, nobody was injured. It's thought that the restaurant may have been closed at the time.",
+        "prompt": "Yangının nerede başladığı hakkında ne biliniyor?",
+        "options": [
+          "Kesin olarak mutfakta",
+          "Mutfakta başlamış gibi görünüyor ama doğrulanmadı",
+          "Hiçbir şey bilinmiyor"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"appears to have started in the kitchen, although investigators haven't confirmed this yet\"",
+        "id": "c1-u06-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Temkinli hale getirin (appear to have): \"The thief entered through the window.\"",
+        "accepted": [
+          "The thief appears to have entered through the window.",
+          "The thief appears to have entered through the window",
+          "It appears that the thief entered through the window.",
+          "It appears that the thief entered through the window"
+        ],
+        "explanation": "The thief appears to have entered through the window.",
+        "id": "c1-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Is artificial intelligence a threat to jobs?\" sorusuna dengeli bir akademik paragrafla cevap verin (160–200 kelime). Topic sentence ile başlayın; güçlü kanıta dayalı noktalar için boosters (clearly, there is strong evidence, undoubtedly), tartışmalı noktalar için çeşitli hedging araçları (seem, tend to, may, arguably, to some extent, in some cases, It could be argued that) kullanın. Net bir sonuçla bitirin ve aşırı kesin ya da aşırı temkinli ifadelerden kaçının.",
+        "modelAnswer": "Whether artificial intelligence represents a threat to jobs is clearly one of the most important economic questions of our time. There is strong evidence that AI is already changing the nature of many occupations, particularly those involving routine tasks such as data entry and basic customer service. In these areas, a considerable number of jobs may well disappear over the next two decades. However, the overall impact appears to be more complex than many headlines suggest. Historically, new technologies have tended to create new types of work, even as they destroyed others, and it could be argued that AI will follow a similar pattern. In some cases, it seems to make workers more productive rather than replacing them. Nevertheless, it is undoubtedly true that the benefits and costs will not be shared equally. Workers with fewer qualifications are arguably the most at risk, at least in the short term. Governments should therefore invest significantly in retraining programmes to ensure that no group is left behind.",
+        "rubric": [
+          "Topic sentence",
+          "Boosters",
+          "Çeşitli hedging araçları",
+          "Denge",
+          "Net sonuç"
+        ],
+        "id": "c1-u06-t15"
+      }
+    ]
+  }
+}
