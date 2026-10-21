@@ -1,0 +1,1278 @@
+{
+  "id": "c1-u08",
+  "level": "C1",
+  "number": 8,
+  "title": "Haber dili",
+  "titleEn": "The Language of News",
+  "canDo": "Haber ve resmî metinlerde kişisiz edilgen yapıları (It is said that ..., He is believed to have ...) anlayıp kullanabilir, There is thought to be ve edilgen mastar / -ing yapılarını uygulayabilir, gazete başlıklarının özel dilbilgisini çözebilir ve kaynakları doğru belirten nesnel bir haber metni yazabilirim.",
+  "grammar": [
+    "It is said / believed / reported that ...",
+    "Özne + is said / thought + to V1 / to have V3",
+    "There is thought to be ...; edilgen mastar ve -ing",
+    "gazete başlıkları dilbilgisi ve haber kelimeleri",
+    "nesnel haber yazımı ve kaynak belirtme"
+  ],
+  "vocabularyThemes": [
+    "haberler ve medya",
+    "suç ve adalet",
+    "olaylar ve açıklamalar"
+  ],
+  "liveClass": {
+    "title": "Haber merkezi",
+    "durationMinutes": 45,
+    "goal": "Gruplar bir haber ajansında çalışıyor. Her gruba doğrulanmamış bilgiler içeren bir olay kartı verilir (bir hırsızlık, bir keşif, bir ünlünün açıklaması). Gruplar bilgileri kişisiz edilgen yapılarla (is believed to have, It is reported that) haber bültenine dönüştürür ve bir başlık yazar. Sınıf en nesnel ve en etkileyici bülteni seçer."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u08-v01",
+      "en": "allegedly",
+      "tr": "iddiaya göre",
+      "example": "He allegedly stole the money.",
+      "exampleTr": "İddiaya göre parayı çaldı.",
+      "note": "allege (fiil), allegation (isim)"
+    },
+    {
+      "id": "c1-u08-v02",
+      "en": "reportedly",
+      "tr": "bildirildiğine göre",
+      "example": "The singer has reportedly cancelled her tour.",
+      "exampleTr": "Bildirildiğine göre şarkıcı turnesini iptal etti."
+    },
+    {
+      "id": "c1-u08-v03",
+      "en": "suspect",
+      "tr": "şüpheli; şüphelenmek",
+      "example": "A suspect has been arrested.",
+      "exampleTr": "Bir şüpheli tutuklandı."
+    },
+    {
+      "id": "c1-u08-v04",
+      "en": "investigation",
+      "tr": "soruşturma",
+      "example": "Police have launched an investigation.",
+      "exampleTr": "Polis bir soruşturma başlattı."
+    },
+    {
+      "id": "c1-u08-v05",
+      "en": "probe",
+      "tr": "soruşturma (başlık dili)",
+      "example": "Bank faces probe over missing funds",
+      "exampleTr": "Banka kayıp fonlar nedeniyle soruşturmayla karşı karşıya"
+    },
+    {
+      "id": "c1-u08-v06",
+      "en": "spokesperson",
+      "tr": "sözcü",
+      "example": "A spokesperson for the company declined to comment.",
+      "exampleTr": "Şirket sözcüsü yorum yapmayı reddetti."
+    },
+    {
+      "id": "c1-u08-v07",
+      "en": "decline to comment",
+      "tr": "yorum yapmayı reddetmek",
+      "example": "The minister declined to comment.",
+      "exampleTr": "Bakan yorum yapmayı reddetti."
+    },
+    {
+      "id": "c1-u08-v08",
+      "en": "confirm",
+      "tr": "doğrulamak",
+      "example": "Officials have confirmed the news.",
+      "exampleTr": "Yetkililer haberi doğruladı."
+    },
+    {
+      "id": "c1-u08-v09",
+      "en": "deny",
+      "tr": "yalanlamak, inkâr etmek",
+      "example": "He denied all the allegations.",
+      "exampleTr": "Bütün iddiaları yalanladı."
+    },
+    {
+      "id": "c1-u08-v10",
+      "en": "source",
+      "tr": "kaynak",
+      "example": "According to a reliable source, ...",
+      "exampleTr": "Güvenilir bir kaynağa göre ..."
+    },
+    {
+      "id": "c1-u08-v11",
+      "en": "witness",
+      "tr": "tanık",
+      "example": "Witnesses said they heard an explosion.",
+      "exampleTr": "Tanıklar bir patlama duyduklarını söyledi."
+    },
+    {
+      "id": "c1-u08-v12",
+      "en": "casualty",
+      "tr": "kayıp, yaralı ya da ölü",
+      "example": "There were no casualties.",
+      "exampleTr": "Kayıp yoktu."
+    },
+    {
+      "id": "c1-u08-v13",
+      "en": "injured",
+      "tr": "yaralı",
+      "example": "Three people were seriously injured.",
+      "exampleTr": "Üç kişi ağır yaralandı."
+    },
+    {
+      "id": "c1-u08-v14",
+      "en": "evacuate",
+      "tr": "tahliye etmek",
+      "example": "Hundreds of residents were evacuated.",
+      "exampleTr": "Yüzlerce sakin tahliye edildi."
+    },
+    {
+      "id": "c1-u08-v15",
+      "en": "vow",
+      "tr": "yemin etmek, söz vermek (başlık dili)",
+      "example": "Mayor vows to fix roads",
+      "exampleTr": "Belediye başkanı yolları onarma sözü verdi"
+    },
+    {
+      "id": "c1-u08-v16",
+      "en": "slam",
+      "tr": "sert eleştirmek (başlık dili)",
+      "example": "Critics slam new tax plan",
+      "exampleTr": "Eleştirmenler yeni vergi planını yerden yere vurdu"
+    },
+    {
+      "id": "c1-u08-v17",
+      "en": "bid",
+      "tr": "girişim, teklif (başlık dili)",
+      "example": "Club in bid to sign star player",
+      "exampleTr": "Kulüp yıldız oyuncuyu transfer girişiminde"
+    },
+    {
+      "id": "c1-u08-v18",
+      "en": "row",
+      "tr": "anlaşmazlık, kavga (başlık dili)",
+      "example": "Row over new airport grows",
+      "exampleTr": "Yeni havalimanı üzerindeki tartışma büyüyor",
+      "note": "/raʊ/"
+    },
+    {
+      "id": "c1-u08-v19",
+      "en": "toll",
+      "tr": "kayıp sayısı",
+      "example": "The death toll has risen to twelve.",
+      "exampleTr": "Ölü sayısı on ikiye yükseldi."
+    },
+    {
+      "id": "c1-u08-v20",
+      "en": "unconfirmed",
+      "tr": "doğrulanmamış",
+      "example": "There are unconfirmed reports of an explosion.",
+      "exampleTr": "Doğrulanmamış patlama haberleri var."
+    },
+    {
+      "id": "c1-u08-v21",
+      "en": "in custody",
+      "tr": "gözaltında",
+      "example": "The man is being held in custody.",
+      "exampleTr": "Adam gözaltında tutuluyor."
+    },
+    {
+      "id": "c1-u08-v22",
+      "en": "on the run",
+      "tr": "firari",
+      "example": "The suspect is still on the run.",
+      "exampleTr": "Şüpheli hâlâ firari."
+    },
+    {
+      "id": "c1-u08-v23",
+      "en": "rumour",
+      "tr": "söylenti",
+      "example": "There are rumours that the CEO will resign.",
+      "exampleTr": "CEO'nun istifa edeceğine dair söylentiler var.",
+      "note": "AmE: rumor"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u08-l1",
+      "number": 1,
+      "title": "Söylendiğine göre",
+      "goal": "It is said / believed / reported that ... yapısıyla bilgiyi kişisiz ve mesafeli bir şekilde aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Haber: Müzeden çalınan tablo",
+        "body": "A valuable painting has been stolen from the City Art Museum.\n\nIt is believed that the thieves entered the building through a skylight on Sunday night. It is reported that the alarm system had been switched off for maintenance.\n\nThe painting, a 19th-century landscape, is thought to be worth around two million euros. It has been suggested that the theft was carried out by a professional gang.\n\nIt is understood that police are examining security camera footage from nearby streets. It is not yet known whether anyone working at the museum was involved.\n\nA museum spokesperson declined to comment.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How did the thieves probably enter?",
+            "options": [
+              "Through the main door",
+              "Through a skylight",
+              "Through a window"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"through a skylight\"",
+            "id": "c1-u08-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why didn't the alarm work?",
+            "options": [
+              "It was broken by the thieves.",
+              "It had been switched off for maintenance.",
+              "There was no alarm."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the alarm system had been switched off for maintenance\"",
+            "id": "c1-u08-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Haberlerde ve resmî metinlerde bilginin **kaynağı belirsizse** ya da gazeteci **mesafeli** durmak istiyorsa kişisiz edilgen yapı kullanılır.\n\n**It + is / was + V3 (reporting verb) + that + cümle**\n\n| Etken (kim söylediği belli) | Kişisiz edilgen |\n|---|---|\n| People **say** that he is rich. | **It is said that** he is rich. |\n| Police **believe** that the thieves ... | **It is believed that** the thieves ... |\n| Experts **expect** that prices will rise. | **It is expected that** prices will rise. |\n| Someone **reported** that ... | **It was reported that** ... |\n\n**Sık kullanılan fiiller:**\n\n*say, believe, think, report, claim, allege, expect, understand, know, suggest, estimate, rumour, fear, hope, consider, agree*\n\n**Zaman uyumu:**\n\n- ***It is** said **that** he **lives** abroad.* (şimdi söyleniyor, şimdi yaşıyor)\n- ***It was** reported **that** the fire **had started** in the kitchen.* (geçmişte bildirildi)\n\n**Neden kullanılır?**\n\n1. Kaynak bilinmiyor ya da önemli değil.\n2. Bilgi **doğrulanmamış**; gazeteci sorumluluk almak istemiyor.\n3. Resmî ve nesnel bir üslup.\n\n**It is not yet known whether ...** = ... olup olmadığı henüz bilinmiyor.",
+        "examples": [
+          {
+            "en": "It is said that the castle is haunted.",
+            "tr": "Kalenin perili olduğu söyleniyor."
+          },
+          {
+            "en": "It is expected that the minister will resign.",
+            "tr": "Bakanın istifa etmesi bekleniyor."
+          },
+          {
+            "en": "It was reported that two people had been injured.",
+            "tr": "İki kişinin yaralandığı bildirildi."
+          }
+        ],
+        "turkishNote": "Türkçede \"... olduğu söyleniyor\", \"... sanılıyor\", \"... bildirildi\" yapıları çok yaygındır ve İngilizcedeki \"It is said / thought / reported that\" ile birebir örtüşür. Türkçe haber dilinde ayrıca \"-mış\" eki (\"Hırsızlar çatıdan girmiş\") de bu işi görür; İngilizcede bu eke karşılık gelen tek bir yapı yoktur, bu nedenle \"It is believed that the thieves entered...\" gibi açık yapılar kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Hırsızların çatıdan girdiği sanılıyor.\"",
+          "options": [
+            "It is believed that the thieves entered through the roof.",
+            "It believes that the thieves entered through the roof."
+          ],
+          "answerIndex": 0,
+          "explanation": "It is believed that.",
+          "id": "c1-u08-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kişisiz edilgen yapı neden kullanılır?",
+          "options": [
+            "Kaynağı vurgulamak için",
+            "Kaynak belirsiz ya da bilgi doğrulanmamış olduğunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mesafe.",
+          "id": "c1-u08-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "It is say that he's rich.",
+            "It is said that he's rich."
+          ],
+          "answerIndex": 1,
+          "explanation": "V3.",
+          "id": "c1-u08-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"It is not yet known whether ...\"",
+          "options": [
+            "... olduğu biliniyor.",
+            "... olup olmadığı henüz bilinmiyor."
+          ],
+          "answerIndex": 1,
+          "explanation": "not yet known.",
+          "id": "c1-u08-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It is ___ (expect) that the bridge will open next year.",
+          "answers": [
+            "expected"
+          ],
+          "explanation": "It is expected that.",
+          "id": "c1-u08-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ reported yesterday that the factory had closed. (geçmiş)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "It was reported.",
+          "id": "c1-u08-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It is ___ (understand) that police are questioning a man.",
+          "answers": [
+            "understood"
+          ],
+          "explanation": "It is understood that.",
+          "id": "c1-u08-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It is not yet ___ whether anyone was injured.",
+          "answers": [
+            "known"
+          ],
+          "explanation": "not yet known.",
+          "id": "c1-u08-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "It is reported that a large fire broke out at a factory in the industrial zone early this morning. It is believed that no one was inside at the time. It is not yet known what caused the fire.",
+          "prompt": "Yangının nedeni hakkında ne biliniyor?",
+          "options": [
+            "Elektrik arızası",
+            "Henüz bilinmiyor",
+            "Kasten çıkarıldı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It is not yet known what caused the fire.\"",
+          "id": "c1-u08-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Kişisiz edilgen yapıyla yeniden yazın: \"People say that the restaurant is the best in town.\"",
+          "accepted": [
+            "It is said that the restaurant is the best in town.",
+            "It is said that the restaurant is the best in town",
+            "It's said that the restaurant is the best in town.",
+            "It's said that the restaurant is the best in town"
+          ],
+          "explanation": "It is said that the restaurant is the best in town.",
+          "id": "c1-u08-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir radyo spikeri olarak şehrinizde olan hayalî bir olayı (bir hırsızlık, bir keşif, bir trafik kazası) kısa bir haber bülteniyle duyurun. En az 5 farklı It + passive + that yapısı kullanın: It is believed / reported / thought / expected / understood / claimed that ... ve It is not yet known whether ...",
+          "modelAnswer": "Good morning. Here is the news. A rare Roman mosaic has been discovered during building work in the city centre. It is believed that the mosaic dates back to the second century. It is reported that construction workers found it while digging the foundations of a new hotel. It is thought that the site may contain other ancient objects. It is expected that archaeologists will begin excavations next week. However, it is not yet known whether the hotel project will be cancelled. It is understood that the city council will meet on Friday to discuss the issue.",
+          "rubric": [
+            "It + passive + that çeşitliliği",
+            "Zaman uyumu",
+            "Haber üslubu"
+          ]
+        },
+        "id": "c1-u08-l1-use"
+      }
+    },
+    {
+      "id": "c1-u08-l2",
+      "number": 2,
+      "title": "Olduğuna inanılıyor",
+      "goal": "Özne + is said / thought / believed + to V1 / to be -ing / to have V3 yapılarıyla bilgiyi daha kısa ve doğal aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Haber: Kayıp dağcı",
+        "body": "A British climber who went missing on Mount Ararat three days ago is believed to be alive.\n\nThe 34-year-old, who is said to be an experienced mountaineer, is thought to have left his tent early on Monday morning. He is reported to have been climbing alone when the weather suddenly changed.\n\nRescue teams are understood to be searching an area just below the summit. A shepherd is said to have seen a man in a red jacket near the glacier on Tuesday.\n\nThe climber's family, who are reported to be travelling to Turkey, are expected to arrive in Doğubayazıt tonight.\n\nThe search is likely to continue throughout the night.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the climber said to be?",
+            "options": [
+              "A beginner",
+              "An experienced mountaineer",
+              "A guide"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"is said to be an experienced mountaineer\"",
+            "id": "c1-u08-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the shepherd see?",
+            "options": [
+              "The climber's tent",
+              "A man in a red jacket near the glacier",
+              "A helicopter"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a man in a red jacket near the glacier\"",
+            "id": "c1-u08-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Özne + be + V3 (reporting verb) + to-mastar**\n\nBu yapı \"It is said that ...\" yapısından **daha kısa ve daha yaygındır**.\n\n| It ... that | Özne + to-mastar |\n|---|---|\n| It is said that he **is** rich. | He **is said to be** rich. |\n| It is thought that she **lives** abroad. | She **is thought to live** abroad. |\n\n**Mastarın zamanı çok önemli:**\n\n| Olay ne zaman? | Mastar | Örnek |\n|---|---|---|\n| Şimdi / genel | **to + V1** | He **is said to be** an expert. |\n| Şu an devam ediyor | **to be + -ing** | Rescue teams **are understood to be searching** ... |\n| Daha önce (geçmiş) | **to have + V3** | He **is thought to have left** on Monday. |\n| Geçmişte devam ediyordu | **to have been + -ing** | He **is reported to have been climbing** alone. |\n| Edilgen, geçmiş | **to have been + V3** | Two people **are believed to have been injured**. |\n| Gelecek | **is expected to** + V1 | They **are expected to arrive** tonight. |\n\n**Dikkat:** **say** ve **think** genellikle **etken** yapıda bu şekilde kullanılmaz:\n\n- ~~People say him to be rich.~~ ✗\n- ✓ *He **is said to be** rich.*\n\n**Geçmişte söylenmişse:** *He **was said to be** the richest man in the city.* (o dönemde söyleniyordu)",
+        "examples": [
+          {
+            "en": "The president is expected to make a statement this afternoon.",
+            "tr": "Cumhurbaşkanının bu öğleden sonra açıklama yapması bekleniyor."
+          },
+          {
+            "en": "The suspect is believed to have fled the country.",
+            "tr": "Şüphelinin ülkeden kaçtığına inanılıyor."
+          },
+          {
+            "en": "The company is reported to be planning major job cuts.",
+            "tr": "Şirketin büyük çaplı işten çıkarmalar planladığı bildiriliyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"Şüphelinin ülkeden kaçtığına inanılıyor\" cümlesinde özne \"şüpheli\" değildir; ama İngilizcede \"The suspect is believed to have fled\" yapısında özne doğrudan \"the suspect\" olur. Bu yapı Türkçe konuşanlar için başlangıçta garip gelebilir. Asıl zorluk mastarın zamanını seçmektir: Olay inanmadan önce olduysa \"to have + V3\" kullanılır. \"He is believed to flee\" yanlıştır; kaçma eylemi geçmişte olduğu için \"to have fled\" gerekir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Şüphelinin ülkeden kaçtığına inanılıyor.\"",
+          "options": [
+            "The suspect is believed to flee the country.",
+            "The suspect is believed to have fled the country."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmiş → to have + V3.",
+          "id": "c1-u08-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Şirketin yeni bir fabrika kurmayı planladığı bildiriliyor.\" (şu an)",
+          "options": [
+            "The company is reported to be planning a new factory.",
+            "The company is reported to have planned a new factory."
+          ],
+          "answerIndex": 0,
+          "explanation": "Şu an devam → to be + -ing.",
+          "id": "c1-u08-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "People say him to be a genius.",
+            "He is said to be a genius."
+          ],
+          "answerIndex": 1,
+          "explanation": "Edilgen.",
+          "id": "c1-u08-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"They are expected to arrive at six.\" olay ne zaman?",
+          "options": [
+            "Geçmiş",
+            "Gelecek"
+          ],
+          "answerIndex": 1,
+          "explanation": "expected to → gelecek.",
+          "id": "c1-u08-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The singer is said ___ be very shy in real life.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "is said to + V1.",
+          "id": "c1-u08-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The fire is thought to ___ started in the kitchen.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "to have + V3.",
+          "id": "c1-u08-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Police are understood to be ___ (question) a local man.",
+          "answers": [
+            "questioning"
+          ],
+          "explanation": "to be + -ing.",
+          "id": "c1-u08-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Three people are reported to have ___ injured. (edilgen)",
+          "answers": [
+            "been"
+          ],
+          "explanation": "to have been + V3.",
+          "id": "c1-u08-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The famous footballer is reported to be in talks with a club in Spain. He is said to have rejected two offers from England last month. The deal is expected to be worth more than fifty million euros.",
+          "prompt": "Futbolcu geçen ay ne yaptı?",
+          "options": [
+            "İspanya'ya transfer oldu",
+            "İngiltere'den gelen iki teklifi reddetti",
+            "Emekli oldu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"is said to have rejected two offers from England\"",
+          "id": "c1-u08-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Özne + passive + to-mastar ile yeniden yazın: \"It is believed that the thieves escaped in a blue car.\"",
+          "accepted": [
+            "The thieves are believed to have escaped in a blue car.",
+            "The thieves are believed to have escaped in a blue car",
+            "The thieves are believed to have escaped in a blue van.",
+            "The thieves are believed to have escaped in a blue van"
+          ],
+          "explanation": "The thieves are believed to have escaped in a blue car.",
+          "id": "c1-u08-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ünlü bir kişi hakkında (gerçek ya da hayalî) bir dedikodu programı sunucusu gibi \"söylentileri\" aktarın. Özne + is said / thought / believed / reported / rumoured + to-mastar yapısını en az 6 kez kullanın; şimdi (to be), devam eden (to be -ing), geçmiş (to have V3) ve gelecek (is expected to) zamanlarından en az birer örnek verin.",
+          "modelAnswer": "Welcome back to Celebrity News! Today's top story: the famous actor Kaan Demir is rumoured to be leaving his hit TV series. He is said to be unhappy with the new scripts. According to sources, he is thought to have argued with the director last month. He is also reported to be working on a new film in Hollywood. His co-star is believed to have known about his decision for weeks. The actor is expected to make an announcement at the end of the season. We'll keep you updated!",
+          "rubric": [
+            "Özne + passive + to-mastar",
+            "Mastar zamanı doğru",
+            "Haber / sunucu üslubu"
+          ]
+        },
+        "id": "c1-u08-l2-use"
+      }
+    },
+    {
+      "id": "c1-u08-l3",
+      "number": 3,
+      "title": "Olduğu düşünülen",
+      "goal": "There is thought to be ... yapısını, edilgen mastar (to be done) ve edilgen -ing (being done) biçimlerini doğru kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Haber: Yeni keşfedilen mağara",
+        "body": "Scientists have discovered an enormous cave system beneath the mountains of eastern Anatolia.\n\nThere are thought to be at least 15 kilometres of tunnels, and there is believed to be an underground lake more than 200 metres deep. There are said to be rare species of fish living in complete darkness.\n\nThe cave is likely to be explored in more detail next summer. The team leader said she was delighted to have been given the chance to lead the expedition. \"Being chosen for this project is the greatest honour of my career,\" she said.\n\nLocal authorities are keen for the area to be protected. \"We don't want the cave to be damaged by tourists before it has been properly studied,\" a spokesperson said.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is believed to be in the cave?",
+            "options": [
+              "A river",
+              "An underground lake more than 200 metres deep",
+              "Ancient paintings"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"there is believed to be an underground lake\"",
+            "id": "c1-u08-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What are the local authorities worried about?",
+            "options": [
+              "Tourists damaging the cave",
+              "The cost of the expedition",
+              "Earthquakes"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"We don't want the cave to be damaged by tourists\"",
+            "id": "c1-u08-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. There + be + V3 + to be**\n\n\"Var olduğu düşünülüyor / söyleniyor\" demek için:\n\n| It ... that | There + passive |\n|---|---|\n| It is thought that there **are** 15 km of tunnels. | **There are thought to be** 15 km of tunnels. |\n| It is believed that there **is** a lake. | **There is believed to be** a lake. |\n| It is said that there **were** survivors. | **There are said to have been** survivors. |\n\n**2. Edilgen mastar: to be + V3 / to have been + V3**\n\n| Yapı | Örnek |\n|---|---|\n| **want / expect / hope + to be + V3** | I **want to be told** the truth. |\n| **need to be + V3** | The cave **needs to be protected**. |\n| **is likely to be + V3** | It **is likely to be explored** next summer. |\n| **sb + to be + V3** | We don't want **the cave to be damaged**. |\n| **to have been + V3** (geçmiş) | She was delighted **to have been given** the chance. |\n\n**3. Edilgen -ing: being + V3 / having been + V3**\n\n| Yapı | Örnek |\n|---|---|\n| **Being + V3** (özne) | **Being chosen** is a great honour. |\n| **hate / love / avoid / remember + being + V3** | I hate **being interrupted**. |\n| **without being + V3** | He left **without being seen**. |\n| **having been + V3** (geçmiş) | **Having been warned**, they stayed inside. |",
+        "examples": [
+          {
+            "en": "There are thought to be more than 1,000 species in the forest.",
+            "tr": "Ormanda 1.000'den fazla tür olduğu düşünülüyor."
+          },
+          {
+            "en": "Nobody likes being told what to do.",
+            "tr": "Kimse ne yapacağının söylenmesinden hoşlanmaz."
+          },
+          {
+            "en": "The results are expected to be published next month.",
+            "tr": "Sonuçların gelecek ay yayımlanması bekleniyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"15 kilometre tünel olduğu düşünülüyor\" cümlesi İngilizcede \"There are thought to be 15 km of tunnels\" olur; \"there\" yapısının edilgen hale gelmesi Türkçe konuşanlar için alışılmadık olabilir. Edilgen -ing yapıları da Türkçede \"-ılmak\" (söz kesilmek, seçilmek) ile karşılanır: \"Sözümün kesilmesinden nefret ederim\" = \"I hate being interrupted\". \"I hate interrupting\" ise \"Söz kesmekten nefret ederim\" demektir; anlamı tamamen farklıdır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Hayatta kalanlar olduğu düşünülüyor.\"",
+          "options": [
+            "There are thought to be survivors.",
+            "There think to be survivors."
+          ],
+          "answerIndex": 0,
+          "explanation": "There are thought to be.",
+          "id": "c1-u08-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sözümün kesilmesinden nefret ederim.\"",
+          "options": [
+            "I hate interrupting.",
+            "I hate being interrupted."
+          ],
+          "answerIndex": 1,
+          "explanation": "being + V3.",
+          "id": "c1-u08-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I want to tell the truth. (Bana doğru söylensin.)",
+            "I want to be told the truth."
+          ],
+          "answerIndex": 1,
+          "explanation": "Edilgen mastar.",
+          "id": "c1-u08-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He left without being seen.\"",
+          "options": [
+            "Kimseyi görmeden ayrıldı.",
+            "Görülmeden ayrıldı."
+          ],
+          "answerIndex": 1,
+          "explanation": "Edilgen -ing.",
+          "id": "c1-u08-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "There ___ believed to be a hidden room in the castle.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "There is believed to be.",
+          "id": "c1-u08-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The report is expected to ___ published on Monday.",
+          "answers": [
+            "be"
+          ],
+          "explanation": "to be + V3.",
+          "id": "c1-u08-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She was proud to have ___ chosen for the team.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "to have been + V3.",
+          "id": "c1-u08-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I don't like ___ (be) photographed.",
+          "answers": [
+            "being"
+          ],
+          "explanation": "being + V3.",
+          "id": "c1-u08-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "There are said to be more than 300 people still waiting for help after the floods. Many homes need to be rebuilt, and roads are unlikely to be reopened before next week. One resident said she was lucky to have been rescued so quickly.",
+          "prompt": "Yollar hakkında ne söyleniyor?",
+          "options": [
+            "Bugün açılacak",
+            "Gelecek haftadan önce açılması pek olası değil",
+            "Hiç kapanmadı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"roads are unlikely to be reopened before next week\"",
+          "id": "c1-u08-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "There + passive ile yeniden yazın: \"It is thought that there are hundreds of birds on the island.\"",
+          "accepted": [
+            "There are thought to be hundreds of birds on the island.",
+            "There are thought to be hundreds of birds on the island",
+            "There are thought to be hundreds of birds on this island.",
+            "There are thought to be hundreds of birds on this island"
+          ],
+          "explanation": "There are thought to be hundreds of birds on the island.",
+          "id": "c1-u08-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "(1) Yeni keşfedilmiş hayalî bir yer (bir ada, bir orman, bir şehir kalıntısı) hakkında There is / are thought / believed / said to be ... yapısıyla en az 3 cümle kurun. (2) Kendinizle ilgili sevdiğiniz ve sevmediğiniz 3'er şeyi edilgen -ing ile söyleyin (I love being ..., I hate being ...). (3) Edilgen mastarla 2 dilek söyleyin (I want to be ..., I'd like to be ...).",
+          "modelAnswer": "One: Scientists have found a small island in the Pacific. There are thought to be several species of birds that live nowhere else. There is believed to be fresh water in the centre of the island, and there are said to be the remains of an old village. Two: I love being surprised, I love being invited to dinner, and I love being given flowers. I hate being interrupted, I hate being kept waiting, and I really hate being woken up early. Three: I'd like to be promoted next year, and I want to be told the truth, even when it's difficult.",
+          "rubric": [
+            "There + passive",
+            "Edilgen -ing",
+            "Edilgen mastar",
+            "Doğru anlam"
+          ]
+        },
+        "id": "c1-u08-l3-use"
+      }
+    },
+    {
+      "id": "c1-u08-l4",
+      "number": 4,
+      "title": "Başlıkları çözmek",
+      "goal": "Gazete başlıklarının özel dilbilgisini (atlanan kelimeler, zaman kuralları) ve tipik başlık kelimelerini anlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bugünün manşetleri",
+        "body": "1. MAYOR VOWS TO FIX CITY ROADS BY SUMMER\n\n2. THREE HURT IN MOTORWAY CRASH\n\n3. PM TO VISIT JAPAN NEXT MONTH\n\n4. CRITICS SLAM NEW TAX PLAN\n\n5. STAR STRIKER IN BID TO JOIN SPANISH CLUB\n\n6. ROW OVER AIRPORT EXPANSION GROWS\n\n7. BANK BOSS QUITS AMID FRAUD PROBE\n\n8. TEENAGER SAVES DROWNING CHILD\n\n9. MISSING CLIMBER FOUND ALIVE",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Headline 3 means:",
+            "options": [
+              "The PM visited Japan.",
+              "The PM will visit Japan.",
+              "The PM is in Japan now."
+            ],
+            "answerIndex": 1,
+            "explanation": "to + V1 → gelecek.",
+            "id": "c1-u08-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Headline 9 means:",
+            "options": [
+              "Someone found the climber alive.",
+              "The climber found something."
+            ],
+            "answerIndex": 0,
+            "explanation": "Edilgen, is atlanmış.",
+            "id": "c1-u08-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Gazete başlıkları (headlines)** yer kazanmak için özel bir dilbilgisi kullanır.\n\n**1. Kelimeler atlanır:**\n\n- **Article** (a, the): *~~The~~ Mayor vows to fix ~~the~~ roads*\n- **be fiili**: *Missing climber ~~is~~ found alive*\n\n**2. Zaman kuralları:**\n\n| Başlık | Gerçek anlam | Kural |\n|---|---|---|\n| Teenager **saves** child | A teenager **has saved / saved** a child. | **Present simple → yakın geçmiş** |\n| PM **to visit** Japan | The PM **is going to / will** visit Japan. | **to + V1 → gelecek** |\n| Three **hurt** in crash | Three people **were / have been hurt**. | **V3 → edilgen** (be atlanmış) |\n| Row over airport **grows** | The row **is growing**. | Present simple → şimdi |\n\n**3. Kısa ve dramatik kelimeler (\"headlinese\"):**\n\n| Başlık kelimesi | Normal anlam |\n|---|---|\n| **vow** | promise |\n| **slam** | criticise strongly |\n| **bid** | attempt |\n| **row** | argument / disagreement |\n| **probe** | investigation |\n| **quit** | resign |\n| **axe** | cut / cancel (jobs, plans) |\n| **back** | support |\n| **clash** | fight / disagree |\n| **hit** | affect badly |\n| **boost** | increase, help |\n| **amid** | during, while (a problem) |\n\n**4. İsim dizileri:** *Bank boss fraud probe* = an investigation into fraud involving the boss of a bank",
+        "examples": [
+          {
+            "en": "Government to axe 500 jobs = The government is going to cut 500 jobs.",
+            "tr": "Hükümet 500 kişiyi işten çıkaracak."
+          },
+          {
+            "en": "Storm hits coast = A storm has hit the coast.",
+            "tr": "Fırtına kıyıyı vurdu."
+          },
+          {
+            "en": "Minister backs new plan = The minister supports the new plan.",
+            "tr": "Bakan yeni planı destekliyor."
+          }
+        ],
+        "turkishNote": "Türkçe gazete başlıkları da kısa ve dramatiktir (\"Bakan istifa etti\", \"Şehir sele teslim\"). İngilizce başlıkların en kafa karıştırıcı yanı zaman kurallarıdır: \"Teenager saves child\" şimdiki zaman gibi görünse de aslında geçmişte olmuş bir olayı anlatır. \"PM to visit Japan\" ise gelecek planıdır. Bir başka tuzak \"row\" kelimesidir: Başlıklarda \"kürek çekmek\" değil, \"tartışma, kavga\" anlamına gelir ve /raʊ/ diye okunur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Teenager saves drowning child\" olay ne zaman?",
+          "options": [
+            "Şimdi oluyor",
+            "Geçmişte oldu (yakın geçmiş)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Present simple → geçmiş.",
+          "id": "c1-u08-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Minister to resign\" anlamı:",
+          "options": [
+            "Bakan istifa etti.",
+            "Bakan istifa edecek."
+          ],
+          "answerIndex": 1,
+          "explanation": "to + V1 → gelecek.",
+          "id": "c1-u08-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Critics slam plan\" anlamı:",
+          "options": [
+            "Eleştirmenler planı sert eleştirdi.",
+            "Eleştirmenler planı kapattı."
+          ],
+          "answerIndex": 0,
+          "explanation": "slam.",
+          "id": "c1-u08-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Row over new stadium\" row:",
+          "options": [
+            "Kürek çekmek",
+            "Tartışma"
+          ],
+          "answerIndex": 1,
+          "explanation": "row = argument.",
+          "id": "c1-u08-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Başlık: \"Bank boss ___ amid scandal\" (istifa etti)",
+          "answers": [
+            "quits"
+          ],
+          "explanation": "quit = resign.",
+          "id": "c1-u08-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Başlık: \"Police launch ___ into missing funds\" (soruşturma)",
+          "answers": [
+            "probe"
+          ],
+          "explanation": "probe.",
+          "id": "c1-u08-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Başlık: \"Mayor ___ to build new hospital\" (söz verdi)",
+          "answers": [
+            "vows"
+          ],
+          "explanation": "vow.",
+          "id": "c1-u08-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Başlık: \"Company to ___ 200 jobs\" (kesmek, iptal etmek)",
+          "answers": [
+            "axe",
+            "cut"
+          ],
+          "explanation": "axe.",
+          "id": "c1-u08-l4-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "probe",
+              "right": "investigation"
+            },
+            {
+              "left": "slam",
+              "right": "criticise strongly"
+            },
+            {
+              "left": "bid",
+              "right": "attempt"
+            },
+            {
+              "left": "quit",
+              "right": "resign"
+            },
+            {
+              "left": "back",
+              "right": "support"
+            }
+          ],
+          "explanation": "Başlık kelimelerini anlamlarıyla eşleştirin.",
+          "id": "c1-u08-l4-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "And now, the headlines. Flooding hits eastern villages. Government to announce new housing plan on Friday. And in sport, national team coach quits after shock defeat.",
+          "prompt": "Milli takım teknik direktörü hakkında ne söyleniyor?",
+          "options": [
+            "Yeni bir sözleşme imzaladı",
+            "Şok yenilginin ardından istifa etti",
+            "İstifa edecek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"coach quits after shock defeat\"",
+          "id": "c1-u08-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "(1) Aşağıdaki başlıkları tam cümlelerle açıklayın: \"Storm hits coast\", \"PM to visit Brazil\", \"Five hurt in fire\", \"Club in bid to sign star\", \"Teachers slam exam changes\". (2) Ardından şehrinizde ya da okulunuzda geçen hafta olan 3 olay için kendi gazete başlıklarınızı oluşturun ve okuyun.",
+          "modelAnswer": "One: 'Storm hits coast' means a storm has hit the coast. 'PM to visit Brazil' means the Prime Minister is going to visit Brazil. 'Five hurt in fire' means five people were hurt in a fire. 'Club in bid to sign star' means a club is trying to sign a star player. 'Teachers slam exam changes' means teachers have strongly criticised the changes to the exams. Two: My headlines: 'Local café wins national award', 'School to open new science lab', and 'Residents slam plans for car park'.",
+          "rubric": [
+            "Başlık zaman kuralları",
+            "Başlık kelimelerinin anlamı",
+            "Kendi başlıklarını oluşturma"
+          ]
+        },
+        "id": "c1-u08-l4-use"
+      }
+    },
+    {
+      "id": "c1-u08-l5",
+      "number": 5,
+      "title": "Haber yazmak",
+      "goal": "Ters piramit yapısı, kaynak belirtme ve kişisiz edilgen yapılarla nesnel bir haber metni yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek haber",
+        "body": "HUNDREDS EVACUATED AS WILDFIRE SPREADS\n\nMore than 800 residents were evacuated from villages near Muğla yesterday as a wildfire spread rapidly through nearby forests.\n\nThe fire, which is believed to have started in a field on Tuesday afternoon, has already destroyed an estimated 500 hectares of pine forest. Strong winds are thought to have helped it spread.\n\nAccording to the regional governor's office, 12 helicopters and more than 300 firefighters are currently working to control the flames. No casualties have been reported, although two firefighters are said to have been treated for smoke inhalation.\n\nThe cause of the fire has not yet been confirmed. However, officials have not ruled out the possibility that it was started deliberately. An investigation has been launched.\n\n\"We have never seen a fire spread so fast,\" said Hasan Yıldız, a farmer from one of the evacuated villages. \"We left with nothing.\"\n\nThe fire is expected to be brought under control by the weekend, provided the wind drops.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many residents were evacuated?",
+            "options": [
+              "About 300",
+              "More than 800",
+              "12"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"More than 800 residents were evacuated\"",
+            "id": "c1-u08-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is said about the cause?",
+            "options": [
+              "It was definitely an accident.",
+              "It has not yet been confirmed.",
+              "Lightning started it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The cause of the fire has not yet been confirmed.\"",
+            "id": "c1-u08-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Ters piramit (inverted pyramid) yapısı:**\n\n| Bölüm | İçerik | Örnek |\n|---|---|---|\n| **Başlık** | Kısa, dramatik (başlık dilbilgisi) | *Hundreds evacuated as wildfire spreads* |\n| **Giriş (lead)** | En önemli bilgi: **Ne? Kim? Nerede? Ne zaman?** | *More than 800 residents were evacuated ... yesterday ...* |\n| **Ayrıntılar** | **Nasıl? Neden?** + rakamlar | *The fire, which is believed to have started ...* |\n| **Kaynaklar** | Resmî açıklamalar | *According to the governor's office, ...* |\n| **Alıntı** | Tanık ya da uzman sözü | *\"We left with nothing,\" said ...* |\n| **Sonraki adım** | Ne olacak? | *The fire is expected to be brought under control ...* |\n\n**Kaynak belirtme dili:**\n\n| Yapı | Örnek |\n|---|---|\n| **According to** + kaynak | *According to police, ...* |\n| **X said / told reporters / confirmed** | *a spokesperson told reporters* |\n| **in a statement** | *In a statement, the company said ...* |\n| **declined to comment** | *The minister declined to comment.* |\n| **has not been confirmed** | *The cause **has not yet been confirmed**.* |\n| **have not ruled out** | *Officials **have not ruled out** ...* |\n\n**Nesnellik:**\n\n- Kişisel görüş yok: ~~This terrible fire ...~~\n- Doğrulanmamış bilgi için kişisiz edilgen: *is believed to / is thought to*\n- Duygu sadece **alıntılarda**: *\"We left with nothing,\" said ...*\n- **Rakamlar ve kesin bilgiler**: *an estimated 500 hectares*",
+        "examples": [
+          {
+            "en": "According to police, the man was arrested at the scene.",
+            "tr": "Polise göre adam olay yerinde tutuklandı."
+          },
+          {
+            "en": "Officials have not ruled out the possibility of sabotage.",
+            "tr": "Yetkililer sabotaj ihtimalini göz ardı etmedi."
+          },
+          {
+            "en": "In a statement, the company apologised to its customers.",
+            "tr": "Şirket yaptığı açıklamada müşterilerinden özür diledi."
+          }
+        ],
+        "turkishNote": "Türkçe haber metinleri bazen duygusal sıfatlar (\"korkunç yangın\", \"acı olay\") ve yazarın yorumlarıyla başlar. İngilizce haber yazımında (özellikle ajans haberlerinde) duygular alıntılara bırakılır ve gazeteci nesnel kalır. Ayrıca İngilizce haberlerde kaynak belirtmek çok önemlidir: Doğrulanmamış her bilgi \"is believed to\", \"according to\" ya da \"has not been confirmed\" ile işaretlenir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Haberin girişinde (lead) ne olmalı?",
+          "options": [
+            "Bir tanığın duyguları",
+            "Ne, kim, nerede, ne zaman"
+          ],
+          "answerIndex": 1,
+          "explanation": "En önemli bilgiler.",
+          "id": "c1-u08-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Nesnel bir haber cümlesi:",
+          "options": [
+            "This terrible fire has destroyed our beautiful forests.",
+            "The fire has destroyed an estimated 500 hectares of forest."
+          ],
+          "answerIndex": 1,
+          "explanation": "Nesnel.",
+          "id": "c1-u08-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğrulanmamış bilgi:",
+          "options": [
+            "The fire started in a field.",
+            "The fire is believed to have started in a field."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kişisiz edilgen.",
+          "id": "c1-u08-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Duygular haberde nerede yer alır?",
+          "options": [
+            "Alıntılarda",
+            "Başlıkta ve girişte"
+          ],
+          "answerIndex": 0,
+          "explanation": "Alıntılar.",
+          "id": "c1-u08-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ to the police, two men were arrested. (göre)",
+          "answers": [
+            "According"
+          ],
+          "explanation": "According to.",
+          "id": "c1-u08-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The cause has not yet been ___. (doğrulanmak)",
+          "answers": [
+            "confirmed"
+          ],
+          "explanation": "has not been confirmed.",
+          "id": "c1-u08-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Officials have not ruled ___ the possibility of arson.",
+          "answers": [
+            "out"
+          ],
+          "explanation": "rule out.",
+          "id": "c1-u08-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "A company spokesperson ___ to comment. (reddetti)",
+          "answers": [
+            "declined",
+            "refused"
+          ],
+          "explanation": "declined to comment.",
+          "id": "c1-u08-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Police have arrested a 45-year-old man in connection with the bank robbery in the city centre last Friday. According to a police statement, the man was arrested at his home early this morning. Two other suspects are believed to be on the run. The stolen money has not yet been recovered.",
+          "prompt": "Diğer iki şüpheli hakkında ne biliniyor?",
+          "options": [
+            "Tutuklandılar",
+            "Firari oldukları düşünülüyor",
+            "Teslim oldular"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Two other suspects are believed to be on the run.\"",
+          "id": "c1-u08-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Nesnel hale getirin: \"The horrible storm destroyed loads of houses.\" (an estimated 50)",
+          "accepted": [
+            "The storm destroyed an estimated 50 houses.",
+            "The storm destroyed an estimated 50 houses",
+            "An estimated 50 houses were destroyed by the storm.",
+            "An estimated 50 houses were destroyed by the storm",
+            "The storm is believed to have destroyed an estimated 50 houses.",
+            "The storm is believed to have destroyed an estimated 50 houses"
+          ],
+          "explanation": "The storm destroyed an estimated 50 houses.",
+          "id": "c1-u08-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Hayalî bir olay hakkında bir gazete haberi yazın (180–220 kelime): bir sel, bir keşif, ünlü bir hırsızlık ya da bir kurtarma operasyonu. Başlık dilbilgisiyle bir başlık yazın; ters piramit yapısını kullanın (lead, ayrıntılar, kaynaklar, alıntı, sonraki adım). En az 3 Özne + passive + to-mastar (is believed to have, is reported to be), en az 2 It is ... that ya da There is thought to be yapısı ve en az 2 kaynak belirtme ifadesi kullanın. Nesnel kalın; duyguyu yalnızca alıntıya bırakın.",
+          "modelAnswer": "FISHERMEN RESCUED AFTER TWO DAYS AT SEA\n\nThree fishermen who had been missing off the Black Sea coast since Sunday were rescued yesterday morning, about 40 kilometres north of Sinop.\n\nThe men, aged between 28 and 56, are believed to have lost power after their boat's engine failed in rough weather on Sunday evening. They are reported to have survived on rainwater and a small supply of bread.\n\nAccording to the coast guard, the men were spotted by a passing cargo ship, whose crew raised the alarm. A rescue helicopter reached the boat within an hour. All three are said to be in good condition, although one is thought to have suffered a minor hand injury.\n\nIt is understood that the boat's radio had stopped working shortly after the engine failure. There are thought to have been several other boats in the area at the time, but none of them had noticed the men's signals.\n\n\"We had almost given up hope,\" said Ali Kara, the youngest of the three. \"When we saw the ship, we just cried.\"\n\nIn a statement, the coast guard reminded all fishermen to check the weather forecast carefully before going out to sea. An investigation into the engine failure is expected to be completed next week.",
+          "rubric": [
+            "Başlık dilbilgisi",
+            "Ters piramit yapısı",
+            "Özne + passive + to-mastar",
+            "It ... that / There is thought to be",
+            "Kaynak belirtme ve nesnellik"
+          ]
+        },
+        "id": "c1-u08-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Kalenin perili olduğu söyleniyor.\"",
+        "options": [
+          "It says that the castle is haunted.",
+          "It is said that the castle is haunted."
+        ],
+        "answerIndex": 1,
+        "explanation": "It is said that",
+        "id": "c1-u08-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Şüphelinin ülkeden kaçtığına inanılıyor.\"",
+        "options": [
+          "The suspect is believed to flee the country.",
+          "The suspect is believed to have fled the country."
+        ],
+        "answerIndex": 1,
+        "explanation": "to have + V3",
+        "id": "c1-u08-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Minister to resign\" başlığının anlamı:",
+        "options": [
+          "Bakan istifa etti.",
+          "Bakan istifa edecek."
+        ],
+        "answerIndex": 1,
+        "explanation": "to + V1 → gelecek",
+        "id": "c1-u08-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I hate being interrupted.\"",
+        "options": [
+          "Söz kesmekten nefret ederim.",
+          "Sözümün kesilmesinden nefret ederim."
+        ],
+        "answerIndex": 1,
+        "explanation": "Edilgen -ing",
+        "id": "c1-u08-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Nesnel haber cümlesi:",
+        "options": [
+          "This shocking crime has upset everyone.",
+          "Police are investigating the crime."
+        ],
+        "answerIndex": 1,
+        "explanation": "Nesnel",
+        "id": "c1-u08-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "It is ___ (expect) that the new law will be passed next week.",
+        "answers": [
+          "expected"
+        ],
+        "explanation": "It is expected that",
+        "id": "c1-u08-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "The company is reported ___ be planning job cuts.",
+        "answers": [
+          "to"
+        ],
+        "explanation": "to be + -ing",
+        "id": "c1-u08-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Two people are thought to have ___ injured.",
+        "answers": [
+          "been"
+        ],
+        "explanation": "to have been + V3",
+        "id": "c1-u08-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "There ___ said to be a secret tunnel under the palace.",
+        "answers": [
+          "is"
+        ],
+        "explanation": "There is said to be",
+        "id": "c1-u08-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ to a police statement, the man was arrested at home.",
+        "answers": [
+          "According"
+        ],
+        "explanation": "According to",
+        "id": "c1-u08-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "A spokesperson ___ to comment.",
+        "answers": [
+          "declined",
+          "refused"
+        ],
+        "explanation": "declined to comment",
+        "id": "c1-u08-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Critics slam new law\"",
+        "options": [
+          "Eleştirmenler yeni yasayı sert eleştirdi.",
+          "Eleştirmenler yeni yasayı kapattı."
+        ],
+        "answerIndex": 0,
+        "explanation": "slam",
+        "id": "c1-u08-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "A rare painting is reported to have been found in the attic of a house in Bursa. The painting is thought to be more than 300 years old. It is not yet known how it got there. Experts are expected to examine it next week.",
+        "prompt": "Uzmanlar ne zaman tabloyu inceleyecek?",
+        "options": [
+          "Bugün",
+          "Gelecek hafta",
+          "Çoktan incelediler"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Experts are expected to examine it next week.\"",
+        "id": "c1-u08-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Özne + passive + to-mastar ile yeniden yazın: \"It is said that the actor is very generous.\"",
+        "accepted": [
+          "The actor is said to be very generous.",
+          "The actor is said to be very generous",
+          "The actor's said to be very generous.",
+          "The actor's said to be very generous"
+        ],
+        "explanation": "The actor is said to be very generous.",
+        "id": "c1-u08-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Okulunuzda, şirketinizde ya da mahallenizde olan hayalî bir olay hakkında bir yerel gazete haberi yazın (180–220 kelime). Başlık dilbilgisiyle bir başlık, ters piramit yapısı, en az 3 Özne + passive + to-mastar, en az 2 It is ... that / There is thought to be yapısı, en az 2 kaynak belirtme ifadesi ve bir alıntı kullanın. Nesnel kalın.",
+        "modelAnswer": "LOCAL BAKERY WINS NATIONAL BREAD AWARD\n\nA small family bakery in Eskişehir has been named the best bakery in Turkey at this year's national bread competition, held in Ankara on Saturday.\n\nThe bakery, which is said to have been founded in 1962, beat more than 400 other businesses from across the country. Its sourdough loaf is believed to be made using a recipe that has not changed for three generations.\n\nAccording to the competition organisers, the judges were particularly impressed by the bread's flavour and texture. It is understood that the bakery uses only local flour, and there are thought to be just four people working there, all of them members of the same family.\n\nThe owner, Fatma Özkan, 64, is reported to have started working in the bakery at the age of twelve. \"I still can't believe it,\" she told reporters. \"My father would have been so proud.\"\n\nIn a statement, the mayor of Eskişehir congratulated the family and said the award would \"put the city on the map\".\n\nSince the news broke, queues are reported to have formed outside the bakery every morning. The family is expected to open a second shop later this year.",
+        "rubric": [
+          "Başlık dilbilgisi",
+          "Ters piramit",
+          "Kişisiz edilgen yapılar",
+          "Kaynak belirtme ve alıntı",
+          "Nesnellik"
+        ],
+        "id": "c1-u08-t15"
+      }
+    ]
+  }
+}
