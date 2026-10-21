@@ -1,0 +1,1335 @@
+{
+  "id": "b2-u12",
+  "level": "B2",
+  "number": 12,
+  "title": "Toplum",
+  "titleEn": "Society",
+  "canDo": "Bağlaçları ve söylem belirleyicilerini (however, despite, as a result, therefore) doğru noktalamayla kullanabilir, iyi yapılandırılmış paragraflar kurabilir, toplumsal konularda dengeli görüş bildirebilir ve B2 sınav standartlarında bir görüş yazısı (essay) yazabilirim.",
+  "grammar": [
+    "ekleme ve karşıtlık: moreover, however, although, despite",
+    "neden, sonuç ve amaç: due to, as a result, therefore, so that",
+    "paragraf yapısı: topic sentence ve destek",
+    "dengeli görüş bildirme",
+    "görüş yazısı (opinion / for-and-against essay)"
+  ],
+  "vocabularyThemes": [
+    "toplumsal sorunlar",
+    "şehir hayatı ve topluluk",
+    "eğitim ve eşitlik"
+  ],
+  "liveClass": {
+    "title": "Münazara kulübü",
+    "durationMinutes": 45,
+    "goal": "Sınıf iki takıma ayrılır ve güncel bir toplumsal konuyu tartışır (Should public transport be free? Should voting be compulsory?). Her takım 3 argüman hazırlar ve sunarken söylem belirleyicilerini (Firstly, Moreover, However, As a result) kullanır. Karşı takım While it is true that... ile cevap verir. Sonunda herkes kendi görüşünü 4 cümlelik bir paragrafla özetler."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u12-v01",
+      "en": "issue",
+      "tr": "sorun, mesele",
+      "example": "Homelessness is a serious social issue.",
+      "exampleTr": "Evsizlik ciddi bir toplumsal sorun."
+    },
+    {
+      "id": "b2-u12-v02",
+      "en": "inequality",
+      "tr": "eşitsizlik",
+      "example": "Inequality between rich and poor is growing.",
+      "exampleTr": "Zengin ve fakir arasındaki eşitsizlik artıyor."
+    },
+    {
+      "id": "b2-u12-v03",
+      "en": "poverty",
+      "tr": "yoksulluk",
+      "example": "Millions of people still live in poverty.",
+      "exampleTr": "Milyonlarca insan hâlâ yoksulluk içinde yaşıyor."
+    },
+    {
+      "id": "b2-u12-v04",
+      "en": "homelessness",
+      "tr": "evsizlik",
+      "example": "The city has a plan to reduce homelessness.",
+      "exampleTr": "Şehrin evsizliği azaltma planı var."
+    },
+    {
+      "id": "b2-u12-v05",
+      "en": "community",
+      "tr": "topluluk, toplum",
+      "example": "She does a lot for the local community.",
+      "exampleTr": "Yerel topluluk için çok şey yapıyor."
+    },
+    {
+      "id": "b2-u12-v06",
+      "en": "volunteer",
+      "tr": "gönüllü; gönüllü olmak",
+      "example": "He volunteers at a food bank every weekend.",
+      "exampleTr": "Her hafta sonu bir gıda bankasında gönüllü çalışıyor."
+    },
+    {
+      "id": "b2-u12-v07",
+      "en": "discrimination",
+      "tr": "ayrımcılık",
+      "example": "Discrimination at work is illegal.",
+      "exampleTr": "İşyerinde ayrımcılık yasa dışıdır."
+    },
+    {
+      "id": "b2-u12-v08",
+      "en": "ageing population",
+      "tr": "yaşlanan nüfus",
+      "example": "Many countries have an ageing population.",
+      "exampleTr": "Birçok ülkenin yaşlanan bir nüfusu var."
+    },
+    {
+      "id": "b2-u12-v09",
+      "en": "access (to)",
+      "tr": "erişim",
+      "example": "Everyone should have access to clean water.",
+      "exampleTr": "Herkesin temiz suya erişimi olmalı."
+    },
+    {
+      "id": "b2-u12-v10",
+      "en": "policy",
+      "tr": "politika (uygulama)",
+      "example": "The government introduced a new housing policy.",
+      "exampleTr": "Hükümet yeni bir konut politikası getirdi."
+    },
+    {
+      "id": "b2-u12-v11",
+      "en": "tackle",
+      "tr": "(bir sorunla) mücadele etmek",
+      "example": "We need to tackle climate change now.",
+      "exampleTr": "İklim değişikliğiyle hemen mücadele etmeliyiz."
+    },
+    {
+      "id": "b2-u12-v12",
+      "en": "however",
+      "tr": "ancak, bununla birlikte",
+      "example": "It's expensive. However, it's worth it.",
+      "exampleTr": "Pahalı. Ancak buna değer."
+    },
+    {
+      "id": "b2-u12-v13",
+      "en": "moreover",
+      "tr": "üstelik, dahası",
+      "example": "The plan is cheap. Moreover, it's easy to apply.",
+      "exampleTr": "Plan ucuz. Üstelik uygulaması kolay.",
+      "note": "resmî"
+    },
+    {
+      "id": "b2-u12-v14",
+      "en": "nevertheless",
+      "tr": "yine de, buna rağmen",
+      "example": "It was risky. Nevertheless, they did it.",
+      "exampleTr": "Riskliydi. Yine de yaptılar."
+    },
+    {
+      "id": "b2-u12-v15",
+      "en": "despite",
+      "tr": "-e rağmen",
+      "example": "Despite the rain, the event was a success.",
+      "exampleTr": "Yağmura rağmen etkinlik başarılıydı.",
+      "note": "+ isim / -ing"
+    },
+    {
+      "id": "b2-u12-v16",
+      "en": "whereas",
+      "tr": "oysa, -iken",
+      "example": "Some people love cities, whereas others prefer villages.",
+      "exampleTr": "Bazı insanlar şehirleri severken diğerleri köyleri tercih eder."
+    },
+    {
+      "id": "b2-u12-v17",
+      "en": "therefore",
+      "tr": "bu nedenle",
+      "example": "Prices rose. Therefore, sales fell.",
+      "exampleTr": "Fiyatlar yükseldi. Bu nedenle satışlar düştü."
+    },
+    {
+      "id": "b2-u12-v18",
+      "en": "as a result",
+      "tr": "sonuç olarak",
+      "example": "As a result, many people lost their jobs.",
+      "exampleTr": "Sonuç olarak birçok kişi işini kaybetti."
+    },
+    {
+      "id": "b2-u12-v19",
+      "en": "due to",
+      "tr": "-den dolayı",
+      "example": "The event was cancelled due to bad weather.",
+      "exampleTr": "Etkinlik kötü hava nedeniyle iptal edildi.",
+      "note": "+ isim"
+    },
+    {
+      "id": "b2-u12-v20",
+      "en": "in conclusion",
+      "tr": "sonuç olarak (yazı sonu)",
+      "example": "In conclusion, I believe the benefits outweigh the drawbacks.",
+      "exampleTr": "Sonuç olarak, faydaların sakıncalardan ağır bastığına inanıyorum."
+    },
+    {
+      "id": "b2-u12-v21",
+      "en": "outweigh",
+      "tr": "-den ağır basmak",
+      "example": "The advantages outweigh the disadvantages.",
+      "exampleTr": "Avantajlar dezavantajlardan ağır basıyor."
+    },
+    {
+      "id": "b2-u12-v22",
+      "en": "drawback",
+      "tr": "sakınca, dezavantaj",
+      "example": "The main drawback is the cost.",
+      "exampleTr": "Asıl sakınca maliyet."
+    },
+    {
+      "id": "b2-u12-v23",
+      "en": "argue",
+      "tr": "savunmak, tartışmak",
+      "example": "Some people argue that taxes should be higher.",
+      "exampleTr": "Bazı insanlar vergilerin daha yüksek olması gerektiğini savunuyor."
+    },
+    {
+      "id": "b2-u12-v24",
+      "en": "raise awareness",
+      "tr": "farkındalık yaratmak",
+      "example": "The campaign aims to raise awareness of mental health.",
+      "exampleTr": "Kampanya ruh sağlığı konusunda farkındalık yaratmayı amaçlıyor."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u12-l1",
+      "number": 1,
+      "title": "Üstelik ve ancak",
+      "goal": "Ekleme ve karşıtlık bildiren bağlaçları ve söylem belirleyicilerini doğru yapı ve noktalamayla kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Görüş köşesi: Ücretsiz toplu taşıma",
+        "body": "Several European cities have made public transport completely free. Should our city do the same?\n\nFree buses and trams would reduce traffic. Moreover, they would help families on low incomes, who spend a large part of their budget on travel. In addition, fewer cars would mean cleaner air.\n\nHowever, the plan has some serious drawbacks. Free transport would cost the city millions every year. Although supporters say the money would come from parking fees, critics doubt that this would be enough.\n\nDespite these concerns, I believe the idea is worth trying. Some cities have seen a big increase in passengers, whereas others have seen very little change in traffic. Nevertheless, even a small improvement in air quality would benefit everyone.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who would free transport especially help?",
+            "options": [
+              "Tourists",
+              "Families on low incomes",
+              "Car owners"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"help families on low incomes\"",
+            "id": "b2-u12-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the main drawback?",
+            "options": [
+              "It would be slow.",
+              "It would cost the city millions.",
+              "Nobody would use it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"cost the city millions every year\"",
+            "id": "b2-u12-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Ekleme:**\n\n| Kelime | Yapı | Örnek |\n|---|---|---|\n| **and, also** | cümle içinde | It's cheap **and** fast. |\n| **In addition, / Moreover, / Furthermore,** | cümle başında + **virgül** | **Moreover,** it's eco-friendly. |\n| **as well as** | + isim / -ing | **As well as** reducing traffic, it would ... |\n\n**Karşıtlık:**\n\n| Kelime | Yapı | Örnek |\n|---|---|---|\n| **but** | iki cümleyi bağlar | It's cheap, **but** it's slow. |\n| **However, / Nevertheless,** | **yeni cümle** başında + virgül | It's cheap. **However,** it's slow. |\n| **although / even though** | + **özne + fiil** | **Although** it's cheap, it's slow. |\n| **despite / in spite of** | + **isim / -ing** | **Despite** the cost, ... / **Despite being** cheap, ... |\n| **whereas / while** | iki zıt durumu karşılaştırır | Cities are noisy, **whereas** villages are quiet. |\n\n**En sık hatalar:**\n\n- ~~Despite it is expensive~~ → **Although** it is expensive / **Despite** the cost / **Despite being** expensive\n- ~~Despite of~~ → **Despite** / **In spite of**\n- ~~It's cheap, however it's slow.~~ → It's cheap. **However,** it's slow. (ya da: It's cheap; however, it's slow.)\n\n**Not:** *Despite the fact that* + özne + fiil de kullanılabilir.",
+        "examples": [
+          {
+            "en": "Although the plan is expensive, it would benefit everyone.",
+            "tr": "Plan pahalı olsa da herkese fayda sağlar."
+          },
+          {
+            "en": "Despite the rain, thousands of people joined the protest.",
+            "tr": "Yağmura rağmen binlerce kişi eyleme katıldı."
+          },
+          {
+            "en": "Young people tend to support the idea, whereas older people are less sure.",
+            "tr": "Gençler fikri destekleme eğilimindeyken yaşlılar daha az emin."
+          }
+        ],
+        "turkishNote": "Türkçede \"-e rağmen\" ve \"-mesine rağmen\" aynı kelimeyle kurulur, ama İngilizcede yapı değişir: despite + isim (yağmura rağmen = despite the rain), although + cümle (yağmasına rağmen = although it was raining). \"Despite it was raining\" Türkçe konuşanların en sık hatasıdır. Ayrıca \"however\" bir bağlaç değildir; iki cümleyi virgülle birleştiremez."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Despite it was cold, we went out.",
+            "Although it was cold, we went out."
+          ],
+          "answerIndex": 1,
+          "explanation": "although + cümle.",
+          "id": "b2-u12-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Despite the cold, we went out.",
+            "Although the cold, we went out."
+          ],
+          "answerIndex": 0,
+          "explanation": "despite + isim.",
+          "id": "b2-u12-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Despite of the cost, they did it.",
+            "Despite the cost, they did it."
+          ],
+          "answerIndex": 1,
+          "explanation": "Despite of yok.",
+          "id": "b2-u12-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru noktalama:",
+          "options": [
+            "It's cheap, however it's slow.",
+            "It's cheap. However, it's slow."
+          ],
+          "answerIndex": 1,
+          "explanation": "However yeni cümle + virgül.",
+          "id": "b2-u12-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The plan is cheap. ___, it's easy to apply. (Üstelik)",
+          "answers": [
+            "Moreover",
+            "Furthermore",
+            "In addition",
+            "What's more"
+          ],
+          "explanation": "Ekleme.",
+          "id": "b2-u12-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ being very popular, the shop closed. (rağmen)",
+          "answers": [
+            "Despite"
+          ],
+          "explanation": "Despite + -ing.",
+          "id": "b2-u12-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Some people prefer cities, ___ others prefer the countryside. (oysa)",
+          "answers": [
+            "whereas",
+            "while"
+          ],
+          "explanation": "whereas.",
+          "id": "b2-u12-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was a difficult year. ___, we achieved our goals. (Yine de)",
+          "answers": [
+            "Nevertheless",
+            "However"
+          ],
+          "explanation": "Nevertheless.",
+          "id": "b2-u12-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Living in a big city has many advantages. There are more jobs, and moreover, there's always something to do. However, the cost of living is high. Although I love the energy of the city, I sometimes dream of moving to a small town.",
+          "prompt": "Konuşanın şehir hakkındaki asıl şikâyeti ne?",
+          "options": [
+            "İş yok",
+            "Hayat pahalı",
+            "Yapacak bir şey yok"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"However, the cost of living is high.\"",
+          "id": "b2-u12-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (Despite ile başlayın): \"It was raining. The festival was a success.\"",
+          "accepted": [
+            "Despite the rain, the festival was a success.",
+            "Despite the rain, the festival was a success",
+            "Despite the rain the festival was a success.",
+            "Despite the rain the festival was a success",
+            "Despite the fact that it was raining, the festival was a success.",
+            "Despite the fact that it was raining, the festival was a success"
+          ],
+          "explanation": "Despite the rain, the festival was a success.",
+          "id": "b2-u12-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "\"Should public transport be free?\" sorusu hakkında 1 dakikalık bir görüş açıklayın. En az 2 ekleme (moreover, in addition, as well as) ve en az 3 karşıtlık (however, although, despite, whereas) yapısı kullanın.",
+          "modelAnswer": "I think public transport should be free, at least for students and older people. It would reduce traffic. Moreover, it would help people on low incomes. In addition, it would be good for the environment. However, it would be very expensive for the city. Although some people say the money could come from higher taxes, I don't think that's fair for everyone. Despite these problems, I believe it's worth trying, because young people tend to use buses a lot, whereas older people often drive.",
+          "rubric": [
+            "Ekleme yapıları",
+            "Karşıtlık yapıları",
+            "Doğru yapı (despite + isim, although + cümle)"
+          ]
+        },
+        "id": "b2-u12-l1-use"
+      }
+    },
+    {
+      "id": "b2-u12-l2",
+      "number": 2,
+      "title": "Neden ve sonuç",
+      "goal": "Neden, sonuç ve amaç bildiren yapıları (due to, as a result, therefore, so that, in order to) doğru kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Haber analizi: Köyler neden boşalıyor?",
+        "body": "Over the last fifty years, millions of people in Turkey have moved from villages to cities. As a result, many villages now have only a few elderly residents.\n\nThe main reason is the lack of jobs. Due to modern farming methods, fewer people are needed to work the land. Young people therefore leave in order to find work or study at university.\n\nAnother factor is access to services. Because many villages don't have hospitals or secondary schools, families move so that their children can get a better education.\n\nConsequently, cities have grown rapidly, which has led to problems such as traffic, high rents and pollution.\n\nIn recent years, however, some young people have started moving back to villages. Thanks to fast internet, they can work remotely and enjoy a quieter life.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why are fewer people needed to work the land?",
+            "options": [
+              "Because of modern farming methods",
+              "Because the land is poor",
+              "Because of bad weather"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Due to modern farming methods\"",
+            "id": "b2-u12-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why are some young people moving back?",
+            "options": [
+              "Rents are lower in cities.",
+              "Fast internet lets them work remotely.",
+              "The government pays them."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Thanks to fast internet, they can work remotely\"",
+            "id": "b2-u12-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Neden:**\n\n| Kelime | Yapı | Örnek |\n|---|---|---|\n| **because / as / since** | + özne + fiil | **Because** there are no jobs, people leave. |\n| **because of / due to / owing to** | + **isim** | **Due to** the lack of jobs, people leave. |\n| **thanks to** | + isim (olumlu sebep) | **Thanks to** the internet, they can work remotely. |\n\n**Sonuç:**\n\n| Kelime | Yapı | Örnek |\n|---|---|---|\n| **so** | cümle içinde | There are no jobs, **so** people leave. |\n| **As a result, / Consequently, / Therefore,** | yeni cümle başında + virgül | **As a result,** villages are empty. |\n| **therefore** (cümle ortasında) | özne + **therefore** + fiil | Young people **therefore** leave. |\n| **lead to / result in** | + isim | Growth **has led to** traffic problems. |\n\n**Amaç:**\n\n| Kelime | Yapı | Örnek |\n|---|---|---|\n| **to / in order to** | + fiil | They leave **in order to** find work. |\n| **so that** | + özne + **can / could / will / would** | They move **so that** their children **can** study. |\n| **in order not to** | + fiil (olumsuz) | **in order not to** be late |\n\n**Dikkat:**\n\n- ~~Due to there are no jobs~~ → **Due to the lack of** jobs / **Because** there are no jobs\n- ~~for to find work~~ → **to** find work / **in order to** find work",
+        "examples": [
+          {
+            "en": "Due to the storm, all flights were cancelled.",
+            "tr": "Fırtına nedeniyle bütün uçuşlar iptal edildi."
+          },
+          {
+            "en": "Prices rose sharply. As a result, many people cut back on spending.",
+            "tr": "Fiyatlar keskin bir şekilde yükseldi. Sonuç olarak birçok kişi harcamalarını azalttı."
+          },
+          {
+            "en": "They saved money so that they could buy a house.",
+            "tr": "Ev alabilmek için para biriktirdiler."
+          }
+        ],
+        "turkishNote": "Türkçede \"-dığı için\" ve \"-den dolayı\" yapıları birbirine yakındır; İngilizcede ise because + cümle, because of / due to + isim kullanılır. \"Due to it was raining\" yanlıştır. Amaç için Türkçedeki \"-mek için\" yapısı \"for to\" diye çevrilmemelidir: \"I came for to see you\" yanlış, \"I came to see you\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Due to the rain, the match was cancelled.",
+            "Due to it rained, the match was cancelled."
+          ],
+          "answerIndex": 0,
+          "explanation": "due to + isim.",
+          "id": "b2-u12-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I went there for to study.",
+            "I went there to study."
+          ],
+          "answerIndex": 1,
+          "explanation": "to + fiil.",
+          "id": "b2-u12-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Olumlu sebep:",
+          "options": [
+            "Thanks to her help, I passed.",
+            "Due to her help, I passed."
+          ],
+          "answerIndex": 0,
+          "explanation": "thanks to (olumlu).",
+          "id": "b2-u12-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"so that\" ardından:",
+          "options": [
+            "fiilin yalın hali",
+            "özne + can / could"
+          ],
+          "answerIndex": 1,
+          "explanation": "so that + özne + modal.",
+          "id": "b2-u12-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The factory closed. As a ___, 500 people lost their jobs.",
+          "answers": [
+            "result"
+          ],
+          "explanation": "As a result.",
+          "id": "b2-u12-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She studied hard so ___ she could get a scholarship.",
+          "answers": [
+            "that"
+          ],
+          "explanation": "so that.",
+          "id": "b2-u12-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "High rents have led ___ an increase in homelessness.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "lead to.",
+          "id": "b2-u12-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The flight was delayed ___ to bad weather.",
+          "answers": [
+            "due",
+            "owing"
+          ],
+          "explanation": "due to / owing to.",
+          "id": "b2-u12-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Our neighbourhood has changed a lot. Thanks to the new metro line, it's much easier to get to the city centre. As a result, house prices have risen sharply. Consequently, many young families can't afford to live here any more.",
+          "prompt": "Metro hattının sonucu ne oldu?",
+          "options": [
+            "Ev fiyatları düştü",
+            "Ev fiyatları keskin bir şekilde yükseldi",
+            "Trafik arttı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"As a result, house prices have risen sharply.\"",
+          "id": "b2-u12-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (so that): \"He spoke slowly. Everyone could understand him.\"",
+          "accepted": [
+            "He spoke slowly so that everyone could understand him.",
+            "He spoke slowly so that everyone could understand him",
+            "He spoke slowly, so that everyone could understand him.",
+            "He spoke slowly, so that everyone could understand him"
+          ],
+          "explanation": "He spoke slowly so that everyone could understand him.",
+          "id": "b2-u12-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şehrinizde ya da ülkenizde son yıllarda değişen bir toplumsal durumu anlatın (göç, kira artışı, uzaktan çalışma, nüfus yaşlanması, vb.). Nedenlerini (due to, because of, as), sonuçlarını (as a result, therefore, has led to) ve insanların bu değişime karşı neler yaptığını (in order to, so that) anlatın.",
+          "modelAnswer": "In my city, more and more people are working from home. This is mainly due to the pandemic, when companies had to close their offices. As a result, many people realised that they didn't need to live in the city centre. Therefore, they moved to smaller towns nearby, where houses are cheaper. This has led to higher prices in those towns too. Some companies now offer shared offices in suburbs so that people can work near their homes. People also take online courses in order to learn new digital skills.",
+          "rubric": [
+            "Neden yapıları",
+            "Sonuç yapıları",
+            "Amaç yapıları",
+            "Doğru noktalama"
+          ]
+        },
+        "id": "b2-u12-l2-use"
+      }
+    },
+    {
+      "id": "b2-u12-l3",
+      "number": 3,
+      "title": "Paragraf kurmak",
+      "goal": "Bir topic sentence, destekleyici cümleler, örnekler ve sonuç cümlesiyle iyi yapılandırılmış bir paragraf yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki paragraf: hangisi daha iyi?",
+        "body": "Paragraph A:\nVolunteering is good. My friend volunteers. It's nice. You meet people. Some people don't have time. I volunteered once at an animal shelter. Also it's good for your CV.\n\nParagraph B:\nVolunteering benefits both the community and the volunteers themselves. Firstly, it provides essential help to people and organisations that cannot afford to pay for it, such as food banks, animal shelters and care homes. Secondly, volunteers often develop valuable skills, including teamwork, communication and leadership, which can improve their job prospects. For instance, a recent survey found that many employers see volunteering experience as an advantage. Finally, research suggests that helping others can reduce stress and increase happiness. For these reasons, volunteering should be encouraged in schools and workplaces.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which paragraph has a clear topic sentence?",
+            "options": [
+              "Paragraph A",
+              "Paragraph B"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Volunteering benefits both the community and the volunteers themselves.\"",
+            "id": "b2-u12-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How many reasons does Paragraph B give?",
+            "options": [
+              "Two",
+              "Three",
+              "Five"
+            ],
+            "answerIndex": 1,
+            "explanation": "Firstly, Secondly, Finally.",
+            "id": "b2-u12-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İyi bir paragrafın yapısı:**\n\n| Bölüm | İşlev | Örnek |\n|---|---|---|\n| **1. Topic sentence** | Paragrafın ana fikri. Genellikle ilk cümle. | *Volunteering benefits both the community and the volunteers.* |\n| **2. Supporting sentences** | Ana fikri destekleyen gerekçeler | *Firstly, ... Secondly, ...* |\n| **3. Examples / evidence** | Somut örnek, rakam, deneyim | *For instance, ... / such as ...* |\n| **4. Concluding sentence** | Ana fikri bağlayan / özetleyen cümle | *For these reasons, ...* |\n\n**Sıralama:** *Firstly / First of all, ... Secondly, ... Thirdly, ... Finally / Lastly, ...*\n\n**Örnek verme:**\n\n| Yapı | Örnek |\n|---|---|\n| **For example, / For instance,** | cümle başında + virgül |\n| **such as** | + isim: *places **such as** food banks* |\n| **including** | + isim: *skills, **including** teamwork* |\n| **like** | (daha samimi) |\n\n**İyi bir topic sentence:**\n\n- Çok genel değil: ~~Volunteering is good.~~\n- Çok dar değil: ~~I volunteered at an animal shelter.~~\n- Tartışılabilir ve net: ✓ *Volunteering benefits both the community and the volunteers themselves.*\n\n**Kural:** Bir paragraf = **bir ana fikir**. Yeni bir fikir yeni bir paragraf ister.",
+        "examples": [
+          {
+            "en": "Social media has changed the way young people communicate.",
+            "tr": "Sosyal medya gençlerin iletişim kurma şeklini değiştirdi. (topic sentence)"
+          },
+          {
+            "en": "Many cities, such as Amsterdam and Copenhagen, have excellent cycle lanes.",
+            "tr": "Amsterdam ve Kopenhag gibi birçok şehrin mükemmel bisiklet yolları var."
+          },
+          {
+            "en": "For these reasons, I believe the law should be changed.",
+            "tr": "Bu nedenlerden dolayı yasanın değişmesi gerektiğine inanıyorum."
+          }
+        ],
+        "turkishNote": "Türkçe kompozisyonda paragraflar bazen uzun bir girişle ya da bir hikâyeyle başlar ve ana fikir sona saklanır. İngilizce akademik ve sınav yazısında ana fikir genellikle paragrafın ilk cümlesinde (topic sentence) açıkça verilir. Okuyucu sadece ilk cümleleri okuyarak bütün metnin özetini çıkarabilmelidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En iyi topic sentence:",
+          "options": [
+            "Social media is a thing.",
+            "Social media has both positive and negative effects on teenagers.",
+            "I use Instagram every day."
+          ],
+          "answerIndex": 1,
+          "explanation": "Net ve tartışılabilir.",
+          "id": "b2-u12-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Paragrafın son cümlesinin işlevi:",
+          "options": [
+            "Yeni bir fikir eklemek",
+            "Ana fikri bağlamak / özetlemek"
+          ],
+          "answerIndex": 1,
+          "explanation": "Concluding sentence.",
+          "id": "b2-u12-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Cities such as London and Paris are expensive.",
+            "Cities for example London and Paris are expensive."
+          ],
+          "answerIndex": 0,
+          "explanation": "such as + isim.",
+          "id": "b2-u12-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir paragrafta kaç ana fikir olmalı?",
+          "options": [
+            "Bir",
+            "Üç ya da daha fazla"
+          ],
+          "answerIndex": 0,
+          "explanation": "Bir paragraf = bir fikir.",
+          "id": "b2-u12-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, it saves money. Secondly, it's good for the environment. (İlk olarak)",
+          "answers": [
+            "Firstly",
+            "First"
+          ],
+          "explanation": "Firstly.",
+          "id": "b2-u12-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Volunteers develop skills, ___ teamwork and leadership. (dahil)",
+          "answers": [
+            "including"
+          ],
+          "explanation": "including.",
+          "id": "b2-u12-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "For ___, many companies now offer volunteering days. (örneğin)",
+          "answers": [
+            "instance",
+            "example"
+          ],
+          "explanation": "For instance / example.",
+          "id": "b2-u12-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "For these ___, schools should encourage volunteering. (nedenler)",
+          "answers": [
+            "reasons"
+          ],
+          "explanation": "For these reasons.",
+          "id": "b2-u12-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Today I'll show you how to write a good paragraph. Start with a clear topic sentence that tells the reader your main idea. Then give two or three supporting points, each with an example. Finally, finish with a sentence that links back to your main idea. Remember: one paragraph, one idea.",
+          "prompt": "Konuşana göre paragraf nasıl başlamalı?",
+          "options": [
+            "Bir örnekle",
+            "Net bir topic sentence ile",
+            "Bir soruyla"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Start with a clear topic sentence\"",
+          "id": "b2-u12-l3-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Firstly",
+            "volunteering",
+            "provides",
+            "help",
+            "to",
+            "people",
+            "who",
+            "need",
+            "it"
+          ],
+          "answer": "Firstly volunteering provides help to people who need it.",
+          "explanation": "Sıralayıcı + ana cümle.",
+          "translation": "İlk olarak, gönüllülük ihtiyacı olan insanlara yardım sağlar.",
+          "id": "b2-u12-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki konulardan birini seçin ve sözlü bir \"paragraf\" kurun (1 dakika): (a) Learning a foreign language at a young age has many benefits. (b) Cities should have more green spaces. Topic sentence ile başlayın, Firstly / Secondly / Finally ile 3 destekleyici nokta verin, en az bir örnek (for instance, such as) ekleyin ve bir sonuç cümlesiyle bitirin.",
+          "modelAnswer": "Cities should have more green spaces. Firstly, parks and gardens improve people's physical health, because they encourage walking, running and cycling. Secondly, green spaces are good for mental health. For instance, studies suggest that spending time in nature can reduce stress. Finally, trees and plants help to clean the air and keep cities cooler in summer, which is important as temperatures rise. For these reasons, I believe every neighbourhood should have a park within walking distance.",
+          "rubric": [
+            "Topic sentence",
+            "Sıralı destekleyici noktalar",
+            "Örnek",
+            "Sonuç cümlesi"
+          ]
+        },
+        "id": "b2-u12-l3-use"
+      }
+    },
+    {
+      "id": "b2-u12-l4",
+      "number": 4,
+      "title": "Dengeli görüş",
+      "goal": "Toplumsal konularda farklı görüşleri dengeli bir şekilde sunabilir, karşı görüşü kabul edip cevaplayabilir ve kendi görüşümü belirtebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Radyo programı: Sosyal medya yasakları",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Today's question: should children under sixteen be banned from social media? Dr Yalçın, what's your view?"
+          },
+          {
+            "speaker": "Dr Yalçın",
+            "text": "On the one hand, there's growing evidence that heavy use can affect young people's mental health. On the other hand, a complete ban might be very difficult to enforce."
+          },
+          {
+            "speaker": "Host",
+            "text": "Some parents argue that it's their decision, not the government's."
+          },
+          {
+            "speaker": "Dr Yalçın",
+            "text": "That's a valid point. While it is true that parents know their children best, many of them feel they can't control it alone."
+          },
+          {
+            "speaker": "Host",
+            "text": "So, where do you stand?"
+          },
+          {
+            "speaker": "Dr Yalçın",
+            "text": "Personally, I'm not in favour of a total ban. I believe it would be more effective to teach children how to use social media safely and to make platforms more responsible."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is one problem with a ban, according to Dr Yalçın?",
+            "options": [
+              "It's too cheap.",
+              "It might be difficult to enforce.",
+              "Children don't use social media."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"very difficult to enforce\"",
+            "id": "b2-u12-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Dr Yalçın suggest instead?",
+            "options": [
+              "A total ban",
+              "Teaching children to use it safely",
+              "Doing nothing"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"teach children how to use social media safely\"",
+            "id": "b2-u12-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İki tarafı sunmak:**\n\n| Kalıp | Örnek |\n|---|---|\n| **On the one hand, ... On the other hand, ...** | **On the one hand,** it's cheap. **On the other hand,** it's slow. |\n| **Some people argue / believe / claim that ...** | **Some people argue that** taxes should be higher. |\n| **Others / Critics, however, ...** | **Critics, however,** say it's unfair. |\n| **It could be argued that ...** | **It could be argued that** bans don't work. (kişisiz, resmî) |\n| **Supporters / Opponents of ... say ...** | **Opponents of** the plan say ... |\n\n**Karşı görüşü kabul edip cevaplamak (concession):**\n\n| Kalıp | Örnek |\n|---|---|\n| **While it is true that ..., ...** | **While it is true that** it's expensive, it would save money in the long term. |\n| **That's a valid point, but ...** | (konuşmada) |\n| **Admittedly, ... However, ...** | **Admittedly,** there are risks. **However,** ... |\n\n**Kendi görüşünü belirtmek:**\n\n| Samimi → Resmî |\n|---|\n| I think ... / In my opinion, ... / Personally, I believe ... |\n| From my point of view, ... / In my view, ... |\n| I am (not) in favour of ... / I am strongly against ... |\n| **It seems to me that** ... / **I would argue that** ... |\n\n**Dikkat:** ~~According to me~~ İngilizcede doğal değildir. → **In my opinion** / **In my view**",
+        "examples": [
+          {
+            "en": "On the one hand, technology connects us. On the other hand, it can make us feel lonely.",
+            "tr": "Bir yandan teknoloji bizi birbirimize bağlıyor. Öte yandan bizi yalnız hissettirebilir."
+          },
+          {
+            "en": "While it is true that cars are convenient, they cause a lot of pollution.",
+            "tr": "Arabaların kullanışlı olduğu doğru olsa da çok fazla kirliliğe neden oluyorlar."
+          },
+          {
+            "en": "Personally, I am in favour of a four-day working week.",
+            "tr": "Şahsen dört günlük çalışma haftasından yanayım."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"bana göre\" ifadesini \"according to me\" diye çevirmek çok yaygın bir hatadır; İngilizcede \"according to\" başkalarının görüşü için kullanılır (according to experts). Kendi görüşünüz için \"In my opinion\" ya da \"In my view\" deyin. Ayrıca İngilizce tartışma kültüründe karşı görüşü önce kabul etmek (While it is true that...) daha güçlü ve ikna edici bir izlenim bırakır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kendi görüşünüz için:",
+          "options": [
+            "According to me, ...",
+            "In my opinion, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "In my opinion.",
+          "id": "b2-u12-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı görüşü kabul etmek:",
+          "options": [
+            "While it is true that ..., ...",
+            "Because ..., ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Concession.",
+          "id": "b2-u12-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî ve kişisiz:",
+          "options": [
+            "I think bans don't work.",
+            "It could be argued that bans don't work."
+          ],
+          "answerIndex": 1,
+          "explanation": "It could be argued.",
+          "id": "b2-u12-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"On the one hand\" ile eşleşen:",
+          "options": [
+            "On the other hand",
+            "On the other side"
+          ],
+          "answerIndex": 0,
+          "explanation": "On the other hand.",
+          "id": "b2-u12-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Some people ___ that the law is unfair. (savunuyor)",
+          "answers": [
+            "argue",
+            "believe",
+            "claim",
+            "think"
+          ],
+          "explanation": "argue that.",
+          "id": "b2-u12-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I am not in ___ of the new law. (yanında)",
+          "answers": [
+            "favour",
+            "favor"
+          ],
+          "explanation": "in favour of.",
+          "id": "b2-u12-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ it is true that it's expensive, it would save lives. (... doğru olsa da)",
+          "answers": [
+            "While",
+            "Although"
+          ],
+          "explanation": "While it is true that.",
+          "id": "b2-u12-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, there are some risks. However, the benefits are greater. (Kabul etmek gerekir ki)",
+          "answers": [
+            "Admittedly"
+          ],
+          "explanation": "Admittedly.",
+          "id": "b2-u12-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Supporters of the new tax say it will raise money for hospitals and schools. Critics, however, argue that it will hit poorer families the hardest. Personally, I think it's a good idea, as long as low-income households are protected.",
+          "prompt": "Konuşanın görüşü ne?",
+          "options": [
+            "Vergiye tamamen karşı",
+            "Düşük gelirliler korunursa iyi bir fikir",
+            "Fikri yok"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"as long as low-income households are protected\"",
+          "id": "b2-u12-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Bana göre bu iyi bir fikir değil.\"",
+          "accepted": [
+            "In my opinion, this isn't a good idea.",
+            "In my opinion, this isn't a good idea",
+            "In my opinion, this is not a good idea",
+            "In my opinion, this is not a good idea.",
+            "In my opinion, it isn't a good idea.",
+            "In my opinion, it isn't a good idea",
+            "In my opinion, it is not a good idea",
+            "In my opinion, it is not a good idea.",
+            "In my view, this isn't a good idea.",
+            "In my view, this isn't a good idea",
+            "In my view, this is not a good idea",
+            "In my view, this is not a good idea.",
+            "In my opinion, it's not a good idea.",
+            "In my opinion, it's not a good idea",
+            "In my opinion this isn't a good idea.",
+            "In my opinion this isn't a good idea",
+            "In my opinion this is not a good idea",
+            "In my opinion this is not a good idea."
+          ],
+          "explanation": "In my opinion, this isn't a good idea.",
+          "id": "b2-u12-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir radyo programına konuk olarak katıldığınızı düşünün. Konu: \"Should university education be free for everyone?\" İki tarafı da sunun (On the one hand / On the other hand, Some people argue / Critics say), karşı görüşü kabul edip cevaplayın (While it is true that ...) ve kendi görüşünüzü belirtin (Personally, I am in favour of / against ...).",
+          "modelAnswer": "That's a difficult question. On the one hand, free university education would give everyone the same opportunities, regardless of their family's income. Some people argue that education is a right, not a privilege. On the other hand, it would be extremely expensive, and critics say taxpayers who never went to university would be paying for others. While it is true that it would cost a lot, I think an educated population benefits the whole country in the long run. Personally, I'm in favour of free education, but perhaps students should do some community work in return.",
+          "rubric": [
+            "İki tarafı sunma",
+            "Concession",
+            "Kendi görüşünü belirtme",
+            "Akıcı ve dengeli konuşma"
+          ]
+        },
+        "id": "b2-u12-l4-use"
+      }
+    },
+    {
+      "id": "b2-u12-l5",
+      "number": 5,
+      "title": "Görüş yazısı",
+      "goal": "Giriş, gelişme ve sonuç bölümleriyle, söylem belirleyicileri ve dengeli argümanlar içeren B2 sınav standartlarında bir essay yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek essay: Should the minimum voting age be 16?",
+        "body": "In many countries, people can vote from the age of 18. However, some countries, such as Austria, have lowered the voting age to 16. This essay will examine both sides of the argument before giving my own opinion.\n\nThose in favour of votes at 16 argue that young people are directly affected by political decisions, for example on education and the environment. Moreover, at sixteen, many young people work, pay taxes and can even get married in some countries. Therefore, it seems fair that they should have a voice.\n\nOn the other hand, critics claim that most sixteen-year-olds are not mature enough to make political decisions. They also point out that young people might be easily influenced by their parents, teachers or social media.\n\nWhile it is true that some teenagers are not interested in politics, the same can be said of many adults. In fact, research suggests that people who vote at a young age are more likely to keep voting throughout their lives.\n\nIn conclusion, although there are valid concerns, I believe the benefits of lowering the voting age outweigh the drawbacks. If combined with better political education in schools, votes at 16 could create a more active and engaged generation.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which country is given as an example?",
+            "options": [
+              "Germany",
+              "Austria",
+              "Turkey"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"such as Austria\"",
+            "id": "b2-u12-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the writer's final opinion?",
+            "options": [
+              "Against lowering the voting age",
+              "The benefits outweigh the drawbacks",
+              "No opinion"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the benefits... outweigh the drawbacks\"",
+            "id": "b2-u12-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Görüş yazısının (opinion / for-and-against essay) yapısı:**\n\n| Paragraf | İçerik | Kalıplar |\n|---|---|---|\n| **1. Giriş** | Konuyu tanıt, bağlam ver, yazının amacını söyle | *In many countries, ... / Nowadays, ... / This essay will examine ...* |\n| **2. Gelişme 1** | Bir tarafın argümanları + örnekler | *Those in favour of ... argue that ... / Firstly, ... Moreover, ...* |\n| **3. Gelişme 2** | Diğer tarafın argümanları | *On the other hand, critics claim that ... / They also point out that ...* |\n| **4. (İsteğe bağlı) Concession** | Karşı görüşü cevapla | *While it is true that ..., ...* |\n| **5. Sonuç** | Özetle + kendi görüşün | *In conclusion, / To sum up, / All things considered, ... I believe ...* |\n\n**Essay'de kaçınılması gerekenler:**\n\n- **Kısaltmalar:** ~~don't, it's~~ → do not, it is\n- **Çok samimi dil:** ~~stuff, kids, a lot of~~ → things, children, many / a great deal of\n- **Sonuçta yeni argüman** eklemek\n- **\"I\"yi aşırı kullanmak:** Görüşünüzü genellikle giriş ya da sonuçta belirtin.\n- **Kanıtsız mutlak ifadeler:** ~~Everyone knows that ...~~ → *Many people believe that ...*\n\n**Sınav ipucu (B2 First vb.):** Soruyu dikkatle okuyun, istenen her noktaya cevap verin, kelime sınırına uyun (genellikle 140–190 ya da 200–250) ve 5 dakikanızı plan için ayırın.",
+        "examples": [
+          {
+            "en": "This essay will examine both sides of the argument.",
+            "tr": "Bu yazı tartışmanın her iki tarafını da inceleyecek."
+          },
+          {
+            "en": "Those in favour of the idea argue that it would reduce crime.",
+            "tr": "Fikri destekleyenler bunun suçu azaltacağını savunuyor."
+          },
+          {
+            "en": "All things considered, I believe the advantages outweigh the disadvantages.",
+            "tr": "Her şey göz önüne alındığında avantajların dezavantajlardan ağır bastığına inanıyorum."
+          }
+        ],
+        "turkishNote": "Türkçe kompozisyonda giriş-gelişme-sonuç yapısı bilinir, ama İngilizce essay'de her paragrafın tek bir işlevi vardır ve bu işlev topic sentence'ta açıkça belirtilir. Türk öğrencilerin sık yaptığı hata, sonuç bölümünde yeni bir argüman eklemek ya da girişte çok uzun bir genel giriş yapmaktır (\"Since the beginning of human history...\"). Kısa, net ve konuya odaklı bir giriş en iyisidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Essay girişinde hangisi uygun?",
+          "options": [
+            "Since the beginning of time, humans have always ...",
+            "In many countries, people can vote from the age of 18."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kısa ve konuya odaklı.",
+          "id": "b2-u12-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Essay'de hangisi uygun?",
+          "options": [
+            "Kids don't care about politics.",
+            "Many young people are not interested in politics."
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmî ve temkinli.",
+          "id": "b2-u12-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sonuç bölümünde ne yapılmaz?",
+          "options": [
+            "Görüşü belirtmek",
+            "Yeni bir argüman eklemek",
+            "Özetlemek"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yeni argüman yok.",
+          "id": "b2-u12-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi bir sonuç kalıbı?",
+          "options": [
+            "All things considered,",
+            "For instance,"
+          ],
+          "answerIndex": 0,
+          "explanation": "All things considered.",
+          "id": "b2-u12-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This essay will ___ both sides of the argument. (incelemek)",
+          "answers": [
+            "examine",
+            "discuss",
+            "consider"
+          ],
+          "explanation": "examine.",
+          "id": "b2-u12-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ in favour of the law argue that it would save lives. (Destekleyenler)",
+          "answers": [
+            "Those"
+          ],
+          "explanation": "Those in favour of.",
+          "id": "b2-u12-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The benefits ___ the drawbacks. (ağır basmak)",
+          "answers": [
+            "outweigh"
+          ],
+          "explanation": "outweigh.",
+          "id": "b2-u12-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___, I believe the law should be changed. (Sonuç olarak)",
+          "answers": [
+            "conclusion"
+          ],
+          "explanation": "In conclusion.",
+          "id": "b2-u12-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When you write your essay, plan for five minutes first. Write a short introduction, then two body paragraphs, one for each side. Don't forget your own opinion in the conclusion, and never add a new argument at the end. Finally, check your word count and use formal language.",
+          "prompt": "Konuşana göre sonuç bölümünde ne yapılmamalı?",
+          "options": [
+            "Görüş bildirmek",
+            "Yeni argüman eklemek",
+            "Özet yapmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"never add a new argument at the end\"",
+          "id": "b2-u12-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Resmîleştirin: \"Lots of kids don't eat healthy stuff.\"",
+          "accepted": [
+            "Many children do not eat healthy food.",
+            "Many children do not eat healthy food",
+            "Many children do not eat healthily.",
+            "Many children do not eat healthily",
+            "A large number of children do not eat healthy food.",
+            "A large number of children do not eat healthy food"
+          ],
+          "explanation": "Many children do not eat healthy food.",
+          "id": "b2-u12-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki essay sorusuna cevap verin (200–250 kelime): \"Some people believe that all young people should do one year of community service (helping in hospitals, schools, or environmental projects) after finishing school. Do you agree?\" Giriş, iki gelişme paragrafı ve bir sonuç yazın. Her paragrafa net bir topic sentence koyun; ekleme, karşıtlık, neden-sonuç ve örnek verme yapılarını kullanın; karşı görüşü kabul edip cevaplayın ve resmî bir üslup kullanın.",
+          "modelAnswer": "In some countries, young people are expected to spend a period of time serving their community after leaving school. This essay will consider the advantages and disadvantages of making one year of community service compulsory.\n\nThose in favour of the idea argue that it would benefit both society and young people themselves. Firstly, hospitals, schools and environmental organisations often lack staff, and young volunteers could provide valuable support. Moreover, working with people from different backgrounds would help young people develop skills such as teamwork, patience and communication. As a result, they might become more responsible and confident adults.\n\nOn the other hand, critics claim that a compulsory year would delay young people's education and careers. Some students, for instance, might lose motivation to go to university after a year away from studying. In addition, forcing people to volunteer could mean that they do the work without real interest or care.\n\nWhile it is true that a compulsory year has some drawbacks, I believe these could be reduced with careful planning. For example, young people could choose the type of service that suits their interests, and the year could count towards university applications.\n\nIn conclusion, although community service should perhaps not be strictly compulsory, I believe it should be strongly encouraged. All things considered, the benefits for society and for young people outweigh the disadvantages.",
+          "rubric": [
+            "Net giriş ve yapı",
+            "Topic sentence'lar",
+            "Söylem belirleyicileri ve doğru noktalama",
+            "Concession ve dengeli argüman",
+            "Resmî üslup ve net sonuç"
+          ]
+        },
+        "id": "b2-u12-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Despite it was late, we continued.",
+          "Although it was late, we continued."
+        ],
+        "answerIndex": 1,
+        "explanation": "although + cümle",
+        "id": "b2-u12-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Due to the strike, trains were cancelled.",
+          "Due to there was a strike, trains were cancelled."
+        ],
+        "answerIndex": 0,
+        "explanation": "due to + isim",
+        "id": "b2-u12-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru noktalama:",
+        "options": [
+          "It's useful, however it's expensive.",
+          "It's useful. However, it's expensive."
+        ],
+        "answerIndex": 1,
+        "explanation": "However,",
+        "id": "b2-u12-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kendi görüşünüz:",
+        "options": [
+          "According to me, ...",
+          "In my view, ..."
+        ],
+        "answerIndex": 1,
+        "explanation": "In my view",
+        "id": "b2-u12-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Essay'de hangisi uygun?",
+        "options": [
+          "Lots of people think it's a bad idea.",
+          "Many people believe it is a bad idea."
+        ],
+        "answerIndex": 1,
+        "explanation": "Resmî",
+        "id": "b2-u12-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ the rain, the concert went ahead. (rağmen)",
+        "answers": [
+          "Despite"
+        ],
+        "explanation": "Despite + isim",
+        "id": "b2-u12-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "Cities are noisy, ___ villages are usually quiet. (oysa)",
+        "answers": [
+          "whereas",
+          "while"
+        ],
+        "explanation": "whereas",
+        "id": "b2-u12-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "The factory closed. As a ___, many people lost their jobs.",
+        "answers": [
+          "result"
+        ],
+        "explanation": "As a result",
+        "id": "b2-u12-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "She saved money so ___ she could travel.",
+        "answers": [
+          "that"
+        ],
+        "explanation": "so that",
+        "id": "b2-u12-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ it is true that it costs a lot, it would help many people. (... doğru olsa da)",
+        "answers": [
+          "While",
+          "Although"
+        ],
+        "explanation": "While it is true that",
+        "id": "b2-u12-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "In ___, I believe the advantages outweigh the disadvantages. (Sonuç olarak)",
+        "answers": [
+          "conclusion"
+        ],
+        "explanation": "In conclusion",
+        "id": "b2-u12-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Örnek verme:",
+        "options": [
+          "Many cities, such as Rome and Madrid, are popular.",
+          "Many cities, therefore Rome and Madrid, are popular."
+        ],
+        "answerIndex": 0,
+        "explanation": "such as",
+        "id": "b2-u12-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "On the one hand, working from home saves time and money. On the other hand, many people feel isolated. Personally, I'm in favour of a mix: two days in the office and three at home.",
+        "prompt": "Konuşanın görüşü ne?",
+        "options": [
+          "Tamamen evden çalışmak",
+          "Karma bir model",
+          "Tamamen ofiste çalışmak"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I'm in favour of a mix\"",
+        "id": "b2-u12-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Birleştirin (Although ile başlayın): \"The plan is expensive. It would benefit everyone.\"",
+        "accepted": [
+          "Although the plan is expensive, it would benefit everyone.",
+          "Although the plan is expensive, it would benefit everyone",
+          "Although the plan is expensive it would benefit everyone.",
+          "Although the plan is expensive it would benefit everyone"
+        ],
+        "explanation": "Although the plan is expensive, it would benefit everyone.",
+        "id": "b2-u12-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Aşağıdaki essay sorusuna cevap verin (200–250 kelime): \"Technology has made our lives better, but it has also made people more isolated. Discuss both views and give your own opinion.\" Giriş, iki gelişme ve sonuç paragrafı yazın; topic sentence'lar, ekleme / karşıtlık / neden-sonuç bağlaçları, örnekler, concession ve resmî üslup kullanın.",
+        "modelAnswer": "Over the past twenty years, technology has transformed almost every area of our lives, from the way we work to the way we communicate. While many people believe that it has improved our quality of life, others argue that it has made us more isolated. This essay will examine both views.\n\nThere is no doubt that technology has brought enormous benefits. Firstly, it allows us to stay in touch with friends and family all over the world. For instance, video calls mean that grandparents can see their grandchildren every day, even if they live in another country. Moreover, technology has made many tasks faster and easier, such as banking, shopping and studying. As a result, people have more free time and more opportunities.\n\nOn the other hand, critics claim that technology has damaged face-to-face relationships. Many people spend hours on their phones, even when they are with friends. In addition, some research suggests that heavy use of social media is linked to loneliness, particularly among teenagers.\n\nWhile it is true that technology can be used in unhealthy ways, I would argue that the problem lies in how we use it, not in the technology itself. Used wisely, it can bring people together rather than push them apart.\n\nIn conclusion, although technology has created some new social problems, I believe it has made our lives better overall. The key is to find a healthy balance between our online and offline lives.",
+        "rubric": [
+          "Net giriş ve paragraf yapısı",
+          "Söylem belirleyicileri",
+          "İki görüşün dengeli sunumu",
+          "Concession ve görüş",
+          "Resmî üslup"
+        ],
+        "id": "b2-u12-t15"
+      }
+    ]
+  }
+}
