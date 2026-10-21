@@ -1,0 +1,1522 @@
+{
+  "id": "a1-u01",
+  "level": "A1",
+  "number": 1,
+  "title": "Merhaba!",
+  "titleEn": "Hello!",
+  "canDo": "Kendimi tanıtabilirim: adımı, nereli olduğumu ve yaşımı söyleyebilir, başkalarına aynı soruları sorabilirim.",
+  "grammar": [
+    "to be: am / is / are",
+    "özne zamirleri",
+    "to be: soru, olumsuz, kısa cevaplar"
+  ],
+  "vocabularyThemes": [
+    "selamlaşma",
+    "ülkeler ve milliyetler",
+    "sayılar 0–20"
+  ],
+  "liveClass": {
+    "title": "Tanışma partisi",
+    "goal": "Öğrenciler eşleşip birbirine ad, ülke/şehir ve yaş sorar, sonra eşini gruba tanıtır.",
+    "durationMinutes": 45
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u01-v01",
+      "en": "hello",
+      "tr": "merhaba",
+      "example": "Hello! I'm Deniz.",
+      "exampleTr": "Merhaba! Ben Deniz."
+    },
+    {
+      "id": "a1-u01-v02",
+      "en": "hi",
+      "tr": "selam",
+      "example": "Hi, Tom!",
+      "exampleTr": "Selam, Tom!",
+      "note": "Arkadaşlar arasında kullanılır."
+    },
+    {
+      "id": "a1-u01-v03",
+      "en": "good morning",
+      "tr": "günaydın",
+      "example": "Good morning, Mrs Smith.",
+      "exampleTr": "Günaydın, Bayan Smith."
+    },
+    {
+      "id": "a1-u01-v04",
+      "en": "good afternoon",
+      "tr": "tünaydın / iyi günler",
+      "example": "Good afternoon, everyone.",
+      "exampleTr": "Herkese iyi günler.",
+      "note": "Öğleden sonra selamlaşırken."
+    },
+    {
+      "id": "a1-u01-v05",
+      "en": "good evening",
+      "tr": "iyi akşamlar",
+      "example": "Good evening! Welcome.",
+      "exampleTr": "İyi akşamlar! Hoş geldiniz.",
+      "note": "Karşılaşırken söylenir."
+    },
+    {
+      "id": "a1-u01-v06",
+      "en": "good night",
+      "tr": "iyi geceler",
+      "example": "Good night, Mum.",
+      "exampleTr": "İyi geceler, anne.",
+      "note": "Yalnızca ayrılırken ya da yatarken söylenir, selamlaşmada değil."
+    },
+    {
+      "id": "a1-u01-v07",
+      "en": "goodbye",
+      "tr": "hoşça kal",
+      "example": "Goodbye, see you tomorrow.",
+      "exampleTr": "Hoşça kal, yarın görüşürüz."
+    },
+    {
+      "id": "a1-u01-v08",
+      "en": "see you",
+      "tr": "görüşürüz",
+      "example": "See you later!",
+      "exampleTr": "Sonra görüşürüz!"
+    },
+    {
+      "id": "a1-u01-v09",
+      "en": "Nice to meet you.",
+      "tr": "Tanıştığımıza memnun oldum.",
+      "example": "Hi, I'm Ali. – Nice to meet you, Ali.",
+      "exampleTr": "Selam, ben Ali. – Tanıştığımıza memnun oldum, Ali."
+    },
+    {
+      "id": "a1-u01-v10",
+      "en": "name",
+      "tr": "isim, ad",
+      "example": "My name is Elif.",
+      "exampleTr": "Benim adım Elif."
+    },
+    {
+      "id": "a1-u01-v11",
+      "en": "country",
+      "tr": "ülke",
+      "example": "Turkey is a big country.",
+      "exampleTr": "Türkiye büyük bir ülke."
+    },
+    {
+      "id": "a1-u01-v12",
+      "en": "Turkey / Turkish",
+      "tr": "Türkiye / Türk, Türkçe",
+      "example": "I'm from Turkey. I'm Turkish.",
+      "exampleTr": "Türkiye'denim. Türk'üm.",
+      "note": "Milliyetler büyük harfle yazılır: Turkish."
+    },
+    {
+      "id": "a1-u01-v13",
+      "en": "England / English",
+      "tr": "İngiltere / İngiliz, İngilizce",
+      "example": "She's from England. She's English.",
+      "exampleTr": "O İngiltere'den. İngiliz."
+    },
+    {
+      "id": "a1-u01-v14",
+      "en": "the USA / American",
+      "tr": "ABD / Amerikalı",
+      "example": "They're from the USA. They're American.",
+      "exampleTr": "Onlar ABD'den. Amerikalılar.",
+      "note": "the USA, the UK: \"the\" ile kullanılır."
+    },
+    {
+      "id": "a1-u01-v15",
+      "en": "Germany / German",
+      "tr": "Almanya / Alman, Almanca",
+      "example": "Hans is from Germany.",
+      "exampleTr": "Hans Almanya'dan."
+    },
+    {
+      "id": "a1-u01-v16",
+      "en": "Spain / Spanish",
+      "tr": "İspanya / İspanyol",
+      "example": "Carmen is Spanish.",
+      "exampleTr": "Carmen İspanyol."
+    },
+    {
+      "id": "a1-u01-v17",
+      "en": "Japan / Japanese",
+      "tr": "Japonya / Japon",
+      "example": "Yuki is from Japan.",
+      "exampleTr": "Yuki Japonya'dan."
+    },
+    {
+      "id": "a1-u01-v18",
+      "en": "Brazil / Brazilian",
+      "tr": "Brezilya / Brezilyalı",
+      "example": "Lucas is Brazilian.",
+      "exampleTr": "Lucas Brezilyalı."
+    },
+    {
+      "id": "a1-u01-v19",
+      "en": "old",
+      "tr": "yaşında; yaşlı, eski",
+      "example": "I'm 25 years old.",
+      "exampleTr": "25 yaşındayım.",
+      "note": "Yaş \"be\" ile söylenir: I am 25. (\"I have 25\" yanlıştır.)"
+    },
+    {
+      "id": "a1-u01-v20",
+      "en": "friend",
+      "tr": "arkadaş",
+      "example": "This is my friend, Can.",
+      "exampleTr": "Bu benim arkadaşım, Can."
+    },
+    {
+      "id": "a1-u01-v21",
+      "en": "student",
+      "tr": "öğrenci",
+      "example": "I'm a student.",
+      "exampleTr": "Ben bir öğrenciyim.",
+      "note": "Tekil meslek ve rollerde a/an kullanılır."
+    },
+    {
+      "id": "a1-u01-v22",
+      "en": "teacher",
+      "tr": "öğretmen",
+      "example": "She's an English teacher.",
+      "exampleTr": "O bir İngilizce öğretmeni."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u01-l1",
+      "number": 1,
+      "title": "Selam!",
+      "goal": "İnsanlarla selamlaşıp adımı söyleyebilirim.",
+      "warmup": {
+        "source": "none",
+        "note": "İlk ders, tekrar edilecek kart yok."
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İlk gün",
+        "lines": [
+          {
+            "speaker": "Emma",
+            "text": "Good morning! I'm Emma. I'm your teacher."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Good morning! My name is Deniz."
+          },
+          {
+            "speaker": "Emma",
+            "text": "Nice to meet you, Deniz."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Nice to meet you, too."
+          },
+          {
+            "speaker": "Emma",
+            "text": "And what's your name?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Hi! I'm Ali."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's the teacher's name?",
+            "options": [
+              "Deniz",
+              "Emma",
+              "Ali"
+            ],
+            "answerIndex": 1,
+            "explanation": "Öğretmen \"I'm Emma. I'm your teacher.\" diyor.",
+            "id": "a1-u01-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What time of day is it?",
+            "options": [
+              "Morning",
+              "Evening",
+              "Night"
+            ],
+            "answerIndex": 0,
+            "explanation": "Herkes \"Good morning\" diyor, yani sabah.",
+            "id": "a1-u01-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Kendimizi tanıtmanın iki yolu var:\n\n- **I'm** + isim → I'm Deniz. (Günlük, doğal)\n- **My name is** + isim → My name is Deniz. (Biraz daha resmi)\n\nKarşımızdakinin adını sormak için: **What's your name?**\n\nTanıştıktan sonra **Nice to meet you.** deriz. Cevap: **Nice to meet you, too.**",
+        "examples": [
+          {
+            "en": "Hi! I'm Can.",
+            "tr": "Selam! Ben Can."
+          },
+          {
+            "en": "My name is Elif.",
+            "tr": "Benim adım Elif."
+          },
+          {
+            "en": "What's your name?",
+            "tr": "Adın ne?"
+          }
+        ],
+        "turkishNote": "\"Good night\" bir selamlaşma değildir. Akşam birine rastladığınızda \"Good evening\" deyin. \"Good night\" yalnızca ayrılırken ya da yatmadan önce söylenir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Good morning",
+              "right": "Günaydın"
+            },
+            {
+              "left": "Good evening",
+              "right": "İyi akşamlar"
+            },
+            {
+              "left": "Good night",
+              "right": "İyi geceler"
+            },
+            {
+              "left": "Goodbye",
+              "right": "Hoşça kal"
+            }
+          ],
+          "explanation": "Sabah, akşam ve gece selamlarını ayırt edin.",
+          "id": "a1-u01-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Saat 20:00. Bir arkadaşınızla karşılaşıyorsunuz. Ne dersiniz?",
+          "options": [
+            "Good night!",
+            "Good evening!",
+            "Good morning!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Akşam karşılaşınca \"Good evening\" denir. \"Good night\" yalnızca ayrılırken söylenir.",
+          "wrongFeedback": {
+            "0": "Dikkat! \"Good night\" yalnızca vedalaşırken kullanılır."
+          },
+          "id": "a1-u01-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ name is Deniz.",
+          "answers": [
+            "My"
+          ],
+          "explanation": "\"Benim adım\" = My name.",
+          "hint": "Benim",
+          "id": "a1-u01-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hi, ___ Tom.",
+          "answers": [
+            "I'm",
+            "I am"
+          ],
+          "explanation": "\"Ben ...\" = I'm ... (I am'in kısa hali)",
+          "id": "a1-u01-l1-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "your",
+            "What's",
+            "name",
+            "?"
+          ],
+          "answer": "What's your name?",
+          "explanation": "Soru kelimesi (What) başa gelir.",
+          "translation": "Adın ne?",
+          "id": "a1-u01-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Nice to meet you.\" cümlesine en doğal cevap hangisi?",
+          "options": [
+            "Nice to meet you, too.",
+            "Yes, I am.",
+            "Good night."
+          ],
+          "answerIndex": 0,
+          "explanation": "Aynı cümleyi \"too\" (de/da) ekleyerek geri söyleriz.",
+          "id": "a1-u01-l1-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi! My name is Sara. Nice to meet you.",
+          "prompt": "Konuşanın adı ne?",
+          "options": [
+            "Sara",
+            "Sam",
+            "Zara"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"My name is Sara.\"",
+          "id": "a1-u01-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "My",
+            "Elif",
+            "name"
+          ],
+          "answer": "My name is Elif.",
+          "explanation": "İngilizcede özne (My name) önce, fiil (is) sonra gelir.",
+          "translation": "Benim adım Elif.",
+          "id": "a1-u01-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Selam! Ben Can.\"",
+          "accepted": [
+            "Hi! I'm Can.",
+            "Hi, I'm Can.",
+            "Hi! I am Can.",
+            "Hi, I am Can.",
+            "Hello! I'm Can.",
+            "Hello, I'm Can.",
+            "Hello! I am Can.",
+            "Hello, I am Can."
+          ],
+          "explanation": "\"Ben ...\" = I'm ...",
+          "id": "a1-u01-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sabah 9'da öğretmeninizi selamlıyorsunuz:",
+          "options": [
+            "Good morning!",
+            "Good evening!",
+            "Goodbye!"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sabah selamı: Good morning.",
+          "id": "a1-u01-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendinizi tanıtın: selam verin ve adınızı söyleyin.",
+          "modelAnswer": "Hello! My name is Deniz. Nice to meet you.",
+          "rubric": [
+            "Bir selamlaşma kelimesi kullandı (Hello/Hi/Good morning)",
+            "Adını I'm ya da My name is ile söyledi",
+            "Nice to meet you dedi"
+          ]
+        },
+        "id": "a1-u01-l1-use"
+      }
+    },
+    {
+      "id": "a1-u01-l2",
+      "number": 2,
+      "title": "Ben, sen, o",
+      "goal": "\"to be\" fiiliyle kendimi ve başkalarını anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sınıfta",
+        "lines": [
+          {
+            "speaker": "Deniz",
+            "text": "Ali, this is Mia. She's my friend."
+          },
+          {
+            "speaker": "Ali",
+            "text": "Hi, Mia! I'm Ali."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Hi, Ali! Are you a student here?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Yes, I am. Deniz and I are classmates."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Great! And who's he?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "He's Mr Brown. He's our teacher."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Mia?",
+            "options": [
+              "Deniz's teacher",
+              "Deniz's friend",
+              "Ali's sister"
+            ],
+            "answerIndex": 1,
+            "explanation": "Deniz \"She's my friend.\" diyor.",
+            "id": "a1-u01-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Mr Brown?",
+            "options": [
+              "A student",
+              "A teacher",
+              "Mia's friend"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He's our teacher.\"",
+            "id": "a1-u01-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**to be** fiili Türkçedeki \"-im, -sin, -dir\" eklerinin karşılığıdır.\n\n| Özne | to be | Kısa hali |\n|---|---|---|\n| I | am | I'm |\n| you | are | you're |\n| he / she / it | is | he's / she's / it's |\n| we | are | we're |\n| they | are | they're |\n\n**he** erkek, **she** kadın, **it** ise eşya ve hayvanlar için kullanılır. Türkçedeki \"o\" İngilizcede üçe ayrılır.",
+        "examples": [
+          {
+            "en": "I'm a student.",
+            "tr": "Ben öğrenciyim."
+          },
+          {
+            "en": "She's my friend.",
+            "tr": "O benim arkadaşım."
+          },
+          {
+            "en": "It's a book.",
+            "tr": "O bir kitap."
+          },
+          {
+            "en": "They're teachers.",
+            "tr": "Onlar öğretmen."
+          }
+        ],
+        "turkishNote": "Türkçede \"Ben öğrenciyim\" derken ayrı bir fiil yoktur. İngilizcede ise am/is/are mutlaka gerekir. \"I student\" yanlıştır, doğrusu \"I'm a student\". Tek bir meslek ya da rol söylerken \"a\" ekleriz."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I",
+              "right": "am"
+            },
+            {
+              "left": "she",
+              "right": "is"
+            },
+            {
+              "left": "they",
+              "right": "are"
+            },
+            {
+              "left": "you",
+              "right": "are"
+            },
+            {
+              "left": "it",
+              "right": "is"
+            }
+          ],
+          "explanation": "I → am; he/she/it → is; you/we/they → are.",
+          "id": "a1-u01-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ my friend.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "she → is",
+          "id": "a1-u01-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ students.",
+          "answers": [
+            "are"
+          ],
+          "explanation": "we → are",
+          "id": "a1-u01-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ a teacher.",
+          "answers": [
+            "am"
+          ],
+          "explanation": "I → am",
+          "id": "a1-u01-l2-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Mr Brown is a teacher. ___ is from London.",
+          "options": [
+            "She",
+            "He",
+            "It"
+          ],
+          "answerIndex": 1,
+          "explanation": "Mr (Bay) bir erkek, bu yüzden He.",
+          "id": "a1-u01-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "This is my phone. ___ is new.",
+          "options": [
+            "He",
+            "She",
+            "It"
+          ],
+          "answerIndex": 2,
+          "explanation": "Eşyalar için it kullanılır.",
+          "id": "a1-u01-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I student.",
+            "I'm a student.",
+            "I'm student."
+          ],
+          "answerIndex": 1,
+          "explanation": "to be fiili (am) ve tekil meslekte \"a\" gerekir.",
+          "wrongFeedback": {
+            "0": "Fiil eksik! İngilizcede \"am\" olmadan cümle kurulmaz.",
+            "2": "Tek kişiden bahsederken meslekten önce \"a\" gelir."
+          },
+          "id": "a1-u01-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "are",
+            "They",
+            "my",
+            "friends"
+          ],
+          "answer": "They are my friends.",
+          "explanation": "Özne + to be + geri kalanı.",
+          "translation": "Onlar benim arkadaşlarım.",
+          "id": "a1-u01-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Kısaltın: \"They are\"",
+          "accepted": [
+            "They're",
+            "they're"
+          ],
+          "explanation": "they + are = they're",
+          "id": "a1-u01-l2-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "This is Ken. He's from Japan. He's a student.",
+          "prompt": "Ken kim?",
+          "options": [
+            "Bir öğretmen",
+            "Bir öğrenci",
+            "Bir doktor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"He's a student.\"",
+          "id": "a1-u01-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir arkadaşınızı 2–3 cümleyle tanıtın.",
+          "modelAnswer": "This is Selin. She's my friend. She's a teacher.",
+          "rubric": [
+            "Arkadaşını This is ile tanıttı",
+            "He/She doğru seçildi",
+            "is doğru kullanıldı",
+            "Meslekten önce a/an var"
+          ]
+        },
+        "id": "a1-u01-l2-use"
+      }
+    },
+    {
+      "id": "a1-u01-l3",
+      "number": 3,
+      "title": "Nerelisin?",
+      "goal": "Nereli olduğumu söyleyip başkalarına sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Dil okulunda",
+        "lines": [
+          {
+            "speaker": "Lucas",
+            "text": "Hi, I'm Lucas. Where are you from?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "I'm from Turkey. I'm from Izmir. And you?"
+          },
+          {
+            "speaker": "Lucas",
+            "text": "I'm from Brazil. I'm Brazilian."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Cool! And where's Yuki from?"
+          },
+          {
+            "speaker": "Lucas",
+            "text": "She's from Japan. She's Japanese."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Lucas from?",
+            "options": [
+              "Spain",
+              "Brazil",
+              "Japan"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm from Brazil.\"",
+            "id": "a1-u01-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What nationality is Yuki?",
+            "options": [
+              "Japanese",
+              "Chinese",
+              "Turkish"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"She's Japanese.\"",
+            "id": "a1-u01-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Nereli olduğunu sormak: **Where are you from?**\n\nCevap vermenin iki yolu var:\n\n- **I'm from** + ülke → I'm from Turkey.\n- **I'm** + milliyet → I'm Turkish.\n\nBaşkası için: **Where is he/she from?** → **He's/She's from Spain.**",
+        "examples": [
+          {
+            "en": "Where are you from?",
+            "tr": "Nerelisin?"
+          },
+          {
+            "en": "I'm from Turkey.",
+            "tr": "Türkiye'denim."
+          },
+          {
+            "en": "She's Spanish.",
+            "tr": "O İspanyol."
+          }
+        ],
+        "turkishNote": "Ülke ve milliyet isimleri her zaman büyük harfle başlar: Turkish, English. Ayrıca \"I'm from Turkish\" yanlıştır. \"from\" ülkeyle (Turkey), milliyet ise \"from\" olmadan (I'm Turkish) kullanılır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Turkey",
+              "right": "Turkish"
+            },
+            {
+              "left": "Germany",
+              "right": "German"
+            },
+            {
+              "left": "Spain",
+              "right": "Spanish"
+            },
+            {
+              "left": "Japan",
+              "right": "Japanese"
+            },
+            {
+              "left": "Brazil",
+              "right": "Brazilian"
+            }
+          ],
+          "explanation": "Ülke → milliyet",
+          "id": "a1-u01-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm from Turkish.",
+            "I'm from Turkey.",
+            "I'm Turkey."
+          ],
+          "answerIndex": 1,
+          "explanation": "from + ülke (Turkey). Milliyet ise from olmadan kullanılır: I'm Turkish.",
+          "wrongFeedback": {
+            "0": "\"from\" ülkeyle kullanılır: from Turkey.",
+            "2": "Ülke adıyla \"from\" gerekir: I'm from Turkey."
+          },
+          "id": "a1-u01-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Where ___ you from?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "you → are",
+          "id": "a1-u01-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hans is ___ Germany.",
+          "answers": [
+            "from"
+          ],
+          "explanation": "Ülkeden önce from gelir.",
+          "id": "a1-u01-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Carmen is from Spain. She's ___.",
+          "answers": [
+            "Spanish"
+          ],
+          "explanation": "Spain → Spanish",
+          "id": "a1-u01-l3-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "Where",
+            "from",
+            "she",
+            "?"
+          ],
+          "answer": "Where is she from?",
+          "explanation": "Soru kelimesi + is + özne + from?",
+          "translation": "O nereli?",
+          "id": "a1-u01-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "They're from the USA. They're ___.",
+          "options": [
+            "English",
+            "American",
+            "Americans from"
+          ],
+          "answerIndex": 1,
+          "explanation": "the USA → American",
+          "id": "a1-u01-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hello, I'm Pierre. I'm from France. I'm French.",
+          "prompt": "Pierre nereli?",
+          "options": [
+            "İngiltere",
+            "Fransa",
+            "İspanya"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'm from France.\"",
+          "id": "a1-u01-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Türkiye'denim.\"",
+          "accepted": [
+            "I'm from Turkey.",
+            "I am from Turkey.",
+            "I'm from Turkey",
+            "I am from Turkey",
+            "I'm from Türkiye.",
+            "I am from Türkiye.",
+            "I'm from Türkiye",
+            "I am from Türkiye"
+          ],
+          "explanation": "I'm from + ülke",
+          "id": "a1-u01-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi yazım açısından doğru?",
+          "options": [
+            "I'm turkish.",
+            "I'm Turkish.",
+            "I'm TURKISH."
+          ],
+          "answerIndex": 1,
+          "explanation": "Milliyetler büyük harfle başlar.",
+          "id": "a1-u01-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size \"Where are you from?\" diye soruyor. Ülkenizi ve şehrinizi söyleyin.",
+          "modelAnswer": "I'm from Turkey. I'm from Ankara. I'm Turkish.",
+          "rubric": [
+            "I'm from + ülke yapısını kullandı",
+            "Milliyeti doğru söyledi",
+            "Telaffuz anlaşılır"
+          ]
+        },
+        "id": "a1-u01-l3-use"
+      }
+    },
+    {
+      "id": "a1-u01-l4",
+      "number": 4,
+      "title": "Kaç yaşındasın?",
+      "goal": "0–20 arası sayıları kullanıp yaşımı söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kayıt masası",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Hello! What's your name, please?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "Elif Kaya."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "How old are you, Elif?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "I'm nineteen."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "And what's your phone number?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "It's five-three-two, four-one-eight, seven-seven-zero-six."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How old is Elif?",
+            "options": [
+              "9",
+              "19",
+              "90"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm nineteen.\" = 19",
+            "id": "a1-u01-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Elif's phone number begins with…",
+            "options": [
+              "532",
+              "523",
+              "352"
+            ],
+            "answerIndex": 0,
+            "explanation": "five-three-two = 532",
+            "id": "a1-u01-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sayılar:** 0 zero, 1 one, 2 two, 3 three, 4 four, 5 five, 6 six, 7 seven, 8 eight, 9 nine, 10 ten, 11 eleven, 12 twelve, 13 thirteen, 14 fourteen, 15 fifteen, 16 sixteen, 17 seventeen, 18 eighteen, 19 nineteen, 20 twenty\n\nYaş sormak: **How old are you?**\nCevap: **I'm 25.** ya da **I'm 25 years old.**\n\nTelefon numaraları rakam rakam okunur. 0 için \"zero\" ya da \"oh\" denir. Yan yana iki aynı rakam için \"double\" da kullanılabilir: 77 = double seven.",
+        "examples": [
+          {
+            "en": "How old are you?",
+            "tr": "Kaç yaşındasın?"
+          },
+          {
+            "en": "I'm 19.",
+            "tr": "19 yaşındayım."
+          },
+          {
+            "en": "He's twelve years old.",
+            "tr": "O on iki yaşında."
+          }
+        ],
+        "turkishNote": "İngilizcede yaş \"have\" ile değil, \"be\" ile söylenir. \"I have 25 years\" yanlıştır, doğrusu \"I'm 25\". \"I'm 25 years\" da eksiktir; ya \"I'm 25\" ya da \"I'm 25 years old\" deyin."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "13",
+              "right": "thirteen"
+            },
+            {
+              "left": "15",
+              "right": "fifteen"
+            },
+            {
+              "left": "12",
+              "right": "twelve"
+            },
+            {
+              "left": "20",
+              "right": "twenty"
+            },
+            {
+              "left": "8",
+              "right": "eight"
+            }
+          ],
+          "explanation": "Sayıları eşleştirin. -teen ile biten sayılar 13–19 arasıdır.",
+          "id": "a1-u01-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Eleven\" kaçtır?",
+          "options": [
+            "7",
+            "11",
+            "12"
+          ],
+          "answerIndex": 1,
+          "explanation": "eleven = 11",
+          "id": "a1-u01-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I have 20 years.",
+            "I'm 20 years.",
+            "I'm 20."
+          ],
+          "answerIndex": 2,
+          "explanation": "Yaş be ile söylenir: I'm 20 / I'm 20 years old.",
+          "wrongFeedback": {
+            "0": "Yaş \"have\" ile söylenmez. I'm 20 deyin.",
+            "1": "\"years\" kullanırsanız sonuna \"old\" ekleyin: I'm 20 years old."
+          },
+          "id": "a1-u01-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "How ___ are you?",
+          "answers": [
+            "old"
+          ],
+          "explanation": "Yaş sorusu: How old...?",
+          "id": "a1-u01-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ seventeen.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "she → is",
+          "id": "a1-u01-l4-p05"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'm fourteen years old.",
+          "prompt": "Konuşan kaç yaşında?",
+          "options": [
+            "4",
+            "14",
+            "40"
+          ],
+          "answerIndex": 1,
+          "explanation": "fourteen = 14 (-teen)",
+          "id": "a1-u01-l4-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "My number is zero-five-four-four, six-one-two.",
+          "prompt": "Numara hangisi?",
+          "options": [
+            "0544 612",
+            "0545 612",
+            "0544 621"
+          ],
+          "answerIndex": 0,
+          "explanation": "zero-five-four-four, six-one-two",
+          "id": "a1-u01-l4-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Rakamla yazın: \"sixteen\"",
+          "accepted": [
+            "16"
+          ],
+          "explanation": "sixteen = 16",
+          "id": "a1-u01-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Yazıyla yazın: 18",
+          "accepted": [
+            "eighteen",
+            "Eighteen"
+          ],
+          "explanation": "18 = eighteen. Dikkat: \"eightteen\" değil, tek t ile yazılır.",
+          "id": "a1-u01-l4-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "old",
+            "How",
+            "are",
+            "?"
+          ],
+          "answer": "How old are you?",
+          "explanation": "How old + are + you?",
+          "translation": "Kaç yaşındasın?",
+          "id": "a1-u01-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Adınızı, nereli olduğunuzu ve yaşınızı söyleyin.",
+          "modelAnswer": "Hi, I'm Deniz. I'm from Turkey. I'm twenty-three years old.",
+          "rubric": [
+            "Adını söyledi",
+            "Nereli olduğunu söyledi",
+            "Yaşı be ile söyledi (I'm ...)",
+            "Sayıları doğru telaffuz etti"
+          ]
+        },
+        "id": "a1-u01-l4-use"
+      }
+    },
+    {
+      "id": "a1-u01-l5",
+      "number": 5,
+      "title": "Evet, öyleyim. Hayır, değilim.",
+      "goal": "\"to be\" ile soru sorup olumsuz cevap verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yanlış tahmin",
+        "lines": [
+          {
+            "speaker": "Tom",
+            "text": "Are you Spanish?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "No, I'm not. I'm Turkish."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Oh, sorry! Is Ali Turkish, too?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, he is. We're from Izmir."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Are Mia and Yuki from Japan?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "No, they aren't. Yuki is from Japan, but Mia isn't. She's from England."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What nationality is Deniz?",
+            "options": [
+              "Spanish",
+              "Turkish",
+              "English"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, I'm not. I'm Turkish.\"",
+            "id": "a1-u01-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Mia from?",
+            "options": [
+              "Japan",
+              "England",
+              "Turkey"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She's from England.\"",
+            "id": "a1-u01-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Soru:** to be fiili öznenin önüne geçer.\n\n- You are Turkish. → **Are you** Turkish?\n- He is a teacher. → **Is he** a teacher?\n\n**Olumsuz:** to be fiilinden sonra **not** gelir.\n\n- I am not → **I'm not**\n- is not → **isn't**\n- are not → **aren't**\n\n**Kısa cevaplar:**\n\n- Yes, I am. / No, I'm not.\n- Yes, she is. / No, she isn't.\n- Yes, they are. / No, they aren't.",
+        "examples": [
+          {
+            "en": "Are you a student? – Yes, I am.",
+            "tr": "Öğrenci misin? – Evet."
+          },
+          {
+            "en": "Is this your bag? – No, it isn't.",
+            "tr": "Bu senin çantan mı? – Hayır."
+          },
+          {
+            "en": "We aren't from London.",
+            "tr": "Biz Londralı değiliz."
+          }
+        ],
+        "turkishNote": "Olumlu kısa cevaplarda kısaltma yapılmaz. \"Yes, I'm.\" yanlıştır, doğrusu \"Yes, I am.\" Olumsuzda ise kısaltma doğaldır: No, I'm not. Ayrıca \"I amn't\" diye bir kısaltma yoktur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Are you a teacher?\" Siz öğrencisiniz. Cevabınız:",
+          "options": [
+            "Yes, I am.",
+            "No, I'm not.",
+            "No, I amn't."
+          ],
+          "answerIndex": 1,
+          "explanation": "Öğretmen değilsiniz, yani No, I'm not.",
+          "wrongFeedback": {
+            "2": "\"amn't\" diye bir kısaltma yok. No, I'm not deyin."
+          },
+          "id": "a1-u01-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Yes, I'm.",
+            "Yes, I am."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumlu kısa cevapta kısaltma yapılmaz.",
+          "id": "a1-u01-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ she from Spain? – Yes, she is.",
+          "answers": [
+            "Is"
+          ],
+          "explanation": "she → is, soruda başa gelir.",
+          "id": "a1-u01-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ from England. They're from the USA.",
+          "answers": [
+            "aren't",
+            "are not"
+          ],
+          "explanation": "Olumsuz: are not = aren't",
+          "id": "a1-u01-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ a student. He's a teacher.",
+          "answers": [
+            "isn't",
+            "is not"
+          ],
+          "explanation": "Olumsuz: is not = isn't",
+          "id": "a1-u01-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Are",
+            "Turkish",
+            "?"
+          ],
+          "answer": "Are you Turkish?",
+          "explanation": "Soruda to be başa gelir.",
+          "translation": "Türk müsün?",
+          "id": "a1-u01-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "not",
+            "I'm",
+            "English"
+          ],
+          "answer": "I'm not English.",
+          "explanation": "Olumsuz: I'm + not",
+          "translation": "İngiliz değilim.",
+          "id": "a1-u01-l5-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is Ali from Izmir?\" (Ali İzmirli.)",
+          "options": [
+            "Yes, he is.",
+            "Yes, he's.",
+            "Yes, Ali is it."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kısa cevap: Yes, he is.",
+          "id": "a1-u01-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Is Emma a teacher? Yes, she is. Is she from the USA? No, she isn't. She's from England.",
+          "prompt": "Emma nereli?",
+          "options": [
+            "ABD",
+            "İngiltere",
+            "İspanya"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"She's from England.\"",
+          "id": "a1-u01-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Biz öğrenci değiliz.\"",
+          "accepted": [
+            "We aren't students.",
+            "We are not students.",
+            "We're not students.",
+            "We aren't students",
+            "We are not students",
+            "We're not students"
+          ],
+          "explanation": "we + aren't + students (çoğul olduğu için a yok)",
+          "id": "a1-u01-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 3 evet/hayır sorusu soracak (örneğin \"Are you from Spain?\"). Kısa cevaplarla yanıtlayın ve doğru bilgiyi ekleyin.",
+          "modelAnswer": "No, I'm not. I'm from Turkey.",
+          "rubric": [
+            "Kısa cevap biçimi doğru (Yes, I am / No, I'm not)",
+            "Olumlu kısa cevapta kısaltma yok",
+            "Doğru bilgiyi tam cümleyle ekledi"
+          ]
+        },
+        "id": "a1-u01-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Akşam 19:00'da komşunuzla karşılaşıyorsunuz:",
+        "options": [
+          "Good night!",
+          "Good evening!",
+          "Good morning!"
+        ],
+        "answerIndex": 1,
+        "explanation": "Karşılaşırken akşam selamı: Good evening.",
+        "id": "a1-u01-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ name is Can.",
+        "options": [
+          "I",
+          "My",
+          "Me"
+        ],
+        "answerIndex": 1,
+        "explanation": "Benim adım = My name",
+        "id": "a1-u01-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "Nice to meet you. – Nice to meet you, ___.",
+        "answers": [
+          "too"
+        ],
+        "explanation": "Karşılık verirken too eklenir.",
+        "id": "a1-u01-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "You ___ my best friend.",
+        "answers": [
+          "are"
+        ],
+        "explanation": "you → are",
+        "id": "a1-u01-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "This is my sister. ___ is a doctor.",
+        "options": [
+          "He",
+          "She",
+          "It"
+        ],
+        "answerIndex": 1,
+        "explanation": "Kız kardeş → she",
+        "id": "a1-u01-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm a student.",
+          "I student.",
+          "I'm student."
+        ],
+        "answerIndex": 0,
+        "explanation": "I'm + a + meslek",
+        "id": "a1-u01-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She's from Spanish.",
+          "She's from Spain.",
+          "She from Spain."
+        ],
+        "answerIndex": 1,
+        "explanation": "from + ülke, ve is gerekli.",
+        "id": "a1-u01-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Yuki is from Japan. She's ___.",
+        "answers": [
+          "Japanese"
+        ],
+        "explanation": "Japan → Japanese",
+        "id": "a1-u01-t08"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "from",
+          "Where",
+          "they",
+          "are",
+          "?"
+        ],
+        "answer": "Where are they from?",
+        "explanation": "Where + are + they + from?",
+        "translation": "Onlar nereli?",
+        "id": "a1-u01-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I have 30 years.",
+          "I'm 30.",
+          "I'm 30 years."
+        ],
+        "answerIndex": 1,
+        "explanation": "Yaş be ile: I'm 30 (years old).",
+        "id": "a1-u01-t10"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Yazıyla yazın: 15",
+        "accepted": [
+          "fifteen",
+          "Fifteen"
+        ],
+        "explanation": "15 = fifteen",
+        "id": "a1-u01-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "Hi, I'm Marco. I'm twenty. I'm from Italy.",
+        "prompt": "Marco kaç yaşında?",
+        "options": [
+          "12",
+          "20",
+          "22"
+        ],
+        "answerIndex": 1,
+        "explanation": "twenty = 20",
+        "id": "a1-u01-t12"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Are you from Ankara?\" (İstanbulsunuz.)",
+        "options": [
+          "Yes, I am.",
+          "No, I'm not.",
+          "No, I amn't."
+        ],
+        "answerIndex": 1,
+        "explanation": "No, I'm not.",
+        "id": "a1-u01-t13"
+      },
+      {
+        "type": "gapFill",
+        "text": "My parents ___ teachers. They're doctors.",
+        "answers": [
+          "aren't",
+          "are not"
+        ],
+        "explanation": "Olumsuz çoğul: aren't",
+        "id": "a1-u01-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Kendinizi 4 cümleyle tanıtın: adınız, nereli olduğunuz, yaşınız ve mesleğiniz/okulunuz.",
+        "modelAnswer": "Hi! My name is Elif. I'm from Turkey. I'm nineteen years old. I'm a student.",
+        "rubric": [
+          "Selamlaşma ve isim",
+          "from + ülke",
+          "Yaş be ile",
+          "Meslekte a/an",
+          "Büyük harf ve noktalama doğru"
+        ],
+        "id": "a1-u01-t15"
+      }
+    ]
+  }
+}
