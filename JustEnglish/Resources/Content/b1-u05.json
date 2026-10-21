@@ -1,0 +1,1430 @@
+{
+  "id": "b1-u05",
+  "level": "B1",
+  "number": 5,
+  "title": "Haberler",
+  "titleEn": "In the News",
+  "canDo": "Haberleri ve geçmişteki olayları anlatırken olayların sırasını past perfect ile netleştirebilir, past simple, past continuous ve past perfect'i bir arada kullanarak bir hikâye ya da haber aktarabilirim.",
+  "grammar": [
+    "past perfect (had + V3)",
+    "past simple ve past perfect (olay sırası)",
+    "by the time / already / before / after / when",
+    "anlatı zamanları (simple, continuous, perfect)",
+    "haberlere tepki verme"
+  ],
+  "vocabularyThemes": [
+    "haberler",
+    "olaylar ve kazalar",
+    "haber fiilleri"
+  ],
+  "liveClass": {
+    "title": "Son dakika!",
+    "durationMinutes": 45,
+    "goal": "Gruplar, öğretmenin verdiği üç başlıktan birini seçip bir haber programı hazırlar. Bir öğrenci spiker, diğerleri muhabir ve görgü tanığı olur; olayı anlatı zamanlarıyla (was doing, had done, did) aktarırlar. Diğer gruplar Did you hear about...? / Really? What happened next? kalıplarıyla tepki verip soru sorar."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u05-v01",
+      "en": "headline",
+      "tr": "manşet, başlık",
+      "example": "Did you see the headline this morning?",
+      "exampleTr": "Bu sabahki manşeti gördün mü?"
+    },
+    {
+      "id": "b1-u05-v02",
+      "en": "article",
+      "tr": "makale, haber yazısı",
+      "example": "I read an interesting article about sleep.",
+      "exampleTr": "Uyku hakkında ilginç bir yazı okudum."
+    },
+    {
+      "id": "b1-u05-v03",
+      "en": "journalist",
+      "tr": "gazeteci",
+      "example": "The journalist interviewed the mayor.",
+      "exampleTr": "Gazeteci belediye başkanıyla röportaj yaptı."
+    },
+    {
+      "id": "b1-u05-v04",
+      "en": "report",
+      "tr": "haber vermek, bildirmek; rapor",
+      "example": "The TV channel reported the story live.",
+      "exampleTr": "Kanal haberi canlı verdi."
+    },
+    {
+      "id": "b1-u05-v05",
+      "en": "witness",
+      "tr": "görgü tanığı",
+      "example": "A witness saw the whole accident.",
+      "exampleTr": "Bir görgü tanığı bütün kazayı gördü."
+    },
+    {
+      "id": "b1-u05-v06",
+      "en": "accident",
+      "tr": "kaza",
+      "example": "There was a car accident on the motorway.",
+      "exampleTr": "Otoyolda bir trafik kazası oldu."
+    },
+    {
+      "id": "b1-u05-v07",
+      "en": "injured",
+      "tr": "yaralı",
+      "example": "Two people are injured.",
+      "exampleTr": "İki kişi yaralı.",
+      "note": "injury (yara, sakatlık)"
+    },
+    {
+      "id": "b1-u05-v08",
+      "en": "rescue",
+      "tr": "kurtarmak",
+      "example": "Firefighters rescued a cat from the tree.",
+      "exampleTr": "İtfaiyeciler ağaçtan bir kediyi kurtardı."
+    },
+    {
+      "id": "b1-u05-v09",
+      "en": "escape",
+      "tr": "kaçmak",
+      "example": "The prisoner escaped through a window.",
+      "exampleTr": "Mahkûm pencereden kaçtı."
+    },
+    {
+      "id": "b1-u05-v10",
+      "en": "steal",
+      "tr": "çalmak",
+      "example": "Someone had stolen her bag.",
+      "exampleTr": "Biri çantasını çalmıştı.",
+      "note": "steal → stole → stolen"
+    },
+    {
+      "id": "b1-u05-v11",
+      "en": "thief",
+      "tr": "hırsız",
+      "example": "The police caught the thief.",
+      "exampleTr": "Polis hırsızı yakaladı.",
+      "note": "çoğul: thieves"
+    },
+    {
+      "id": "b1-u05-v12",
+      "en": "arrest",
+      "tr": "tutuklamak",
+      "example": "The police arrested two men.",
+      "exampleTr": "Polis iki adamı tutukladı."
+    },
+    {
+      "id": "b1-u05-v13",
+      "en": "disappear",
+      "tr": "ortadan kaybolmak",
+      "example": "The dog disappeared last Monday.",
+      "exampleTr": "Köpek geçen pazartesi kayboldu."
+    },
+    {
+      "id": "b1-u05-v14",
+      "en": "flood",
+      "tr": "sel",
+      "example": "The flood destroyed many houses.",
+      "exampleTr": "Sel birçok evi yıktı."
+    },
+    {
+      "id": "b1-u05-v15",
+      "en": "storm",
+      "tr": "fırtına",
+      "example": "The storm lasted all night.",
+      "exampleTr": "Fırtına bütün gece sürdü."
+    },
+    {
+      "id": "b1-u05-v16",
+      "en": "destroy",
+      "tr": "yok etmek, yıkmak",
+      "example": "The fire destroyed the old factory.",
+      "exampleTr": "Yangın eski fabrikayı yok etti."
+    },
+    {
+      "id": "b1-u05-v17",
+      "en": "survive",
+      "tr": "hayatta kalmak",
+      "example": "Everyone survived the crash.",
+      "exampleTr": "Kazadan herkes sağ kurtuldu.",
+      "note": "survivor (hayatta kalan)"
+    },
+    {
+      "id": "b1-u05-v18",
+      "en": "break out",
+      "tr": "patlak vermek (yangın vb.)",
+      "example": "A fire broke out in the kitchen.",
+      "exampleTr": "Mutfakta yangın çıktı."
+    },
+    {
+      "id": "b1-u05-v19",
+      "en": "by the time",
+      "tr": "-diği zamana kadar, -diğinde (çoktan)",
+      "example": "By the time we arrived, the film had started.",
+      "exampleTr": "Biz vardığımızda film çoktan başlamıştı."
+    },
+    {
+      "id": "b1-u05-v20",
+      "en": "already",
+      "tr": "çoktan, zaten",
+      "example": "The thief had already left.",
+      "exampleTr": "Hırsız çoktan gitmişti."
+    },
+    {
+      "id": "b1-u05-v21",
+      "en": "apparently",
+      "tr": "anlaşılan, söylenene göre",
+      "example": "Apparently, nobody saw anything.",
+      "exampleTr": "Söylenene göre kimse bir şey görmemiş."
+    },
+    {
+      "id": "b1-u05-v22",
+      "en": "luckily",
+      "tr": "neyse ki, şans eseri",
+      "example": "Luckily, nobody was hurt.",
+      "exampleTr": "Neyse ki kimse yaralanmadı."
+    },
+    {
+      "id": "b1-u05-v23",
+      "en": "suddenly",
+      "tr": "aniden",
+      "example": "Suddenly, the lights went out.",
+      "exampleTr": "Aniden ışıklar söndü."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u05-l1",
+      "number": 1,
+      "title": "Çoktan olmuştu",
+      "goal": "Geçmişteki bir andan daha önce olmuş olayları past perfect ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kötü bir sabah",
+        "lines": [
+          {
+            "speaker": "Defne",
+            "text": "You look stressed. What happened?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "What a morning! When I got to the station, the train had left."
+          },
+          {
+            "speaker": "Defne",
+            "text": "Oh no! Did you take a taxi?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Yes, but when I arrived at the office, I realised I had left my laptop on the train platform."
+          },
+          {
+            "speaker": "Defne",
+            "text": "Seriously? Did you go back?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Yes, and luckily a cleaner had found it and given it to the station manager."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What had happened when Kerem got to the station?",
+            "options": [
+              "The train was late.",
+              "The train had left.",
+              "The station was closed."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the train had left\"",
+            "id": "b1-u05-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who had found the laptop?",
+            "options": [
+              "A cleaner",
+              "The station manager",
+              "A taxi driver"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"a cleaner had found it\"",
+            "id": "b1-u05-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Past perfect**, geçmişteki bir andan **daha önce** olmuş bir olayı anlatır (\"-mıştı\").\n\n**Yapı:** **had** + V3 (tüm kişilerde aynı)\n\n| | |\n|---|---|\n| Olumlu | I / she / they **had left** ('d left) |\n| Olumsuz | I **hadn't** seen the film. |\n| Soru | **Had** you **eaten** before you came? |\n\n**İki geçmiş olay:**\n\n```\n1. olay (daha önce)        2. olay\n  had left        ←        got to the station\n```\n\n- When I **got** to the station, the train **had left**. (Önce tren gitti, sonra ben vardım.)\n- When I **got** to the station, the train **left**. (Ben vardım, sonra tren kalktı.)\n\nPast perfect, **hangi olayın önce olduğunu** netleştirir.",
+        "examples": [
+          {
+            "en": "When we got home, someone had broken the window.",
+            "tr": "Eve geldiğimizde biri camı kırmıştı."
+          },
+          {
+            "en": "I hadn't eaten all day, so I was very hungry.",
+            "tr": "Bütün gün yemek yememiştim, bu yüzden çok açtım."
+          },
+          {
+            "en": "Had you met her before the party?",
+            "tr": "Onunla partiden önce tanışmış mıydın?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-mıştı\" eki (gitmişti, yemişti) past perfect'e denk gelir. Türkçe konuşanlar \"had\" i bazen atlar ya da past perfect'i sadece \"uzun zaman önce\" anlamında kullanır. Past perfect'in amacı süreyi değil, iki geçmiş olay arasındaki sırayı göstermektir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Tren gitmişti.\"",
+          "options": [
+            "The train left.",
+            "The train had left.",
+            "The train has left."
+          ],
+          "answerIndex": 1,
+          "explanation": "-mıştı → had + V3.",
+          "id": "b1-u05-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She had went home.",
+            "She had gone home."
+          ],
+          "answerIndex": 1,
+          "explanation": "had + V3 (gone).",
+          "id": "b1-u05-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "When I got to the cinema, the film ___. (önce film başladı)",
+          "options": [
+            "started",
+            "had started"
+          ],
+          "answerIndex": 1,
+          "explanation": "Daha önce → had started.",
+          "id": "b1-u05-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "When we arrived, everyone ___ (leave).",
+          "answers": [
+            "had left",
+            "'d left"
+          ],
+          "explanation": "had + V3.",
+          "id": "b1-u05-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was hungry because I ___ (not eat) all day.",
+          "answers": [
+            "hadn't eaten",
+            "had not eaten"
+          ],
+          "explanation": "Olumsuz.",
+          "id": "b1-u05-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you seen the film before? (geçmişteki bir andan önce)",
+          "answers": [
+            "Had"
+          ],
+          "explanation": "Had + özne + V3?",
+          "id": "b1-u05-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Someone had ___ my bike. (steal)",
+          "answers": [
+            "stolen"
+          ],
+          "explanation": "steal → stolen.",
+          "id": "b1-u05-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "When I opened the fridge, I saw that my flatmate had eaten all my cheese. I was so angry!",
+          "prompt": "Konuşan buzdolabını açtığında ne olmuştu?",
+          "options": [
+            "Peynir bozulmuştu",
+            "Ev arkadaşı peynirin hepsini yemişti",
+            "Buzdolabı bozulmuştu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"my flatmate had eaten all my cheese\"",
+          "id": "b1-u05-l1-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "had",
+            "When",
+            "I",
+            "woke",
+            "up",
+            "the",
+            "snow",
+            "stopped"
+          ],
+          "answer": "When I woke up the snow had stopped.",
+          "explanation": "When + past simple, had + V3.",
+          "translation": "Uyandığımda kar durmuştu.",
+          "id": "b1-u05-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Eve geldiğimde biri camı kırmıştı.\"",
+          "accepted": [
+            "When I got home, someone had broken the window.",
+            "When I got home, someone had broken the window",
+            "When I came home, someone had broken the window.",
+            "When I came home, someone had broken the window",
+            "When I arrived home, someone had broken the window.",
+            "When I arrived home, someone had broken the window",
+            "Someone had broken the window when I got home.",
+            "Someone had broken the window when I got home",
+            "When I got home someone had broken the window.",
+            "When I got home someone had broken the window"
+          ],
+          "explanation": "When I got home, someone had broken the window.",
+          "id": "b1-u05-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kötü geçen bir gününüzü anlatın. En az 4 past perfect cümlesi kullanın: Bir yere vardığınızda ne olmuştu? Neyi unutmuştunuz? Daha önce ne yapmamıştınız?",
+          "modelAnswer": "Last Friday was terrible. When I woke up, my alarm hadn't rung. When I got to the bus stop, the bus had already left. At work, I realised I had forgotten my lunch at home. And when I got home, my brother had eaten the last piece of cake!",
+          "rubric": [
+            "had + V3 doğru",
+            "Olay sırası net",
+            "Past simple ile birlikte kullanım"
+          ]
+        },
+        "id": "b1-u05-l1-use"
+      }
+    },
+    {
+      "id": "b1-u05-l2",
+      "number": 2,
+      "title": "Hangisi önce oldu?",
+      "goal": "by the time, already, before, after ile iki geçmiş olayın sırasını doğru zamanla anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kayıp köpek eve döndü",
+        "body": "A dog called Pamuk has returned home after six weeks.\n\nPamuk disappeared on 3 March. His owners, the Yıldız family, had taken him to a park outside the city for a picnic. He ran after a rabbit and didn't come back.\n\nThe family looked everywhere. They had already put up hundreds of posters when, last Tuesday, they received a phone call. A farmer had found Pamuk in his barn, 40 kilometres away.\n\n\"By the time we got to the farm, the farmer's children had given him a bath and a big dinner,\" said Mrs Yıldız. \"He'd lost a bit of weight, but he was happy and healthy.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why had the family gone to the park?",
+            "options": [
+              "For a picnic",
+              "To walk the dog",
+              "To look for a rabbit"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"had taken him to a park... for a picnic\"",
+            "id": "b1-u05-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What had the farmer's children done before the family arrived?",
+            "options": [
+              "Called the police",
+              "Given Pamuk a bath and dinner",
+              "Taken Pamuk home"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"had given him a bath and a big dinner\"",
+            "id": "b1-u05-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Olaylar **sırasıyla** anlatılıyorsa past simple yeterlidir:\n\n- Pamuk **ran** after a rabbit, and he **didn't come** back.\n\nSıra **bozulduğunda** (daha önceki bir olaydan bahsederken) past perfect kullanılır:\n\n- Pamuk **disappeared**. The family **had taken** him to a park.\n\n**Sık kullanılan bağlaçlar:**\n\n| Bağlaç | Örnek |\n|---|---|\n| **by the time** | **By the time** we arrived, they **had eaten**. (Biz vardığımızda çoktan yemişlerdi.) |\n| **already** | The thief **had already** left. |\n| **before** | She **had** never **flown before** that trip. |\n| **after** | **After** he **had finished** work, he went home. |\n| **because** | I was tired **because** I **hadn't slept**. |\n\n**before / after** kullanılırsa sıra zaten belli olduğu için past simple de olur:\n\n- After he **finished** work, he went home. ✓",
+        "examples": [
+          {
+            "en": "By the time the police came, the thieves had escaped.",
+            "tr": "Polis geldiğinde hırsızlar çoktan kaçmıştı."
+          },
+          {
+            "en": "I had never seen snow before I moved to Erzurum.",
+            "tr": "Erzurum'a taşınmadan önce hiç kar görmemiştim."
+          },
+          {
+            "en": "She was nervous because she hadn't driven for years.",
+            "tr": "Yıllardır araba kullanmadığı için gergindi."
+          }
+        ],
+        "turkishNote": "\"By the time\" Türkçede \"-dığında (çoktan)\" ya da \"-ene kadar\" diye çevrilir ve neredeyse her zaman past perfect ile kullanılır: By the time I arrived, they had left. Bu cümlede \"left\" demek, ben varınca gittiler anlamına gelebilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "By the time we arrived, the party ___.",
+          "options": [
+            "finished",
+            "had finished"
+          ],
+          "answerIndex": 1,
+          "explanation": "by the time → past perfect.",
+          "id": "b1-u05-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I was nervous because I ___ on a plane before.",
+          "options": [
+            "never was",
+            "had never been"
+          ],
+          "answerIndex": 1,
+          "explanation": "Daha önceki deneyim → past perfect.",
+          "id": "b1-u05-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İki olay sırayla: \"I opened the door and ___ in.\"",
+          "options": [
+            "walked",
+            "had walked"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sıralı → past simple.",
+          "id": "b1-u05-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "By the time the police came, the thief had ___ escaped. (çoktan)",
+          "answers": [
+            "already"
+          ],
+          "explanation": "had already + V3.",
+          "id": "b1-u05-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd never ___ (see) the sea before that holiday.",
+          "answers": [
+            "seen"
+          ],
+          "explanation": "had never + V3.",
+          "id": "b1-u05-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She was tired because she ___ (not sleep) well.",
+          "answers": [
+            "hadn't slept",
+            "had not slept"
+          ],
+          "explanation": "because + past perfect.",
+          "id": "b1-u05-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ the time I got to the shop, it had closed.",
+          "answers": [
+            "By"
+          ],
+          "explanation": "By the time.",
+          "id": "b1-u05-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "By the time the firefighters arrived, the neighbours had already rescued the old man from the building.",
+          "prompt": "İtfaiye gelmeden önce ne olmuştu?",
+          "options": [
+            "Yangın sönmüştü",
+            "Komşular yaşlı adamı kurtarmıştı",
+            "Bina yıkılmıştı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the neighbours had already rescued the old man\"",
+          "id": "b1-u05-l2-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "the",
+            "time",
+            "By",
+            "we",
+            "arrived",
+            "they",
+            "had",
+            "eaten"
+          ],
+          "answer": "By the time we arrived they had eaten.",
+          "explanation": "By the time + past simple, past perfect.",
+          "translation": "Biz vardığımızda onlar çoktan yemişti.",
+          "id": "b1-u05-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Erzurum'a taşınmadan önce hiç kar görmemiştim.\"",
+          "accepted": [
+            "I had never seen snow before I moved to Erzurum.",
+            "I had never seen snow before I moved to Erzurum",
+            "I'd never seen snow before I moved to Erzurum.",
+            "I'd never seen snow before I moved to Erzurum",
+            "I would never seen snow before I moved to Erzurum",
+            "I would never seen snow before I moved to Erzurum.",
+            "Before I moved to Erzurum, I had never seen snow.",
+            "Before I moved to Erzurum, I had never seen snow",
+            "Before I moved to Erzurum, I'd never seen snow.",
+            "Before I moved to Erzurum, I'd never seen snow",
+            "Before I moved to Erzurum, I would never seen snow",
+            "Before I moved to Erzurum, I would never seen snow.",
+            "I hadn't seen snow before I moved to Erzurum.",
+            "I hadn't seen snow before I moved to Erzurum",
+            "Before I moved to Erzurum I had never seen snow.",
+            "Before I moved to Erzurum I had never seen snow"
+          ],
+          "explanation": "I had never seen snow before I moved to Erzurum.",
+          "id": "b1-u05-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızda ilk kez yaptığınız bir şeyi anlatın (ilk uçuş, ilk iş görüşmesi, ilk yurt dışı seyahati). Daha önce ne yapmamıştınız, oraya vardığınızda ne olmuştu? by the time, already ve never ... before kullanın.",
+          "modelAnswer": "My first job interview was in 2019. I had never worn a suit before, so I felt strange. I had prepared answers to all the usual questions. By the time I got to the office, I'd already drunk three coffees, so I was very nervous! But it went well, and they offered me the job.",
+          "rubric": [
+            "Past perfect ile önceki olaylar",
+            "by the time / already / never before",
+            "Akıcı anlatım"
+          ]
+        },
+        "id": "b1-u05-l2-use"
+      }
+    },
+    {
+      "id": "b1-u05-l3",
+      "number": 3,
+      "title": "Hikâye zamanları",
+      "goal": "Past simple, past continuous ve past perfect'i bir arada kullanarak bir olayı canlı bir şekilde anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kahraman garson",
+        "body": "It was a busy Saturday evening at a small restaurant in Antalya. The waiters were running between the tables and the kitchen was full of noise.\n\nSuddenly, a customer stood up and shouted for help. A man at the next table was holding his throat. He had been fine a minute earlier, but now he couldn't breathe.\n\nA young waiter, Barış Aydın, ran to the table. Luckily, he had learned first aid in a course the year before. He helped the man, and after a few seconds the man started breathing again.\n\nWhen the ambulance arrived, the man was sitting calmly and drinking water. Everyone in the restaurant was clapping.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What were the waiters doing when the problem started?",
+            "options": [
+              "Sitting down",
+              "Running between the tables",
+              "Cooking"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The waiters were running between the tables\"",
+            "id": "b1-u05-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did Barış know what to do?",
+            "options": [
+              "He was a doctor.",
+              "He had learned first aid the year before.",
+              "He had seen it on TV."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he had learned first aid in a course the year before\"",
+            "id": "b1-u05-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir hikâye anlatırken **üç geçmiş zaman** birlikte kullanılır:\n\n| Zaman | Görevi | Örnek |\n|---|---|---|\n| **Past continuous** | Arka plan, sahne | The waiters **were running** between the tables. |\n| **Past simple** | Ana olaylar, sırasıyla | A customer **stood up** and **shouted**. |\n| **Past perfect** | Daha önce olanlar | He **had learned** first aid the year before. |\n\n**Hikâyeyi canlı yapan ifadeler:**\n\n- **Suddenly**, ... / **All of a sudden**, ...\n- **Luckily**, ... / **Unfortunately**, ...\n- **At first**, ... **Then** ... **In the end**, ...\n- **A minute earlier** / **the day before** / **the year before**\n\n**Dikkat:** Past perfect'i **her cümlede** kullanmayın; sadece zaman çizgisinde geriye gittiğinizde kullanın.",
+        "examples": [
+          {
+            "en": "It was raining and I was walking home when I saw something strange.",
+            "tr": "Yağmur yağıyordu ve eve yürüyordum, o sırada tuhaf bir şey gördüm."
+          },
+          {
+            "en": "Unfortunately, I had left my umbrella at the office.",
+            "tr": "Ne yazık ki şemsiyemi ofiste unutmuştum."
+          },
+          {
+            "en": "In the end, a kind stranger gave me a lift.",
+            "tr": "Sonunda nazik bir yabancı beni arabasıyla bıraktı."
+          }
+        ],
+        "turkishNote": "Türkçede hikâye anlatırken \"-yordu\" (past continuous), \"-dı\" (past simple) ve \"-mıştı\" (past perfect) eklerini kullanırız; İngilizcedeki üç zaman bunlara oldukça iyi denk gelir. \"When I arrived, the man was sitting\" (oturuyordu) ile \"had sat\" (oturmuştu) arasındaki farka dikkat edin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Arka plan: \"It ___ heavily that night.\"",
+          "options": [
+            "rained",
+            "was raining",
+            "had rained"
+          ],
+          "answerIndex": 1,
+          "explanation": "Arka plan → past continuous.",
+          "id": "b1-u05-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ana olay: \"Suddenly, the lights ___ out.\"",
+          "options": [
+            "went",
+            "were going",
+            "had gone"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ana olay → past simple.",
+          "id": "b1-u05-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Daha önce: \"I couldn't get in because I ___ my keys.\"",
+          "options": [
+            "lost",
+            "was losing",
+            "had lost"
+          ],
+          "answerIndex": 2,
+          "explanation": "Önceki olay → past perfect.",
+          "id": "b1-u05-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was walking home when I ___ (see) a fox.",
+          "answers": [
+            "saw"
+          ],
+          "explanation": "when + past simple.",
+          "id": "b1-u05-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "When the ambulance came, the man ___ (sit) calmly.",
+          "answers": [
+            "was sitting"
+          ],
+          "explanation": "O sırada süren → continuous.",
+          "id": "b1-u05-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She was upset because someone ___ (take) her seat.",
+          "answers": [
+            "had taken",
+            "'d taken"
+          ],
+          "explanation": "Önceki olay → past perfect.",
+          "id": "b1-u05-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, nobody was hurt. (neyse ki)",
+          "answers": [
+            "Luckily",
+            "Fortunately"
+          ],
+          "explanation": "Luckily.",
+          "id": "b1-u05-l3-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "were running",
+              "right": "arka plan"
+            },
+            {
+              "left": "stood up",
+              "right": "ana olay"
+            },
+            {
+              "left": "had learned",
+              "right": "daha önceki olay"
+            },
+            {
+              "left": "suddenly",
+              "right": "aniden"
+            },
+            {
+              "left": "in the end",
+              "right": "sonunda"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b1-u05-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I was sitting in a café when a woman came in. She looked worried. She had lost her little boy in the market. We all went out to help, and in the end we found him eating ice cream.",
+          "prompt": "Kadın neden endişeliydi?",
+          "options": [
+            "Çantasını kaybetmişti",
+            "Küçük oğlunu kaybetmişti",
+            "Otobüsü kaçırmıştı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"She had lost her little boy in the market.\"",
+          "id": "b1-u05-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Ne yazık ki şemsiyemi ofiste unutmuştum.\"",
+          "accepted": [
+            "Unfortunately, I had left my umbrella at the office.",
+            "Unfortunately, I had left my umbrella at the office",
+            "Unfortunately, I'd left my umbrella at the office.",
+            "Unfortunately, I'd left my umbrella at the office",
+            "Unfortunately, I would left my umbrella at the office",
+            "Unfortunately, I would left my umbrella at the office.",
+            "Unfortunately, I had forgotten my umbrella at the office.",
+            "Unfortunately, I had forgotten my umbrella at the office",
+            "Unfortunately, I'd forgotten my umbrella at the office.",
+            "Unfortunately, I'd forgotten my umbrella at the office",
+            "Unfortunately, I would forgotten my umbrella at the office",
+            "Unfortunately, I would forgotten my umbrella at the office.",
+            "Unfortunately, I had left my umbrella in the office.",
+            "Unfortunately, I had left my umbrella in the office",
+            "Unfortunately I had left my umbrella at the office.",
+            "Unfortunately I had left my umbrella at the office",
+            "Unfortunately, I'd left my umbrella in the office.",
+            "Unfortunately, I'd left my umbrella in the office",
+            "Unfortunately, I would left my umbrella in the office",
+            "Unfortunately, I would left my umbrella in the office."
+          ],
+          "explanation": "Unfortunately, I had left my umbrella at the office.",
+          "id": "b1-u05-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Başınızdan geçen ilginç ya da komik bir olayı anlatın. Arka planı past continuous ile, ana olayları past simple ile, öncesini past perfect ile verin. suddenly, luckily ve in the end kullanın.",
+          "modelAnswer": "It was a hot afternoon and I was waiting for a bus. Suddenly, a dog ran up to me and took my sandwich! I had bought it five minutes earlier, and I was really hungry. I ran after the dog, but it was too fast. Luckily, a woman at the bus stop had two sandwiches, and she gave me one. In the end, we became friends!",
+          "rubric": [
+            "Üç anlatı zamanı doğru",
+            "Bağlayıcı ifadeler",
+            "Hikâye sırası net"
+          ]
+        },
+        "id": "b1-u05-l3-use"
+      }
+    },
+    {
+      "id": "b1-u05-l4",
+      "number": 4,
+      "title": "Bugünkü manşetler",
+      "goal": "Haber manşetlerini anlayabilir, haber fiilleri ve olay kelimeleriyle kısa haberleri anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Yerel haber bülteni",
+        "body": "STORM HITS COAST\nA strong storm hit the Black Sea coast last night. Strong winds destroyed several roofs, and some roads are closed. Luckily, everyone survived.\n\nTHIEF RETURNS STOLEN BIKE\nA thief who had stolen a bike from a student in Eskişehir brought it back two days later. He left a note: \"Sorry. My mother told me to bring it back.\"\n\nFIRE BREAKS OUT IN SHOPPING CENTRE\nA fire broke out in a shopping centre in Bursa yesterday afternoon. Staff helped hundreds of people leave the building safely. Firefighters rescued two workers from the roof.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did the thief return the bike?",
+            "options": [
+              "The police arrested him.",
+              "His mother told him to.",
+              "The bike was broken."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My mother told me to bring it back.\"",
+            "id": "b1-u05-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did the firefighters rescue two workers from?",
+            "options": [
+              "The car park",
+              "The roof",
+              "A shop"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"from the roof\"",
+            "id": "b1-u05-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Haber manşetlerinin dili** kısa ve özeldir:\n\n| Manşette | Anlamı |\n|---|---|\n| **Present simple** = geçmiş olay | STORM **HITS** COAST → A storm **hit** the coast. |\n| **to + fiil** = gelecek | PRESIDENT **TO VISIT** JAPAN → The president **will visit** Japan. |\n| **a / the** yok | THIEF RETURNS BIKE → **A** thief returned **a** bike. |\n\n**Haber ve olay fiilleri:**\n\n| Fiil | Örnek |\n|---|---|\n| **hit** (hit) | A storm hit the city. |\n| **break out** (broke out) | A fire broke out. |\n| **rescue** | Firefighters rescued two people. |\n| **escape** | Three prisoners escaped. |\n| **arrest** | The police arrested a man. |\n| **destroy** | The flood destroyed 50 houses. |\n| **survive** | Everyone survived. |\n\n**Haberde yer ve zaman** genellikle cümlenin sonundadır: A fire broke out **in Bursa yesterday afternoon**.",
+        "examples": [
+          {
+            "en": "A strong earthquake hit the region on Monday.",
+            "tr": "Pazartesi bölgeyi şiddetli bir deprem vurdu."
+          },
+          {
+            "en": "Police arrested two men after a robbery in the city centre.",
+            "tr": "Polis şehir merkezindeki bir soygunun ardından iki adamı tutukladı."
+          },
+          {
+            "en": "All the passengers survived the crash.",
+            "tr": "Bütün yolcular kazadan sağ kurtuldu."
+          }
+        ],
+        "turkishNote": "Türkçe manşetlerde geçmiş olaylar genellikle geçmiş zamanla verilir (\"Fırtına sahili vurdu\"), ama İngilizce manşetlerde geçmiş olaylar için present simple neredeyse kuraldır. Haberi okurken ya da anlatırken past simple'a çevirin: STORM HITS COAST → A storm hit the coast."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"STORM HITS COAST\" ne anlatır?",
+          "options": [
+            "Şu anda olan bir fırtına",
+            "Geçmişte olmuş bir fırtına",
+            "Gelecekte olacak bir fırtına"
+          ],
+          "answerIndex": 1,
+          "explanation": "Manşette present = geçmiş olay.",
+          "id": "b1-u05-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"MAYOR TO OPEN NEW BRIDGE\" ne anlatır?",
+          "options": [
+            "Belediye başkanı köprüyü açtı.",
+            "Belediye başkanı köprüyü açacak."
+          ],
+          "answerIndex": 1,
+          "explanation": "to + fiil = gelecek.",
+          "id": "b1-u05-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "A fire ___ out in the kitchen last night.",
+          "options": [
+            "broke",
+            "broken",
+            "breaks"
+          ],
+          "answerIndex": 0,
+          "explanation": "break out → broke out.",
+          "id": "b1-u05-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Firefighters ___ two children from the building. (kurtardı)",
+          "answers": [
+            "rescued"
+          ],
+          "explanation": "rescue.",
+          "id": "b1-u05-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The police ___ the thief at the airport. (tutukladı)",
+          "answers": [
+            "arrested",
+            "caught"
+          ],
+          "explanation": "arrest.",
+          "id": "b1-u05-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Luckily, all the passengers ___ the accident. (sağ kurtuldu)",
+          "answers": [
+            "survived"
+          ],
+          "explanation": "survive.",
+          "id": "b1-u05-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The flood ___ more than 100 homes. (yok etti)",
+          "answers": [
+            "destroyed"
+          ],
+          "explanation": "destroy.",
+          "id": "b1-u05-l4-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "hit",
+              "right": "vurmak"
+            },
+            {
+              "left": "break out",
+              "right": "patlak vermek"
+            },
+            {
+              "left": "escape",
+              "right": "kaçmak"
+            },
+            {
+              "left": "arrest",
+              "right": "tutuklamak"
+            },
+            {
+              "left": "survive",
+              "right": "hayatta kalmak"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b1-u05-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "And now the local news. Three people escaped from a burning bus on the motorway this morning. The driver had noticed smoke and stopped the bus just in time.",
+          "prompt": "Şoför neden otobüsü durdurdu?",
+          "options": [
+            "Yolcular bağırdı",
+            "Duman fark etmişti",
+            "Lastik patladı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The driver had noticed smoke\"",
+          "id": "b1-u05-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Manşeti cümleye çevirin: \"POLICE ARREST TWO MEN\" (geçmiş)",
+          "accepted": [
+            "The police arrested two men.",
+            "The police arrested two men",
+            "Police arrested two men.",
+            "Police arrested two men",
+            "The police have arrested two men.",
+            "The police have arrested two men",
+            "Police have arrested two men.",
+            "Police have arrested two men"
+          ],
+          "explanation": "The police arrested two men.",
+          "id": "b1-u05-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bu hafta duyduğunuz gerçek ya da hayali 2 haberi spiker gibi sunun. Bir manşetle başlayın, sonra olayı past simple ile anlatın ve bir past perfect cümlesi ekleyin.",
+          "modelAnswer": "Good evening. Our first story: DOG SAVES FAMILY FROM FIRE. A fire broke out in a house in Izmir last night. The family's dog started barking and woke everyone up. They had all gone to bed early, so nobody had noticed the smoke. Luckily, everyone escaped safely.",
+          "rubric": [
+            "Manşet dili doğru",
+            "Haber fiilleri",
+            "Past simple + past perfect"
+          ]
+        },
+        "id": "b1-u05-l4-use"
+      }
+    },
+    {
+      "id": "b1-u05-l5",
+      "number": 5,
+      "title": "Duydun mu?",
+      "goal": "Bir haberi arkadaşıma aktarabilir, haberlere doğal tepkiler verebilir ve soru sorarak konuşmayı sürdürebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İnanılmaz bir haber",
+        "lines": [
+          {
+            "speaker": "Zeynep",
+            "text": "Did you hear about the man who found a ring in a fish?"
+          },
+          {
+            "speaker": "Hakan",
+            "text": "No! What happened?"
+          },
+          {
+            "speaker": "Zeynep",
+            "text": "Apparently, he was cooking dinner when he found a gold ring inside the fish."
+          },
+          {
+            "speaker": "Hakan",
+            "text": "You're joking! Whose ring was it?"
+          },
+          {
+            "speaker": "Zeynep",
+            "text": "It belonged to a woman who had lost it on a boat trip ten years before!"
+          },
+          {
+            "speaker": "Hakan",
+            "text": "That's incredible! How did they find her?"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the man doing when he found the ring?",
+            "options": [
+              "Fishing",
+              "Cooking dinner",
+              "Eating at a restaurant"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he was cooking dinner\"",
+            "id": "b1-u05-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When had the woman lost the ring?",
+            "options": [
+              "Last week",
+              "Ten years before",
+              "The day before"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"ten years before\"",
+            "id": "b1-u05-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bir haberi açmak:**\n\n- **Did you hear about** ...? / **Have you heard about** ...?\n- **Guess what!** / **You'll never believe this!**\n- **Apparently**, ... (Söylenene göre ...)\n- **I read / saw (online) that** ...\n\n**Tepki vermek:**\n\n| Duygu | İfade |\n|---|---|\n| Şaşkınlık | **Really?** / **You're joking!** / **No way!** |\n| Hayranlık | **That's incredible / amazing!** |\n| Üzüntü | **Oh no! That's awful / terrible.** |\n| Rahatlama | **Thank goodness!** / **What a relief!** |\n| Komik | **That's hilarious!** |\n\n**Konuşmayı sürdürmek:**\n\n- **What happened next?** / **And then what?**\n- **How did they ...?** / **Was anyone hurt?**\n\nHikâyeyi aktarırken **anlatı zamanlarını** kullanın: He **was cooking** when he **found** a ring. The woman **had lost** it.",
+        "examples": [
+          {
+            "en": "Guess what! Our neighbour won a car in a competition.",
+            "tr": "Bil bakalım ne oldu! Komşumuz bir yarışmada araba kazandı."
+          },
+          {
+            "en": "Apparently, the shop had closed years ago.",
+            "tr": "Söylenene göre dükkân yıllar önce kapanmış."
+          },
+          {
+            "en": "Oh no! Was anyone hurt?",
+            "tr": "Eyvah! Yaralanan var mı?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-mış\" eki (duyulan geçmiş: \"kapanmış\") İngilizcede ayrı bir zamanla değil, \"apparently\", \"I heard that\" ya da \"they say\" gibi ifadelerle verilir. \"Apparently\" kelimesini cümlenin başına koymak, bilginin başkasından duyulduğunu gösterir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir haberi açmak:",
+          "options": [
+            "Did you hear about the fire?",
+            "Did you listen the fire?"
+          ],
+          "answerIndex": 0,
+          "explanation": "hear about.",
+          "id": "b1-u05-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Şaşkınlık:",
+          "options": [
+            "You're joking!",
+            "Thank goodness!",
+            "That's awful."
+          ],
+          "answerIndex": 0,
+          "explanation": "You're joking!",
+          "id": "b1-u05-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kötü bir haber: \"The bus crashed.\"",
+          "options": [
+            "That's hilarious!",
+            "Oh no! Was anyone hurt?",
+            "No way, how fun!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Endişe + soru.",
+          "id": "b1-u05-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İyi bir sonuç: \"Everyone survived.\"",
+          "options": [
+            "What a relief!",
+            "That's terrible."
+          ],
+          "answerIndex": 0,
+          "explanation": "Rahatlama.",
+          "id": "b1-u05-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, the shop had closed years ago. (söylenene göre)",
+          "answers": [
+            "Apparently"
+          ],
+          "explanation": "Apparently.",
+          "id": "b1-u05-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Guess ___! I've got a new job!",
+          "answers": [
+            "what"
+          ],
+          "explanation": "Guess what!",
+          "id": "b1-u05-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "What happened ___? (sonra)",
+          "answers": [
+            "next",
+            "then"
+          ],
+          "explanation": "What happened next?",
+          "id": "b1-u05-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She was swimming when she ___ (see) a dolphin.",
+          "answers": [
+            "saw"
+          ],
+          "explanation": "Anlatı zamanları.",
+          "id": "b1-u05-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "You'll never believe this! My grandmother has just started a YouTube channel, and she already has ten thousand followers! – No way! That's amazing!",
+          "prompt": "Dinleyen kişinin tepkisi nasıl?",
+          "options": [
+            "Üzgün",
+            "Şaşkın ve hayran",
+            "Kızgın"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"No way! That's amazing!\"",
+          "id": "b1-u05-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Eyvah! Yaralanan var mı?\"",
+          "accepted": [
+            "Oh no! Was anyone hurt?",
+            "Oh no! Was anyone hurt",
+            "Oh no! Was anybody hurt?",
+            "Oh no! Was anybody hurt",
+            "Oh no! Is anyone hurt?",
+            "Oh no! Is anyone hurt",
+            "Oh no, was anyone hurt?",
+            "Oh no, was anyone hurt",
+            "Oh no! Was anyone injured?",
+            "Oh no! Was anyone injured",
+            "Oh no! Is anybody hurt?",
+            "Oh no! Is anybody hurt"
+          ],
+          "explanation": "Oh no! Was anyone hurt?",
+          "id": "b1-u05-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Yerel bir gazete için kısa bir haber yazın (120–150 kelime). Bir manşetle başlayın, olayı anlatı zamanlarıyla (past continuous, past simple, past perfect) anlatın, bir görgü tanığından alıntı ekleyin ve sonucu belirtin. Gerçek ya da hayali olabilir.",
+          "modelAnswer": "STUDENT RETURNS LOST WALLET WITH 20,000 LIRA\n\nA university student in Konya returned a lost wallet to its owner yesterday.\n\nElif Demir, 20, was walking to class on Tuesday morning when she saw a brown wallet on the ground. When she opened it, she found 20,000 lira and an ID card. The owner, a 68-year-old man, had dropped it while he was getting off the bus.\n\nElif took the wallet to the police station immediately. The police found the owner's phone number, and he came to the station an hour later.\n\n\"I had looked everywhere and I was very worried,\" he said. \"This young woman is a hero.\"\n\nThe man wanted to give Elif some of the money, but she said no. \"I just did the right thing,\" she said.",
+          "rubric": [
+            "Manşet dili",
+            "Anlatı zamanları doğru",
+            "Haber fiilleri ve kelimeleri",
+            "Alıntı ve sonuç",
+            "Haber üslubu"
+          ]
+        },
+        "id": "b1-u05-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Film başlamıştı.\"",
+        "options": [
+          "The film started.",
+          "The film had started.",
+          "The film has started."
+        ],
+        "answerIndex": 1,
+        "explanation": "had + V3",
+        "id": "b1-u05-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "They had went home.",
+          "They had gone home."
+        ],
+        "answerIndex": 1,
+        "explanation": "V3",
+        "id": "b1-u05-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "By the time we got there, the shop ___.",
+        "options": [
+          "closed",
+          "had closed"
+        ],
+        "answerIndex": 1,
+        "explanation": "by the time",
+        "id": "b1-u05-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Arka plan: \"The sun ___ and the birds were singing.\"",
+        "options": [
+          "shone",
+          "was shining",
+          "had shone"
+        ],
+        "answerIndex": 1,
+        "explanation": "Past continuous",
+        "id": "b1-u05-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "I couldn't pay because I ___ (leave) my wallet at home.",
+        "answers": [
+          "had left",
+          "'d left"
+        ],
+        "explanation": "Önceki olay",
+        "id": "b1-u05-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'd never ___ (be) to Paris before 2020.",
+        "answers": [
+          "been"
+        ],
+        "explanation": "had never been",
+        "id": "b1-u05-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "A fire ___ out in the factory last night.",
+        "answers": [
+          "broke"
+        ],
+        "explanation": "broke out",
+        "id": "b1-u05-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "The police ___ the robber yesterday. (tutukladı)",
+        "answers": [
+          "arrested",
+          "caught"
+        ],
+        "explanation": "arrest",
+        "id": "b1-u05-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"MINISTER TO VISIT SCHOOL\"",
+        "options": [
+          "Bakan okulu ziyaret etti.",
+          "Bakan okulu ziyaret edecek."
+        ],
+        "answerIndex": 1,
+        "explanation": "to + fiil = gelecek",
+        "id": "b1-u05-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kötü haber tepkisi:",
+        "options": [
+          "That's awful!",
+          "That's hilarious!"
+        ],
+        "answerIndex": 0,
+        "explanation": "Üzüntü",
+        "id": "b1-u05-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "___, nobody saw the thief. (söylenene göre)",
+        "answers": [
+          "Apparently"
+        ],
+        "explanation": "Apparently",
+        "id": "b1-u05-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "When I arrived, she ___. (Ben varınca o çıktı.)",
+        "options": [
+          "left",
+          "had left"
+        ],
+        "answerIndex": 0,
+        "explanation": "Sıralı olay → past simple",
+        "id": "b1-u05-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I was driving to work when I heard the news on the radio. A small plane had landed on the motorway! Luckily, nobody was hurt.",
+        "prompt": "Konuşan haberi nerede duydu?",
+        "options": [
+          "Televizyonda",
+          "Arabada radyoda",
+          "İnternette"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I was driving to work when I heard the news on the radio\"",
+        "id": "b1-u05-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Polis geldiğinde hırsızlar çoktan kaçmıştı.\"",
+        "accepted": [
+          "When the police came, the thieves had already escaped.",
+          "When the police came, the thieves had already escaped",
+          "By the time the police came, the thieves had already escaped.",
+          "By the time the police came, the thieves had already escaped",
+          "When the police arrived, the thieves had already escaped.",
+          "When the police arrived, the thieves had already escaped",
+          "By the time the police arrived, the thieves had already escaped.",
+          "By the time the police arrived, the thieves had already escaped",
+          "When the police came, the thieves had already run away.",
+          "When the police came, the thieves had already run away",
+          "By the time the police arrived, the thieves had escaped.",
+          "By the time the police arrived, the thieves had escaped",
+          "When the police arrived the thieves had already escaped.",
+          "When the police arrived the thieves had already escaped"
+        ],
+        "explanation": "When the police came, the thieves had already escaped.",
+        "id": "b1-u05-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Hiç unutmadığım bir gün\" başlıklı bir hikâye yazın (120–150 kelime). Past continuous ile sahneyi kurun, past simple ile olayları anlatın, past perfect ile öncesini verin. suddenly, luckily, by the time ve in the end kullanın.",
+        "modelAnswer": "I'll never forget the day of my sister's wedding. It was a beautiful summer morning and everyone was getting ready at my parents' house. My mother was cooking and my father was looking for his tie. Suddenly, my sister started crying. She had left her wedding dress at the dressmaker's the day before! I jumped into the car and drove across the city. By the time I got to the shop, the dressmaker had already gone home. Luckily, her neighbour had a key, and she opened the shop for me. I got back just in time. In the end, it was a perfect day, and now we laugh about it every year.",
+        "rubric": [
+          "Üç anlatı zamanı",
+          "Bağlayıcılar (suddenly, by the time...)",
+          "Olay sırası net",
+          "Canlı anlatım",
+          "Düzenli paragraf"
+        ],
+        "id": "b1-u05-t15"
+      }
+    ]
+  }
+}
