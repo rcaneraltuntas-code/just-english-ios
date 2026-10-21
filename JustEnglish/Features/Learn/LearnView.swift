@@ -1,8 +1,8 @@
 import SwiftUI
 import JECore
 
-/// Ana sayfa: üstte yumuşak degrade bant ve selam, JAI kartı, seri haftası, haftalık XP ve hedef,
-/// "akıcılık yolunuz" listesi, günün kelimesi ve seviyelere göre üniteler.
+/// Ana sayfa (referans 2): üstte doygun mavi bant üzerinde selam ve JAI kartı; altında düz beyaz zeminde
+/// seri haftası, iki istatistik kartı, "Akıcılığa giden yol" (ilk satır sıradaki dersi açar), günün kelimesi ve üniteler.
 struct LearnView: View {
     @Environment(AppModel.self) private var model
     @State private var selectedLevel: CEFRLevel?
@@ -13,28 +13,30 @@ struct LearnView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(spacing: 18) {
+                VStack(spacing: 0) {
                     HomeHeader()
-                    AIBuddyCard().staggeredAppear(0)
-                    if let next = model.nextLesson {
-                        ContinueCard(unit: next.unit, lesson: next.lesson) {
-                            activeLesson = LessonRoute(unit: next.unit, lesson: next.lesson)
+                    AIBuddyCard().staggeredAppear(0).padding(.top, 14)
+                    StreakWeekCard().staggeredAppear(1).padding(.top, 24)
+                    HomeStatPair().staggeredAppear(2).padding(.top, 12)
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text("Akıcılığa giden yol")
+                            .font(.custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+                            .foregroundStyle(HomeStyle.title)
+                        FluencyPathList(level: model.state.currentLevel) {
+                            if let next = model.nextLesson {
+                                activeLesson = LessonRoute(unit: next.unit, lesson: next.lesson)
+                            }
                         }
-                        .staggeredAppear(1)
                     }
-                    StreakWeekCard().staggeredAppear(2)
-                    HomeStatPair().staggeredAppear(3)
-                    VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader(title: "Akıcılığa giden yol")
-                        FluencyPathList(level: model.state.currentLevel)
-                    }
-                    .staggeredAppear(4)
-                    WordOfTheDayCard().staggeredAppear(5)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .staggeredAppear(3)
+                    .padding(.top, 30)
+                    WordOfTheDayCard().staggeredAppear(4).padding(.top, 24)
                     VStack(alignment: .leading, spacing: 12) {
                         SectionHeader(title: "Üniteler")
                         levelPicker
                     }
-                    .padding(.top, 4)
+                    .padding(.top, 28)
                     VStack(spacing: 12) {
                         ForEach(model.units(for: level)) { unit in
                             NavigationLink(value: unit) { UnitRow(unit: unit) }
@@ -42,24 +44,20 @@ struct LearnView: View {
                                 .staggeredAppear(unit.number)
                         }
                     }
+                    .padding(.top, 12)
                 }
-                .padding(.horizontal, 20)
+                .padding(.horizontal, 16)
                 .padding(.bottom, 20)
+                .background(alignment: .top) {
+                    // Bant içerikle birlikte kayar; en üst rengi durum çubuğunun arkasındaki şeritle aynı, ek yeri görünmez.
+                    HomeStyle.band.frame(height: 340)
+                }
             }
             .tabBarSpacer()
-            .background {
-                ZStack(alignment: .top) {
-                    AIBackground(animated: true)
-                    // Referanstaki gibi üstte yumuşak mavi bant.
-                    Theme.skyGradient
-                        .frame(height: 300)
-                        .opacity(0.75)
-                }
-                .ignoresSafeArea()
-            }
-            // Gezinme çubuğu gizli olduğundan, kaydırınca içerik saatin altına girmesin diye durum çubuğuna zemin.
+            .background(HomeStyle.page.ignoresSafeArea())
+            // Gezinme çubuğu gizli; durum çubuğunun arkası bandın en üst rengiyle dolu, kaydırınca içerik altına girmez.
             .safeAreaInset(edge: .top, spacing: 0) {
-                Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)
+                Color.clear.frame(height: 0).background(HomeStyle.bandTop, ignoresSafeAreaEdges: .top)
             }
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: CourseUnit.self) { UnitView(unit: $0) }
@@ -104,41 +102,6 @@ struct LessonRoute: Identifiable {
     let unit: CourseUnit
     let lesson: Lesson
     var id: String { lesson.id }
-}
-
-/// Sıradaki ders: beyaz kart, seviye rozeti, ünite ilerlemesi ve birincil düğme.
-struct ContinueCard: View {
-    let unit: CourseUnit
-    let lesson: Lesson
-    let onStart: () -> Void
-    @Environment(AppModel.self) private var model
-
-    var body: some View {
-        let done = model.completedCount(in: unit)
-        VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 8) {
-                LevelBadge(level: unit.level)
-                Text("Ünite \(unit.number) · Ders \(lesson.number)")
-                    .font(.jakarta(.footnote, weight: .semibold))
-                    .foregroundStyle(.secondary)
-                Spacer()
-                Text("📘").font(.system(size: 26))
-            }
-            Text(lesson.title).font(.jakarta(.title3, weight: .heavy)).foregroundStyle(Theme.ink)
-            Text(lesson.goal).font(.jakarta(.subheadline, weight: .medium)).foregroundStyle(.secondary)
-            VStack(alignment: .leading, spacing: 6) {
-                ProgressBar(value: Double(done) / Double(max(unit.lessons.count, 1)), color: Theme.accent, height: 8)
-                Text("\(unit.title) · \(done)/\(unit.lessons.count) ders")
-                    .font(.jakarta(.caption, weight: .semibold))
-                    .foregroundStyle(.secondary)
-            }
-            Button(action: onStart) {
-                Label("Derse başla", systemImage: "play.fill")
-            }
-            .buttonStyle(.primary)
-        }
-        .card()
-    }
 }
 
 struct UnitRow: View {

@@ -10,6 +10,7 @@ struct JAIChatView: View {
     @State private var typing = false
     @State private var input = ""
     @State private var jaiHop = 0
+    @State private var showInfo = false
     @FocusState private var fieldFocused: Bool
 
     var body: some View {
@@ -17,8 +18,7 @@ struct JAIChatView: View {
             header
             ScrollViewReader { proxy in
                 ScrollView {
-                    LazyVStack(alignment: .leading, spacing: 14) {
-                        comingSoon
+                    LazyVStack(alignment: .leading, spacing: 22) {
                         ForEach(tutor.messages) { message in
                             ChatBubble(message: message)
                                 .id(message.id)
@@ -33,7 +33,9 @@ struct JAIChatView: View {
                                 .id("live")
                         }
                     }
-                    .padding(20)
+                    .padding(.horizontal, 18)
+                    .padding(.top, 24)
+                    .padding(.bottom, 12)
                     .animation(Motion.smooth, value: tutor.messages.count)
                     .animation(Motion.smooth, value: tutor.thinking)
                 }
@@ -48,7 +50,8 @@ struct JAIChatView: View {
             controls
         }
         .tabBarSpacer()
-        .background { AIBackground(animated: true) }
+        .background(Theme.surface.ignoresSafeArea())
+        .sheet(isPresented: $showInfo) { infoSheet }
         .task {
             if tutor.messages.isEmpty { await tutor.start(name: model.state.name, pool: pool) }
         }
@@ -69,33 +72,73 @@ struct JAIChatView: View {
         return fallback.filter { !$0.en.contains("/") }
     }
 
+    /// Üst bant (referans 2): açık mavi degrade, düz alt kenar; solda başlık, sağda ayar, ortada cam küre içinde JAI
+    /// ve kürenin altına binen beyaz ad rozeti.
     private var header: some View {
-        VStack(spacing: 10) {
+        ZStack(alignment: .top) {
+            HStack {
+                Text("JAI ile sohbet")
+                    .font(.custom(Theme.fontFamily, size: 22, relativeTo: .title2).weight(.bold))
+                    .foregroundStyle(Theme.ink)
+                Spacer()
+                Button { showInfo = true } label: {
+                    Image(systemName: "gearshape")
+                        .font(.system(size: 21, weight: .regular))
+                        .foregroundStyle(Theme.ink)
+                        .frame(width: 40, height: 40)
+                }
+                .accessibilityLabel("Sohbet hakkında")
+            }
+            .padding(.horizontal, 18)
+            .padding(.top, 8)
             ZStack {
                 Circle()
-                    .fill(.white.opacity(0.35))
-                    .frame(width: 128, height: 128)
-                    .glass(cornerRadius: 64)
-                JAIView(mood: tutor.thinking ? .thinking : (tutor.lastWasCorrect ? .happy : .idle), size: 96, bounceTrigger: jaiHop)
+                    .fill(RadialGradient(colors: [.white.opacity(0.9), Color(light: 0xC9DBFF, dark: 0x2A3A70).opacity(0.55)],
+                                         center: .topLeading, startRadius: 4, endRadius: 120))
+                    .overlay(Circle().stroke(.white.opacity(0.9), lineWidth: 1.5))
+                    .frame(width: 112, height: 112)
+                    .shadow(color: Theme.accent.opacity(0.18), radius: 14, y: 6)
+                JAIView(mood: tutor.thinking ? .thinking : (tutor.lastWasCorrect ? .happy : .idle), size: 84, bounceTrigger: jaiHop)
             }
-            AIBadge(text: "JAI · İngilizce pratik arkadaşınız")
+            .overlay(alignment: .bottom) {
+                HStack(spacing: 6) {
+                    Circle().fill(Color(light: 0x3FD3E8, dark: 0x5EE3F5)).frame(width: 10, height: 10)
+                    Text("JAI")
+                        .font(.custom(Theme.fontFamily, size: 16, relativeTo: .callout).weight(.semibold))
+                        .foregroundStyle(Theme.ink)
+                }
+                .padding(.horizontal, 12)
+                .frame(height: 30)
+                .background(Theme.surface, in: Capsule())
+                .shadow(color: Theme.ink.opacity(0.08), radius: 4, y: 2)
+                .offset(y: 14)
+            }
+            // Küre başlık satırının altından başlar; uzun Türkçe başlık küreye binmesin.
+            .padding(.top, 46)
         }
-        .padding(.top, 8)
-        .padding(.bottom, 14)
+        .padding(.bottom, 28)
         .frame(maxWidth: .infinity)
         .background {
-            Theme.skyGradient.opacity(0.55).ignoresSafeArea(edges: .top)
+            LinearGradient(colors: [Color(light: 0xDCE7FF, dark: 0x1C2850), Color(light: 0xEAF1FF, dark: 0x151C38)],
+                           startPoint: .top, endPoint: .bottom)
+                .ignoresSafeArea(edges: .top)
         }
     }
 
-    private var comingSoon: some View {
-        Label("Gerçek yapay zekâ sohbeti yakında. Şimdilik JAI, derslerinizdeki kelimelerle sizinle pratik yapıyor.",
-              systemImage: "sparkles")
-            .font(.jakarta(.caption, weight: .semibold))
-            .foregroundStyle(Theme.ai)
-            .padding(12)
-            .frame(maxWidth: .infinity, alignment: .leading)
-            .glass(cornerRadius: 16, tint: Theme.ai)
+    /// Ayar simgesinin açtığı bilgi: gerçek yapay zekâ henüz bağlı değil.
+    private var infoSheet: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            Text("JAI hakkında")
+                .font(.custom(Theme.fontFamily, size: 22, relativeTo: .title2).weight(.bold))
+                .foregroundStyle(Theme.ink)
+            Text("Gerçek yapay zekâ sohbeti yakında. Şimdilik JAI, derslerinizdeki kelimelerle sizinle pratik yapıyor: Türkçesini verdiği kelimenin İngilizcesini sorar, sonra o kelimeyle bir cümle kurmanızı ister.")
+                .font(.custom(Theme.fontFamily, size: 16, relativeTo: .body))
+                .foregroundStyle(HomeStyle.body)
+                .fixedSize(horizontal: false, vertical: true)
+            Spacer()
+        }
+        .padding(24)
+        .presentationDetents([.height(240)])
     }
 
     private var controls: some View {
@@ -127,20 +170,17 @@ struct JAIChatView: View {
                 .transition(.move(edge: .bottom).combined(with: .opacity))
             }
             Text(micCaption)
-                .font(.jakarta(.caption, weight: .medium))
-                .foregroundStyle(.secondary)
-            HStack(alignment: .center) {
+                .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                .foregroundStyle(Color(light: 0xA0A6B1, dark: 0x6C7690))
+            HStack(alignment: .center, spacing: 40) {
                 sideButton("Hints", icon: "sparkles", label: "İpucu") { tutor.hint() }
-                Spacer()
                 MicButton(recording: recognizer.status == .recording) {
                     Task { await recognizer.toggle() }
                 }
-                Spacer()
                 sideButton("Keyboard", icon: "keyboard", label: "Klavye") {
                     withAnimation(Motion.smooth) { fieldFocused.toggle() }
                 }
             }
-            .padding(.horizontal, 44)
         }
         .padding(.top, 8)
         .padding(.bottom, 8)
@@ -158,14 +198,19 @@ struct JAIChatView: View {
 
     private func sideButton(_ id: String, icon: String, label: String, action: @escaping () -> Void) -> some View {
         Button(action: action) {
-            VStack(spacing: 4) {
+            VStack(spacing: 6) {
                 Image(systemName: icon)
-                    .font(.system(size: 18, weight: .semibold))
+                    .font(.system(size: 17, weight: .regular))
                     .foregroundStyle(Theme.ink)
-                    .frame(width: 48, height: 48)
-                    .glassCapsule(interactive: true)
-                Text(label).font(.jakarta(.caption2, weight: .semibold)).foregroundStyle(.secondary)
+                    .frame(width: 40, height: 40)
+                    .background(Color(light: 0xF2F4F7, dark: 0x252A3B), in: Circle())
+                Text(label)
+                    .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                    .foregroundStyle(HomeStyle.body)
             }
+            .frame(width: 56)
+            // Ortadaki mikrofonla aynı hizada dursun diye, etiket kadar aşağı kaydırılır.
+            .offset(y: 10)
         }
         .buttonStyle(PressableCardStyle())
     }
@@ -290,42 +335,54 @@ final class ChatTutor {
 
 // MARK: - Parçalar
 
+/// JAI mesajı balonsuz: yuvarlak JAI avatarı ve düz metin, sesli okunabiliyorsa sonunda hoparlör (dokununca okur).
+/// Kullanıcı mesajı sağda açık gri balon.
 struct ChatBubble: View {
     let message: ChatTutor.Message
 
     var body: some View {
         if message.role == .jai {
-            HStack(alignment: .top, spacing: 10) {
-                JAIView(mood: .idle, size: 34)
-                    .frame(width: 38, height: 38)
-                    .background(Theme.surface, in: Circle())
-                    .overlay(Circle().stroke(Theme.hairline))
-                HStack(alignment: .top, spacing: 6) {
-                    Text(message.text)
-                        .font(.jakarta(.callout, weight: .medium))
-                        .foregroundStyle(Theme.ink)
-                        .fixedSize(horizontal: false, vertical: true)
-                    if let english = message.english {
-                        Button { Speech.shared.speak(english) } label: {
-                            Image(systemName: "speaker.wave.2").foregroundStyle(Theme.accent)
-                        }
-                        .accessibilityLabel("Sesli oku")
+            HStack(alignment: .top, spacing: 12) {
+                JAIAvatar()
+                Group {
+                    if message.english != nil {
+                        Text(message.text) + Text("  ") + Text(Image(systemName: "speaker.wave.2")).foregroundColor(HomeStyle.body)
+                    } else {
+                        Text(message.text)
                     }
                 }
-                .padding(.top, 8)
-                Spacer(minLength: 30)
+                .font(.custom(Theme.fontFamily, size: 16, relativeTo: .callout))
+                .foregroundStyle(Theme.ink)
+                .lineSpacing(5)
+                .fixedSize(horizontal: false, vertical: true)
+                .padding(.top, 6)
+                .onTapGesture { if let english = message.english { Speech.shared.speak(english) } }
+                .accessibilityAddTraits(message.english != nil ? .isButton : [])
+                .accessibilityHint(message.english != nil ? "Sesli okumak için dokunun" : "")
+                Spacer(minLength: 16)
             }
         } else {
             HStack {
                 Spacer(minLength: 60)
                 Text(message.text)
-                    .font(.jakarta(.callout, weight: .semibold))
+                    .font(.custom(Theme.fontFamily, size: 16, relativeTo: .callout))
                     .foregroundStyle(Theme.ink)
-                    .padding(.horizontal, 16)
+                    .padding(.horizontal, 14)
                     .padding(.vertical, 11)
-                    .background(Theme.surfaceRaised, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                    .background(Color(light: 0xF2F4F7, dark: 0x252A3B), in: RoundedRectangle(cornerRadius: 16, style: .continuous))
             }
         }
+    }
+}
+
+/// Mesajların yanındaki 36pt yuvarlak JAI.
+struct JAIAvatar: View {
+    var mood: JAIView.Mood = .idle
+
+    var body: some View {
+        JAIView(mood: mood, size: 30)
+            .frame(width: 36, height: 36)
+            .background(Color(light: 0xE6EEFF, dark: 0x1F2A4D), in: Circle())
     }
 }
 
@@ -335,10 +392,7 @@ struct TypingIndicator: View {
 
     var body: some View {
         HStack(spacing: 10) {
-            JAIView(mood: .thinking, size: 34)
-                .frame(width: 38, height: 38)
-                .background(Theme.surface, in: Circle())
-                .overlay(Circle().stroke(Theme.hairline))
+            JAIAvatar(mood: .thinking)
             HStack(spacing: 5) {
                 ForEach(0..<3) { i in
                     Circle()
@@ -349,7 +403,7 @@ struct TypingIndicator: View {
             }
             .padding(.horizontal, 14)
             .padding(.vertical, 12)
-            .glassCapsule()
+            .background(Color(light: 0xF2F4F7, dark: 0x252A3B), in: Capsule())
         }
         .task {
             while !Task.isCancelled {
@@ -374,17 +428,17 @@ struct MicButton: View {
                     ForEach(0..<2) { i in
                         Circle()
                             .stroke(Theme.accent.opacity(0.4), lineWidth: 2)
-                            .frame(width: 84, height: 84)
+                            .frame(width: 68, height: 68)
                             .scaleEffect(wave ? 1.5 + Double(i) * 0.2 : 1)
                             .opacity(wave ? 0 : 0.9)
                     }
                 }
                 Circle()
-                    .fill(Theme.brandGradient)
-                    .frame(width: 84, height: 84)
-                    .shadow(color: Theme.accent.opacity(0.45), radius: 16, y: 8)
+                    .fill(Theme.accent)
+                    .frame(width: 68, height: 68)
+                    .shadow(color: Theme.accent.opacity(0.25), radius: 8, y: 4)
                 Image(systemName: recording ? "stop.fill" : "mic.fill")
-                    .font(.system(size: 30, weight: .bold))
+                    .font(.system(size: 26, weight: .semibold))
                     .foregroundStyle(.white)
                     .contentTransition(.symbolEffect(.replace))
             }
