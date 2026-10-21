@@ -1,0 +1,213 @@
+"""C1 Ünite 4: Akademik okuma."""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from lib import Unit, gap, listen, match, mc, order, speak, typ, variants, write  # noqa: E402
+
+u = Unit("C1", 4, "Akademik okuma", "Academic Reading",
+         "Akademik metinlerdeki participle clause'ları (Having analysed the data, ..., The results obtained ...) anlayıp kendi yazımda kullanabilir, Akademik Kelime Listesi'ndeki (AWL) temel kelimeleri ve kelime ailelerini bilebilir, akademik bir metni hızlı okuma stratejileriyle çözümleyip kendi cümlelerimle özetleyebilirim.",
+         ["-ing participle clause: eşzamanlılık, sebep, sonuç", "-ed participle clause ve kısaltılmış ilgi cümleleri", "Having + V3 ve bağlaç + -ing (after / while / when)", "Akademik Kelime Listesi (AWL) ve kelime aileleri", "akademik okuma stratejileri ve özet (summary) yazma"],
+         ["akademik araştırma", "bilimsel yöntem", "üniversite hayatı"],
+         {"title": "Makale kulübü", "durationMinutes": 45,
+          "goal": "Gruplara kısa bir akademik metin (popüler bir araştırma özeti) dağıtılır. Her grup 5 dakikada metni skim eder, ana argümanı bulur ve AWL kelimeleriyle 3 cümlelik bir özet hazırlar. Gruplar özetlerini sunar; sınıf hangi özetin metni en doğru ve en özgün şekilde aktardığını tartışır."})
+
+u.vocab([
+    ("analyse", "analiz etmek", "The researchers analysed data from 5,000 patients.", "Araştırmacılar 5.000 hastanın verisini analiz etti.", "analysis (isim), analytical (sıfat)"),
+    ("data", "veri", "The data was collected over three years.", "Veriler üç yıl boyunca toplandı.", "akademik dilde çoğul da kabul edilir: data are"),
+    ("approach", "yaklaşım; yaklaşmak", "We need a new approach to the problem.", "Soruna yeni bir yaklaşım gerekiyor.", None),
+    ("factor", "etken, faktör", "Age is an important factor.", "Yaş önemli bir etken.", None),
+    ("concept", "kavram", "The concept is difficult to define.", "Kavramı tanımlamak zor.", None),
+    ("hypothesis", "hipotez", "The results support the hypothesis.", "Sonuçlar hipotezi destekliyor.", "çoğul: hypotheses"),
+    ("indicate", "göstermek, işaret etmek", "The results indicate a strong link.", "Sonuçlar güçlü bir bağlantıya işaret ediyor.", None),
+    ("significant", "anlamlı, önemli", "There was a significant difference.", "Anlamlı bir fark vardı.", "significance (isim)"),
+    ("derive (from)", "türetmek, elde etmek", "Many English words are derived from Latin.", "Pek çok İngilizce kelime Latinceden türetilmiştir.", None),
+    ("assess", "değerlendirmek", "We need to assess the risks.", "Riskleri değerlendirmemiz gerekiyor.", "assessment"),
+    ("establish", "kurmak; kanıtlamak", "The study established a link between diet and health.", "Çalışma beslenme ve sağlık arasında bir bağlantı kanıtladı.", None),
+    ("interpret", "yorumlamak", "The data can be interpreted in different ways.", "Veriler farklı şekillerde yorumlanabilir.", "interpretation"),
+    ("method", "yöntem", "What method did you use?", "Hangi yöntemi kullandınız?", "methodology"),
+    ("theory", "kuram, teori", "The theory was first proposed in 1905.", "Kuram ilk kez 1905'te öne sürüldü.", None),
+    ("evident", "açık, belli", "It is evident that more research is needed.", "Daha fazla araştırmaya ihtiyaç olduğu açık.", "evidence"),
+    ("consistent (with)", "tutarlı", "The findings are consistent with earlier studies.", "Bulgular önceki çalışmalarla tutarlı.", None),
+    ("sample", "örneklem", "The sample consisted of 300 students.", "Örneklem 300 öğrenciden oluşuyordu.", None),
+    ("variable", "değişken", "We controlled for several variables.", "Birkaç değişkeni kontrol ettik.", None),
+    ("conclude", "sonuca varmak", "The authors conclude that the drug is safe.", "Yazarlar ilacın güvenli olduğu sonucuna varıyor.", None),
+    ("summarise", "özetlemek", "Summarise the main argument in one sentence.", "Ana argümanı bir cümlede özetleyin.", None),
+    ("paraphrase", "başka sözcüklerle ifade etmek", "Paraphrase the text in your own words.", "Metni kendi sözcüklerinizle ifade edin.", None),
+    ("skim", "göz gezdirmek, hızlı okumak", "Skim the article to get the main idea.", "Ana fikri anlamak için makaleye göz gezdir.", None),
+    ("scan", "(belirli bilgi için) taramak", "Scan the text for dates and names.", "Tarih ve isimler için metni tara.", None),
+    ("whereby", "ki bununla, ... yoluyla", "a system whereby students can choose their courses", "öğrencilerin derslerini seçebildiği bir sistem", "resmî"),
+])
+
+# ---------------- Ders 1 ----------------
+u.lesson(
+    "-ing ile kısaltmak", "-ing participle clause'ları eşzamanlı eylem, ardışık eylem, sebep ve sonuç bildirmek için anlayabilir ve kullanabilirim.",
+    {"kind": "text", "title": "Bir makaleden: Kuşların göçü", "body": "Every autumn, millions of birds leave Europe, flying thousands of kilometres to Africa. Using the sun, the stars and the Earth's magnetic field, they are able to find their way with remarkable accuracy.\n\nHow they do this has puzzled scientists for centuries. Wanting to understand the process, a team of researchers attached small tracking devices to 200 storks in Germany. Following their journeys over three years, the team discovered that young birds often took longer and more dangerous routes, wasting valuable energy.\n\nBeing less experienced, young storks seemed to rely more on other birds than on their own sense of direction. Older birds, in contrast, flew more directly, saving time and energy.\n\nThe study suggests that migration is not purely instinctive, indicating that learning plays an important role.",
+     "questions": [
+        mc("What did the researchers attach to the storks?", ["Cameras", "Small tracking devices", "Coloured rings"], 1, "\"attached small tracking devices to 200 storks\""),
+        mc("Why did young storks take longer routes?", ["They were faster.", "They were less experienced.", "They were looking for food."], 1, "\"Being less experienced...\""),
+     ]},
+    {"explanation": "**Participle clause**, bir cümleyi **kısaltmanın** ve yazıyı daha **yoğun ve akıcı** hale getirmenin yoludur. Akademik metinlerde çok sık görülür.\n\n**-ing participle clause (etken anlam)**\n\n| İşlev | Uzun hali | Participle clause |\n|---|---|---|\n| **Eşzamanlı eylem** | Birds leave Europe **and they fly** to Africa. | Birds leave Europe, **flying** to Africa. |\n| **Ardışık eylem** | **They followed** the birds **and** discovered ... | **Following** the birds, they discovered ... |\n| **Sebep** | **Because they are** less experienced, they ... | **Being** less experienced, they ... |\n| **Sebep** | **As she wanted** to understand, she ... | **Wanting** to understand, she ... |\n| **Sonuç** | ..., **which wastes** energy. | ..., **wasting** energy. |\n| **Sonuç** | ..., **which indicates** that ... | ..., **indicating** that ... |\n\n**Altın kural: Özne aynı olmalı!**\n\n- ✓ ***Walking** home, **I** saw an accident.* (Yürüyen = ben)\n- ✗ ~~***Walking** home, **an accident** happened.*~~ (Kaza yürümüyor! → \"dangling participle\")\n\n**Olumsuz:** **not** başa gelir: ***Not knowing** what to do, she called her mother.*\n\n**Akademik yazıda sık:** *..., **suggesting** that ... / ..., **indicating** that ... / ..., **resulting in** ... / **Using** this method, ...*",
+     "examples": [{"en": "Using a new method, the team analysed the samples in half the time.", "tr": "Yeni bir yöntem kullanan ekip örnekleri yarı sürede analiz etti."},
+                  {"en": "Not having enough money, many students work part-time.", "tr": "Yeterli parası olmadığı için birçok öğrenci yarı zamanlı çalışıyor."},
+                  {"en": "Prices rose by 20%, resulting in a sharp fall in sales.", "tr": "Fiyatlar %20 arttı ve bu satışlarda keskin bir düşüşe yol açtı."}],
+     "turkishNote": "Türkçe aslında participle clause'larla dolu bir dildir: \"Eve yürürken\", \"Ne yapacağını bilmediği için\", \"Yeni bir yöntem kullanarak\". İngilizcedeki -ing clause'ları Türkçedeki \"-arak\", \"-ken\", \"-dığı için\" eklerine çok benzer. Türkçe konuşanlar için asıl tuzak \"dangling participle\"dır: Türkçede özne değişse bile anlam bağlamdan çıkarılabilir, ama İngilizcede participle clause'un öznesi ana cümlenin öznesiyle aynı olmak zorundadır."},
+    [
+        mc("Hangisi doğru?", ["Walking to school, the rain started.", "Walking to school, I got caught in the rain."], 1, "Özne aynı olmalı."),
+        mc("\"Feeling tired, she went to bed early.\" anlamı:", ["Yatağa gittiği için yorgundu.", "Yorgun hissettiği için erkenden yattı."], 1, "Sebep."),
+        mc("Olumsuz participle:", ["Knowing not the answer, ...", "Not knowing the answer, ..."], 1, "Not + -ing."),
+        mc("\"..., indicating that the drug works.\" işlevi:", ["Sonuç / yorum", "Zaman"], 0, "Sonuç."),
+        gap("___ (use) a new technique, the scientists solved the problem.", ["Using"], "-ing clause."),
+        gap("Not ___ (know) anyone at the party, he left early.", ["knowing"], "Not + -ing."),
+        gap("The river flooded the town, ___ (cause) millions of dollars of damage.", ["causing"], "Sonuç."),
+        gap("___ (be) a doctor, she knew exactly what to do.", ["Being"], "Sebep."),
+        listen("Arriving in the city late at night, we couldn't find a hotel. Not wanting to sleep in the car, we knocked on the door of a small guesthouse. The owner, seeing how tired we were, gave us her own room.", "Ev sahibi neden onlara kendi odasını verdi?", ["Para için", "Ne kadar yorgun olduklarını gördüğü için", "Otel doluydu"], 1, "\"seeing how tired we were\""),
+        typ("Participle clause ile kısaltın: \"Because I didn't have an umbrella, I got wet.\"", variants("Not having an umbrella, I got wet.", "Not having an umbrella I got wet."), "Not having an umbrella, I got wet."),
+    ],
+    {"kind": "speaking", "task": speak("Bir gününüzü ya da bir yolculuğunuzu anlatın ve en az 5 -ing participle clause kullanın: eşzamanlı (..., listening to music), ardışık (Arriving at work, I ...), sebep (Feeling hungry, I ...), olumsuz (Not knowing ..., I ...) ve sonuç (..., making me late). Öznenin aynı olmasına dikkat edin.",
+                                       "Yesterday was a strange day. Waking up late, I rushed out of the house without breakfast. I walked to the station, listening to a podcast. Not paying attention, I got on the wrong train, making me forty minutes late for work. Arriving at the office, I found that my meeting had been cancelled. Feeling a bit annoyed, I went to the café downstairs. Sitting there with a coffee, I realised it was actually a nice chance to relax.",
+                                       ["Çeşitli -ing clause işlevleri", "Özne uyumu", "Olumsuz yapı"])},
+)
+
+# ---------------- Ders 2 ----------------
+u.lesson(
+    "-ed ile kısaltmak", "Edilgen anlamlı -ed participle clause'ları ve kısaltılmış ilgi cümlelerini akademik metinlerde anlayıp kullanabilirim.",
+    {"kind": "text", "title": "Bir araştırma özetinden", "body": "Built in the 1460s, the Grand Bazaar in Istanbul is one of the oldest covered markets in the world. Covering more than 60 streets, it attracts hundreds of thousands of visitors every day.\n\nThis study examines how the bazaar has adapted to tourism. The data collected for this research comes from interviews with 120 shopkeepers working in the bazaar.\n\nAsked about the main changes in the last twenty years, most shopkeepers mentioned a shift from local customers to international tourists. Many traditional craftsmen, faced with rising rents, have been forced to move out.\n\nThe results, based on both interviews and sales data, indicate that the number of shops selling souvenirs has doubled since 2000. Products made by local artisans, in contrast, now represent less than 15% of all goods sold.",
+     "questions": [
+        mc("When was the Grand Bazaar built?", ["In the 1460s", "In 1923", "In 2000"], 0, "\"Built in the 1460s\""),
+        mc("What has happened to traditional craftsmen?", ["They have become richer.", "Many have been forced to move out because of rising rents.", "They now sell souvenirs."], 1, "\"faced with rising rents, have been forced to move out\""),
+     ]},
+    {"explanation": "**-ed (past participle) clause** → **edilgen** anlam taşır.\n\n**1. Cümle başında (sebep / bilgi):**\n\n| Uzun hali | Participle clause |\n|---|---|\n| **The bazaar was built** in the 1460s. It is ... | **Built** in the 1460s, the bazaar is ... |\n| **When they were asked** about changes, they ... | **Asked** about changes, they ... |\n| **Because they were faced** with high rents, they ... | **Faced** with high rents, they ... |\n\n**2. Kısaltılmış ilgi cümlesi (reduced relative clause):**\n\nAkademik metinlerin en karakteristik yapısı:\n\n| Uzun hali | Kısaltılmış |\n|---|---|\n| the data **which was collected** | the data **collected** |\n| shopkeepers **who work** in the bazaar | shopkeepers **working** in the bazaar |\n| products **that are made** by artisans | products **made** by artisans |\n| a study **which was published** in 2020 | a study **published** in 2020 |\n| the results, **which are based** on interviews | the results, **based** on interviews |\n\n**Kural:** \n\n- **Etken** ilgi cümlesi → **-ing**: *people **who live** here → people **living** here*\n- **Edilgen** ilgi cümlesi → **-ed / V3**: *goods **which are sold** → goods **sold***\n\n**Dikkat:** *The man **sitting** next to me* (oturan) ≠ *The man **seated** next to me* (oturtulan, resmî)",
+     "examples": [{"en": "Written in 1866, the novel is still widely read today.", "tr": "1866'da yazılan roman bugün hâlâ çok okunuyor."},
+                  {"en": "The method used in this study is described below.", "tr": "Bu çalışmada kullanılan yöntem aşağıda açıklanmıştır."},
+                  {"en": "Students living on campus pay lower rent.", "tr": "Kampüste yaşayan öğrenciler daha düşük kira öder."}],
+     "turkishNote": "Türkçede \"1453'te kurulan Kapalıçarşı\" ya da \"toplanan veriler\" gibi yapılar ismin önüne gelir; İngilizcede ise participle genellikle ismin arkasına gelir: \"the data collected\", \"the Grand Bazaar, founded in 1453\". Türkçe konuşanlar akademik yazıda bu kısaltmaları kullanmayı unutup her seferinde \"which was\" yazarlar; bu metni uzatır. Etken (-ing) ile edilgen (-ed) arasında doğru seçim yapmak için Türkçedeki \"-an\" (yaşayan) ile \"-ılan\" (toplanan) farkını düşünün."},
+    [
+        mc("\"Bu yıl yayımlanan bir rapor\"", ["a report publishing this year", "a report published this year"], 1, "Edilgen → V3."),
+        mc("\"Yurt dışında yaşayan öğrenciler\"", ["students lived abroad", "students living abroad"], 1, "Etken → -ing."),
+        mc("\"Built in 1890, the bridge ...\" anlamı:", ["1890'da köprüyü inşa eden ...", "1890'da inşa edilen köprü ..."], 1, "Edilgen."),
+        mc("\"the data collected\" uzun hali:", ["the data which collected", "the data which was / were collected"], 1, "Edilgen ilgi cümlesi."),
+        gap("The questionnaire ___ (use) in this study had 20 questions.", ["used"], "Edilgen → V3."),
+        gap("Patients ___ (take) the new drug reported fewer symptoms.", ["taking"], "Etken → -ing."),
+        gap("___ (ask) about her plans, she refused to comment.", ["Asked"], "Edilgen, cümle başı."),
+        gap("The results, ___ (base) on 500 interviews, are very clear.", ["based"], "based on."),
+        listen("The paintings discovered in the cave are more than 30,000 years old. Created using natural materials such as charcoal and red earth, they show animals hunted by early humans. Protected from light and air for thousands of years, they are in remarkable condition.", "Resimler neden çok iyi durumda?", ["Restore edildiler", "Binlerce yıl ışık ve havadan korundular", "Yeni yapıldılar"], 1, "\"Protected from light and air for thousands of years\""),
+        typ("Kısaltın: \"The book, which was written in 1950, is still popular.\"", variants("The book, written in 1950, is still popular.", "Written in 1950, the book is still popular."), "The book, written in 1950, is still popular."),
+    ],
+    {"kind": "speaking", "task": speak("Şehrinizdeki ya da ülkenizdeki tarihi bir yeri, bir binayı ya da bir ürünü rehber gibi tanıtın. En az 3 cümle başı -ed clause (Built in ..., Known as ..., Designed by ...) ve en az 3 kısaltılmış ilgi cümlesi (people living ..., products made ..., visitors coming ...) kullanın.",
+                                       "Built in the sixth century, Hagia Sophia is one of the most famous buildings in the world. Designed by two Greek scientists, it was the largest church on Earth for nearly a thousand years. Converted into a mosque in 1453, it later became a museum and is now a mosque again. Visitors coming from all over the world admire its enormous dome. The mosaics discovered under the plaster are among the finest examples of Byzantine art. Known for its incredible size and light, it continues to inspire architects working today.",
+                                       ["Cümle başı -ed clause", "Kısaltılmış ilgi cümleleri", "Etken / edilgen doğru seçim"])},
+)
+
+# ---------------- Ders 3 ----------------
+u.lesson(
+    "Yaptıktan sonra", "Having + V3 ile önceki eylemi belirtebilir ve after / before / while / when + -ing yapılarını akademik dilde kullanabilirim.",
+    {"kind": "text", "title": "Yöntem bölümü (Methodology)", "body": "Having reviewed the existing literature, we designed a questionnaire consisting of 25 questions.\n\nBefore distributing the questionnaire, we tested it with a small group of 20 students. Having been told that some questions were unclear, we rewrote them in simpler language.\n\nThe final questionnaire was sent to 800 students. After receiving the responses, we removed incomplete answers, leaving a final sample of 612 participants.\n\nWhile analysing the data, we noticed an unexpected pattern: students who worked part-time reported higher levels of satisfaction. Having identified this pattern, we conducted ten follow-up interviews to explore it further.\n\nWhen interpreting these results, it is important to remember that the sample came from a single university.",
+     "questions": [
+        mc("What did the researchers do before sending the questionnaire?", ["They interviewed 800 students.", "They tested it with 20 students.", "They analysed the data."], 1, "\"we tested it with a small group of 20 students\""),
+        mc("What was the unexpected pattern?", ["Part-time workers were more satisfied.", "Older students were happier.", "Most students didn't answer."], 0, "\"students who worked part-time reported higher levels of satisfaction\""),
+     ]},
+    {"explanation": "**Perfect participle: Having + V3**\n\nBir eylemin **diğerinden önce tamamlandığını** vurgular.\n\n| Uzun hali | Participle clause |\n|---|---|\n| **After we had reviewed** the literature, we ... | **Having reviewed** the literature, we ... |\n| **Because she had lived** abroad, she ... | **Having lived** abroad, she ... |\n\n**Edilgen: Having been + V3**\n\n- ***Having been told** that the questions were unclear, we rewrote them.* (Bize söylendikten sonra)\n\n**Olumsuz:** ***Not having seen** the film, I can't comment.*\n\n**Bağlaç + -ing**\n\nAnlamı netleştirmek için participle'ın önüne bağlaç eklenebilir:\n\n| Bağlaç | Örnek |\n|---|---|\n| **after** + -ing | **After receiving** the responses, we ... |\n| **before** + -ing | **Before distributing** it, we tested it. |\n| **while** + -ing | **While analysing** the data, we noticed ... |\n| **when** + -ing | **When interpreting** the results, ... |\n| **since** + -ing | **Since moving** to Ankara, she has ... |\n| **by** + -ing (yöntem) | **By comparing** the two groups, we ... |\n| **on** + -ing (hemen sonra, resmî) | **On arriving**, they were taken to ... |\n\n**After + -ing / Having + V3:** Anlam aynı, ama **After** + -ing daha sade, **Having** daha resmî ve vurgulu.\n\n**Akademik \"Methodology\" bölümlerinde** bu yapılar çok sık kullanılır, çünkü işlemleri **sırayla** ve **kısa** bir şekilde anlatırlar.",
+     "examples": [{"en": "Having completed the survey, participants were given a small gift.", "tr": "Anketi tamamlayan katılımcılara küçük bir hediye verildi."},
+                  {"en": "While working on the project, she discovered an error.", "tr": "Proje üzerinde çalışırken bir hata keşfetti."},
+                  {"en": "By comparing the two groups, we were able to measure the effect.", "tr": "İki grubu karşılaştırarak etkiyi ölçebildik."}],
+     "turkishNote": "Türkçedeki \"-dıktan sonra\" (yaptıktan sonra) İngilizcede \"Having done\" ya da \"After doing\" ile karşılanır. Türkçe konuşanların sık yaptığı hata, \"After to finish\" ya da \"Before to start\" demektir; bağlaçlardan sonra her zaman -ing gelir. Ayrıca Türkçedeki \"-arak\" (karşılaştırarak) yapısı yöntem bildirdiğinde İngilizcede \"By comparing\" olur."},
+    [
+        mc("Hangisi doğru?", ["After to finish the report, she left.", "After finishing the report, she left."], 1, "after + -ing."),
+        mc("\"Having lived in Japan, he speaks Japanese.\" anlamı:", ["Japonya'da yaşayacağı için ...", "Japonya'da yaşamış olduğu için ..."], 1, "Önce tamamlanmış."),
+        mc("Edilgen perfect participle:", ["Having told the truth, ...", "Having been told the truth, ..."], 1, "Having been + V3."),
+        mc("Yöntem bildirmek:", ["By comparing the results, we ...", "With comparing the results, we ..."], 0, "by + -ing."),
+        gap("___ finished the experiment, the students wrote their reports.", ["Having"], "Having + V3."),
+        gap("Before ___ (start) the interview, we explained the purpose of the study.", ["starting"], "before + -ing."),
+        gap("Not having ___ (read) the book, I can't give an opinion.", ["read"], "Not having + V3."),
+        gap("While ___ (analyse) the data, we noticed a pattern.", ["analysing", "analyzing"], "while + -ing."),
+        listen("Having spent six months in the Arctic, the team returned with more than 2,000 ice samples. After analysing them in the laboratory, they found evidence that temperatures had risen faster than expected. By comparing their data with older records, they were able to show a clear trend.", "Ekip verilerini neyle karşılaştırdı?", ["Diğer ekiplerin tahminleriyle", "Daha eski kayıtlarla", "Uydu fotoğraflarıyla"], 1, "\"By comparing their data with older records\""),
+        typ("Having + V3 ile yeniden yazın: \"After she had graduated, she moved to Izmir.\"", variants("Having graduated, she moved to Izmir.", "Having graduated she moved to Izmir."), "Having graduated, she moved to Izmir."),
+    ],
+    {"kind": "speaking", "task": speak("Yaptığınız bir projeyi, bir araştırmayı ya da bir yemek tarifini adım adım bir \"yöntem\" bölümü gibi anlatın. Having + V3, Having been + V3, before / after / while / by + -ing yapılarından en az 6'sını kullanın.",
+                                       "First, having chosen a topic, I read about ten articles on social media and sleep. Having done that, I designed a short online survey. Before sending it out, I asked three friends to test it. Having been told that it was too long, I removed five questions. After receiving 150 responses, I put all the data into a spreadsheet. While analysing it, I noticed that students who used their phones in bed slept less. By comparing different age groups, I found that the effect was strongest among first-year students.",
+                                       ["Having + V3", "Having been + V3", "Bağlaç + -ing", "Mantıklı sıra"])},
+)
+
+# ---------------- Ders 4 ----------------
+u.lesson(
+    "Akademik kelimeler", "Akademik Kelime Listesi'ndeki (AWL) sık kelimeleri ve kelime ailelerini tanıyabilir, günlük kelimeleri akademik karşılıklarıyla değiştirebilirim.",
+    {"kind": "text", "title": "İki versiyon: aynı bulgu", "body": "Everyday version:\n\"We looked at information from 2,000 people. It shows that people who walk a lot are less likely to get depressed. This is a big difference. But maybe other things, like money or friends, also make a difference.\"\n\nAcademic version:\n\"Data from 2,000 participants were analysed. The findings indicate that regular walking is associated with a significantly lower risk of depression. However, other factors, such as income and social support, may also have influenced the results. Further research is required to establish a causal relationship.\"",
+     "questions": [
+        mc("What do the findings indicate?", ["Walking causes depression.", "Regular walking is associated with lower risk of depression.", "Money is the only factor."], 1, "\"regular walking is associated with a significantly lower risk of depression\""),
+        mc("What other factors are mentioned?", ["Age and gender", "Income and social support", "Diet and sleep"], 1, "\"such as income and social support\""),
+     ]},
+    {"explanation": "**Akademik Kelime Listesi (Academic Word List, AWL):** Akademik metinlerde en sık geçen yaklaşık 570 kelime ailesi. Bu kelimeleri bilmek akademik okumayı çok kolaylaştırır.\n\n**Günlük → Akademik:**\n\n| Günlük | Akademik |\n|---|---|\n| look at | **analyse / examine / investigate** |\n| show | **indicate / demonstrate / illustrate** |\n| big | **significant / substantial / considerable** |\n| things | **factors / aspects / elements** |\n| find out | **establish / determine / identify** |\n| need | **require** |\n| think about | **consider** |\n| idea | **concept / notion** |\n| way | **approach / method** |\n| get | **obtain / acquire** |\n| about | **approximately** (rakamlar) |\n| enough | **sufficient / adequate** |\n\n**Kelime aileleri (word families):** Bir kelimeyi öğrenince ailesini de öğrenin.\n\n| Fiil | İsim | Sıfat | Zarf |\n|---|---|---|---|\n| analyse | analysis | analytical | analytically |\n| signify | significance | significant | significantly |\n| interpret | interpretation | interpretive | |\n| vary | variation / variable | various / variable | |\n| establish | establishment | established | |\n| consist | consistency | consistent | consistently |\n\n**Collocations:** *conduct research*, *carry out a study*, *collect / gather data*, *draw a conclusion*, *raise a question*, *play a role*, *have an impact on*",
+     "examples": [{"en": "The study examines the impact of social media on teenagers.", "tr": "Çalışma sosyal medyanın gençler üzerindeki etkisini inceliyor."},
+                  {"en": "There was a significant variation between the two groups.", "tr": "İki grup arasında anlamlı bir farklılık vardı."},
+                  {"en": "Further research is required to draw firm conclusions.", "tr": "Kesin sonuçlar çıkarmak için daha fazla araştırma gerekiyor."}],
+     "turkishNote": "Türkçe akademik dilde de \"incelemek\", \"belirlemek\", \"anlamlı\" gibi günlük dilden farklı kelimeler kullanılır. İngilizce akademik kelimelerin çoğu Latince kökenlidir ve bazıları Türkçeye de geçmiştir (analiz, faktör, konsept, hipotez, metod). Bu sizin için bir avantajdır! Ancak \"significant\" kelimesine dikkat: Akademik dilde genellikle \"istatistiksel olarak anlamlı\" demektir, sadece \"önemli\" değil."},
+    [
+        mc("\"We looked at the data.\" akademik hali:", ["We analysed the data.", "We saw the data."], 0, "analyse."),
+        mc("\"big difference\" akademik hali:", ["huge difference", "significant difference"], 1, "significant."),
+        mc("\"analyse\" isim hali:", ["analysis", "analytic"], 0, "analysis."),
+        mc("Doğru collocation:", ["make research", "conduct research"], 1, "conduct research."),
+        gap("The results ___ that the drug is effective. (göstermek, akademik)", ["indicate", "demonstrate", "suggest", "show"], "indicate."),
+        gap("Several ___ may have influenced the results. (etken)", ["factors"], "factors."),
+        gap("The study was ___ out in three countries. (yürütülmek)", ["carried"], "carry out a study."),
+        gap("There was a ___ (significant) increase in sales. (sıfat)", ["significant"], "Sıfat."),
+        match([("examine", "look at"), ("require", "need"), ("obtain", "get"), ("approximately", "about"), ("sufficient", "enough")], "Akademik kelimeyi günlük karşılığıyla eşleştirin."),
+        listen("In this lecture, I'll examine three factors that play a significant role in language learning: motivation, age and exposure. Research has consistently demonstrated that motivation is the most important of these, although age also has a considerable impact.", "Konuşmacıya göre en önemli faktör hangisi?", ["Yaş", "Motivasyon", "Maruz kalma"], 1, "\"motivation is the most important of these\""),
+    ],
+    {"kind": "speaking", "task": speak("Aşağıdaki günlük cümleleri akademik bir sunumda söyler gibi yeniden ifade edin ve her birinin ardından bir cümle daha ekleyin: (1) We looked at what 500 students said. (2) It shows that big classes are bad for learning. (3) But other things might also be important. (4) We need to do more research to find out for sure.",
+                                       "One: We analysed responses from approximately 500 students. The data were collected through an online questionnaire. Two: The findings indicate that large class sizes have a significant negative impact on learning outcomes. Students in classes of more than forty reported lower levels of engagement. Three: However, other factors, such as teaching methods and student motivation, may also play a role. Four: Further research is required to establish a causal relationship. A longitudinal study would be particularly useful.",
+                                       ["Akademik kelime seçimi", "Doğru collocations", "Edilgen ve resmî yapı"])},
+)
+
+# ---------------- Ders 5 ----------------
+u.lesson(
+    "Okumak ve özetlemek", "Akademik bir metni skim ve scan stratejileriyle çözümleyebilir, ana argümanı bulabilir ve kendi cümlelerimle (paraphrase) bir özet yazabilirim.",
+    {"kind": "text", "title": "Akademik makale özeti: Çok dillilik ve beyin", "body": "Over the past two decades, a growing body of research has examined the cognitive effects of speaking more than one language. Early studies, conducted mainly with children, suggested that bilingual individuals perform better on tasks requiring attention and task-switching. This so-called \"bilingual advantage\" received considerable attention from the media.\n\nMore recent research, however, has challenged these findings. Having reviewed over 150 studies, several researchers concluded that the advantage is smaller than previously thought and, in some cases, may not exist at all. They argue that many early studies used small samples and failed to control for important variables, such as socio-economic background.\n\nNevertheless, there is consistent evidence in one area. Studies of older adults indicate that lifelong bilingualism may delay the onset of dementia by several years. Although the exact mechanism remains unclear, researchers believe that regularly switching between languages may help to build \"cognitive reserve\", allowing the brain to cope better with damage.\n\nIn conclusion, while the benefits of bilingualism for everyday thinking may have been exaggerated, its long-term effects on brain health appear to be significant.",
+     "questions": [
+        mc("What did early studies suggest?", ["Bilingual people have worse memories.", "Bilingual people perform better on attention tasks.", "Bilingualism causes dementia."], 1, "\"bilingual individuals perform better on tasks requiring attention\""),
+        mc("Where is there consistent evidence?", ["Children's school results", "Delaying dementia in older adults", "Learning mathematics"], 1, "\"lifelong bilingualism may delay the onset of dementia\""),
+     ]},
+    {"explanation": "**Akademik okuma stratejileri:**\n\n| Strateji | Ne zaman? | Nasıl? |\n|---|---|---|\n| **Skimming** | Ana fikri anlamak | Başlık, ilk ve son paragraf, her paragrafın **ilk cümlesi** |\n| **Scanning** | Belirli bir bilgi bulmak | Rakam, isim, tarih, anahtar kelime için hızlıca tarayın |\n| **Signal words** | Argümanın yönünü anlamak | *However, Nevertheless* (karşıt görüş), *In conclusion* (sonuç) |\n| **Hedging'i fark etmek** | Yazarın ne kadar emin olduğunu anlamak | *may, suggest, appear, likely* |\n\n**Özet (summary) yazmak:**\n\n1. **Metni okuyun** ve ana argümanı **tek cümleyle** söyleyin.\n2. **Ana noktaları** not alın (örnekleri, rakamları ve ayrıntıları atın).\n3. **Metne bakmadan** kendi cümlelerinizle yazın.\n4. Orijinalle **karşılaştırın**: Anlam doğru mu? Kelimeler sizin mi?\n\n**Paraphrase teknikleri:**\n\n| Teknik | Orijinal | Paraphrase |\n|---|---|---|\n| **Eşanlamlı** | has **challenged** these findings | has **questioned** these results |\n| **Kelime türü değiştirme** | bilingualism may **delay** dementia | bilingualism may lead to a **delay** in dementia |\n| **Etken ↔ edilgen** | Researchers **reviewed** 150 studies. | 150 studies **were reviewed**. |\n| **Cümle yapısını değiştirme** | Although the mechanism is unclear, ... | The mechanism is unclear; however, ... |\n\n**Özet dili:** *The article / author argues that ... / According to the text, ... / The writer concludes that ...*\n\n**Dikkat:** Özete **kendi görüşünüzü** eklemeyin!",
+     "examples": [{"en": "The author argues that the bilingual advantage has been exaggerated.", "tr": "Yazar iki dilliliğin avantajının abartıldığını savunuyor."},
+                  {"en": "According to recent research, the effect is smaller than previously thought.", "tr": "Son araştırmalara göre etki daha önce düşünülenden küçük."},
+                  {"en": "The text concludes that bilingualism may protect the brain in old age.", "tr": "Metin iki dilliliğin yaşlılıkta beyni koruyabileceği sonucuna varıyor."}],
+     "turkishNote": "Türk öğrenciler özet yazarken genellikle orijinal metinden cümleleri olduğu gibi kopyalar ya da sadece birkaç kelimeyi değiştirir. İngilizce akademik dünyada bu \"plagiarism\" (intihal) olarak kabul edilebilir. İyi bir paraphrase hem kelimeleri hem de cümle yapısını değiştirir, ama anlamı korur. En etkili yöntem: Metni okuyun, kapatın, sonra kendi cümlelerinizle yazın."},
+    [
+        mc("Metnin ana fikrini hızlıca anlamak için:", ["Scanning", "Skimming"], 1, "Skimming."),
+        mc("Metinde belirli bir tarihi bulmak için:", ["Scanning", "Skimming"], 0, "Scanning."),
+        mc("Özette ne olmamalı?", ["Ana argüman", "Kendi görüşünüz"], 1, "Görüş eklenmez."),
+        mc("İyi bir paraphrase:", ["Sadece bir kelimeyi değiştirmek", "Hem kelimeleri hem yapıyı değiştirip anlamı korumak"], 1, "Paraphrase."),
+        gap("The author ___ that the effect has been exaggerated. (savunuyor)", ["argues", "claims", "suggests"], "argues that."),
+        gap("___ to the text, early studies used small samples. (göre)", ["According"], "According to."),
+        gap("The text ___ that bilingualism may protect the brain. (sonucuna varıyor)", ["concludes"], "concludes that."),
+        gap("Paraphrase: \"Researchers reviewed 150 studies.\" → \"150 studies ___ reviewed.\"", ["were"], "Edilgen."),
+        listen("When you're asked to summarise an article, don't start by copying sentences. First, read the whole text quickly. Then close it and write the main idea in one sentence. Only after that should you add the key supporting points, using your own words.", "Konuşan özete nasıl başlamayı öneriyor?", ["Cümleleri kopyalayarak", "Metni kapatıp ana fikri tek cümlede yazarak", "Önce örnekleri yazarak"], 1, "\"close it and write the main idea in one sentence\""),
+        typ("Paraphrase edin (edilgen kullanarak): \"Many researchers have challenged these findings.\"", variants("These findings have been challenged by many researchers.", "These findings have been questioned by many researchers.", "These results have been challenged by many researchers.", "These results have been questioned by many researchers."), "These findings have been challenged by many researchers."),
+    ],
+    {"kind": "writing", "task": write("Yukarıdaki \"Çok dillilik ve beyin\" metninin özetini yazın (100–130 kelime). Metne bakmadan, kendi cümlelerinizle yazın. Ana argümanı ilk cümlede verin, iki ana noktayı (abartılmış günlük avantaj, beyin sağlığına uzun vadeli etki) açıklayın ve yazarın sonucunu aktarın. Özet dili (The text argues / According to / concludes), en az 3 AWL kelimesi ve en az bir participle clause kullanın. Kendi görüşünüzü eklemeyin.",
+                                      "The article examines research on how speaking two or more languages affects the brain. According to early studies, bilingual people were thought to be better at tasks involving concentration and switching between activities. However, having analysed a large number of later studies, some researchers have questioned this claim, arguing that the effect is either very small or non-existent. They point out that many of the original studies were based on limited samples and did not consider other relevant factors, such as family income. In contrast, there is more reliable evidence that using two languages throughout life may postpone the symptoms of dementia in old age. The text concludes that, although the everyday benefits may have been overstated, the long-term impact on brain health seems considerable.",
+                                      ["Ana argüman ilk cümlede", "Kendi cümleleriyle paraphrase", "Özet dili ve AWL kelimeleri", "Participle clause", "Görüş eklemeden, doğru aktarım"])},
+)
+
+u.test([
+    mc("Hangisi doğru?", ["Walking home, the rain started.", "Walking home, I got caught in the rain."], 1, "Özne uyumu"),
+    mc("\"Toplanan veriler\" İngilizce:", ["the data collecting", "the data collected"], 1, "Edilgen → V3"),
+    mc("\"Kampüste yaşayan öğrenciler\"", ["students lived on campus", "students living on campus"], 1, "Etken → -ing"),
+    mc("Hangisi doğru?", ["Before to start, read the instructions.", "Before starting, read the instructions."], 1, "before + -ing"),
+    mc("\"We looked at the data.\" akademik:", ["We analysed the data.", "We watched the data."], 0, "analyse"),
+    gap("___ finished the analysis, we wrote the report. (Having)", ["Having"], "Having + V3"),
+    gap("Not ___ (know) the answer, she stayed silent.", ["knowing"], "Not + -ing"),
+    gap("___ (build) in 1890, the bridge is still in use.", ["Built"], "Edilgen cümle başı"),
+    gap("By ___ (compare) the two groups, we measured the effect.", ["comparing"], "by + -ing"),
+    gap("The study was ___ out in five countries.", ["carried"], "carry out"),
+    gap("There was a ___ increase in the number of patients. (anlamlı)", ["significant"], "significant"),
+    mc("Özette ne olmamalı?", ["Ana argüman", "Kendi görüşünüz"], 1, "Görüş yok"),
+    listen("Having collected data from over 3,000 households, the researchers found that families living near parks spent more time outdoors. The results, published last month, suggest that access to green space may play a significant role in public health.", "Bulgular neyi gösteriyor?", ["Parklar pahalı", "Yeşil alanlara erişim halk sağlığında önemli bir rol oynayabilir", "Aileler dışarıda vakit geçirmiyor"], 1, "\"access to green space may play a significant role in public health\""),
+    typ("Participle clause ile kısaltın: \"The report, which was published in 2022, caused a lot of debate.\"", variants("The report, published in 2022, caused a lot of debate.", "Published in 2022, the report caused a lot of debate."), "The report, published in 2022, caused a lot of debate."),
+    write("Aşağıdaki kısa metni okuyun ve 80–100 kelimelik bir özet yazın: \"Many cities around the world have introduced congestion charges, requiring drivers to pay a fee to enter the city centre during busy hours. Supporters argue that such schemes reduce traffic and air pollution while generating money for public transport. Evidence from several European cities indicates that traffic in charged zones fell by between 15 and 30 percent in the first year. Critics, however, claim that the charges unfairly affect lower-income drivers, who may have no alternative to using a car. They also point out that some of the initial reductions in traffic have become smaller over time. Overall, the research suggests that congestion charges can be effective, provided that they are combined with affordable and reliable public transport.\" Kendi cümlelerinizle, özet dili, AWL kelimeleri ve en az bir participle clause kullanın.",
+          "The text discusses congestion charges, which oblige drivers to pay a fee for entering city centres at peak times. According to supporters, these schemes decrease traffic and pollution while providing funding for public transport. Data from a number of European cities demonstrate a substantial fall in traffic during the first year. Opponents, however, argue that the fees place an unfair burden on poorer drivers lacking other transport options, and they note that the early benefits have declined over time. The text concludes that, when supported by cheap and efficient public transport, congestion charges can be a successful approach.",
+          ["Ana fikir ve dengeli aktarım", "Paraphrase", "AWL kelimeleri", "Participle clause", "Kelime sınırı ve görüş eklememe"]),
+])
+
+if __name__ == "__main__":
+    u.save(sys.argv[1])
