@@ -77,10 +77,10 @@ struct MainTabView: View {
         }
         .environment(\.tabBarInset, barHeight)
         .environment(\.openDictionary, OpenDictionaryAction { showDictionary = true })
-        .sheet(isPresented: $showDictionary) {
+        // Tam ekran: sayfa olarak açılınca arkadaki ana sayfanın mavi bandı üstte keskin bir şerit gibi görünüyordu.
+        .fullScreenCover(isPresented: $showDictionary) {
             DictionaryView()
                 .environment(\.tabBarInset, 0)
-                .presentationDragIndicator(.visible)
         }
         .environment(\.selectTab, SelectTabAction { new in
             Haptics.tap()

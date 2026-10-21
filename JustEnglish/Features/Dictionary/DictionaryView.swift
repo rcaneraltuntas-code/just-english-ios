@@ -5,6 +5,7 @@ import JECore
 /// Aynı kelime birden fazla ünitede geçiyorsa tek satırda, tüm anlamlarıyla gösterilir.
 struct DictionaryView: View {
     @Environment(AppModel.self) private var model
+    @Environment(\.dismiss) private var dismiss
     @State private var query = ""
     @State private var levelFilter: CEFRLevel?
     @FocusState private var searching: Bool
@@ -62,6 +63,15 @@ struct DictionaryView: View {
                         .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
                         .foregroundStyle(HomeStyle.body)
                 }
+                Spacer()
+                Button { dismiss() } label: {
+                    Image(systemName: "xmark")
+                        .font(.system(size: 15, weight: .semibold))
+                        .foregroundStyle(Theme.ink)
+                        .frame(width: 36, height: 36)
+                        .background(Theme.surface, in: Circle())
+                }
+                .accessibilityLabel("Kapat")
             }
             searchField.padding(.top, 14)
         }
