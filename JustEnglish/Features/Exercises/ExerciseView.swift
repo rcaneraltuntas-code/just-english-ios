@@ -6,6 +6,8 @@ struct ExerciseOutcome: Equatable {
     var correct: Bool?
     var message: String?
     var correctAnswer: String?
+    /// Geri bildirimdeki hoparlör düğmesinin okuyacağı İngilizce metin.
+    var speakText: String?
 }
 
 /// Her alıştırma türünü çizer, cevabı kontrol eder ve geri bildirimi gösterir.
@@ -63,14 +65,14 @@ struct ExerciseView: View {
                            locked: outcome != nil) { chosen in
                 let correct = chosen == answerIndex
                 submit(.init(correct: correct, message: correct ? explanation : (wrongFeedback[chosen] ?? explanation),
-                             correctAnswer: correct ? nil : options[answerIndex]))
+                             correctAnswer: correct ? nil : options[answerIndex], speakText: options[answerIndex]))
             }
         case let .listening(_, audioText, prompt, options, answerIndex, explanation):
             ChoiceExercise(prompt: prompt, audioText: audioText, options: options, answerIndex: answerIndex,
                            locked: outcome != nil) { chosen in
                 let correct = chosen == answerIndex
                 submit(.init(correct: correct, message: explanation + "\n\n🔊 \"\(audioText)\"",
-                             correctAnswer: correct ? nil : options[answerIndex]))
+                             correctAnswer: correct ? nil : options[answerIndex], speakText: audioText))
             }
         case let .gapFill(_, text, answers, explanation, hint):
             GapFillExercise(text: text, hint: hint) { input in
@@ -130,13 +132,24 @@ struct FeedbackPanel: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
             if showsFeedback, let correct = outcome.correct {
-                HStack(spacing: 12) {
-                    JAIView(mood: correct ? .happy : .sad, size: 56, color: color, bounceTrigger: hop)
-                        .frame(width: 56, height: 56)
+                HStack(spacing: 10) {
+                    Image(systemName: correct ? "checkmark.circle.fill" : "xmark.circle.fill")
+                        .font(.system(size: 28, weight: .bold))
+                        .foregroundStyle(color)
                         .scaleEffect(iconScale)
+                        .symbolEffect(.bounce, value: hop)
                     Text(correct ? title : wrongTitle)
                         .font(.jakarta(.title2, weight: .heavy))
                         .foregroundStyle(color)
+                    Spacer()
+                    if let speak = outcome.speakText {
+                        Button { Speech.shared.speak(speak) } label: {
+                            Image(systemName: "speaker.wave.2")
+                                .font(.system(size: 20, weight: .semibold))
+                                .foregroundStyle(Theme.ink)
+                        }
+                        .accessibilityLabel("Sesli oku")
+                    }
                 }
                 if let answer = outcome.correctAnswer {
                     VStack(alignment: .leading, spacing: 2) {
@@ -151,16 +164,17 @@ struct FeedbackPanel: View {
                         .fixedSize(horizontal: false, vertical: true)
                 }
             }
+            // Referanstaki gibi devam düğmesi her zaman vurgu renginde; doğru/yanlış başlıktaki renkten anlaşılır.
             Button("Devam", action: onContinue)
-                .buttonStyle(PrimaryButtonStyle(color: color))
+                .buttonStyle(.primary)
                 .padding(.top, 4)
         }
         .padding(20)
         .padding(.bottom, 4)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(color.opacity(0.12))
-        .background(.background)
-        .overlay(alignment: .top) { Rectangle().fill(color.opacity(0.35)).frame(height: 2) }
+        .background(Theme.surface)
+        .overlay(alignment: .top) { Rectangle().fill(Theme.hairline).frame(height: 1) }
+        .shadow(color: Theme.ink.opacity(0.06), radius: 12, y: -4)
         .onAppear {
             withAnimation(Motion.pop.delay(0.05)) { iconScale = 1 }
             if outcome.correct == true { hop += 1 }
@@ -206,32 +220,32 @@ struct ChoiceExercise: View {
                 .onAppear { play(audioText, rate: 0.45) }
             }
             Text(prompt)
-                .font(.jakarta(.title3, weight: .bold))
+                .font(.jakarta(.title2, weight: .heavy))
+                .foregroundStyle(Theme.ink)
                 .fixedSize(horizontal: false, vertical: true)
-            VStack(spacing: 8) {
+            VStack(spacing: 12) {
                 ForEach(Array(options.enumerated()), id: \.offset) { index, option in
                     Button {
                         guard !locked else { return }
                         Haptics.tap()
                         withAnimation(Motion.press) { chosen = index }
                     } label: {
-                        HStack(spacing: 14) {
-                            Text(["A", "B", "C", "D", "E", "F"][min(index, 5)])
-                                .font(.jakarta(.subheadline, weight: .heavy))
-                                .foregroundStyle(tint(for: index) == nil ? Color.secondary : .white)
-                                .frame(width: 30, height: 30)
-                                .background(tint(for: index) ?? Color.secondary.opacity(0.12), in: RoundedRectangle(cornerRadius: 8))
+                        HStack(spacing: 12) {
                             Text(option)
                                 .font(.jakarta(.body, weight: .semibold))
+                                .foregroundStyle(tint(for: index) ?? Theme.ink)
                                 .multilineTextAlignment(.leading)
                                 .frame(maxWidth: .infinity, alignment: .leading)
                             if locked && index == answerIndex {
                                 Image(systemName: "checkmark.circle.fill").foregroundStyle(Theme.success).transition(.scale)
+                            } else if locked && index == chosen {
+                                Image(systemName: "xmark.circle.fill").foregroundStyle(Theme.danger).transition(.scale)
                             }
                         }
-                        .padding(14)
+                        .padding(.horizontal, 20)
+                        .padding(.vertical, 18)
                     }
-                    .buttonStyle(TileButtonStyle(highlight: tint(for: index)))
+                    .buttonStyle(OptionCardStyle(highlight: tint(for: index)))
                     .scaleEffect(locked && index == answerIndex ? 1.02 : 1)
                     .staggeredAppear(index)
                 }
@@ -264,6 +278,22 @@ struct ChoiceExercise: View {
             return nil
         }
         return index == chosen ? Theme.accent : nil
+    }
+}
+
+/// Referanstaki seçenek kartı: beyaz zemin, ince gri kenar; seçili/doğru/yanlışta açık renkli zemin ve renkli kenar.
+struct OptionCardStyle: ButtonStyle {
+    var highlight: Color?
+
+    func makeBody(configuration: Configuration) -> some View {
+        let shape = RoundedRectangle(cornerRadius: 18, style: .continuous)
+        return configuration.label
+            .background((highlight ?? .clear).opacity(0.1), in: shape)
+            .background(Theme.surface, in: shape)
+            .overlay(shape.stroke(highlight ?? Theme.hairline, lineWidth: highlight == nil ? 1.5 : 2))
+            .shadow(color: (highlight ?? Theme.ink).opacity(highlight == nil ? 0.03 : 0.12), radius: 6, y: 3)
+            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .animation(Motion.press, value: configuration.isPressed)
     }
 }
 

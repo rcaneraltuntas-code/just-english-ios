@@ -51,11 +51,18 @@ struct LessonFlowView: View {
             Button {
                 if finished || index == 0 { dismiss() } else { confirmExit = true }
             } label: {
-                Image(systemName: "xmark").font(.jakarta(.headline, weight: .bold))
+                Image(systemName: "arrow.left").font(.system(size: 18, weight: .bold))
+                    .foregroundStyle(Theme.ink)
+                    .frame(width: 36, height: 36)
             }
-            .foregroundStyle(.secondary)
-            ProgressBar(value: finished ? 1 : Double(index) / Double(max(steps.count, 1)),
-                        color: combo >= 3 ? Theme.streak : Theme.success, height: 14)
+            .accessibilityLabel("Dersten çık")
+            MascotProgressBar(value: finished ? 1 : Double(index) / Double(max(steps.count, 1)),
+                              color: combo >= 3 ? Theme.streak : Theme.accent)
+            Text("\(min(index + 1, max(steps.count, 1)))/\(max(steps.count, 1))")
+                .font(.jakarta(.subheadline, weight: .bold))
+                .foregroundStyle(.secondary)
+                .monospacedDigit()
+                .contentTransition(.numericText())
             if combo >= 3 {
                 HStack(spacing: 3) {
                     Image(systemName: "flame.fill").symbolEffect(.bounce, value: combo)
@@ -80,11 +87,13 @@ struct LessonFlowView: View {
             LearnStep(learn: lesson.learn, goal: lesson.goal, onDone: next)
         case .exercise(let exercise, let section):
             VStack(alignment: .leading, spacing: 0) {
-                Text(section.title)
-                    .font(.jakarta(.caption, weight: .bold))
-                    .foregroundStyle(Theme.accent)
-                    .textCase(.uppercase)
+                // Referanstaki yeşil kategori etiketi; büyük harf yerine harf aralığıyla (İ/I sorunu olmasın).
+                Label(section.title, systemImage: "bubble.left.and.bubble.right.fill")
+                    .font(.jakarta(.subheadline, weight: .bold))
+                    .tracking(0.6)
+                    .foregroundStyle(Theme.success)
                     .padding(.horizontal, 20)
+                    .padding(.top, 4)
                 ExerciseView(exercise: exercise) { outcome in record(exercise, section: section, outcome: outcome) }
             }
         }
@@ -405,5 +414,34 @@ struct LessonSummaryView: View {
         .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
         .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(color, lineWidth: 2))
         .staggeredAppear(Int(delay * 10), delay: 0.06)
+    }
+}
+
+/// İlerleme çubuğu; dolu kısmın ucunda JAI'nin başı ilerler (referanstaki maskot düğmesi).
+struct MascotProgressBar: View {
+    let value: Double
+    var color: Color = Theme.accent
+
+    var body: some View {
+        GeometryReader { geo in
+            let clamped = min(max(value, 0), 1)
+            let knob: CGFloat = 30
+            let x = (geo.size.width - knob) * clamped
+            ZStack(alignment: .leading) {
+                Capsule().fill(Color(light: 0xDCE3EF, dark: 0x2A3150)).frame(height: 12)
+                Capsule().fill(color.gradient).frame(width: max(x + knob / 2, 12), height: 12)
+                JAIView(mood: .happy, size: 24)
+                    .frame(width: knob, height: knob)
+                    .background(Theme.surface, in: Circle())
+                    .overlay(Circle().stroke(color.opacity(0.5), lineWidth: 1.5))
+                    .shadow(color: color.opacity(0.3), radius: 4, y: 2)
+                    .offset(x: x)
+            }
+            .frame(height: geo.size.height)
+        }
+        .frame(height: 32)
+        .animation(Motion.smooth, value: value)
+        .accessibilityElement()
+        .accessibilityLabel("İlerleme yüzde \(Int(value * 100))")
     }
 }

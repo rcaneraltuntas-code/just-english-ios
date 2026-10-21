@@ -1,99 +1,206 @@
 import SwiftUI
 import JECore
 
-/// Ünitenin dersleri, sağa sola kıvrılan bir yol üzerinde yuvarlak düğümler olarak.
-/// Bitirilen dersler dolu, sıradaki ders nabız gibi atan bir halkayla, en sonda ünite testi kupası.
+/// Ünitenin dersleri, referanstaki senaryo yolu gibi: yukarıdan aşağı kıvrılan geniş, açık gri bir yol
+/// (ortasında ince beyaz çizgi), üzerinde sırayla sağa sola yerleşen hap etiketler ve her birinin karşı
+/// yanında konusuna uygun büyük bir görsel. Bitirilen kısım mavi; sıradaki dersin yanında "Başla" balonu.
 struct LessonPathView: View {
     let unit: CourseUnit
     let onLesson: (Lesson) -> Void
     let onTest: () -> Void
 
     @Environment(AppModel.self) private var model
+    @State private var drawn = false
 
-    /// Düğümlerin yatay kayması: dalgalı bir yol çizer.
-    private let offsets: [CGFloat] = [0, -70, -40, 40, 70, 0]
+    private let rowHeight: CGFloat = 92
+    private let pillWidth: CGFloat = 168
+    /// Referanstaki yolun her satırdaki yatay konumu (0...1): önce sola, sonra sağa kıvrılan uzun bir S.
+    private let roadRatios: [CGFloat] = [0.36, 0.3, 0.36, 0.64, 0.68, 0.56]
 
     private var nextIndex: Int? {
         unit.lessons.firstIndex { !model.state.completedLessons.contains($0.id) }
     }
 
     var body: some View {
-        let color = Theme.color(for: unit.level)
-        VStack(spacing: 18) {
-            ForEach(Array(unit.lessons.enumerated()), id: \.element.id) { index, lesson in
-                let done = model.state.completedLessons.contains(lesson.id)
-                let current = index == nextIndex
-                PathNode(icon: done ? "checkmark" : icon(for: index), color: done ? Theme.warning : (current ? color : nil),
-                         current: current, label: lesson.title) {
-                    onLesson(lesson)
+        let count = unit.lessons.count + 1
+        let doneCount = unit.lessons.filter { model.state.completedLessons.contains($0.id) }.count
+        GeometryReader { geo in
+            let w = geo.size.width
+            let points = (0..<count).map { CGPoint(x: w * roadRatios[$0 % roadRatios.count], y: rowHeight * (CGFloat($0) + 0.5)) }
+            let progress = CGFloat(doneCount) / CGFloat(max(count - 1, 1))
+            ZStack(alignment: .topLeading) {
+                // Yol: iki ince gri kenar çizgisi ve aralarında çok açık bir şerit.
+                road(points, shift: 0)
+                    .stroke(Color(light: 0xDDE3EC, dark: 0x2A3150), style: StrokeStyle(lineWidth: 28, lineCap: .round, lineJoin: .round))
+                road(points, shift: 0)
+                    .stroke(Color(light: 0xF6F8FB, dark: 0x141829), style: StrokeStyle(lineWidth: 17, lineCap: .round, lineJoin: .round))
+                // Bitirilen kısım: yolun sol kenarı maviye döner.
+                road(points, shift: -11)
+                    .trim(from: 0, to: drawn ? progress : 0)
+                    .stroke(Theme.accent, style: StrokeStyle(lineWidth: 5.5, lineCap: .round, lineJoin: .round))
+                    .animation(.easeInOut(duration: 1.2).delay(0.25), value: drawn)
+
+                ForEach(0..<count, id: \.self) { i in
+                    let roadX = points[i].x
+                    let y = points[i].y
+                    let isTest = i == unit.lessons.count
+                    let lesson = isTest ? nil : unit.lessons[i]
+                    let done = lesson.map { model.state.completedLessons.contains($0.id) } ?? model.isUnitPassed(unit)
+                    let current = isTest ? (nextIndex == nil && !done) : i == nextIndex
+                    // Yol solda kalıyorsa hap sağa, sağda kalıyorsa sola uzanır; bir ucu yolun üstündedir.
+                    let extendsRight = roadX < w / 2
+                    let anchored = extendsRight ? roadX - 10 + pillWidth / 2 : roadX + 10 - pillWidth / 2
+                    // Sıradaki hapın yanındaki "Başla" balonu (~80pt) ekrandan taşmasın.
+                    let pillCenter = !current ? anchored
+                        : (extendsRight ? min(anchored, w - 8 - 82 - pillWidth / 2) : max(anchored, 8 + 82 + pillWidth / 2))
+                    PathPill(title: lesson?.title ?? "Ünite testi",
+                             state: done ? .done : (current ? .current : .locked),
+                             width: pillWidth,
+                             extendsRight: extendsRight) {
+                        if let lesson { onLesson(lesson) } else { onTest() }
+                    }
+                    .position(x: pillCenter, y: y)
+                    .staggeredAppear(i, delay: 0.08)
+                    // Görsel yolun öbür yanında, yola yakın; referanstaki gibi büyük.
+                    Text(isTest ? "🏆" : LessonEmoji.for(lesson?.title ?? ""))
+                        .font(.system(size: 54))
+                        .shadow(color: Theme.ink.opacity(0.15), radius: 6, y: 4)
+                        .position(x: min(max(extendsRight ? roadX - 58 : roadX + 58, 34), w - 34), y: y)
+                        .staggeredAppear(i, delay: 0.08)
                 }
-                .offset(x: offsets[index % offsets.count])
-                .staggeredAppear(index, delay: 0.07)
             }
-            let passed = model.isUnitPassed(unit)
-            PathNode(icon: "trophy.fill", color: passed ? Theme.warning : (nextIndex == nil ? color : nil),
-                     current: nextIndex == nil && !passed, label: "Ünite testi", size: 84, action: onTest)
-                .offset(x: offsets[unit.lessons.count % offsets.count])
-                .staggeredAppear(unit.lessons.count, delay: 0.07)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 8)
+        .frame(height: rowHeight * CGFloat(count) + 30)
+        .onAppear { drawn = true }
     }
 
-    private func icon(for index: Int) -> String {
-        ["star.fill", "book.fill", "dumbbell.fill", "bubble.left.and.bubble.right.fill", "sparkles"][index % 5]
+    /// Satır noktalarından geçen yumuşak S eğrisi; başta ve sonda biraz taşar. `shift` yolun kenarını çizmek için.
+    private func road(_ points: [CGPoint], shift: CGFloat) -> Path {
+        var path = Path()
+        let pts = points.map { CGPoint(x: $0.x + shift, y: $0.y) }
+        guard let first = pts.first, let last = pts.last else { return path }
+        path.move(to: CGPoint(x: first.x + 12, y: first.y - rowHeight * 0.5))
+        path.addQuadCurve(to: first, control: CGPoint(x: first.x + 6, y: first.y - rowHeight * 0.2))
+        for i in 1..<pts.count {
+            let a = pts[i - 1], b = pts[i]
+            let midY = (a.y + b.y) / 2
+            path.addCurve(to: b, control1: CGPoint(x: a.x, y: midY), control2: CGPoint(x: b.x, y: midY))
+        }
+        path.addQuadCurve(to: CGPoint(x: last.x - 30, y: last.y + rowHeight * 0.7), control: CGPoint(x: last.x - 6, y: last.y + rowHeight * 0.4))
+        return path
     }
 }
 
-struct PathNode: View {
-    let icon: String
-    /// nil: henüz sırası gelmemiş ders (gri).
-    let color: Color?
-    let current: Bool
-    let label: String
-    var size: CGFloat = 72
+/// Ders adındaki anahtar sözcüklere göre konu görseli; bulunamazsa 📘.
+enum LessonEmoji {
+    private static let map: [(String, String)] = [
+        ("selam", "👋"), ("merhaba", "👋"), ("ben, sen", "🧑‍🤝‍🧑"), ("nereli", "🌍"), ("ülke", "🌍"), ("yaş", "🎂"),
+        ("evet", "✅"), ("aile", "👨‍👩‍👧"), ("kardeş", "👫"), ("nasıl biri", "🧑‍🎨"), ("benim, senin", "🎒"),
+        ("çoğul", "🧺"), ("bu ve şu", "👉"), ("bunlar", "👉"), ("renk", "🎨"), ("ev", "🏠"), ("oda", "🛏️"),
+        ("içinde", "📦"), ("yanında", "🪑"), ("var mı", "🔎"), ("sayı", "🔢"), ("saat", "⏰"), ("gün", "📅"),
+        ("rutin", "⏰"), ("yemek", "🍽️"), ("kafe", "☕"), ("kahve", "☕"), ("restoran", "🍽️"), ("sipariş", "🧾"),
+        ("alışveriş", "🛒"), ("market", "🛒"), ("fiyat", "🏷️"), ("giysi", "👕"), ("şehir", "🏙️"), ("yol", "🗺️"),
+        ("tarif", "🗺️"), ("ulaşım", "🚌"), ("taksi", "🚕"), ("otel", "🏨"), ("havaalanı", "✈️"), ("seyahat", "✈️"),
+        ("tatil", "🏖️"), ("hava", "⛅"), ("iş", "💼"), ("meslek", "💼"), ("okul", "🏫"), ("spor", "⚽"),
+        ("müzik", "🎵"), ("film", "🎬"), ("sağlık", "🩺"), ("doktor", "🩺"), ("telefon", "📱"), ("hafta sonu", "🎉"),
+        ("yetenek", "🎸"), ("geçmiş", "🕰️"), ("gelecek", "🔮"), ("plan", "🗓️"), ("hikâye", "📖"), ("hikaye", "📖"),
+    ]
+
+    static func `for`(_ title: String) -> String {
+        let lower = title.lowercased(with: Locale(identifier: "tr"))
+        return map.first { lower.contains($0.0) }?.1 ?? "📘"
+    }
+}
+
+/// Yol üzerindeki hap: bitti = mavi, yolun üstündeki ucunda sarı yıldız; sıradaki = mavi ve yanında "Başla" balonu;
+/// kilitli = açık gri, gri yazı ve yol tarafında kilit.
+struct PathPill: View {
+    enum State { case done, current, locked }
+    let title: String
+    let state: State
+    var width: CGFloat = 168
+    /// Hap yoldan sağa mı uzanıyor (yol ucu solda) yoksa sola mı.
+    var extendsRight = true
     let action: () -> Void
 
-    @State private var pulse = false
-    @State private var bob = false
+    @SwiftUI.State private var bob = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
-        VStack(spacing: 6) {
-            if current {
-                Text("BAŞLA")
-                    .font(.jakarta(.caption, weight: .heavy))
-                    .foregroundStyle(color ?? Theme.accent)
-                    .padding(.horizontal, 12)
-                    .padding(.vertical, 7)
-                    .background(Theme.surface, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
-                    .overlay(RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(Color(uiColor: .systemGray4), lineWidth: 2))
-                    .offset(y: bob ? -4 : 2)
-                    .onAppear { withAnimation(.easeInOut(duration: 0.9).repeatForever()) { bob = true } }
+        Button(action: action) {
+            HStack(spacing: 8) {
+                if state == .locked && extendsRight { lock }
+                Text(title)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                if state == .locked && !extendsRight { lock }
             }
-            ZStack {
-                if current {
-                    Circle()
-                        .stroke((color ?? Theme.accent).opacity(0.35), lineWidth: 6)
-                        .frame(width: size + 18, height: size + 18)
-                        .scaleEffect(pulse ? 1.08 : 0.96)
-                        .opacity(pulse ? 0.4 : 1)
-                        .onAppear { withAnimation(.easeInOut(duration: 1.1).repeatForever()) { pulse = true } }
-                }
-                Button(action: action) {
-                    Image(systemName: icon)
-                        .font(.system(size: size * 0.38, weight: .black))
-                        .foregroundStyle(color == nil ? Color(uiColor: .systemGray2) : .white)
-                        .frame(width: size, height: size)
-                }
-                .buttonStyle(RoundDepthButtonStyle(color: color ?? Color(uiColor: .systemGray5)))
-                .accessibilityLabel(label)
+            .font(.jakarta(.callout, weight: state == .locked ? .medium : .semibold))
+            .foregroundStyle(state == .locked ? Color(light: 0x9AA4B5, dark: 0x6C7690) : .white)
+            .padding(.leading, extendsRight ? 26 : 14)
+            .padding(.trailing, extendsRight ? 14 : 26)
+            .frame(width: width, height: 44)
+            .background {
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .fill(state == .locked ? Color(light: 0xDCE1EA, dark: 0x262D45) : Theme.accent)
             }
-            Text(label)
-                .font(.jakarta(.caption, weight: .semibold))
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-                .lineLimit(2)
-                .frame(width: 130)
+            .background {
+                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                    .fill(state == .locked ? Color.clear : Theme.accentDeep)
+                    .offset(x: 1, y: 2.5)
+            }
+            .overlay(alignment: extendsRight ? .leading : .trailing) {
+                if state != .locked {
+                    // Yıldız hapın yola değen ucunda.
+                    Image(systemName: "star.fill")
+                        .font(.system(size: 17))
+                        .foregroundStyle(Theme.warning)
+                        .shadow(color: Theme.warning.opacity(0.5), radius: 2)
+                        .offset(x: extendsRight ? 4 : -4)
+                        .opacity(state == .done ? 1 : 0.95)
+                }
+            }
         }
+        .buttonStyle(PressableCardStyle())
+        .overlay(alignment: extendsRight ? .trailing : .leading) {
+            if state == .current {
+                StartBubble(pointsRight: !extendsRight)
+                    .fixedSize()
+                    .offset(x: extendsRight ? 80 : -80)
+                    .scaleEffect(bob ? 1.04 : 0.98)
+                    .allowsHitTesting(false)
+            }
+        }
+        .onAppear {
+            guard state == .current, !reduceMotion else { return }
+            withAnimation(.easeInOut(duration: 0.9).repeatForever()) { bob = true }
+        }
+        .accessibilityLabel("\(title), \(state == .done ? "tamamlandı" : state == .current ? "sıradaki" : "kilitli")")
+    }
+
+    private var lock: some View {
+        Image(systemName: "lock.fill").font(.system(size: 13, weight: .semibold))
+    }
+}
+
+/// Sıradaki dersin yanındaki beyaz dikdörtgen "Başla" balonu; hapa doğru küçük bir ucu var.
+struct StartBubble: View {
+    var pointsRight = false
+
+    var body: some View {
+        Text("Başla")
+            .font(.jakarta(.title3, weight: .bold))
+            .foregroundStyle(Theme.accent)
+            .padding(.horizontal, 12)
+            .padding(.vertical, 9)
+            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 4, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 4, style: .continuous).stroke(Color(light: 0xCFD8E6, dark: 0x3A4361), lineWidth: 1.2))
+            .overlay(alignment: pointsRight ? .trailing : .leading) {
+                Image(systemName: pointsRight ? "arrowtriangle.right.fill" : "arrowtriangle.left.fill")
+                    .font(.system(size: 12))
+                    .foregroundStyle(Theme.surface)
+                    .offset(x: pointsRight ? 9 : -9)
+            }
+            .shadow(color: Theme.ink.opacity(0.1), radius: 6, y: 3)
     }
 }

@@ -11,18 +11,36 @@ struct UnitView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack {
-                        LevelBadge(level: unit.level)
-                        Text("Ünite \(unit.number) · \(unit.titleEn)").font(.jakarta(.subheadline, weight: .semibold)).foregroundStyle(.secondary)
-                        Spacer()
-                        Text("\(model.completedCount(in: unit))/\(unit.lessons.count)")
-                            .font(.jakarta(.subheadline, weight: .heavy))
-                            .foregroundStyle(Theme.color(for: unit.level))
+                // Referanstaki seviye kartı: açık gri zemin, küçük gri üst satır, kalın ünite adı, sağda 🔥 ve ⭐ sayaçları.
+                HStack(alignment: .center) {
+                    VStack(alignment: .leading, spacing: 4) {
+                        Text("Seviye \(unit.level.rawValue) · Ünite \(unit.number)")
+                            .font(.jakarta(.footnote, weight: .semibold))
+                            .tracking(0.6)
+                            .foregroundStyle(.secondary)
+                        Text(unit.title).font(.jakarta(.title3, weight: .bold)).foregroundStyle(Theme.ink.opacity(0.85))
                     }
-                    ProgressBar(value: Double(model.completedCount(in: unit)) / Double(max(unit.lessons.count, 1)),
-                                color: Theme.color(for: unit.level), height: 12)
-                    Text(unit.canDo).font(.jakarta(.body))
+                    Spacer()
+                    HStack(spacing: 14) {
+                        Text("🔥 \(model.state.progress.displayedStreak(at: .now))")
+                        Text("⭐ \(model.state.progress.totalXP)")
+                    }
+                    .font(.jakarta(.headline, weight: .bold))
+                    .foregroundStyle(Theme.ink.opacity(0.8))
+                }
+                .padding(18)
+                .background(Color(light: 0xF1F4F9, dark: 0x1D2233), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+                .staggeredAppear(0)
+
+                LessonPathView(unit: unit) { lesson in
+                    activeLesson = LessonRoute(unit: unit, lesson: lesson)
+                } onTest: {
+                    showTest = true
+                }
+
+                VStack(alignment: .leading, spacing: 10) {
+                    SectionHeader(title: "Bu ünitede")
+                    Text(unit.canDo).font(.jakarta(.subheadline, weight: .medium)).foregroundStyle(.secondary)
                     if !unit.grammar.isEmpty {
                         FlowLayout(spacing: 6) {
                             ForEach(unit.grammar, id: \.self) { tag($0, color: Theme.accent) }
@@ -30,12 +48,7 @@ struct UnitView: View {
                         }
                     }
                 }
-
-                LessonPathView(unit: unit) { lesson in
-                    activeLesson = LessonRoute(unit: unit, lesson: lesson)
-                } onTest: {
-                    showTest = true
-                }
+                .card()
 
                 SectionTitle(text: "Ünite testi")
                 Button { showTest = true } label: {
@@ -75,8 +88,8 @@ struct UnitView: View {
         }
         .tabBarSpacer()
         .appBackground()
-        .navigationTitle(unit.title)
-        .navigationBarTitleDisplayMode(.large)
+        .navigationTitle("Dersler")
+        .navigationBarTitleDisplayMode(.inline)
         .fullScreenCover(item: $activeLesson) { LessonFlowView(unit: $0.unit, lesson: $0.lesson) }
         .fullScreenCover(isPresented: $showTest) { UnitTestView(unit: unit) }
     }
@@ -128,5 +141,12 @@ struct VocabularyRow: View {
             SpeakButton(text: card.en)
         }
         .padding(.vertical, 8)
+    }
+}
+
+/// Simge ile sayı arasında az boşluklu etiket (sayaçlar için).
+struct TightLabelStyle: LabelStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        HStack(spacing: 4) { configuration.icon; configuration.title.foregroundStyle(Theme.ink) }
     }
 }
