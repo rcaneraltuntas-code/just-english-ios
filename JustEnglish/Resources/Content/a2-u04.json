@@ -1,0 +1,1478 @@
+{
+  "id": "a2-u04",
+  "level": "A2",
+  "number": 4,
+  "title": "Planlar",
+  "titleEn": "Plans",
+  "canDo": "Gelecek planlarımı ve niyetlerimi anlatabilir, kesinleşmiş randevularımı söyleyebilir ve biriyle birlikte plan yapabilirim.",
+  "grammar": [
+    "be going to: niyet ve plan",
+    "be going to: olumsuz ve soru",
+    "gelecek için present continuous (kesin planlar)",
+    "be going to: kanıta dayalı tahmin",
+    "gelecek zaman ifadeleri"
+  ],
+  "vocabularyThemes": [
+    "boş zaman etkinlikleri",
+    "hedefler ve kararlar",
+    "takvim ve randevular"
+  ],
+  "liveClass": {
+    "title": "Ajanda",
+    "durationMinutes": 45,
+    "goal": "Her öğrenciye gelecek haftanın dolu bir ajanda sayfası verilir. Öğrenciler What are you doing on...? / Are you free on...? sorularıyla, herkesin boş olduğu bir zamanı bulup ortak bir etkinlik planlamaya çalışır. Sonra herkes yeni yıl için 3 hedefini 'going to' ile paylaşır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u04-v01",
+      "en": "plan",
+      "tr": "plan; planlamak",
+      "example": "What are your plans for the summer?",
+      "exampleTr": "Yaz için planların neler?"
+    },
+    {
+      "id": "a2-u04-v02",
+      "en": "going to",
+      "tr": "-ecek (niyet)",
+      "example": "I'm going to learn to drive.",
+      "exampleTr": "Araba kullanmayı öğreneceğim.",
+      "note": "be + going to + yalın fiil"
+    },
+    {
+      "id": "a2-u04-v03",
+      "en": "tomorrow",
+      "tr": "yarın",
+      "example": "I'm meeting Ali tomorrow.",
+      "exampleTr": "Yarın Ali'yle buluşuyorum."
+    },
+    {
+      "id": "a2-u04-v04",
+      "en": "the day after tomorrow",
+      "tr": "öbür gün",
+      "example": "We're leaving the day after tomorrow.",
+      "exampleTr": "Öbür gün yola çıkıyoruz."
+    },
+    {
+      "id": "a2-u04-v05",
+      "en": "next week",
+      "tr": "gelecek hafta",
+      "example": "I'm starting a new job next week.",
+      "exampleTr": "Gelecek hafta yeni bir işe başlıyorum.",
+      "note": "next month, next year (the yok)"
+    },
+    {
+      "id": "a2-u04-v06",
+      "en": "this weekend",
+      "tr": "bu hafta sonu",
+      "example": "What are you doing this weekend?",
+      "exampleTr": "Bu hafta sonu ne yapıyorsun?"
+    },
+    {
+      "id": "a2-u04-v07",
+      "en": "in two weeks",
+      "tr": "iki hafta sonra",
+      "example": "My exam is in two weeks.",
+      "exampleTr": "Sınavım iki hafta sonra.",
+      "note": "in + süre (gelecek)"
+    },
+    {
+      "id": "a2-u04-v08",
+      "en": "save money",
+      "tr": "para biriktirmek",
+      "example": "I'm going to save money for a car.",
+      "exampleTr": "Araba için para biriktireceğim."
+    },
+    {
+      "id": "a2-u04-v09",
+      "en": "give up",
+      "tr": "bırakmak (alışkanlık)",
+      "example": "My dad is going to give up smoking.",
+      "exampleTr": "Babam sigarayı bırakacak."
+    },
+    {
+      "id": "a2-u04-v10",
+      "en": "take up",
+      "tr": "başlamak (hobi)",
+      "example": "I'm going to take up yoga.",
+      "exampleTr": "Yogaya başlayacağım."
+    },
+    {
+      "id": "a2-u04-v11",
+      "en": "lose weight",
+      "tr": "kilo vermek",
+      "example": "She wants to lose weight before the wedding.",
+      "exampleTr": "Düğünden önce kilo vermek istiyor."
+    },
+    {
+      "id": "a2-u04-v12",
+      "en": "get fit",
+      "tr": "forma girmek",
+      "example": "I'm going to the gym to get fit.",
+      "exampleTr": "Forma girmek için spor salonuna gidiyorum."
+    },
+    {
+      "id": "a2-u04-v13",
+      "en": "learn to",
+      "tr": "... öğrenmek",
+      "example": "We're going to learn to dance salsa.",
+      "exampleTr": "Salsa dans etmeyi öğreneceğiz.",
+      "note": "learn to + fiil"
+    },
+    {
+      "id": "a2-u04-v14",
+      "en": "appointment",
+      "tr": "randevu",
+      "example": "I have a dentist's appointment at three.",
+      "exampleTr": "Saat üçte dişçi randevum var."
+    },
+    {
+      "id": "a2-u04-v15",
+      "en": "diary",
+      "tr": "ajanda",
+      "example": "Let me check my diary.",
+      "exampleTr": "Ajandama bakayım.",
+      "note": "Amerikan: calendar / planner."
+    },
+    {
+      "id": "a2-u04-v16",
+      "en": "free",
+      "tr": "boş, müsait",
+      "example": "Are you free on Friday evening?",
+      "exampleTr": "Cuma akşamı müsait misin?"
+    },
+    {
+      "id": "a2-u04-v17",
+      "en": "busy",
+      "tr": "meşgul",
+      "example": "Sorry, I'm busy on Saturday.",
+      "exampleTr": "Kusura bakma, cumartesi meşgulüm."
+    },
+    {
+      "id": "a2-u04-v18",
+      "en": "barbecue",
+      "tr": "mangal",
+      "example": "We're having a barbecue on Sunday.",
+      "exampleTr": "Pazar günü mangal yapıyoruz.",
+      "note": "have a barbecue"
+    },
+    {
+      "id": "a2-u04-v19",
+      "en": "exhibition",
+      "tr": "sergi",
+      "example": "There's a new photo exhibition at the museum.",
+      "exampleTr": "Müzede yeni bir fotoğraf sergisi var."
+    },
+    {
+      "id": "a2-u04-v20",
+      "en": "festival",
+      "tr": "festival",
+      "example": "Are you going to the jazz festival?",
+      "exampleTr": "Caz festivaline gidiyor musun?"
+    },
+    {
+      "id": "a2-u04-v21",
+      "en": "resolution",
+      "tr": "(yeni yıl) kararı",
+      "example": "My New Year's resolution is to read more.",
+      "exampleTr": "Yeni yıl kararım daha çok okumak."
+    },
+    {
+      "id": "a2-u04-v22",
+      "en": "probably",
+      "tr": "muhtemelen",
+      "example": "I'm probably going to stay at home.",
+      "exampleTr": "Muhtemelen evde kalacağım."
+    },
+    {
+      "id": "a2-u04-v23",
+      "en": "definitely",
+      "tr": "kesinlikle",
+      "example": "I'm definitely going to come!",
+      "exampleTr": "Kesinlikle geleceğim!"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u04-l1",
+      "number": 1,
+      "title": "Niyetlerim",
+      "goal": "be going to ile gelecek niyetlerimi ve planlarımı anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Yeni yıl kararları",
+        "body": "We asked three people about their plans for next year.\n\nHakan, 34: \"I'm going to give up smoking. I tried last year, but this time I'm going to do it!\"\n\nZehra, 19: \"I'm going to take up the guitar. My friends and I are going to start a band.\"\n\nMr and Mrs Aslan, 65 and 63: \"We're both retired now, so we're going to travel. First we're going to visit our son in Canada.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Zehra going to do?",
+            "options": [
+              "Give up smoking",
+              "Learn the guitar",
+              "Travel to Canada"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm going to take up the guitar.\"",
+            "id": "a2-u04-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why are Mr and Mrs Aslan going to visit Canada?",
+            "options": [
+              "Their son lives there.",
+              "They want to work there.",
+              "It's cheap."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"visit our son in Canada\"",
+            "id": "a2-u04-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**be going to** + yalın fiil, önceden karar verilmiş **niyet ve planları** anlatır.\n\n| | |\n|---|---|\n| I **am** (I'm) | going to + fiil |\n| He / She / It **is** ('s) | going to + fiil |\n| You / We / They **are** ('re) | going to + fiil |\n\n- I**'m going to** learn Spanish.\n- She**'s going to** move to Berlin.\n- We**'re going to** buy a house.\n\n**go** fiiliyle: I'm going to go to the cinema. Günlük dilde sık sık kısaca: I'm going to the cinema.\n\n**Zaman ifadeleri:** tomorrow, next week/month/year, this weekend, in two days, one day (bir gün)",
+        "examples": [
+          {
+            "en": "I'm going to save money for a new car.",
+            "tr": "Yeni bir araba için para biriktireceğim."
+          },
+          {
+            "en": "They're going to get married next year.",
+            "tr": "Gelecek yıl evlenecekler."
+          },
+          {
+            "en": "One day, I'm going to visit Japan.",
+            "tr": "Bir gün Japonya'yı ziyaret edeceğim."
+          }
+        ],
+        "turkishNote": "Türkçede \"-ecek\" eki hem plan hem tahmin için kullanılır. İngilizcede önceden karar verilmiş niyetler için going to, anlık kararlar ve tahminler için will (9. ünite) kullanılır. be fiili unutulmamalı: \"I going to\" yanlıştır, \"I'm going to\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I going to study.",
+            "I'm going to study.",
+            "I'm going study."
+          ],
+          "answerIndex": 1,
+          "explanation": "be + going to + fiil.",
+          "id": "a2-u04-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She's going to moves.",
+            "She's going to move.",
+            "She going to move."
+          ],
+          "answerIndex": 1,
+          "explanation": "going to + yalın fiil.",
+          "id": "a2-u04-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ going to buy a new car. (are)",
+          "answers": [
+            "are",
+            "'re"
+          ],
+          "explanation": "we → are.",
+          "id": "a2-u04-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "He's going ___ give up smoking.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "going to.",
+          "id": "a2-u04-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm going to ___ up yoga. (başlamak)",
+          "answers": [
+            "take"
+          ],
+          "explanation": "take up = hobiye başlamak.",
+          "id": "a2-u04-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Kilo vermek\"",
+          "options": [
+            "lose weight",
+            "get weight",
+            "give up weight"
+          ],
+          "answerIndex": 0,
+          "explanation": "lose weight.",
+          "id": "a2-u04-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "going",
+            "I'm",
+            "to",
+            "learn",
+            "to",
+            "drive",
+            "next",
+            "year"
+          ],
+          "answer": "I'm going to learn to drive next year.",
+          "explanation": "be going to + learn to + fiil.",
+          "translation": "Gelecek yıl araba kullanmayı öğreneceğim.",
+          "id": "a2-u04-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "This summer I'm going to work in a hotel in Bodrum. I'm going to save money for university.",
+          "prompt": "Neden otelde çalışacak?",
+          "options": [
+            "Tatil için",
+            "Üniversite için para biriktirmek için",
+            "İngilizce öğrenmek için"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"save money for university\"",
+          "id": "a2-u04-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bir gün Japonya'yı ziyaret edeceğim.\"",
+          "accepted": [
+            "One day, I'm going to visit Japan.",
+            "One day, I'm going to visit Japan",
+            "One day, I am going to visit Japan",
+            "One day, I am going to visit Japan.",
+            "One day I'm going to visit Japan.",
+            "One day I'm going to visit Japan",
+            "One day I am going to visit Japan",
+            "One day I am going to visit Japan.",
+            "I'm going to visit Japan one day.",
+            "I'm going to visit Japan one day",
+            "I am going to visit Japan one day",
+            "I am going to visit Japan one day."
+          ],
+          "explanation": "One day + I'm going to visit Japan.",
+          "id": "a2-u04-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "give up",
+              "right": "smoking"
+            },
+            {
+              "left": "take up",
+              "right": "the guitar"
+            },
+            {
+              "left": "save",
+              "right": "money"
+            },
+            {
+              "left": "get",
+              "right": "fit"
+            },
+            {
+              "left": "lose",
+              "right": "weight"
+            }
+          ],
+          "explanation": "Kalıpları eşleştirin.",
+          "id": "a2-u04-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Gelecek yıl için 3 yeni yıl kararınızı ve gelecekte bir gün yapmak istediğiniz bir şeyi going to ile anlatın.",
+          "modelAnswer": "Next year I'm going to get fit. I'm going to go to the gym three times a week. I'm also going to save money and read more books. One day, I'm going to live by the sea.",
+          "rubric": [
+            "be + going to + yalın fiil",
+            "Zaman ifadeleri",
+            "Kalıplar (take up, give up...)"
+          ]
+        },
+        "id": "a2-u04-l1-use"
+      }
+    },
+    {
+      "id": "a2-u04-l2",
+      "number": 2,
+      "title": "Ne yapacaksın?",
+      "goal": "going to ile soru sorup olumsuz cümle kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Mezuniyetten sonra",
+        "lines": [
+          {
+            "speaker": "Aunt",
+            "text": "Congratulations on your graduation! So, what are you going to do now?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Thanks! I'm not going to look for a job immediately."
+          },
+          {
+            "speaker": "Aunt",
+            "text": "Really? Are you going to travel?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, I am. I'm going to spend three months in South America."
+          },
+          {
+            "speaker": "Aunt",
+            "text": "Wow! Where are you going to stay?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "In hostels, mostly. I'm not going to spend much money!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Is Deniz going to look for a job immediately?",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm not going to look for a job immediately.\"",
+            "id": "a2-u04-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Deniz going to stay?",
+            "options": [
+              "In hotels",
+              "In hostels",
+              "With family"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"In hostels, mostly.\"",
+            "id": "a2-u04-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Olumsuz:** be + **not** + going to + fiil\n\n- I**'m not going to** buy it.\n- She **isn't going to** come.\n- They **aren't going to** move.\n\n**Soru:** Am / Is / Are + özne + going to + fiil?\n\n- **Are** you **going to** travel? – Yes, I **am**. / No, I**'m not**.\n- **Is** he **going to** call? – Yes, he **is**. / No, he **isn't**.\n\n**Bilgi sorusu:**\n\n- **What are** you **going to** do?\n- **Where is** she **going to** live?\n- **When are** they **going to** arrive?",
+        "examples": [
+          {
+            "en": "What are you going to wear to the party?",
+            "tr": "Partiye ne giyeceksin?"
+          },
+          {
+            "en": "We aren't going to stay long.",
+            "tr": "Uzun kalmayacağız."
+          },
+          {
+            "en": "Is it going to be expensive?",
+            "tr": "Pahalı olacak mı?"
+          }
+        ],
+        "turkishNote": "\"Ne yapacaksın?\" = What are you going to do? Kısa cevapta going to tekrar edilmez: \"Are you going to come? – Yes, I am.\" Soru do/does ile kurulmaz: \"Do you going to...?\" yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Do you going to travel?",
+            "Are you going to travel?",
+            "You are going to travel?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Are + you + going to?",
+          "id": "a2-u04-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is she going to call?\" (Hayır.)",
+          "options": [
+            "No, she isn't.",
+            "No, she doesn't.",
+            "No, she won't going."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, she isn't.",
+          "id": "a2-u04-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ going to tell anyone. (değil)",
+          "answers": [
+            "not"
+          ],
+          "explanation": "I'm not going to.",
+          "id": "a2-u04-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ going to move. They like their flat. (değil)",
+          "answers": [
+            "aren't",
+            "are not",
+            "'re not"
+          ],
+          "explanation": "they → aren't.",
+          "id": "a2-u04-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you going to do this weekend?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "you → are.",
+          "id": "a2-u04-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Where is he going to ___? (live)",
+          "answers": [
+            "live"
+          ],
+          "explanation": "going to + yalın fiil.",
+          "id": "a2-u04-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "When",
+            "are",
+            "going",
+            "to",
+            "arrive",
+            "?"
+          ],
+          "answer": "When are you going to arrive?",
+          "explanation": "Soru kelimesi + are + you + going to + fiil?",
+          "translation": "Ne zaman varacaksın?",
+          "id": "a2-u04-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Are you going to cook tonight? – No, I'm not. I'm too tired. We're going to order a pizza.",
+          "prompt": "Bu akşam ne yapacaklar?",
+          "options": [
+            "Yemek pişirecekler",
+            "Pizza sipariş edecekler",
+            "Dışarıda yiyecekler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"We're going to order a pizza.\"",
+          "id": "a2-u04-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"She's going to study medicine.\" (What?)",
+          "accepted": [
+            "What is she going to study?",
+            "What is she going to study",
+            "What's she going to study?",
+            "What's she going to study"
+          ],
+          "explanation": "What + is she + going to study?",
+          "id": "a2-u04-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Partiye ne giyeceksin?\"",
+          "accepted": [
+            "What are you going to wear to the party?",
+            "What are you going to wear to the party",
+            "What are you going to wear for the party?",
+            "What are you going to wear for the party"
+          ],
+          "explanation": "What are you going to wear + to the party?",
+          "id": "a2-u04-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI yakında büyük bir değişiklik yapacak (taşınma, yeni iş, uzun bir yolculuk). Ona going to ile en az 5 soru sorun, sonra kendi bir planınızı olumsuz bir cümle de ekleyerek anlatın.",
+          "modelAnswer": "Where are you going to live? When are you going to move? Are you going to sell your car? What are you going to do there? Is it going to be expensive? ... I'm going to change my job, but I'm not going to move.",
+          "rubric": [
+            "Soru düzeni doğru",
+            "Kısa cevaplar",
+            "Olumsuz cümle doğru"
+          ]
+        },
+        "id": "a2-u04-l2-use"
+      }
+    },
+    {
+      "id": "a2-u04-l3",
+      "number": 3,
+      "title": "Ajandam dolu",
+      "goal": "Kesinleşmiş gelecek planlarımı present continuous ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Asistanla telefon",
+        "lines": [
+          {
+            "speaker": "Ms Tan",
+            "text": "What's in my diary for tomorrow, Burak?"
+          },
+          {
+            "speaker": "Burak",
+            "text": "You're meeting the new clients at nine. Then you're having lunch with Mr Kılıç at one."
+          },
+          {
+            "speaker": "Ms Tan",
+            "text": "And in the afternoon?"
+          },
+          {
+            "speaker": "Burak",
+            "text": "You're flying to Ankara at five. The car is picking you up at three thirty."
+          },
+          {
+            "speaker": "Ms Tan",
+            "text": "Am I staying at the usual hotel?"
+          },
+          {
+            "speaker": "Burak",
+            "text": "Yes, you are. And you're coming back on Friday morning."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Ms Tan having lunch with?",
+            "options": [
+              "The new clients",
+              "Mr Kılıç",
+              "Burak"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"you're having lunch with Mr Kılıç at one\"",
+            "id": "a2-u04-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What time is the car picking her up?",
+            "options": [
+              "At 3:30",
+              "At 5:00",
+              "At 1:00"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"at three thirty\"",
+            "id": "a2-u04-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Present continuous** gelecek için de kullanılır: zamanı ve yeri **belli, ayarlanmış** planlar (randevu, bilet, rezervasyon).\n\n- I**'m meeting** Ali at six tomorrow.\n- We**'re flying** to Rome on Friday.\n- What **are** you **doing** this weekend?\n\nBu kullanımda genellikle bir **gelecek zaman ifadesi** vardır; yoksa cümle \"şu an\" anlamına gelir.\n\n**going to ile farkı:**\n\n| going to | present continuous |\n|---|---|\n| niyet, karar | ayarlanmış plan |\n| I'm going to visit Paris one day. | I'm visiting Paris next week. (Bilet alındı.) |\n\nÇoğu durumda ikisi de doğrudur ve anlam çok az değişir.",
+        "examples": [
+          {
+            "en": "I'm seeing the doctor at four.",
+            "tr": "Saat dörtte doktora gidiyorum."
+          },
+          {
+            "en": "Are you doing anything on Saturday?",
+            "tr": "Cumartesi bir şey yapıyor musun?"
+          },
+          {
+            "en": "My parents are coming for dinner tonight.",
+            "tr": "Annemlerle babam bu akşam yemeğe geliyor."
+          }
+        ],
+        "turkishNote": "Türkçede de \"Yarın Ali'yle buluşuyorum\" deriz; İngilizcede de aynı mantık vardır: I'm meeting Ali tomorrow. Bu benzerlik Türkçe konuşanlar için büyük bir avantajdır. Ama tahminler için (Yarın yağmur yağıyor) present continuous kullanılmaz: It's going to rain tomorrow."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Bilet alındı, tarih belli:",
+          "options": [
+            "I'm flying to Izmir on Monday.",
+            "I fly to Izmir on Monday."
+          ],
+          "answerIndex": 0,
+          "explanation": "Ayarlanmış plan → present continuous.",
+          "id": "a2-u04-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bu hafta sonu ne yapıyorsun?\"",
+          "options": [
+            "What do you do this weekend?",
+            "What are you doing this weekend?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Plan → present continuous.",
+          "id": "a2-u04-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ the dentist at three tomorrow. (see)",
+          "answers": [
+            "seeing"
+          ],
+          "explanation": "see → seeing.",
+          "id": "a2-u04-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ having a barbecue on Sunday. Can you come?",
+          "answers": [
+            "are",
+            "'re"
+          ],
+          "explanation": "we → are.",
+          "id": "a2-u04-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are you doing anything ___ Saturday?",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Günlerle on.",
+          "id": "a2-u04-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi tahmindir (present continuous kullanılmaz)?",
+          "options": [
+            "It's going to rain tomorrow.",
+            "I'm meeting Ece tomorrow."
+          ],
+          "answerIndex": 0,
+          "explanation": "Tahmin → going to.",
+          "id": "a2-u04-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "coming",
+            "My",
+            "parents",
+            "are",
+            "for",
+            "dinner",
+            "tonight"
+          ],
+          "answer": "My parents are coming for dinner tonight.",
+          "explanation": "Özne + are + -ing + zaman.",
+          "translation": "Annemlerle babam bu akşam yemeğe geliyor.",
+          "id": "a2-u04-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I can't come on Thursday. I'm working late, and on Friday I'm visiting my grandmother in Bursa.",
+          "prompt": "Cuma günü ne yapıyor?",
+          "options": [
+            "Geç saate kadar çalışıyor",
+            "Büyükannesini ziyaret ediyor",
+            "Bursa'ya taşınıyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"on Friday I'm visiting my grandmother\"",
+          "id": "a2-u04-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yarın saat altıda Ali'yle buluşuyorum.\"",
+          "accepted": [
+            "I'm meeting Ali at six tomorrow.",
+            "I'm meeting Ali at six tomorrow",
+            "I am meeting Ali at six tomorrow",
+            "I am meeting Ali at six tomorrow.",
+            "I'm meeting Ali tomorrow at six.",
+            "I'm meeting Ali tomorrow at six",
+            "I am meeting Ali tomorrow at six",
+            "I am meeting Ali tomorrow at six.",
+            "Tomorrow I'm meeting Ali at six.",
+            "Tomorrow I'm meeting Ali at six",
+            "Tomorrow I am meeting Ali at six",
+            "Tomorrow I am meeting Ali at six.",
+            "I'm meeting Ali at 6 tomorrow.",
+            "I'm meeting Ali at 6 tomorrow",
+            "I am meeting Ali at 6 tomorrow",
+            "I am meeting Ali at 6 tomorrow."
+          ],
+          "explanation": "I'm meeting Ali + at six tomorrow.",
+          "id": "a2-u04-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm meeting Ali.\" (zaman ifadesi yok) Anlamı büyük ihtimalle:",
+          "options": [
+            "Şu an Ali'yle buluşuyorum / görüşüyorum.",
+            "Yarın Ali'yle buluşacağım."
+          ],
+          "answerIndex": 0,
+          "explanation": "Zaman ifadesi yoksa → şu an.",
+          "id": "a2-u04-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Gelecek haftanın ajandasını yazın: en az 5 ayarlanmış plan (gün, saat, kiminle). Present continuous kullanın.",
+          "modelAnswer": "On Monday I'm starting a new course at 7 pm. On Tuesday I'm having lunch with my boss. On Wednesday I'm seeing the dentist at 4. On Friday evening we're going to a concert. On Saturday my cousins are coming to stay.",
+          "rubric": [
+            "Present continuous doğru",
+            "Gün ve saat ifadeleri (on, at)",
+            "Ayarlanmış planlar"
+          ]
+        },
+        "id": "a2-u04-l3-use"
+      }
+    },
+    {
+      "id": "a2-u04-l4",
+      "number": 4,
+      "title": "Olacak gibi görünüyor",
+      "goal": "Gördüğüm kanıta dayanarak going to ile tahmin yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Piknikte",
+        "lines": [
+          {
+            "speaker": "Sibel",
+            "text": "Look at those black clouds. It's going to rain!"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Oh no. Quick, let's put the food in the car."
+          },
+          {
+            "speaker": "Sibel",
+            "text": "Careful! That glass is going to fall!"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Got it. And look at the dog, it's going to eat our sandwiches!"
+          },
+          {
+            "speaker": "Sibel",
+            "text": "Ha ha! This isn't going to be a relaxing picnic."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Sibel think it's going to rain?",
+            "options": [
+              "The weather forecast",
+              "There are black clouds",
+              "It's cold"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Look at those black clouds.\"",
+            "id": "a2-u04-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the dog going to do?",
+            "options": [
+              "Run away",
+              "Eat the sandwiches",
+              "Sleep"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it's going to eat our sandwiches!\"",
+            "id": "a2-u04-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**going to** ile bir şeyin olacağını **şu anda gördüğümüz kanıta** dayanarak tahmin ederiz.\n\n- Look at the clouds! It**'s going to** rain. (Bulutları görüyorum.)\n- Be careful! You**'re going to** fall! (Merdivende sallandığını görüyorum.)\n- She's very tired. She**'s going to** fall asleep.\n- We're late. We**'re going to** miss the train!\n\n**Karşılaştırın:**\n\n| Plan / niyet | Kanıta dayalı tahmin |\n|---|---|\n| I'm going to paint my room. | That ladder is old. It's going to break! |",
+        "examples": [
+          {
+            "en": "Watch out! That car is going to hit you!",
+            "tr": "Dikkat et! O araba sana çarpacak!"
+          },
+          {
+            "en": "It's 8:55 and the film starts at 9. We're going to be late.",
+            "tr": "Saat 8:55, film 9'da başlıyor. Geç kalacağız."
+          },
+          {
+            "en": "The team is playing really well. They're going to win.",
+            "tr": "Takım çok iyi oynuyor. Kazanacaklar."
+          }
+        ],
+        "turkishNote": "Türkçede \"Yağmur yağacak\" ve \"Düşeceksin!\" cümleleri kanıta dayalı tahmin içerir; İngilizcede bunlar going to ile söylenir. Uyarı ifadeleri: Look out! / Watch out! / Be careful! / Careful!"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Gökyüzü kapkara:",
+          "options": [
+            "It's going to rain.",
+            "It rains."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kanıta dayalı tahmin.",
+          "id": "a2-u04-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu cümle hangisi? \"I'm going to buy a car next year.\"",
+          "options": [
+            "Plan / niyet",
+            "Kanıta dayalı tahmin"
+          ],
+          "answerIndex": 0,
+          "explanation": "Karar verilmiş niyet.",
+          "id": "a2-u04-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu cümle hangisi? \"Look at that ice! You're going to fall.\"",
+          "options": [
+            "Plan / niyet",
+            "Kanıta dayalı tahmin"
+          ],
+          "answerIndex": 1,
+          "explanation": "Buzu görüyor → tahmin.",
+          "id": "a2-u04-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Watch out! That glass ___ going to fall!",
+          "answers": [
+            "is",
+            "'s"
+          ],
+          "explanation": "glass → is.",
+          "id": "a2-u04-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hurry up! We're going to ___ the bus! (kaçırmak)",
+          "answers": [
+            "miss"
+          ],
+          "explanation": "miss the bus.",
+          "id": "a2-u04-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The baby is yawning. She's going to ___ asleep.",
+          "answers": [
+            "fall"
+          ],
+          "explanation": "fall asleep = uykuya dalmak.",
+          "id": "a2-u04-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "going",
+            "It's",
+            "to",
+            "be",
+            "a",
+            "hot",
+            "day"
+          ],
+          "answer": "It's going to be a hot day.",
+          "explanation": "It's going to be + sıfat + isim.",
+          "translation": "Sıcak bir gün olacak.",
+          "id": "a2-u04-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Oh no, the score is three-nil and there are only two minutes left. We're going to lose.",
+          "prompt": "Konuşan neden kaybedeceklerini düşünüyor?",
+          "options": [
+            "Takım kötü oynuyor",
+            "Skor 3-0 ve 2 dakika kaldı",
+            "Hava kötü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"three-nil and there are only two minutes left\"",
+          "id": "a2-u04-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dikkat et! Düşeceksin!\"",
+          "accepted": [
+            "Be careful! You're going to fall!",
+            "Be careful! You're going to fall",
+            "Be careful! You are going to fall",
+            "Be careful! You are going to fall!",
+            "Careful! You're going to fall!",
+            "Careful! You're going to fall",
+            "Careful! You are going to fall",
+            "Careful! You are going to fall!",
+            "Watch out! You're going to fall!",
+            "Watch out! You're going to fall",
+            "Watch out! You are going to fall",
+            "Watch out! You are going to fall!"
+          ],
+          "explanation": "Be careful! + You're going to fall!",
+          "id": "a2-u04-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Watch out!",
+              "right": "Dikkat et!"
+            },
+            {
+              "left": "Hurry up!",
+              "right": "Acele et!"
+            },
+            {
+              "left": "Careful!",
+              "right": "Dikkat!"
+            },
+            {
+              "left": "Look!",
+              "right": "Bak!"
+            }
+          ],
+          "explanation": "Uyarı ifadelerini eşleştirin.",
+          "id": "a2-u04-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size bazı durumlar anlatacak (ör. \"Saat 8:58, toplantı 9'da ve hâlâ otobüstesiniz\"). Her durum için going to ile bir tahmin söyleyin.",
+          "modelAnswer": "I'm going to be late for the meeting. ... It's going to snow. ... The battery is going to die. ... He's going to fall off the chair!",
+          "rubric": [
+            "going to ile tahmin",
+            "be + going to doğru",
+            "Uyarı ifadeleri"
+          ]
+        },
+        "id": "a2-u04-l4-use"
+      }
+    },
+    {
+      "id": "a2-u04-l5",
+      "number": 5,
+      "title": "Birlikte plan yapmak",
+      "goal": "Birinin müsaitliğini sorup birlikte bir etkinlik planlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Hafta sonu planı",
+        "lines": [
+          {
+            "speaker": "Aslı",
+            "text": "Hi, Kaan! Are you free this weekend?"
+          },
+          {
+            "speaker": "Kaan",
+            "text": "I'm working on Saturday morning, but I'm free after two. Why?"
+          },
+          {
+            "speaker": "Aslı",
+            "text": "There's a food festival in the park. I'm going to go with Melis. Do you want to come?"
+          },
+          {
+            "speaker": "Kaan",
+            "text": "Sounds great! What time are you meeting?"
+          },
+          {
+            "speaker": "Aslı",
+            "text": "At three, at the main gate."
+          },
+          {
+            "speaker": "Kaan",
+            "text": "Perfect. I'm definitely going to come. See you there!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When is Kaan free?",
+            "options": [
+              "Saturday morning",
+              "After two on Saturday",
+              "Sunday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm free after two\"",
+            "id": "a2-u04-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where are they meeting?",
+            "options": [
+              "At the main gate",
+              "At Melis's house",
+              "At a café"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"At three, at the main gate.\"",
+            "id": "a2-u04-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Müsaitlik sormak:**\n\n- **Are you free** on Saturday / this evening?\n- **What are you doing** on Friday?\n- **Are you doing anything** this weekend?\n\n**Öneri:**\n\n- Do you want to + fiil?\n- **How about** + -ing / isim? → How about going to the festival?\n- **Why don't we** + fiil? → Why don't we meet at three?\n\n**Ayarlamak:** What time shall we meet? / Where shall we meet? / Let's meet at...\n\n**Kesinlik derecesi:**\n\n- I'm **definitely** going to come. (kesin)\n- I'm **probably** going to come. (muhtemelen)\n- I'm **not sure** yet. (henüz emin değilim)\n\nprobably / definitely olumlu cümlede **be ile going to arasına**, olumsuzda **isn't/aren't'tan önce** gelir: He **probably** isn't going to come.",
+        "examples": [
+          {
+            "en": "Are you free on Sunday afternoon?",
+            "tr": "Pazar öğleden sonra müsait misin?"
+          },
+          {
+            "en": "How about going to the exhibition?",
+            "tr": "Sergiye gitmeye ne dersin?"
+          },
+          {
+            "en": "What time shall we meet?",
+            "tr": "Saat kaçta buluşalım?"
+          }
+        ],
+        "turkishNote": "\"How about\"tan sonra fiil -ing alır: How about going (How about go değil). \"Shall we...?\" kibar bir öneri sorusudur ve \"-elim mi?\" anlamı taşır: Shall we meet at six? = Altıda buluşalım mı?"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "How about go to the cinema?",
+            "How about going to the cinema?"
+          ],
+          "answerIndex": 1,
+          "explanation": "How about + -ing.",
+          "id": "a2-u04-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Saat kaçta buluşalım?\"",
+          "options": [
+            "What time shall we meet?",
+            "What time we meet?",
+            "When we shall meet?"
+          ],
+          "answerIndex": 0,
+          "explanation": "What time shall we + fiil?",
+          "id": "a2-u04-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are you ___ on Friday evening? (müsait)",
+          "answers": [
+            "free"
+          ],
+          "explanation": "Are you free?",
+          "id": "a2-u04-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Why don't we ___ at the café? (meet)",
+          "answers": [
+            "meet"
+          ],
+          "explanation": "Why don't we + yalın fiil.",
+          "id": "a2-u04-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ going to come. I'm not 100% sure. (muhtemelen)",
+          "answers": [
+            "probably"
+          ],
+          "explanation": "probably = muhtemelen.",
+          "id": "a2-u04-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm going definitely to come.",
+            "I'm definitely going to come."
+          ],
+          "answerIndex": 1,
+          "explanation": "definitely be'den sonra, going'den önce.",
+          "id": "a2-u04-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Are",
+            "doing",
+            "anything",
+            "this",
+            "weekend",
+            "?"
+          ],
+          "answer": "Are you doing anything this weekend?",
+          "explanation": "Are you doing anything + zaman?",
+          "translation": "Bu hafta sonu bir şey yapıyor musun?",
+          "id": "a2-u04-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'm busy on Saturday, but I'm free on Sunday. How about having breakfast together at ten?",
+          "prompt": "Konuşan ne öneriyor?",
+          "options": [
+            "Cumartesi akşam yemeği",
+            "Pazar saat onda kahvaltı",
+            "Pazar öğle yemeği"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"How about having breakfast together at ten?\" (Sunday)",
+          "id": "a2-u04-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Sergiye gitmeye ne dersin?\"",
+          "accepted": [
+            "How about going to the exhibition?",
+            "How about going to the exhibition",
+            "What about going to the exhibition?",
+            "What about going to the exhibition"
+          ],
+          "explanation": "How about + going to the exhibition?",
+          "id": "a2-u04-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Are you free",
+              "right": "on Saturday?"
+            },
+            {
+              "left": "How about",
+              "right": "going to a concert?"
+            },
+            {
+              "left": "Why don't we",
+              "right": "meet at six?"
+            },
+            {
+              "left": "What time",
+              "right": "shall we meet?"
+            }
+          ],
+          "explanation": "Cümleleri tamamlayın.",
+          "id": "a2-u04-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile bu hafta sonu için bir buluşma ayarlayın: müsaitlik sorun, JAI'nin dolu olduğu zamanları dinleyin, bir etkinlik önerin, yer ve saat belirleyin.",
+          "modelAnswer": "Are you free on Saturday? Oh, you're working. What are you doing on Sunday? Great. How about going to the food festival? What time shall we meet? Let's meet at the main gate at four.",
+          "rubric": [
+            "Müsaitlik soruları",
+            "How about / Why don't we",
+            "Present continuous ve going to doğru",
+            "Yer ve saat ayarlandı"
+          ]
+        },
+        "id": "a2-u04-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I going to travel.",
+          "I'm going to travel."
+        ],
+        "answerIndex": 1,
+        "explanation": "be + going to",
+        "id": "a2-u04-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "She's going to ___ up the piano. (başlamak)",
+        "answers": [
+          "take"
+        ],
+        "explanation": "take up",
+        "id": "a2-u04-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ going to sell our car. (değil)",
+        "answers": [
+          "aren't",
+          "are not",
+          "'re not"
+        ],
+        "explanation": "Olumsuz",
+        "id": "a2-u04-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Do you going to come?",
+          "Are you going to come?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Are you going to...?",
+        "id": "a2-u04-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Is he going to stay?\" (Hayır.)",
+        "options": [
+          "No, he isn't.",
+          "No, he doesn't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, he isn't.",
+        "id": "a2-u04-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "What ___ you going to do after university?",
+        "answers": [
+          "are"
+        ],
+        "explanation": "are",
+        "id": "a2-u04-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Uçak bileti alındı:",
+        "options": [
+          "I'm flying to Van on Monday.",
+          "I fly to Van on Monday."
+        ],
+        "answerIndex": 0,
+        "explanation": "Ayarlanmış plan",
+        "id": "a2-u04-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'm ___ my grandma on Sunday. (visit)",
+        "answers": [
+          "visiting"
+        ],
+        "explanation": "Present continuous gelecek",
+        "id": "a2-u04-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kara bulutlar var:",
+        "options": [
+          "It's raining tomorrow.",
+          "It's going to rain."
+        ],
+        "answerIndex": 1,
+        "explanation": "Kanıta dayalı tahmin",
+        "id": "a2-u04-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "Hurry up! We're going to ___ late!",
+        "answers": [
+          "be"
+        ],
+        "explanation": "be late",
+        "id": "a2-u04-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "How about meet at six?",
+          "How about meeting at six?"
+        ],
+        "answerIndex": 1,
+        "explanation": "How about + -ing",
+        "id": "a2-u04-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "Are you ___ on Saturday evening? (müsait)",
+        "answers": [
+          "free"
+        ],
+        "explanation": "free",
+        "id": "a2-u04-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I'm not going to come to the party. I'm having dinner with my husband's family that evening.",
+        "prompt": "Neden partiye gelmiyor?",
+        "options": [
+          "Hasta",
+          "Eşinin ailesiyle yemekte",
+          "Çalışıyor"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"I'm having dinner with my husband's family\"",
+        "id": "a2-u04-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Gelecek yıl sigarayı bırakacağım.\"",
+        "accepted": [
+          "I'm going to give up smoking next year.",
+          "I'm going to give up smoking next year",
+          "I am going to give up smoking next year",
+          "I am going to give up smoking next year.",
+          "Next year I'm going to give up smoking.",
+          "Next year I'm going to give up smoking",
+          "Next year I am going to give up smoking",
+          "Next year I am going to give up smoking.",
+          "Next year, I'm going to give up smoking.",
+          "Next year, I'm going to give up smoking",
+          "Next year, I am going to give up smoking",
+          "Next year, I am going to give up smoking."
+        ],
+        "explanation": "be going to + give up smoking + next year",
+        "id": "a2-u04-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir arkadaşınıza mesaj yazın: bu hafta sonu planlarınızı anlatın (en az 2 ayarlanmış plan, present continuous), gelecek ay için bir niyetinizi söyleyin (going to) ve onu bir etkinliğe davet edin (60–80 kelime).",
+        "modelAnswer": "Hi Selin! This weekend is really busy. On Saturday morning I'm having a driving lesson, and in the afternoon I'm helping my sister with her new flat. But I'm free on Sunday! There's a jazz festival in the park. How about going together? We can meet at the gate at four. Also, next month I'm going to start a cooking course. Do you want to join me?",
+        "rubric": [
+          "Present continuous (ayarlanmış planlar)",
+          "going to (niyet)",
+          "Davet / öneri ifadeleri",
+          "Zaman ifadeleri doğru"
+        ],
+        "id": "a2-u04-t15"
+      }
+    ]
+  }
+}
