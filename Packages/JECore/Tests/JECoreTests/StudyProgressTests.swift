@@ -44,4 +44,18 @@ final class StudyProgressTests: XCTestCase {
         XCTAssertEqual(p.displayedStreak(at: day(3), calendar: calendar), 1)
         XCTAssertEqual(p.displayedStreak(at: day(4), calendar: calendar), 0)
     }
+
+    func testFreezeRefillsOncePerWeek() {
+        var p = StudyProgress()
+        p.freezesAvailable = 0
+        p.refillFreezeIfNeeded(at: day(2), calendar: calendar)   // ilk açılış: yalnızca hafta kaydedilir
+        XCTAssertEqual(p.freezesAvailable, 0)
+        p.refillFreezeIfNeeded(at: day(9), calendar: calendar)   // 9 Kasım 2026 pazartesi
+        p.refillFreezeIfNeeded(at: day(9, hour: 20), calendar: calendar)
+        p.refillFreezeIfNeeded(at: day(12), calendar: calendar)
+        XCTAssertEqual(p.freezesAvailable, 1)
+        p.refillFreezeIfNeeded(at: day(17), calendar: calendar)
+        p.refillFreezeIfNeeded(at: day(24), calendar: calendar)
+        XCTAssertEqual(p.freezesAvailable, 2)
+    }
 }

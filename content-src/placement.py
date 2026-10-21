@@ -14,7 +14,7 @@ add("A1",G,"My sister ___ a teacher.",["is","are","am","be"],0,
 add("A1",V,"Which word is a day of the week?",["March","Thursday","Summer","Morning"],1,
  "Thursday (perşembe) haftanın bir günüdür. March bir ay, summer bir mevsim, morning ise günün bir bölümüdür.")
 add("A1",R,"Where does Tom work?",["In a school","In a hospital","In a shop","At home"],1,
- "Metinde \"He works in a hospital\" deniyor. Tom bir hemşire ve hastanede çalışıyor.",
+ "Metinde \"I work in a hospital near my flat\" deniyor. Tom bir hemşire ve hastanede çalışıyor.",
  passage="Hi! My name is Tom. I am 28 years old and I live in Izmir. I am a nurse. I work in a hospital near my flat. I start work at 7 o'clock in the morning.")
 add("A1",G,"___ you like coffee?",["Are","Is","Do","Does"],2,
  "Geniş zamanda \"you\" ile soru yardımcı fiil \"do\" ile kurulur: Do you like...? \"Like\" bir eylem olduğu için \"are\" kullanılmaz.")

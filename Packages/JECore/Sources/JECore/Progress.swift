@@ -35,6 +35,8 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     public var todayXP: Int
     public var todayDay: Date?
     public var freezesAvailable: Int
+    /// Seri koruyucunun en son yenilendiği haftanın başlangıcı.
+    public var lastFreezeRefill: Date?
 
     public init(dailyGoalXP: Int = DailyGoal.regular.xp) {
         self.dailyGoalXP = dailyGoalXP
@@ -88,11 +90,20 @@ public struct StudyProgress: Codable, Hashable, Sendable {
         return 0
     }
 
-    /// Her pazartesi bir seri koruyucu yenilenir (en fazla 2).
+    /// Her hafta (pazartesi başlar) bir seri koruyucu yenilenir, en fazla 2 birikir.
+    /// Uygulama hafta içinde kaç kez açılırsa açılsın yalnızca bir kez eklenir.
     public mutating func refillFreezeIfNeeded(at now: Date, calendar: Calendar = .current) {
-        if calendar.component(.weekday, from: now) == 2 && freezesAvailable < 2 {
-            freezesAvailable += 1
+        var calendar = calendar
+        calendar.firstWeekday = 2
+        guard let week = calendar.dateInterval(of: .weekOfYear, for: now)?.start else { return }
+        guard let last = lastFreezeRefill else {
+            // İlk açılışta başlangıç koruyucusu zaten var; bu hafta sayılır.
+            lastFreezeRefill = week
+            return
         }
+        guard week > last else { return }
+        lastFreezeRefill = week
+        freezesAvailable = min(2, freezesAvailable + 1)
     }
 }
 
