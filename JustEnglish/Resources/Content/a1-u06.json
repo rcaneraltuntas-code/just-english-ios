@@ -1,0 +1,1484 @@
+{
+  "id": "a1-u06",
+  "level": "A1",
+  "number": 6,
+  "title": "İş hayatı",
+  "titleEn": "Work Life",
+  "canDo": "Başkalarının mesleğini ve günlük rutinini anlatabilir, onlara işlerini sorabilirim.",
+  "grammar": [
+    "present simple (he/she/it): -s / -es / -ies",
+    "doesn't",
+    "Does...? / What does...?"
+  ],
+  "vocabularyThemes": [
+    "meslekler",
+    "iş yerleri"
+  ],
+  "liveClass": {
+    "title": "Meslek tahmini",
+    "durationMinutes": 45,
+    "goal": "Bir öğrenci bir meslek seçer, diğerleri yalnızca evet/hayır sorularıyla tahmin eder (Does he work outside? Does she wear a uniform?)."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u06-v01",
+      "en": "doctor",
+      "tr": "doktor",
+      "example": "She's a doctor at a hospital.",
+      "exampleTr": "O bir hastanede doktor."
+    },
+    {
+      "id": "a1-u06-v02",
+      "en": "nurse",
+      "tr": "hemşire",
+      "example": "My brother is a nurse.",
+      "exampleTr": "Ağabeyim hemşire.",
+      "note": "Erkek hemşire de nurse'tür."
+    },
+    {
+      "id": "a1-u06-v03",
+      "en": "teacher",
+      "tr": "öğretmen",
+      "example": "He's a maths teacher.",
+      "exampleTr": "O bir matematik öğretmeni."
+    },
+    {
+      "id": "a1-u06-v04",
+      "en": "engineer",
+      "tr": "mühendis",
+      "example": "She's an engineer.",
+      "exampleTr": "O bir mühendis.",
+      "note": "Ünlüyle başladığı için an engineer."
+    },
+    {
+      "id": "a1-u06-v05",
+      "en": "lawyer",
+      "tr": "avukat",
+      "example": "Her husband is a lawyer.",
+      "exampleTr": "Onun kocası avukat."
+    },
+    {
+      "id": "a1-u06-v06",
+      "en": "chef",
+      "tr": "aşçı, şef",
+      "example": "He's a chef in a hotel.",
+      "exampleTr": "O bir otelde aşçı."
+    },
+    {
+      "id": "a1-u06-v07",
+      "en": "waiter",
+      "tr": "garson",
+      "example": "The waiter brings the menu.",
+      "exampleTr": "Garson menüyü getirir.",
+      "note": "Kadın garson: waitress."
+    },
+    {
+      "id": "a1-u06-v08",
+      "en": "driver",
+      "tr": "şoför, sürücü",
+      "example": "My uncle is a taxi driver.",
+      "exampleTr": "Amcam taksi şoförü."
+    },
+    {
+      "id": "a1-u06-v09",
+      "en": "police officer",
+      "tr": "polis memuru",
+      "example": "She's a police officer.",
+      "exampleTr": "O bir polis memuru."
+    },
+    {
+      "id": "a1-u06-v10",
+      "en": "shop assistant",
+      "tr": "satış danışmanı",
+      "example": "He's a shop assistant.",
+      "exampleTr": "O bir satış danışmanı."
+    },
+    {
+      "id": "a1-u06-v11",
+      "en": "farmer",
+      "tr": "çiftçi",
+      "example": "Farmers get up very early.",
+      "exampleTr": "Çiftçiler çok erken kalkar."
+    },
+    {
+      "id": "a1-u06-v12",
+      "en": "hospital",
+      "tr": "hastane",
+      "example": "Nurses work in a hospital.",
+      "exampleTr": "Hemşireler hastanede çalışır."
+    },
+    {
+      "id": "a1-u06-v13",
+      "en": "office",
+      "tr": "ofis",
+      "example": "I work in an office.",
+      "exampleTr": "Bir ofiste çalışıyorum."
+    },
+    {
+      "id": "a1-u06-v14",
+      "en": "factory",
+      "tr": "fabrika",
+      "example": "My father works in a factory.",
+      "exampleTr": "Babam bir fabrikada çalışıyor."
+    },
+    {
+      "id": "a1-u06-v15",
+      "en": "company",
+      "tr": "şirket",
+      "example": "She works for a big company.",
+      "exampleTr": "O büyük bir şirkette çalışıyor.",
+      "note": "work for + şirket"
+    },
+    {
+      "id": "a1-u06-v16",
+      "en": "job",
+      "tr": "iş, meslek",
+      "example": "I love my job.",
+      "exampleTr": "İşimi seviyorum."
+    },
+    {
+      "id": "a1-u06-v17",
+      "en": "uniform",
+      "tr": "üniforma",
+      "example": "Police officers wear a uniform.",
+      "exampleTr": "Polisler üniforma giyer.",
+      "note": "a uniform: u \"yu\" diye okunur."
+    },
+    {
+      "id": "a1-u06-v18",
+      "en": "help",
+      "tr": "yardım etmek",
+      "example": "Nurses help doctors.",
+      "exampleTr": "Hemşireler doktorlara yardım eder."
+    },
+    {
+      "id": "a1-u06-v19",
+      "en": "wear",
+      "tr": "giymek, takmak",
+      "example": "She wears glasses.",
+      "exampleTr": "O gözlük takar."
+    },
+    {
+      "id": "a1-u06-v20",
+      "en": "earn",
+      "tr": "kazanmak (para)",
+      "example": "He earns a lot of money.",
+      "exampleTr": "Çok para kazanır."
+    },
+    {
+      "id": "a1-u06-v21",
+      "en": "busy",
+      "tr": "meşgul, yoğun",
+      "example": "Doctors are very busy.",
+      "exampleTr": "Doktorlar çok meşguldür."
+    },
+    {
+      "id": "a1-u06-v22",
+      "en": "outside",
+      "tr": "dışarıda",
+      "example": "Farmers work outside.",
+      "exampleTr": "Çiftçiler dışarıda çalışır."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u06-l1",
+      "number": 1,
+      "title": "Meslekler",
+      "goal": "İnsanların mesleğini söyleyebilir ve sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Düğünde",
+        "lines": [
+          {
+            "speaker": "Tom",
+            "text": "Who's that man next to your sister?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "That's her husband, Kerem. He's an engineer."
+          },
+          {
+            "speaker": "Tom",
+            "text": "And what does your sister do?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "She's a doctor. And my parents are teachers."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Wow, a family of smart people!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Kerem's job?",
+            "options": [
+              "Doctor",
+              "Engineer",
+              "Teacher"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He's an engineer.\"",
+            "id": "a1-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do Elif's parents do?",
+            "options": [
+              "They're doctors.",
+              "They're teachers.",
+              "They're engineers."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"my parents are teachers\"",
+            "id": "a1-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Meslek söylerken tekil isimden önce **a/an** gelir:\n\n- He's **a** doctor.\n- She's **an** engineer.\n- They're teachers. (çoğulda a/an yok)\n\nMeslek sormak için: **What do you do?** / **What does he/she do?** / **What's your job?**",
+        "examples": [
+          {
+            "en": "I'm a nurse.",
+            "tr": "Ben hemşireyim."
+          },
+          {
+            "en": "What does your father do? – He's a lawyer.",
+            "tr": "Baban ne iş yapıyor? – Avukat."
+          },
+          {
+            "en": "They're police officers.",
+            "tr": "Onlar polis memuru."
+          }
+        ],
+        "turkishNote": "Türkçede \"O doktor\" deriz, İngilizcede \"a\" zorunludur: He's a doctor. \"He's doctor\" yanlıştır. Çoğulda ise a/an kullanılmaz: They're doctors."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "doctor",
+              "right": "doktor"
+            },
+            {
+              "left": "lawyer",
+              "right": "avukat"
+            },
+            {
+              "left": "chef",
+              "right": "aşçı"
+            },
+            {
+              "left": "engineer",
+              "right": "mühendis"
+            },
+            {
+              "left": "farmer",
+              "right": "çiftçi"
+            }
+          ],
+          "explanation": "Meslekleri eşleştirin.",
+          "id": "a1-u06-l1-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's ___ engineer.",
+          "answers": [
+            "an"
+          ],
+          "explanation": "engineer ünlüyle başlar → an.",
+          "id": "a1-u06-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "He's ___ taxi driver.",
+          "answers": [
+            "a"
+          ],
+          "explanation": "taxi ünsüzle başlar → a.",
+          "id": "a1-u06-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He's doctor.",
+            "He's a doctor.",
+            "He a doctor."
+          ],
+          "answerIndex": 1,
+          "explanation": "Meslekten önce a/an.",
+          "wrongFeedback": {
+            "0": "a eksik: He's a doctor."
+          },
+          "id": "a1-u06-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "They're a teachers.",
+            "They're teachers."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çoğulda a/an yok.",
+          "id": "a1-u06-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hastanede çalışan, doktorlara yardım eden kişi:",
+          "options": [
+            "nurse",
+            "waiter",
+            "lawyer"
+          ],
+          "answerIndex": 0,
+          "explanation": "nurse = hemşire.",
+          "id": "a1-u06-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "do",
+            "What",
+            "you",
+            "do",
+            "?"
+          ],
+          "answer": "What do you do?",
+          "explanation": "Meslek sorusu.",
+          "translation": "Ne iş yapıyorsun?",
+          "id": "a1-u06-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My mother is a chef and my father is a police officer.",
+          "prompt": "Konuşanın babası ne iş yapıyor?",
+          "options": [
+            "Aşçı",
+            "Polis",
+            "Doktor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"my father is a police officer\"",
+          "id": "a1-u06-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Ben bir öğretmenim.\"",
+          "accepted": [
+            "I'm a teacher.",
+            "I'm a teacher",
+            "I am a teacher",
+            "I am a teacher."
+          ],
+          "explanation": "I'm + a + teacher.",
+          "id": "a1-u06-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Restoranda yemek getiren kişi:",
+          "options": [
+            "chef",
+            "waiter",
+            "driver"
+          ],
+          "answerIndex": 1,
+          "explanation": "waiter = garson. chef yemeği pişirir.",
+          "id": "a1-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendi mesleğinizi ve ailenizden iki kişinin mesleğini söyleyin.",
+          "modelAnswer": "I'm an engineer. My mother is a nurse and my brother is a student.",
+          "rubric": [
+            "a/an doğru",
+            "Meslek kelimeleri doğru",
+            "his/her ya da 's kullandı"
+          ]
+        },
+        "id": "a1-u06-l1-use"
+      }
+    },
+    {
+      "id": "a1-u06-l2",
+      "number": 2,
+      "title": "O çalışır",
+      "goal": "he/she/it ile present simple'da fiile -s ekleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Bir hemşirenin günü",
+        "lines": [
+          {
+            "speaker": "Narrator",
+            "text": "This is Ayşe. She's a nurse."
+          },
+          {
+            "speaker": "Narrator",
+            "text": "She works at a big hospital in Ankara."
+          },
+          {
+            "speaker": "Narrator",
+            "text": "She gets up at five and she starts work at seven."
+          },
+          {
+            "speaker": "Narrator",
+            "text": "She wears a blue uniform. She helps doctors and she watches the patients."
+          },
+          {
+            "speaker": "Narrator",
+            "text": "She finishes at three and she goes home by bus."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What time does Ayşe start work?",
+            "options": [
+              "5:00",
+              "7:00",
+              "3:00"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"she starts work at seven\"",
+            "id": "a1-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How does Ayşe go home?",
+            "options": [
+              "By car",
+              "By bus",
+              "On foot"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"she goes home by bus\"",
+            "id": "a1-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**he, she, it** ile present simple'da fiile **-s** eklenir:\n\n- I work → she work**s**\n\n| Kural | Örnek |\n|---|---|\n| çoğu fiil: **-s** | work → works, start → starts |\n| -s, -sh, -ch, -x, -o ile bitenler: **-es** | watch → watch**es**, go → go**es**, do → do**es**, finish → finish**es** |\n| ünsüz + y: **-ies** | study → stud**ies**, fly → fl**ies** |\n| düzensiz | have → **has** |\n\nünlü + y yalnızca -s alır: play → plays.",
+        "examples": [
+          {
+            "en": "He lives in London.",
+            "tr": "O Londra'da yaşıyor."
+          },
+          {
+            "en": "She watches TV every evening.",
+            "tr": "O her akşam televizyon izler."
+          },
+          {
+            "en": "My father has a small shop.",
+            "tr": "Babamın küçük bir dükkanı var."
+          }
+        ],
+        "turkishNote": "Bu -s, Türk öğrencilerin en sık unuttuğu ektir, çünkü Türkçede \"o çalışır\" ile \"ben çalışırım\" arasındaki fark sona gelir ve İngilizcede sadece he/she/it'te bir değişiklik olur. Kendinize şunu hatırlatın: he/she/it varsa -s var."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "work",
+              "right": "works"
+            },
+            {
+              "left": "watch",
+              "right": "watches"
+            },
+            {
+              "left": "study",
+              "right": "studies"
+            },
+            {
+              "left": "go",
+              "right": "goes"
+            },
+            {
+              "left": "have",
+              "right": "has"
+            }
+          ],
+          "explanation": "Fiil → he/she/it biçimi",
+          "id": "a1-u06-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ in a hospital. (work)",
+          "answers": [
+            "works"
+          ],
+          "explanation": "she → works",
+          "id": "a1-u06-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ TV every night. (watch)",
+          "answers": [
+            "watches"
+          ],
+          "explanation": "-ch → -es",
+          "id": "a1-u06-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My sister ___ English at university. (study)",
+          "answers": [
+            "studies"
+          ],
+          "explanation": "ünsüz + y → -ies",
+          "id": "a1-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ two children. (have)",
+          "answers": [
+            "has"
+          ],
+          "explanation": "have → has",
+          "id": "a1-u06-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She work in a bank.",
+            "She works in a bank.",
+            "She workes in a bank."
+          ],
+          "answerIndex": 1,
+          "explanation": "she → works",
+          "wrongFeedback": {
+            "0": "she ile fiile -s eklenir."
+          },
+          "id": "a1-u06-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He plaies football.",
+            "He plays football."
+          ],
+          "answerIndex": 1,
+          "explanation": "ünlü + y (ay) → yalnızca -s.",
+          "id": "a1-u06-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My brother lives in Izmir. He teaches English at a school.",
+          "prompt": "Konuşanın ağabeyi ne iş yapıyor?",
+          "options": [
+            "Öğretmen",
+            "Öğrenci",
+            "Doktor"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"He teaches English at a school.\"",
+          "id": "a1-u06-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "he ile yazın: \"I finish work at five.\"",
+          "accepted": [
+            "He finishes work at five.",
+            "He finishes work at five"
+          ],
+          "explanation": "-sh ile biten → -es: finishes.",
+          "id": "a1-u06-l2-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "goes",
+            "She",
+            "work",
+            "to",
+            "by",
+            "car"
+          ],
+          "answer": "She goes to work by car.",
+          "explanation": "she + goes",
+          "translation": "O işe arabayla gider.",
+          "id": "a1-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ailenizden birinin sabah rutinini anlatın (he/she ile).",
+          "modelAnswer": "My father gets up at six. He has breakfast and he goes to work by car. He starts work at eight.",
+          "rubric": [
+            "Fiillere -s/-es eklendi",
+            "has doğru",
+            "Saatler doğru"
+          ]
+        },
+        "id": "a1-u06-l2-use"
+      }
+    },
+    {
+      "id": "a1-u06-l3",
+      "number": 3,
+      "title": "O yapmaz",
+      "goal": "he/she/it ile olumsuz cümle kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İdeal iş mi?",
+        "lines": [
+          {
+            "speaker": "Can",
+            "text": "My cousin works from home. She doesn't go to an office."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Lucky her! Does she work long hours?"
+          },
+          {
+            "speaker": "Can",
+            "text": "No, she doesn't. She works from nine to three."
+          },
+          {
+            "speaker": "Mia",
+            "text": "And she doesn't wear a uniform, right?"
+          },
+          {
+            "speaker": "Can",
+            "text": "No! She works in her pyjamas!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Can's cousin work?",
+            "options": [
+              "In an office",
+              "At home",
+              "In a shop"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My cousin works from home.\"",
+            "id": "a1-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Does she work long hours?",
+            "options": [
+              "Yes, she does.",
+              "No, she doesn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, she doesn't. She works from nine to three.\"",
+            "id": "a1-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "he, she, it ile olumsuz: **doesn't** (does not) + **yalın fiil**\n\n- She work**s** → She **doesn't work**.\n- He ha**s** → He **doesn't have**.\n\n**Dikkat:** -s artık doesn't'ta olduğu için fiile tekrar eklenmez. \"She doesn't works\" yanlıştır.\n\n| | Olumsuz |\n|---|---|\n| I / you / we / they | don't work |\n| he / she / it | doesn't work |",
+        "examples": [
+          {
+            "en": "He doesn't eat meat.",
+            "tr": "O et yemez."
+          },
+          {
+            "en": "My mother doesn't drive.",
+            "tr": "Annem araba kullanmaz."
+          },
+          {
+            "en": "It doesn't work.",
+            "tr": "Çalışmıyor (bozuk)."
+          }
+        ],
+        "turkishNote": "En sık yapılan hata: \"She doesn't likes\". doesn't'tan sonra fiil her zaman yalındır: She doesn't like. Bir de \"She don't\" yanlıştır; he/she/it ile doesn't kullanılır."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "She ___ work on Sundays.",
+          "answers": [
+            "doesn't",
+            "does not"
+          ],
+          "explanation": "she → doesn't",
+          "id": "a1-u06-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ live here.",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "they → don't",
+          "id": "a1-u06-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He doesn't works here.",
+            "He doesn't work here.",
+            "He don't work here."
+          ],
+          "answerIndex": 1,
+          "explanation": "doesn't + yalın fiil.",
+          "wrongFeedback": {
+            "0": "doesn't'tan sonra -s yok.",
+            "2": "he ile doesn't."
+          },
+          "id": "a1-u06-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My sister doesn't has a car.",
+            "My sister doesn't have a car."
+          ],
+          "answerIndex": 1,
+          "explanation": "doesn't + have (has değil).",
+          "id": "a1-u06-l3-p04"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"He wears a uniform.\"",
+          "accepted": [
+            "He doesn't wear a uniform.",
+            "He doesn't wear a uniform",
+            "He does not wear a uniform",
+            "He does not wear a uniform."
+          ],
+          "explanation": "doesn't + wear (yalın).",
+          "id": "a1-u06-l3-p05"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"She watches TV.\"",
+          "accepted": [
+            "She doesn't watch TV.",
+            "She doesn't watch TV",
+            "She does not watch TV",
+            "She does not watch TV."
+          ],
+          "explanation": "doesn't + watch.",
+          "id": "a1-u06-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "doesn't",
+            "My",
+            "drive",
+            "father"
+          ],
+          "answer": "My father doesn't drive.",
+          "explanation": "Özne + doesn't + fiil.",
+          "translation": "Babam araba kullanmaz.",
+          "id": "a1-u06-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My boss doesn't drink coffee. He drinks green tea all day.",
+          "prompt": "Patron ne içiyor?",
+          "options": [
+            "Kahve",
+            "Yeşil çay",
+            "Su"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"He drinks green tea all day.\"",
+          "id": "a1-u06-l3-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I",
+              "right": "don't"
+            },
+            {
+              "left": "she",
+              "right": "doesn't"
+            },
+            {
+              "left": "we",
+              "right": "don't"
+            },
+            {
+              "left": "it",
+              "right": "doesn't"
+            },
+            {
+              "left": "they",
+              "right": "don't"
+            }
+          ],
+          "explanation": "don't mu doesn't mu?",
+          "id": "a1-u06-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bilgisayar çalışmıyor.\"",
+          "options": [
+            "The computer doesn't work.",
+            "The computer don't work.",
+            "The computer isn't work."
+          ],
+          "answerIndex": 0,
+          "explanation": "it (the computer) → doesn't work.",
+          "id": "a1-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Tanıdığınız birinin yapmadığı 3 şeyi söyleyin.",
+          "modelAnswer": "My sister doesn't drink coffee. She doesn't watch TV. She doesn't get up early.",
+          "rubric": [
+            "doesn't + yalın fiil",
+            "Fiile -s eklemedi",
+            "he/she doğru"
+          ]
+        },
+        "id": "a1-u06-l3-use"
+      }
+    },
+    {
+      "id": "a1-u06-l4",
+      "number": 4,
+      "title": "O ne yapar?",
+      "goal": "Birinin işi ve rutini hakkında soru sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İş görüşmesi hazırlığı",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "Does your brother still work at the bank?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "No, he doesn't. He works for a tech company now."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Really? What does he do there?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "He's a software engineer."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Where does he work? In Istanbul?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Yes, but he works from home on Fridays."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Ali's brother work now?",
+            "options": [
+              "At a bank",
+              "For a tech company",
+              "At a school"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He works for a tech company now.\"",
+            "id": "a1-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When does he work from home?",
+            "options": [
+              "On Mondays",
+              "On Fridays",
+              "Every day"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he works from home on Fridays\"",
+            "id": "a1-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Evet/hayır sorusu:** **Does** + he/she/it + **yalın fiil**?\n\n- **Does** she **work** here? – Yes, she **does**. / No, she **doesn't**.\n\n**Bilgi sorusu:** Soru kelimesi + **does** + he/she/it + yalın fiil?\n\n- **What does** he **do**?\n- **Where does** she **live**?\n- **What time does** the shop **open**?\n\n-s yine **does**'ta: \"Does she works?\" yanlış.",
+        "examples": [
+          {
+            "en": "Does your father speak English?",
+            "tr": "Baban İngilizce konuşur mu?"
+          },
+          {
+            "en": "Where does your sister work?",
+            "tr": "Kız kardeşin nerede çalışıyor?"
+          },
+          {
+            "en": "What time does the film start?",
+            "tr": "Film kaçta başlıyor?"
+          }
+        ],
+        "turkishNote": "Soru kurarken does unutulursa cümle Türkçe gibi olur: \"Where your sister works?\" Doğrusu: \"Where does your sister work?\" Bir şirket için çalışmak \"work for\", bir yerde çalışmak \"work at/in\" ile söylenir."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "___ she like her job? – Yes, she does.",
+          "answers": [
+            "Does"
+          ],
+          "explanation": "she → Does",
+          "id": "a1-u06-l4-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "Where ___ your parents live?",
+          "answers": [
+            "do"
+          ],
+          "explanation": "parents = they → do",
+          "id": "a1-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Does he works here?",
+            "Does he work here?",
+            "Do he work here?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Does + yalın fiil.",
+          "id": "a1-u06-l4-p03"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "does",
+            "What",
+            "she",
+            "do",
+            "?"
+          ],
+          "answer": "What does she do?",
+          "explanation": "Meslek sorusu (she).",
+          "translation": "O ne iş yapıyor?",
+          "id": "a1-u06-l4-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "time",
+            "What",
+            "the",
+            "does",
+            "open",
+            "shop",
+            "?"
+          ],
+          "answer": "What time does the shop open?",
+          "explanation": "What time + does + özne + fiil?",
+          "translation": "Dükkan kaçta açılıyor?",
+          "id": "a1-u06-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Does your brother drive?\" (Evet.)",
+          "options": [
+            "Yes, he drives.",
+            "Yes, he does.",
+            "Yes, he is."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kısa cevap: Yes, he does.",
+          "id": "a1-u06-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "He works ___ a big company.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "Bir şirket için çalışmak: work for.",
+          "id": "a1-u06-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Where does your mum work? – She works at a hospital. She's a nurse.",
+          "prompt": "Anne nerede çalışıyor?",
+          "options": [
+            "Okulda",
+            "Hastanede",
+            "Bankada"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"She works at a hospital.\"",
+          "id": "a1-u06-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"She lives in Bursa.\" (Where ile)",
+          "accepted": [
+            "Where does she live?",
+            "Where does she live"
+          ],
+          "explanation": "Where + does + she + live?",
+          "id": "a1-u06-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Where your sister works?",
+            "Where does your sister work?",
+            "Where does your sister works?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Soru kelimesi + does + özne + yalın fiil.",
+          "id": "a1-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI bir arkadaşını anlatacak. Ona arkadaşının işi ve rutini hakkında 4 soru sorun (does ile).",
+          "modelAnswer": "What does she do? Where does she work? What time does she start work? Does she like her job?",
+          "rubric": [
+            "does ile soru kurdu",
+            "Fiil yalın halde",
+            "Soru kelimeleri doğru"
+          ]
+        },
+        "id": "a1-u06-l4-use"
+      }
+    },
+    {
+      "id": "a1-u06-l5",
+      "number": 5,
+      "title": "Bir iş günü",
+      "goal": "Birinin iş gününü baştan sona anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Podcast: Mesleğim",
+        "lines": [
+          {
+            "speaker": "Host",
+            "text": "Today, Mehmet talks about his job. Mehmet, what do you do?"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "I'm a chef. I work in a restaurant in Bodrum."
+          },
+          {
+            "speaker": "Host",
+            "text": "What's a typical day like?"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "I start at two in the afternoon. I prepare the food and I cook for about 200 people every night."
+          },
+          {
+            "speaker": "Host",
+            "text": "Do you like your job?"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "I love it, but I don't have a lot of free time. I never work on Mondays, so Monday is my family day."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Mehmet work?",
+            "options": [
+              "In a hotel in Bodrum",
+              "In a restaurant in Bodrum",
+              "In a café in Izmir"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I work in a restaurant in Bodrum.\"",
+            "id": "a1-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which day doesn't Mehmet work?",
+            "options": [
+              "Sunday",
+              "Monday",
+              "Friday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I never work on Mondays\"",
+            "id": "a1-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Birinin iş gününü anlatırken ünite 5 ve 6'yı birleştiririz:\n\n1. Meslek ve yer: He**'s** a chef. He work**s** in a restaurant.\n2. Saatler: He start**s** at two. He finish**es** at midnight.\n3. Görevler: He cook**s** for 200 people.\n4. Sıklık: He **never** work**s** on Mondays.\n5. Görüş: He love**s** his job, but he **doesn't** have a lot of free time.\n\nHer cümlede he/she için **-s** var mı, kontrol edin!",
+        "examples": [
+          {
+            "en": "She usually starts work at eight.",
+            "tr": "Genellikle sekizde işe başlar."
+          },
+          {
+            "en": "He doesn't work at the weekend.",
+            "tr": "Hafta sonu çalışmaz."
+          },
+          {
+            "en": "She likes her job because she helps people.",
+            "tr": "İşini seviyor çünkü insanlara yardım ediyor."
+          }
+        ],
+        "turkishNote": "Sıklık zarfı he/she cümlesinde de fiilden önce gelir ve -s fiilde kalır: She always gets up early (She always get değil)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She always get up early.",
+            "She always gets up early.",
+            "She gets always up early."
+          ],
+          "answerIndex": 1,
+          "explanation": "Zarf fiilden önce, -s fiilde.",
+          "id": "a1-u06-l5-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ (not / work) on Sundays.",
+          "answers": [
+            "doesn't work",
+            "does not work"
+          ],
+          "explanation": "he → doesn't + yalın fiil.",
+          "id": "a1-u06-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "My aunt ___ (teach) maths.",
+          "answers": [
+            "teaches"
+          ],
+          "explanation": "-ch → -es.",
+          "id": "a1-u06-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ your uncle like his job?",
+          "answers": [
+            "Does"
+          ],
+          "explanation": "your uncle = he → Does.",
+          "id": "a1-u06-l5-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Mehmet hiç pazartesi çalışmaz.\"",
+          "options": [
+            "Mehmet never works on Mondays.",
+            "Mehmet doesn't never work on Mondays.",
+            "Mehmet never work on Mondays."
+          ],
+          "answerIndex": 0,
+          "explanation": "never + fiil-s, ayrıca doesn't yok.",
+          "id": "a1-u06-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "usually",
+            "She",
+            "at",
+            "finishes",
+            "six"
+          ],
+          "answer": "She usually finishes at six.",
+          "explanation": "Özne + zarf + fiil-es + saat.",
+          "translation": "Genellikle altıda bitirir.",
+          "id": "a1-u06-l5-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Sara is a pilot. She flies to London three times a week. She loves her job, but she doesn't see her family very often.",
+          "prompt": "Sara ailesini sık görüyor mu?",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"she doesn't see her family very often\"",
+          "id": "a1-u06-l5-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "fly fiilinin she ile biçimi:",
+          "options": [
+            "flys",
+            "flies",
+            "flyes"
+          ],
+          "answerIndex": 1,
+          "explanation": "ünsüz + y → -ies: flies.",
+          "id": "a1-u06-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "he ile yazın: \"I don't like my job.\"",
+          "accepted": [
+            "He doesn't like his job.",
+            "He doesn't like his job",
+            "He does not like his job",
+            "He does not like his job."
+          ],
+          "explanation": "I → he, don't → doesn't, my → his.",
+          "id": "a1-u06-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "He's",
+              "right": "a chef"
+            },
+            {
+              "left": "He works",
+              "right": "in a restaurant"
+            },
+            {
+              "left": "He doesn't",
+              "right": "work on Mondays"
+            },
+            {
+              "left": "Does he",
+              "right": "like his job?"
+            }
+          ],
+          "explanation": "Cümleleri tamamlayın.",
+          "id": "a1-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Tanıdığınız birinin iş gününü 5 cümleyle anlatın: meslek, yer, saatler, görevler, görüşü.",
+          "modelAnswer": "My aunt is a nurse. She works at a hospital in Izmir. She starts work at seven and she finishes at three. She helps doctors and patients. She loves her job, but she doesn't like the night shifts.",
+          "rubric": [
+            "he/she ile -s doğru",
+            "doesn't + yalın fiil",
+            "Meslek a/an ile",
+            "Saatler at ile"
+          ]
+        },
+        "id": "a1-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "She's ___ engineer.",
+        "answers": [
+          "an"
+        ],
+        "explanation": "engineer → an",
+        "id": "a1-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "He's lawyer.",
+          "He's a lawyer.",
+          "He a lawyer."
+        ],
+        "answerIndex": 1,
+        "explanation": "a + meslek",
+        "id": "a1-u06-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "My father ___ in a factory. (work)",
+        "answers": [
+          "works"
+        ],
+        "explanation": "he → works",
+        "id": "a1-u06-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ TV every evening. (watch)",
+        "answers": [
+          "watches"
+        ],
+        "explanation": "-ch → -es",
+        "id": "a1-u06-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "He ___ a big car. (have)",
+        "answers": [
+          "has"
+        ],
+        "explanation": "have → has",
+        "id": "a1-u06-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She doesn't likes coffee.",
+          "She doesn't like coffee.",
+          "She don't like coffee."
+        ],
+        "answerIndex": 1,
+        "explanation": "doesn't + yalın fiil",
+        "id": "a1-u06-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Does he lives here?",
+          "Does he live here?",
+          "Do he live here?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Does + yalın fiil",
+        "id": "a1-u06-t07"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "does",
+          "Where",
+          "work",
+          "she",
+          "?"
+        ],
+        "answer": "Where does she work?",
+        "explanation": "Where + does + she + work?",
+        "translation": "O nerede çalışıyor?",
+        "id": "a1-u06-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Does your sister drive?\" (Hayır.)",
+        "options": [
+          "No, she doesn't.",
+          "No, she don't.",
+          "No, she isn't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, she doesn't.",
+        "id": "a1-u06-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "study fiilinin he ile biçimi:",
+        "options": [
+          "studys",
+          "studies",
+          "studyes"
+        ],
+        "answerIndex": 1,
+        "explanation": "ünsüz + y → -ies",
+        "id": "a1-u06-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "He works ___ a big company.",
+        "answers": [
+          "for"
+        ],
+        "explanation": "work for + şirket",
+        "id": "a1-u06-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "My neighbour is a farmer. He gets up at five every day and he works outside all day.",
+        "prompt": "Komşu nerede çalışıyor?",
+        "options": [
+          "Ofiste",
+          "Dışarıda",
+          "Fabrikada"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"he works outside all day\"",
+        "id": "a1-u06-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Olumsuz yapın: \"He goes to the gym.\"",
+        "accepted": [
+          "He doesn't go to the gym.",
+          "He doesn't go to the gym",
+          "He does not go to the gym",
+          "He does not go to the gym."
+        ],
+        "explanation": "doesn't + go",
+        "id": "a1-u06-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"What does she do?\" sorusuna uygun cevap:",
+        "options": [
+          "She's a waiter.",
+          "She does it.",
+          "She's working."
+        ],
+        "answerIndex": 0,
+        "explanation": "Meslek sorusu.",
+        "id": "a1-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir aile üyenizin ya da arkadaşınızın işini 5 cümleyle anlatın.",
+        "modelAnswer": "My best friend is a teacher. She teaches English at a primary school. She starts work at eight. She doesn't work on Saturdays. She loves her job because she likes children.",
+        "rubric": [
+          "he/she ile -s/-es/-ies doğru",
+          "doesn't doğru",
+          "a/an doğru",
+          "Zaman ifadeleri doğru"
+        ],
+        "id": "a1-u06-t15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1496 @@
+{
+  "id": "a1-u05",
+  "level": "A1",
+  "number": 5,
+  "title": "Günüm",
+  "titleEn": "My Day",
+  "canDo": "Günlük rutinimi saatleriyle anlatabilir, başkalarına günlerini sorabilirim.",
+  "grammar": [
+    "present simple (I/you/we/they): olumlu, olumsuz, soru",
+    "saatler ve at/in/on",
+    "sıklık zarfları"
+  ],
+  "vocabularyThemes": [
+    "günlük eylemler",
+    "saatler",
+    "günler"
+  ],
+  "liveClass": {
+    "title": "Kimin günü?",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler günlük rutinlerini birbirine sorar (What time do you get up?), sonra öğretmen anonim rutinler okur ve grup kimin olduğunu tahmin eder."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u05-v01",
+      "en": "get up",
+      "tr": "kalkmak (yataktan)",
+      "example": "I get up at seven.",
+      "exampleTr": "Yedide kalkarım."
+    },
+    {
+      "id": "a1-u05-v02",
+      "en": "wake up",
+      "tr": "uyanmak",
+      "example": "I wake up at six thirty.",
+      "exampleTr": "Altı buçukta uyanırım.",
+      "note": "wake up = gözünü açmak; get up = yataktan kalkmak."
+    },
+    {
+      "id": "a1-u05-v03",
+      "en": "have breakfast",
+      "tr": "kahvaltı etmek",
+      "example": "We have breakfast together.",
+      "exampleTr": "Birlikte kahvaltı ederiz.",
+      "note": "have lunch / have dinner da aynı şekilde."
+    },
+    {
+      "id": "a1-u05-v04",
+      "en": "take a shower",
+      "tr": "duş almak",
+      "example": "I take a shower in the morning.",
+      "exampleTr": "Sabah duş alırım."
+    },
+    {
+      "id": "a1-u05-v05",
+      "en": "go to work",
+      "tr": "işe gitmek",
+      "example": "They go to work by bus.",
+      "exampleTr": "İşe otobüsle giderler.",
+      "note": "go to school, go to university ama go home (to yok)."
+    },
+    {
+      "id": "a1-u05-v06",
+      "en": "start",
+      "tr": "başlamak",
+      "example": "I start work at nine.",
+      "exampleTr": "İşe dokuzda başlarım."
+    },
+    {
+      "id": "a1-u05-v07",
+      "en": "finish",
+      "tr": "bitirmek",
+      "example": "We finish at five.",
+      "exampleTr": "Beşte bitiririz."
+    },
+    {
+      "id": "a1-u05-v08",
+      "en": "go home",
+      "tr": "eve gitmek",
+      "example": "I go home at six.",
+      "exampleTr": "Altıda eve giderim.",
+      "note": "go to home değil, go home."
+    },
+    {
+      "id": "a1-u05-v09",
+      "en": "cook",
+      "tr": "yemek pişirmek",
+      "example": "I cook dinner every day.",
+      "exampleTr": "Her gün akşam yemeği pişiririm."
+    },
+    {
+      "id": "a1-u05-v10",
+      "en": "watch TV",
+      "tr": "televizyon izlemek",
+      "example": "We watch TV in the evening.",
+      "exampleTr": "Akşam televizyon izleriz."
+    },
+    {
+      "id": "a1-u05-v11",
+      "en": "go to bed",
+      "tr": "yatmak",
+      "example": "I go to bed at eleven.",
+      "exampleTr": "On birde yatarım."
+    },
+    {
+      "id": "a1-u05-v12",
+      "en": "study",
+      "tr": "ders çalışmak",
+      "example": "I study English every day.",
+      "exampleTr": "Her gün İngilizce çalışırım."
+    },
+    {
+      "id": "a1-u05-v13",
+      "en": "work",
+      "tr": "çalışmak (işte)",
+      "example": "My parents work in a bank.",
+      "exampleTr": "Annemle babam bir bankada çalışır."
+    },
+    {
+      "id": "a1-u05-v14",
+      "en": "live",
+      "tr": "yaşamak, oturmak",
+      "example": "We live in Istanbul.",
+      "exampleTr": "İstanbul'da yaşıyoruz."
+    },
+    {
+      "id": "a1-u05-v15",
+      "en": "o'clock",
+      "tr": "saat (tam)",
+      "example": "It's three o'clock.",
+      "exampleTr": "Saat üç.",
+      "note": "Yalnızca tam saatlerde kullanılır."
+    },
+    {
+      "id": "a1-u05-v16",
+      "en": "half past",
+      "tr": "buçuk",
+      "example": "It's half past seven.",
+      "exampleTr": "Saat yedi buçuk."
+    },
+    {
+      "id": "a1-u05-v17",
+      "en": "quarter",
+      "tr": "çeyrek",
+      "example": "It's quarter past two.",
+      "exampleTr": "Saat ikiyi çeyrek geçiyor."
+    },
+    {
+      "id": "a1-u05-v18",
+      "en": "always",
+      "tr": "her zaman",
+      "example": "I always have breakfast.",
+      "exampleTr": "Her zaman kahvaltı ederim."
+    },
+    {
+      "id": "a1-u05-v19",
+      "en": "usually",
+      "tr": "genellikle",
+      "example": "I usually walk to work.",
+      "exampleTr": "Genellikle işe yürürüm."
+    },
+    {
+      "id": "a1-u05-v20",
+      "en": "sometimes",
+      "tr": "bazen",
+      "example": "We sometimes eat out.",
+      "exampleTr": "Bazen dışarıda yeriz."
+    },
+    {
+      "id": "a1-u05-v21",
+      "en": "never",
+      "tr": "asla, hiç",
+      "example": "I never drink coffee.",
+      "exampleTr": "Hiç kahve içmem.",
+      "note": "never ile olumsuz fiil kullanılmaz."
+    },
+    {
+      "id": "a1-u05-v22",
+      "en": "weekend",
+      "tr": "hafta sonu",
+      "example": "What do you do at the weekend?",
+      "exampleTr": "Hafta sonu ne yaparsın?",
+      "note": "İngiliz: at the weekend, Amerikan: on the weekend."
+    },
+    {
+      "id": "a1-u05-v23",
+      "en": "Monday",
+      "tr": "pazartesi",
+      "example": "I go to the gym on Mondays.",
+      "exampleTr": "Pazartesileri spora giderim.",
+      "note": "Günler büyük harfle yazılır."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u05-l1",
+      "number": 1,
+      "title": "Günlük rutin",
+      "goal": "Günlük yaptıklarımı present simple ile söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Deniz'in sabahı",
+        "lines": [
+          {
+            "speaker": "Deniz",
+            "text": "I get up at seven every day."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "I take a shower and I have breakfast with my family."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Then I go to work by metro. I work in an office in the city centre."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "I start work at nine and I finish at six."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "In the evening, I cook dinner and I study English."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How does Deniz go to work?",
+            "options": [
+              "By bus",
+              "By metro",
+              "By car"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I go to work by metro.\"",
+            "id": "a1-u05-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Deniz do in the evening?",
+            "options": [
+              "Watches TV",
+              "Cooks and studies English",
+              "Goes to the gym"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I cook dinner and I study English.\"",
+            "id": "a1-u05-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Her gün, düzenli olarak yaptığımız şeyler için **present simple** (geniş zaman) kullanılır.\n\nI, you, we, they ile fiil **yalın** halde kalır:\n\n- I **get up** at seven.\n- We **have** breakfast together.\n- They **work** in a bank.\n\nhe/she/it ile fiilin nasıl değiştiğini 6. ünitede göreceğiz.",
+        "examples": [
+          {
+            "en": "I live in Ankara.",
+            "tr": "Ankara'da yaşıyorum."
+          },
+          {
+            "en": "We go to bed at eleven.",
+            "tr": "On birde yatarız."
+          },
+          {
+            "en": "You work very hard.",
+            "tr": "Çok çalışıyorsun."
+          }
+        ],
+        "turkishNote": "Türkçede \"Ankara'da yaşıyorum\" (şimdiki zaman) deriz ama bu kalıcı bir durumdur. İngilizcede kalıcı durumlar ve alışkanlıklar için geniş zaman kullanılır: I live in Ankara (I'm living değil). Ayrıca \"go home\" denir, \"go to home\" değil."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "get up",
+              "right": "kalkmak"
+            },
+            {
+              "left": "have breakfast",
+              "right": "kahvaltı etmek"
+            },
+            {
+              "left": "go to bed",
+              "right": "yatmak"
+            },
+            {
+              "left": "take a shower",
+              "right": "duş almak"
+            },
+            {
+              "left": "go home",
+              "right": "eve gitmek"
+            }
+          ],
+          "explanation": "Rutin eylemleri eşleştirin.",
+          "id": "a1-u05-l1-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ up at seven.",
+          "answers": [
+            "get"
+          ],
+          "explanation": "kalkmak = get up.",
+          "id": "a1-u05-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ breakfast at eight.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "kahvaltı etmek = have breakfast.",
+          "id": "a1-u05-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I go to home at six.",
+            "I go home at six.",
+            "I go at home at six."
+          ],
+          "answerIndex": 1,
+          "explanation": "home'dan önce to gelmez.",
+          "wrongFeedback": {
+            "0": "\"go home\" kalıbında to yoktur."
+          },
+          "id": "a1-u05-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Ankara'da yaşıyorum.\" (kalıcı durum)",
+          "options": [
+            "I live in Ankara.",
+            "I am live in Ankara.",
+            "I living in Ankara."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kalıcı durum → present simple: I live.",
+          "wrongFeedback": {
+            "1": "am ile live birlikte kullanılmaz."
+          },
+          "id": "a1-u05-l1-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "work",
+            "They",
+            "a",
+            "in",
+            "bank"
+          ],
+          "answer": "They work in a bank.",
+          "explanation": "Özne + fiil + yer.",
+          "translation": "Onlar bir bankada çalışır.",
+          "id": "a1-u05-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ English every evening.",
+          "answers": [
+            "study"
+          ],
+          "explanation": "ders çalışmak = study.",
+          "id": "a1-u05-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I wake up at six, but I get up at half past six. I have breakfast and I go to work at seven thirty.",
+          "prompt": "Konuşan kaçta işe gidiyor?",
+          "options": [
+            "6:00",
+            "6:30",
+            "7:30"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"I go to work at seven thirty.\"",
+          "id": "a1-u05-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Akşam yemeği pişiririm.\"",
+          "accepted": [
+            "I cook dinner.",
+            "I cook dinner",
+            "I cook dinner in the evening.",
+            "I cook dinner in the evening"
+          ],
+          "explanation": "I + cook + dinner.",
+          "id": "a1-u05-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "wake up ile get up arasındaki fark:",
+          "options": [
+            "Aynı anlamdadır.",
+            "wake up = uyanmak, get up = yataktan kalkmak",
+            "wake up = kalkmak, get up = uyanmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "Önce uyanırız (wake up), sonra kalkarız (get up).",
+          "id": "a1-u05-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Sabah rutininizi 4 cümleyle anlatın.",
+          "modelAnswer": "I get up at seven. I take a shower and I have breakfast. I go to work by bus. I start work at nine.",
+          "rubric": [
+            "Rutin fiilleri doğru",
+            "Fiil yalın halde (I + fiil)",
+            "Sıralı ve anlaşılır"
+          ]
+        },
+        "id": "a1-u05-l1-use"
+      }
+    },
+    {
+      "id": "a1-u05-l2",
+      "number": 2,
+      "title": "Saat kaç?",
+      "goal": "Saati söyleyip bir şeyin hangi saatte olduğunu belirtebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sokakta",
+        "lines": [
+          {
+            "speaker": "Ali",
+            "text": "Excuse me, what time is it?"
+          },
+          {
+            "speaker": "Woman",
+            "text": "It's quarter to three."
+          },
+          {
+            "speaker": "Ali",
+            "text": "Oh no! My class starts at three."
+          },
+          {
+            "speaker": "Woman",
+            "text": "Don't worry, you have fifteen minutes."
+          },
+          {
+            "speaker": "Ali",
+            "text": "Thank you!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What time is it?",
+            "options": [
+              "2:15",
+              "2:45",
+              "3:15"
+            ],
+            "answerIndex": 1,
+            "explanation": "quarter to three = üçe çeyrek var = 2:45",
+            "id": "a1-u05-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What time does Ali's class start?",
+            "options": [
+              "2:45",
+              "3:00",
+              "3:15"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My class starts at three.\"",
+            "id": "a1-u05-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Saati sormak: **What time is it?** ya da **What's the time?**\n\n| Saat | İngilizce | Kolay yol |\n|---|---|---|\n| 7:00 | seven **o'clock** | seven |\n| 7:15 | **quarter past** seven | seven fifteen |\n| 7:30 | **half past** seven | seven thirty |\n| 7:45 | **quarter to** eight | seven forty-five |\n| 7:10 | ten **past** seven | seven ten |\n| 7:50 | ten **to** eight | seven fifty |\n\n**past** = geçiyor, **to** = var. Bir şeyin saati için **at**: at seven, at half past six.\n\nAM = öğleden önce, PM = öğleden sonra.",
+        "examples": [
+          {
+            "en": "It's half past four.",
+            "tr": "Saat dört buçuk."
+          },
+          {
+            "en": "The film starts at eight.",
+            "tr": "Film sekizde başlıyor."
+          },
+          {
+            "en": "I get up at quarter to seven.",
+            "tr": "Yediye çeyrek kala kalkarım."
+          }
+        ],
+        "turkishNote": "\"half past seven\" yedi buçuktur, sekiz buçuk değil: yediyi yarım geçiyor. \"quarter to\" ise Türkçedeki \"çeyrek var\" ile aynıdır. Saatten önce mutlaka \"at\" gelir: \"I get up seven\" değil, \"I get up at seven\"."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "3:00",
+              "right": "three o'clock"
+            },
+            {
+              "left": "3:15",
+              "right": "quarter past three"
+            },
+            {
+              "left": "3:30",
+              "right": "half past three"
+            },
+            {
+              "left": "3:45",
+              "right": "quarter to four"
+            }
+          ],
+          "explanation": "Saatleri eşleştirin.",
+          "id": "a1-u05-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "half past seven kaçtır?",
+          "options": [
+            "6:30",
+            "7:30",
+            "8:30"
+          ],
+          "answerIndex": 1,
+          "explanation": "yediyi yarım geçiyor = 7:30.",
+          "id": "a1-u05-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "ten to nine kaçtır?",
+          "options": [
+            "8:50",
+            "9:10",
+            "9:50"
+          ],
+          "answerIndex": 0,
+          "explanation": "dokuza on var = 8:50.",
+          "id": "a1-u05-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's quarter ___ five. (5:15)",
+          "answers": [
+            "past"
+          ],
+          "explanation": "Geçiyor = past.",
+          "id": "a1-u05-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's twenty ___ six. (5:40)",
+          "answers": [
+            "to"
+          ],
+          "explanation": "Var = to.",
+          "id": "a1-u05-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The lesson starts ___ ten o'clock.",
+          "answers": [
+            "at"
+          ],
+          "explanation": "Saatten önce at.",
+          "id": "a1-u05-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "time",
+            "What",
+            "it",
+            "is",
+            "?"
+          ],
+          "answer": "What time is it?",
+          "explanation": "What time + is + it?",
+          "translation": "Saat kaç?",
+          "id": "a1-u05-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The train leaves at twenty past eleven.",
+          "prompt": "Tren kaçta kalkıyor?",
+          "options": [
+            "11:20",
+            "11:40",
+            "10:40"
+          ],
+          "answerIndex": 0,
+          "explanation": "twenty past eleven = 11:20",
+          "id": "a1-u05-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Rakamla yazın: \"quarter to ten\" (ss:dd)",
+          "accepted": [
+            "9:45",
+            "09:45"
+          ],
+          "explanation": "ona çeyrek var = 9:45",
+          "id": "a1-u05-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I get up seven.",
+            "I get up at seven.",
+            "I get up in seven."
+          ],
+          "answerIndex": 1,
+          "explanation": "Saatten önce at.",
+          "id": "a1-u05-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 5 farklı saat söyleyecek, siz de İngilizce okuyacaksınız (8:00, 8:15, 8:30, 8:45, 9:10).",
+          "modelAnswer": "It's eight o'clock. It's quarter past eight. It's half past eight. It's quarter to nine. It's ten past nine.",
+          "rubric": [
+            "past/to doğru",
+            "quarter/half doğru",
+            "It's ile başladı"
+          ]
+        },
+        "id": "a1-u05-l2-use"
+      }
+    },
+    {
+      "id": "a1-u05-l3",
+      "number": 3,
+      "title": "Yapmam",
+      "goal": "Yapmadığım şeyleri don't ile söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İki kardeş",
+        "lines": [
+          {
+            "speaker": "Mia",
+            "text": "My brother and I are very different."
+          },
+          {
+            "speaker": "Mia",
+            "text": "I get up early. My brother? He loves his bed!"
+          },
+          {
+            "speaker": "Mia",
+            "text": "I don't drink coffee. I drink tea."
+          },
+          {
+            "speaker": "Mia",
+            "text": "We don't watch TV together because we don't like the same programmes."
+          },
+          {
+            "speaker": "Mia",
+            "text": "But we always have dinner together on Sundays."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Mia drink?",
+            "options": [
+              "Coffee",
+              "Tea",
+              "Juice"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I don't drink coffee. I drink tea.\"",
+            "id": "a1-u05-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do they do together on Sundays?",
+            "options": [
+              "Watch TV",
+              "Have dinner",
+              "Get up early"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"we always have dinner together on Sundays\"",
+            "id": "a1-u05-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "I, you, we, they ile olumsuz cümle **don't** (do not) + fiil ile kurulur:\n\n- I **don't** drink coffee.\n- We **don't** watch TV.\n- They **don't** live here.\n\nFiil yalın halde kalır. **am/is/are** ile birlikte kullanılmaz.",
+        "examples": [
+          {
+            "en": "I don't eat meat.",
+            "tr": "Et yemem."
+          },
+          {
+            "en": "We don't work on Saturdays.",
+            "tr": "Cumartesileri çalışmayız."
+          },
+          {
+            "en": "They don't speak Turkish.",
+            "tr": "Onlar Türkçe konuşmaz."
+          }
+        ],
+        "turkishNote": "Türkçeden çevirirken \"I'm not drink coffee\" hatası çok yapılır. am/is/are yalnızca to be cümlelerinde (I'm not a student) kullanılır. Eylem fiilleri için don't gerekir: I don't drink coffee."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "I ___ like coffee.",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "Olumsuz → don't + fiil.",
+          "id": "a1-u05-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ work on Sundays.",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "we → don't.",
+          "id": "a1-u05-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm not drink tea.",
+            "I don't drink tea.",
+            "I not drink tea."
+          ],
+          "answerIndex": 1,
+          "explanation": "Eylem fiilinde olumsuzluk don't ile yapılır.",
+          "wrongFeedback": {
+            "0": "am + fiil olmaz. don't kullanın.",
+            "2": "not tek başına kullanılmaz, don't gerekir."
+          },
+          "id": "a1-u05-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I don't a student.",
+            "I'm not a student."
+          ],
+          "answerIndex": 1,
+          "explanation": "to be cümlesinde → I'm not.",
+          "id": "a1-u05-l3-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "don't",
+            "They",
+            "here",
+            "live"
+          ],
+          "answer": "They don't live here.",
+          "explanation": "Özne + don't + fiil.",
+          "translation": "Onlar burada yaşamıyor.",
+          "id": "a1-u05-l3-p05"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"I watch TV in the morning.\"",
+          "accepted": [
+            "I don't watch TV in the morning.",
+            "I don't watch TV in the morning",
+            "I do not watch TV in the morning",
+            "I do not watch TV in the morning."
+          ],
+          "explanation": "I + don't + watch ...",
+          "id": "a1-u05-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Et yemem.\"",
+          "options": [
+            "I don't eat meat.",
+            "I'm not eat meat.",
+            "I eat not meat."
+          ],
+          "answerIndex": 0,
+          "explanation": "don't + eat.",
+          "id": "a1-u05-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I don't have breakfast at home. I have a coffee and a simit on the way to work.",
+          "prompt": "Konuşan evde kahvaltı ediyor mu?",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I don't have breakfast at home.\"",
+          "id": "a1-u05-l3-p08"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ know my sister. (tanımıyorsun)",
+          "answers": [
+            "don't",
+            "do not"
+          ],
+          "explanation": "you → don't.",
+          "id": "a1-u05-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I'm not",
+              "right": "a teacher"
+            },
+            {
+              "left": "I don't",
+              "right": "work here"
+            },
+            {
+              "left": "We aren't",
+              "right": "from Izmir"
+            },
+            {
+              "left": "We don't",
+              "right": "speak French"
+            }
+          ],
+          "explanation": "to be cümlelerinde am/is/are not, eylem fiillerinde don't.",
+          "id": "a1-u05-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Yapmadığınız 3 şeyi söyleyin ve yerine ne yaptığınızı ekleyin.",
+          "modelAnswer": "I don't drink coffee. I drink tea. I don't watch TV. I read books.",
+          "rubric": [
+            "don't + fiil doğru",
+            "am/is/are ile karıştırmadı",
+            "Olumlu cümleyle tamamladı"
+          ]
+        },
+        "id": "a1-u05-l3-use"
+      }
+    },
+    {
+      "id": "a1-u05-l4",
+      "number": 4,
+      "title": "Sen ne yaparsın?",
+      "goal": "Başkalarına günlük rutinlerini sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni iş arkadaşı",
+        "lines": [
+          {
+            "speaker": "Tom",
+            "text": "Do you live near the office?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "No, I don't. I live in Kadıköy."
+          },
+          {
+            "speaker": "Tom",
+            "text": "What time do you get up?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "At six. I take the ferry every morning."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Do you like it?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "Yes, I do! I have breakfast on the ferry."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Selin live?",
+            "options": [
+              "Near the office",
+              "In Kadıköy",
+              "On a ferry"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I live in Kadıköy.\"",
+            "id": "a1-u05-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Selin have breakfast?",
+            "options": [
+              "At home",
+              "In the office",
+              "On the ferry"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"I have breakfast on the ferry.\"",
+            "id": "a1-u05-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Evet/hayır sorusu:** Do + özne + fiil?\n\n- **Do you** live here? – Yes, I **do**. / No, I **don't**.\n- **Do they** work at night? – Yes, they **do**. / No, they **don't**.\n\n**Bilgi sorusu:** Soru kelimesi + do + özne + fiil?\n\n- **What time do you** get up?\n- **Where do you** work?\n- **What do you** do at the weekend?",
+        "examples": [
+          {
+            "en": "Do you speak English? – Yes, I do.",
+            "tr": "İngilizce konuşur musun? – Evet."
+          },
+          {
+            "en": "Where do you live?",
+            "tr": "Nerede yaşıyorsun?"
+          },
+          {
+            "en": "What do you do? – I'm a nurse.",
+            "tr": "Ne iş yaparsın? – Hemşireyim."
+          }
+        ],
+        "turkishNote": "\"What do you do?\" sorusu \"Ne iş yapıyorsun?\" demektir, \"şu an ne yapıyorsun\" değil. Ayrıca soruda do unutulmamalı: \"Where you live?\" yanlış, \"Where do you live?\" doğru."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "___ you like tea? – Yes, I do.",
+          "answers": [
+            "Do"
+          ],
+          "explanation": "Evet/hayır sorusu: Do + you + fiil?",
+          "id": "a1-u05-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Do you work on Saturdays?\" (Çalışmıyorsunuz.)",
+          "options": [
+            "No, I don't.",
+            "No, I'm not.",
+            "No, I not work."
+          ],
+          "answerIndex": 0,
+          "explanation": "Do ile sorulan soruya: No, I don't.",
+          "id": "a1-u05-l4-p02"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "do",
+            "Where",
+            "live",
+            "you",
+            "?"
+          ],
+          "answer": "Where do you live?",
+          "explanation": "Soru kelimesi + do + özne + fiil?",
+          "translation": "Nerede yaşıyorsun?",
+          "id": "a1-u05-l4-p03"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "time",
+            "What",
+            "you",
+            "do",
+            "get",
+            "up",
+            "?"
+          ],
+          "answer": "What time do you get up?",
+          "explanation": "What time + do + you + fiil?",
+          "translation": "Kaçta kalkarsın?",
+          "id": "a1-u05-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Where you work?",
+            "Where do you work?",
+            "Where are you work?"
+          ],
+          "answerIndex": 1,
+          "explanation": "do eksik olmamalı.",
+          "wrongFeedback": {
+            "0": "Soru için do gerekir.",
+            "2": "are + work olmaz."
+          },
+          "id": "a1-u05-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What do you do?\" ne demektir?",
+          "options": [
+            "Şu an ne yapıyorsun?",
+            "Ne iş yapıyorsun?",
+            "Ne yapmak istiyorsun?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Meslek sorusudur.",
+          "id": "a1-u05-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Do they speak English? – Yes, they ___.",
+          "answers": [
+            "do"
+          ],
+          "explanation": "Kısa cevap: Yes, they do.",
+          "id": "a1-u05-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Do you have lunch at work? – Yes, I do. I usually have lunch at one o'clock.",
+          "prompt": "Konuşan kaçta öğle yemeği yiyor?",
+          "options": [
+            "12:00",
+            "13:00",
+            "14:00"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"at one o'clock\" = 13:00",
+          "id": "a1-u05-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"You play tennis.\"",
+          "accepted": [
+            "Do you play tennis?",
+            "Do you play tennis"
+          ],
+          "explanation": "Do + you + play tennis?",
+          "id": "a1-u05-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What time do you finish work?\" sorusuna uygun cevap:",
+          "options": [
+            "Yes, I do.",
+            "At half past five.",
+            "I'm a teacher."
+          ],
+          "answerIndex": 1,
+          "explanation": "What time → bir saat.",
+          "id": "a1-u05-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile tanışıyorsunuz. Ona günlük rutini hakkında 4 soru sorun.",
+          "modelAnswer": "Where do you live? What time do you get up? Do you work? What do you do in the evening?",
+          "rubric": [
+            "do ile soru kurdu",
+            "Soru kelimeleri doğru",
+            "Fiil yalın halde"
+          ]
+        },
+        "id": "a1-u05-l4-use"
+      }
+    },
+    {
+      "id": "a1-u05-l5",
+      "number": 5,
+      "title": "Her zaman, bazen, asla",
+      "goal": "Bir şeyi ne sıklıkla yaptığımı söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sağlıklı yaşam anketi",
+        "lines": [
+          {
+            "speaker": "Interviewer",
+            "text": "How often do you do sport?"
+          },
+          {
+            "speaker": "Can",
+            "text": "I usually go to the gym on Mondays and Thursdays."
+          },
+          {
+            "speaker": "Interviewer",
+            "text": "Do you eat fast food?"
+          },
+          {
+            "speaker": "Can",
+            "text": "Sometimes, at the weekend."
+          },
+          {
+            "speaker": "Interviewer",
+            "text": "And do you smoke?"
+          },
+          {
+            "speaker": "Can",
+            "text": "No, never! And I always go to bed before midnight."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When does Can go to the gym?",
+            "options": [
+              "Every day",
+              "On Mondays and Thursdays",
+              "At the weekend"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"on Mondays and Thursdays\"",
+            "id": "a1-u05-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How often does Can eat fast food?",
+            "options": [
+              "Never",
+              "Sometimes",
+              "Always"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Sometimes, at the weekend.\"",
+            "id": "a1-u05-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sıklık zarfları** (en sıktan en seyreğe):\n\n**always** (%100) → **usually** → **often** → **sometimes** → **never** (%0)\n\n**Yeri:** Eylem fiilinin **önüne**, to be'nin **arkasına** gelir.\n\n- I **always** have breakfast. (fiilden önce)\n- I'm **always** tired. (be'den sonra)\n\n**Zaman edatları:** **at** + saat (at 7), **in** + günün bölümü (in the morning), **on** + gün (on Monday, on Mondays).\n\nSıklık sormak için: **How often** do you ...?",
+        "examples": [
+          {
+            "en": "I usually walk to work.",
+            "tr": "Genellikle işe yürürüm."
+          },
+          {
+            "en": "She's never late.",
+            "tr": "O hiç geç kalmaz."
+          },
+          {
+            "en": "We often eat out on Fridays.",
+            "tr": "Cumaları sık sık dışarıda yeriz."
+          }
+        ],
+        "turkishNote": "never zaten olumsuzdur, yanına don't eklenmez: \"I don't never drink coffee\" yanlış, \"I never drink coffee\" doğru. Ayrıca \"in the morning\" ama \"at night\" denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "always",
+              "right": "her zaman"
+            },
+            {
+              "left": "usually",
+              "right": "genellikle"
+            },
+            {
+              "left": "often",
+              "right": "sık sık"
+            },
+            {
+              "left": "sometimes",
+              "right": "bazen"
+            },
+            {
+              "left": "never",
+              "right": "asla"
+            }
+          ],
+          "explanation": "Sıklık zarflarını eşleştirin.",
+          "id": "a1-u05-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I have always breakfast.",
+            "I always have breakfast.",
+            "Always I have breakfast."
+          ],
+          "answerIndex": 1,
+          "explanation": "Zarf, eylem fiilinin önüne gelir.",
+          "id": "a1-u05-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I always am tired.",
+            "I am always tired."
+          ],
+          "answerIndex": 1,
+          "explanation": "to be'den sonra gelir.",
+          "id": "a1-u05-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I don't never eat meat.",
+            "I never eat meat."
+          ],
+          "answerIndex": 1,
+          "explanation": "never zaten olumsuz, don't eklenmez.",
+          "wrongFeedback": {
+            "0": "İki olumsuzluk olmaz. never yeterli."
+          },
+          "id": "a1-u05-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I go to the gym ___ Mondays.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Günlerden önce on.",
+          "id": "a1-u05-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I study ___ the evening.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Günün bölümü → in the evening.",
+          "id": "a1-u05-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I go to bed ___ eleven o'clock.",
+          "answers": [
+            "at"
+          ],
+          "explanation": "Saat → at.",
+          "id": "a1-u05-l5-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "often",
+            "How",
+            "you",
+            "do",
+            "cook",
+            "?"
+          ],
+          "answer": "How often do you cook?",
+          "explanation": "How often + do + you + fiil?",
+          "translation": "Ne sıklıkla yemek yaparsın?",
+          "id": "a1-u05-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I never eat breakfast, but I always drink a big cup of coffee at eight.",
+          "prompt": "Konuşan kahvaltı yapıyor mu?",
+          "options": [
+            "Her zaman",
+            "Bazen",
+            "Hiç"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"I never eat breakfast\"",
+          "id": "a1-u05-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Zarfı doğru yere koyarak yazın: \"I walk to work.\" (usually)",
+          "accepted": [
+            "I usually walk to work.",
+            "I usually walk to work"
+          ],
+          "explanation": "Zarf fiilden önce: I usually walk.",
+          "id": "a1-u05-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir haftanızı anlatın: her zaman, genellikle, bazen ve asla yaptığınız birer şey yazın.",
+          "modelAnswer": "I always get up at seven. I usually go to work by bus. I sometimes cook dinner on Fridays. I never watch TV in the morning.",
+          "rubric": [
+            "Sıklık zarfları doğru yerde",
+            "never ile olumsuz fiil kullanılmadı",
+            "at/in/on doğru"
+          ]
+        },
+        "id": "a1-u05-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "I ___ up at half past six.",
+        "answers": [
+          "get"
+        ],
+        "explanation": "get up = kalkmak",
+        "id": "a1-u05-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I go to home at five.",
+          "I go home at five."
+        ],
+        "answerIndex": 1,
+        "explanation": "go home (to yok).",
+        "id": "a1-u05-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "quarter past four:",
+        "options": [
+          "3:45",
+          "4:15",
+          "4:45"
+        ],
+        "answerIndex": 1,
+        "explanation": "dördü çeyrek geçiyor = 4:15",
+        "id": "a1-u05-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "twenty to eight:",
+        "options": [
+          "7:40",
+          "8:20",
+          "7:20"
+        ],
+        "answerIndex": 0,
+        "explanation": "sekize yirmi var = 7:40",
+        "id": "a1-u05-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "The film starts ___ nine.",
+        "answers": [
+          "at"
+        ],
+        "explanation": "Saat → at.",
+        "id": "a1-u05-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm not like coffee.",
+          "I don't like coffee.",
+          "I no like coffee."
+        ],
+        "answerIndex": 1,
+        "explanation": "Eylem fiili → don't.",
+        "id": "a1-u05-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ work on Sundays.",
+        "answers": [
+          "don't",
+          "do not"
+        ],
+        "explanation": "Olumsuz → don't.",
+        "id": "a1-u05-t07"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "you",
+          "do",
+          "Where",
+          "work",
+          "?"
+        ],
+        "answer": "Where do you work?",
+        "explanation": "Soru kelimesi + do + you + fiil?",
+        "translation": "Nerede çalışıyorsun?",
+        "id": "a1-u05-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Do you speak French?\" (Hayır.)",
+        "options": [
+          "No, I don't.",
+          "No, I'm not.",
+          "No, I doesn't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, I don't.",
+        "id": "a1-u05-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I have usually lunch at one.",
+          "I usually have lunch at one."
+        ],
+        "answerIndex": 1,
+        "explanation": "Zarf fiilden önce.",
+        "id": "a1-u05-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I play football ___ Saturdays.",
+        "answers": [
+          "on"
+        ],
+        "explanation": "Gün → on.",
+        "id": "a1-u05-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "I usually get up at seven, but on Sundays I get up at ten.",
+        "prompt": "Konuşan pazar günleri kaçta kalkıyor?",
+        "options": [
+          "7:00",
+          "10:00",
+          "11:00"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"on Sundays I get up at ten\"",
+        "id": "a1-u05-t12"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"What do you do?\" sorusuna uygun cevap:",
+        "options": [
+          "I'm a teacher.",
+          "I'm watching TV.",
+          "Yes, I do."
+        ],
+        "answerIndex": 0,
+        "explanation": "Meslek sorusudur.",
+        "id": "a1-u05-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Doğru yazın: \"I don't never eat fish.\"",
+        "accepted": [
+          "I never eat fish.",
+          "I never eat fish"
+        ],
+        "explanation": "never zaten olumsuz.",
+        "id": "a1-u05-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir gününüzü 5 cümleyle saatleriyle anlatın.",
+        "modelAnswer": "I get up at seven o'clock. I have breakfast at half past seven. I start work at nine. I usually go home at six. I go to bed at eleven.",
+        "rubric": [
+          "Rutin fiilleri doğru",
+          "Saatler ve at doğru",
+          "Sıklık zarfı doğru yerde",
+          "Fiiller yalın (I + fiil)"
+        ],
+        "id": "a1-u05-t15"
+      }
+    ]
+  }
+}
