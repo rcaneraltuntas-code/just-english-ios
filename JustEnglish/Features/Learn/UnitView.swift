@@ -18,10 +18,12 @@ struct UnitView: View {
                 HStack(alignment: .center) {
                     VStack(alignment: .leading, spacing: 4) {
                         Text("ÜNİTE \(unit.number) · \(unit.level.rawValue)")
-                            .font(.jakarta(.footnote, weight: .regular))
+                            .font(.custom(Theme.fontFamily, size: 13, relativeTo: .footnote))
                             .tracking(0.8)
                             .foregroundStyle(Color(light: 0x6B7385, dark: 0x9AA3B5))
-                        Text(unit.title).font(.jakarta(.title3, weight: .bold)).foregroundStyle(Theme.ink.opacity(0.85))
+                        Text(unit.title)
+                            .font(.custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+                            .foregroundStyle(Color(light: 0x3C4250, dark: 0xE6E9F0))
                     }
                     Spacer()
                     HStack(spacing: 14) {
@@ -31,8 +33,11 @@ struct UnitView: View {
                     .font(.jakarta(.headline, weight: .semibold))
                     .foregroundStyle(Theme.ink.opacity(0.75))
                 }
-                .padding(18)
-                .background(Color(light: 0xF3F4F7, dark: 0x1D2233), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                .padding(.horizontal, 18)
+                .frame(height: 74)
+                .background(Color(light: 0xF3F4F6, dark: 0x1D2233), in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+                .padding(.horizontal, -3)
+                .padding(.bottom, -7)
                 .staggeredAppear(0)
 
                 LessonPathView(unit: unit) { lesson in
@@ -108,7 +113,7 @@ struct UnitView: View {
             }
             .accessibilityLabel("Geri")
             Text("Ünite \(unit.number)")
-                .font(.jakarta(.title3, weight: .heavy))
+                .font(.custom(Theme.fontFamily, size: 24, relativeTo: .title2).weight(.bold))
                 .foregroundStyle(Theme.ink)
             Spacer()
             Button { selectTab(.practice) } label: {
