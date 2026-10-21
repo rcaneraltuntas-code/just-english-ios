@@ -1,0 +1,1428 @@
+{
+  "id": "c1-u10",
+  "level": "C1",
+  "number": 10,
+  "title": "Doğal konuşma",
+  "titleEn": "Natural Conversation",
+  "canDo": "Tekrardan kaçınmak için yerine koyma (one, so, not, do so) ve eksiltme (ellipsis) kullanabilir, konuşmada kısa ve doğal cevaplar verebilir, yankı soruları ve dinleyici tepkileriyle sohbeti sürdürebilir ve yazıda the former / the latter, such gibi araçlarla metni akıcı hale getirebilirim.",
+  "grammar": [
+    "yerine koyma: one / ones, so / not",
+    "yardımcı fiille eksiltme ve do so",
+    "konuşmada durumsal eksiltme ve to ile biten cevaplar",
+    "yankı soruları ve dinleyici tepkileri",
+    "yazıda tekrardan kaçınma: the former / the latter, such, this"
+  ],
+  "vocabularyThemes": [
+    "günlük sohbet",
+    "arkadaşlık",
+    "yazılı iletişim"
+  ],
+  "liveClass": {
+    "title": "Kısa ama doğal",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler ikili gruplarda \"uzun ve tekrarlı\" yazılmış bir diyaloğu (her cevap tam cümle) eksiltme ve yerine koyma ile doğal hale getirir, sonra canlandırır. İkinci bölümde öğretmen kısa haberler okur; öğrenciler yankı soruları ve dinleyici tepkileriyle (Did you? / Really? / No way!) sohbeti en az üç tur sürdürür."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u10-v01",
+      "en": "ellipsis",
+      "tr": "eksiltme",
+      "example": "Ellipsis makes conversation sound natural.",
+      "exampleTr": "Eksiltme konuşmayı doğal kılar.",
+      "note": "Dilbilgisi terimi; ayrıca \"üç nokta\" (...) anlamına da gelir."
+    },
+    {
+      "id": "c1-u10-v02",
+      "en": "substitution",
+      "tr": "yerine koyma",
+      "example": "\"One\" is often used for substitution.",
+      "exampleTr": "\"One\" sıklıkla yerine koyma için kullanılır."
+    },
+    {
+      "id": "c1-u10-v03",
+      "en": "I think so",
+      "tr": "sanırım öyle",
+      "example": "\"Is she coming?\" \"I think so.\"",
+      "exampleTr": "\"Geliyor mu?\" \"Sanırım.\""
+    },
+    {
+      "id": "c1-u10-v04",
+      "en": "I hope not",
+      "tr": "umarım hayır",
+      "example": "\"Will it rain?\" \"I hope not.\"",
+      "exampleTr": "\"Yağmur yağacak mı?\" \"Umarım yağmaz.\""
+    },
+    {
+      "id": "c1-u10-v05",
+      "en": "I'm afraid so",
+      "tr": "maalesef evet",
+      "example": "\"Is the flight cancelled?\" \"I'm afraid so.\"",
+      "exampleTr": "\"Uçuş iptal mi?\" \"Maalesef evet.\""
+    },
+    {
+      "id": "c1-u10-v06",
+      "en": "I doubt it",
+      "tr": "pek sanmıyorum",
+      "example": "\"Will he call back?\" \"I doubt it.\"",
+      "exampleTr": "\"Geri arar mı?\" \"Pek sanmıyorum.\""
+    },
+    {
+      "id": "c1-u10-v07",
+      "en": "I'd love to",
+      "tr": "çok isterim",
+      "example": "\"Do you want to come?\" \"I'd love to.\"",
+      "exampleTr": "\"Gelmek ister misin?\" \"Çok isterim.\""
+    },
+    {
+      "id": "c1-u10-v08",
+      "en": "do so",
+      "tr": "bunu yapmak (resmî)",
+      "example": "If you wish to leave, please do so quietly.",
+      "exampleTr": "Ayrılmak isterseniz lütfen sessizce ayrılın."
+    },
+    {
+      "id": "c1-u10-v09",
+      "en": "the former",
+      "tr": "ilki, ilk bahsedilen",
+      "example": "Of the two options, the former is cheaper.",
+      "exampleTr": "İki seçenekten ilki daha ucuz."
+    },
+    {
+      "id": "c1-u10-v10",
+      "en": "the latter",
+      "tr": "ikincisi, son bahsedilen",
+      "example": "Tea or coffee? I prefer the latter.",
+      "exampleTr": "Çay mı kahve mi? İkincisini tercih ederim."
+    },
+    {
+      "id": "c1-u10-v11",
+      "en": "such",
+      "tr": "böyle, bu tür",
+      "example": "Such problems are common.",
+      "exampleTr": "Bu tür sorunlar yaygın."
+    },
+    {
+      "id": "c1-u10-v12",
+      "en": "echo question",
+      "tr": "yankı sorusu",
+      "example": "\"I've quit my job.\" \"Have you?\"",
+      "exampleTr": "\"İşimi bıraktım.\" \"Öyle mi?\""
+    },
+    {
+      "id": "c1-u10-v13",
+      "en": "No way!",
+      "tr": "Olamaz! / Yok artık!",
+      "example": "\"I won the lottery.\" \"No way!\"",
+      "exampleTr": "\"Piyangoyu kazandım.\" \"Yok artık!\""
+    },
+    {
+      "id": "c1-u10-v14",
+      "en": "Fair enough.",
+      "tr": "Haklısın / Makul.",
+      "example": "\"I'm too tired to go out.\" \"Fair enough.\"",
+      "exampleTr": "\"Dışarı çıkamayacak kadar yorgunum.\" \"Anlıyorum, makul.\""
+    },
+    {
+      "id": "c1-u10-v15",
+      "en": "Fingers crossed.",
+      "tr": "Umarım / Şans dile.",
+      "example": "\"I hope I get the job.\" \"Fingers crossed!\"",
+      "exampleTr": "\"Umarım işi alırım.\" \"İnşallah!\""
+    },
+    {
+      "id": "c1-u10-v16",
+      "en": "Sounds good.",
+      "tr": "Kulağa iyi geliyor.",
+      "example": "\"Dinner at eight?\" \"Sounds good.\"",
+      "exampleTr": "\"Sekizde yemek?\" \"Olur, güzel.\""
+    },
+    {
+      "id": "c1-u10-v17",
+      "en": "Tell me about it!",
+      "tr": "Bana mı anlatıyorsun! (katılma)",
+      "example": "\"This traffic is awful.\" \"Tell me about it!\"",
+      "exampleTr": "\"Bu trafik berbat.\" \"Hiç sorma!\""
+    },
+    {
+      "id": "c1-u10-v18",
+      "en": "Same here.",
+      "tr": "Ben de.",
+      "example": "\"I'm starving.\" \"Same here.\"",
+      "exampleTr": "\"Açlıktan ölüyorum.\" \"Ben de.\""
+    },
+    {
+      "id": "c1-u10-v19",
+      "en": "I suppose so",
+      "tr": "herhalde, öyle sanırım (isteksiz)",
+      "example": "\"Can you help?\" \"I suppose so.\"",
+      "exampleTr": "\"Yardım edebilir misin?\" \"Eh, ederim herhalde.\""
+    },
+    {
+      "id": "c1-u10-v20",
+      "en": "backchannel",
+      "tr": "dinleyici tepkisi (mm, right, I see)",
+      "example": "Backchannels show that you are listening.",
+      "exampleTr": "Dinleyici tepkileri dinlediğinizi gösterir."
+    },
+    {
+      "id": "c1-u10-v21",
+      "en": "repetition",
+      "tr": "tekrar",
+      "example": "Good writers avoid unnecessary repetition.",
+      "exampleTr": "İyi yazarlar gereksiz tekrardan kaçınır."
+    },
+    {
+      "id": "c1-u10-v22",
+      "en": "cohesion",
+      "tr": "metin bağlılığı",
+      "example": "Pronouns and linkers improve cohesion.",
+      "exampleTr": "Zamirler ve bağlaçlar metin bağlılığını artırır."
+    },
+    {
+      "id": "c1-u10-v23",
+      "en": "mind you",
+      "tr": "gerçi, ama şunu da söyleyeyim",
+      "example": "It's expensive. Mind you, it's very good.",
+      "exampleTr": "Pahalı. Gerçi çok iyi."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u10-l1",
+      "number": 1,
+      "title": "one / ones ve so / not",
+      "goal": "İsimleri tekrar etmemek için one / ones, cümleleri tekrar etmemek için so ve not kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Telefon dükkânında",
+        "lines": [
+          {
+            "speaker": "Assistant",
+            "text": "Can I help you?"
+          },
+          {
+            "speaker": "Defne",
+            "text": "Yes, I'm looking for a new phone. My old one keeps switching off."
+          },
+          {
+            "speaker": "Assistant",
+            "text": "Do you want a big one or a small one?"
+          },
+          {
+            "speaker": "Defne",
+            "text": "A small one, ideally. What about the ones in the window?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "The black one is on sale this week."
+          },
+          {
+            "speaker": "Defne",
+            "text": "Does it have a good camera?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "I think so. It's had very good reviews."
+          },
+          {
+            "speaker": "Defne",
+            "text": "Is the price going to go up next week?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "I'm afraid so. The offer ends on Sunday."
+          },
+          {
+            "speaker": "Defne",
+            "text": "And will I need a new charger?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "I don't think so. Your old one should work."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is wrong with Defne's old phone?",
+            "options": [
+              "It keeps switching off.",
+              "The screen is broken.",
+              "It's too big."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"My old one keeps switching off.\"",
+            "id": "c1-u10-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Will Defne need a new charger?",
+            "options": [
+              "Yes, definitely.",
+              "Probably not.",
+              "The assistant doesn't know."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I don't think so.\"",
+            "id": "c1-u10-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. one / ones (isim yerine):** Sayılabilen bir ismi tekrar etmemek için.\n\n| Tekil | Çoğul |\n|---|---|\n| a big **one** | the **ones** in the window |\n| my old **one** | the red **ones** |\n| this **one** / that **one** | these (**ones**) / those (**ones**) |\n| **Which one?** | **Which ones?** |\n\n**Dikkat:**\n\n- Sayılamayan isimlerle **kullanılmaz**: *I like white wine more than red* (✗ *red one*).\n- Tek başına \"a\" ile: *I need **one**.* (✗ *I need a one.*); ama sıfat varsa: *I need **a new one**.*\n- İyelik sıfatlarından sonra genellikle kullanılmaz: *This is **mine**.* (✗ *my one* gayri resmî)\n\n**2. so / not (cümle yerine):** Düşünce ve tahmin fiilleriyle bir önceki cümleyi tekrar etmemek için.\n\n| Olumlu | Olumsuz |\n|---|---|\n| I think **so**. | I don't think **so**. (daha doğal) / I think **not**. (resmî) |\n| I hope **so**. | I hope **not**. (✗ *I don't hope so*) |\n| I'm afraid **so**. | I'm afraid **not**. |\n| I suppose **so**. | I suppose **not**. / I don't suppose **so**. |\n| I expect **so**. | I don't expect **so**. |\n| I guess **so**. | I guess **not**. |\n| Probably. / Probably **not**. | |\n\n**Not:** *hope* ve *afraid* ile olumsuz hep **not** ile yapılır: *I hope not, I'm afraid not.* *think, expect, believe* ile ise genelde **don't ... so**: *I don't think so.*\n\n**so** *know* ile kullanılmaz: \"Is he coming?\" \"*I don't know.*\" (✗ *I don't know so.*)",
+        "examples": [
+          {
+            "en": "\"Is the shop open on Sundays?\" \"I don't think so.\"",
+            "tr": "\"Dükkân pazar açık mı?\" \"Sanmıyorum.\""
+          },
+          {
+            "en": "\"Are we going to be late?\" \"I hope not.\"",
+            "tr": "\"Geç mi kalacağız?\" \"Umarım kalmayız.\""
+          },
+          {
+            "en": "These shoes are too tight. Do you have bigger ones?",
+            "tr": "Bu ayakkabılar çok dar. Daha büyükleri var mı?"
+          }
+        ],
+        "turkishNote": "Türkçede \"Sanırım\", \"Umarım\", \"Maalesef\" tek başına cevap olabilir. İngilizcede ise genellikle \"so\" ya da \"not\" eklenmesi gerekir: \"I think so\", \"I hope so\". Türk öğrencilerin en sık hatası \"I hope\" ya da \"I think\" diyip bırakmak ya da olumsuzu \"I don't hope so\" şeklinde kurmaktır. Doğrusu: \"I hope not.\" Ayrıca Türkçedeki \"büyüğü\", \"kırmızısı\" gibi yapılar İngilizcede \"the big one\", \"the red one\" olur; \"one\" atlanmaz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Will it rain tomorrow?\" (Olumsuz umut)",
+          "options": [
+            "I don't hope so.",
+            "I hope not."
+          ],
+          "answerIndex": 1,
+          "explanation": "I hope not.",
+          "id": "c1-u10-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is the museum free?\" (Olumsuz düşünce, doğal)",
+          "options": [
+            "I don't think so.",
+            "I think not so."
+          ],
+          "answerIndex": 0,
+          "explanation": "I don't think so.",
+          "id": "c1-u10-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "I prefer red wine to white one.",
+            "I prefer red wine to white."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sayılamayan isimle one yok.",
+          "id": "c1-u10-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "I need a new one.",
+            "I need a one."
+          ],
+          "answerIndex": 0,
+          "explanation": "Sıfat + one.",
+          "id": "c1-u10-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Is the train delayed?\" \"I'm afraid ___. About 20 minutes.\"",
+          "answers": [
+            "so"
+          ],
+          "explanation": "I'm afraid so.",
+          "id": "c1-u10-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Will they cancel the concert?\" \"I hope ___.\"",
+          "answers": [
+            "not"
+          ],
+          "explanation": "I hope not.",
+          "id": "c1-u10-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "These glasses are dirty. Can I have some clean ___?",
+          "answers": [
+            "ones"
+          ],
+          "explanation": "ones.",
+          "id": "c1-u10-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Which jacket do you like?\" \"The blue ___.\"",
+          "answers": [
+            "one"
+          ],
+          "explanation": "one.",
+          "id": "c1-u10-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Is there a bank near here? I think so. There's one next to the post office, I believe. Is it open on Saturdays? Hmm, I don't think so, but the one in the shopping centre is.",
+          "prompt": "Cumartesi açık olan banka nerede?",
+          "options": [
+            "Postanenin yanında",
+            "Alışveriş merkezinde",
+            "Hiçbiri açık değil"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the one in the shopping centre is\"",
+          "id": "c1-u10-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Will it be expensive?",
+              "right": "I'm afraid so."
+            },
+            {
+              "left": "Is she ill?",
+              "right": "I hope not."
+            },
+            {
+              "left": "Have we got enough time?",
+              "right": "I think so."
+            },
+            {
+              "left": "Can you lend me your car?",
+              "right": "I suppose so."
+            },
+            {
+              "left": "Will he apologise?",
+              "right": "I doubt it."
+            }
+          ],
+          "explanation": "Her soruyu en uygun cevapla eşleştirin.",
+          "id": "c1-u10-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir arkadaşınız size hafta sonu planları hakkında sorular soruyor. Her soruya so / not ile kısa ve doğal cevap verin, sonra bir cümle ekleyin: (1) Is it going to rain at the weekend? (2) Will the shops be busy? (3) Are you going to see Murat? (4) Is the new café any good? (5) Do you need a new coat? (one / ones kullanın)",
+          "modelAnswer": "One: I hope not! I'm planning to go hiking. Two: I'm afraid so. It's the start of the sales. Three: I think so. He said he'd call me. Four: I don't think so, actually. My sister went last week and said the coffee was terrible. Five: I suppose so. My old one is falling apart, so I need a warmer one for the winter.",
+          "rubric": [
+            "so / not doğru",
+            "hope not / don't think so",
+            "one / ones",
+            "Doğal ek cümle"
+          ]
+        },
+        "id": "c1-u10-l1-use"
+      }
+    },
+    {
+      "id": "c1-u10-l2",
+      "number": 2,
+      "title": "Yardımcı fiille eksiltme ve do so",
+      "goal": "Fiil öbeğini tekrar etmemek için yardımcı fiille eksiltme (I can't, but she can) ve do so / do that yapılarını kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki kardeş",
+        "body": "My brother and I are very different. He can cook brilliantly; I can't. I've never been abroad, but he has, many times. He wanted to study medicine, and he did. I wanted to become a musician, but I didn't, in the end. People often ask if we get on well. We do, surprisingly. He thinks I should travel more, and maybe he's right. I've promised to do so next year. Mind you, I said that last year too.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who can cook well?",
+            "options": [
+              "The writer",
+              "The writer's brother",
+              "Both of them"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He can cook brilliantly; I can't.\"",
+            "id": "c1-u10-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Did the writer become a musician?",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I wanted to become a musician, but I didn't\"",
+            "id": "c1-u10-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Yardımcı fiille eksiltme:** Bir önceki fiil öbeği anlaşıldığında, sadece yardımcı fiili söyleriz.\n\n| Tam cümle | Eksiltilmiş |\n|---|---|\n| He can cook; I can't cook. | He can cook; **I can't**. |\n| I haven't been abroad, but he has been abroad. | I haven't been abroad, but **he has**. |\n| He wanted to study medicine, and he studied medicine. | ..., and **he did**. |\n| Do we get on well? We get on well. | **We do.** |\n| She'll be there, and so will I. | ..., and **so will I**. |\n\n**Yardımcı fiil yoksa:** *do / does / did* kullanılır.\n\n**Vurgu:** Eksiltilmiş yardımcı fiil **vurgulu** söylenir: *I can't, but she **CAN**.*\n\n**2. Zincirleme yardımcı fiiller:**\n\n- *\"Have you finished?\" \"No, but I **will have** by six.\"*\n- *\"Could you have helped?\" \"I suppose I **could have**.\"*\n- *\"Is he being difficult?\" \"He **is**, a bit.\"*\n\n**3. do so / do that / do it:**\n\n| Yapı | Üslup | Örnek |\n|---|---|---|\n| **do so** | resmî | If you wish to cancel, please **do so** in writing. |\n| **do that** | nötr / samimi | \"Let's paint the kitchen.\" \"I'd rather not **do that** this week.\" |\n| **do it** | samimi, belirli bir eylem | \"Can you fix the tap?\" \"I'll **do it** tomorrow.\" |\n\n**4. too / either / so / neither (hatırlatma):**\n\n- *I'm tired.* → *So am I.* / *I am too.*\n- *I don't like it.* → *Neither do I.* / *I don't either.*",
+        "examples": [
+          {
+            "en": "\"Have you read it?\" \"No, but I will.\"",
+            "tr": "\"Okudun mu?\" \"Hayır ama okuyacağım.\""
+          },
+          {
+            "en": "I didn't want to go, but my sister did.",
+            "tr": "Ben gitmek istemedim ama kız kardeşim istedi."
+          },
+          {
+            "en": "Passengers who wish to change seats may do so after take-off.",
+            "tr": "Koltuk değiştirmek isteyen yolcular kalkıştan sonra değiştirebilir."
+          }
+        ],
+        "turkishNote": "Türkçede eksiltme genellikle fiilin kendisiyle yapılır: \"Ben yüzemem ama o yüzer.\" İngilizcede ise ana fiil düşer ve sadece yardımcı fiil kalır: \"I can't swim, but she can.\" Türk öğrenciler ya ana fiili tekrar eder (\"but she can swim\") ya da yardımcı fiili tamamen atlar (✗ \"but she\"). Ayrıca geniş zaman ve geçmiş zamanda \"do / did\" eklemeyi unutmak sık görülür: ✗ \"I wanted to go, but he not.\" ✓ \"..., but he didn't.\""
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I can't swim, but my sister ___.\"",
+          "options": [
+            "can",
+            "can swim it"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yardımcı fiil.",
+          "id": "c1-u10-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He hasn't finished yet, but he ___ by tomorrow.\"",
+          "options": [
+            "will have",
+            "will have finish"
+          ],
+          "answerIndex": 0,
+          "explanation": "will have.",
+          "id": "c1-u10-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî duyuru:",
+          "options": [
+            "If you want to leave early, please do so quietly.",
+            "If you want to leave early, do it, OK?"
+          ],
+          "answerIndex": 0,
+          "explanation": "do so resmî.",
+          "id": "c1-u10-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I wanted to go, but he ___.\"",
+          "options": [
+            "didn't",
+            "not"
+          ],
+          "answerIndex": 0,
+          "explanation": "did yardımcı fiili.",
+          "id": "c1-u10-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Do you like spicy food?\" \"I ___, but my husband doesn't.\"",
+          "answers": [
+            "do"
+          ],
+          "explanation": "I do.",
+          "id": "c1-u10-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've never seen the film, but my friends ___.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "have.",
+          "id": "c1-u10-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She said she would call, and she ___.",
+          "answers": [
+            "did"
+          ],
+          "explanation": "did.",
+          "id": "c1-u10-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Is it cold outside?\" \"It ___, a bit.\"",
+          "answers": [
+            "is"
+          ],
+          "explanation": "It is.",
+          "id": "c1-u10-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I didn't expect to enjoy the course, but I did. Everyone said it would be hard, and it was, at times. My friend wanted to take it too, but in the end, she couldn't. She says she will next year.",
+          "prompt": "Konuşanın arkadaşı kursa katıldı mı?",
+          "options": [
+            "Evet",
+            "Hayır, katılamadı",
+            "Henüz bilinmiyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"in the end, she couldn't\"",
+          "id": "c1-u10-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Eksiltin: \"I wasn't invited to the wedding, but my brother was invited to the wedding.\"",
+          "accepted": [
+            "I wasn't invited to the wedding, but my brother was.",
+            "I wasn't invited to the wedding, but my brother was",
+            "I was not invited to the wedding, but my brother was",
+            "I was not invited to the wedding, but my brother was.",
+            "I wasn't invited to the wedding but my brother was.",
+            "I wasn't invited to the wedding but my brother was",
+            "I was not invited to the wedding but my brother was",
+            "I was not invited to the wedding but my brother was."
+          ],
+          "explanation": "I wasn't invited to the wedding, but my brother was.",
+          "id": "c1-u10-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendinizi bir aile üyeniz ya da yakın bir arkadaşınızla karşılaştırın (1 dakika). En az 5 eksiltilmiş yardımcı fiil kullanın (He can, but I can't / I have, but she hasn't / I did / She will) ve bir kez do so ya da do that kullanın.",
+          "modelAnswer": "My best friend Ece and I have known each other since primary school, but we're quite different. She can speak four languages; I can't, I only speak two. I've lived abroad, but she hasn't. She's always wanted to, though, and I think she will one day. I didn't enjoy school much, but she did; she loved every minute. People think we argue a lot, and we do, sometimes, but never seriously. She keeps telling me to learn a third language, and I've promised to do that next year.",
+          "rubric": [
+            "Yardımcı fiil eksiltmesi",
+            "do / did kullanımı",
+            "do so / do that",
+            "Doğal vurgu"
+          ]
+        },
+        "id": "c1-u10-l2-use"
+      }
+    },
+    {
+      "id": "c1-u10-l3",
+      "number": 3,
+      "title": "Konuşmada eksiltme",
+      "goal": "Günlük konuşmada cümle başındaki kelimeleri düşürme (Sounds good, Seen it) ve to ile biten cevapları (I'd love to, I don't want to) doğal şekilde anlayıp kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Cuma akşamı",
+        "lines": [
+          {
+            "speaker": "Mert",
+            "text": "Doing anything tonight?"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "Not really. Why?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Fancy seeing a film?"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "I'd love to. Which one?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "The new sci-fi one. Seen it?"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "No, but I've been meaning to."
+          },
+          {
+            "speaker": "Mert",
+            "text": "Great. Starts at nine. Want to grab something to eat first?"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "Sounds good. Pizza?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Had pizza for lunch, actually. Sushi?"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "Fine by me. See you at seven, then?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Perfect. Don't be late!"
+          },
+          {
+            "speaker": "Aylin",
+            "text": "I'll try not to!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What time does the film start?",
+            "options": [
+              "At seven",
+              "At nine",
+              "At eight"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Starts at nine.\"",
+            "id": "c1-u10-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why doesn't Mert want pizza?",
+            "options": [
+              "He doesn't like it.",
+              "He had it for lunch.",
+              "It's too expensive."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Had pizza for lunch, actually.\"",
+            "id": "c1-u10-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Durumsal eksiltme (situational ellipsis):** Samimi konuşmada, bağlamdan anlaşılan **özne ve yardımcı fiil** cümle başından düşer.\n\n| Eksiltilmiş | Tam hali |\n|---|---|\n| **Doing** anything tonight? | *Are you* doing anything tonight? |\n| **Seen** it? | *Have you* seen it? |\n| **Want** to grab something? | *Do you* want to grab something? |\n| **Fancy** a coffee? | *Do you* fancy a coffee? |\n| **Sounds** good. | *That* sounds good. |\n| **Had** pizza for lunch. | *I* had pizza for lunch. |\n| **Starts** at nine. | *It* starts at nine. |\n| **Told** you! | *I* told you! |\n| **Nice** to meet you. | *It's* nice to meet you. |\n| **Anyone** sitting here? | *Is* anyone sitting here? |\n\n**2. to ile biten cevaplar (to-infinitive ellipsis):** Mastarın fiili tekrar edilmez, sadece **to** kalır.\n\n| Örnek | Anlam |\n|---|---|\n| \"Fancy a film?\" \"**I'd love to.**\" | çok isterim |\n| \"Why did you tell him?\" \"**I didn't mean to.**\" | istemeden oldu |\n| \"Don't be late.\" \"**I'll try not to.**\" | geç kalmamaya çalışacağım |\n| \"Seen it?\" \"No, but **I've been meaning to.**\" | uzun süredir niyetliyim |\n| \"Are you coming?\" \"**I'm supposed to**, but ...\" | gelmem gerekiyor ama |\n| \"Can I come?\" \"**If you want to.**\" | istersen |\n\n**Dikkat:** *to* düşürülmez! ✗ *I'd love.* ✓ *I'd love to.* Ancak *want / like* \"if\" ya da \"whatever\" ile kullanılınca **to** düşebilir: *Come if you **want**.*\n\n**Üslup:** Durumsal eksiltme **samimidir**; iş e-postası veya sunumlarda kullanmayın.",
+        "examples": [
+          {
+            "en": "\"Ready?\" \"Almost. Give me two minutes.\"",
+            "tr": "\"Hazır mısın?\" \"Neredeyse. İki dakika ver.\""
+          },
+          {
+            "en": "\"Why didn't you call?\" \"I wanted to, but my phone died.\"",
+            "tr": "\"Neden aramadın?\" \"İstedim ama telefonumun şarjı bitti.\""
+          },
+          {
+            "en": "\"Can you help me move on Saturday?\" \"I'd be happy to.\"",
+            "tr": "\"Cumartesi taşınmama yardım eder misin?\" \"Seve seve.\""
+          }
+        ],
+        "turkishNote": "Türkçe zaten özneyi düşüren bir dildir (\"Geliyorum\", \"Gördün mü?\"), bu yüzden İngilizce durumsal eksiltme Türk öğrencilere doğal gelir. Ama dikkat: İngilizcede bu sadece samimi konuşmada olur; yazıda ve resmî konuşmada özne her zaman gereklidir. Diğer sık hata ise \"I'd love\", \"I want\" deyip \"to\"yu atmaktır. Türkçedeki \"Çok isterim\" cevabının İngilizce karşılığı mutlaka \"I'd love to\" olmalıdır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Fancy a coffee?\" (Kabul)",
+          "options": [
+            "I'd love.",
+            "I'd love to."
+          ],
+          "answerIndex": 1,
+          "explanation": "to düşmez.",
+          "id": "c1-u10-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Seen the news?\" tam hali:",
+          "options": [
+            "Have you seen the news?",
+            "Did you see the news yesterday?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Have you.",
+          "id": "c1-u10-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Don't forget to call me.\"",
+          "options": [
+            "I'll try not to.",
+            "I'll try not."
+          ],
+          "answerIndex": 0,
+          "explanation": "try not to.",
+          "id": "c1-u10-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Durumsal eksiltme nerede uygun DEĞİL?",
+          "options": [
+            "Arkadaşa mesajda",
+            "İş başvurusu e-postasında"
+          ],
+          "answerIndex": 1,
+          "explanation": "Samimi üslup.",
+          "id": "c1-u10-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Why did you break it?\" \"I didn't mean ___!\"",
+          "answers": [
+            "to"
+          ],
+          "explanation": "didn't mean to.",
+          "id": "c1-u10-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Have you called your mother?\" \"No, but I've been meaning ___.\"",
+          "answers": [
+            "to"
+          ],
+          "explanation": "been meaning to.",
+          "id": "c1-u10-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Dinner at eight?\" \"___ good.\" (Kulağa iyi geliyor)",
+          "answers": [
+            "Sounds"
+          ],
+          "explanation": "Sounds good.",
+          "id": "c1-u10-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Can I bring a friend?\" \"If you ___ to.\"",
+          "answers": [
+            "want"
+          ],
+          "explanation": "If you want to.",
+          "id": "c1-u10-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi! Long time no see. Been busy? ... Yeah, me too. Listen, want to come to Can's party on Saturday? ... You'd love to? Great! Starts at eight. See you there!",
+          "prompt": "Parti ne zaman başlıyor?",
+          "options": [
+            "Cuma sekizde",
+            "Cumartesi sekizde",
+            "Cumartesi dokuzda"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"party on Saturday ... Starts at eight.\"",
+          "id": "c1-u10-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Eksiltilmiş samimi soruyu tam hale getirin: \"Finished yet?\"",
+          "accepted": [
+            "Have you finished yet?",
+            "Have you finished yet"
+          ],
+          "explanation": "Have you finished yet?",
+          "id": "c1-u10-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir arkadaşınızı mesajla / telefonla bir etkinliğe davet edin ve planı yapın. Hem davet eden hem de davet edilen rolünü oynayın (8–10 replik). En az 4 durumsal eksiltme (Doing anything? / Fancy ...? / Sounds good. / Seen it?) ve en az 3 to ile biten cevap (I'd love to / I'll try not to / I've been meaning to / If you want to) kullanın.",
+          "modelAnswer": "A: Hey! Free on Sunday? B: Think so. Why? A: Fancy going to the new exhibition at the art centre? B: I'd love to. I've been meaning to go for ages. Been already? A: No, not yet. Want to have breakfast first? B: Sounds good. Usual place? A: Perfect. Ten o'clock? B: Bit early, but fine. A: Don't be late this time! B: I'll try not to! Can I bring my cousin? A: If you want to. The more, the merrier.",
+          "rubric": [
+            "Durumsal eksiltme",
+            "to ile biten cevaplar",
+            "Samimi ve doğal ton",
+            "Akıcı sohbet"
+          ]
+        },
+        "id": "c1-u10-l3-use"
+      }
+    },
+    {
+      "id": "c1-u10-l4",
+      "number": 4,
+      "title": "Sohbeti sürdürmek",
+      "goal": "Yankı soruları (Have you? / Did she?), dinleyici tepkileri ve kısa yanıt kalıplarıyla (Tell me about it!, Fair enough) ilgi gösterip sohbeti sürdürebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Büyük haber",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "I've got some news. I've handed in my notice."
+          },
+          {
+            "speaker": "Burak",
+            "text": "Have you? Wow! When did that happen?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "Yesterday. I'm going to start my own business."
+          },
+          {
+            "speaker": "Burak",
+            "text": "Are you really? That's brilliant! What kind of business?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "A small bakery. I've always wanted to."
+          },
+          {
+            "speaker": "Burak",
+            "text": "I know you have. Mind you, it's a lot of work."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Tell me about it! I haven't slept properly in weeks."
+          },
+          {
+            "speaker": "Burak",
+            "text": "I can imagine. So when are you opening?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "In the spring, hopefully."
+          },
+          {
+            "speaker": "Burak",
+            "text": "Fingers crossed! Let me know if you need any help."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What has Selin done?",
+            "options": [
+              "Lost her job",
+              "Handed in her notice",
+              "Got a promotion"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've handed in my notice.\"",
+            "id": "c1-u10-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Burak warn her about?",
+            "options": [
+              "It's expensive.",
+              "It's a lot of work.",
+              "It's risky."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Mind you, it's a lot of work.\"",
+            "id": "c1-u10-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Yankı soruları (echo questions):** İlgi, şaşkınlık ya da merak göstermek için. Yapı: **yardımcı fiil + özne + ?** (Söylenen cümlenin zamanına uyar.)\n\n| Söylenen | Yankı sorusu |\n|---|---|\n| I've handed in my notice. | **Have you?** |\n| I'm going to start a business. | **Are you (really)?** |\n| She failed her test. | **Did she?** (Oh no!) |\n| I can't come tonight. | **Can't you?** Why not? |\n| My brother lives in Japan. | **Does he?** |\n| It wasn't my fault. | **Wasn't it?** |\n\n**Tonlama önemli!** Yükselen tonlama: ilgi / şaşkınlık. Düşen tonlama: \"Anladım\" (daha az ilgi).\n\n**2. Dinleyici tepkileri (backchannels):** Konuşanı dinlediğinizi göstermek için.\n\n| Tepki | Kullanım |\n|---|---|\n| **Mm. / Uh-huh. / Right. / I see.** | dinliyorum |\n| **Really? / Seriously? / No way!** | şaşkınlık |\n| **That's brilliant! / Good for you!** | sevinç |\n| **Oh no! / What a shame! / That's awful.** | üzüntü |\n| **I can imagine.** | empati |\n\n**3. Kısa yanıt kalıpları:**\n\n| Kalıp | Anlam |\n|---|---|\n| **Tell me about it!** | Hiç sorma! (tamamen katılıyorum) |\n| **Fair enough.** | Makul, anlıyorum. |\n| **Same here. / Me too.** | Ben de. |\n| **Fingers crossed!** | İnşallah! / Umarım! |\n| **Fine by me.** | Bana uyar. |\n| **Mind you, ...** | Gerçi ... (karşı nokta ekleme) |\n\nİyi bir dinleyici, **cevap + takip sorusu** verir: *\"Have you? Wow! When did that happen?\"*",
+        "examples": [
+          {
+            "en": "\"I met a famous chef yesterday.\" \"Did you? Who?\"",
+            "tr": "\"Dün ünlü bir şefle tanıştım.\" \"Öyle mi? Kim?\""
+          },
+          {
+            "en": "\"I can't stand this weather.\" \"Tell me about it!\"",
+            "tr": "\"Bu havaya dayanamıyorum.\" \"Hiç sorma!\""
+          },
+          {
+            "en": "\"I'd rather stay in tonight.\" \"Fair enough.\"",
+            "tr": "\"Bu akşam evde kalmayı tercih ederim.\" \"Anlıyorum, olur.\""
+          }
+        ],
+        "turkishNote": "Türkçede yankı sorusu genellikle tek bir kalıpla yapılır: \"Öyle mi?\" ya da \"Sahi mi?\". İngilizcede ise yankı sorusunun yardımcı fiili ve zamiri, karşıdakinin cümlesine uymalıdır: \"Have you?\", \"Did she?\", \"Is it?\". Türk öğrenciler genellikle her duruma \"Really?\" der. Bu yanlış değildir ama yankı soruları çok daha doğal ve ilgili görünür. Ayrıca \"Tell me about it!\" kelimesi kelimesine \"Bana bundan bahset\" değil, \"Hiç sorma, aynen öyle!\" anlamına gelir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I've lost my keys again.\" Yankı sorusu:",
+          "options": [
+            "Have you?",
+            "Did you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Present perfect: Have you?",
+          "id": "c1-u10-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"My sister lives in Canada.\" Yankı sorusu:",
+          "options": [
+            "Is she?",
+            "Does she?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Present simple: Does she?",
+          "id": "c1-u10-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"This traffic is terrible!\" (Tamamen katılıyorum)",
+          "options": [
+            "Tell me about it!",
+            "Tell me more about it."
+          ],
+          "answerIndex": 0,
+          "explanation": "Tell me about it!",
+          "id": "c1-u10-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm too tired to come out tonight.\" (Anlayış göster)",
+          "options": [
+            "Fair enough.",
+            "No way!"
+          ],
+          "answerIndex": 0,
+          "explanation": "Fair enough.",
+          "id": "c1-u10-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I can't drive.\" \"___ you? I thought you could.\"",
+          "answers": [
+            "Can't"
+          ],
+          "explanation": "Can't you?",
+          "id": "c1-u10-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Kaan didn't come to the party.\" \"___ he? Why not?\"",
+          "answers": [
+            "Didn't"
+          ],
+          "explanation": "Didn't he?",
+          "id": "c1-u10-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I've got an interview tomorrow.\" \"Fingers ___!\"",
+          "answers": [
+            "crossed"
+          ],
+          "explanation": "Fingers crossed.",
+          "id": "c1-u10-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's an expensive hotel. ___ you, the views are amazing. (Gerçi)",
+          "answers": [
+            "Mind"
+          ],
+          "explanation": "Mind you.",
+          "id": "c1-u10-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I've just been offered a job in Lisbon. ... I know, I can't believe it either! ... It starts in March. ... Well, I haven't decided yet. Mind you, the salary is really good.",
+          "prompt": "Konuşan işi kabul etti mi?",
+          "options": [
+            "Evet, kabul etti",
+            "Henüz karar vermedi",
+            "Reddetti"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I haven't decided yet\"",
+          "id": "c1-u10-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I've won a prize!",
+              "right": "Have you? Congratulations!"
+            },
+            {
+              "left": "I failed my driving test.",
+              "right": "Oh no! What happened?"
+            },
+            {
+              "left": "I hate Mondays.",
+              "right": "Tell me about it!"
+            },
+            {
+              "left": "Let's meet at six.",
+              "right": "Fine by me."
+            },
+            {
+              "left": "I'm starving.",
+              "right": "Same here."
+            }
+          ],
+          "explanation": "Her cümleyi en uygun tepkiyle eşleştirin.",
+          "id": "c1-u10-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir arkadaşınız size şu üç haberi veriyor. Her birine yankı sorusu + uygun tepki + bir takip sorusuyla cevap verin: (1) \"I've decided to move to the countryside.\" (2) \"My laptop was stolen yesterday.\" (3) \"I'm going to run a marathon next month.\" Sonra kendi haberinizi verin ve arkadaşınızın nasıl tepki vereceğini de canlandırın.",
+          "modelAnswer": "One: Have you? Wow, that's a big change! Where are you thinking of going? Two: Was it? Oh no, that's awful! Did you have everything backed up? Three: Are you really? Good for you! How long have you been training? My news: I've started learning the guitar. Friend: Have you? That's great! How's it going? Me: Slowly! My fingers really hurt. Friend: I can imagine. Mind you, it gets easier.",
+          "rubric": [
+            "Doğru yankı soruları",
+            "Uygun duygusal tepki",
+            "Takip soruları",
+            "Doğal tonlama"
+          ]
+        },
+        "id": "c1-u10-l4-use"
+      }
+    },
+    {
+      "id": "c1-u10-l5",
+      "number": 5,
+      "title": "Yazıda tekrardan kaçınmak",
+      "goal": "Yazılı metinlerde the former / the latter, such, this / these, do so ve eksiltme kullanarak gereksiz tekrardan kaçınabilir ve metin bağlılığını artırabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir yorum yazısından",
+        "body": "Draft:\n\"Many people choose between living in a city and living in the countryside. Living in a city offers more job opportunities. Living in the countryside offers a quieter lifestyle. Some people move to the countryside after retirement. People move to the countryside after retirement because they want peace and quiet. However, problems like poor transport and limited healthcare can make life in the countryside difficult.\"\n\nRevised:\n\"Many people choose between living in a city and living in the countryside. The former offers more job opportunities, whereas the latter offers a quieter lifestyle. Some people move to the countryside after retirement, usually because they want peace and quiet. However, such problems as poor transport and limited healthcare can make rural life difficult. These issues are often overlooked by those who decide to do so.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "In the revised text, what does \"the former\" refer to?",
+            "options": [
+              "Living in the countryside",
+              "Living in a city"
+            ],
+            "answerIndex": 1,
+            "explanation": "İlk bahsedilen: a city.",
+            "id": "c1-u10-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What problems of rural life are mentioned?",
+            "options": [
+              "Noise and pollution",
+              "Poor transport and limited healthcare",
+              "High prices"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"poor transport and limited healthcare\"",
+            "id": "c1-u10-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Yazıda gereksiz tekrar, metni **sıkıcı ve amatör** gösterir. İşte araçlar:\n\n**1. the former / the latter:** İki şeyden bahsettikten sonra.\n\n- *the former* = ilk bahsedilen\n- *the latter* = ikinci bahsedilen\n- *Cities offer jobs; the countryside offers peace. **The former** ..., whereas **the latter** ...*\n\n**Dikkat:** Sadece **iki** şey için kullanılır. Üç ya da daha fazla için: *the first / the last*.\n\n**2. such:** \"bu tür\" anlamında.\n\n- ***Such** problems are common.*\n- *problems **such as** poor transport* (örnek verme)\n- *in **such** cases* (bu gibi durumlarda)\n\n**3. this / these / that + isim (özetleyici isim):** Önceki fikri bir isimle özetlemek.\n\n- *Prices rose sharply. **This increase** ...*\n- *Poor transport and limited healthcare ... **These issues** ...*\n- *Some argue that ... **This view** ...*\n\n**4. do so (resmî):** Fiil öbeğini tekrar etmemek için.\n\n- *... those who decide **to do so*** (= to move to the countryside)\n\n**5. Yazıda eksiltme:** Bağlaçlardan sonra tekrarlanan özne / fiil düşürülür.\n\n- *Some move for work; **others, for family**.* (resmî yazıda virgülle eksiltme)\n- *She applied for the job and (she) **was offered** it.*\n\n**6. Eşanlamlılar ve genel isimler:**\n\n- *the countryside* → *rural areas, rural life*\n- *the city* → *urban areas, urban life*",
+        "examples": [
+          {
+            "en": "Both trains and buses run to the airport; the former are faster, while the latter are cheaper.",
+            "tr": "Havalimanına hem tren hem otobüs gidiyor; ilki daha hızlı, ikincisi daha ucuz."
+          },
+          {
+            "en": "Unemployment rose by 3%. This increase was mainly due to factory closures.",
+            "tr": "İşsizlik %3 arttı. Bu artış büyük ölçüde fabrika kapanışlarından kaynaklandı."
+          },
+          {
+            "en": "In such cases, it is best to seek legal advice.",
+            "tr": "Bu gibi durumlarda hukuki danışmanlık almak en iyisidir."
+          }
+        ],
+        "turkishNote": "Türkçede \"ilki / ikincisi\", \"bu tür\", \"söz konusu\" gibi ifadeler İngilizcedeki \"the former / the latter\", \"such\", \"the ... in question\" ile benzer işlev görür. Türk öğrencilerin İngilizce yazılarında sık görülen sorun, aynı isim öbeğini (örneğin \"living in the countryside\") art arda birçok kez tekrar etmektir. Bunun nedeni genellikle zamir kullanınca anlam karışacağı endişesidir. Özetleyici isimler (\"This trend\", \"These problems\") bu sorunu hem açık hem de profesyonel bir şekilde çözer."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I like tea and coffee, but I prefer ___.\" (kahve)",
+          "options": [
+            "the latter",
+            "the former"
+          ],
+          "answerIndex": 0,
+          "explanation": "İkinci bahsedilen: the latter.",
+          "id": "c1-u10-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Üç seçenekten ilki için:",
+          "options": [
+            "the former",
+            "the first"
+          ],
+          "answerIndex": 1,
+          "explanation": "the former sadece iki şey için.",
+          "id": "c1-u10-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Özetleyici isim: \"House prices doubled. ___ has made it hard for young people to buy.\"",
+          "options": [
+            "This rise",
+            "It rise"
+          ],
+          "answerIndex": 0,
+          "explanation": "This + isim.",
+          "id": "c1-u10-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî yazıda fiil tekrarından kaçınma:",
+          "options": [
+            "Those who wish to apply should do so by Friday.",
+            "Those who wish to apply should apply by Friday."
+          ],
+          "answerIndex": 0,
+          "explanation": "do so.",
+          "id": "c1-u10-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Problems ___ as noise and pollution are common in big cities. (gibi)",
+          "answers": [
+            "such"
+          ],
+          "explanation": "such as.",
+          "id": "c1-u10-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Laptops and tablets are both popular; the ___ are more powerful, while the latter are lighter.",
+          "answers": [
+            "former"
+          ],
+          "explanation": "the former.",
+          "id": "c1-u10-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___ cases, students should contact their tutor. (bu gibi)",
+          "answers": [
+            "such"
+          ],
+          "explanation": "such cases.",
+          "id": "c1-u10-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Many young people leave rural areas. ___ trend has been growing for decades. (Bu)",
+          "answers": [
+            "This"
+          ],
+          "explanation": "This trend.",
+          "id": "c1-u10-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Students can choose between living in halls of residence and renting a private flat. The former is more sociable and usually includes bills, whereas the latter offers more independence. Most first-year students choose halls, while older students tend to rent.",
+          "prompt": "\"The former\" neyi ifade ediyor?",
+          "options": [
+            "Özel kiralık daire",
+            "Öğrenci yurdu (halls of residence)"
+          ],
+          "answerIndex": 1,
+          "explanation": "İlk bahsedilen.",
+          "id": "c1-u10-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "the latter ile yeniden yazın: \"You can pay by card or in cash. Paying in cash is quicker.\"",
+          "accepted": [
+            "You can pay by card or in cash. The latter is quicker.",
+            "You can pay by card or in cash. The latter is quicker",
+            "You can pay by card or in cash; the latter is quicker.",
+            "You can pay by card or in cash; the latter is quicker",
+            "You can pay by card or in cash, but the latter is quicker.",
+            "You can pay by card or in cash, but the latter is quicker",
+            "You can pay by card or in cash, and the latter is quicker.",
+            "You can pay by card or in cash, and the latter is quicker"
+          ],
+          "explanation": "You can pay by card or in cash. The latter is quicker.",
+          "id": "c1-u10-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki tekrarlı paragrafı yeniden yazın. the former / the latter, such, this / these + özetleyici isim, do so ve eşanlamlılar kullanarak tekrarları giderin (90–120 kelime). Sonra aynı konuda kendi görüşünüzü ekleyen 2–3 cümle yazın.\n\n\"Many people work from home, and many people work in an office. Working from home saves time. Working in an office makes it easier to work with colleagues. Some companies allow employees to work from home two days a week. Companies allow employees to work from home because working from home makes employees happier. However, problems like loneliness and poor communication can happen when people work from home. Problems like loneliness and poor communication are serious.\"",
+          "modelAnswer": "Revised paragraph:\n\nToday, some people work from home, while others work in an office. The former saves commuting time, whereas the latter makes it easier to collaborate with colleagues. Some companies now allow staff to work remotely two days a week, mainly because doing so tends to make employees happier. However, such problems as loneliness and poor communication can arise when people are away from the office. These issues are serious and should not be ignored.\n\nMy view:\n\nIn my opinion, a combination of the two is the best solution. Employees who wish to work from home should be allowed to do so, but regular team meetings in the office are essential to prevent such problems.",
+          "rubric": [
+            "Tekrarların giderilmesi",
+            "the former / the latter doğru",
+            "such ve özetleyici isimler",
+            "do so",
+            "Akıcılık ve anlam bütünlüğü"
+          ]
+        },
+        "id": "c1-u10-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Will it be cold tomorrow?\" (Olumsuz umut)",
+        "options": [
+          "I don't hope so.",
+          "I hope not."
+        ],
+        "answerIndex": 1,
+        "explanation": "I hope not",
+        "id": "c1-u10-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Is the shop open?\" (Olumsuz düşünce, doğal)",
+        "options": [
+          "I don't think so.",
+          "I think not so."
+        ],
+        "answerIndex": 0,
+        "explanation": "I don't think so",
+        "id": "c1-u10-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Fancy a walk?\" (Kabul)",
+        "options": [
+          "I'd love.",
+          "I'd love to."
+        ],
+        "answerIndex": 1,
+        "explanation": "to düşmez",
+        "id": "c1-u10-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"My uncle lives in Berlin.\" Yankı sorusu:",
+        "options": [
+          "Does he?",
+          "Is he?"
+        ],
+        "answerIndex": 0,
+        "explanation": "Does he?",
+        "id": "c1-u10-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I prefer cats to dogs. The ___ are more independent.\" (kediler)",
+        "options": [
+          "former",
+          "latter"
+        ],
+        "answerIndex": 0,
+        "explanation": "the former",
+        "id": "c1-u10-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "These shoes are too small. Have you got any bigger ___?",
+        "answers": [
+          "ones"
+        ],
+        "explanation": "ones",
+        "id": "c1-u10-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "I can't speak Spanish, but my sister ___.",
+        "answers": [
+          "can"
+        ],
+        "explanation": "can",
+        "id": "c1-u10-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "She said she would finish it, and she ___.",
+        "answers": [
+          "did"
+        ],
+        "explanation": "did",
+        "id": "c1-u10-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"Why did you tell her?\" \"I didn't mean ___.\"",
+        "answers": [
+          "to"
+        ],
+        "explanation": "didn't mean to",
+        "id": "c1-u10-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"I've passed my exam!\" \"___ you? Well done!\"",
+        "answers": [
+          "Have"
+        ],
+        "explanation": "Have you?",
+        "id": "c1-u10-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Passengers who wish to change seats may ___ so after take-off.",
+        "answers": [
+          "do"
+        ],
+        "explanation": "do so",
+        "id": "c1-u10-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"This weather is awful.\" (Tamamen katılıyorum)",
+        "options": [
+          "Tell me about it!",
+          "Tell me more."
+        ],
+        "answerIndex": 0,
+        "explanation": "Tell me about it",
+        "id": "c1-u10-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Got any plans for the weekend? ... Not really. Fancy going to the beach? ... You'd love to? Great. Leaving at nine, then. Don't forget your sunscreen! ... You'll try not to? OK!",
+        "prompt": "Ne zaman yola çıkıyorlar?",
+        "options": [
+          "Saat dokuzda",
+          "Saat sekizde",
+          "Öğleden sonra"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"Leaving at nine\"",
+        "id": "c1-u10-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Eksiltin: \"I haven't been to Japan, but my parents have been to Japan.\"",
+        "accepted": [
+          "I haven't been to Japan, but my parents have.",
+          "I haven't been to Japan, but my parents have",
+          "I haven't been to Japan but my parents have.",
+          "I haven't been to Japan but my parents have"
+        ],
+        "explanation": "I haven't been to Japan, but my parents have.",
+        "id": "c1-u10-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "İki yazı yazın. (A) Bir arkadaşınızla kısa bir mesajlaşma (8–10 mesaj): bir haber verin ya da bir plan yapın. Durumsal eksiltme, to ile biten cevaplar, yankı soruları ve en az iki kısa yanıt kalıbı (Fair enough / Tell me about it / Fingers crossed / Sounds good) kullanın. (B) \"Toplu taşıma mı, özel araç mı?\" konusunda kısa ve resmî bir paragraf (100–130 kelime): the former / the latter, such, özetleyici isimler ve do so kullanarak tekrardan kaçının.",
+        "modelAnswer": "(A) Messages:\n\nZehra: Guess what? Got the job!\nOnur: Did you?! That's amazing! Which one, the design company?\nZehra: Yep. Start on Monday.\nOnur: Celebrate tonight? Dinner on me.\nZehra: I'd love to, but I can't. Seeing my parents.\nOnur: Fair enough. Tomorrow, then?\nZehra: Sounds good. Usual place?\nOnur: Perfect. Nervous about Monday?\nZehra: Tell me about it! Haven't slept properly all week.\nOnur: You'll be brilliant. Fingers crossed!\n\n(B) Paragraph:\n\nCity residents generally choose between public transport and private cars. The former is cheaper and more environmentally friendly, whereas the latter offers greater comfort and flexibility. In recent years, many cities have encouraged people to leave their cars at home, and an increasing number of commuters have chosen to do so. This shift has been driven largely by rising fuel prices and growing concern about air pollution. However, such problems as overcrowding and unreliable timetables still discourage many people from using buses and trains. Unless these issues are addressed, it is unlikely that the trend will continue.",
+        "rubric": [
+          "(A) Eksiltme ve doğal tepkiler",
+          "(A) Yankı soruları ve kalıplar",
+          "(B) the former / the latter",
+          "(B) such, özetleyici isim, do so",
+          "Üslup farkının farkındalığı"
+        ],
+        "id": "c1-u10-t15"
+      }
+    ]
+  }
+}
