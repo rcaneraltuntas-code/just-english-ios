@@ -1,0 +1,1493 @@
+{
+  "id": "a1-u04",
+  "level": "A1",
+  "number": 4,
+  "title": "Evim",
+  "titleEn": "My Home",
+  "canDo": "Evimi anlatabilir, eşyaların nerede olduğunu söyleyip sorabilirim.",
+  "grammar": [
+    "there is / there are",
+    "Is there...? / Are there any...?",
+    "yer edatları"
+  ],
+  "vocabularyThemes": [
+    "odalar",
+    "mobilya ve ev eşyaları"
+  ],
+  "liveClass": {
+    "title": "Hayalimdeki ev",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler hayallerindeki evi çizip anlatır; eşleri sorularla (Is there a garden? Where's the TV?) evi kendi kâğıdına çizmeye çalışır."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u04-v01",
+      "en": "house",
+      "tr": "ev (müstakil)",
+      "example": "Their house is big.",
+      "exampleTr": "Onların evi büyük."
+    },
+    {
+      "id": "a1-u04-v02",
+      "en": "flat",
+      "tr": "daire",
+      "example": "I live in a small flat.",
+      "exampleTr": "Küçük bir dairede oturuyorum.",
+      "note": "Amerikan İngilizcesinde: apartment."
+    },
+    {
+      "id": "a1-u04-v03",
+      "en": "living room",
+      "tr": "oturma odası, salon",
+      "example": "The TV is in the living room.",
+      "exampleTr": "Televizyon salonda."
+    },
+    {
+      "id": "a1-u04-v04",
+      "en": "bedroom",
+      "tr": "yatak odası",
+      "example": "There are two bedrooms.",
+      "exampleTr": "İki yatak odası var."
+    },
+    {
+      "id": "a1-u04-v05",
+      "en": "kitchen",
+      "tr": "mutfak",
+      "example": "The kitchen is small.",
+      "exampleTr": "Mutfak küçük."
+    },
+    {
+      "id": "a1-u04-v06",
+      "en": "bathroom",
+      "tr": "banyo",
+      "example": "Is there a bathroom upstairs?",
+      "exampleTr": "Üst katta banyo var mı?"
+    },
+    {
+      "id": "a1-u04-v07",
+      "en": "garden",
+      "tr": "bahçe",
+      "example": "There's a garden behind the house.",
+      "exampleTr": "Evin arkasında bir bahçe var."
+    },
+    {
+      "id": "a1-u04-v08",
+      "en": "balcony",
+      "tr": "balkon",
+      "example": "We have a big balcony.",
+      "exampleTr": "Büyük bir balkonumuz var."
+    },
+    {
+      "id": "a1-u04-v09",
+      "en": "sofa",
+      "tr": "kanepe",
+      "example": "The cat is on the sofa.",
+      "exampleTr": "Kedi kanepenin üstünde."
+    },
+    {
+      "id": "a1-u04-v10",
+      "en": "table",
+      "tr": "masa",
+      "example": "The keys are on the table.",
+      "exampleTr": "Anahtarlar masanın üstünde."
+    },
+    {
+      "id": "a1-u04-v11",
+      "en": "chair",
+      "tr": "sandalye",
+      "example": "There are four chairs.",
+      "exampleTr": "Dört sandalye var."
+    },
+    {
+      "id": "a1-u04-v12",
+      "en": "bed",
+      "tr": "yatak",
+      "example": "My bed is next to the window.",
+      "exampleTr": "Yatağım pencerenin yanında."
+    },
+    {
+      "id": "a1-u04-v13",
+      "en": "window",
+      "tr": "pencere",
+      "example": "Open the window, please.",
+      "exampleTr": "Pencereyi aç lütfen."
+    },
+    {
+      "id": "a1-u04-v14",
+      "en": "door",
+      "tr": "kapı",
+      "example": "The door is blue.",
+      "exampleTr": "Kapı mavi."
+    },
+    {
+      "id": "a1-u04-v15",
+      "en": "fridge",
+      "tr": "buzdolabı",
+      "example": "The milk is in the fridge.",
+      "exampleTr": "Süt buzdolabında."
+    },
+    {
+      "id": "a1-u04-v16",
+      "en": "lamp",
+      "tr": "lamba",
+      "example": "There's a lamp on the desk.",
+      "exampleTr": "Masanın üstünde bir lamba var."
+    },
+    {
+      "id": "a1-u04-v17",
+      "en": "in",
+      "tr": "içinde",
+      "example": "The phone is in my bag.",
+      "exampleTr": "Telefon çantamda."
+    },
+    {
+      "id": "a1-u04-v18",
+      "en": "on",
+      "tr": "üstünde",
+      "example": "Your book is on the chair.",
+      "exampleTr": "Kitabın sandalyenin üstünde."
+    },
+    {
+      "id": "a1-u04-v19",
+      "en": "under",
+      "tr": "altında",
+      "example": "The shoes are under the bed.",
+      "exampleTr": "Ayakkabılar yatağın altında."
+    },
+    {
+      "id": "a1-u04-v20",
+      "en": "next to",
+      "tr": "yanında",
+      "example": "The bank is next to the café.",
+      "exampleTr": "Banka kafenin yanında."
+    },
+    {
+      "id": "a1-u04-v21",
+      "en": "behind",
+      "tr": "arkasında",
+      "example": "The garden is behind the house.",
+      "exampleTr": "Bahçe evin arkasında."
+    },
+    {
+      "id": "a1-u04-v22",
+      "en": "in front of",
+      "tr": "önünde",
+      "example": "The car is in front of the house.",
+      "exampleTr": "Araba evin önünde."
+    },
+    {
+      "id": "a1-u04-v23",
+      "en": "opposite",
+      "tr": "karşısında",
+      "example": "The bank is opposite the school.",
+      "exampleTr": "Banka okulun karşısında."
+    },
+    {
+      "id": "a1-u04-v24",
+      "en": "between",
+      "tr": "arasında",
+      "example": "The sofa is between the lamp and the window.",
+      "exampleTr": "Kanepe lambayla pencerenin arasında."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u04-l1",
+      "number": 1,
+      "title": "Evimde neler var?",
+      "goal": "there is / there are ile evimde neler olduğunu söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni daire",
+        "lines": [
+          {
+            "speaker": "Deniz",
+            "text": "Welcome to my new flat!"
+          },
+          {
+            "speaker": "Mia",
+            "text": "Wow, it's lovely. How many bedrooms are there?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "There are two bedrooms and there's one bathroom."
+          },
+          {
+            "speaker": "Mia",
+            "text": "And there's a big balcony!"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, I love it. There are a lot of plants on it."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many bedrooms are there?",
+            "options": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"There are two bedrooms.\"",
+            "id": "a1-u04-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What's on the balcony?",
+            "options": [
+              "A lot of plants",
+              "Two chairs",
+              "A table"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"There are a lot of plants on it.\"",
+            "id": "a1-u04-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir yerde bir şeyin **var** olduğunu söylemek için:\n\n- tekil: **There is** (There's) a kitchen.\n- çoğul: **There are** two bedrooms.\n\nKaç tane olduğunu sormak için: **How many** bedrooms **are there**?",
+        "examples": [
+          {
+            "en": "There's a sofa in the living room.",
+            "tr": "Salonda bir kanepe var."
+          },
+          {
+            "en": "There are three chairs in the kitchen.",
+            "tr": "Mutfakta üç sandalye var."
+          },
+          {
+            "en": "How many rooms are there?",
+            "tr": "Kaç oda var?"
+          }
+        ],
+        "turkishNote": "\"var\" iki şekilde çevrilir: Bir yerde bulunuyorsa there is/are (\"Mutfakta bir masa var\" = There's a table in the kitchen). Birine aitse have (\"Bir arabam var\" = I have a car). \"In the kitchen have a table\" yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "kitchen",
+              "right": "mutfak"
+            },
+            {
+              "left": "bedroom",
+              "right": "yatak odası"
+            },
+            {
+              "left": "bathroom",
+              "right": "banyo"
+            },
+            {
+              "left": "living room",
+              "right": "salon"
+            },
+            {
+              "left": "garden",
+              "right": "bahçe"
+            }
+          ],
+          "explanation": "Odaları eşleştirin.",
+          "id": "a1-u04-l1-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "There ___ a sofa in the living room.",
+          "answers": [
+            "is",
+            "'s"
+          ],
+          "explanation": "Tekil → there is.",
+          "id": "a1-u04-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "There ___ four chairs in the kitchen.",
+          "answers": [
+            "are"
+          ],
+          "explanation": "Çoğul → there are.",
+          "id": "a1-u04-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bahçede bir ağaç var.\"",
+          "options": [
+            "In the garden has a tree.",
+            "There's a tree in the garden.",
+            "There are a tree in the garden."
+          ],
+          "answerIndex": 1,
+          "explanation": "Bir yerde bulunma → there is.",
+          "wrongFeedback": {
+            "0": "Bir yerde bulunmayı have ile değil, there is ile söyleriz."
+          },
+          "id": "a1-u04-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bir köpeğim var.\"",
+          "options": [
+            "There's a dog.",
+            "I have a dog.",
+            "I'm a dog."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sahiplik → have.",
+          "id": "a1-u04-l1-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "many",
+            "How",
+            "are",
+            "there",
+            "rooms",
+            "?"
+          ],
+          "answer": "How many rooms are there?",
+          "explanation": "How many + çoğul isim + are there?",
+          "translation": "Kaç oda var?",
+          "id": "a1-u04-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "There is two bathrooms.",
+            "There are two bathrooms."
+          ],
+          "answerIndex": 1,
+          "explanation": "two bathrooms çoğul → are.",
+          "id": "a1-u04-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "In my flat, there's a small kitchen, a living room and there are two bedrooms.",
+          "prompt": "Dairede kaç yatak odası var?",
+          "options": [
+            "Bir",
+            "İki",
+            "Üç"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"there are two bedrooms\"",
+          "id": "a1-u04-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Salonda bir televizyon var.\"",
+          "accepted": [
+            "There's a TV in the living room.",
+            "There's a TV in the living room",
+            "There is a TV in the living room",
+            "There is a TV in the living room.",
+            "There's a television in the living room.",
+            "There's a television in the living room",
+            "There is a television in the living room",
+            "There is a television in the living room."
+          ],
+          "explanation": "There's + a TV + in the living room.",
+          "id": "a1-u04-l1-p09"
+        },
+        {
+          "type": "gapFill",
+          "text": "There ___ a lot of books in my room.",
+          "answers": [
+            "are"
+          ],
+          "explanation": "a lot of books çoğul → are.",
+          "id": "a1-u04-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Evinizi anlatın: kaç oda var, hangi odalar var?",
+          "modelAnswer": "I live in a flat. There are three bedrooms. There's a big living room and a small kitchen.",
+          "rubric": [
+            "there is/are doğru seçildi",
+            "Oda isimleri doğru",
+            "a/an ve çoğullar doğru"
+          ]
+        },
+        "id": "a1-u04-l1-use"
+      }
+    },
+    {
+      "id": "a1-u04-l2",
+      "number": 2,
+      "title": "... var mı?",
+      "goal": "Bir yerde bir şey olup olmadığını sorup cevaplayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Otel resepsiyonu",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Is there a fridge in the room?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Yes, there is. There's a small fridge."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Are there any towels?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Yes, there are. They're in the bathroom."
+          },
+          {
+            "speaker": "Guest",
+            "text": "Is there a TV?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "No, there isn't, sorry. But there's free Wi-Fi."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Is there a TV in the room?",
+            "options": [
+              "Yes, there is.",
+              "No, there isn't."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"No, there isn't, sorry.\"",
+            "id": "a1-u04-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where are the towels?",
+            "options": [
+              "In the bathroom",
+              "In the fridge",
+              "At the reception"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"They're in the bathroom.\"",
+            "id": "a1-u04-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Soru:** is/are başa gelir.\n\n- **Is there** a fridge? – Yes, there is. / No, there isn't.\n- **Are there any** towels? – Yes, there are. / No, there aren't.\n\n**Olumsuz:**\n\n- There **isn't** a TV.\n- There **aren't any** chairs.\n\nÇoğul soru ve olumsuzlarda isimden önce genellikle **any** kullanılır.",
+        "examples": [
+          {
+            "en": "Is there a garden?",
+            "tr": "Bahçe var mı?"
+          },
+          {
+            "en": "Are there any shops near here?",
+            "tr": "Buralarda hiç dükkan var mı?"
+          },
+          {
+            "en": "There aren't any windows in the bathroom.",
+            "tr": "Banyoda hiç pencere yok."
+          }
+        ],
+        "turkishNote": "Türkçede \"yok\" ayrı bir kelimedir. İngilizcede olumsuzluk there is/are'a not eklenerek yapılır: there isn't, there aren't. Kısa cevapta da \"there\" kalır: \"Yes, there is.\" (\"Yes, is\" değil.)"
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "___ there a garden? – Yes, there is.",
+          "answers": [
+            "Is"
+          ],
+          "explanation": "Tekil soru → Is there...?",
+          "id": "a1-u04-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are there ___ chairs in the kitchen?",
+          "answers": [
+            "any"
+          ],
+          "explanation": "Çoğul soruda any.",
+          "id": "a1-u04-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Is there a lift?\" (Asansör yok.)",
+          "options": [
+            "No, there isn't.",
+            "No, there aren't.",
+            "No, isn't."
+          ],
+          "answerIndex": 0,
+          "explanation": "Tekil → No, there isn't.",
+          "id": "a1-u04-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Are there any shops?\" (Var.)",
+          "options": [
+            "Yes, there is.",
+            "Yes, there are.",
+            "Yes, are."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çoğul → Yes, there are.",
+          "id": "a1-u04-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "There ___ any towels in the bathroom.",
+          "answers": [
+            "aren't",
+            "are not"
+          ],
+          "explanation": "Çoğul olumsuz → there aren't any.",
+          "id": "a1-u04-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Odada televizyon yok.\"",
+          "options": [
+            "There isn't a TV in the room.",
+            "There's no have TV.",
+            "In the room isn't TV."
+          ],
+          "answerIndex": 0,
+          "explanation": "Tekil olumsuz → There isn't a ...",
+          "id": "a1-u04-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "there",
+            "Is",
+            "a",
+            "near",
+            "here",
+            "bank",
+            "?"
+          ],
+          "answer": "Is there a bank near here?",
+          "explanation": "Is there + a + isim + yer?",
+          "translation": "Buralarda banka var mı?",
+          "id": "a1-u04-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Is there a car park at the hotel? – No, there isn't. But there's a car park next to the station.",
+          "prompt": "Otelde otopark var mı?",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"No, there isn't.\"",
+          "id": "a1-u04-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"There are some chairs.\"",
+          "accepted": [
+            "There aren't any chairs.",
+            "There aren't any chairs",
+            "There are not any chairs",
+            "There are not any chairs."
+          ],
+          "explanation": "there are → there aren't, some → any.",
+          "id": "a1-u04-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Are there a balcony?",
+            "Is there a balcony?",
+            "Is there any balcony?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tekil sayılabilen isim → Is there a ...?",
+          "id": "a1-u04-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir otele telefon ediyorsunuz. JAI resepsiyonist. Odada neler olduğunu sorun (en az 3 soru).",
+          "modelAnswer": "Is there a fridge in the room? Are there any towels? Is there free Wi-Fi?",
+          "rubric": [
+            "Is there / Are there any doğru seçildi",
+            "Tekil ve çoğul isimler doğru",
+            "Kısa cevapları anladı"
+          ]
+        },
+        "id": "a1-u04-l2-use"
+      }
+    },
+    {
+      "id": "a1-u04-l3",
+      "number": 3,
+      "title": "İçinde, üstünde, altında",
+      "goal": "in, on, under ile bir şeyin nerede olduğunu söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Anahtarlarım nerede?",
+        "lines": [
+          {
+            "speaker": "Can",
+            "text": "Mum, where are my keys?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "Are they in your bag?"
+          },
+          {
+            "speaker": "Can",
+            "text": "No, they aren't."
+          },
+          {
+            "speaker": "Mum",
+            "text": "Look on the table in the kitchen."
+          },
+          {
+            "speaker": "Can",
+            "text": "No... Oh, here they are! They're under the newspaper."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where are the keys?",
+            "options": [
+              "In Can's bag",
+              "On the sofa",
+              "Under the newspaper"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"They're under the newspaper.\"",
+            "id": "a1-u04-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which room is the table in?",
+            "options": [
+              "The kitchen",
+              "The bedroom",
+              "The living room"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"the table in the kitchen\"",
+            "id": "a1-u04-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Yeri sormak için: **Where is** (Where's) the ...? / **Where are** the ...?\n\n- **in** = içinde: in the bag, in the kitchen\n- **on** = üstünde (temas ederek): on the table, on the wall\n- **under** = altında: under the bed\n\nBelirli bir eşyadan bahsederken **the** kullanırız: \"the keys\" = (bildiğimiz) anahtarlar.",
+        "examples": [
+          {
+            "en": "Where's my phone? – It's on the sofa.",
+            "tr": "Telefonum nerede? – Kanepenin üstünde."
+          },
+          {
+            "en": "The milk is in the fridge.",
+            "tr": "Süt buzdolabında."
+          },
+          {
+            "en": "The cat is under the table.",
+            "tr": "Kedi masanın altında."
+          }
+        ],
+        "turkishNote": "Türkçede yer ismin sonuna ek olarak gelir (masa-da, çanta-nın içinde). İngilizcede edat ismin önüne gelir: on the table. Duvardaki bir resim de \"on the wall\" olur, çünkü duvara değiyor."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "in",
+              "right": "içinde"
+            },
+            {
+              "left": "on",
+              "right": "üstünde"
+            },
+            {
+              "left": "under",
+              "right": "altında"
+            }
+          ],
+          "explanation": "Edatları eşleştirin.",
+          "id": "a1-u04-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "The milk is ___ the fridge.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "Buzdolabının içinde → in.",
+          "id": "a1-u04-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "The picture is ___ the wall.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "Duvara asılı (temas var) → on.",
+          "id": "a1-u04-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The shoes are ___ the bed.",
+          "answers": [
+            "under"
+          ],
+          "explanation": "Yatağın altında → under.",
+          "id": "a1-u04-l3-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Telefonum nerede?\"",
+          "options": [
+            "Where's my phone?",
+            "Where my phone is?",
+            "My phone where?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Where + is + özne?",
+          "id": "a1-u04-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Where are your books?",
+          "options": [
+            "It's on the desk.",
+            "They're on the desk.",
+            "There on the desk."
+          ],
+          "answerIndex": 1,
+          "explanation": "books çoğul → They're.",
+          "id": "a1-u04-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "The",
+            "on",
+            "cat",
+            "the",
+            "sofa"
+          ],
+          "answer": "The cat is on the sofa.",
+          "explanation": "Özne + is + edat + the + yer.",
+          "translation": "Kedi kanepenin üstünde.",
+          "id": "a1-u04-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Your glasses? They're on the table in the living room, next to the TV remote.",
+          "prompt": "Gözlük nerede?",
+          "options": [
+            "Mutfak masasında",
+            "Salondaki masada",
+            "Yatağın altında"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"on the table in the living room\"",
+          "id": "a1-u04-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Anahtarlar çantada.\"",
+          "accepted": [
+            "The keys are in the bag.",
+            "The keys are in the bag",
+            "The keys are in my bag.",
+            "The keys are in my bag"
+          ],
+          "explanation": "The keys + are + in + the bag.",
+          "id": "a1-u04-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The keys is in the bag.",
+            "The keys are in the bag.",
+            "The keys in the bag."
+          ],
+          "answerIndex": 1,
+          "explanation": "keys çoğul → are; fiil eksik olmamalı.",
+          "id": "a1-u04-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI evinizdeki 3 eşyanın yerini soracak (Where's your phone? ...). in, on, under ile cevaplayın.",
+          "modelAnswer": "My phone is on the table. My keys are in my bag. My shoes are under the bed.",
+          "rubric": [
+            "in/on/under doğru",
+            "is/are doğru",
+            "the kullandı"
+          ]
+        },
+        "id": "a1-u04-l3-use"
+      }
+    },
+    {
+      "id": "a1-u04-l4",
+      "number": 4,
+      "title": "Yanında, arkasında, önünde",
+      "goal": "next to, behind, in front of, between ile yer tarif edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Mahallem",
+        "lines": [
+          {
+            "speaker": "Tom",
+            "text": "Is there a supermarket near your flat?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "Yes. It's next to the bus stop."
+          },
+          {
+            "speaker": "Tom",
+            "text": "And the park?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "It's behind my building. There's a café in front of the park, too."
+          },
+          {
+            "speaker": "Tom",
+            "text": "And where's the pharmacy?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "It's between the bank and the bakery."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is the supermarket?",
+            "options": [
+              "Next to the bus stop",
+              "Behind the building",
+              "In front of the park"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"It's next to the bus stop.\"",
+            "id": "a1-u04-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is the pharmacy?",
+            "options": [
+              "Next to the café",
+              "Between the bank and the bakery",
+              "Behind the park"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's between the bank and the bakery.\"",
+            "id": "a1-u04-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "- **next to** = yanında\n- **behind** = arkasında\n- **in front of** = önünde\n- **between** A **and** B = A ile B'nin arasında\n- **opposite** = karşısında\n\nHepsi ismin **önüne** gelir: next to **the** window, behind **the** house.",
+        "examples": [
+          {
+            "en": "The lamp is next to the bed.",
+            "tr": "Lamba yatağın yanında."
+          },
+          {
+            "en": "There's a car in front of the door.",
+            "tr": "Kapının önünde bir araba var."
+          },
+          {
+            "en": "The bank is opposite the school.",
+            "tr": "Banka okulun karşısında."
+          }
+        ],
+        "turkishNote": "\"in front of\" üç kelimedir ve \"of\" unutulmamalı: in front of the house. \"next to\"dan sonra \"of\" gelmez: next to the house (next of değil). between iki şeyle kullanılır ve aralarına \"and\" girer."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "next to",
+              "right": "yanında"
+            },
+            {
+              "left": "behind",
+              "right": "arkasında"
+            },
+            {
+              "left": "in front of",
+              "right": "önünde"
+            },
+            {
+              "left": "between",
+              "right": "arasında"
+            },
+            {
+              "left": "opposite",
+              "right": "karşısında"
+            }
+          ],
+          "explanation": "Edatları eşleştirin.",
+          "id": "a1-u04-l4-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "The car is in front ___ the house.",
+          "answers": [
+            "of"
+          ],
+          "explanation": "in front of: of unutulmamalı.",
+          "id": "a1-u04-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "The bank is between the café ___ the school.",
+          "answers": [
+            "and"
+          ],
+          "explanation": "between A and B",
+          "id": "a1-u04-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "next of the door",
+            "next to the door",
+            "next the door"
+          ],
+          "answerIndex": 1,
+          "explanation": "next to + isim.",
+          "id": "a1-u04-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bahçe evin arkasında.\"",
+          "options": [
+            "The garden is behind the house.",
+            "The garden is in front of the house.",
+            "The garden is between the house."
+          ],
+          "answerIndex": 0,
+          "explanation": "arkasında = behind.",
+          "id": "a1-u04-l4-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "The",
+            "opposite",
+            "park",
+            "the",
+            "school"
+          ],
+          "answer": "The park is opposite the school.",
+          "explanation": "Özne + is + opposite + the + yer.",
+          "translation": "Park okulun karşısında.",
+          "id": "a1-u04-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "My desk is ___ to the window.",
+          "answers": [
+            "next"
+          ],
+          "explanation": "yanında = next to.",
+          "id": "a1-u04-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The bakery is between the bank and the post office. It's opposite the park.",
+          "prompt": "Fırın neyin karşısında?",
+          "options": [
+            "Bankanın",
+            "Postanenin",
+            "Parkın"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"It's opposite the park.\"",
+          "id": "a1-u04-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Lamba kanepenin yanında.\"",
+          "accepted": [
+            "The lamp is next to the sofa.",
+            "The lamp is next to the sofa"
+          ],
+          "explanation": "The lamp + is + next to + the sofa.",
+          "id": "a1-u04-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "between the bank",
+            "between the bank and the café",
+            "between of the bank and café"
+          ],
+          "answerIndex": 1,
+          "explanation": "between iki şeyle ve and ile kullanılır.",
+          "id": "a1-u04-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Mahallenizi anlatın: evinizin yakınında hangi yerler var ve neredeler?",
+          "modelAnswer": "There's a supermarket next to my building. The park is behind it. There's a bakery opposite the bus stop.",
+          "rubric": [
+            "Yer edatları doğru",
+            "there is/are doğru",
+            "the kullandı"
+          ]
+        },
+        "id": "a1-u04-l4-use"
+      }
+    },
+    {
+      "id": "a1-u04-l5",
+      "number": 5,
+      "title": "Benim odam",
+      "goal": "Odamı ayrıntılı olarak anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Video görüşmesi",
+        "lines": [
+          {
+            "speaker": "Yuki",
+            "text": "Is that your room, Deniz?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, it is. It's small but I love it."
+          },
+          {
+            "speaker": "Yuki",
+            "text": "What's on the wall behind you?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "It's a map of the world. And there's a guitar next to my desk."
+          },
+          {
+            "speaker": "Yuki",
+            "text": "Is there a window in your room?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, there's a big window. My bed is under it."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's on the wall?",
+            "options": [
+              "A guitar",
+              "A map",
+              "A window"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's a map of the world.\"",
+            "id": "a1-u04-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where's Deniz's bed?",
+            "options": [
+              "Under the window",
+              "Next to the desk",
+              "Behind the door"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"My bed is under it.\" (it = the window)",
+            "id": "a1-u04-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir odayı anlatırken bu ünitede öğrendiklerimizi birleştiririz:\n\n1. Genel bilgi: My room **is** small/big.\n2. Neler var: **There's** a desk. **There are** two lamps.\n3. Nerede: The desk **is next to** the window.\n4. Nasıl: The walls **are** white. It's **a big blue** sofa.\n\nAynı şeyi tekrar etmemek için **it** ve **them** kullanılır: There's a window. My bed is under **it**.",
+        "examples": [
+          {
+            "en": "My room is small but bright.",
+            "tr": "Odam küçük ama aydınlık."
+          },
+          {
+            "en": "There's a big desk next to the window.",
+            "tr": "Pencerenin yanında büyük bir masa var."
+          },
+          {
+            "en": "My books are on the shelf above the bed.",
+            "tr": "Kitaplarım yatağın üstündeki rafta."
+          }
+        ],
+        "turkishNote": "İlk kez bahsettiğimiz şey için a/an, ikinci kez bahsederken the kullanılır: \"There's a desk in my room. The desk is white.\" Türkçede bu ayrım yoktur, dikkat edin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru sıra?",
+          "options": [
+            "There's a desk. The desk is white.",
+            "There's the desk. A desk is white."
+          ],
+          "answerIndex": 0,
+          "explanation": "İlk kez a, sonra the.",
+          "id": "a1-u04-l5-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's a lamp in my room. ___ lamp is on the desk.",
+          "answers": [
+            "The"
+          ],
+          "explanation": "İkinci kez bahsedilen → the.",
+          "id": "a1-u04-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's a big window. My bed is under ___.",
+          "answers": [
+            "it"
+          ],
+          "explanation": "the window yerine it.",
+          "id": "a1-u04-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Duvarlar beyaz.\"",
+          "options": [
+            "The walls is white.",
+            "The walls are white.",
+            "The walls are whites."
+          ],
+          "answerIndex": 1,
+          "explanation": "walls çoğul → are; sıfat çoğul olmaz.",
+          "id": "a1-u04-l5-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "a",
+            "There's",
+            "desk",
+            "next",
+            "to",
+            "window",
+            "the"
+          ],
+          "answer": "There's a desk next to the window.",
+          "explanation": "There's + a + isim + edat + the + yer.",
+          "translation": "Pencerenin yanında bir masa var.",
+          "id": "a1-u04-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi bir odayı anlatmak için uygun DEĞİL?",
+          "options": [
+            "There's a sofa in front of the TV.",
+            "My bedroom has a big bed.",
+            "There are a lamp on the desk."
+          ],
+          "answerIndex": 2,
+          "explanation": "a lamp tekil → There's a lamp.",
+          "id": "a1-u04-l5-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "In my bedroom, there's a bed, a desk and two chairs. The desk is between the bed and the window.",
+          "prompt": "Masa nerede?",
+          "options": [
+            "Yatağın altında",
+            "Yatakla pencerenin arasında",
+            "Kapının arkasında"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"between the bed and the window\"",
+          "id": "a1-u04-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "My shoes ___ under the bed.",
+          "answers": [
+            "are"
+          ],
+          "explanation": "shoes çoğul → are.",
+          "id": "a1-u04-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Odamda iki pencere var.\"",
+          "accepted": [
+            "There are two windows in my room.",
+            "There are two windows in my room",
+            "My room has two windows.",
+            "My room has two windows"
+          ],
+          "explanation": "There are + two windows + in my room.",
+          "id": "a1-u04-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "a desk",
+              "right": "ilk kez bahsediliyor"
+            },
+            {
+              "left": "the desk",
+              "right": "daha önce bahsedildi"
+            },
+            {
+              "left": "it",
+              "right": "the desk'in yerine"
+            }
+          ],
+          "explanation": "a, the ve it ne zaman kullanılır?",
+          "id": "a1-u04-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Odanızı 5 cümleyle anlatın: büyüklüğü, içindeki eşyalar ve nerede oldukları.",
+          "modelAnswer": "My room is small but nice. There's a bed and a desk. The desk is next to the window. There are a lot of books on the shelf. My guitar is behind the door.",
+          "rubric": [
+            "there is/are doğru",
+            "Yer edatları doğru",
+            "a/the doğru",
+            "Sıfatlar doğru yerde"
+          ]
+        },
+        "id": "a1-u04-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "There ___ two bathrooms in our house.",
+        "answers": [
+          "are"
+        ],
+        "explanation": "Çoğul → there are.",
+        "id": "a1-u04-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Bahçede bir ağaç var.\"",
+        "options": [
+          "There's a tree in the garden.",
+          "The garden has there a tree.",
+          "In the garden is have a tree."
+        ],
+        "answerIndex": 0,
+        "explanation": "Bir yerde bulunma → there is.",
+        "id": "a1-u04-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Is there a lift?\" (Yok.)",
+        "options": [
+          "No, there isn't.",
+          "No, it isn't.",
+          "No, there aren't."
+        ],
+        "answerIndex": 0,
+        "explanation": "Tekil → No, there isn't.",
+        "id": "a1-u04-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "Are there ___ shops near here?",
+        "answers": [
+          "any"
+        ],
+        "explanation": "Çoğul soruda any.",
+        "id": "a1-u04-t04"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "many",
+          "How",
+          "are",
+          "there",
+          "bedrooms",
+          "?"
+        ],
+        "answer": "How many bedrooms are there?",
+        "explanation": "How many + çoğul + are there?",
+        "translation": "Kaç yatak odası var?",
+        "id": "a1-u04-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kitap masanın üstünde:",
+        "options": [
+          "The book is in the table.",
+          "The book is on the table.",
+          "The book is under the table."
+        ],
+        "answerIndex": 1,
+        "explanation": "üstünde = on.",
+        "id": "a1-u04-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "The car is in front ___ the house.",
+        "answers": [
+          "of"
+        ],
+        "explanation": "in front of",
+        "id": "a1-u04-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "The bank is next of the café.",
+          "The bank is next to the café.",
+          "The bank is next the café."
+        ],
+        "answerIndex": 1,
+        "explanation": "next to",
+        "id": "a1-u04-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Eczane bankayla fırının arasında.\"",
+        "options": [
+          "The pharmacy is between the bank and the bakery.",
+          "The pharmacy is between the bank or the bakery.",
+          "The pharmacy is opposite the bank and the bakery."
+        ],
+        "answerIndex": 0,
+        "explanation": "between A and B",
+        "id": "a1-u04-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "There's a sofa in the living room. ___ sofa is grey.",
+        "answers": [
+          "The"
+        ],
+        "explanation": "İkinci kez → the.",
+        "id": "a1-u04-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Where are my glasses?",
+        "options": [
+          "It's on the desk.",
+          "They're on the desk.",
+          "There on the desk."
+        ],
+        "answerIndex": 1,
+        "explanation": "glasses çoğul → They're.",
+        "id": "a1-u04-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "There's a small garden behind the house and there are two big trees in it.",
+        "prompt": "Bahçe nerede?",
+        "options": [
+          "Evin önünde",
+          "Evin arkasında",
+          "Evin yanında"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"behind the house\"",
+        "id": "a1-u04-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Mutfakta buzdolabı yok.\"",
+        "accepted": [
+          "There isn't a fridge in the kitchen.",
+          "There isn't a fridge in the kitchen",
+          "There is not a fridge in the kitchen",
+          "There is not a fridge in the kitchen.",
+          "There's no fridge in the kitchen.",
+          "There's no fridge in the kitchen",
+          "There is no fridge in the kitchen",
+          "There is no fridge in the kitchen."
+        ],
+        "explanation": "There isn't a + fridge + in the kitchen.",
+        "id": "a1-u04-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Bir arabam var.\"",
+        "options": [
+          "There's my car.",
+          "I have a car.",
+          "There is a car of me."
+        ],
+        "answerIndex": 1,
+        "explanation": "Sahiplik → have.",
+        "id": "a1-u04-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Evinizi ya da dairenizi 5 cümleyle anlatın: odalar, eşyalar, nerede oldukları.",
+        "modelAnswer": "I live in a flat with my family. There are three bedrooms and a big living room. There's a balcony next to the kitchen. In the living room, there's a sofa in front of the TV. My room is small but I love it.",
+        "rubric": [
+          "there is/are doğru",
+          "Oda ve eşya kelimeleri",
+          "Yer edatları doğru",
+          "a/the doğru"
+        ],
+        "id": "a1-u04-t15"
+      }
+    ]
+  }
+}

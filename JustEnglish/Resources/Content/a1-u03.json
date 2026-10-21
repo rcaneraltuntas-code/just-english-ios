@@ -1,0 +1,1498 @@
+{
+  "id": "a1-u03",
+  "level": "A1",
+  "number": 3,
+  "title": "Eşyalarım",
+  "titleEn": "My Things",
+  "canDo": "Eşyalarımın adını, rengini ve kime ait olduğunu söyleyebilir, \"Bu ne?\" diye sorabilirim.",
+  "grammar": [
+    "a / an",
+    "çoğul isimler (düzenli ve düzensiz)",
+    "this / that / these / those",
+    "renkler ve sıfat sırası"
+  ],
+  "vocabularyThemes": [
+    "günlük eşyalar",
+    "renkler"
+  ],
+  "liveClass": {
+    "title": "Çantamda ne var?",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler çantalarından eşyalar çıkarıp eşlerine sorar (What's this? What colour is it? Whose is it?), sonra kayıp eşya oyunu oynanır."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u03-v01",
+      "en": "bag",
+      "tr": "çanta",
+      "example": "My bag is black.",
+      "exampleTr": "Çantam siyah."
+    },
+    {
+      "id": "a1-u03-v02",
+      "en": "phone",
+      "tr": "telefon",
+      "example": "Is this your phone?",
+      "exampleTr": "Bu senin telefonun mu?"
+    },
+    {
+      "id": "a1-u03-v03",
+      "en": "key",
+      "tr": "anahtar",
+      "example": "Where are my keys?",
+      "exampleTr": "Anahtarlarım nerede?"
+    },
+    {
+      "id": "a1-u03-v04",
+      "en": "wallet",
+      "tr": "cüzdan",
+      "example": "His wallet is brown.",
+      "exampleTr": "Onun cüzdanı kahverengi."
+    },
+    {
+      "id": "a1-u03-v05",
+      "en": "umbrella",
+      "tr": "şemsiye",
+      "example": "Take an umbrella!",
+      "exampleTr": "Bir şemsiye al!",
+      "note": "Ünlü sesle başladığı için an umbrella."
+    },
+    {
+      "id": "a1-u03-v06",
+      "en": "watch",
+      "tr": "kol saati",
+      "example": "This is a new watch.",
+      "exampleTr": "Bu yeni bir kol saati.",
+      "note": "Çoğulu: watches. Duvar saati ise clock."
+    },
+    {
+      "id": "a1-u03-v07",
+      "en": "glasses",
+      "tr": "gözlük",
+      "example": "Her glasses are on the table.",
+      "exampleTr": "Gözlüğü masanın üstünde.",
+      "note": "Her zaman çoğul: my glasses are..."
+    },
+    {
+      "id": "a1-u03-v08",
+      "en": "book",
+      "tr": "kitap",
+      "example": "That's an English book.",
+      "exampleTr": "Şu bir İngilizce kitabı."
+    },
+    {
+      "id": "a1-u03-v09",
+      "en": "pen",
+      "tr": "tükenmez kalem",
+      "example": "Can I use your pen?",
+      "exampleTr": "Kalemini kullanabilir miyim?"
+    },
+    {
+      "id": "a1-u03-v10",
+      "en": "laptop",
+      "tr": "dizüstü bilgisayar",
+      "example": "My laptop is old.",
+      "exampleTr": "Dizüstü bilgisayarım eski."
+    },
+    {
+      "id": "a1-u03-v11",
+      "en": "bottle",
+      "tr": "şişe",
+      "example": "a bottle of water",
+      "exampleTr": "bir şişe su"
+    },
+    {
+      "id": "a1-u03-v12",
+      "en": "box",
+      "tr": "kutu",
+      "example": "These boxes are heavy.",
+      "exampleTr": "Bu kutular ağır.",
+      "note": "Çoğulu: boxes."
+    },
+    {
+      "id": "a1-u03-v13",
+      "en": "man / men",
+      "tr": "adam / adamlar",
+      "example": "Those men are my uncles.",
+      "exampleTr": "Şu adamlar amcalarım.",
+      "note": "Düzensiz çoğul."
+    },
+    {
+      "id": "a1-u03-v14",
+      "en": "woman / women",
+      "tr": "kadın / kadınlar",
+      "example": "Two women are at the door.",
+      "exampleTr": "Kapıda iki kadın var.",
+      "note": "Düzensiz çoğul. women /ˈwɪmɪn/ diye okunur."
+    },
+    {
+      "id": "a1-u03-v15",
+      "en": "person / people",
+      "tr": "kişi / insanlar",
+      "example": "Ten people are here.",
+      "exampleTr": "Burada on kişi var.",
+      "note": "Düzensiz çoğul."
+    },
+    {
+      "id": "a1-u03-v16",
+      "en": "new",
+      "tr": "yeni",
+      "example": "a new phone",
+      "exampleTr": "yeni bir telefon"
+    },
+    {
+      "id": "a1-u03-v17",
+      "en": "old",
+      "tr": "eski; yaşlı",
+      "example": "an old car",
+      "exampleTr": "eski bir araba",
+      "note": "an old: old ünlüyle başlar."
+    },
+    {
+      "id": "a1-u03-v18",
+      "en": "big",
+      "tr": "büyük",
+      "example": "a big box",
+      "exampleTr": "büyük bir kutu"
+    },
+    {
+      "id": "a1-u03-v19",
+      "en": "small",
+      "tr": "küçük",
+      "example": "a small bag",
+      "exampleTr": "küçük bir çanta"
+    },
+    {
+      "id": "a1-u03-v20",
+      "en": "red",
+      "tr": "kırmızı",
+      "example": "a red umbrella",
+      "exampleTr": "kırmızı bir şemsiye"
+    },
+    {
+      "id": "a1-u03-v21",
+      "en": "blue",
+      "tr": "mavi",
+      "example": "Her eyes are blue.",
+      "exampleTr": "Onun gözleri mavi."
+    },
+    {
+      "id": "a1-u03-v22",
+      "en": "black / white",
+      "tr": "siyah / beyaz",
+      "example": "a black and white photo",
+      "exampleTr": "siyah beyaz bir fotoğraf"
+    },
+    {
+      "id": "a1-u03-v23",
+      "en": "colour",
+      "tr": "renk",
+      "example": "What colour is your car?",
+      "exampleTr": "Araban ne renk?",
+      "note": "Amerikan İngilizcesinde: color."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u03-l1",
+      "number": 1,
+      "title": "a ve an",
+      "goal": "Tekil eşyaları a/an ile söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kayıp eşya bürosu",
+        "lines": [
+          {
+            "speaker": "Officer",
+            "text": "Good morning. Can I help you?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "Yes, please. My bag is lost."
+          },
+          {
+            "speaker": "Officer",
+            "text": "OK. What's in your bag?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "A phone, a wallet, an umbrella and a book."
+          },
+          {
+            "speaker": "Officer",
+            "text": "Is this your umbrella?"
+          },
+          {
+            "speaker": "Selin",
+            "text": "Yes, it is! Thank you!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is lost?",
+            "options": [
+              "Selin's phone",
+              "Selin's bag",
+              "Selin's book"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My bag is lost.\"",
+            "id": "a1-u03-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the officer find?",
+            "options": [
+              "A wallet",
+              "An umbrella",
+              "A phone"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Is this your umbrella?\" – \"Yes, it is!\"",
+            "id": "a1-u03-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Tekil ve sayılabilen bir ismin önüne **a** ya da **an** gelir. Türkçedeki \"bir\" gibidir.\n\n- Ünsüz **sesle** başlayan kelimeler: **a** book, **a** phone, **a** university\n- Ünlü **sesle** başlayan kelimeler: **an** apple, **an** umbrella, **an** hour\n\nKural harfe değil **sese** bakar. university \"yu\" sesiyle başlar → a university. hour'da h okunmaz → an hour.",
+        "examples": [
+          {
+            "en": "It's a pen.",
+            "tr": "O bir kalem."
+          },
+          {
+            "en": "It's an orange.",
+            "tr": "O bir portakal."
+          },
+          {
+            "en": "She's an English teacher.",
+            "tr": "O bir İngilizce öğretmeni."
+          }
+        ],
+        "turkishNote": "Türkçede \"Bu kalem\" deriz, \"bir\" çoğu zaman söylenmez. İngilizcede tekil sayılabilen isimden önce a/an zorunludur: \"This is pen\" yanlış, \"This is a pen\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "phone",
+              "right": "a"
+            },
+            {
+              "left": "umbrella",
+              "right": "an"
+            },
+            {
+              "left": "apple",
+              "right": "an"
+            },
+            {
+              "left": "key",
+              "right": "a"
+            },
+            {
+              "left": "hour",
+              "right": "an"
+            }
+          ],
+          "explanation": "Ünlü sesle başlayan kelimeler an alır. hour'da h okunmaz.",
+          "id": "a1-u03-l1-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's ___ umbrella.",
+          "answers": [
+            "an"
+          ],
+          "explanation": "umbrella ünlü sesle başlar → an.",
+          "id": "a1-u03-l1-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's ___ wallet.",
+          "answers": [
+            "a"
+          ],
+          "explanation": "wallet ünsüz sesle başlar → a.",
+          "id": "a1-u03-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "an university",
+            "a university"
+          ],
+          "answerIndex": 1,
+          "explanation": "university \"yu\" sesiyle başlar, yani ünsüz ses → a.",
+          "wrongFeedback": {
+            "0": "Harfe değil sese bakın: \"yu-niversity\" → a."
+          },
+          "id": "a1-u03-l1-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "a hour",
+            "an hour"
+          ],
+          "answerIndex": 1,
+          "explanation": "hour'daki h okunmaz, kelime ünlü sesle başlar → an.",
+          "id": "a1-u03-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "This is pen.",
+            "This is a pen.",
+            "This is an pen."
+          ],
+          "answerIndex": 1,
+          "explanation": "Tekil sayılabilen isimden önce a/an gerekir; pen ünsüzle başlar → a.",
+          "wrongFeedback": {
+            "0": "a/an eksik! Tekil isimden önce zorunludur."
+          },
+          "id": "a1-u03-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "It",
+            "old",
+            "an",
+            "watch"
+          ],
+          "answer": "It is an old watch.",
+          "explanation": "Sıfat ünlüyle başlıyorsa an: an old watch.",
+          "translation": "O eski bir kol saati.",
+          "id": "a1-u03-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "In my bag there's a phone, an apple and a book.",
+          "prompt": "Çantada hangisi yok?",
+          "options": [
+            "Telefon",
+            "Elma",
+            "Şemsiye"
+          ],
+          "answerIndex": 2,
+          "explanation": "Telefon, elma ve kitap var; şemsiye yok.",
+          "id": "a1-u03-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "a mı an mı? ___ egg",
+          "accepted": [
+            "an",
+            "An"
+          ],
+          "explanation": "egg ünlü sesle başlar → an egg.",
+          "id": "a1-u03-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bu bir anahtar.\"",
+          "options": [
+            "This is a key.",
+            "This is key.",
+            "This is an key."
+          ],
+          "answerIndex": 0,
+          "explanation": "key ünsüz sesle başlar → a key.",
+          "id": "a1-u03-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Çantanızda ya da masanızda olan 4 eşyayı a/an ile söyleyin.",
+          "modelAnswer": "In my bag, I have a phone, a wallet, an umbrella and a book.",
+          "rubric": [
+            "a/an doğru seçildi",
+            "Eşya isimleri doğru",
+            "Telaffuz anlaşılır"
+          ]
+        },
+        "id": "a1-u03-l1-use"
+      }
+    },
+    {
+      "id": "a1-u03-l2",
+      "number": 2,
+      "title": "Çoğullar",
+      "goal": "Eşyaları ve insanları çoğul olarak söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Taşınma günü",
+        "lines": [
+          {
+            "speaker": "Mum",
+            "text": "How many boxes are in the car?"
+          },
+          {
+            "speaker": "Can",
+            "text": "Six boxes and two bags."
+          },
+          {
+            "speaker": "Mum",
+            "text": "And where are the glasses and the knives?"
+          },
+          {
+            "speaker": "Can",
+            "text": "They're in the big box."
+          },
+          {
+            "speaker": "Mum",
+            "text": "Great. Two men from the company are here to help."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many boxes are in the car?",
+            "options": [
+              "Two",
+              "Six",
+              "Eight"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Six boxes and two bags.\"",
+            "id": "a1-u03-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is here to help?",
+            "options": [
+              "Two women",
+              "Two men",
+              "Can's friends"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Two men from the company are here.\"",
+            "id": "a1-u03-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Çoğul yapmak için çoğu isme **-s** eklenir: book → book**s**, key → key**s**.\n\n| Kural | Örnek |\n|---|---|\n| -s, -ss, -sh, -ch, -x ile bitenler: **-es** | box → box**es**, watch → watch**es**, glass → glass**es** |\n| ünsüz + y ile bitenler: **-ies** | city → cit**ies**, baby → bab**ies** |\n| -f / -fe ile bitenlerin çoğu: **-ves** | knife → kni**ves**, wife → wi**ves** |\n| düzensiz | man → **men**, woman → **women**, child → **children**, person → **people** |\n\nünlü + y ile bitenler yalnızca -s alır: key → keys, boy → boys.",
+        "examples": [
+          {
+            "en": "two watches",
+            "tr": "iki kol saati"
+          },
+          {
+            "en": "three cities",
+            "tr": "üç şehir"
+          },
+          {
+            "en": "five people",
+            "tr": "beş kişi"
+          }
+        ],
+        "turkishNote": "Türkçede sayıdan sonra isim tekil kalır: \"iki kitap\". İngilizcede sayı birden büyükse isim çoğul olur: two books. \"two book\" yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "box",
+              "right": "boxes"
+            },
+            {
+              "left": "city",
+              "right": "cities"
+            },
+            {
+              "left": "man",
+              "right": "men"
+            },
+            {
+              "left": "knife",
+              "right": "knives"
+            },
+            {
+              "left": "child",
+              "right": "children"
+            }
+          ],
+          "explanation": "Tekil → çoğul",
+          "id": "a1-u03-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "one watch, two ___",
+          "answers": [
+            "watches"
+          ],
+          "explanation": "-ch ile biten isim -es alır.",
+          "id": "a1-u03-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "one key, three ___",
+          "answers": [
+            "keys"
+          ],
+          "explanation": "ünlü + y (ey) ile bitiyor → yalnızca -s.",
+          "id": "a1-u03-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "one baby, two ___",
+          "answers": [
+            "babies"
+          ],
+          "explanation": "ünsüz + y → -ies.",
+          "id": "a1-u03-l2-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"İki kitap\" İngilizcede:",
+          "options": [
+            "two book",
+            "two books",
+            "two bookes"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sayı birden büyükse isim çoğul olur: two books.",
+          "wrongFeedback": {
+            "0": "Türkçeden farklı olarak sayıdan sonra çoğul gerekir."
+          },
+          "id": "a1-u03-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "person kelimesinin çoğulu:",
+          "options": [
+            "persons",
+            "people",
+            "peoples"
+          ],
+          "answerIndex": 1,
+          "explanation": "person → people (düzensiz).",
+          "id": "a1-u03-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Three womans are here.",
+            "Three women are here.",
+            "Three woman are here."
+          ],
+          "answerIndex": 1,
+          "explanation": "woman → women (düzensiz).",
+          "id": "a1-u03-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I have two brothers, three sisters and four cousins.",
+          "prompt": "Konuşanın kaç kız kardeşi var?",
+          "options": [
+            "İki",
+            "Üç",
+            "Dört"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"three sisters\"",
+          "id": "a1-u03-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Çoğulunu yazın: glass",
+          "accepted": [
+            "glasses",
+            "Glasses"
+          ],
+          "explanation": "-ss ile biten → -es: glasses.",
+          "id": "a1-u03-l2-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "people",
+            "Ten",
+            "are",
+            "here"
+          ],
+          "answer": "Ten people are here.",
+          "explanation": "Sayı + çoğul isim (people) + are.",
+          "translation": "Burada on kişi var.",
+          "id": "a1-u03-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Odanızda kaçar tane olan 4 eşyayı yazın (sayı + çoğul).",
+          "modelAnswer": "In my room, I have two lamps, three bags, ten books and one laptop.",
+          "rubric": [
+            "Sayıdan sonra çoğul isim",
+            "-es/-ies kuralları doğru",
+            "Tekil eşya için a/an ya da one"
+          ]
+        },
+        "id": "a1-u03-l2-use"
+      }
+    },
+    {
+      "id": "a1-u03-l3",
+      "number": 3,
+      "title": "Bu ve şu",
+      "goal": "this ve that ile yakındaki ve uzaktaki bir şeyi gösterebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Mağazada",
+        "lines": [
+          {
+            "speaker": "Ece",
+            "text": "Excuse me, how much is this bag?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "It's 40 pounds."
+          },
+          {
+            "speaker": "Ece",
+            "text": "And that umbrella over there?"
+          },
+          {
+            "speaker": "Assistant",
+            "text": "That's 15 pounds."
+          },
+          {
+            "speaker": "Ece",
+            "text": "OK. This bag, please."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How much is the bag?",
+            "options": [
+              "15 pounds",
+              "40 pounds",
+              "14 pounds"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's 40 pounds.\"",
+            "id": "a1-u03-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Ece buy?",
+            "options": [
+              "The bag",
+              "The umbrella",
+              "Both"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"This bag, please.\"",
+            "id": "a1-u03-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Tekil bir şeyi gösterirken:\n\n- **this** = bu (yakında, elimizde)\n- **that** = şu, o (uzakta)\n\nSorusu: **What's this?** / **What's that?** Cevapta \"it\" kullanılır: **It's** a key.\n\nthis ve that ismin önünde de kullanılır: **this** phone, **that** car.",
+        "examples": [
+          {
+            "en": "What's this? – It's a pen.",
+            "tr": "Bu ne? – Bir kalem."
+          },
+          {
+            "en": "Is that your car?",
+            "tr": "Şu senin araban mı?"
+          },
+          {
+            "en": "This book is very good.",
+            "tr": "Bu kitap çok iyi."
+          }
+        ],
+        "turkishNote": "Cevap verirken this/that tekrarlanmaz, \"it\" kullanılır: \"What's this?\" – \"It's a watch.\" (\"This is a watch\" da doğru ama daha az doğal.)"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Elinizdeki telefonu gösteriyorsunuz:",
+          "options": [
+            "This is my phone.",
+            "That is my phone."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yakındaki için this.",
+          "id": "a1-u03-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı yoldaki arabayı gösteriyorsunuz:",
+          "options": [
+            "This is my car.",
+            "That's my car."
+          ],
+          "answerIndex": 1,
+          "explanation": "Uzaktaki için that.",
+          "id": "a1-u03-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "What's ___? (elinizdeki bir şey)",
+          "answers": [
+            "this"
+          ],
+          "explanation": "Yakındaki → this.",
+          "id": "a1-u03-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What's this?\" sorusuna en doğal cevap:",
+          "options": [
+            "It's a key.",
+            "This a key.",
+            "Is a key."
+          ],
+          "answerIndex": 0,
+          "explanation": "Cevapta it kullanılır: It's a key.",
+          "wrongFeedback": {
+            "2": "Özne eksik: It's a key."
+          },
+          "id": "a1-u03-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Is ___ your umbrella over there?",
+          "answers": [
+            "that"
+          ],
+          "explanation": "over there (orada) → uzak → that.",
+          "id": "a1-u03-l3-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "your",
+            "Is",
+            "this",
+            "wallet",
+            "?"
+          ],
+          "answer": "Is this your wallet?",
+          "explanation": "Soru: Is + this + ...?",
+          "translation": "Bu senin cüzdanın mı?",
+          "id": "a1-u03-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "This book is good.",
+            "This is book good.",
+            "Book this is good."
+          ],
+          "answerIndex": 0,
+          "explanation": "this + isim + is + sıfat.",
+          "id": "a1-u03-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "What's that? – It's a bottle of water.",
+          "prompt": "Uzaktaki şey ne?",
+          "options": [
+            "Bir şişe su",
+            "Bir kutu",
+            "Bir telefon"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"a bottle of water\"",
+          "id": "a1-u03-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Şu benim kol saatim.\"",
+          "accepted": [
+            "That's my watch.",
+            "That's my watch",
+            "That is my watch.",
+            "That is my watch"
+          ],
+          "explanation": "Uzak → that + is + my watch.",
+          "id": "a1-u03-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bu ne?\" İngilizcede:",
+          "options": [
+            "What's this?",
+            "What this is?",
+            "This what?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Soru kelimesi + is + this: What's this?",
+          "id": "a1-u03-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size bir eşya resmi gösterip \"What's this?\" diye soracak. Cevaplayın ve kime ait olduğunu söyleyin.",
+          "modelAnswer": "It's a watch. It's my father's watch.",
+          "rubric": [
+            "It's a/an ... ile cevap verdi",
+            "a/an doğru",
+            "'s ya da iyelik sıfatı kullandı"
+          ]
+        },
+        "id": "a1-u03-l3-use"
+      }
+    },
+    {
+      "id": "a1-u03-l4",
+      "number": 4,
+      "title": "Bunlar ve şunlar",
+      "goal": "these ve those ile birden fazla şeyi gösterebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Pazarda",
+        "lines": [
+          {
+            "speaker": "Tom",
+            "text": "What are these?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "They're figs from Aydın. They're very sweet."
+          },
+          {
+            "speaker": "Tom",
+            "text": "And what are those red things?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "Those are pomegranates."
+          },
+          {
+            "speaker": "Tom",
+            "text": "OK, these figs and two of those, please."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where are the figs from?",
+            "options": [
+              "Aydın",
+              "Antalya",
+              "Ankara"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"They're figs from Aydın.\"",
+            "id": "a1-u03-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What colour are the pomegranates?",
+            "options": [
+              "Black",
+              "Red",
+              "White"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"those red things\"",
+            "id": "a1-u03-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Çoğul şeyleri gösterirken:\n\n| | Tekil | Çoğul |\n|---|---|---|\n| yakın | this | **these** |\n| uzak | that | **those** |\n\nSorusu: **What are these/those?** Cevapta **they** kullanılır: **They're** keys.",
+        "examples": [
+          {
+            "en": "These are my keys.",
+            "tr": "Bunlar benim anahtarlarım."
+          },
+          {
+            "en": "What are those?",
+            "tr": "Şunlar ne?"
+          },
+          {
+            "en": "Those people are my cousins.",
+            "tr": "Şu insanlar benim kuzenlerim."
+          }
+        ],
+        "turkishNote": "this/that'in çoğulu ayrı kelimelerdir: these/those. \"This are\" ya da \"these is\" yanlıştır. Ayrıca \"glasses\" (gözlük) her zaman çoğul olduğu için \"These are my glasses\" denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "this",
+              "right": "these"
+            },
+            {
+              "left": "that",
+              "right": "those"
+            },
+            {
+              "left": "it",
+              "right": "they"
+            },
+            {
+              "left": "is",
+              "right": "are"
+            }
+          ],
+          "explanation": "Tekil → çoğul",
+          "id": "a1-u03-l4-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ are my books. (elimde)",
+          "answers": [
+            "These"
+          ],
+          "explanation": "Yakın + çoğul → these.",
+          "id": "a1-u03-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are ___ your children over there?",
+          "answers": [
+            "those"
+          ],
+          "explanation": "Uzak + çoğul → those.",
+          "id": "a1-u03-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "These is my keys.",
+            "These are my keys.",
+            "This are my keys."
+          ],
+          "answerIndex": 1,
+          "explanation": "these + are.",
+          "wrongFeedback": {
+            "0": "these çoğul olduğu için are gerekir.",
+            "2": "Çoğul için this değil these."
+          },
+          "id": "a1-u03-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What are these?\" sorusuna cevap:",
+          "options": [
+            "It's pens.",
+            "They're pens.",
+            "There pens."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çoğul cevap: They're ...",
+          "id": "a1-u03-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "This is my glasses.",
+            "These are my glasses."
+          ],
+          "answerIndex": 1,
+          "explanation": "glasses (gözlük) her zaman çoğuldur.",
+          "id": "a1-u03-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "are",
+            "those",
+            "What",
+            "?"
+          ],
+          "answer": "What are those?",
+          "explanation": "What + are + those?",
+          "translation": "Şunlar ne?",
+          "id": "a1-u03-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "These are my new shoes and those are my old shoes.",
+          "prompt": "Konuşanın yakınındaki ayakkabılar:",
+          "options": [
+            "Yeni",
+            "Eski"
+          ],
+          "answerIndex": 0,
+          "explanation": "these (yakın) = new shoes.",
+          "id": "a1-u03-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Çoğul yapın: \"That is my bag.\"",
+          "accepted": [
+            "Those are my bags.",
+            "Those are my bags"
+          ],
+          "explanation": "that → those, is → are, bag → bags.",
+          "id": "a1-u03-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Masanızdaki iki kalemi gösteriyorsunuz:",
+          "options": [
+            "These are my pens.",
+            "Those are my pens.",
+            "This is my pens."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yakın + çoğul → these.",
+          "id": "a1-u03-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Odanızdaki çoğul eşyaları gösterin: yakındakiler için these, uzaktakiler için those.",
+          "modelAnswer": "These are my books. Those are my shoes.",
+          "rubric": [
+            "these/those doğru seçildi",
+            "are kullandı",
+            "İsimler çoğul"
+          ]
+        },
+        "id": "a1-u03-l4-use"
+      }
+    },
+    {
+      "id": "a1-u03-l5",
+      "number": 5,
+      "title": "Renkler",
+      "goal": "Eşyaların rengini ve boyutunu söyleyip sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kayıp çanta",
+        "lines": [
+          {
+            "speaker": "Officer",
+            "text": "What colour is your bag?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "It's blue. It's a big blue bag."
+          },
+          {
+            "speaker": "Officer",
+            "text": "Is this your bag?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "No, it isn't. My bag is dark blue, and it's new."
+          },
+          {
+            "speaker": "Officer",
+            "text": "What about that one?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Yes! That's my bag!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What colour is Ali's bag?",
+            "options": [
+              "Black",
+              "Dark blue",
+              "Red"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My bag is dark blue.\"",
+            "id": "a1-u03-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Is Ali's bag old?",
+            "options": [
+              "Yes, it is.",
+              "No, it isn't. It's new."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it's new\"",
+            "id": "a1-u03-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Renk sormak için: **What colour is it?** / **What colour are they?**\n\nRenkler: red, blue, green, yellow, black, white, brown, grey, orange, pink, purple\n\nSıfatlar ismin **önüne** gelir. Boyut, renkten önce söylenir:\n\n- a **big blue** bag\n- a **small red** car\n- **new black** shoes\n\nAçık ve koyu: **light** blue (açık mavi), **dark** blue (koyu mavi).",
+        "examples": [
+          {
+            "en": "What colour is your phone? – It's white.",
+            "tr": "Telefonun ne renk? – Beyaz."
+          },
+          {
+            "en": "I have a small black bag.",
+            "tr": "Küçük siyah bir çantam var."
+          },
+          {
+            "en": "Her eyes are green.",
+            "tr": "Onun gözleri yeşil."
+          }
+        ],
+        "turkishNote": "Türkçede de sıfat isimden önce gelir, bu yüzden sıra kolaydır: \"büyük mavi çanta\" = big blue bag. Ama \"What colour\" sorusunda \"is\" unutulmamalı: \"What colour your car?\" yanlış, \"What colour is your car?\" doğru."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "red",
+              "right": "kırmızı"
+            },
+            {
+              "left": "green",
+              "right": "yeşil"
+            },
+            {
+              "left": "yellow",
+              "right": "sarı"
+            },
+            {
+              "left": "brown",
+              "right": "kahverengi"
+            },
+            {
+              "left": "grey",
+              "right": "gri"
+            }
+          ],
+          "explanation": "Renkleri eşleştirin.",
+          "id": "a1-u03-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "a blue big bag",
+            "a big blue bag",
+            "a bag big blue"
+          ],
+          "answerIndex": 1,
+          "explanation": "Boyut + renk + isim: a big blue bag.",
+          "id": "a1-u03-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "What colour ___ your car?",
+          "answers": [
+            "is"
+          ],
+          "explanation": "What colour + is + tekil isim?",
+          "id": "a1-u03-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "What colour ___ her eyes?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "eyes çoğul → are.",
+          "id": "a1-u03-l5-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"koyu yeşil\" İngilizcede:",
+          "options": [
+            "dark green",
+            "light green",
+            "deep green"
+          ],
+          "answerIndex": 0,
+          "explanation": "Koyu = dark, açık = light.",
+          "id": "a1-u03-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "a",
+            "car",
+            "small",
+            "red",
+            "It's"
+          ],
+          "answer": "It's a small red car.",
+          "explanation": "a + boyut + renk + isim",
+          "translation": "Küçük kırmızı bir araba.",
+          "id": "a1-u03-l5-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My shoes are blacks.",
+            "My shoes are black.",
+            "My blacks shoes."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sıfatlar çoğul eki almaz.",
+          "id": "a1-u03-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My umbrella is small and yellow. It's in my bag.",
+          "prompt": "Şemsiye ne renk?",
+          "options": [
+            "Sarı",
+            "Yeşil",
+            "Kırmızı"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"small and yellow\"",
+          "id": "a1-u03-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Benim büyük siyah bir köpeğim var.\"",
+          "accepted": [
+            "I have a big black dog.",
+            "I have a big black dog",
+            "I've got a big black dog.",
+            "I've got a big black dog"
+          ],
+          "explanation": "a + big + black + dog",
+          "id": "a1-u03-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"What colour are your keys?\"",
+          "options": [
+            "It's grey.",
+            "They're grey.",
+            "Are grey."
+          ],
+          "answerIndex": 1,
+          "explanation": "keys çoğul → They're.",
+          "id": "a1-u03-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kayıp eşya bürosundasınız. Kaybolan eşyanızı anlatın: ne, ne renk, büyük mü küçük mü, yeni mi eski mi?",
+          "modelAnswer": "I have a lost bag. It's a big black bag. It's new.",
+          "rubric": [
+            "Eşya ismi ve a/an",
+            "Sıfat sırası (boyut + renk + isim)",
+            "What colour sorusuna doğru cevap"
+          ]
+        },
+        "id": "a1-u03-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "gapFill",
+        "text": "It's ___ orange.",
+        "answers": [
+          "an"
+        ],
+        "explanation": "orange ünlüyle başlar → an.",
+        "id": "a1-u03-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "a hour",
+          "an hour",
+          "an university"
+        ],
+        "answerIndex": 1,
+        "explanation": "hour'da h okunmaz → an hour.",
+        "id": "a1-u03-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "one city, two ___",
+        "answers": [
+          "cities"
+        ],
+        "explanation": "ünsüz + y → -ies",
+        "id": "a1-u03-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "child kelimesinin çoğulu:",
+        "options": [
+          "childs",
+          "children",
+          "childrens"
+        ],
+        "answerIndex": 1,
+        "explanation": "Düzensiz: children.",
+        "id": "a1-u03-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Beş kitap\":",
+        "options": [
+          "five book",
+          "five books",
+          "five a books"
+        ],
+        "answerIndex": 1,
+        "explanation": "Sayıdan sonra çoğul.",
+        "id": "a1-u03-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Uzaktaki bir arabayı gösteriyorsunuz:",
+        "options": [
+          "This is my car.",
+          "That's my car.",
+          "These are my car."
+        ],
+        "answerIndex": 1,
+        "explanation": "Uzak + tekil → that.",
+        "id": "a1-u03-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ are my keys. (elimde)",
+        "answers": [
+          "These"
+        ],
+        "explanation": "Yakın + çoğul → these.",
+        "id": "a1-u03-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"What are those?\"",
+        "options": [
+          "It's apples.",
+          "They're apples.",
+          "Those apple."
+        ],
+        "answerIndex": 1,
+        "explanation": "Çoğul → They're.",
+        "id": "a1-u03-t08"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "a",
+          "bag",
+          "big",
+          "It's",
+          "brown"
+        ],
+        "answer": "It's a big brown bag.",
+        "explanation": "boyut + renk + isim",
+        "translation": "Büyük kahverengi bir çanta.",
+        "id": "a1-u03-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "What colour ___ your shoes?",
+        "answers": [
+          "are"
+        ],
+        "explanation": "shoes çoğul → are.",
+        "id": "a1-u03-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "These is my glasses.",
+          "These are my glasses.",
+          "This is my glasses."
+        ],
+        "answerIndex": 1,
+        "explanation": "glasses her zaman çoğul: These are.",
+        "id": "a1-u03-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "Excuse me, is this your wallet? – No, it isn't. My wallet is red.",
+        "prompt": "Konuşanın cüzdanı ne renk?",
+        "options": [
+          "Kırmızı",
+          "Kahverengi",
+          "Siyah"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"My wallet is red.\"",
+        "id": "a1-u03-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Çoğulunu yazın: knife",
+        "accepted": [
+          "knives",
+          "Knives"
+        ],
+        "explanation": "-fe → -ves: knives.",
+        "id": "a1-u03-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Three persons are here.",
+          "Three people are here.",
+          "Three peoples are here."
+        ],
+        "answerIndex": 1,
+        "explanation": "person → people.",
+        "id": "a1-u03-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Çantanızda ne olduğunu 4 cümleyle anlatın: eşyalar, renkleri, boyutları.",
+        "modelAnswer": "In my bag, I have a small black wallet and two pens. I have an old phone. These are my keys. They're grey.",
+        "rubric": [
+          "a/an doğru",
+          "Çoğullar doğru",
+          "Sıfat sırası doğru",
+          "this/these doğru"
+        ],
+        "id": "a1-u03-t15"
+      }
+    ]
+  }
+}
