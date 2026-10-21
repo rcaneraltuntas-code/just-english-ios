@@ -105,6 +105,6 @@ final class LiveSessionStore {
         guard attended.insert(session.id).inserted else { return }
         onAttend?(session)
         guard let client = Backend.client else { return }
-        Task { try? await client.rpc("mark_live_attended", params: ["p_session": session.id]).execute() }
+        Task { _ = try? await client.rpc("mark_live_attended", params: ["p_session": session.id]).execute() }
     }
 }

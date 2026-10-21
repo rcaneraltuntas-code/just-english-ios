@@ -51,6 +51,9 @@ targets:
     platform: iOS
     sources:
       - path: JustEnglishTests
+    settings:
+      base:
+        GENERATE_INFOPLIST_FILE: YES
     dependencies:
       - target: JustEnglish
       - package: JECore
