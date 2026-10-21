@@ -1,0 +1,1308 @@
+{
+  "id": "c2-u05",
+  "level": "C2",
+  "number": 5,
+  "title": "Edebiyat",
+  "titleEn": "Literature and Narrative",
+  "canDo": "Anlatıcı türlerini ve bakış açısını (birinci tekil, üçüncü kişi sınırlı / her şeyi bilen, güvenilmez anlatıcı) tanıyabilir, \"anlatma, göster\" ilkesiyle duyusal ayrıntı kullanabilir, serbest dolaylı anlatım ve anlatı zamanlarını (geçmişe dönüş, geçmişte gelecek) yerinde kullanabilir, ön sezdirme, simge ve kişileştirme gibi edebi araçları analiz edebilir ve kısa bir öykü yazabilirim.",
+  "grammar": [
+    "anlatıcı ve bakış açısı, güvenilmez anlatıcı",
+    "anlatma, göster: duyusal ayrıntı ve karakterizasyon",
+    "serbest dolaylı anlatım ve anlatı zamanları",
+    "ön sezdirme, simge, imge, kişileştirme, doğanın ruh hali",
+    "kısa öykü yazmak"
+  ],
+  "vocabularyThemes": [
+    "edebiyat",
+    "yaratıcı yazarlık",
+    "kitap kulübü"
+  ],
+  "liveClass": {
+    "title": "Bir sahne, üç anlatıcı",
+    "durationMinutes": 45,
+    "goal": "Öğretmen kısa bir olay verir (bir tren istasyonunda iki eski arkadaş yıllar sonra karşılaşır). Gruplar sahneyi üç farklı anlatıcıyla yazar: birinci tekil, üçüncü kişi sınırlı ve güvenilmez anlatıcı. Her grup en az bir duyusal ayrıntı, bir serbest dolaylı anlatım cümlesi ve bir simge kullanır. Gruplar sahneleri sesli okur ve sınıf, anlatıcı değişince okuyucunun karakterlere bakışının nasıl değiştiğini tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u05-v01",
+      "en": "narrator",
+      "tr": "anlatıcı",
+      "example": "The narrator is a young girl.",
+      "exampleTr": "Anlatıcı genç bir kız."
+    },
+    {
+      "id": "c2-u05-v02",
+      "en": "point of view",
+      "tr": "bakış açısı",
+      "example": "The story is told from the mother's point of view.",
+      "exampleTr": "Öykü annenin bakış açısından anlatılıyor."
+    },
+    {
+      "id": "c2-u05-v03",
+      "en": "first-person narrator",
+      "tr": "birinci tekil anlatıcı",
+      "example": "A first-person narrator uses \"I\".",
+      "exampleTr": "Birinci tekil anlatıcı \"ben\" kullanır."
+    },
+    {
+      "id": "c2-u05-v04",
+      "en": "omniscient narrator",
+      "tr": "her şeyi bilen anlatıcı",
+      "example": "An omniscient narrator knows every character's thoughts.",
+      "exampleTr": "Her şeyi bilen anlatıcı her karakterin düşüncelerini bilir."
+    },
+    {
+      "id": "c2-u05-v05",
+      "en": "unreliable narrator",
+      "tr": "güvenilmez anlatıcı",
+      "example": "We slowly realise the narrator is unreliable.",
+      "exampleTr": "Anlatıcının güvenilmez olduğunu yavaş yavaş fark ederiz."
+    },
+    {
+      "id": "c2-u05-v06",
+      "en": "characterisation",
+      "tr": "karakterizasyon, karakter yaratma",
+      "example": "The characterisation in this novel is superb.",
+      "exampleTr": "Bu romandaki karakterizasyon mükemmel."
+    },
+    {
+      "id": "c2-u05-v07",
+      "en": "sensory detail",
+      "tr": "duyusal ayrıntı",
+      "example": "Sensory details bring a scene to life.",
+      "exampleTr": "Duyusal ayrıntılar bir sahneye can verir."
+    },
+    {
+      "id": "c2-u05-v08",
+      "en": "free indirect speech",
+      "tr": "serbest dolaylı anlatım",
+      "example": "Free indirect speech blends narrator and character.",
+      "exampleTr": "Serbest dolaylı anlatım anlatıcı ile karakteri harmanlar."
+    },
+    {
+      "id": "c2-u05-v09",
+      "en": "flashback",
+      "tr": "geçmişe dönüş",
+      "example": "The novel opens with a flashback.",
+      "exampleTr": "Roman bir geçmişe dönüşle açılıyor."
+    },
+    {
+      "id": "c2-u05-v10",
+      "en": "foreshadowing",
+      "tr": "ön sezdirme",
+      "example": "The storm is an example of foreshadowing.",
+      "exampleTr": "Fırtına bir ön sezdirme örneği."
+    },
+    {
+      "id": "c2-u05-v11",
+      "en": "symbol",
+      "tr": "simge, sembol",
+      "example": "The locked door is a symbol of secrecy.",
+      "exampleTr": "Kilitli kapı gizliliğin simgesi."
+    },
+    {
+      "id": "c2-u05-v12",
+      "en": "imagery",
+      "tr": "imgelem, imge",
+      "example": "The poem is full of vivid imagery.",
+      "exampleTr": "Şiir canlı imgelerle dolu."
+    },
+    {
+      "id": "c2-u05-v13",
+      "en": "personification",
+      "tr": "kişileştirme",
+      "example": "\"The wind whispered\" is personification.",
+      "exampleTr": "\"Rüzgâr fısıldadı\" bir kişileştirmedir."
+    },
+    {
+      "id": "c2-u05-v14",
+      "en": "pathetic fallacy",
+      "tr": "doğanın ruh hali (doğayı duygularla eşleştirme)",
+      "example": "The rain reflects her sadness: pathetic fallacy.",
+      "exampleTr": "Yağmur onun hüznünü yansıtıyor."
+    },
+    {
+      "id": "c2-u05-v15",
+      "en": "plot",
+      "tr": "olay örgüsü",
+      "example": "The plot is simple but powerful.",
+      "exampleTr": "Olay örgüsü basit ama güçlü."
+    },
+    {
+      "id": "c2-u05-v16",
+      "en": "protagonist",
+      "tr": "baş karakter",
+      "example": "The protagonist is a retired teacher.",
+      "exampleTr": "Baş karakter emekli bir öğretmen."
+    },
+    {
+      "id": "c2-u05-v17",
+      "en": "setting",
+      "tr": "mekân ve zaman (öyküde)",
+      "example": "The setting is a small village in the 1960s.",
+      "exampleTr": "Öykünün mekânı 1960'larda küçük bir köy."
+    },
+    {
+      "id": "c2-u05-v18",
+      "en": "climax",
+      "tr": "doruk noktası",
+      "example": "The climax comes in the final chapter.",
+      "exampleTr": "Doruk noktası son bölümde geliyor."
+    },
+    {
+      "id": "c2-u05-v19",
+      "en": "twist",
+      "tr": "beklenmedik dönüş",
+      "example": "The ending has a clever twist.",
+      "exampleTr": "Sonda zekice bir dönüş var."
+    },
+    {
+      "id": "c2-u05-v20",
+      "en": "subtle",
+      "tr": "ince, belirgin olmayan",
+      "example": "The author's hints are very subtle.",
+      "exampleTr": "Yazarın ipuçları çok ince."
+    },
+    {
+      "id": "c2-u05-v21",
+      "en": "evocative",
+      "tr": "çağrıştırıcı, canlandıran",
+      "example": "Her descriptions are wonderfully evocative.",
+      "exampleTr": "Betimlemeleri harika bir şekilde canlandırıcı."
+    },
+    {
+      "id": "c2-u05-v22",
+      "en": "poignant",
+      "tr": "dokunaklı",
+      "example": "The ending is quietly poignant.",
+      "exampleTr": "Son sessizce dokunaklı."
+    },
+    {
+      "id": "c2-u05-v23",
+      "en": "page-turner",
+      "tr": "elden bırakılamayan kitap",
+      "example": "The thriller is a real page-turner.",
+      "exampleTr": "Gerilim romanı tam bir elden bırakılamayan kitap."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u05-l1",
+      "number": 1,
+      "title": "Anlatıcı ve bakış açısı",
+      "goal": "Birinci tekil, üçüncü kişi sınırlı ve her şeyi bilen anlatıcıyı ayırt edebilir, güvenilmez anlatıcıyı fark edebilir ve bakış açısının okuyucu üzerindeki etkisini yorumlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Aynı sahne, üç anlatıcı (kurgusal)",
+        "body": "Version 1 (first person):\n\"I saw him the moment I stepped off the train. Twenty years, and he still stood the same way, hands in his pockets, as if waiting for an apology. I wasn't going to give him one.\"\n\nVersion 2 (third person limited):\n\"Leyla saw him the moment she stepped off the train. Twenty years, and he still stood the same way. She tightened her grip on her bag. She wasn't going to apologise.\"\n\nVersion 3 (third person omniscient):\n\"Leyla saw him the moment she stepped off the train, and decided at once that she would not apologise. Across the platform, Emre was thinking exactly the same thing. Neither of them knew that the other had spent twenty years regretting that night.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which version tells us what both characters are thinking?",
+            "options": [
+              "Version 1",
+              "Version 2",
+              "Version 3"
+            ],
+            "answerIndex": 2,
+            "explanation": "Omniscient narrator.",
+            "id": "c2-u05-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do Leyla and Emre secretly have in common?",
+            "options": [
+              "They both want to leave.",
+              "They have both regretted that night for twenty years.",
+              "They both forgot each other."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the other had spent twenty years regretting that night\"",
+            "id": "c2-u05-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Anlatıcı türleri:**\n\n| Tür | Zamir | Ne bilir? | Etki |\n|---|---|---|---|\n| **Birinci tekil** (first person) | I | sadece kendi düşünceleri | yakınlık, samimiyet, ama sınırlı ve **öznel** |\n| **Üçüncü kişi sınırlı** (third person limited) | he / she / they | **bir** karakterin düşünceleri | yakınlık + biraz mesafe |\n| **Üçüncü kişi her şeyi bilen** (omniscient) | he / she / they | **herkesin** düşünceleri, geçmiş, gelecek | geniş bakış, **dramatik ironi** |\n| **İkinci kişi** (nadir) | you | — | deneysel, yoğun |\n\n**Dramatik ironi (dramatic irony):** Okuyucunun, karakterlerin bilmediği bir şeyi bilmesi. *Neither of them knew that the other had spent twenty years regretting that night.*\n\n**Güvenilmez anlatıcı (unreliable narrator):** Okuyucuyu bilerek ya da bilmeyerek **yanıltan** anlatıcı. İpuçları:\n\n- Kendi anlatımında **çelişkiler**\n- Diğer karakterlerin tepkileri anlatıcının sözlerine **uymuyor**\n- Aşırı **savunmacı** ifadeler: *I'm not a jealous person. I never have been.*\n- **Hafıza** sorunları: *I may not remember exactly, but ...*\n- Çocuk, hasta ya da duygusal olarak etkilenmiş anlatıcı\n\n**Bakış açısını tartışma kalıpları:**\n\n- *The story is told from the point of view of ...*\n- *The narrator's account is (un)reliable because ...*\n- *We only see events through ...'s eyes.*\n- *This creates a sense of intimacy / distance / suspense.*",
+        "examples": [
+          {
+            "en": "The story is told from the point of view of a ten-year-old boy.",
+            "tr": "Öykü on yaşında bir çocuğun bakış açısından anlatılıyor."
+          },
+          {
+            "en": "We only see events through Leyla's eyes.",
+            "tr": "Olayları sadece Leyla'nın gözünden görüyoruz."
+          },
+          {
+            "en": "\"I'm not a jealous person,\" the narrator insists, a little too often.",
+            "tr": "\"Ben kıskanç biri değilim,\" diye ısrar ediyor anlatıcı, biraz fazla sık."
+          }
+        ],
+        "turkishNote": "Türkçede üçüncü kişi zamiri (\"o\") cinsiyet belirtmez, bu yüzden Türkçe edebiyatta bakış açısı değişimleri bazen daha belirsiz kalabilir. İngilizcede \"he\", \"she\" ve \"they\" zamirleri hangi karakterin bakış açısında olduğumuzu netleştirir. İngilizce bir romanı okurken anlatıcının kim olduğunu ve neyi bilip bilmediğini sormak, metni çok daha derin anlamanızı sağlar. Güvenilmez anlatıcı tekniği hem İngilizce hem Türkçe modern edebiyatta sık kullanılan güçlü bir tekniktir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I\" kullanan anlatıcı:",
+          "options": [
+            "Birinci tekil",
+            "Her şeyi bilen"
+          ],
+          "answerIndex": 0,
+          "explanation": "First person.",
+          "id": "c2-u05-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Herkesin düşüncelerini bilen anlatıcı:",
+          "options": [
+            "Third person limited",
+            "Third person omniscient"
+          ],
+          "answerIndex": 1,
+          "explanation": "Omniscient.",
+          "id": "c2-u05-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Dramatik ironi nedir?",
+          "options": [
+            "Okuyucunun karakterlerin bilmediği bir şeyi bilmesi",
+            "Komik bir son"
+          ],
+          "answerIndex": 0,
+          "explanation": "Dramatic irony.",
+          "id": "c2-u05-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Güvenilmez anlatıcı ipucu:",
+          "options": [
+            "\"I'm not angry. I'm never angry,\" she shouted.",
+            "\"It was raining,\" she said."
+          ],
+          "answerIndex": 0,
+          "explanation": "Çelişki.",
+          "id": "c2-u05-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The story is told from the point of ___ of a young nurse.",
+          "answers": [
+            "view"
+          ],
+          "explanation": "point of view.",
+          "id": "c2-u05-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We only see events through the narrator's ___.",
+          "answers": [
+            "eyes"
+          ],
+          "explanation": "through ...'s eyes.",
+          "id": "c2-u05-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Because the narrator often contradicts himself, we realise he is ___. (güvenilmez)",
+          "answers": [
+            "unreliable"
+          ],
+          "explanation": "unreliable narrator.",
+          "id": "c2-u05-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "An ___ narrator knows what every character is thinking. (her şeyi bilen)",
+          "answers": [
+            "omniscient"
+          ],
+          "explanation": "omniscient.",
+          "id": "c2-u05-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The novel is narrated by an elderly man looking back on his childhood. At first, his account seems honest and clear. But as the story goes on, his sister's letters suggest that many of the events he describes never happened the way he remembers them.",
+          "prompt": "Bu romanın anlatıcısı hakkında ne söylenebilir?",
+          "options": [
+            "Her şeyi bilen bir anlatıcı",
+            "Güvenilmez olabilir",
+            "İkinci kişi anlatıcı"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kız kardeşinin mektupları anlatımıyla çelişiyor.",
+          "id": "c2-u05-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I opened the door.",
+              "right": "first person"
+            },
+            {
+              "left": "She opened the door, wondering if he was still angry.",
+              "right": "third person limited"
+            },
+            {
+              "left": "She opened the door; he, upstairs, was already packing.",
+              "right": "omniscient"
+            },
+            {
+              "left": "You open the door.",
+              "right": "second person"
+            },
+            {
+              "left": "I never lie, he said, lying.",
+              "right": "unreliable / ironic"
+            }
+          ],
+          "explanation": "Her cümleyi anlatım türüyle eşleştirin.",
+          "id": "c2-u05-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Okuduğunuz (ya da izlediğiniz) bir roman, öykü veya filmin anlatım tekniğini bir kitap kulübünde anlatın (1 dakika). Hikâye kimin bakış açısından anlatılıyor? Anlatıcı güvenilir mi? Bu seçimin okuyucuya etkisi ne? Ünitedeki tartışma kalıplarını kullanın (The story is told from the point of view of ..., We only see events through ..., This creates a sense of ...).",
+          "modelAnswer": "The novel I've just finished is told from the point of view of a twelve-year-old girl whose family moves from a village to a big city. Because it's a first-person narrative, we only see events through her eyes, which creates a strong sense of intimacy. We feel her confusion and her loneliness very directly. However, she's not entirely reliable. She misunderstands a lot of what the adults say, so the reader often knows more than she does. For example, she thinks her father is working late, but we gradually realise he's lost his job. This creates a kind of dramatic irony that makes the story both funny and heartbreaking.",
+          "rubric": [
+            "Anlatıcı türü",
+            "Güvenilirlik analizi",
+            "Okuyucuya etki",
+            "Tartışma kalıpları"
+          ]
+        },
+        "id": "c2-u05-l1-use"
+      }
+    },
+    {
+      "id": "c2-u05-l2",
+      "number": 2,
+      "title": "Anlatma, göster",
+      "goal": "\"Show, don't tell\" ilkesiyle duyguları ve karakter özelliklerini doğrudan söylemek yerine eylem, diyalog ve duyusal ayrıntılarla gösterebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki versiyon",
+        "body": "Telling:\n\"Selim was nervous before the interview. The room was old and uncomfortable. The interviewer was unfriendly.\"\n\nShowing:\n\"Selim checked his tie for the fourth time. The waiting room smelled of dust and stale coffee, and the plastic chair creaked whenever he moved. He wiped his palms on his trousers. When the door finally opened, a woman in a grey suit glanced at her clipboard, not at him. 'Mr Aydın? You're late,' she said. He wasn't.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How do we know Selim is nervous in the second version?",
+            "options": [
+              "The narrator says so.",
+              "He checks his tie repeatedly and wipes his palms.",
+              "He tells the interviewer."
+            ],
+            "answerIndex": 1,
+            "explanation": "Eylemler gösteriyor.",
+            "id": "c2-u05-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does \"He wasn't\" suggest?",
+            "options": [
+              "Selim was late.",
+              "The interviewer was wrong and unfriendly.",
+              "Selim forgot his tie."
+            ],
+            "answerIndex": 1,
+            "explanation": "Görüşmeci haksız ve soğuk.",
+            "id": "c2-u05-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**\"Show, don't tell\" (Anlatma, göster):** Okuyucuya bir duyguyu ya da özelliği **söylemek** yerine, onu **çıkarabileceği** ayrıntılar verin.\n\n| Telling (anlatma) | Showing (gösterme) |\n|---|---|\n| *Selim was nervous.* | *Selim checked his tie for the fourth time. He wiped his palms on his trousers.* |\n| *The room was old.* | *The waiting room smelled of dust and stale coffee, and the plastic chair creaked.* |\n| *The interviewer was unfriendly.* | *She glanced at her clipboard, not at him. \"You're late,\" she said.* |\n| *She was very happy.* | *She laughed so hard she had to sit down.* |\n| *It was cold.* | *Her breath hung in the air like smoke.* |\n\n**Gösterme araçları:**\n\n**1. Eylem ve beden dili:** *He drummed his fingers on the table.* (sabırsızlık)\n\n**2. Diyalog:** Karakterin nasıl konuştuğu, kim olduğunu gösterir. *\"You're late,\" she said. He wasn't.*\n\n**3. Duyusal ayrıntı (beş duyu):**\n\n| Duyu | Örnek |\n|---|---|\n| Görme | *a woman in a grey suit* |\n| İşitme | *the chair creaked* |\n| Koku | *smelled of dust and stale coffee* |\n| Dokunma | *the cold metal of the handle* |\n| Tat | *the bitter taste of burnt toast* |\n\n**4. Kesin fiiller ve isimler** (C2 Ünite 2): *walked* yerine *shuffled*, *looked* yerine *glanced*.\n\n**Ne zaman \"tell\"?** Her şeyi göstermek metni çok uzatır. Önemsiz geçişlerde anlatmak normaldir: *Three weeks later, she moved to Ankara.*",
+        "examples": [
+          {
+            "en": "He drummed his fingers on the table and checked his phone again.",
+            "tr": "Parmaklarıyla masaya vurdu ve telefonuna bir kez daha baktı."
+          },
+          {
+            "en": "Her breath hung in the air like smoke.",
+            "tr": "Nefesi havada duman gibi asılı kaldı."
+          },
+          {
+            "en": "The kitchen smelled of cinnamon and burnt sugar.",
+            "tr": "Mutfak tarçın ve yanık şeker kokuyordu."
+          }
+        ],
+        "turkishNote": "Türkçe yazı geleneğinde, özellikle okul kompozisyonlarında, duygular genellikle doğrudan belirtilir: \"Çok mutluydu\", \"Çok üzüldü\". İngilizce yaratıcı yazarlıkta ise \"show, don't tell\" en temel kurallardan biridir. Bu ilke sadece öykü yazımında değil, IELTS ve CPE sınavlarındaki anlatı ve betimleme görevlerinde de yüksek puan getirir. Duyguyu adlandırmak yerine, okuyucunun onu \"görebileceği\" bir eylem ya da ayrıntı arayın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Showing\" örneği:",
+          "options": [
+            "She was angry.",
+            "She slammed the door so hard that a picture fell off the wall."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gösterme.",
+          "id": "c2-u05-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The room smelled of dust and coffee.\" hangi duyu?",
+          "options": [
+            "Koku",
+            "İşitme"
+          ],
+          "answerIndex": 0,
+          "explanation": "Koku.",
+          "id": "c2-u05-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He drummed his fingers on the table.\" ne gösteriyor?",
+          "options": [
+            "Sabırsızlık",
+            "Mutluluk"
+          ],
+          "answerIndex": 0,
+          "explanation": "Beden dili.",
+          "id": "c2-u05-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ne zaman \"tell\" uygun olabilir?",
+          "options": [
+            "Önemli duygusal anlarda",
+            "Önemsiz zaman geçişlerinde"
+          ],
+          "answerIndex": 1,
+          "explanation": "Three weeks later ...",
+          "id": "c2-u05-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Her ___ hung in the air like smoke. (It was cold.)",
+          "answers": [
+            "breath"
+          ],
+          "explanation": "breath.",
+          "id": "c2-u05-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The old wooden floor ___ under his feet. (gıcırdamak)",
+          "answers": [
+            "creaked",
+            "squeaked"
+          ],
+          "explanation": "creaked.",
+          "id": "c2-u05-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ her palms on her jeans before shaking his hand. (silmek)",
+          "answers": [
+            "wiped",
+            "rubbed"
+          ],
+          "explanation": "wiped.",
+          "id": "c2-u05-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The kitchen ___ of fresh bread and cinnamon. (kokmak)",
+          "answers": [
+            "smelled",
+            "smelt"
+          ],
+          "explanation": "smelled of.",
+          "id": "c2-u05-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Grandma's hands never stopped moving. Even when she sat down to watch television, they were busy: peeling an apple, knitting a scarf, folding a pile of washing that nobody had asked her to fold.",
+          "prompt": "Bu betimleme büyükanne hakkında ne gösteriyor?",
+          "options": [
+            "Tembel olduğunu",
+            "Çalışkan ve hiç boş durmayan biri olduğunu",
+            "Hasta olduğunu"
+          ],
+          "answerIndex": 1,
+          "explanation": "Show, don't tell.",
+          "id": "c2-u05-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "\"Show\" ile yeniden yazın (beden dili): \"He was tired.\" (He yawned ...)",
+          "accepted": [
+            "He yawned and rubbed his eyes.",
+            "He yawned and rubbed his eyes",
+            "He yawned and rubbed his eyes again.",
+            "He yawned and rubbed his eyes again",
+            "He yawned and his eyes kept closing.",
+            "He yawned and his eyes kept closing",
+            "He yawned and could barely keep his eyes open.",
+            "He yawned and could barely keep his eyes open",
+            "He yawned and rubbed his eyes slowly.",
+            "He yawned and rubbed his eyes slowly"
+          ],
+          "explanation": "He yawned and rubbed his eyes.",
+          "id": "c2-u05-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki \"telling\" cümlelerinin her birini 2–3 cümlelik bir \"showing\" sahnesine dönüştürerek sesli anlatın. Eylem, beden dili, diyalog ve en az üç farklı duyu kullanın: (1) The restaurant was busy. (2) My brother was excited about his trip. (3) The old woman was lonely. (4) The teacher was strict.",
+          "modelAnswer": "One: Every table was full, and waiters squeezed between the chairs with plates held high. The air smelled of garlic and grilled meat, and you had to shout to be heard over the clatter of cutlery. Two: My brother had packed his bag three days early. He kept checking the weather in Lisbon on his phone and asking me, \"Do you think I'll need a jacket?\" Three: The old woman set two cups on the table, then slowly put one back in the cupboard. The only sound in the flat was the ticking of the kitchen clock. Four: When Mr Özdemir walked in, the room fell silent. He placed his watch on the desk, glanced at it, and said, \"You have exactly forty minutes. Not one more.\"",
+          "rubric": [
+            "Eylem ve beden dili",
+            "Duyusal ayrıntı",
+            "Diyalog",
+            "Duyguyu adlandırmadan gösterme"
+          ]
+        },
+        "id": "c2-u05-l2-use"
+      }
+    },
+    {
+      "id": "c2-u05-l3",
+      "number": 3,
+      "title": "Serbest dolaylı anlatım ve anlatı zamanları",
+      "goal": "Serbest dolaylı anlatımı (free indirect speech) tanıyıp kullanabilir ve anlatıda geçmişe dönüş için past perfect, geçmişte gelecek için would / was going to yapılarını yerinde kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir öyküden (kurgusal)",
+        "body": "Ayşe stood at the window, watching the rain. He was late again. Of course he was. Why had she ever believed that things would be different this time?\n\nShe had met Murat twelve years earlier, at a friend's wedding in İzmir. He had been funny and charming, and he had made her laugh more than anyone she had ever known. They had danced until three in the morning.\n\nNow, she looked at the clock. Eleven fifteen. She would give him five more minutes. Then she would call her sister. Tomorrow, she was going to tell him everything. She would not cry. She would not change her mind.\n\nBut she didn't know, as she watched the rain, that Murat would never arrive.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did Ayşe and Murat meet?",
+            "options": [
+              "At work in İzmir",
+              "At a friend's wedding in İzmir",
+              "At university"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"at a friend's wedding in İzmir\"",
+            "id": "c2-u05-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the final sentence suggest?",
+            "options": [
+              "Murat will arrive soon.",
+              "Something has happened to Murat.",
+              "Ayşe will leave."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Murat would never arrive\" (ön sezdirme).",
+            "id": "c2-u05-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Serbest dolaylı anlatım (free indirect speech / thought):** Karakterin düşüncelerini, **tırnak** ve **\"she thought\"** kullanmadan, ama **üçüncü kişi ve geçmiş zamanla** aktarmak. Anlatıcının sesi ile karakterin sesi **birleşir**.\n\n| Tür | Örnek |\n|---|---|\n| **Doğrudan düşünce** | *\"He's late again,\" she thought. \"Why did I ever believe him?\"* |\n| **Dolaylı düşünce** | *She thought that he was late again and wondered why she had ever believed him.* |\n| **Serbest dolaylı** | *He was late again. Of course he was. Why had she ever believed that things would be different?* |\n\n**İpuçları:** Soru ve ünlem cümleleri, *Of course, Well, Oh*, karakterin konuşma dili ama üçüncü kişi zamirleri ve geçmiş zaman.\n\n**2. Anlatı zamanları:**\n\n| Zaman | İşlev | Örnek |\n|---|---|---|\n| **Past simple** | ana olay çizgisi | *Ayşe **stood** at the window.* |\n| **Past continuous** | arka plan | *She **was watching** the rain.* |\n| **Past perfect** | geçmişe dönüş (flashback) | *She **had met** Murat twelve years earlier.* |\n| **Past perfect continuous** | geçmişteki süreç | *She **had been waiting** for an hour.* |\n| **would + V** | geçmişte gelecek | *She **would give** him five more minutes.* |\n| **was / were going to** | geçmişteki plan | *Tomorrow, she **was going to** tell him.* |\n\n**Geçmişe dönüş ipucu:** Uzun bir geçmişe dönüşte, past perfect ile başlayıp birkaç cümleden sonra **past simple**'a geçmek doğaldır: *She **had met** Murat at a wedding. He **was** funny and charming ...*\n\n**3. Ön sezdirme için *would*:** *She didn't know that Murat **would never arrive**.* (Anlatıcı gelecekteki olayı ima ediyor.)",
+        "examples": [
+          {
+            "en": "She looked at the letter again. What was she supposed to do now?",
+            "tr": "Mektuba tekrar baktı. Şimdi ne yapması gerekiyordu?"
+          },
+          {
+            "en": "He had lived in that house for forty years.",
+            "tr": "O evde kırk yıl yaşamıştı."
+          },
+          {
+            "en": "Years later, she would remember that morning as the happiest of her life.",
+            "tr": "Yıllar sonra o sabahı hayatının en mutlu sabahı olarak hatırlayacaktı."
+          }
+        ],
+        "turkishNote": "Türkçe edebiyatta serbest dolaylı anlatım çok yaygındır ve genellikle \"-mış\" ekiyle ya da doğrudan karakterin iç sesiyle yapılır. İngilizcede ise zaman uyumu (backshift) önemlidir: Karakterin şimdiki düşüncesi bile geçmiş zamanla yazılır (\"He was late again\", ✗ \"He is late again\"). Türk öğrencilerin İngilizce öykülerinde sık görülen bir hata, geçmişe dönüşte past perfect kullanmamak ya da tersine her cümlede past perfect kullanmaktır. Başlangıçta past perfect, sonra past simple kullanmak en doğal yoldur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Serbest dolaylı anlatım:",
+          "options": [
+            "\"I'm so tired,\" she thought.",
+            "She was so tired. How much longer could she go on?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Tırnak yok, üçüncü kişi, geçmiş.",
+          "id": "c2-u05-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmişe dönüş için:",
+          "options": [
+            "She met him in 2010.",
+            "She had met him years earlier."
+          ],
+          "answerIndex": 1,
+          "explanation": "Past perfect.",
+          "id": "c2-u05-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmişte gelecek:",
+          "options": [
+            "She would call him tomorrow.",
+            "She will call him tomorrow."
+          ],
+          "answerIndex": 0,
+          "explanation": "would.",
+          "id": "c2-u05-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Years later, he would regret that decision.\" Bu cümle:",
+          "options": [
+            "Ön sezdirme yapıyor.",
+            "Geçmişe dönüyor."
+          ],
+          "answerIndex": 0,
+          "explanation": "Foreshadowing.",
+          "id": "c2-u05-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ lived in Paris before she moved to Istanbul. (past perfect)",
+          "answers": [
+            "had"
+          ],
+          "explanation": "had lived.",
+          "id": "c2-u05-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "He looked at the clock. He ___ give her ten more minutes. (geçmişte gelecek)",
+          "answers": [
+            "would"
+          ],
+          "explanation": "would.",
+          "id": "c2-u05-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ going to tell him the truth the next day. (geçmişteki plan)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "was going to.",
+          "id": "c2-u05-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "By the time the bus came, they had ___ waiting for an hour.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "had been waiting.",
+          "id": "c2-u05-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Kemal opened the box slowly. Inside was the watch his father had given him on his eighteenth birthday. He had worn it every day for thirty years, until the morning he lost it at the station. And now, here it was. How was that possible?",
+          "prompt": "Kemal saati ne zaman kaybetmişti?",
+          "options": [
+            "On sekizinci doğum gününde",
+            "Otuz yıl taktıktan sonra, bir sabah istasyonda",
+            "Babasının evinde"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"He had worn it every day for thirty years, until the morning he lost it at the station.\"",
+          "id": "c2-u05-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Serbest dolaylı anlatıma çevirin: \"'Where is my phone?' she thought. 'I had it a minute ago!'\" (Where was ...)",
+          "accepted": [
+            "Where was her phone? She had had it a minute ago!",
+            "Where was her phone? She had had it a minute ago",
+            "Where was her phone? She'd had it a minute ago!",
+            "Where was her phone? She'd had it a minute ago",
+            "Where was her phone? She had it a minute ago!",
+            "Where was her phone? She had it a minute ago"
+          ],
+          "explanation": "Where was her phone? She had had it a minute ago!",
+          "id": "c2-u05-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir karakterin önemli bir karar anını anlatan kısa bir sahne kurgulayıp sesli anlatın (1 dakika). Şunları kullanın: (1) Şimdiki anı past simple ve continuous ile. (2) Kısa bir geçmişe dönüş (past perfect ile başlayıp past simple'a geçerek). (3) En az iki cümle serbest dolaylı anlatım (soru / ünlem, karakterin iç sesi). (4) Geçmişte gelecek (would / was going to) ve bir ön sezdirme cümlesi.",
+          "modelAnswer": "Deniz was standing outside the office building, holding the envelope. It was raining lightly. Should she really do this? Fifteen years. Fifteen years in the same job, at the same desk. She had started there straight after university. She had been so excited on that first day. Her mother bought her a new pair of shoes, and she wore them until they fell apart. But things were different now, weren't they? She was going to hand in her resignation, and then she would finally book that ticket to Japan. She took a deep breath and walked in. She didn't know yet that her manager was about to offer her something she could never have imagined.",
+          "rubric": [
+            "Anlatı zamanları",
+            "Geçmişe dönüş",
+            "Serbest dolaylı anlatım",
+            "Geçmişte gelecek ve ön sezdirme"
+          ]
+        },
+        "id": "c2-u05-l3-use"
+      }
+    },
+    {
+      "id": "c2-u05-l4",
+      "number": 4,
+      "title": "Edebi araçlar",
+      "goal": "Ön sezdirme, simge, imge, kişileştirme ve doğanın ruh hali (pathetic fallacy) gibi edebi araçları bir metinde tanıyıp analiz edebilir ve kendi yazımda kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir öyküden (kurgusal)",
+        "body": "The old clock in the hall had stopped at ten past four, the hour her father had left. Nobody had wound it since.\n\nOutside, the sky was heavy and grey, and the wind moaned through the empty branches of the walnut tree. Its leaves had fallen early that year, as if the tree, too, had given up waiting.\n\nNermin sat by the window with the letter in her lap. She hadn't opened it. Somewhere in the house, a door creaked, and for a moment she held her breath. But it was only the wind.\n\nThen, slowly, the clouds began to part, and a thin line of sunlight fell across the floor, across the letter, across her hands. She picked it up and, for the first time in three years, she began to read.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the stopped clock represent?",
+            "options": [
+              "A broken machine",
+              "The moment her father left; time stopped for the family",
+              "The family's poverty"
+            ],
+            "answerIndex": 1,
+            "explanation": "Simge.",
+            "id": "c2-u05-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the sunlight at the end suggest?",
+            "options": [
+              "A storm is coming.",
+              "Hope and a new beginning",
+              "Night is falling."
+            ],
+            "answerIndex": 1,
+            "explanation": "Pathetic fallacy / simge.",
+            "id": "c2-u05-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Edebi araçlar (literary devices):**\n\n| Araç | Tanım | Örnek |\n|---|---|---|\n| **Simge (symbol)** | Somut bir nesnenin soyut bir anlam taşıması | *The clock had stopped at ten past four, the hour her father had left.* (donmuş zaman, yas) |\n| **İmge / imgelem (imagery)** | Duyulara hitap eden canlı betimleme | *a thin line of sunlight fell across the floor* |\n| **Kişileştirme (personification)** | İnsan olmayan bir şeye insan özelliği vermek | *the wind **moaned***, *the tree **had given up waiting*** |\n| **Doğanın ruh hali (pathetic fallacy)** | Hava ya da doğanın karakterin duygularını yansıtması | grey sky = hüzün; sunlight = umut |\n| **Ön sezdirme (foreshadowing)** | İleride olacaklara ince ipuçları | *She didn't know that he would never arrive.* |\n| **Benzetme / metafor** | (C2 Ünite 4) | *as if the tree, too, had given up waiting* |\n| **Motif** | Metinde tekrarlanan imge ya da fikir | saatler, kapılar, beklemek |\n\n**Bir metni analiz ederken kullanılacak kalıplar:**\n\n- *The stopped clock **symbolises / represents** ...*\n- *The writer **uses personification** to suggest that ...*\n- *The weather **reflects** the character's mood.*\n- *This **foreshadows** the ending.*\n- *The imagery of light and darkness **creates a sense of** hope / tension.*\n- *This **could be interpreted as** ...* (temkinli yorum, C1 Ünite 6)\n\n**Analiz formülü:** **Araç** (ne?) + **Örnek** (nerede?) + **Etki** (okuyucuda ne yaratıyor?)\n\n*The writer uses **pathetic fallacy**: the **heavy grey sky** at the start **reflects Nermin's grief**, while the sunlight at the end **suggests a new beginning**.*",
+        "examples": [
+          {
+            "en": "The locked door symbolises the secrets the family keeps.",
+            "tr": "Kilitli kapı ailenin sakladığı sırları simgeliyor."
+          },
+          {
+            "en": "The storm reflects the character's inner turmoil.",
+            "tr": "Fırtına karakterin iç karmaşasını yansıtıyor."
+          },
+          {
+            "en": "This could be interpreted as a sign of hope.",
+            "tr": "Bu bir umut işareti olarak yorumlanabilir."
+          }
+        ],
+        "turkishNote": "Türk edebiyatı derslerinde \"teşhis\" (kişileştirme), \"sembol\" ve \"imge\" kavramları zaten öğretilir; İngilizce terimleri öğrenmek bu bilgiyi aktarmanızı kolaylaştırır. \"Pathetic fallacy\" ise Türkçede tek bir yerleşik terimle karşılanmaz; doğanın ve havanın karakterin ruh halini yansıtması anlamına gelir. CPE ve IELTS gibi sınavlarda, ayrıca İngilizce edebiyat derslerinde \"Araç + Örnek + Etki\" formülü ile analiz yazmak beklenir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The wind moaned through the trees.\"",
+          "options": [
+            "Kişileştirme",
+            "Simge"
+          ],
+          "answerIndex": 0,
+          "explanation": "Personification.",
+          "id": "c2-u05-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hava durumunun karakterin duygularını yansıtması:",
+          "options": [
+            "Pathetic fallacy",
+            "Flashback"
+          ],
+          "answerIndex": 0,
+          "explanation": "Pathetic fallacy.",
+          "id": "c2-u05-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Little did she know that this would be their last conversation.\"",
+          "options": [
+            "Ön sezdirme",
+            "Kişileştirme"
+          ],
+          "answerIndex": 0,
+          "explanation": "Foreshadowing.",
+          "id": "c2-u05-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Analiz formülü:",
+          "options": [
+            "Araç + Örnek + Etki",
+            "Özet + Yorum"
+          ],
+          "answerIndex": 0,
+          "explanation": "Device + example + effect.",
+          "id": "c2-u05-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The stopped clock ___ the moment the family's life changed. (simgelemek)",
+          "answers": [
+            "symbolises",
+            "represents",
+            "symbolizes"
+          ],
+          "explanation": "symbolises.",
+          "id": "c2-u05-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The dark storm ___ the character's anger. (yansıtmak)",
+          "answers": [
+            "reflects",
+            "mirrors"
+          ],
+          "explanation": "reflects.",
+          "id": "c2-u05-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "This early scene ___ the tragic ending. (önceden sezdirmek)",
+          "answers": [
+            "foreshadows"
+          ],
+          "explanation": "foreshadows.",
+          "id": "c2-u05-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The ending could be ___ as a sign of hope. (yorumlanmak)",
+          "answers": [
+            "interpreted",
+            "seen",
+            "read"
+          ],
+          "explanation": "could be interpreted as.",
+          "id": "c2-u05-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Throughout the novel, the river appears again and again. At the beginning, it is calm and clear. By the middle, after the family's troubles begin, it floods the village. In the final chapter, it is calm once more, and the children swim in it together.",
+          "prompt": "Romanda nehir neyi simgeliyor olabilir?",
+          "options": [
+            "Ailenin yaşadığı değişimleri ve iyileşmeyi",
+            "Köyün ekonomisini",
+            "Hiçbir şeyi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Motif / simge.",
+          "id": "c2-u05-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "symbol",
+              "right": "an object with a deeper meaning"
+            },
+            {
+              "left": "personification",
+              "right": "giving human qualities to things"
+            },
+            {
+              "left": "pathetic fallacy",
+              "right": "weather reflecting emotions"
+            },
+            {
+              "left": "foreshadowing",
+              "right": "hints about future events"
+            },
+            {
+              "left": "imagery",
+              "right": "vivid sensory description"
+            }
+          ],
+          "explanation": "Her terimi tanımıyla eşleştirin.",
+          "id": "c2-u05-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Okuduğunuz bir roman, öykü, şiir ya da izlediğiniz bir filmden en az üç edebi aracı analiz edin (1 dakika). Her biri için \"Araç + Örnek + Etki\" formülünü kullanın ve analiz kalıplarından (symbolises, reflects, foreshadows, creates a sense of, could be interpreted as) yararlanın.",
+          "modelAnswer": "In the film I watched recently, the director uses several literary devices very effectively. The first is symbolism. The main character keeps an old, broken radio on her kitchen table, which could be interpreted as a symbol of her past and her inability to move on. Secondly, there's a lot of pathetic fallacy. In the scenes where she's grieving, it's always raining, and the colours are grey and cold, which reflects her depression. Finally, there's an early scene where her son nearly falls off a bridge. At the time it seems unimportant, but it actually foreshadows the accident at the end. All of these details create a strong sense of sadness, but also, by the final scene, of hope.",
+          "rubric": [
+            "En az üç edebi araç",
+            "Araç + Örnek + Etki",
+            "Analiz kalıpları",
+            "Temkinli yorum"
+          ]
+        },
+        "id": "c2-u05-l4-use"
+      }
+    },
+    {
+      "id": "c2-u05-l5",
+      "number": 5,
+      "title": "Kısa öykü yazmak",
+      "goal": "Bu ünitedeki teknikleri (anlatıcı seçimi, show don't tell, serbest dolaylı anlatım, anlatı zamanları, edebi araçlar) birleştirerek etkileyici bir kısa öykü ya da sahne yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek kısa öykü: \"The Key\" (kurgusal)",
+        "body": "The key had been hanging on the same nail by the door for as long as Elif could remember. Nobody knew what it opened. Her grandmother just smiled whenever anyone asked.\n\nNow her grandmother was gone, and the house smelled of lavender and old paper. Elif moved slowly from room to room, touching things: the cracked teacup, the radio that only played one station, the photographs in which everyone was young.\n\nIn the attic, behind a pile of blankets, she found a small wooden box. It was locked.\n\nHer heart was beating faster now. Could it be? She ran downstairs, took the key from its nail and climbed back up, two steps at a time.\n\nThe key turned easily, as if it had been waiting.\n\nInside, there was only a letter, addressed to her, in her grandmother's careful handwriting. The date on the envelope was the day Elif was born.\n\nOutside, the late afternoon sun broke through the clouds. Elif sat down on the dusty floor, opened the letter and began to read.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did Elif find the box?",
+            "options": [
+              "In the kitchen",
+              "In the attic",
+              "In the garden"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"In the attic, behind a pile of blankets\"",
+            "id": "c2-u05-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was special about the letter?",
+            "options": [
+              "It was very old and in a foreign language.",
+              "It was addressed to Elif and dated the day she was born.",
+              "It was from her father."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"addressed to her ... the day Elif was born\"",
+            "id": "c2-u05-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Kısa öykü yapısı:**\n\n| Bölüm | İşlev | Örnek (\"The Key\") |\n|---|---|---|\n| **1. Açılış (hook)** | Merak uyandıran bir ayrıntı | *The key had been hanging on the same nail ... Nobody knew what it opened.* |\n| **2. Mekân ve karakter** | Show, don't tell ile | *The house smelled of lavender and old paper.* |\n| **3. Gelişme** | Bir keşif, bir problem | *She found a small wooden box. It was locked.* |\n| **4. Gerilim / doruk** | Kısa cümleler, hızlanan ritim | *Could it be? She ran downstairs ...* |\n| **5. Çözüm / son** | Dokunaklı ya da açık uçlu | *She opened the letter and began to read.* |\n\n**Ünitedeki teknikler:**\n\n| Teknik | Örnek |\n|---|---|\n| **Anlatıcı** | üçüncü kişi sınırlı (Elif'in gözünden) |\n| **Show, don't tell** | *touching things: the cracked teacup, the radio ...* (yas ve özlem) |\n| **Serbest dolaylı anlatım** | *Could it be?* |\n| **Geçmişe dönüş** | *had been hanging ... for as long as Elif could remember* |\n| **Simge** | anahtar (sır, miras, bağ) |\n| **Kişileştirme** | *as if it had been waiting* |\n| **Pathetic fallacy** | *the sun broke through the clouds* (umut) |\n| **Ritim** | *It was locked.* (kısa cümle, gerilim) |\n\n**İyi bir kısa öykü için ipuçları:**\n\n1. **Tek bir an, tek bir değişim:** Kısa öyküde her şeyi anlatmaya çalışmayın.\n2. **Az karakter:** Bir ya da iki karakter yeterlidir.\n3. **Güçlü ilk cümle:** Okuyucuyu hemen içine çekin.\n4. **Açık uçlu son:** Her şeyi açıklamak zorunda değilsiniz; okuyucunun hayal gücüne bırakın.\n5. **Her kelime önemlidir:** Gereksiz sıfat ve zarfları atın.",
+        "examples": [
+          {
+            "en": "Nobody knew what it opened.",
+            "tr": "Kimse neyi açtığını bilmiyordu."
+          },
+          {
+            "en": "The key turned easily, as if it had been waiting.",
+            "tr": "Anahtar sanki bekliyormuş gibi kolayca döndü."
+          },
+          {
+            "en": "She opened the letter and began to read.",
+            "tr": "Mektubu açtı ve okumaya başladı."
+          }
+        ],
+        "turkishNote": "Türk edebiyatında da kısa öykü güçlü bir gelenektir ve Sait Faik Abasıyanık gibi yazarlar \"tek bir an\" üzerine kurulu öyküleriyle tanınır. İngilizce kısa öykü yazarken en önemli fark, sadeliktir: Kısa cümleler, güçlü fiiller ve az sıfat. Türk öğrencilerin İngilizce öykülerinde sık görülen bir sorun, her şeyi açıklayan uzun bir sondur. İngilizce kısa öykü geleneği genellikle açık uçlu, okuyucuya düşündüren sonları tercih eder."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "İyi bir kısa öykünün açılışı:",
+          "options": [
+            "Okuyucuyu hemen içine çeken merak uyandırıcı bir ayrıntı",
+            "Karakterin bütün hayat hikâyesi"
+          ],
+          "answerIndex": 0,
+          "explanation": "Hook.",
+          "id": "c2-u05-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kısa öyküde ideal karakter sayısı:",
+          "options": [
+            "Bir ya da iki",
+            "On ya da daha fazla"
+          ],
+          "answerIndex": 0,
+          "explanation": "Az karakter.",
+          "id": "c2-u05-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The key turned easily, as if it had been waiting.\"",
+          "options": [
+            "Kişileştirme",
+            "Ön sezdirme"
+          ],
+          "answerIndex": 0,
+          "explanation": "Personification.",
+          "id": "c2-u05-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gerilim anında ritim:",
+          "options": [
+            "Kısa cümleler",
+            "Çok uzun, karmaşık cümleler"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kısa cümleler.",
+          "id": "c2-u05-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nobody ___ what the key opened. (bilmek, geçmiş)",
+          "answers": [
+            "knew"
+          ],
+          "explanation": "knew.",
+          "id": "c2-u05-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The key had been hanging there for as long as she could ___.",
+          "answers": [
+            "remember"
+          ],
+          "explanation": "for as long as she could remember.",
+          "id": "c2-u05-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Her heart was beating ___ now. (daha hızlı)",
+          "answers": [
+            "faster"
+          ],
+          "explanation": "faster.",
+          "id": "c2-u05-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She opened the letter and ___ to read.",
+          "answers": [
+            "began",
+            "started"
+          ],
+          "explanation": "began to read.",
+          "id": "c2-u05-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The phone rang at exactly midnight. Selim stared at it. Nobody ever called him, not anymore. On the fourth ring, he picked it up. Silence. Then a voice he hadn't heard for twenty years said, \"It's me. Please don't hang up.\"",
+          "prompt": "Bu açılış neden etkili?",
+          "options": [
+            "Her şeyi açıklıyor.",
+            "Merak ve gerilim yaratıyor, okuyucu kimin aradığını bilmiyor."
+          ],
+          "answerIndex": 1,
+          "explanation": "Hook + suspense.",
+          "id": "c2-u05-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Merak uyandıran bir ilk cümle yazın: \"Kapı yirmi yıldır kilitliydi.\" (The door had ...)",
+          "accepted": [
+            "The door had been locked for twenty years.",
+            "The door had been locked for twenty years",
+            "The door had stayed locked for twenty years.",
+            "The door had stayed locked for twenty years",
+            "The door had remained locked for twenty years.",
+            "The door had remained locked for twenty years"
+          ],
+          "explanation": "The door had been locked for twenty years.",
+          "id": "c2-u05-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki ilk cümlelerden biriyle başlayan bir kısa öykü yazın (250–350 kelime): (1) \"The letter arrived thirty years too late.\" (2) \"Nobody in the village had ever seen the lighthouse lit.\" (3) \"She recognised the voice before she saw the face.\" Ünitedeki teknikleri bilinçli kullanın: tutarlı bir anlatıcı, show don't tell (en az üç duyu), en az iki cümle serbest dolaylı anlatım, bir geçmişe dönüş (past perfect), bir simge, kişileştirme veya pathetic fallacy ve açık uçlu ya da dokunaklı bir son.",
+          "modelAnswer": "She recognised the voice before she saw the face.\n\n\"Excuse me, is this seat taken?\"\n\nThe train was crowded, and the air smelled of wet coats and cheap coffee. Zehra looked up from her book. The man was older, of course, his hair grey at the temples, but his eyes were exactly the same.\n\n\"No,\" she said. \"It's free.\"\n\nHe sat down and opened a newspaper. He didn't recognise her. Why would he? Thirty years was a long time.\n\nThey had been students together in Ankara. Every Friday, they had walked to the same small café near the university, where the owner played old records and the tea came in chipped glasses. He had promised to write when he went abroad. He never did.\n\nOutside, the grey fields slid past the window. Rain ran down the glass in thin, crooked lines, like tears that couldn't decide where to fall.\n\nShould she say something? What would she even say? Do you remember me? Did you ever think of me?\n\nShe noticed that he was holding a small, faded photograph between the pages of his newspaper. She leaned slightly closer. It was a picture of two students, laughing, outside a café, a record player just visible behind them.\n\nZehra's hands began to shake. She closed her book.\n\nThe train began to slow down. \"Next stop, Eskişehir,\" announced a tired voice.\n\nThe man folded his newspaper, slipped the photograph carefully into his coat pocket and stood up. For a moment, he paused, and she thought he was going to turn around.\n\nThen the doors opened, and the cold air rushed in.",
+          "rubric": [
+            "Tutarlı anlatıcı",
+            "Show, don't tell ve duyusal ayrıntı",
+            "Serbest dolaylı anlatım",
+            "Geçmişe dönüş ve edebi araçlar",
+            "Etkileyici açık uçlu son"
+          ]
+        },
+        "id": "c2-u05-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I\" kullanan anlatıcı:",
+        "options": [
+          "First person",
+          "Omniscient"
+        ],
+        "answerIndex": 0,
+        "explanation": "First person",
+        "id": "c2-u05-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Herkesin düşüncelerini bilen anlatıcı:",
+        "options": [
+          "Omniscient",
+          "Third person limited"
+        ],
+        "answerIndex": 0,
+        "explanation": "Omniscient",
+        "id": "c2-u05-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Show\" örneği:",
+        "options": [
+          "He was nervous.",
+          "He bit his nails and kept checking the door."
+        ],
+        "answerIndex": 1,
+        "explanation": "Show, don't tell",
+        "id": "c2-u05-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Serbest dolaylı anlatım:",
+        "options": [
+          "\"Where am I?\" she thought.",
+          "Where was she? Nothing looked familiar."
+        ],
+        "answerIndex": 1,
+        "explanation": "Free indirect",
+        "id": "c2-u05-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"The stars watched over the sleeping city.\"",
+        "options": [
+          "Kişileştirme",
+          "Flashback"
+        ],
+        "answerIndex": 0,
+        "explanation": "Personification",
+        "id": "c2-u05-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ met him ten years earlier, at a concert. (geçmişe dönüş)",
+        "answers": [
+          "had"
+        ],
+        "explanation": "Past perfect",
+        "id": "c2-u05-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "He looked at his watch. He ___ wait five more minutes. (geçmişte gelecek)",
+        "answers": [
+          "would"
+        ],
+        "explanation": "would",
+        "id": "c2-u05-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "The story is told from the point of ___ of a teenage boy.",
+        "answers": [
+          "view"
+        ],
+        "explanation": "point of view",
+        "id": "c2-u05-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "The kitchen ___ of coffee and burnt toast. (kokmak)",
+        "answers": [
+          "smelled",
+          "smelt"
+        ],
+        "explanation": "smelled of",
+        "id": "c2-u05-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "The broken mirror ___ the family's broken relationships. (simgelemek)",
+        "answers": [
+          "symbolises",
+          "represents",
+          "symbolizes"
+        ],
+        "explanation": "symbolises",
+        "id": "c2-u05-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "The heavy rain ___ her sadness. (yansıtmak)",
+        "answers": [
+          "reflects",
+          "mirrors"
+        ],
+        "explanation": "Pathetic fallacy",
+        "id": "c2-u05-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "This early detail ___ the tragic ending. (önceden sezdirmek)",
+        "answers": [
+          "foreshadows"
+        ],
+        "explanation": "foreshadows",
+        "id": "c2-u05-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "The narrator tells us again and again that she never cared about her sister's success. Yet she remembers every one of her sister's achievements in perfect detail, and she becomes angry whenever anyone mentions them.",
+        "prompt": "Bu anlatıcı hakkında ne söylenebilir?",
+        "options": [
+          "Tamamen güvenilir",
+          "Güvenilmez olabilir; söyledikleri davranışlarıyla çelişiyor"
+        ],
+        "answerIndex": 1,
+        "explanation": "Unreliable narrator",
+        "id": "c2-u05-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Serbest dolaylı anlatıma çevirin: \"'Why didn't he call?' she thought.\" (Why hadn't ...)",
+        "accepted": [
+          "Why hadn't he called?",
+          "Why hadn't he called",
+          "Why hadn't he called her?",
+          "Why hadn't he called her"
+        ],
+        "explanation": "Why hadn't he called?",
+        "id": "c2-u05-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Aşağıdaki ilk cümlelerden biriyle başlayan bir kısa öykü yazın (250–350 kelime): (1) \"The house was exactly as she had left it.\" (2) \"It was the last train of the night, and he was the only passenger.\" (3) \"Everyone in the town knew the story, but nobody knew the truth.\" Tutarlı bir anlatıcı, show don't tell (en az üç duyu), serbest dolaylı anlatım, geçmişe dönüş, en az iki edebi araç (simge, kişileştirme, pathetic fallacy, ön sezdirme) ve etkileyici bir son kullanın.",
+        "modelAnswer": "It was the last train of the night, and he was the only passenger.\n\nOrhan sat by the window, his suitcase between his knees. The carriage smelled of disinfectant and old leather, and the fluorescent light above him flickered every few seconds, as if it, too, were struggling to stay awake.\n\nHe had not been back to the town for twenty-two years. Not since the funeral. He had left the morning after, without saying goodbye to anyone, and he had told himself that he would never return.\n\nAnd yet here he was. Why now? Why, after all this time, had one short phone call been enough?\n\n\"Your mother's house,\" the lawyer had said. \"It's yours now. Someone needs to decide what to do with it.\"\n\nOutside, the darkness pressed against the glass. Every so often, a small station flashed past: an empty bench, a single lamp, a sign with a name he half-remembered.\n\nHe took the old key from his pocket and turned it over in his fingers. It was heavier than he remembered. The metal was cold, and there was still a piece of faded red thread tied to it. His mother had tied that thread there so that he would never lose it.\n\nHe had lost so many other things.\n\nThe train began to slow. Through the window, he could see the outline of the hills, and above them, faintly, the first grey light of morning.\n\n\"Last stop,\" said the conductor, though there was no one else to hear.\n\nOrhan stood up, picked up his suitcase and, for the first time in twenty-two years, stepped onto the platform of the town where he was born.\n\nThe air smelled of pine and rain. Somewhere, a dog was barking. He tightened his hand around the key and began to walk.",
+        "rubric": [
+          "Tutarlı anlatıcı",
+          "Show, don't tell",
+          "Serbest dolaylı anlatım ve geçmişe dönüş",
+          "En az iki edebi araç",
+          "Etkileyici son"
+        ],
+        "id": "c2-u05-t15"
+      }
+    ]
+  }
+}
