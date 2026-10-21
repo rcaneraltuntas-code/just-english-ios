@@ -1,121 +1,254 @@
 import SwiftUI
 import JECore
 
-// Ana sayfanın içerik kartları: haftalık etkinlik, kısayollar, günün kelimesi, lig ve sıradaki canlı ders.
+// Ana sayfanın parçaları (referans tasarımdaki düzen): selamlı başlık, JAI kartı, seri haftası,
+// iki küçük istatistik kartı, "akıcılık yolunuz" listesi ve günün kelimesi.
 
-/// Son 7 günün XP çubukları; bugünkü çubuk marka kırmızısı, hedefe ulaşılan günler dolu.
-struct WeekActivityCard: View {
+/// Mavi bandın üstündeki selam: JAI avatarı, ad, zil ve öğrenilen dilin bayrağı.
+struct HomeHeader: View {
     @Environment(AppModel.self) private var model
-    @State private var grown = false
+    @Environment(\.selectTab) private var selectTab
 
     var body: some View {
         let progress = model.state.progress
-        let days = progress.recentDays(7, endingAt: .now)
-        let goal = max(progress.dailyGoalXP, 1)
-        let peak = max(days.map(\.xp).max() ?? 0, goal)
-        let total = days.map(\.xp).reduce(0, +)
-        VStack(alignment: .leading, spacing: 14) {
-            HStack(alignment: .firstTextBaseline) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text("Bu hafta").font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
-                    Text("Son 7 günde \(total) XP").font(.jakarta(.footnote)).foregroundStyle(.secondary)
-                }
-                Spacer()
-                Label("\(days.filter { $0.xp >= goal }.count)/7 gün hedef", systemImage: "target")
-                    .font(.jakarta(.caption, weight: .bold))
-                    .foregroundStyle(Theme.accent)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 5)
-                    .background(Theme.accentSoft, in: Capsule())
+        HStack(spacing: 12) {
+            JAIView(mood: progress.goalReachedToday ? .happy : .idle, size: 38)
+                .frame(width: 46, height: 46)
+                .background(.white, in: Circle())
+                .shadow(color: Theme.ink.opacity(0.12), radius: 6, y: 3)
+            VStack(alignment: .leading, spacing: 1) {
+                Text(greetingTime).font(.jakarta(.caption, weight: .semibold)).foregroundStyle(.white.opacity(0.85))
+                Text(model.state.name.isEmpty ? "Merhaba!" : "Merhaba, \(model.state.name)!")
+                    .font(.jakarta(.title3, weight: .heavy))
+                    .foregroundStyle(.white)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.8)
             }
-            HStack(alignment: .bottom, spacing: 10) {
-                ForEach(Array(days.enumerated()), id: \.offset) { index, day in
-                    let isToday = index == days.count - 1
-                    let reached = day.xp >= goal
-                    VStack(spacing: 6) {
-                        Text(day.xp > 0 ? "\(day.xp)" : "")
-                            .font(.jakarta(.caption2, weight: .bold))
-                            .foregroundStyle(isToday ? Theme.accent : reached ? Theme.success : .secondary)
-                        Capsule()
-                            .fill(isToday ? AnyShapeStyle(Theme.brandGradient)
-                                  : reached ? AnyShapeStyle(Theme.success.gradient) : AnyShapeStyle(Color(uiColor: .systemGray4)))
-                            .frame(height: grown ? max(8, 84 * CGFloat(day.xp) / CGFloat(peak)) : 8)
-                            .overlay(alignment: .top) {
-                                if reached {
-                                    Image(systemName: "checkmark")
-                                        .font(.system(size: 9, weight: .black))
-                                        .foregroundStyle(.white)
-                                        .padding(.top, 5)
-                                }
-                            }
-                            .animation(Motion.pop.delay(Double(index) * 0.06), value: grown)
-                        Text(day.day.formatted(.dateTime.weekday(.narrow)))
-                            .font(.jakarta(.caption, weight: isToday ? .heavy : .semibold))
-                            .foregroundStyle(isToday ? Theme.accent : .secondary)
+            Spacer(minLength: 8)
+            // Zil: bekleyen kart tekrarı varsa küçük kırmızı nokta; dokununca pratiğe götürür.
+            Button { selectTab(.practice) } label: {
+                Image(systemName: "bell")
+                    .font(.system(size: 18, weight: .semibold))
+                    .foregroundStyle(.white)
+                    .frame(width: 42, height: 42)
+                    .glassCapsule(tint: .white, interactive: true)
+                    .overlay(alignment: .topTrailing) {
+                        if model.dueCards().count > 0 {
+                            Circle().fill(Theme.brandRed).frame(width: 9, height: 9).offset(x: -9, y: 9)
+                        }
                     }
-                    .frame(maxWidth: .infinity)
-                }
             }
-            .frame(height: 124, alignment: .bottom)
+            .accessibilityLabel("Bildirimler")
+            Text("🇬🇧")
+                .font(.system(size: 24))
+                .frame(width: 42, height: 42)
+                .glassCapsule(tint: .white)
+                .accessibilityLabel("Öğrenilen dil: İngilizce")
         }
-        .card()
-        .onAppear { grown = true }
-        .accessibilityElement(children: .combine)
-        .accessibilityLabel("Son 7 günde \(total) XP")
+        .padding(.top, 8)
+    }
+
+    private var greetingTime: String {
+        let hour = Calendar.current.component(.hour, from: .now)
+        return hour < 12 ? "Günaydın" : hour < 18 ? "İyi günler" : "İyi akşamlar"
+    }
+
+}
+
+/// "Yapay zekâ arkadaşınızla tanışın" kartı: JAI sekmesine götürür.
+struct AIBuddyCard: View {
+    @Environment(\.selectTab) private var selectTab
+    @State private var hop = 0
+
+    var body: some View {
+        HStack(alignment: .center, spacing: 12) {
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Yapay zekâ arkadaşınız JAI ile tanışın")
+                    .font(.jakarta(.headline, weight: .heavy))
+                    .foregroundStyle(Theme.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                Text("Bir arkadaşınızla konuşur gibi gerçek hayattan cümlelerle pratik yapın.")
+                    .font(.jakarta(.subheadline, weight: .medium))
+                    .foregroundStyle(.secondary)
+                    .fixedSize(horizontal: false, vertical: true)
+                Button { selectTab(.jai) } label: {
+                    Label("Pratiğe başla", systemImage: "sparkles")
+                        .padding(.horizontal, 18)
+                }
+                .buttonStyle(DepthButtonStyle(height: 44))
+                .fixedSize()
+                .padding(.top, 4)
+            }
+            Spacer(minLength: 0)
+            JAIView(mood: .happy, size: 86, bounceTrigger: hop)
+                .onTapGesture { hop += 1; Haptics.tap() }
+        }
+        .padding(18)
+        .glass(cornerRadius: 26)
+        .task {
+            try? await Task.sleep(for: .seconds(0.8))
+            hop += 1
+        }
     }
 }
 
-/// Dört kısayol: diğer sekmelere tek dokunuşla geçiş. Beyaz kartlar, her birinin kendi renkli simgesi var.
-struct QuickActionsGrid: View {
+/// Seri kartı: alev, mesaj ve pazartesiden pazara yedi gün (hedefi tutturulan günler işaretli).
+struct StreakWeekCard: View {
+    @Environment(AppModel.self) private var model
+
+    private static let labels = ["Pt", "Sa", "Ça", "Pe", "Cu", "Ct", "Pz"]
+
+    var body: some View {
+        let progress = model.state.progress
+        let streak = progress.displayedStreak(at: .now)
+        let done = weekDone(progress)
+        HStack(spacing: 14) {
+            Text("🔥")
+                .font(.system(size: 40))
+                .frame(width: 64, height: 76)
+                .background(Theme.streak.opacity(0.1), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
+                .symbolEffect(.bounce, value: streak)
+            VStack(alignment: .leading, spacing: 10) {
+                Text(streak > 0 ? "\(streak) günlük seri. Harika gidiyorsunuz!" : "Bugün hedefinizi tutturun, seriniz başlasın!")
+                    .font(.jakarta(.subheadline, weight: .heavy))
+                    .foregroundStyle(Theme.ink)
+                    .fixedSize(horizontal: false, vertical: true)
+                HStack(spacing: 0) {
+                    ForEach(0..<7, id: \.self) { i in
+                        VStack(spacing: 4) {
+                            ZStack {
+                                Circle()
+                                    .fill(done[i] ? AnyShapeStyle(Theme.warning.gradient) : AnyShapeStyle(Color.clear))
+                                Circle()
+                                    .stroke(done[i] ? Theme.warning : Color(uiColor: .systemGray4), lineWidth: 1.5)
+                                if done[i] {
+                                    Image(systemName: "checkmark").font(.system(size: 11, weight: .black)).foregroundStyle(.white)
+                                }
+                            }
+                            .frame(width: 24, height: 24)
+                            .scaleEffect(done[i] ? 1 : 0.92)
+                            Text(Self.labels[i])
+                                .font(.jakarta(.caption2, weight: .semibold))
+                                .foregroundStyle(.secondary)
+                        }
+                        .frame(maxWidth: .infinity)
+                        .staggeredAppear(i, delay: 0.04)
+                    }
+                }
+            }
+        }
+        .card()
+        .accessibilityElement(children: .combine)
+    }
+
+    /// Bu haftanın (pazartesi başlar) her günü için hedef tutturuldu mu?
+    private func weekDone(_ progress: StudyProgress) -> [Bool] {
+        let calendar = Calendar.current
+        let goal = max(progress.dailyGoalXP, 1)
+        guard let monday = StudyProgress.weekStart(of: .now, calendar: calendar) else { return Array(repeating: false, count: 7) }
+        let recent = progress.recentDays(7, endingAt: .now, calendar: calendar)
+        return (0..<7).map { offset in
+            guard let day = calendar.date(byAdding: .day, value: offset, to: monday) else { return false }
+            return recent.first { calendar.isDate($0.day, inSameDayAs: day) }.map { $0.xp >= goal } ?? false
+        }
+    }
+}
+
+/// İki küçük kart: bu haftaki XP ve günlük hedefe kalan.
+struct HomeStatPair: View {
+    @Environment(AppModel.self) private var model
+
+    var body: some View {
+        let progress = model.state.progress
+        let today = progress.todayDay.map { Calendar.current.isDateInToday($0) } == true ? progress.todayXP : 0
+        let left = max(progress.dailyGoalXP - today, 0)
+        // Hedef dakika olarak seçildi; 1 dakika ≈ 2 XP (DailyGoal.xp).
+        let minutes = Int((Double(left) / 2).rounded(.up))
+        HStack(spacing: 12) {
+            tile(emoji: "🏅", title: "\(progress.weekXP(at: .now)) XP", detail: "bu hafta kazanıldı")
+            tile(emoji: "🎯", title: left == 0 ? "Hedef tamam!" : "\(minutes) dk kaldı", detail: left == 0 ? "bugün harikasınız" : "günlük hedefe")
+        }
+    }
+
+    private func tile(emoji: String, title: String, detail: String) -> some View {
+        HStack(spacing: 10) {
+            Text(emoji).font(.system(size: 30))
+            VStack(alignment: .leading, spacing: 1) {
+                Text(title)
+                    .font(.jakarta(.headline, weight: .heavy))
+                    .foregroundStyle(Theme.ink)
+                    .lineLimit(1)
+                    .minimumScaleFactor(0.7)
+                    .contentTransition(.numericText())
+                Text(detail).font(.jakarta(.caption, weight: .medium)).foregroundStyle(.secondary).lineLimit(1)
+            }
+            Spacer(minLength: 0)
+        }
+        .card()
+    }
+}
+
+/// Referanstaki "Your path to fluency": her satır bir yere götürür, ilerleme metniyle.
+struct FluencyPathList: View {
+    let level: CEFRLevel
     @Environment(AppModel.self) private var model
     @Environment(\.selectTab) private var selectTab
     @Environment(\.openDictionary) private var openDictionary
 
     var body: some View {
+        let units = model.units(for: level)
+        let total = units.map(\.lessons.count).reduce(0, +)
+        let done = units.map { model.completedCount(in: $0) }.reduce(0, +)
         let due = model.dueCards().count
-        LazyVGrid(columns: [GridItem(.flexible(), spacing: 12), GridItem(.flexible(), spacing: 12)], spacing: 12) {
-            tile("Kelime tekrarı", detail: due > 0 ? "\(due) kart bekliyor" : "Bugünlük tamam",
-                 icon: "rectangle.stack.fill", color: Theme.accent, badge: due, index: 0) { selectTab(.practice) }
-            tile("Oyunlar", detail: "Eşleştir, yarış, yaz", icon: "gamecontroller.fill",
-                 color: Theme.warning, index: 1) { selectTab(.practice) }
-            tile("Sözlük", detail: "\(model.dictionary.count) kelime", icon: "character.book.closed.fill",
-                 color: Theme.color(for: .a2), index: 2) { openDictionary() }
-            tile("Canlı ders", detail: "Öğretmenle konuşun", icon: "video.fill",
-                 color: Theme.color(for: .c2), index: 3) { selectTab(.live) }
+        VStack(spacing: 10) {
+            if let unit = model.nextLesson?.unit {
+                NavigationLink(value: unit) {
+                    row("📚", "Dersleri tamamlayın", "\(level.rawValue): \(done) / \(total) ders tamamlandı", progress: Double(done) / Double(max(total, 1)))
+                }
+                .buttonStyle(PressableCardStyle())
+            }
+            Button { selectTab(.practice) } label: {
+                row("🃏", "Kelime kartlarını tekrar edin", due > 0 ? "\(due) kart sizi bekliyor" : "Bugünlük tekrar tamam")
+            }
+            .buttonStyle(PressableCardStyle())
+            Button { selectTab(.practice) } label: {
+                row("🎮", "Oyunlarla pekiştirin", "Eşleştirme, 60 saniye, dinle ve yaz")
+            }
+            .buttonStyle(PressableCardStyle())
+            Button { openDictionary() } label: {
+                row("📖", "Sözlükte kelime arayın", "\(model.dictionary.count) kelime ve kalıp")
+            }
+            .buttonStyle(PressableCardStyle())
+            Button { selectTab(.live) } label: {
+                row("🎥", "Canlı derse katılın", "Öğretmenle küçük grup dersleri")
+            }
+            .buttonStyle(PressableCardStyle())
+            NavigationLink { LeagueView() } label: {
+                row("🏆", "Haftalık lig", "Bu hafta \(model.state.progress.weekXP(at: .now)) XP")
+            }
+            .buttonStyle(PressableCardStyle())
         }
     }
 
-    private func tile(_ title: String, detail: String, icon: String, color: Color, badge: Int = 0, index: Int,
-                      action: @escaping () -> Void) -> some View {
-        Button(action: action) {
-            VStack(alignment: .leading, spacing: 12) {
-                HStack(alignment: .top) {
-                    Image(systemName: icon)
-                        .font(.system(size: 19, weight: .bold))
-                        .foregroundStyle(.white)
-                        .frame(width: 44, height: 44)
-                        .background(color.gradient, in: RoundedRectangle(cornerRadius: 13, style: .continuous))
-                        .shadow(color: color.opacity(0.35), radius: 6, y: 3)
-                    Spacer()
-                    if badge > 0 {
-                        Text("\(badge)")
-                            .font(.jakarta(.caption, weight: .heavy))
-                            .foregroundStyle(.white)
-                            .padding(.horizontal, 8)
-                            .padding(.vertical, 3)
-                            .background(Theme.accent, in: Capsule())
-                    }
-                }
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
-                    Text(detail).font(.jakarta(.caption, weight: .semibold)).foregroundStyle(.secondary).lineLimit(1)
+    private func row(_ emoji: String, _ title: String, _ detail: String, progress: Double? = nil) -> some View {
+        HStack(spacing: 14) {
+            Text(emoji)
+                .font(.system(size: 28))
+                .frame(width: 50, height: 50)
+                .background(Theme.surfaceRaised, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
+            VStack(alignment: .leading, spacing: 4) {
+                Text(title).font(.jakarta(.subheadline, weight: .heavy)).foregroundStyle(Theme.ink)
+                Text(detail).font(.jakarta(.footnote, weight: .medium)).foregroundStyle(.secondary).lineLimit(1)
+                if let progress {
+                    ProgressBar(value: progress, color: Theme.accent, height: 5).padding(.top, 2)
                 }
             }
-            .frame(maxWidth: .infinity, alignment: .topLeading)
-            .card()
+            Spacer(minLength: 4)
+            Image(systemName: "chevron.right").font(.jakarta(.subheadline, weight: .bold)).foregroundStyle(.tertiary)
         }
-        .buttonStyle(PressableCardStyle())
-        .staggeredAppear(index)
+        .padding(12)
+        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Theme.hairline, lineWidth: 1))
     }
 }
 
@@ -138,7 +271,7 @@ struct WordOfTheDayCard: View {
                 HStack {
                     Label("Günün kelimesi", systemImage: "sparkles")
                         .font(.jakarta(.caption, weight: .heavy))
-                        .foregroundStyle(Theme.warning)
+                        .foregroundStyle(.white.opacity(0.9))
                     Spacer()
                     LevelBadge(level: sense.level)
                 }
@@ -168,12 +301,12 @@ struct WordOfTheDayCard: View {
                 }
                 Text("“\(sense.card.example)”")
                     .font(.jakarta(.subheadline, weight: .medium))
-                    .foregroundStyle(.white.opacity(0.8))
+                    .foregroundStyle(.white.opacity(0.85))
                     .fixedSize(horizontal: false, vertical: true)
                 if model.isInDeck(sense.card.id) {
                     Label("Destenizde", systemImage: "checkmark.circle.fill")
                         .font(.jakarta(.footnote, weight: .bold))
-                        .foregroundStyle(Theme.success)
+                        .foregroundStyle(.white)
                 } else {
                     Button {
                         withAnimation(Motion.pop) { model.addToDeck(sense.card.id) }
@@ -181,80 +314,28 @@ struct WordOfTheDayCard: View {
                     } label: {
                         Label("Kartlarıma ekle", systemImage: "plus")
                     }
-                    .buttonStyle(DepthButtonStyle(color: .white, foreground: Theme.ink, height: 44))
+                    .buttonStyle(DepthButtonStyle(color: .white, foreground: Theme.ai, height: 44))
                 }
             }
             .padding(18)
             .background {
                 ZStack(alignment: .topTrailing) {
-                    Theme.violetGradient
-                    Circle().fill(.white.opacity(0.12)).frame(width: 160).blur(radius: 30).offset(x: 40, y: -40)
+                    Theme.aiGradient
+                    NeuralNetwork(animated: false, color: .white).opacity(0.6)
+                    Circle().fill(.white.opacity(0.15)).frame(width: 160).blur(radius: 30).offset(x: 40, y: -40)
                 }
                 .clipShape(RoundedRectangle(cornerRadius: 24, style: .continuous))
             }
+            .shadow(color: Theme.ai.opacity(0.3), radius: 16, y: 8)
             .contentShape(Rectangle())
             .onTapGesture { withAnimation(Motion.smooth) { revealed.toggle() } }
         }
     }
 }
 
-/// Lig ve sıradaki canlı ders: yan yana iki küçük kart.
-struct LeagueAndLiveRow: View {
-    @Environment(AppModel.self) private var model
-    @Environment(LiveSessionStore.self) private var store
-    @Environment(\.selectTab) private var selectTab
-
-    var body: some View {
-        HStack(alignment: .top, spacing: 12) {
-            NavigationLink { LeagueView() } label: {
-                VStack(alignment: .leading, spacing: 8) {
-                    Image(systemName: "trophy.fill")
-                        .font(.system(size: 18, weight: .bold))
-                        .foregroundStyle(.white)
-                        .frame(width: 38, height: 38)
-                        .background(Theme.warning.gradient, in: Circle())
-                    Text("Haftalık lig").font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
-                    RollingNumber(value: model.state.progress.weekXP(at: .now), suffix: " XP",
-                                  font: .jakarta(.title3, weight: .heavy))
-                        .foregroundStyle(Theme.warning)
-                    Text("Bu hafta").font(.jakarta(.caption)).foregroundStyle(.secondary)
-                }
-                .frame(maxWidth: .infinity, minHeight: 150, alignment: .topLeading)
-                .card()
-            }
-            .buttonStyle(PressableCardStyle())
-
-            Button { selectTab(.live) } label: {
-                VStack(alignment: .leading, spacing: 8) {
-                    HStack(spacing: 6) {
-                        LivePulse()
-                        Text("Canlı").font(.jakarta(.caption, weight: .heavy)).foregroundStyle(Theme.accent)
-                    }
-                    .frame(height: 38)
-                    if let next = store.sessions.first(where: { $0.startsAt > .now.addingTimeInterval(-3600) }) {
-                        Text(next.title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink).lineLimit(2)
-                        Text(next.startsAt.formatted(.relative(presentation: .named)))
-                            .font(.jakarta(.subheadline, weight: .bold))
-                            .foregroundStyle(Theme.accent)
-                        Text(next.teacherName).font(.jakarta(.caption)).foregroundStyle(.secondary)
-                    } else if let unit = model.nextLesson?.unit {
-                        Text(unit.liveClass.title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink).lineLimit(2)
-                        Text("\(unit.liveClass.durationMinutes) dk · küçük grup").font(.jakarta(.caption)).foregroundStyle(.secondary)
-                    } else {
-                        Text("Canlı dersler").font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
-                    }
-                }
-                .frame(maxWidth: .infinity, minHeight: 150, alignment: .topLeading)
-                .card()
-            }
-            .buttonStyle(PressableCardStyle())
-        }
-    }
-}
-
-/// "Canlı" yazısının yanında atan kırmızı nokta.
+/// "Canlı" yazısının yanında atan küçük kırmızı nokta (markanın kırmızısı yalnızca burada).
 struct LivePulse: View {
-    var color: Color = Theme.accent
+    var color: Color = Theme.brandRed
     @State private var pulse = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
