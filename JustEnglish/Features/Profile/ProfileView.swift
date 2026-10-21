@@ -31,6 +31,19 @@ struct ProfileView: View {
                     .padding(.vertical, 6)
                 }
 
+                Section {
+                    NavigationLink { LeagueView() } label: {
+                        Label {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text("Haftalık lig").font(.jakarta(.headline))
+                                Text("Bu hafta \(model.state.progress.weekXP(at: .now)) XP").font(.jakarta(.footnote)).foregroundStyle(.secondary)
+                            }
+                        } icon: {
+                            Image(systemName: "trophy.fill").foregroundStyle(Theme.warning)
+                        }
+                    }
+                }
+
                 Section("İstatistikler") {
                     stat("Gün serisi", "\(model.state.progress.displayedStreak(at: .now))", "flame.fill", Theme.streak)
                     stat("En uzun seri", "\(model.state.progress.longestStreak)", "trophy.fill", Theme.warning)

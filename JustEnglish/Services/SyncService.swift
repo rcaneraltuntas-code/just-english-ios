@@ -27,6 +27,11 @@ enum SyncService {
                 .upsert(Row(userID: userID, state: merged, currentLevel: merged.currentLevel.rawValue,
                             totalXP: merged.progress.totalXP, displayName: merged.name))
                 .execute()
+            // Haftalık lig: bu haftanın XP'si bildirilir (sunucu yalnızca artışı kabul eder).
+            struct LeagueReport: Encodable, Sendable { let p_week_xp: Int; let p_name: String }
+            try await client.rpc("league_report",
+                                 params: LeagueReport(p_week_xp: merged.progress.weekXP(at: .now), p_name: merged.name))
+                .execute()
         } catch {
             // Eşitleme hatası öğrenciyi durdurmaz; bir sonraki açılışta tekrar denenir.
             print("Eşitleme başarısız: \(error)")

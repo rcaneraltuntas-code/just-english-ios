@@ -37,6 +37,10 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     public var freezesAvailable: Int
     /// Seri koruyucunun en son yenilendiği haftanın başlangıcı.
     public var lastFreezeRefill: Date?
+    /// Haftalık lig için: bu haftanın başlangıcı (pazartesi) ve o hafta kazanılan XP.
+    /// Eski kayıtlarla uyumlu olsun diye isteğe bağlı tutulur.
+    public var weekStart: Date?
+    public var weekXPStored: Int?
 
     public init(dailyGoalXP: Int = DailyGoal.regular.xp) {
         self.dailyGoalXP = dailyGoalXP
@@ -58,6 +62,12 @@ public struct StudyProgress: Codable, Hashable, Sendable {
             todayDay = today
             todayXP = 0
         }
+        let week = Self.weekStart(of: now, calendar: calendar)
+        if weekStart != week {
+            weekStart = week
+            weekXPStored = 0
+        }
+        weekXPStored = (weekXPStored ?? 0) + xp
         let wasReached = goalReachedToday
         todayXP += xp
         totalXP += xp
@@ -80,6 +90,18 @@ public struct StudyProgress: Codable, Hashable, Sendable {
         longestStreak = max(longestStreak, streak)
     }
 
+    /// Bu haftanın XP'si; hafta değiştiyse 0.
+    public func weekXP(at now: Date, calendar: Calendar = .current) -> Int {
+        weekStart == Self.weekStart(of: now, calendar: calendar) ? (weekXPStored ?? 0) : 0
+    }
+
+    /// Haftanın başlangıcı: pazartesi 00:00 (yerel saat).
+    public static func weekStart(of date: Date, calendar: Calendar = .current) -> Date? {
+        var calendar = calendar
+        calendar.firstWeekday = 2
+        return calendar.dateInterval(of: .weekOfYear, for: date)?.start
+    }
+
     /// Uygulama açıldığında gösterilecek güncel seri: hedef dün veya bugün tutturulmadıysa seri bitmiştir.
     public func displayedStreak(at now: Date, calendar: Calendar = .current) -> Int {
         guard let last = lastGoalDay,
@@ -93,9 +115,7 @@ public struct StudyProgress: Codable, Hashable, Sendable {
     /// Her hafta (pazartesi başlar) bir seri koruyucu yenilenir, en fazla 2 birikir.
     /// Uygulama hafta içinde kaç kez açılırsa açılsın yalnızca bir kez eklenir.
     public mutating func refillFreezeIfNeeded(at now: Date, calendar: Calendar = .current) {
-        var calendar = calendar
-        calendar.firstWeekday = 2
-        guard let week = calendar.dateInterval(of: .weekOfYear, for: now)?.start else { return }
+        guard let week = Self.weekStart(of: now, calendar: calendar) else { return }
         guard let last = lastFreezeRefill else {
             // İlk açılışta başlangıç koruyucusu zaten var; bu hafta sayılır.
             lastFreezeRefill = week
