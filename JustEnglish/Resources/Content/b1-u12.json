@@ -1,0 +1,1403 @@
+{
+  "id": "b1-u12",
+  "level": "B1",
+  "number": 12,
+  "title": "Fikrim var",
+  "titleEn": "In My Opinion",
+  "canDo": "Gündemdeki konular hakkında fikrimi gerekçeleriyle söyleyebilir, kibarca katılıp katılmadığımı belirtebilir, although, despite ve however ile zıt fikirleri bağlayabilir ve artı-eksi tartışan düzenli bir kompozisyon yazabilirim.",
+  "grammar": [
+    "fikir bildirme, katılma ve katılmama",
+    "although / even though + cümle",
+    "despite / in spite of + isim / -ing",
+    "however / on the other hand / in addition",
+    "artı-eksi kompozisyon yapısı"
+  ],
+  "vocabularyThemes": [
+    "gündem konuları",
+    "çevre ve teknoloji",
+    "eğitim ve toplum"
+  ],
+  "liveClass": {
+    "title": "Tartışma kulübü",
+    "durationMinutes": 45,
+    "goal": "Sınıf iki takıma ayrılır ve bir konuyu tartışır (Okullarda telefon yasaklanmalı mı? / Herkes haftada dört gün mü çalışmalı?). Takımlar In my opinion..., Although..., Despite..., However... ile argümanlarını sunar, karşı tarafa I see your point, but... ile cevap verir. Sonunda her öğrenci kendi kişisel görüşünü bir cümleyle özetler ve sınıf oylama yapar."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u12-v01",
+      "en": "opinion",
+      "tr": "fikir, görüş",
+      "example": "In my opinion, it's a good idea.",
+      "exampleTr": "Bence iyi bir fikir."
+    },
+    {
+      "id": "b1-u12-v02",
+      "en": "point of view",
+      "tr": "bakış açısı",
+      "example": "I understand your point of view.",
+      "exampleTr": "Bakış açını anlıyorum."
+    },
+    {
+      "id": "b1-u12-v03",
+      "en": "argument",
+      "tr": "argüman; tartışma",
+      "example": "That's a strong argument.",
+      "exampleTr": "Bu güçlü bir argüman."
+    },
+    {
+      "id": "b1-u12-v04",
+      "en": "advantage",
+      "tr": "avantaj",
+      "example": "One advantage is the price.",
+      "exampleTr": "Avantajlardan biri fiyatı."
+    },
+    {
+      "id": "b1-u12-v05",
+      "en": "disadvantage",
+      "tr": "dezavantaj",
+      "example": "The main disadvantage is the noise.",
+      "exampleTr": "Asıl dezavantajı gürültü."
+    },
+    {
+      "id": "b1-u12-v06",
+      "en": "benefit",
+      "tr": "fayda",
+      "example": "Exercise has many benefits.",
+      "exampleTr": "Egzersizin birçok faydası var."
+    },
+    {
+      "id": "b1-u12-v07",
+      "en": "issue",
+      "tr": "mesele, konu",
+      "example": "Climate change is a global issue.",
+      "exampleTr": "İklim değişikliği küresel bir mesele."
+    },
+    {
+      "id": "b1-u12-v08",
+      "en": "environment",
+      "tr": "çevre",
+      "example": "We need to protect the environment.",
+      "exampleTr": "Çevreyi korumamız gerekiyor."
+    },
+    {
+      "id": "b1-u12-v09",
+      "en": "pollution",
+      "tr": "kirlilik",
+      "example": "Air pollution is a big problem in cities.",
+      "exampleTr": "Hava kirliliği şehirlerde büyük bir sorun."
+    },
+    {
+      "id": "b1-u12-v10",
+      "en": "social media",
+      "tr": "sosyal medya",
+      "example": "Teenagers spend hours on social media.",
+      "exampleTr": "Gençler saatlerini sosyal medyada geçiriyor."
+    },
+    {
+      "id": "b1-u12-v11",
+      "en": "ban",
+      "tr": "yasaklamak; yasak",
+      "example": "Some schools have banned phones.",
+      "exampleTr": "Bazı okullar telefonları yasakladı."
+    },
+    {
+      "id": "b1-u12-v12",
+      "en": "public transport",
+      "tr": "toplu taşıma",
+      "example": "Public transport should be cheaper.",
+      "exampleTr": "Toplu taşıma daha ucuz olmalı."
+    },
+    {
+      "id": "b1-u12-v13",
+      "en": "waste",
+      "tr": "atık; israf",
+      "example": "We produce too much plastic waste.",
+      "exampleTr": "Çok fazla plastik atık üretiyoruz."
+    },
+    {
+      "id": "b1-u12-v14",
+      "en": "recycle",
+      "tr": "geri dönüştürmek",
+      "example": "Do you recycle glass?",
+      "exampleTr": "Camı geri dönüştürüyor musun?"
+    },
+    {
+      "id": "b1-u12-v15",
+      "en": "although",
+      "tr": "-e rağmen, gerçi",
+      "example": "Although it was cold, we went out.",
+      "exampleTr": "Soğuk olmasına rağmen dışarı çıktık.",
+      "note": "+ cümle"
+    },
+    {
+      "id": "b1-u12-v16",
+      "en": "despite",
+      "tr": "-e rağmen",
+      "example": "Despite the rain, we went out.",
+      "exampleTr": "Yağmura rağmen dışarı çıktık.",
+      "note": "+ isim / -ing"
+    },
+    {
+      "id": "b1-u12-v17",
+      "en": "however",
+      "tr": "ancak, fakat",
+      "example": "It's cheap. However, it's slow.",
+      "exampleTr": "Ucuz. Ancak yavaş.",
+      "note": "Cümle başında, virgülle"
+    },
+    {
+      "id": "b1-u12-v18",
+      "en": "in addition",
+      "tr": "ek olarak, ayrıca",
+      "example": "In addition, it saves time.",
+      "exampleTr": "Ayrıca zaman kazandırıyor."
+    },
+    {
+      "id": "b1-u12-v19",
+      "en": "on the other hand",
+      "tr": "öte yandan",
+      "example": "On the other hand, it's expensive.",
+      "exampleTr": "Öte yandan pahalı."
+    },
+    {
+      "id": "b1-u12-v20",
+      "en": "agree with",
+      "tr": "-e katılmak",
+      "example": "I agree with you.",
+      "exampleTr": "Sana katılıyorum.",
+      "note": "I'm agree ✗"
+    },
+    {
+      "id": "b1-u12-v21",
+      "en": "disagree",
+      "tr": "katılmamak",
+      "example": "I'm afraid I disagree.",
+      "exampleTr": "Korkarım katılmıyorum."
+    },
+    {
+      "id": "b1-u12-v22",
+      "en": "convince",
+      "tr": "ikna etmek",
+      "example": "You've convinced me!",
+      "exampleTr": "Beni ikna ettin!"
+    },
+    {
+      "id": "b1-u12-v23",
+      "en": "in conclusion",
+      "tr": "sonuç olarak",
+      "example": "In conclusion, there are pros and cons.",
+      "exampleTr": "Sonuç olarak artıları ve eksileri var."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u12-l1",
+      "number": 1,
+      "title": "Bence...",
+      "goal": "Bir konu hakkında fikrimi söyleyebilir, kibarca katılabilir ya da katılmadığımı belirtebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Okulda telefon yasağı",
+        "lines": [
+          {
+            "speaker": "Meltem",
+            "text": "Did you hear? Our school wants to ban phones in classrooms. What do you think?"
+          },
+          {
+            "speaker": "Arif",
+            "text": "In my opinion, it's a great idea. Students can't concentrate with phones on their desks."
+          },
+          {
+            "speaker": "Meltem",
+            "text": "I see your point, but I'm not sure I agree. We sometimes use phones for research in class."
+          },
+          {
+            "speaker": "Arif",
+            "text": "That's true. But the school has computers for that."
+          },
+          {
+            "speaker": "Meltem",
+            "text": "Maybe. Personally, I think teachers should decide, not the school."
+          },
+          {
+            "speaker": "Arif",
+            "text": "Hmm, you might be right about that."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Arif think about the ban?",
+            "options": [
+              "It's a great idea.",
+              "It's a terrible idea.",
+              "He doesn't care."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"In my opinion, it's a great idea.\"",
+            "id": "b1-u12-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who does Meltem think should decide?",
+            "options": [
+              "The school",
+              "The teachers",
+              "The students"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"teachers should decide\"",
+            "id": "b1-u12-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Fikir bildirmek:**\n\n- **In my opinion**, ... / **Personally, I think** ...\n- **I believe (that)** ... / **As far as I'm concerned**, ...\n- **I'm not sure, but** ... (daha yumuşak)\n\n**Fikir sormak:**\n\n- **What do you think (about** ...**)?** / **What's your opinion on** ...?\n- **How do you feel about** ...?\n\n**Katılmak ve katılmamak (güçlüden yumuşağa):**\n\n| Katılmak | Katılmamak |\n|---|---|\n| **I completely agree.** | **I completely disagree.** (çok sert olabilir) |\n| **I agree with you.** | **I'm afraid I disagree.** |\n| **That's true.** / **Exactly!** | **I'm not sure I agree.** |\n| **You might be right.** | **I see your point, but** ... |\n\n**Dikkat:** **agree** bir fiildir; **be** ile kullanılmaz:\n\n- **I agree.** (~~I am agree.~~) / **I don't agree.** (~~I'm not agree.~~)",
+        "examples": [
+          {
+            "en": "Personally, I think public transport should be free.",
+            "tr": "Bence toplu taşıma ücretsiz olmalı."
+          },
+          {
+            "en": "I see your point, but it's too expensive.",
+            "tr": "Ne demek istediğini anlıyorum ama çok pahalı."
+          },
+          {
+            "en": "How do you feel about working from home?",
+            "tr": "Evden çalışma hakkında ne düşünüyorsun?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"Katılıyorum\" cümlesini \"I am agree\" diye çevirmek Türkçe konuşanların en sık yaptığı hatalardan biridir. agree bir fiildir: I agree / I don't agree. \"Bence\" için de \"According to me\" yerine \"In my opinion\" ya da \"I think\" kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I am agree with you.",
+            "I agree with you."
+          ],
+          "answerIndex": 1,
+          "explanation": "agree bir fiil.",
+          "id": "b1-u12-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Bence\"",
+          "options": [
+            "According to me, ...",
+            "In my opinion, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "In my opinion.",
+          "id": "b1-u12-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kibarca katılmamak:",
+          "options": [
+            "You're wrong!",
+            "I see your point, but ...",
+            "No way!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kibar → I see your point, but.",
+          "id": "b1-u12-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm not agree.",
+            "I don't agree."
+          ],
+          "answerIndex": 1,
+          "explanation": "don't agree.",
+          "id": "b1-u12-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What do you ___ about the new law?",
+          "answers": [
+            "think"
+          ],
+          "explanation": "What do you think about...?",
+          "id": "b1-u12-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "How do you ___ about social media?",
+          "answers": [
+            "feel"
+          ],
+          "explanation": "How do you feel about...?",
+          "id": "b1-u12-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm ___ I disagree. (korkarım)",
+          "answers": [
+            "afraid"
+          ],
+          "explanation": "I'm afraid I disagree.",
+          "id": "b1-u12-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ be right about that. (olabilir)",
+          "answers": [
+            "might",
+            "may",
+            "could"
+          ],
+          "explanation": "You might be right.",
+          "id": "b1-u12-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "What do you think about the new bike lanes? – Personally, I love them. Although some drivers complain, I think the city is much safer now.",
+          "prompt": "Konuşan yeni bisiklet yolları hakkında ne düşünüyor?",
+          "options": [
+            "Sevmiyor",
+            "Çok seviyor",
+            "Kararsız"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Personally, I love them.\"",
+          "id": "b1-u12-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Ne demek istediğini anlıyorum ama katılmıyorum.\"",
+          "accepted": [
+            "I see your point, but I don't agree.",
+            "I see your point, but I don't agree",
+            "I see your point, but I do not agree",
+            "I see your point, but I do not agree.",
+            "I see your point, but I disagree.",
+            "I see your point, but I disagree",
+            "I see what you mean, but I don't agree.",
+            "I see what you mean, but I don't agree",
+            "I see what you mean, but I do not agree",
+            "I see what you mean, but I do not agree.",
+            "I see what you mean, but I disagree.",
+            "I see what you mean, but I disagree",
+            "I understand your point, but I don't agree.",
+            "I understand your point, but I don't agree",
+            "I understand your point, but I do not agree",
+            "I understand your point, but I do not agree.",
+            "I see your point but I don't agree.",
+            "I see your point but I don't agree",
+            "I see your point but I do not agree",
+            "I see your point but I do not agree."
+          ],
+          "explanation": "I see your point, but I don't agree.",
+          "id": "b1-u12-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 4 konu verecek (okullarda üniforma, şehir merkezinde araba yasağı, dört günlük çalışma haftası, çocuklara sosyal medya). Her biri için fikrinizi gerekçesiyle söyleyin. JAI karşı görüş bildirecek; kibarca katılın ya da katılmayın.",
+          "modelAnswer": "In my opinion, school uniforms are a good idea, because all students look equal. ... I see your point, but I'm not sure I agree. Uniforms can be expensive for some families. ... Personally, I think a four-day working week would make people happier. ... That's true. You might be right about that.",
+          "rubric": [
+            "Fikir kalıpları çeşitli",
+            "Kibar katılma / katılmama",
+            "Gerekçe sunma",
+            "I agree (am agree değil)"
+          ]
+        },
+        "id": "b1-u12-l1-use"
+      }
+    },
+    {
+      "id": "b1-u12-l2",
+      "number": 2,
+      "title": "-e rağmen (1)",
+      "goal": "although ve even though ile iki zıt fikri tek cümlede bağlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Şehirde bisiklet: Okur yorumları",
+        "body": "\"Although the city has built new bike lanes, I still don't feel safe. Drivers don't respect cyclists.\" – Haluk\n\n\"I cycle to work every day, even though it's 12 kilometres. It's faster than the bus and I feel great!\" – Sevgi\n\n\"Although cycling is good for the environment, it isn't practical for everyone. I have three children!\" – Nazlı\n\n\"Even though it rains a lot here, more people are cycling than ever before. The city should build more lanes.\" – Ozan",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why doesn't Haluk feel safe?",
+            "options": [
+              "The lanes are too narrow.",
+              "Drivers don't respect cyclists.",
+              "It rains a lot."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Drivers don't respect cyclists.\"",
+            "id": "b1-u12-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why isn't cycling practical for Nazlı?",
+            "options": [
+              "She lives far away.",
+              "She has three children.",
+              "She doesn't have a bike."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I have three children!\"",
+            "id": "b1-u12-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**although / even though** + **cümle (özne + fiil)**, beklenmedik bir zıtlığı bağlar (\"-e rağmen\", \"-diği halde\").\n\n| Yapı | Örnek |\n|---|---|\n| **Although** + cümle, cümle. | **Although** it was cold, we went swimming. |\n| Cümle **although** + cümle. | We went swimming **although** it was cold. |\n| **Even though** (daha güçlü) | I cycle to work **even though** it's 12 km. |\n\n**Virgül:** although başta ise iki cümle arasına virgül gelir.\n\n**Dikkat:** although ile **but** aynı cümlede **kullanılmaz**:\n\n- **Although** it was cold, ~~but~~ we went out.\n- It was cold, **but** we went out. ✓\n- **Although** it was cold, we went out. ✓\n\n**though** konuşmada cümle sonunda da kullanılır (= yine de):\n\n- It was cold. We went out, **though**.",
+        "examples": [
+          {
+            "en": "Although he's rich, he lives in a small flat.",
+            "tr": "Zengin olmasına rağmen küçük bir dairede yaşıyor."
+          },
+          {
+            "en": "She went to work even though she was ill.",
+            "tr": "Hasta olduğu halde işe gitti."
+          },
+          {
+            "en": "The film was long. I enjoyed it, though.",
+            "tr": "Film uzundu. Yine de beğendim."
+          }
+        ],
+        "turkishNote": "Türkçede \"Soğuk olmasına rağmen ama dışarı çıktık\" demeyiz; İngilizcede de although ile but birlikte kullanılmaz. Türkçe konuşanlar bazen \"Although ... but ...\" yapısını Türkçedeki \"gerçi ... ama\" kalıbından aktarır; bu İngilizcede yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Although it was late, but we stayed.",
+            "Although it was late, we stayed."
+          ],
+          "answerIndex": 1,
+          "explanation": "although + but olmaz.",
+          "id": "b1-u12-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ he studied hard, he failed the exam.",
+          "options": [
+            "Although",
+            "Because",
+            "So"
+          ],
+          "answerIndex": 0,
+          "explanation": "Zıtlık → although.",
+          "id": "b1-u12-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "although'dan sonra ne gelir?",
+          "options": [
+            "isim",
+            "cümle (özne + fiil)",
+            "-ing"
+          ],
+          "answerIndex": 1,
+          "explanation": "although + cümle.",
+          "id": "b1-u12-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ though she was tired, she finished the report.",
+          "answers": [
+            "Even"
+          ],
+          "explanation": "Even though.",
+          "id": "b1-u12-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Although the hotel was expensive, ___ room was tiny.",
+          "answers": [
+            "the"
+          ],
+          "explanation": "although + cümle, cümle.",
+          "id": "b1-u12-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I enjoyed the trip, ___ it rained every day.",
+          "answers": [
+            "although",
+            "though",
+            "even though"
+          ],
+          "explanation": "although.",
+          "id": "b1-u12-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was expensive. I bought it, ___. (yine de)",
+          "answers": [
+            "though"
+          ],
+          "explanation": "Cümle sonu though.",
+          "id": "b1-u12-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "it",
+            "Although",
+            "was",
+            "cold",
+            "we",
+            "went",
+            "swimming"
+          ],
+          "answer": "Although it was cold we went swimming.",
+          "explanation": "Although + cümle + cümle.",
+          "translation": "Soğuk olmasına rağmen yüzmeye gittik.",
+          "id": "b1-u12-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Although I love living in the city, I miss the silence of my village. Even though there's so much to do here, I sometimes feel lonely.",
+          "prompt": "Konuşan şehirde ne özlüyor?",
+          "options": [
+            "Ailesini",
+            "Köyünün sessizliğini",
+            "Eski işini"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I miss the silence of my village\"",
+          "id": "b1-u12-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (Although ile başlayın): \"He's rich. He lives in a small flat.\"",
+          "accepted": [
+            "Although he's rich, he lives in a small flat.",
+            "Although he's rich, he lives in a small flat",
+            "Although he is rich, he lives in a small flat",
+            "Although he is rich, he lives in a small flat.",
+            "Although he's rich he lives in a small flat.",
+            "Although he's rich he lives in a small flat",
+            "Although he is rich he lives in a small flat",
+            "Although he is rich he lives in a small flat."
+          ],
+          "explanation": "Although he's rich, he lives in a small flat.",
+          "id": "b1-u12-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kendi hayatınızdan ya da toplumdan 5 \"beklenmedik zıtlık\" söyleyin: although ve even though kullanın. Bir tanesinde cümle sonunda though kullanın.",
+          "modelAnswer": "Although I live near the sea, I rarely swim. I drink coffee every evening even though it keeps me awake. Although my city is very crowded, I love it. Even though electric cars are better for the environment, they're still too expensive for most people. My job is stressful. I really like it, though.",
+          "rubric": [
+            "although / even though + cümle",
+            "but ile birlikte kullanılmadı",
+            "Cümle sonu though"
+          ]
+        },
+        "id": "b1-u12-l2-use"
+      }
+    },
+    {
+      "id": "b1-u12-l3",
+      "number": 3,
+      "title": "-e rağmen (2)",
+      "goal": "despite ve in spite of ile isim ya da -ing kullanarak zıtlık bildirebilir, although ile farkını bilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Haber yorumu",
+        "lines": [
+          {
+            "speaker": "Presenter",
+            "text": "Despite the bad weather, thousands of people came to the clean-up event at the beach yesterday."
+          },
+          {
+            "speaker": "Reporter",
+            "text": "That's right. In spite of the rain, volunteers collected more than two tonnes of plastic waste."
+          },
+          {
+            "speaker": "Presenter",
+            "text": "Amazing. And the youngest volunteer?"
+          },
+          {
+            "speaker": "Reporter",
+            "text": "A seven-year-old boy. Despite being so young, he worked for five hours!"
+          },
+          {
+            "speaker": "Presenter",
+            "text": "And what did the organisers say?"
+          },
+          {
+            "speaker": "Reporter",
+            "text": "They said that although the event was a success, people need to stop throwing rubbish on the beach."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the weather like?",
+            "options": [
+              "Sunny",
+              "Rainy",
+              "Windy"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"In spite of the rain\"",
+            "id": "b1-u12-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How much waste did the volunteers collect?",
+            "options": [
+              "Two kilos",
+              "More than two tonnes",
+              "Two bags"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"more than two tonnes of plastic waste\"",
+            "id": "b1-u12-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**despite / in spite of** + **isim** ya da **-ing** (cümle değil!)\n\n| Yapı | Örnek |\n|---|---|\n| despite + **isim** | **Despite** the rain, we went out. |\n| in spite of + **isim** | **In spite of** the traffic, we arrived on time. |\n| despite + **-ing** | **Despite being** young, he worked hard. |\n| despite **the fact that** + cümle | **Despite the fact that** it rained, ... |\n\n**although mu despite mı?**\n\n| although + **cümle** | despite + **isim / -ing** |\n|---|---|\n| Although **it rained**, ... | Despite **the rain**, ... |\n| Although **he was** tired, ... | Despite **being** tired, ... / Despite **his tiredness**, ... |\n| Although **she's** young, ... | Despite **her age**, ... |\n\n**Dikkat:** ~~despite of~~ yanlıştır. **despite** ya da **in spite of** kullanın.",
+        "examples": [
+          {
+            "en": "Despite the high price, the tickets sold out in an hour.",
+            "tr": "Yüksek fiyata rağmen biletler bir saatte tükendi."
+          },
+          {
+            "en": "In spite of feeling ill, she went to work.",
+            "tr": "Hasta hissetmesine rağmen işe gitti."
+          },
+          {
+            "en": "Despite living in Paris for years, he can't speak French.",
+            "tr": "Yıllardır Paris'te yaşamasına rağmen Fransızca konuşamıyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"yağmura rağmen\" (isim) ve \"yağmur yağmasına rağmen\" (cümle) yapılarının ikisi de \"rağmen\" ile kurulur. İngilizcede ise isim için despite, cümle için although kullanılır. \"Despite it was raining\" yanlıştır; \"Although it was raining\" ya da \"Despite the rain\" doğrudur. \"despite of\" da sık yapılan bir hatadır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "___ the rain, we played football.",
+          "options": [
+            "Although",
+            "Despite"
+          ],
+          "answerIndex": 1,
+          "explanation": "İsim → despite.",
+          "id": "b1-u12-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ it was raining, we played football.",
+          "options": [
+            "Although",
+            "Despite"
+          ],
+          "answerIndex": 0,
+          "explanation": "Cümle → although.",
+          "id": "b1-u12-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Despite of the traffic, we were on time.",
+            "Despite the traffic, we were on time."
+          ],
+          "answerIndex": 1,
+          "explanation": "despite of yok.",
+          "id": "b1-u12-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Despite ___ tired, she finished the race.",
+          "options": [
+            "she was",
+            "being",
+            "be"
+          ],
+          "answerIndex": 1,
+          "explanation": "despite + -ing.",
+          "id": "b1-u12-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___ of the cold, they swam in the sea.",
+          "answers": [
+            "spite"
+          ],
+          "explanation": "In spite of.",
+          "id": "b1-u12-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Despite ___ (live) in London, he never visited the museum.",
+          "answers": [
+            "living"
+          ],
+          "explanation": "despite + -ing.",
+          "id": "b1-u12-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ the high price, many people bought it. (rağmen; 1 kelime)",
+          "answers": [
+            "Despite"
+          ],
+          "explanation": "Despite + isim.",
+          "id": "b1-u12-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Despite the ___ that it was late, they continued working.",
+          "answers": [
+            "fact"
+          ],
+          "explanation": "despite the fact that.",
+          "id": "b1-u12-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "In spite of the long queue, we waited for two hours to see the exhibition. And despite being tired, we enjoyed every minute.",
+          "prompt": "Ne kadar beklediler?",
+          "options": [
+            "Yarım saat",
+            "İki saat",
+            "Bütün gün"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we waited for two hours\"",
+          "id": "b1-u12-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "despite ile yeniden yazın: \"Although it was cold, we went for a walk.\"",
+          "accepted": [
+            "Despite the cold, we went for a walk.",
+            "Despite the cold, we went for a walk",
+            "Despite the cold weather, we went for a walk.",
+            "Despite the cold weather, we went for a walk",
+            "We went for a walk despite the cold.",
+            "We went for a walk despite the cold",
+            "We went for a walk despite the cold weather.",
+            "We went for a walk despite the cold weather",
+            "Despite the fact that it was cold, we went for a walk.",
+            "Despite the fact that it was cold, we went for a walk",
+            "Despite it being cold, we went for a walk.",
+            "Despite it being cold, we went for a walk",
+            "Despite the cold we went for a walk.",
+            "Despite the cold we went for a walk"
+          ],
+          "explanation": "Despite the cold, we went for a walk.",
+          "id": "b1-u12-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Tanıdığınız ya da haberlerde duyduğunuz 3 \"başarı hikâyesi\"ni anlatın: Zorluklara rağmen ne başardılar? despite + isim, despite / in spite of + -ing ve although'u en az birer kez kullanın.",
+          "modelAnswer": "My grandmother learned to read at 60, despite her age. In spite of having a full-time job, my friend Arda finished his master's degree. Although she had very little money, my cousin opened her own café, and despite the difficult start, it's now very popular.",
+          "rubric": [
+            "despite / in spite of + isim / -ing",
+            "although + cümle",
+            "despite of kullanılmadı"
+          ]
+        },
+        "id": "b1-u12-l3-use"
+      }
+    },
+    {
+      "id": "b1-u12-l4",
+      "number": 4,
+      "title": "Ancak, öte yandan, ayrıca",
+      "goal": "however, on the other hand ve in addition ile cümleler arasında mantıklı bağlantılar kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Uzaktan çalışma: Bir uzman görüşü",
+        "body": "Working from home has become very popular in recent years. It has clear advantages. Employees save time and money because they don't travel to work. In addition, many people say they can concentrate better at home.\n\nHowever, there are also some disadvantages. Some workers feel lonely, and it can be difficult to separate work and home life. Moreover, younger employees often miss the chance to learn from experienced colleagues.\n\nOn the one hand, companies can save money on offices. On the other hand, they may find it harder to build a strong team.\n\nIn my view, a mix of office and home working is probably the best solution for most people.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is one advantage of working from home?",
+            "options": [
+              "People save time and money.",
+              "People meet more colleagues.",
+              "Offices are bigger."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Employees save time and money\"",
+            "id": "b1-u12-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the expert think is the best solution?",
+            "options": [
+              "Working only from home",
+              "Working only in the office",
+              "A mix of both"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"a mix of office and home working\"",
+            "id": "b1-u12-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bağlaçlar (linking words)** iki cümle ya da paragraf arasındaki ilişkiyi gösterir. Çoğu **cümle başında** gelir ve **virgül** alır.\n\n| İşlev | Bağlaç | Örnek |\n|---|---|---|\n| **Zıtlık** | **However,** | It's cheap. **However,** it's slow. |\n| | **On the other hand,** | Cities are exciting. **On the other hand,** they're noisy. |\n| | **but** (cümle içinde) | It's cheap, **but** it's slow. |\n| **Ekleme** | **In addition,** | It saves time. **In addition,** it's cheaper. |\n| | **Moreover,** (resmî) | **Moreover,** it's good for the environment. |\n| | **Also,** / **as well** | It's **also** quieter. / It's quieter **as well**. |\n| **Sonuç** | **So / Therefore,** | It was late, **so** we left. / **Therefore,** ... |\n| **Özet** | **In conclusion,** / **To sum up,** | **In conclusion,** both sides have a point. |\n\n**however mi but mı?**\n\n- **but** iki cümleyi **birleştirir**: It's cheap, **but** it's slow.\n- **However** **yeni bir cümle** başlatır: It's cheap. **However,** it's slow.",
+        "examples": [
+          {
+            "en": "The flat is small. However, it's in a great location.",
+            "tr": "Daire küçük. Ancak harika bir konumda."
+          },
+          {
+            "en": "Cycling is healthy. In addition, it doesn't cause pollution.",
+            "tr": "Bisiklet sürmek sağlıklı. Ayrıca kirliliğe yol açmıyor."
+          },
+          {
+            "en": "The train was cancelled. Therefore, we took a taxi.",
+            "tr": "Tren iptal edildi. Bu yüzden taksiye bindik."
+          }
+        ],
+        "turkishNote": "Türkçede \"ama\" ve \"ancak\" çok benzer kullanılır; İngilizcede ise but cümle içinde, however ise yeni bir cümlenin başında (virgülle) kullanılır. \"It's cheap however it's slow\" yerine \"It's cheap. However, it's slow.\" yazın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru noktalama?",
+          "options": [
+            "It's cheap, however it's slow.",
+            "It's cheap. However, it's slow."
+          ],
+          "answerIndex": 1,
+          "explanation": "However → yeni cümle + virgül.",
+          "id": "b1-u12-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ekleme:",
+          "options": [
+            "However,",
+            "In addition,",
+            "On the other hand,"
+          ],
+          "answerIndex": 1,
+          "explanation": "In addition.",
+          "id": "b1-u12-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sonuç:",
+          "options": [
+            "Therefore,",
+            "Moreover,",
+            "Although"
+          ],
+          "answerIndex": 0,
+          "explanation": "Therefore.",
+          "id": "b1-u12-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "It's a great phone. ___, it's very expensive.",
+          "options": [
+            "In addition",
+            "However",
+            "So"
+          ],
+          "answerIndex": 1,
+          "explanation": "Zıtlık → However.",
+          "id": "b1-u12-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Walking is free. In ___, it's good for your health.",
+          "answers": [
+            "addition"
+          ],
+          "explanation": "In addition.",
+          "id": "b1-u12-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "On the one hand, it's fast. On the ___ hand, it's dangerous.",
+          "answers": [
+            "other"
+          ],
+          "explanation": "On the other hand.",
+          "id": "b1-u12-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was raining, ___ we stayed at home.",
+          "answers": [
+            "so"
+          ],
+          "explanation": "so.",
+          "id": "b1-u12-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___, there are good and bad points. (sonuç olarak)",
+          "answers": [
+            "conclusion"
+          ],
+          "explanation": "In conclusion.",
+          "id": "b1-u12-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Living in the countryside is peaceful and the air is clean. However, there aren't many jobs, and in addition, public transport is very limited.",
+          "prompt": "Kırsal yaşamın dezavantajları neler?",
+          "options": [
+            "Gürültü ve kirlilik",
+            "Az iş ve sınırlı toplu taşıma",
+            "Pahalı evler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"there aren't many jobs... public transport is very limited\"",
+          "id": "b1-u12-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "However ile iki cümle yazın: \"Bu daire küçük ama harika bir konumda.\"",
+          "accepted": [
+            "The flat is small. However, it's in a great location.",
+            "The flat is small. However, it's in a great location",
+            "The flat is small. However, it is in a great location",
+            "The flat is small. However, it is in a great location.",
+            "This flat is small. However, it's in a great location.",
+            "This flat is small. However, it's in a great location",
+            "This flat is small. However, it is in a great location",
+            "This flat is small. However, it is in a great location.",
+            "The flat is small. However, it's in a great area.",
+            "The flat is small. However, it's in a great area",
+            "The flat is small. However, it is in a great area",
+            "The flat is small. However, it is in a great area.",
+            "This flat is small. However, it's in a great area.",
+            "This flat is small. However, it's in a great area",
+            "This flat is small. However, it is in a great area",
+            "This flat is small. However, it is in a great area."
+          ],
+          "explanation": "The flat is small. However, it's in a great location.",
+          "id": "b1-u12-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "\"Büyük şehirde yaşamak\" konusunu 1 dakika anlatın. En az 2 avantaj (In addition / Also), 2 dezavantaj (However / On the other hand) söyleyin ve In conclusion ile kendi fikrinizi belirtin.",
+          "modelAnswer": "Living in a big city has many advantages. There are lots of jobs and good universities. In addition, there's always something to do, like concerts and exhibitions. However, cities are often noisy and polluted. On the other hand, the countryside is peaceful but boring for young people. In conclusion, I think big cities are better when you're young.",
+          "rubric": [
+            "Bağlaçlar doğru ve çeşitli",
+            "However + virgül",
+            "Net bir sonuç"
+          ]
+        },
+        "id": "b1-u12-l4-use"
+      }
+    },
+    {
+      "id": "b1-u12-l5",
+      "number": 5,
+      "title": "Kompozisyon yazıyorum",
+      "goal": "Bir konunun artılarını ve eksilerini tartışan, paragraflara ayrılmış düzenli bir kompozisyon yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek kompozisyon: Çocukların telefonu olmalı mı?",
+        "body": "Nowadays, many children have their own smartphone before the age of ten. Is this a good thing? There are arguments for and against.\n\nOn the one hand, phones have some clear benefits. Parents can contact their children easily, and children can call for help in an emergency. In addition, phones can be useful for learning, for example with language apps.\n\nOn the other hand, there are serious disadvantages. Many experts believe that young children spend too much time on screens. Moreover, although parents can control some apps, children may see things that aren't suitable for their age.\n\nIn conclusion, despite the benefits, I believe that children under twelve don't need a smartphone. A simple phone for calls is a better solution.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is one benefit of phones for children, according to the essay?",
+            "options": [
+              "Children can call for help in an emergency.",
+              "Children sleep better.",
+              "Phones are cheap."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"children can call for help in an emergency\"",
+            "id": "b1-u12-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the writer's final opinion?",
+            "options": [
+              "Children should have smartphones.",
+              "Children under twelve don't need a smartphone.",
+              "Phones should be banned for everyone."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"children under twelve don't need a smartphone\"",
+            "id": "b1-u12-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Artı-eksi kompozisyonu (for and against essay)** dört paragraftan oluşur:\n\n| Paragraf | İçerik | Kalıplar |\n|---|---|---|\n| **1. Giriş** | Konuyu tanıt, soruyu sor | **Nowadays**, ... / **There are arguments for and against.** |\n| **2. Artılar** | 2–3 avantaj ve örnek | **On the one hand**, ... / **In addition**, ... / **For example**, ... |\n| **3. Eksiler** | 2–3 dezavantaj | **On the other hand**, ... / **Moreover**, ... / **However**, ... |\n| **4. Sonuç** | Kendi görüşün | **In conclusion**, ... / **Despite** ..., **I believe** ... |\n\n**İyi bir kompozisyon için:**\n\n- Her paragraf **bir ana fikre** odaklansın.\n- Bağlaçları **çeşitli** kullanın (her cümlede \"and\" ve \"but\" değil).\n- Fikir cümlelerini **sadece giriş ya da sonuç**ta verin; ortadaki paragraflarda tarafsız kalın.\n- Kısaltma (don't, it's) yerine yazıda **tam hal** (do not, it is) daha resmîdir, ama B1 seviyesinde kısaltmalar da kabul edilir.\n- Sonunda **yeni bir argüman eklemeyin**; özetleyin ve görüşünüzü belirtin.",
+        "examples": [
+          {
+            "en": "Nowadays, more and more people work from home.",
+            "tr": "Günümüzde giderek daha fazla insan evden çalışıyor."
+          },
+          {
+            "en": "There are arguments for and against this idea.",
+            "tr": "Bu fikrin lehinde ve aleyhinde argümanlar var."
+          },
+          {
+            "en": "In conclusion, I believe the advantages are greater than the disadvantages.",
+            "tr": "Sonuç olarak, avantajların dezavantajlardan daha büyük olduğuna inanıyorum."
+          }
+        ],
+        "turkishNote": "Türkçe kompozisyonlarda giriş paragrafı genellikle daha uzun ve genel olur. İngilizce kompozisyonlarda giriş kısa ve konuya doğrudan girer; her paragrafın ilk cümlesi (topic sentence) o paragrafın ana fikrini söyler. Uzun ve süslü cümleler yerine net ve bağlaçlarla düzenlenmiş cümleler tercih edilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kompozisyonda kendi görüşünüzü en çok nerede söylersiniz?",
+          "options": [
+            "Artılar paragrafında",
+            "Sonuç paragrafında",
+            "Her cümlede"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sonuçta.",
+          "id": "b1-u12-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Giriş için uygun bir cümle:",
+          "options": [
+            "In conclusion, it's bad.",
+            "Nowadays, many people shop online.",
+            "Moreover, it's cheap."
+          ],
+          "answerIndex": 1,
+          "explanation": "Nowadays ile konu tanıtımı.",
+          "id": "b1-u12-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sonuç paragrafında ne yapılmamalı?",
+          "options": [
+            "Görüş belirtmek",
+            "Yeni bir argüman eklemek",
+            "Özetlemek"
+          ],
+          "answerIndex": 1,
+          "explanation": "Yeni argüman eklenmez.",
+          "id": "b1-u12-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "There are arguments ___ and against.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "for and against.",
+          "id": "b1-u12-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ example, you can use language apps. (örneğin)",
+          "answers": [
+            "For"
+          ],
+          "explanation": "For example.",
+          "id": "b1-u12-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Despite the ___, I think it's a bad idea. (faydalar)",
+          "answers": [
+            "benefits",
+            "advantages"
+          ],
+          "explanation": "despite + isim.",
+          "id": "b1-u12-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "In conclusion, I ___ that the city needs more parks. (inanıyorum)",
+          "answers": [
+            "believe",
+            "think"
+          ],
+          "explanation": "I believe.",
+          "id": "b1-u12-l5-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Nowadays,",
+              "right": "giriş"
+            },
+            {
+              "left": "On the one hand,",
+              "right": "artılar"
+            },
+            {
+              "left": "On the other hand,",
+              "right": "eksiler"
+            },
+            {
+              "left": "Moreover,",
+              "right": "ekleme"
+            },
+            {
+              "left": "In conclusion,",
+              "right": "sonuç"
+            }
+          ],
+          "explanation": "Bağlaçları işlevleriyle eşleştirin.",
+          "id": "b1-u12-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Tips for essay writing: start each paragraph with a clear topic sentence. Use a variety of linking words, and remember to give examples. Keep your own opinion for the conclusion.",
+          "prompt": "Konuşan kendi görüşün nerede verilmesini tavsiye ediyor?",
+          "options": [
+            "Girişte",
+            "Sonuçta",
+            "Her paragrafta"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Keep your own opinion for the conclusion.\"",
+          "id": "b1-u12-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu fikrin lehinde ve aleyhinde argümanlar var.\"",
+          "accepted": [
+            "There are arguments for and against this idea.",
+            "There are arguments for and against this idea",
+            "There are arguments for and against the idea.",
+            "There are arguments for and against the idea",
+            "There are arguments both for and against this idea.",
+            "There are arguments both for and against this idea",
+            "There are arguments for and against this.",
+            "There are arguments for and against this"
+          ],
+          "explanation": "There are arguments for and against this idea.",
+          "id": "b1-u12-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki konulardan birini seçip 4 paragraflık bir artı-eksi kompozisyonu yazın (160–200 kelime): 1) Şehir merkezlerinde arabalar yasaklanmalı mı? 2) Üniversite eğitimi ücretsiz olmalı mı? 3) Herkes haftada dört gün çalışmalı mı? although, despite, however, in addition ve on the other hand'i kullanın.",
+          "modelAnswer": "Should cars be banned from city centres?\n\nNowadays, many cities have serious problems with traffic and air pollution. Some people believe that cars should be banned from city centres. There are arguments for and against this idea.\n\nOn the one hand, a ban would make the air much cleaner. People would walk or cycle more, which is better for their health. In addition, city centres would be quieter and safer for children.\n\nOn the other hand, a ban could cause problems. Although public transport is good in some cities, it is not reliable everywhere. Moreover, shop owners might lose customers who come by car. However, the biggest problem would be for older people and people with disabilities, who often need a car to travel.\n\nIn conclusion, despite these disadvantages, I believe that cities should limit cars in the centre. However, the ban should only start when public transport is cheap and reliable, and there should be special permission for people who really need a car.",
+          "rubric": [
+            "4 paragraf yapısı",
+            "Bağlaçlar çeşitli ve doğru",
+            "although / despite / however doğru",
+            "Artılar ve eksiler dengeli",
+            "Net bir sonuç ve görüş"
+          ]
+        },
+        "id": "b1-u12-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I am agree.",
+          "I agree."
+        ],
+        "answerIndex": 1,
+        "explanation": "agree fiil",
+        "id": "b1-u12-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Bence\"",
+        "options": [
+          "According to me",
+          "In my opinion"
+        ],
+        "answerIndex": 1,
+        "explanation": "In my opinion",
+        "id": "b1-u12-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ the rain, we went out.",
+        "options": [
+          "Although",
+          "Despite"
+        ],
+        "answerIndex": 1,
+        "explanation": "despite + isim",
+        "id": "b1-u12-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ it was raining, we went out.",
+        "options": [
+          "Although",
+          "Despite"
+        ],
+        "answerIndex": 0,
+        "explanation": "although + cümle",
+        "id": "b1-u12-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Although it was late, but we stayed.",
+          "Although it was late, we stayed."
+        ],
+        "answerIndex": 1,
+        "explanation": "although + but olmaz",
+        "id": "b1-u12-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Despite of the noise, I slept.",
+          "Despite the noise, I slept."
+        ],
+        "answerIndex": 1,
+        "explanation": "despite of yok",
+        "id": "b1-u12-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "Despite ___ (be) ill, she went to work.",
+        "answers": [
+          "being"
+        ],
+        "explanation": "despite + -ing",
+        "id": "b1-u12-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "In ___ of the traffic, we arrived on time.",
+        "answers": [
+          "spite"
+        ],
+        "explanation": "in spite of",
+        "id": "b1-u12-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "It's fast. ___, it's expensive.",
+        "options": [
+          "However",
+          "In addition"
+        ],
+        "answerIndex": 0,
+        "explanation": "Zıtlık",
+        "id": "b1-u12-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "It's healthy. In ___, it's cheap.",
+        "answers": [
+          "addition"
+        ],
+        "explanation": "In addition",
+        "id": "b1-u12-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I see your ___, but I don't agree.",
+        "answers": [
+          "point"
+        ],
+        "explanation": "I see your point",
+        "id": "b1-u12-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "In ___, I think it's a good idea. (sonuç olarak)",
+        "answers": [
+          "conclusion"
+        ],
+        "explanation": "In conclusion",
+        "id": "b1-u12-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Although electric cars are better for the environment, they're still expensive. However, prices are falling every year, and in addition, many cities are building more charging stations.",
+        "prompt": "Konuşan elektrikli arabaların hangi dezavantajından bahsediyor?",
+        "options": [
+          "Yavaş olmaları",
+          "Pahalı olmaları",
+          "Çevreye zararlı olmaları"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"they're still expensive\"",
+        "id": "b1-u12-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "although ile yeniden yazın: \"Despite the high price, many people bought the phone.\"",
+        "accepted": [
+          "Although the price was high, many people bought the phone.",
+          "Although the price was high, many people bought the phone",
+          "Although the phone was expensive, many people bought it.",
+          "Although the phone was expensive, many people bought it",
+          "Although the price was high, a lot of people bought the phone.",
+          "Although the price was high, a lot of people bought the phone",
+          "Many people bought the phone although the price was high.",
+          "Many people bought the phone although the price was high",
+          "Although it was expensive, many people bought the phone.",
+          "Although it was expensive, many people bought the phone",
+          "Although the phone was expensive, many people bought the phone.",
+          "Although the phone was expensive, many people bought the phone"
+        ],
+        "explanation": "Although the price was high, many people bought the phone.",
+        "id": "b1-u12-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"Sosyal medya hayatımızı iyileştiriyor mu?\" konulu 4 paragraflık bir artı-eksi kompozisyonu yazın (160–200 kelime). Giriş, artılar, eksiler ve sonuç paragrafları olsun; although, despite, however, in addition, on the other hand ve fikir kalıplarını kullanın.",
+        "modelAnswer": "Does social media make our lives better?\n\nNowadays, billions of people use social media every day. Some people think it has improved our lives, while others believe it causes serious problems. There are arguments for and against.\n\nOn the one hand, social media helps people stay in touch with friends and family, even when they live in different countries. In addition, it gives everyone the chance to share their ideas and learn new things. For example, many people use it to find jobs or to start small businesses.\n\nOn the other hand, social media has some clear disadvantages. Many people, especially teenagers, spend too much time looking at their phones. Moreover, although some information online is useful, a lot of it is not true. However, the biggest problem may be that people compare their lives with others' perfect photos and feel unhappy.\n\nIn conclusion, despite its benefits, I believe that social media can be harmful if we use it too much. In my opinion, the best solution is to use it carefully and to spend more time with people face to face.",
+        "rubric": [
+          "4 paragraf yapısı",
+          "Zıtlık bağlaçları doğru",
+          "Ekleme bağlaçları",
+          "Dengeli argümanlar",
+          "Net sonuç ve görüş"
+        ],
+        "id": "b1-u12-t15"
+      }
+    ]
+  }
+}
