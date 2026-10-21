@@ -45,6 +45,10 @@ struct DictionaryView: View {
             .tabBarSpacer()
             .scrollDismissesKeyboard(.immediately)
             .background(Theme.surface.ignoresSafeArea())
+            // Saatin arkası başlık bandının en üst rengiyle (açık mavi) dolu; ek yeri görünmez.
+            .safeAreaInset(edge: .top, spacing: 0) {
+                Color.clear.frame(height: 0).background(Color(light: 0xDCE7FF, dark: 0x1C2850), ignoresSafeAreaEdges: .top)
+            }
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: DictionaryEntry.self) { DictionaryDetailView(entry: $0) }
         }
