@@ -32,7 +32,7 @@ struct LessonFlowView: View {
             }
         }
         .animation(.snappy, value: index)
-        .background(Theme.background)
+        .appBackground()
         .onAppear { if steps.isEmpty { steps = LessonStep.build(lesson: lesson, warmup: warmupCards) } }
         .onDisappear { Speech.shared.stop() }
         .confirmationDialog("Dersten çıkılsın mı?", isPresented: $confirmExit, titleVisibility: .visible) {

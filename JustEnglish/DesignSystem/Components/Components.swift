@@ -6,7 +6,7 @@ typealias PrimaryButtonStyle = DepthButtonStyle
 
 extension ButtonStyle where Self == DepthButtonStyle {
     static var primary: DepthButtonStyle { DepthButtonStyle() }
-    /// İkincil eylem: açık yüzeyli 3D düğme, vurgu renginde yazı.
+    /// İkincil eylem: açık yüzeyli 3D düğme, vurgu renginde yazı. (İnce kenarlı sürüm için `.outline`.)
     static var secondary: DepthButtonStyle { DepthButtonStyle(color: Theme.surfaceRaised, foreground: Theme.accent) }
 }
 
@@ -15,9 +15,9 @@ struct CardModifier: ViewModifier {
         content
             .padding(16)
             .frame(maxWidth: .infinity, alignment: .leading)
-            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 20, style: .continuous).stroke(Theme.hairline, lineWidth: 1))
-            .shadow(color: Theme.ink.opacity(0.05), radius: 10, y: 4)
+            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 22, style: .continuous))
+            .overlay(RoundedRectangle(cornerRadius: 22, style: .continuous).stroke(Theme.hairline, lineWidth: 1))
+            .shadow(color: Theme.ai.opacity(0.07), radius: 14, y: 6)
     }
 }
 

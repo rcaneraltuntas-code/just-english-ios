@@ -62,6 +62,7 @@ struct MainTabView: View {
     @Environment(AppModel.self) private var model
     @State private var tab: AppTab = .learn
     @State private var barHeight: CGFloat = 64
+    @State private var showDictionary = false
 
     var body: some View {
         // Sistem sekme çubuğu gizlenir; her sekmenin gezinme durumu korunur, alttaki çubuk bizim.
@@ -70,11 +71,17 @@ struct MainTabView: View {
         TabView(selection: $tab) {
             LearnView().toolbar(.hidden, for: .tabBar).tag(AppTab.learn)
             PracticeView().toolbar(.hidden, for: .tabBar).tag(AppTab.practice)
-            DictionaryView().toolbar(.hidden, for: .tabBar).tag(AppTab.dictionary)
+            JAIChatView().toolbar(.hidden, for: .tabBar).tag(AppTab.jai)
             LiveClassesView().toolbar(.hidden, for: .tabBar).tag(AppTab.live)
             ProfileView().toolbar(.hidden, for: .tabBar).tag(AppTab.profile)
         }
         .environment(\.tabBarInset, barHeight)
+        .environment(\.openDictionary, OpenDictionaryAction { showDictionary = true })
+        .sheet(isPresented: $showDictionary) {
+            DictionaryView()
+                .environment(\.tabBarInset, 0)
+                .presentationDragIndicator(.visible)
+        }
         .environment(\.selectTab, SelectTabAction { new in
             Haptics.tap()
             withAnimation(.spring(response: 0.38, dampingFraction: 0.78)) { tab = new }

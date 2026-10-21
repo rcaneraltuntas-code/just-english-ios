@@ -38,7 +38,7 @@ struct PracticeView: View {
                 .padding(20)
             }
             .tabBarSpacer()
-            .background(Theme.background)
+            .appBackground()
             .navigationTitle("Pratik")
             .fullScreenCover(item: $session) { session in
                 switch session {
@@ -155,7 +155,7 @@ struct FlashcardSessionView: View {
             }
         }
         .padding(20)
-        .background(Theme.background)
+        .appBackground()
     }
 
     private func rate(_ rating: ReviewRating, _ title: String, _ color: Color) -> some View {
@@ -209,6 +209,6 @@ struct MistakesSessionView: View {
                 Button("Bitir") { dismiss() }.buttonStyle(.primary).padding(20)
             }
         }
-        .background(Theme.background)
+        .appBackground()
     }
 }

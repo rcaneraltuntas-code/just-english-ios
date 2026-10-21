@@ -41,7 +41,7 @@ struct PlacementTestView: View {
             }
         }
         .animation(.snappy, value: answered)
-        .background(Theme.background)
+        .appBackground()
         .onAppear {
             if engine == nil, let items = model.library?.placement { engine = PlacementEngine(items: items) }
         }

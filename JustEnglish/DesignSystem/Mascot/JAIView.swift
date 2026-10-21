@@ -9,7 +9,8 @@ struct JAIView: View {
 
     var mood: Mood = .idle
     var size: CGFloat = 120
-    var color: Color = Theme.coral
+    /// Anten ve yaka rengi; geri bildirimde yeşil/kırmızıya döner.
+    var color: Color = Theme.ai
     /// Değiştiğinde JAI bir kez zıplar (ör. her doğru cevapta artırın).
     var bounceTrigger: Int = 0
 
@@ -64,27 +65,68 @@ struct JAIView: View {
         .accessibilityHidden(true)
     }
 
+    /// Gözlerin ve ağzın parladığı renk: koyu vizörde açık camgöbeği.
+    private var glow: Color { Color(red: 0.55, green: 0.93, blue: 1) }
+
     private var body3D: some View {
         ZStack {
-            // Gövde: kuyruklu konuşma balonu, üstten ışık alan degrade.
-            BubbleShape()
-                .fill(color.blended(with: .black, amount: 0.22))
-                .offset(y: 4 * unit)
-            BubbleShape()
-                .fill(LinearGradient(colors: [color.blended(with: .white, amount: 0.18), color],
+            // Anten: ucu yavaşça parlayan küçük bir ışık.
+            VStack(spacing: 0) {
+                Circle()
+                    .fill(color)
+                    .frame(width: 9 * unit, height: 9 * unit)
+                    .shadow(color: color.opacity(0.9), radius: breathe ? 6 * unit : 2 * unit)
+                Capsule().fill(Color(white: 0.75)).frame(width: 2.5 * unit, height: 9 * unit)
+            }
+            .offset(y: -47 * unit)
+
+            // Gövde: başın altındaki parlak yaka.
+            Ellipse()
+                .fill(LinearGradient(colors: [color.blended(with: .white, amount: 0.25), color.blended(with: .black, amount: 0.2)],
                                      startPoint: .top, endPoint: .bottom))
-            // Parlaklık
-            Capsule()
-                .fill(.white.opacity(0.28))
-                .frame(width: 26 * unit, height: 8 * unit)
-                .rotationEffect(.degrees(-18))
-                .offset(x: -24 * unit, y: -30 * unit)
+                .frame(width: 66 * unit, height: 20 * unit)
+                .overlay(Ellipse().stroke(.white.opacity(0.5), lineWidth: 1.5 * unit).padding(2 * unit))
+                .offset(y: 36 * unit)
+
+            // Baş: cam kask.
+            Circle()
+                .fill(RadialGradient(colors: [.white, Color(red: 0.86, green: 0.91, blue: 1)],
+                                     center: .init(x: 0.35, y: 0.3), startRadius: 2 * unit, endRadius: 52 * unit))
+                .frame(width: 84 * unit, height: 84 * unit)
+                .overlay(Circle().stroke(.white, lineWidth: 2 * unit))
+                .shadow(color: color.opacity(0.25), radius: 8 * unit, y: 4 * unit)
+                .offset(y: -4 * unit)
+
+            // Vizör: koyu lacivert, içinde küçük yıldızlar.
+            RoundedRectangle(cornerRadius: 26 * unit, style: .continuous)
+                .fill(RadialGradient(colors: [Color(red: 0.16, green: 0.25, blue: 0.62), Color(red: 0.04, green: 0.07, blue: 0.24)],
+                                     center: .init(x: 0.4, y: 0.3), startRadius: 1, endRadius: 46 * unit))
+                .frame(width: 66 * unit, height: 50 * unit)
+                .overlay {
+                    Canvas { context, size in
+                        for (x, y, r) in [(0.18, 0.25, 1.0), (0.78, 0.2, 1.4), (0.66, 0.78, 0.9), (0.28, 0.8, 1.2), (0.9, 0.55, 0.8)] {
+                            let rect = CGRect(x: size.width * x, y: size.height * y, width: r * unit, height: r * unit)
+                            context.fill(Path(ellipseIn: rect), with: .color(.white.opacity(0.6)))
+                        }
+                    }
+                }
+                .overlay(RoundedRectangle(cornerRadius: 26 * unit, style: .continuous).stroke(.white.opacity(0.25), lineWidth: 1 * unit))
+                .offset(y: -2 * unit)
 
             face
-                .offset(y: -4 * unit)
+                .scaleEffect(0.82)
+                .offset(y: -2 * unit)
+
+            // Camın parlaması
+            Capsule()
+                .fill(.white.opacity(0.75))
+                .frame(width: 22 * unit, height: 6 * unit)
+                .blur(radius: 0.8 * unit)
+                .rotationEffect(.degrees(-28))
+                .offset(x: -22 * unit, y: -36 * unit)
         }
         .frame(width: 100 * unit, height: 92 * unit)
-        .scaleEffect(y: breathe ? 1.025 : 1, anchor: .bottom)
+        .scaleEffect(y: breathe ? 1.02 : 1, anchor: .bottom)
         .rotationEffect(.degrees(mood == .thinking ? -6 : (mood == .sad ? 4 : 0)), anchor: .bottom)
         .offset(y: mood == .sleepy ? 4 * unit : 0)
         .animation(Motion.smooth, value: mood)
@@ -97,16 +139,18 @@ struct JAIView: View {
                 eye
             }
             ZStack {
-                // Yanaklar
+                // Yanaklar: vizörde hafif pembe ışık
                 HStack(spacing: 46 * unit) {
-                    Circle().fill(Color.pink.opacity(mood == .happy || mood == .celebrate ? 0.45 : 0.25))
-                    Circle().fill(Color.pink.opacity(mood == .happy || mood == .celebrate ? 0.45 : 0.25))
+                    Circle().fill(Color.pink.opacity(mood == .happy || mood == .celebrate ? 0.45 : 0.22))
+                    Circle().fill(Color.pink.opacity(mood == .happy || mood == .celebrate ? 0.45 : 0.22))
                 }
                 .frame(height: 9 * unit)
+                .blur(radius: 2 * unit)
                 .offset(y: -4 * unit)
                 mouth
             }
         }
+        .shadow(color: glow.opacity(0.8), radius: 4 * unit)
     }
 
     @ViewBuilder private var eye: some View {
@@ -115,28 +159,26 @@ struct JAIView: View {
         case .happy, .celebrate:
             // Mutlu: ters "U" kavisli gözler (^ ^)
             HappyEyeShape()
-                .stroke(.white, style: StrokeStyle(lineWidth: 4 * unit, lineCap: .round))
+                .stroke(glow, style: StrokeStyle(lineWidth: 4 * unit, lineCap: .round))
                 .frame(width: w, height: h * 0.5)
                 .frame(height: h)
         case .sleepy:
-            Capsule().fill(.white).frame(width: w, height: 3.5 * unit).frame(height: h)
+            Capsule().fill(glow.opacity(0.8)).frame(width: w, height: 3.5 * unit).frame(height: h)
         default:
-            ZStack {
-                Ellipse().fill(.white)
-                Circle()
-                    .fill(Color(white: 0.12))
-                    .frame(width: 9 * unit)
-                    .overlay(alignment: .topTrailing) {
-                        Circle().fill(.white).frame(width: 3 * unit).offset(x: -1 * unit, y: 1 * unit)
-                    }
-                    .offset(x: look.width * unit, y: (mood == .sad ? 3 : look.height) * unit)
-            }
-            .frame(width: w, height: h)
+            // Parlayan, yuvarlatılmış dikdörtgen gözler; bakış yönüne göre kayar.
+            RoundedRectangle(cornerRadius: 5 * unit, style: .continuous)
+                .fill(glow)
+                .frame(width: w * 0.8, height: h * 0.9)
+                .overlay(alignment: .topTrailing) {
+                    Circle().fill(.white).frame(width: 3.5 * unit).offset(x: -2 * unit, y: 2 * unit)
+                }
+                .offset(x: look.width * unit, y: (mood == .sad ? 2 : look.height) * unit)
+                .frame(width: w, height: h)
             .scaleEffect(y: blink ? 0.08 : (mood == .sad ? 0.8 : 1))
             .overlay(alignment: .top) {
                 if mood == .sad {
                     // Üzgün kaşlar
-                    Capsule().fill(.white).frame(width: w, height: 3 * unit)
+                    Capsule().fill(glow).frame(width: w, height: 3 * unit)
                         .rotationEffect(.degrees(12)).offset(y: -6 * unit)
                 }
             }
@@ -147,27 +189,27 @@ struct JAIView: View {
         switch mood {
         case .happy, .celebrate:
             SmileShape(depth: 1)
-                .fill(Color(white: 0.12))
+                .fill(glow)
                 .frame(width: 22 * unit, height: 12 * unit)
                 .overlay(alignment: .bottom) {
-                    Ellipse().fill(Color(red: 1, green: 0.45, blue: 0.5)).frame(width: 11 * unit, height: 5 * unit).offset(y: -1 * unit)
+                    Ellipse().fill(Color(red: 0.04, green: 0.07, blue: 0.24)).frame(width: 11 * unit, height: 5 * unit).offset(y: -1 * unit)
                 }
                 .clipShape(SmileShape(depth: 1))
         case .sad:
             SmileShape(depth: -1)
-                .stroke(Color(white: 0.12), style: StrokeStyle(lineWidth: 3 * unit, lineCap: .round))
+                .stroke(glow, style: StrokeStyle(lineWidth: 3 * unit, lineCap: .round))
                 .frame(width: 16 * unit, height: 6 * unit)
         case .talking:
             Ellipse()
-                .fill(Color(white: 0.12))
+                .fill(glow)
                 .frame(width: 12 * unit, height: (talkOpen ? 10 : 4) * unit)
         case .thinking:
-            Capsule().fill(Color(white: 0.12)).frame(width: 10 * unit, height: 3 * unit).offset(x: 6 * unit)
+            Capsule().fill(glow).frame(width: 10 * unit, height: 3 * unit).offset(x: 6 * unit)
         case .sleepy:
-            Circle().fill(Color(white: 0.12)).frame(width: 6 * unit)
+            Circle().fill(glow).frame(width: 6 * unit)
         case .idle:
             SmileShape(depth: 0.6)
-                .stroke(Color(white: 0.12), style: StrokeStyle(lineWidth: 3 * unit, lineCap: .round))
+                .stroke(glow, style: StrokeStyle(lineWidth: 3 * unit, lineCap: .round))
                 .frame(width: 16 * unit, height: 6 * unit)
         }
     }

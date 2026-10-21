@@ -48,7 +48,7 @@ struct UnitTestView: View {
                 .id(index)
             }
         }
-        .background(Theme.background)
+        .appBackground()
         .confirmationDialog("Testten çıkılsın mı?", isPresented: $confirmExit, titleVisibility: .visible) {
             Button("Çık", role: .destructive) { dismiss() }
         }

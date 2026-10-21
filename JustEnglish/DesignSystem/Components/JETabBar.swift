@@ -1,14 +1,14 @@
 import SwiftUI
 
 enum AppTab: Int, CaseIterable, Identifiable {
-    case learn, practice, dictionary, live, profile
+    case learn, practice, jai, live, profile
     var id: Int { rawValue }
 
     var title: String {
         switch self {
         case .learn: "Öğren"
         case .practice: "Pratik"
-        case .dictionary: "Sözlük"
+        case .jai: "JAI"
         case .live: "Canlı"
         case .profile: "Profil"
         }
@@ -18,14 +18,31 @@ enum AppTab: Int, CaseIterable, Identifiable {
         switch self {
         case .learn: "house.fill"
         case .practice: "rectangle.stack.fill"
-        case .dictionary: "character.book.closed.fill"
+        case .jai: "sparkles"
         case .live: "video.fill"
         case .profile: "person.crop.circle.fill"
         }
     }
 
-    /// Tüm sekmeler marka kırmızısını kullanır; renk karmaşası olmasın.
+    /// Seçili sekme vurgu renginde; diğerleri gri.
     var color: Color { Theme.accent }
+}
+
+/// Sözlük artık bir sekme değil; ana sayfa ve pratikten açılan bir sayfa.
+struct OpenDictionaryAction {
+    let run: () -> Void
+    func callAsFunction() { run() }
+}
+
+private struct OpenDictionaryKey: EnvironmentKey {
+    static let defaultValue = OpenDictionaryAction {}
+}
+
+extension EnvironmentValues {
+    var openDictionary: OpenDictionaryAction {
+        get { self[OpenDictionaryKey.self] }
+        set { self[OpenDictionaryKey.self] = newValue }
+    }
 }
 
 /// Herhangi bir ekrandan sekme değiştirmek için (ana sayfadaki kısayollar).
@@ -68,15 +85,15 @@ extension EnvironmentValues {
     }
 }
 
-/// Uygulamanın kendi sekme çubuğu: seçili sekmenin arkasında kayan renkli bir hap,
-/// simgeler seçilince zıplar, rozet sayıları yuvarlanarak değişir.
+/// Uygulamanın kendi sekme çubuğu: ekranın altında yüzen cam bir kapsül. Seçili sekmenin arkasında kayan
+/// bir hap var; simgeler seçilince zıplar; ortadaki JAI sekmesi küçük JAI başıyla gösterilir.
 struct JETabBar: View {
     @Binding var selection: AppTab
     var badges: [AppTab: Int] = [:]
     @Namespace private var pill
 
     var body: some View {
-        HStack(spacing: 4) {
+        HStack(spacing: 2) {
             ForEach(AppTab.allCases) { tab in
                 let selected = tab == selection
                 Button {
@@ -84,10 +101,9 @@ struct JETabBar: View {
                     Haptics.tap()
                     withAnimation(.spring(response: 0.38, dampingFraction: 0.78)) { selection = tab }
                 } label: {
-                    VStack(spacing: 3) {
-                        Image(systemName: tab.icon)
-                            .font(.system(size: 20, weight: .bold))
-                            .symbolEffect(.bounce.up.byLayer, value: selected)
+                    VStack(spacing: 2) {
+                        icon(tab, selected: selected)
+                            .frame(height: 26)
                             .overlay(alignment: .topTrailing) {
                                 if let count = badges[tab], count > 0 {
                                     Text(count > 99 ? "99+" : "\(count)")
@@ -95,8 +111,8 @@ struct JETabBar: View {
                                         .foregroundStyle(.white)
                                         .padding(.horizontal, 5)
                                         .frame(minWidth: 18, minHeight: 18)
-                                        .background(Theme.danger, in: Capsule())
-                                        .offset(x: 12, y: -8)
+                                        .background(Theme.brandRed, in: Capsule())
+                                        .offset(x: 12, y: -6)
                                         .contentTransition(.numericText())
                                         .transition(.scale)
                                 }
@@ -106,11 +122,11 @@ struct JETabBar: View {
                     }
                     .foregroundStyle(selected ? tab.color : Color.secondary)
                     .frame(maxWidth: .infinity)
-                    .padding(.vertical, 8)
+                    .padding(.vertical, 7)
                     .background {
                         if selected {
-                            RoundedRectangle(cornerRadius: 16, style: .continuous)
-                                .fill(tab.color.opacity(0.14))
+                            Capsule()
+                                .fill(tab.color.opacity(0.13))
                                 .matchedGeometryEffect(id: "pill", in: pill)
                         }
                     }
@@ -121,14 +137,21 @@ struct JETabBar: View {
                 .accessibilityAddTraits(selected ? .isSelected : [])
             }
         }
-        .padding(.horizontal, 10)
-        .padding(.top, 8)
-        .padding(.bottom, 4)
-        .background {
-            Rectangle()
-                .fill(.bar)
-                .overlay(alignment: .top) { Divider() }
-                .ignoresSafeArea(edges: .bottom)
+        .padding(6)
+        .glassCapsule()
+        .padding(.horizontal, 16)
+        .padding(.bottom, 2)
+    }
+
+    @ViewBuilder private func icon(_ tab: AppTab, selected: Bool) -> some View {
+        if tab == .jai {
+            JAIView(mood: selected ? .happy : .idle, size: 26)
+                .scaleEffect(selected ? 1.12 : 1)
+                .animation(Motion.pop, value: selected)
+        } else {
+            Image(systemName: tab.icon)
+                .font(.system(size: 19, weight: .bold))
+                .symbolEffect(.bounce.up.byLayer, value: selected)
         }
     }
 }

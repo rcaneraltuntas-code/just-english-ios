@@ -2,42 +2,54 @@ import SwiftUI
 import UIKit
 import JECore
 
-/// Uygulamanın tüm renk ve yazı tipi kararları burada. Marka rengi Just English kırmızısı (#E21724).
-/// Kırmızı yalnızca vurgu içindir (düğmeler, seçili sekme, küçük ayrıntılar); büyük yüzeyler beyaz,
-/// lacivert ya da seviye renginde kalır ki ekran tek renge boğulmasın.
+/// Uygulamanın tüm renk ve yazı tipi kararları burada.
+/// Vurgu rengi tek yerden gelir: `AccentColor` (Assets). Onu değiştirmek düğmeleri, seçili sekmeyi,
+/// ilerleme çubuklarını ve seçimleri birlikte değiştirir; degradeler de ondan türetilir.
+/// Tasarım dili: yapay zekâ temalı, havadar, açık mavi-lila zemin, cam (liquid glass) yüzeyler.
 enum Theme {
+    /// Vurgu: referans mavisi (#3D7BF7, koyu temada #6B9BFF).
     static let accent = Color("AccentColor")
-    /// Marka kırmızısının koyu tonu: degradelerin alt ucu ve 3D düğme kenarları.
-    static let accentDeep = Color(light: 0xA50E18, dark: 0xC21F2A)
-    /// Kırmızının çok açık tonu: seçili yüzeyler, rozet zeminleri.
-    static let accentSoft = Color(light: 0xFDEBEC, dark: 0x3A1518)
-    /// Kırmızıyı dengeleyen koyu lacivert: koyu kartlar ve başlık metinleri.
-    static let ink = Color(light: 0x1B1B2F, dark: 0xF2F2F7)
-    static let inkSurface = Color(light: 0x1B1B2F, dark: 0x22232F)
+    static let accentDeep = accent.blended(with: .black, amount: 0.22)
+    static let accentSoft = Color(light: 0xEAF1FF, dark: 0x1A2340)
+    /// Just English kırmızısı: yalnızca logo/yazı işareti ve çok küçük ayrıntılar (canlı noktası, bildirim rozeti).
+    static let brandRed = Color(light: 0xE21724, dark: 0xFF4A55)
+    /// Yapay zekâ öğeleri (JAI, ışıltılar): mavi-mor.
+    static let ai = Color(light: 0x5B6CFF, dark: 0x8C98FF)
+    static let aiViolet = Color(light: 0x8B5CF6, dark: 0xB197FF)
+    /// Başlıklar için koyu lacivert.
+    static let ink = Color(light: 0x1A1F36, dark: 0xF2F4FA)
+    static let inkSurface = Color(light: 0x1A1F36, dark: 0x22253A)
     static let coral = Color(light: 0xFF6B5B, dark: 0xFF8A7D)
-    static let success = Color(light: 0x16A34A, dark: 0x4ADE80)
-    /// Yanlış cevap rengi marka kırmızısından ayrışsın diye daha koyu, morumsu bir kırmızı;
-    /// her zaman bir simge ve sallanmayla birlikte kullanılır.
-    static let danger = Color(light: 0x9B1C31, dark: 0xF0697D)
-    static let warning = Color(light: 0xF2A100, dark: 0xFBBF24)
-    static let streak = Color(light: 0xFF6A13, dark: 0xFF9248)
-    static let background = Color(light: 0xF6F6F9, dark: 0x0E0E11)
-    static let surface = Color(light: 0xFFFFFF, dark: 0x1B1B20)
-    /// İkincil düğmelerin yüzeyi: açık temada sıcak gri, koyu temada bir ton açık.
-    static let surfaceRaised = Color(light: 0xEFEFF4, dark: 0x2A2A30)
-    static let hairline = Color(light: 0xE7E7EE, dark: 0x2C2C33)
+    static let success = Color(light: 0x22A06B, dark: 0x4ADE80)
+    static let successSoft = Color(light: 0xE6F6EE, dark: 0x173326)
+    /// Yanlış cevap: koyu kırmızı, her zaman simge ve sallanmayla birlikte.
+    static let danger = Color(light: 0xD1344B, dark: 0xF0697D)
+    static let warning = Color(light: 0xF5A524, dark: 0xFBBF24)
+    static let streak = Color(light: 0xFF7A1A, dark: 0xFF9248)
+    /// Havadar zemin: üstte açık mavi, altta neredeyse beyaz.
+    static let background = Color(light: 0xF6F8FE, dark: 0x0B0D16)
+    static let backgroundTop = Color(light: 0xE4ECFF, dark: 0x151B33)
+    static let surface = Color(light: 0xFFFFFF, dark: 0x171A26)
+    /// İkincil düğmelerin yüzeyi.
+    static let surfaceRaised = Color(light: 0xF0F3FA, dark: 0x252A3B)
+    static let hairline = Color(light: 0xE3E8F2, dark: 0x2A2F42)
     static let muted = Color.secondary
 
-    /// Marka degradesi: kahraman kartları ve başlıklar.
-    static let brandGradient = LinearGradient(colors: [Color(light: 0xF0333E, dark: 0xF0333E), Color(light: 0xE21724, dark: 0xE21724), accentDeep],
+    /// Vurgudan türetilen degrade: birincil kartlar ve ilerleme.
+    static let brandGradient = LinearGradient(colors: [accent.blended(with: .white, amount: 0.15), accent, accentDeep],
                                               startPoint: .topLeading, endPoint: .bottomTrailing)
-    static let warmGradient = LinearGradient(colors: [Color(light: 0xFF8A3D, dark: 0xFF8A3D), Color(light: 0xE21724, dark: 0xE21724)],
+    /// Yapay zekâ degradesi: JAI kartları ve sohbet.
+    static let aiGradient = LinearGradient(colors: [Color(light: 0x6E8BFF, dark: 0x5A73F0), Color(light: 0x8B5CF6, dark: 0x7A4FE0)],
+                                           startPoint: .topLeading, endPoint: .bottomTrailing)
+    static let warmGradient = LinearGradient(colors: [Color(light: 0xFFB13D, dark: 0xFFB13D), Color(light: 0xFF7A1A, dark: 0xFF7A1A)],
                                              startPoint: .topLeading, endPoint: .bottomTrailing)
-    static let inkGradient = LinearGradient(colors: [Color(light: 0x2A2D45, dark: 0x2A2D45), Color(light: 0x14152A, dark: 0x101120)],
+    static let inkGradient = LinearGradient(colors: [Color(light: 0x2A3156, dark: 0x2A3156), Color(light: 0x141832, dark: 0x0F1226)],
                                             startPoint: .topLeading, endPoint: .bottomTrailing)
-    /// Mor-lacivert degrade: sözlük ve kelime kartları.
-    static let violetGradient = LinearGradient(colors: [Color(light: 0x6D4AE0, dark: 0x6D4AE0), Color(light: 0x2B2A6B, dark: 0x22215A)],
+    static let violetGradient = LinearGradient(colors: [Color(light: 0x7A6BFF, dark: 0x6A5BEF), Color(light: 0x3D4BC7, dark: 0x2F3AA0)],
                                                startPoint: .topLeading, endPoint: .bottomTrailing)
+    /// Ana sayfa ve sohbet başlığındaki yumuşak bant.
+    static let skyGradient = LinearGradient(colors: [Color(light: 0x6F9BFF, dark: 0x2B3F86), Color(light: 0xB9CDFF, dark: 0x1C2650), Color(light: 0xF6F8FE, dark: 0x0B0D16)],
+                                            startPoint: .top, endPoint: .bottom)
 
     static let cornerRadius: CGFloat = 16
     static let fontFamily = "Plus Jakarta Sans"

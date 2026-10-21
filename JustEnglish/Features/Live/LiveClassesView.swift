@@ -35,7 +35,7 @@ struct LiveClassesView: View {
                 .animation(Motion.smooth, value: levelFilter)
             }
             .tabBarSpacer()
-            .background(Theme.background)
+            .appBackground()
             // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
             .safeAreaInset(edge: .top, spacing: 0) {
                 Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)

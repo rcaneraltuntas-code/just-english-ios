@@ -69,6 +69,7 @@ struct WeekActivityCard: View {
 struct QuickActionsGrid: View {
     @Environment(AppModel.self) private var model
     @Environment(\.selectTab) private var selectTab
+    @Environment(\.openDictionary) private var openDictionary
 
     var body: some View {
         let due = model.dueCards().count
@@ -78,7 +79,7 @@ struct QuickActionsGrid: View {
             tile("Oyunlar", detail: "Eşleştir, yarış, yaz", icon: "gamecontroller.fill",
                  color: Theme.warning, index: 1) { selectTab(.practice) }
             tile("Sözlük", detail: "\(model.dictionary.count) kelime", icon: "character.book.closed.fill",
-                 color: Theme.color(for: .a2), index: 2) { selectTab(.dictionary) }
+                 color: Theme.color(for: .a2), index: 2) { openDictionary() }
             tile("Canlı ders", detail: "Öğretmenle konuşun", icon: "video.fill",
                  color: Theme.color(for: .c2), index: 3) { selectTab(.live) }
         }

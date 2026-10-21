@@ -74,7 +74,7 @@ struct UnitView: View {
             .padding(20)
         }
         .tabBarSpacer()
-        .background(Theme.background)
+        .appBackground()
         .navigationTitle(unit.title)
         .navigationBarTitleDisplayMode(.large)
         .fullScreenCover(item: $activeLesson) { LessonFlowView(unit: $0.unit, lesson: $0.lesson) }

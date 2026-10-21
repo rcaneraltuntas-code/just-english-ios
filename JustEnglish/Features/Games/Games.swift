@@ -63,7 +63,7 @@ struct GameShell<Content: View>: View {
                     .transition(.opacity)
             }
         }
-        .background(Theme.background)
+        .appBackground()
         .animation(Motion.smooth, value: result)
     }
 

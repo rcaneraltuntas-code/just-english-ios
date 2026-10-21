@@ -84,7 +84,7 @@ struct LeagueView: View {
             .padding(20)
         }
         .tabBarSpacer()
-        .background(Theme.background)
+        .appBackground()
         .navigationTitle("Haftalık lig")
         .navigationBarTitleDisplayMode(.inline)
         .refreshable { await load() }
