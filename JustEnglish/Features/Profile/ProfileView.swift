@@ -20,11 +20,11 @@ struct ProfileView: View {
                         .buttonStyle(PressableCardStyle())
                         .staggeredAppear(2)
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader(title: "Seviye yolculuğunuz")
+                        sectionTitle("Seviye yolculuğunuz")
                         LevelJourney()
                     }
                     VStack(alignment: .leading, spacing: 12) {
-                        SectionHeader(title: "Rozetler")
+                        sectionTitle("Rozetler")
                         AchievementsGrid()
                     }
                     studyCard
@@ -39,13 +39,18 @@ struct ProfileView: View {
                     }
                     .padding(.top, 4)
                 }
-                .padding(20)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 20)
+                .background(alignment: .top) {
+                    // Ana sayfadaki gibi üstte doygun mavi bant; kaydırınca içerikle birlikte kayar.
+                    HomeStyle.band.frame(height: 340).padding(.horizontal, -16)
+                }
             }
             .tabBarSpacer()
-            .appBackground()
-            // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
+            .background(HomeStyle.page.ignoresSafeArea())
+            // Gezinme çubuğu gizli; durum çubuğunun arkası bandın en üst rengiyle dolu.
             .safeAreaInset(edge: .top, spacing: 0) {
-                Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)
+                Color.clear.frame(height: 0).background(HomeStyle.bandTop, ignoresSafeAreaEdges: .top)
             }
             .toolbar(.hidden, for: .navigationBar)
             .confirmationDialog("Tüm ilerlemeniz silinsin mi?", isPresented: $confirmReset, titleVisibility: .visible) {
@@ -74,58 +79,105 @@ struct ProfileView: View {
 
     // MARK: - Bölümler
 
+    private func sectionTitle(_ text: String) -> some View {
+        Text(text)
+            .font(.custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+            .foregroundStyle(HomeStyle.title)
+            .frame(maxWidth: .infinity, alignment: .leading)
+    }
+
+    /// Mavi bant üzerinde beyaz yuvarlak içinde baş harf, ad, seviye ve iki küçük sayaç.
     private var hero: some View {
         let level = model.state.currentLevel
-        // Lacivert başlık; kırmızı yalnızca avatardaki baş harfte.
-        return HeroHeader(title: model.state.name.ifEmpty("Öğrenci"),
-                          subtitle: "\(level.rawValue) · \(level.title) seviyesinde çalışıyorsunuz",
-                          gradient: Theme.inkGradient, glow: Theme.ink) {
+        return VStack(spacing: 10) {
             AnimatedAvatar(initial: String(model.state.name.prefix(1)).uppercased().ifEmpty("?"))
-        } bottom: {
+            Text(model.state.name.ifEmpty("Öğrenci"))
+                .font(.custom(Theme.fontFamily, size: 24, relativeTo: .title2).weight(.bold))
+                .foregroundStyle(.white)
+            Text("\(level.rawValue) · \(level.title) seviyesinde çalışıyorsunuz")
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                .foregroundStyle(.white.opacity(0.9))
             HStack(spacing: 8) {
-                heroChip("flame.fill", "\(model.state.progress.displayedStreak(at: .now)) gün seri")
-                heroChip("bolt.fill", "\(model.state.progress.weekXP(at: .now)) XP bu hafta")
+                heroChip("🔥", "\(model.state.progress.displayedStreak(at: .now)) gün seri")
+                heroChip("⚡", "\(model.state.progress.weekXP(at: .now)) XP bu hafta")
             }
+            .padding(.top, 4)
         }
+        .frame(maxWidth: .infinity)
+        .padding(.top, 18)
     }
 
-    private func heroChip(_ icon: String, _ text: String) -> some View {
-        Label(text, systemImage: icon)
-            .font(.jakarta(.caption, weight: .heavy))
-            .foregroundStyle(.white)
-            .padding(.horizontal, 10)
-            .padding(.vertical, 6)
-            .background(.white.opacity(0.18), in: Capsule())
+    private func heroChip(_ emoji: String, _ text: String) -> some View {
+        HStack(spacing: 6) {
+            Text(emoji).font(.system(size: 14))
+            Text(text)
+                .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote).weight(.semibold))
+                .foregroundStyle(.white)
+        }
+        .padding(.horizontal, 12)
+        .frame(height: 32)
+        .background(.white.opacity(0.25), in: Capsule())
     }
 
+    /// Altı küçük beyaz kart: simge, sayı ve açıklama.
     private var statsGrid: some View {
         let p = model.state.progress
         return LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: 3), spacing: 10) {
-            StatTile(icon: "flame.fill", color: Theme.streak, value: p.displayedStreak(at: .now), label: "Gün serisi", index: 0)
-            StatTile(icon: "crown.fill", color: Theme.warning, value: p.longestStreak, label: "En uzun seri", index: 1)
-            StatTile(icon: "bolt.fill", color: Theme.accent, value: p.totalXP, label: "Toplam XP", index: 2)
-            StatTile(icon: "checkmark.seal.fill", color: Theme.success, value: model.state.completedLessons.count, label: "Ders", index: 3)
-            StatTile(icon: "rectangle.stack.fill", color: Theme.color(for: .b2), value: model.deckSize, label: "Kelime", index: 4)
-            StatTile(icon: "snowflake", color: Theme.ink, value: p.freezesAvailable, label: "Koruyucu", index: 5)
+            statTile(.asset("fire"), p.displayedStreak(at: .now), "Gün serisi", 0)
+            statTile(.asset("trophy"), p.longestStreak, "En uzun seri", 1)
+            statTile(.asset("medal"), p.totalXP, "Toplam XP", 2)
+            statTile(.asset("closedbook"), model.state.completedLessons.count, "Ders", 3)
+            statTile(.asset("cards"), model.deckSize, "Kelime", 4)
+            statTile(.emoji("❄️"), p.freezesAvailable, "Koruyucu", 5)
         }
     }
 
+    private enum TileIcon { case asset(String), emoji(String) }
+
+    private func statTile(_ icon: TileIcon, _ value: Int, _ label: String, _ index: Int) -> some View {
+        VStack(spacing: 6) {
+            Group {
+                switch icon {
+                case .asset(let name): Image("lesson-\(name)").resizable().scaledToFit()
+                case .emoji(let emoji): Text(emoji).font(.system(size: 26))
+                }
+            }
+            .frame(width: 32, height: 32)
+            RollingNumber(value: value, font: .custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+                .foregroundStyle(HomeStyle.title)
+            Text(label)
+                .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                .foregroundStyle(HomeStyle.body)
+                .lineLimit(1)
+                .minimumScaleFactor(0.8)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 14)
+        .modifier(HomeCard(radius: 16))
+        .staggeredAppear(index, delay: 0.05)
+        .accessibilityElement(children: .combine)
+    }
+
+    /// Ana sayfadaki "Haftalık lig" satırıyla aynı: açık gri zemin, 3B kupa, ok.
     private var leagueCard: some View {
         HStack(spacing: 14) {
-            ZStack {
-                Image(systemName: "shield.fill").font(.system(size: 44)).foregroundStyle(Theme.warning.gradient)
-                Image(systemName: "trophy.fill").font(.system(size: 16, weight: .bold)).foregroundStyle(.white)
+            Image("lesson-trophy").resizable().scaledToFit().frame(width: 44, height: 44)
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Haftalık lig")
+                    .font(.custom(Theme.fontFamily, size: 16, relativeTo: .headline).weight(.semibold))
+                    .foregroundStyle(HomeStyle.title)
+                Text("Bu hafta \(model.state.progress.weekXP(at: .now)) XP. İlk 7 kişi bir üst lige çıkar.")
+                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                    .foregroundStyle(HomeStyle.body)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            VStack(alignment: .leading, spacing: 3) {
-                Text("Haftalık lig").font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
-                Text("Bu hafta \(model.state.progress.weekXP(at: .now)) XP. İlk 7 bir üst lige çıkar.")
-                    .font(.jakarta(.footnote))
-                    .foregroundStyle(.secondary)
-            }
-            Spacer()
-            Image(systemName: "chevron.right").font(.jakarta(.subheadline, weight: .bold)).foregroundStyle(.tertiary)
+            Spacer(minLength: 4)
+            Image(systemName: "chevron.right").font(.system(size: 15, weight: .semibold)).foregroundStyle(HomeStyle.title)
         }
-        .card()
+        .padding(.leading, 14)
+        .padding(.trailing, 18)
+        .padding(.vertical, 12)
+        .background(HomeStyle.rowFill, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 
     private var studyCard: some View {
@@ -209,7 +261,7 @@ extension String {
     func ifEmpty(_ fallback: String) -> String { isEmpty ? fallback : self }
 }
 
-/// Profil fotoğrafı yerine baş harf; çevresinde yavaşça dönen marka renkli halka.
+/// Profil fotoğrafı yerine beyaz yuvarlak içinde baş harf; çevresinde yavaşça dönen yarı saydam beyaz halka.
 struct AnimatedAvatar: View {
     let initial: String
     @State private var spin = false
@@ -218,13 +270,13 @@ struct AnimatedAvatar: View {
     var body: some View {
         ZStack {
             Circle()
-                .stroke(AngularGradient(colors: [.white, Theme.warning, .white.opacity(0.2), .white], center: .center), lineWidth: 4)
-                .frame(width: 84, height: 84)
+                .stroke(AngularGradient(colors: [.white, .white.opacity(0.15), .white.opacity(0.6), .white], center: .center), lineWidth: 3)
+                .frame(width: 86, height: 86)
                 .rotationEffect(.degrees(spin ? 360 : 0))
             Text(initial)
-                .font(.jakarta(.largeTitle, weight: .heavy))
+                .font(.custom(Theme.fontFamily, size: 32, relativeTo: .largeTitle).weight(.bold))
                 .foregroundStyle(Theme.accent)
-                .frame(width: 70, height: 70)
+                .frame(width: 74, height: 74)
                 .background(.white, in: Circle())
         }
         .onAppear {
@@ -255,7 +307,7 @@ struct LevelJourney: View {
                             .rotationEffect(.degrees(-90))
                             .animation(Motion.smooth.delay(Double(level.index) * 0.08), value: shown)
                         Text(level.rawValue)
-                            .font(.jakarta(.caption, weight: .heavy))
+                            .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.bold))
                             .foregroundStyle(isCurrent ? .white : Theme.color(for: level))
                             .frame(width: 34, height: 34)
                             .background(isCurrent ? AnyShapeStyle(Theme.color(for: level).gradient) : AnyShapeStyle(Color.clear), in: Circle())
@@ -263,13 +315,15 @@ struct LevelJourney: View {
                     .frame(width: 46, height: 46)
                     .scaleEffect(isCurrent ? 1.1 : 1)
                     Text("%\(Int(ratio * 100))")
-                        .font(.jakarta(.caption2, weight: .bold))
-                        .foregroundStyle(.secondary)
+                        .font(.custom(Theme.fontFamily, size: 12, relativeTo: .caption2).weight(.medium))
+                        .foregroundStyle(HomeStyle.body)
                 }
                 .frame(maxWidth: .infinity)
             }
         }
-        .card()
+        .padding(.vertical, 16)
+        .padding(.horizontal, 8)
+        .modifier(HomeCard())
         .onAppear { shown = true }
     }
 
@@ -309,24 +363,24 @@ struct AchievementsGrid: View {
         let list = badges
         VStack(alignment: .leading, spacing: 12) {
             Text("\(list.filter(\.unlocked).count)/\(list.count) rozet açıldı")
-                .font(.jakarta(.footnote, weight: .bold))
-                .foregroundStyle(.secondary)
+                .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote).weight(.medium))
+                .foregroundStyle(HomeStyle.body)
             LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 8), count: 4), spacing: 14) {
                 ForEach(Array(list.enumerated()), id: \.element.id) { index, badge in
                     VStack(spacing: 6) {
                         ZStack {
                             Hexagon()
-                                .fill(badge.unlocked ? AnyShapeStyle(badge.color.gradient) : AnyShapeStyle(Color(uiColor: .systemGray5)))
+                                .fill(badge.unlocked ? AnyShapeStyle(badge.color.gradient) : AnyShapeStyle(HomeStyle.rowFill))
                                 .frame(width: 56, height: 60)
-                                .shadow(color: badge.unlocked ? badge.color.opacity(0.45) : .clear, radius: 8, y: 4)
+                                .shadow(color: badge.unlocked ? badge.color.opacity(0.25) : .clear, radius: 5, y: 3)
                             Image(systemName: badge.unlocked ? badge.icon : "lock.fill")
                                 .font(.system(size: 20, weight: .bold))
-                                .foregroundStyle(badge.unlocked ? .white : Color(uiColor: .systemGray2))
+                                .foregroundStyle(badge.unlocked ? .white : Color(light: 0xB8BFCC, dark: 0x4A5168))
                                 .symbolEffect(.bounce, value: badge.unlocked)
                         }
                         Text(badge.title)
-                            .font(.jakarta(.caption2, weight: .bold))
-                            .foregroundStyle(badge.unlocked ? Theme.ink : .secondary)
+                            .font(.custom(Theme.fontFamily, size: 12, relativeTo: .caption2).weight(.medium))
+                            .foregroundStyle(badge.unlocked ? HomeStyle.title : HomeStyle.body)
                             .lineLimit(1)
                             .minimumScaleFactor(0.8)
                     }
@@ -336,7 +390,8 @@ struct AchievementsGrid: View {
                 }
             }
         }
-        .card()
+        .padding(16)
+        .modifier(HomeCard())
     }
 }
 
