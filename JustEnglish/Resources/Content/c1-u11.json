@@ -1,0 +1,1323 @@
+{
+  "id": "c1-u11",
+  "level": "C1",
+  "number": 11,
+  "title": "Kelime türetme",
+  "titleEn": "Word Formation",
+  "canDo": "Önek ve sonekleri tanıyarak bilmediğim kelimelerin anlamını tahmin edebilir, bir kelimenin isim, fiil, sıfat ve zarf hallerini doğru türetebilir, olumsuz önekleri doğru seçebilir ve sınav tipi kelime türetme sorularını çözebilirim.",
+  "grammar": [
+    "isim yapan sonekler: -tion, -ment, -ness, -ity, -ance, -ship, -hood",
+    "sıfat yapan sonekler: -able, -ful, -less, -ous, -ive, -al",
+    "olumsuz önekler: un-, in-, im-, il-, ir-, dis-, mis-, non-",
+    "anlam önekleri ve fiil yapma: over-, under-, re-, co-, -ise, -en, en-",
+    "kelime aileleri ve sınav stratejisi"
+  ],
+  "vocabularyThemes": [
+    "dil öğrenme stratejileri",
+    "iş dünyası",
+    "sınavlar"
+  ],
+  "liveClass": {
+    "title": "Kelime fabrikası",
+    "durationMinutes": 45,
+    "goal": "Gruplara kök kelimeler (act, rely, child, able, deep, power) dağıtılır. Her grup bir kelime ağacı kurar: isim, fiil, sıfat, zarf ve olumsuz halleri. Sonra gruplar birbirlerine sınav tipi kelime türetme soruları hazırlayıp yarışır. Son bölümde her öğrenci ağacındaki en az beş kelimeyi kullanarak kısa bir konuşma yapar."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u11-v01",
+      "en": "prefix",
+      "tr": "önek",
+      "example": "\"Un-\" is a common negative prefix.",
+      "exampleTr": "\"Un-\" yaygın bir olumsuzluk önekidir."
+    },
+    {
+      "id": "c1-u11-v02",
+      "en": "suffix",
+      "tr": "sonek",
+      "example": "\"-ness\" is a suffix that forms nouns.",
+      "exampleTr": "\"-ness\" isim yapan bir sonektir."
+    },
+    {
+      "id": "c1-u11-v03",
+      "en": "root / stem",
+      "tr": "kök",
+      "example": "The root of \"unhappiness\" is \"happy\".",
+      "exampleTr": "\"Unhappiness\" kelimesinin kökü \"happy\"dir."
+    },
+    {
+      "id": "c1-u11-v04",
+      "en": "word family",
+      "tr": "kelime ailesi",
+      "example": "\"Decide, decision, decisive\" belong to the same word family.",
+      "exampleTr": "\"Decide, decision, decisive\" aynı kelime ailesine aittir."
+    },
+    {
+      "id": "c1-u11-v05",
+      "en": "reliable",
+      "tr": "güvenilir",
+      "example": "She's a very reliable colleague.",
+      "exampleTr": "O çok güvenilir bir iş arkadaşı."
+    },
+    {
+      "id": "c1-u11-v06",
+      "en": "reliability",
+      "tr": "güvenilirlik",
+      "example": "The reliability of the data is uncertain.",
+      "exampleTr": "Verilerin güvenilirliği belirsiz."
+    },
+    {
+      "id": "c1-u11-v07",
+      "en": "childhood",
+      "tr": "çocukluk",
+      "example": "I had a happy childhood.",
+      "exampleTr": "Mutlu bir çocukluğum oldu."
+    },
+    {
+      "id": "c1-u11-v08",
+      "en": "leadership",
+      "tr": "liderlik",
+      "example": "The team needs strong leadership.",
+      "exampleTr": "Ekibin güçlü bir liderliğe ihtiyacı var."
+    },
+    {
+      "id": "c1-u11-v09",
+      "en": "awareness",
+      "tr": "farkındalık",
+      "example": "The campaign raised awareness of the problem.",
+      "exampleTr": "Kampanya soruna dair farkındalığı artırdı."
+    },
+    {
+      "id": "c1-u11-v10",
+      "en": "effectiveness",
+      "tr": "etkililik",
+      "example": "We measured the effectiveness of the new method.",
+      "exampleTr": "Yeni yöntemin etkililiğini ölçtük."
+    },
+    {
+      "id": "c1-u11-v11",
+      "en": "irrelevant",
+      "tr": "alakasız",
+      "example": "That question is irrelevant.",
+      "exampleTr": "O soru alakasız."
+    },
+    {
+      "id": "c1-u11-v12",
+      "en": "illegal",
+      "tr": "yasa dışı",
+      "example": "Parking here is illegal.",
+      "exampleTr": "Buraya park etmek yasa dışı."
+    },
+    {
+      "id": "c1-u11-v13",
+      "en": "impatient",
+      "tr": "sabırsız",
+      "example": "Don't be so impatient!",
+      "exampleTr": "Bu kadar sabırsız olma!"
+    },
+    {
+      "id": "c1-u11-v14",
+      "en": "misunderstand",
+      "tr": "yanlış anlamak",
+      "example": "I think you misunderstood me.",
+      "exampleTr": "Sanırım beni yanlış anladın."
+    },
+    {
+      "id": "c1-u11-v15",
+      "en": "disagree",
+      "tr": "katılmamak",
+      "example": "I completely disagree.",
+      "exampleTr": "Hiç katılmıyorum."
+    },
+    {
+      "id": "c1-u11-v16",
+      "en": "non-profit",
+      "tr": "kâr amacı gütmeyen",
+      "example": "She works for a non-profit organisation.",
+      "exampleTr": "Kâr amacı gütmeyen bir kuruluşta çalışıyor."
+    },
+    {
+      "id": "c1-u11-v17",
+      "en": "overestimate",
+      "tr": "olduğundan fazla tahmin etmek",
+      "example": "We overestimated how many people would come.",
+      "exampleTr": "Kaç kişinin geleceğini fazla tahmin ettik."
+    },
+    {
+      "id": "c1-u11-v18",
+      "en": "underpaid",
+      "tr": "düşük ücretli",
+      "example": "Many nurses feel underpaid.",
+      "exampleTr": "Birçok hemşire düşük ücret aldığını düşünüyor."
+    },
+    {
+      "id": "c1-u11-v19",
+      "en": "rewrite",
+      "tr": "yeniden yazmak",
+      "example": "I had to rewrite the whole report.",
+      "exampleTr": "Bütün raporu yeniden yazmak zorunda kaldım."
+    },
+    {
+      "id": "c1-u11-v20",
+      "en": "strengthen",
+      "tr": "güçlendirmek",
+      "example": "Exercise strengthens your muscles.",
+      "exampleTr": "Egzersiz kaslarınızı güçlendirir."
+    },
+    {
+      "id": "c1-u11-v21",
+      "en": "modernise",
+      "tr": "modernleştirmek",
+      "example": "The government plans to modernise the railways.",
+      "exampleTr": "Hükümet demiryollarını modernleştirmeyi planlıyor."
+    },
+    {
+      "id": "c1-u11-v22",
+      "en": "enable",
+      "tr": "mümkün kılmak",
+      "example": "The app enables users to learn offline.",
+      "exampleTr": "Uygulama kullanıcıların çevrimdışı öğrenmesini mümkün kılar."
+    },
+    {
+      "id": "c1-u11-v23",
+      "en": "outnumber",
+      "tr": "sayıca üstün olmak",
+      "example": "Women outnumber men in this profession.",
+      "exampleTr": "Bu meslekte kadınlar erkeklerden sayıca fazla."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u11-l1",
+      "number": 1,
+      "title": "İsim yapan sonekler",
+      "goal": "Fiil ve sıfatlardan isim türeten sonekleri (-tion, -ment, -ness, -ity, -ance / -ence, -ship, -hood) tanıyıp doğru kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kelime avcısı",
+        "body": "When Leyla started learning English, she wrote every new word on a separate card. After a while, she noticed a pattern. Many long words were simply short words with an ending added: \"happy\" became \"happiness\", \"develop\" became \"development\", \"able\" became \"ability\". This discovery changed her whole approach. Instead of learning one word at a time, she started learning whole families of words. Her vocabulary grew much faster, and her confidence in reading improved enormously. Today, she teaches this method to her own students. \"Recognition comes first,\" she says. \"Once you can see the parts of a word, you can often guess its meaning.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Leyla notice?",
+            "options": [
+              "Most English words are short.",
+              "Many long words are short words with endings.",
+              "Cards are not useful."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Many long words were simply short words with an ending added\"",
+            "id": "c1-u11-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Leyla's job today?",
+            "options": [
+              "She is a student.",
+              "She is a teacher.",
+              "She is a writer."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"she teaches this method to her own students\"",
+            "id": "c1-u11-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Fiilden isim yapan sonekler:**\n\n| Sonek | Örnekler |\n|---|---|\n| **-tion / -sion / -ation** | decide → deci**sion**, inform → inform**ation**, recognise → recogni**tion** |\n| **-ment** | develop → develop**ment**, agree → agree**ment**, achieve → achieve**ment** |\n| **-ance / -ence** | perform → perform**ance**, depend → depend**ence**, exist → exist**ence** |\n| **-al** | arrive → arriv**al**, refuse → refus**al**, approve → approv**al** |\n| **-er / -or / -ant / -ee** (kişi) | teach**er**, edit**or**, assist**ant**, employ**ee** |\n\n**Sıfattan isim yapan sonekler:**\n\n| Sonek | Örnekler |\n|---|---|\n| **-ness** | happy → happi**ness**, aware → aware**ness**, kind → kind**ness** |\n| **-ity** | able → abil**ity**, possible → possibil**ity**, reliable → reliabil**ity** |\n| **-ance / -ence** | important → import**ance**, confident → confid**ence**, patient → pati**ence** |\n| **-th** | strong → streng**th**, deep → dep**th**, wide → wid**th**, long → leng**th** |\n\n**İsimden soyut isim yapan sonekler:**\n\n| Sonek | Örnekler |\n|---|---|\n| **-ship** | friend → friend**ship**, leader → leader**ship**, member → member**ship** |\n| **-hood** | child → child**hood**, neighbour → neighbour**hood**, parent → parent**hood** |\n| **-ism** | real → real**ism**, tour → tour**ism** |\n\n**Yazım değişikliklerine dikkat:**\n\n- *-y → -i*: happy → happ**i**ness\n- Sessiz *-e* düşer: arrive → arriv**al**, (ama: agree → agree**ment**)\n- *-able → -ability*: reliable → reli**ability**\n- Kökte ses değişimi: strong → str**e**ngth, long → l**e**ngth, deep → d**e**pth",
+        "examples": [
+          {
+            "en": "The development of the new app took two years.",
+            "tr": "Yeni uygulamanın geliştirilmesi iki yıl sürdü."
+          },
+          {
+            "en": "Her kindness and patience made her a great teacher.",
+            "tr": "Nezaketi ve sabrı onu harika bir öğretmen yaptı."
+          },
+          {
+            "en": "Membership of the club is free for students.",
+            "tr": "Kulüp üyeliği öğrenciler için ücretsiz."
+          }
+        ],
+        "turkishNote": "Türkçede de isim yapma ekleri çok güçlüdür: \"mutlu → mutluluk\", \"arkadaş → arkadaşlık\", \"çocuk → çocukluk\". Hatta bazı eşleşmeler neredeyse birebirdir: -ness / -lik (happiness / mutluluk), -ship / -lik (friendship / arkadaşlık), -hood / -luk (childhood / çocukluk). Ancak İngilizcede hangi sonekin geleceği tahmin edilemeyebilir (\"important → importance\" ama \"happy → happiness\"), bu yüzden kelimeleri aileleriyle birlikte öğrenmek en iyi yöntemdir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"decide\" isim hali:",
+          "options": [
+            "decidement",
+            "decision"
+          ],
+          "answerIndex": 1,
+          "explanation": "decision.",
+          "id": "c1-u11-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"strong\" isim hali:",
+          "options": [
+            "strongness",
+            "strength"
+          ],
+          "answerIndex": 1,
+          "explanation": "strength.",
+          "id": "c1-u11-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"friend\" soyut isim:",
+          "options": [
+            "friendship",
+            "friendhood"
+          ],
+          "answerIndex": 0,
+          "explanation": "friendship.",
+          "id": "c1-u11-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"confident\" isim hali:",
+          "options": [
+            "confidence",
+            "confidentness"
+          ],
+          "answerIndex": 0,
+          "explanation": "confidence.",
+          "id": "c1-u11-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I had a very happy ___. (CHILD)",
+          "answers": [
+            "childhood"
+          ],
+          "explanation": "-hood.",
+          "id": "c1-u11-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Thank you for your ___. (KIND)",
+          "answers": [
+            "kindness"
+          ],
+          "explanation": "-ness.",
+          "id": "c1-u11-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The ___ of the project took three years. (DEVELOP)",
+          "answers": [
+            "development"
+          ],
+          "explanation": "-ment.",
+          "id": "c1-u11-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "We were surprised by the ___ of the river. It was over five metres deep. (DEEP)",
+          "answers": [
+            "depth"
+          ],
+          "explanation": "deep → depth.",
+          "id": "c1-u11-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The success of any team depends on good leadership. A leader needs the ability to listen, the confidence to make difficult decisions, and the patience to support people through hard times.",
+          "prompt": "Konuşmaya göre bir liderde hangi üç özellik olmalı?",
+          "options": [
+            "Dinleme yeteneği, özgüven, sabır",
+            "Zekâ, para, güç",
+            "Hız, disiplin, sertlik"
+          ],
+          "answerIndex": 0,
+          "explanation": "ability to listen, confidence, patience.",
+          "id": "c1-u11-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "happy",
+              "right": "happiness"
+            },
+            {
+              "left": "able",
+              "right": "ability"
+            },
+            {
+              "left": "arrive",
+              "right": "arrival"
+            },
+            {
+              "left": "member",
+              "right": "membership"
+            },
+            {
+              "left": "perform",
+              "right": "performance"
+            }
+          ],
+          "explanation": "Her kökü isim haliyle eşleştirin.",
+          "id": "c1-u11-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızdaki önemli bir kişiyi (öğretmen, arkadaş, aile üyesi) anlatın (1 dakika). Bu kişinin özelliklerini anlatırken en az 6 türetilmiş isim kullanın (kindness, patience, honesty, confidence, ability, friendship, childhood, leadership, strength ...).",
+          "modelAnswer": "The person who has influenced me most is my grandmother. During my childhood, I spent every summer at her house in the village. What I remember most is her kindness. She always had time for everyone. She also had incredible patience; she taught me to cook, sew and play backgammon, and she never got angry, even when I made a mess. Her honesty was also important to me. She always told me the truth, even when it was difficult to hear. I think her greatest strength was her ability to make people feel welcome. Our friendship is still very special to me.",
+          "rubric": [
+            "Türetilmiş isimler",
+            "Doğru sonekler",
+            "Akıcı anlatım",
+            "Telaffuz"
+          ]
+        },
+        "id": "c1-u11-l1-use"
+      }
+    },
+    {
+      "id": "c1-u11-l2",
+      "number": 2,
+      "title": "Sıfat yapan sonekler",
+      "goal": "İsim ve fiillerden sıfat türeten sonekleri (-able / -ible, -ful, -less, -ous, -ive, -al, -ic, -y) tanıyıp doğru kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir ürün incelemesi",
+        "body": "I've been using this wireless speaker for three months, and overall I'm very impressed. It's lightweight, portable and surprisingly powerful for its size. The battery is reliable, too: it lasts about twelve hours. The design is attractive and modern, and the controls are simple and intuitive. My only complaint is that the instructions were rather useless. They were confusing and full of technical terms. However, the customer service team was helpful and responsive. At this price, it's a sensible choice for anyone who wants good sound without spending a fortune. Highly recommended!",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How long does the battery last?",
+            "options": [
+              "About six hours",
+              "About twelve hours",
+              "Three months"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it lasts about twelve hours\"",
+            "id": "c1-u11-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the writer's only complaint?",
+            "options": [
+              "The price",
+              "The sound",
+              "The instructions"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"the instructions were rather useless\"",
+            "id": "c1-u11-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sıfat yapan sonekler:**\n\n| Sonek | Anlam | Örnekler |\n|---|---|---|\n| **-able / -ible** | yapılabilir | rely → reli**able**, port → port**able**, sense → sens**ible**, access → access**ible** |\n| **-ful** | ile dolu | help → help**ful**, power → power**ful**, success → success**ful** |\n| **-less** | -sız | use → use**less**, home → home**less**, care → care**less** |\n| **-ous** | özelliğinde | danger → danger**ous**, fame → fam**ous**, ambition → ambiti**ous** |\n| **-ive** | eğilimli | attract → attract**ive**, create → creat**ive**, respond → respons**ive** |\n| **-al** | ile ilgili | nature → natur**al**, culture → cultur**al**, tradition → tradition**al** |\n| **-ic / -ical** | ile ilgili | economy → econom**ic**, history → histor**ic(al)**, energy → energet**ic** |\n| **-y** | ile dolu (genelde samimi) | rain → rain**y**, noise → nois**y**, health → health**y** |\n| **-ish** | -imsi, yaklaşık | child → child**ish**, red → redd**ish** |\n\n**Önemli ikililer:**\n\n| -ful | -less |\n|---|---|\n| use**ful** (yararlı) | use**less** (işe yaramaz) |\n| care**ful** (dikkatli) | care**less** (dikkatsiz) |\n| hope**ful** (umutlu) | hope**less** (umutsuz) |\n| harm**ful** (zararlı) | harm**less** (zararsız) |\n| pain**ful** (acı veren) | pain**less** (acısız) |\n\n**Dikkat:** Her *-ful* kelimesinin *-less* karşılığı yoktur: *beautiful* → ✗ *beautiless*. \n\n**Anlam farkı olan ikililer:**\n\n- *economic* (ekonomiyle ilgili: *economic growth*) / *economical* (tasarruflu: *an economical car*)\n- *historic* (tarihi önemi olan: *a historic day*) / *historical* (tarihle ilgili: *historical documents*)\n- *sensible* (mantıklı) / *sensitive* (hassas)",
+        "examples": [
+          {
+            "en": "This is a historic moment for our country.",
+            "tr": "Bu ülkemiz için tarihi bir an."
+          },
+          {
+            "en": "Small cars are more economical to run.",
+            "tr": "Küçük arabaların kullanımı daha ekonomik."
+          },
+          {
+            "en": "Don't be careless with your passport.",
+            "tr": "Pasaportuna karşı dikkatsiz olma."
+          }
+        ],
+        "turkishNote": "Türkçedeki -lı / -sız ekleri, İngilizcedeki -ful / -less ile çok benzerdir: \"umutlu / umutsuz\" = \"hopeful / hopeless\", \"zararlı / zararsız\" = \"harmful / harmless\". Ancak Türk öğrenciler sık sık \"sensible\" ile \"sensitive\" kelimelerini karıştırır. \"Sensible\" mantıklı demektir, \"hassas\" değil! Hassas için \"sensitive\" kullanılır. Ayrıca \"economic\" ve \"economical\" farkı da Türkçede tek kelimeyle (\"ekonomik\") ifade edildiği için karışıklığa yol açar."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"mantıklı\":",
+          "options": [
+            "sensible",
+            "sensitive"
+          ],
+          "answerIndex": 0,
+          "explanation": "sensible = mantıklı.",
+          "id": "c1-u11-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"an ___ car\" (tasarruflu)",
+          "options": [
+            "economic",
+            "economical"
+          ],
+          "answerIndex": 1,
+          "explanation": "economical.",
+          "id": "c1-u11-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"care\" + -less:",
+          "options": [
+            "dikkatli",
+            "dikkatsiz"
+          ],
+          "answerIndex": 1,
+          "explanation": "careless.",
+          "id": "c1-u11-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"a ___ day\" (tarihi önemi olan)",
+          "options": [
+            "historic",
+            "historical"
+          ],
+          "answerIndex": 0,
+          "explanation": "historic.",
+          "id": "c1-u11-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Thanks, that was very ___ advice. (HELP)",
+          "answers": [
+            "helpful"
+          ],
+          "explanation": "-ful.",
+          "id": "c1-u11-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Smoking is ___ to your health. (HARM)",
+          "answers": [
+            "harmful"
+          ],
+          "explanation": "-ful.",
+          "id": "c1-u11-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's a very ___ designer. She always has new ideas. (CREATE)",
+          "answers": [
+            "creative"
+          ],
+          "explanation": "-ive.",
+          "id": "c1-u11-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Climbing without ropes is extremely ___. (DANGER)",
+          "answers": [
+            "dangerous"
+          ],
+          "explanation": "-ous.",
+          "id": "c1-u11-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I wouldn't recommend this laptop. It's attractive and fairly powerful, but the battery is completely unreliable, and the keyboard is so noisy that it's almost useless in a quiet office.",
+          "prompt": "Konuşanın dizüstü bilgisayarla ilgili şikâyeti nedir?",
+          "options": [
+            "Çirkin ve yavaş olması",
+            "Pilin güvenilmez ve klavyenin gürültülü olması",
+            "Çok pahalı olması"
+          ],
+          "answerIndex": 1,
+          "explanation": "unreliable battery, noisy keyboard.",
+          "id": "c1-u11-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "use",
+              "right": "useful / useless"
+            },
+            {
+              "left": "fame",
+              "right": "famous"
+            },
+            {
+              "left": "nature",
+              "right": "natural"
+            },
+            {
+              "left": "rely",
+              "right": "reliable"
+            },
+            {
+              "left": "noise",
+              "right": "noisy"
+            }
+          ],
+          "explanation": "Her kökü sıfat haliyle eşleştirin.",
+          "id": "c1-u11-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son zamanlarda kullandığınız bir ürünü (telefon, uygulama, kulaklık, araba ...) bir arkadaşınıza sözlü olarak tavsiye edin ya da eleştirin (1 dakika). En az 7 türetilmiş sıfat kullanın (reliable, useful, useless, attractive, powerful, economical, careless, sensible, portable ...).",
+          "modelAnswer": "I recently bought a new pair of wireless headphones, and I'd definitely recommend them. They're lightweight and portable, so they're easy to carry around. The sound quality is powerful and clear, and the noise cancelling is really effective on the metro. The battery is reliable, too; it lasts around thirty hours. They're also quite attractive, with a simple, modern design. The app is a bit useless, to be honest, but you don't really need it. At that price, I think they're a sensible choice, especially for students.",
+          "rubric": [
+            "Türetilmiş sıfatlar",
+            "Doğru sonekler",
+            "Tavsiye / eleştiri dili",
+            "Akıcılık"
+          ]
+        },
+        "id": "c1-u11-l2-use"
+      }
+    },
+    {
+      "id": "c1-u11-l3",
+      "number": 3,
+      "title": "Olumsuz önekler",
+      "goal": "Olumsuz önekleri (un-, in-, im-, il-, ir-, dis-, mis-, non-) doğru seçebilir ve anlamlarını ayırt edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Toplantı sonrası",
+        "lines": [
+          {
+            "speaker": "Ece",
+            "text": "That meeting was a complete disaster."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "I know. I think the manager misunderstood the whole proposal."
+          },
+          {
+            "speaker": "Ece",
+            "text": "And he was so impatient. He kept interrupting."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Half of his questions were irrelevant, too."
+          },
+          {
+            "speaker": "Ece",
+            "text": "Exactly. And that comment about the budget being unrealistic? It's completely inaccurate."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "I disagree with him on almost everything. But it's impossible to change his mind."
+          },
+          {
+            "speaker": "Ece",
+            "text": "Well, we can't give up. Let's rewrite the proposal and present it again next week."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What do Ece and Kerem think of the manager?",
+            "options": [
+              "He was helpful.",
+              "He misunderstood the proposal and was impatient.",
+              "He agreed with them."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"misunderstood\", \"impatient\"",
+            "id": "c1-u11-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What do they decide to do?",
+            "options": [
+              "Give up",
+              "Rewrite and present the proposal again",
+              "Complain to the director"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Let's rewrite the proposal and present it again next week.\"",
+            "id": "c1-u11-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Olumsuz önekler:**\n\n| Önek | Kullanım | Örnekler |\n|---|---|---|\n| **un-** | en yaygın; sıfat, fiil, zarf | **un**happy, **un**realistic, **un**fair, **un**lock, **un**fortunately |\n| **in-** | çoğunlukla Latin kökenli sıfatlar | **in**accurate, **in**complete, **in**dependent, **in**formal |\n| **im-** | **p, m, b** ile başlayan kelimeler | **im**possible, **im**patient, **im**mature, **im**balance |\n| **il-** | **l** ile başlayan kelimeler | **il**legal, **il**logical, **il**literate |\n| **ir-** | **r** ile başlayan kelimeler | **ir**relevant, **ir**responsible, **ir**regular |\n| **dis-** | fiil, sıfat, isim | **dis**agree, **dis**honest, **dis**like, **dis**advantage |\n| **mis-** | yanlış / kötü | **mis**understand, **mis**lead, **mis**spell, **mis**use |\n| **non-** | -olmayan (genellikle tireyle) | **non**-smoker, **non**-profit, **non**-fiction |\n\n**Kurallar:**\n\n- **im-, il-, ir-** ses kurallarına göre seçilir (p/m/b → im, l → il, r → ir).\n- **un-** ve **in-** için kesin kural yoktur; kelimeyle birlikte öğrenin. *(un**able** ama in**ability**!)*\n- **dis-** fiillerde **tersini yapmak** anlamı verir: *appear → **dis**appear*, *connect → **dis**connect*.\n- **un-** fiillerde de **geri almak** anlamı verir: *lock → **un**lock*, *pack → **un**pack*, *do → **un**do*.\n- **mis-** \"olumsuz\" değil, **\"yanlış\"** demektir: *misunderstand* = yanlış anlamak (anlamamak değil).\n\n**Dikkat: in- her zaman olumsuz değildir!**\n\n- *inflammable* = yanıcı (= *flammable*)\n- *invaluable* = paha biçilmez, çok değerli (değersiz değil!)",
+        "examples": [
+          {
+            "en": "It's illegal to drive without insurance.",
+            "tr": "Sigortasız araç kullanmak yasa dışı."
+          },
+          {
+            "en": "Your help has been invaluable.",
+            "tr": "Yardımınız paha biçilmezdi."
+          },
+          {
+            "en": "I'm sorry, I think I misread the instructions.",
+            "tr": "Özür dilerim, sanırım talimatları yanlış okudum."
+          }
+        ],
+        "turkishNote": "Türkçede olumsuzluk genellikle sonekle yapılır: \"mutsuz\", \"imkânsız\", \"sorumsuz\". İngilizcede ise öneklerle yapılır ve doğru öneki seçmek zordur. Türk öğrencilerin sık hataları: ✗ \"unpossible\" (✓ impossible), ✗ \"unlegal\" (✓ illegal), ✗ \"inresponsible\" (✓ irresponsible). Ses kuralını (p/m/b → im, l → il, r → ir) öğrenmek bu hataların çoğunu önler. Ayrıca \"invaluable\" kelimesinin \"değersiz\" değil \"paha biçilmez\" anlamına geldiğini unutmayın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"possible\" olumsuzu:",
+          "options": [
+            "unpossible",
+            "impossible"
+          ],
+          "answerIndex": 1,
+          "explanation": "p → im.",
+          "id": "c1-u11-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"legal\" olumsuzu:",
+          "options": [
+            "illegal",
+            "unlegal"
+          ],
+          "answerIndex": 0,
+          "explanation": "l → il.",
+          "id": "c1-u11-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"responsible\" olumsuzu:",
+          "options": [
+            "irresponsible",
+            "inresponsible"
+          ],
+          "answerIndex": 0,
+          "explanation": "r → ir.",
+          "id": "c1-u11-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Your advice was invaluable.\" anlamı:",
+          "options": [
+            "Tavsiyen değersizdi.",
+            "Tavsiyen paha biçilmezdi."
+          ],
+          "answerIndex": 1,
+          "explanation": "invaluable = çok değerli.",
+          "id": "c1-u11-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm sorry, I think I ___understood the question. (yanlış)",
+          "answers": [
+            "mis"
+          ],
+          "explanation": "mis-.",
+          "id": "c1-u11-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Telling lies is ___honest. (olumsuz)",
+          "answers": [
+            "dis"
+          ],
+          "explanation": "dishonest.",
+          "id": "c1-u11-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "His answer was completely ___relevant to the topic.",
+          "answers": [
+            "ir"
+          ],
+          "explanation": "irrelevant.",
+          "id": "c1-u11-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "This book is ___-fiction; everything in it really happened.",
+          "answers": [
+            "non"
+          ],
+          "explanation": "non-fiction.",
+          "id": "c1-u11-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'm afraid your application is incomplete. Several sections were left blank, and some of the information appears to be inaccurate. Unfortunately, it's impossible for us to process it in its current form.",
+          "prompt": "Başvurunun sorunları nelerdir?",
+          "options": [
+            "Geç gönderilmiş ve pahalı",
+            "Eksik ve bazı bilgiler yanlış",
+            "Çok uzun"
+          ],
+          "answerIndex": 1,
+          "explanation": "incomplete, inaccurate.",
+          "id": "c1-u11-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "patient",
+              "right": "impatient"
+            },
+            {
+              "left": "logical",
+              "right": "illogical"
+            },
+            {
+              "left": "regular",
+              "right": "irregular"
+            },
+            {
+              "left": "agree",
+              "right": "disagree"
+            },
+            {
+              "left": "lead",
+              "right": "mislead"
+            }
+          ],
+          "explanation": "Her kelimeyi olumsuz / zıt haliyle eşleştirin.",
+          "id": "c1-u11-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Yaşadığınız kötü bir deneyimi (bir kurum, bir toplantı, bir tatil, bir alışveriş) anlatın (1 dakika). En az 7 olumsuz önekli kelime kullanın (unhelpful, impatient, irresponsible, illegal, inaccurate, dishonest, misunderstand, impossible, unfair, unreliable ...).",
+          "modelAnswer": "Last year, I had a terrible experience with a moving company. First of all, they were completely unreliable. They arrived three hours late and didn't even apologise. The workers were impatient and quite careless, and they broke two of my chairs. When I complained, the manager was very unhelpful. He said it was impossible to prove that his team had broken them, which I thought was really unfair. Then the final bill was inaccurate; they charged me for five hours instead of three. I think they were simply dishonest. Maybe I misunderstood the contract, but I'll never use them again.",
+          "rubric": [
+            "Olumsuz önekler doğru",
+            "Çeşitlilik",
+            "Akıcı anlatım",
+            "Doğru telaffuz"
+          ]
+        },
+        "id": "c1-u11-l3-use"
+      }
+    },
+    {
+      "id": "c1-u11-l4",
+      "number": 4,
+      "title": "Anlam önekleri ve fiil yapma",
+      "goal": "Anlam katan önekleri (over-, under-, re-, pre-, co-, out-, inter-) ve fiil yapan ekleri (-ise / -ize, -en, en-) kullanarak kelime dağarcığımı genişletebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir şirketin yeniden yapılanması",
+        "body": "Last year, our company went through a major reorganisation. The management admitted that they had overestimated demand and underestimated costs. Several departments were restructured, and two smaller offices were merged. To strengthen the team, the company hired a new co-director who had previously worked abroad. She modernised the IT system, which enabled staff to work more efficiently. She also introduced international training programmes. At first, many employees felt overworked and underpaid, but after six months, most people agreed that the changes had been worth it. This year, the company has outperformed most of its competitors.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What mistake did the management admit?",
+            "options": [
+              "They spent too little on IT.",
+              "They overestimated demand and underestimated costs.",
+              "They hired too many people."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"overestimated demand and underestimated costs\"",
+            "id": "c1-u11-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the new co-director do?",
+            "options": [
+              "She closed the company.",
+              "She modernised the IT system.",
+              "She cut salaries."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She modernised the IT system\"",
+            "id": "c1-u11-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Anlam önekleri:**\n\n| Önek | Anlam | Örnekler |\n|---|---|---|\n| **over-** | fazla, aşırı | **over**work, **over**estimate, **over**sleep, **over**crowded |\n| **under-** | az, yetersiz | **under**paid, **under**estimate, **under**cooked |\n| **re-** | yeniden | **re**write, **re**organise, **re**build, **re**cycle |\n| **pre-** | önce | **pre**view, **pre**pay, **pre**-war |\n| **post-** | sonra | **post**graduate, **post**-war |\n| **co-** | birlikte | **co**-worker, **co**-author, **co**operate |\n| **inter-** | arası | **inter**national, **inter**view, **inter**act |\n| **out-** | -den daha fazla / aşmak | **out**grow, **out**number, **out**live, **out**perform |\n| **multi-** | çok | **multi**national, **multi**cultural |\n| **self-** | kendi | **self**-confident, **self**-employed |\n\n**2. Fiil yapan ekler:**\n\n| Ek | Kök | Örnekler |\n|---|---|---|\n| **-ise / -ize** | sıfat / isim | modern → modern**ise**, real → real**ise**, critic → critic**ise**, summary → summar**ise** |\n| **-en** | sıfat | strong → strength**en**, wide → wid**en**, short → short**en**, deep → deep**en** |\n| **en-** | sıfat / isim | able → **en**able, courage → **en**courage, large → **en**large, danger → **en**danger |\n| **-ify** | sıfat / isim | simple → simpl**ify**, class → class**ify**, pure → pur**ify** |\n\n**Not:** İngiliz İngilizcesinde **-ise** ve **-ize** ikisi de kabul edilir (*organise / organize*); Amerikan İngilizcesi **-ize** kullanır. Bir metinde birini seçip tutarlı olun.\n\n**Kelime kombinasyonları:** Bir kelimede birden fazla ek olabilir:\n\n- *un + believe + able* → **unbelievable**\n- *re + organise + ation* → **reorganisation**\n- *en + courage + ment* → **encouragement**",
+        "examples": [
+          {
+            "en": "Let's simplify the instructions so that everyone can understand them.",
+            "tr": "Talimatları herkesin anlayabileceği şekilde basitleştirelim."
+          },
+          {
+            "en": "My teacher's encouragement gave me confidence.",
+            "tr": "Öğretmenimin cesaretlendirmesi bana özgüven verdi."
+          },
+          {
+            "en": "Don't underestimate how long the journey will take.",
+            "tr": "Yolculuğun ne kadar süreceğini hafife alma."
+          }
+        ],
+        "turkishNote": "Türkçede \"yeniden\", \"aşırı\", \"ortak\" gibi anlamlar genellikle ayrı kelimelerle ifade edilir: \"yeniden yazmak\", \"aşırı çalışmak\", \"ortak yazar\". İngilizcede ise bu anlamlar önekle tek kelimeye sığar: \"rewrite\", \"overwork\", \"co-author\". Ayrıca \"-laştırmak\" eki (modernleştirmek, basitleştirmek) İngilizcedeki \"-ise / -ify\" eklerine çok benzer: \"modernise\", \"simplify\". Bu benzerlikleri fark etmek, yeni kelimeleri tahmin etmenize yardımcı olur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"underestimate\" anlamı:",
+          "options": [
+            "Hafife almak",
+            "Abartmak"
+          ],
+          "answerIndex": 0,
+          "explanation": "under- = az.",
+          "id": "c1-u11-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"wide\" fiil hali:",
+          "options": [
+            "widen",
+            "enwide"
+          ],
+          "answerIndex": 0,
+          "explanation": "-en.",
+          "id": "c1-u11-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"courage\" fiil hali:",
+          "options": [
+            "couragise",
+            "encourage"
+          ],
+          "answerIndex": 1,
+          "explanation": "en-.",
+          "id": "c1-u11-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"outlive\" anlamı:",
+          "options": [
+            "Dışarıda yaşamak",
+            "-den daha uzun yaşamak"
+          ],
+          "answerIndex": 1,
+          "explanation": "out- = aşmak.",
+          "id": "c1-u11-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___slept and missed the bus. (fazla uyumak)",
+          "answers": [
+            "over"
+          ],
+          "explanation": "oversleep.",
+          "id": "c1-u11-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The essay is too long. Can you ___ it? (SHORT)",
+          "answers": [
+            "shorten"
+          ],
+          "explanation": "-en.",
+          "id": "c1-u11-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We need to ___ the instructions. They're too complicated. (SIMPLE)",
+          "answers": [
+            "simplify"
+          ],
+          "explanation": "-ify.",
+          "id": "c1-u11-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She is ___-employed; she runs her own business.",
+          "answers": [
+            "self"
+          ],
+          "explanation": "self-employed.",
+          "id": "c1-u11-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The city council has announced plans to widen the main road and modernise the bus station. The project is expected to cost more than originally estimated, but the council says it will strengthen the local economy.",
+          "prompt": "Belediye ne yapmayı planlıyor?",
+          "options": [
+            "Yolu genişletip otobüs terminalini modernleştirmek",
+            "Yeni bir havalimanı yapmak",
+            "Yolu kapatmak"
+          ],
+          "answerIndex": 0,
+          "explanation": "widen, modernise.",
+          "id": "c1-u11-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Tek kelimeyle söyleyin: \"to write something again\"",
+          "accepted": [
+            "rewrite",
+            "re-write"
+          ],
+          "explanation": "rewrite",
+          "id": "c1-u11-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Okulunuzda, işyerinizde ya da şehrinizde yapılması gereken değişiklikleri önerin (1 dakika). En az 6 önekli ya da fiil yapan ekli kelime kullanın (overcrowded, underfunded, rebuild, reorganise, modernise, widen, strengthen, encourage, simplify, co-operate ...).",
+          "modelAnswer": "I think my city needs some important changes. First, the public transport system is overcrowded, especially during rush hour, so the council should add more buses and widen some of the main roads. Second, many schools are underfunded and need to be modernised; some of them haven't been renovated for decades. Third, I'd like the council to simplify the process for opening a small business, because at the moment it's far too complicated. Finally, they should encourage people to recycle more by providing better facilities. If local businesses and the council co-operate, I'm sure these changes would strengthen the community.",
+          "rubric": [
+            "Önekli kelimeler",
+            "Fiil yapan ekler",
+            "Öneri dili",
+            "Akıcılık"
+          ]
+        },
+        "id": "c1-u11-l4-use"
+      }
+    },
+    {
+      "id": "c1-u11-l5",
+      "number": 5,
+      "title": "Kelime aileleri ve sınav stratejisi",
+      "goal": "Bir kelimenin tüm ailesini (isim, fiil, sıfat, zarf, olumsuz) türetebilir, cümledeki boşluğun hangi kelime türünü gerektirdiğini analiz edebilir ve sınav tipi soruları çözebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir sınav metninden",
+        "body": "Many students find word formation tasks extremely (1) CHALLENGE. However, with the right (2) PREPARE, they can become much more (3) MANAGE. The first step is to read the whole sentence (4) CARE and decide which part of speech is needed. Is it a noun, a verb, an adjective or an adverb? Then, think about whether the meaning is positive or negative. Many students lose marks (5) NECESSARY because they forget to add a prefix or a plural ending.\n\nAnswers: (1) challenging, (2) preparation, (3) manageable, (4) carefully, (5) unnecessarily",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the first step in a word formation task?",
+            "options": [
+              "Look up the word in a dictionary.",
+              "Read the sentence and decide which part of speech is needed.",
+              "Write the word in capitals."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"decide which part of speech is needed\"",
+            "id": "c1-u11-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why do students often lose marks?",
+            "options": [
+              "They write too slowly.",
+              "They forget prefixes or plural endings.",
+              "They don't know the root word."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"they forget to add a prefix or a plural ending\"",
+            "id": "c1-u11-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Kelime ailesi örnekleri:**\n\n| Fiil | İsim | Sıfat | Zarf | Olumsuz |\n|---|---|---|---|---|\n| decide | decision | decisive | decisively | indecisive |\n| succeed | success | successful | successfully | unsuccessful |\n| rely | reliability | reliable | reliably | unreliable |\n| care | care | careful / careless | carefully | careless |\n| strengthen | strength | strong | strongly | — |\n| manage | management / manager | manageable | — | unmanageable |\n| believe | belief | believable | believably | unbelievable |\n| — | necessity | necessary | necessarily | unnecessary / unnecessarily |\n\n**Sınav stratejisi (4 adım):**\n\n**1. Kelime türünü belirleyin:** Boşluktan önce ve sonra ne var?\n\n| Boşluktan önce | Gereken |\n|---|---|\n| *a / the / his / their* (+ sıfat) | **isim** |\n| *very / extremely / more / be / seem* | **sıfat** |\n| fiil + ___ / cümle sonu | **zarf** |\n| *to* / modal | **fiil** |\n\n**2. Anlam olumlu mu, olumsuz mu?** Bağlam *However, but, sadly* gibi işaretler içeriyor mu?\n\n**3. Tekil mi, çoğul mu?** (*many ___* → çoğul isim)\n\n**4. Yazımı kontrol edin!** (*happi**ness**, begin**n**ing, necessar**ily***)\n\n**Sık yapılan hatalar:**\n\n- Olumsuz öneki unutmak\n- İsmin çoğul halini unutmak: *many **possibilities***\n- Zarf yerine sıfat: ✗ *He drove careful.* ✓ *carefully*\n- İki değişiklik gereken kelimeler: *NECESSARY → **un**necessar**ily***",
+        "examples": [
+          {
+            "en": "She answered the question confidently.",
+            "tr": "Soruyu kendinden emin bir şekilde cevapladı."
+          },
+          {
+            "en": "The results were completely unbelievable.",
+            "tr": "Sonuçlar tamamen inanılmazdı."
+          },
+          {
+            "en": "There are many possibilities.",
+            "tr": "Birçok olasılık var."
+          }
+        ],
+        "turkishNote": "Türkçede bir kelimenin türü genellikle ekten kolayca anlaşılır ve zarflar çoğu zaman sıfatla aynı biçimdedir (\"iyi bir öğrenci\" / \"iyi çalıştı\"). Bu yüzden Türk öğrenciler İngilizcede sıfat yerine zarf kullanmayı (\"careful\" / \"carefully\") sık sık unutur. Ayrıca sınav sorularında öğrenciler genellikle sadece bir değişiklik yapar; oysa birçok soru hem önek hem sonek gerektirir (NECESSARY → unnecessarily). Cevap yazmadan önce her zaman \"Olumsuz mu? Çoğul mu? Zarf mı?\" diye kontrol edin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He drove ___.\" (CARE)",
+          "options": [
+            "careful",
+            "carefully"
+          ],
+          "answerIndex": 1,
+          "explanation": "Fiilden sonra zarf.",
+          "id": "c1-u11-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"There are many ___ .\" (POSSIBLE)",
+          "options": [
+            "possibility",
+            "possibilities"
+          ],
+          "answerIndex": 1,
+          "explanation": "many + çoğul.",
+          "id": "c1-u11-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sadly, the plan was ___.\" (SUCCEED)",
+          "options": [
+            "successful",
+            "unsuccessful"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sadly → olumsuz.",
+          "id": "c1-u11-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"a ___ leader\" (DECIDE)",
+          "options": [
+            "decisive",
+            "decision"
+          ],
+          "answerIndex": 0,
+          "explanation": "a + sıfat + isim.",
+          "id": "c1-u11-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "You don't need to bring anything. It's completely ___. (NECESSARY)",
+          "answers": [
+            "unnecessary"
+          ],
+          "explanation": "Olumsuz.",
+          "id": "c1-u11-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ passed all her exams. (SUCCEED)",
+          "answers": [
+            "successfully"
+          ],
+          "explanation": "Zarf.",
+          "id": "c1-u11-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Good time ___ is essential for students. (MANAGE)",
+          "answers": [
+            "management"
+          ],
+          "explanation": "İsim.",
+          "id": "c1-u11-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The story was so strange that it was almost ___. (BELIEVE)",
+          "answers": [
+            "unbelievable"
+          ],
+          "explanation": "un- + -able.",
+          "id": "c1-u11-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When you see a gap, first ask yourself what kind of word you need. If there's an article before the gap, you probably need a noun. If there's a verb before it, you might need an adverb. And always check whether the sentence needs a negative.",
+          "prompt": "Boşluktan önce bir artikel (a / the) varsa ne gerekir?",
+          "options": [
+            "Fiil",
+            "Zarf",
+            "Muhtemelen isim"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"If there's an article before the gap, you probably need a noun.\"",
+          "id": "c1-u11-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Doğru biçimi yazın: \"The weather is ___ at this time of year.\" (PREDICT, olumsuz)",
+          "accepted": [
+            "unpredictable"
+          ],
+          "explanation": "unpredictable",
+          "id": "c1-u11-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "\"How to learn vocabulary effectively\" başlıklı kısa bir blog yazısı ya da öneri metni yazın (140–170 kelime). Metinde en az 12 türetilmiş kelime kullanın (önek ve sonekli); bunların en az 3'ü olumsuz önekli, en az 2'si fiil yapan ekli (-ise, -en, en-, -ify) ve en az 3'ü zarf olsun. Türetilmiş kelimelerin altını çizin ya da büyük harfle yazın.",
+          "modelAnswer": "How to learn vocabulary EFFECTIVELY\n\nMany learners find vocabulary learning FRUSTRATING. They write long lists of words, try to memorise them and then forget them a week later. This approach is not only TIRING but also largely INEFFECTIVE.\n\nA more SUCCESSFUL method is to learn words in families. When you learn \"decide\", also learn \"DECISION\", \"DECISIVE\" and \"INDECISIVE\". This will STRENGTHEN your memory, because each word helps you remember the others.\n\nSecondly, pay attention to prefixes and suffixes. Once you RECOGNISE common endings like \"-ness\" or \"-able\", you can often guess the meaning of UNFAMILIAR words without a dictionary.\n\nThirdly, review words REGULARLY. Spaced repetition apps make this much easier and will ENABLE you to remember words for months, not days.\n\nFinally, don't be IMPATIENT. Vocabulary grows SLOWLY, but if you study CONSISTENTLY, the results will be REMARKABLE. It's UNREALISTIC to expect to learn everything at once, so be kind to yourself and enjoy the process.",
+          "rubric": [
+            "En az 12 türetilmiş kelime",
+            "Olumsuz önekler",
+            "Fiil yapan ekler ve zarflar",
+            "Doğru yazım",
+            "Anlam bütünlüğü ve akıcılık"
+          ]
+        },
+        "id": "c1-u11-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"strong\" isim hali:",
+        "options": [
+          "strongness",
+          "strength"
+        ],
+        "answerIndex": 1,
+        "explanation": "strength",
+        "id": "c1-u11-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"possible\" olumsuzu:",
+        "options": [
+          "unpossible",
+          "impossible"
+        ],
+        "answerIndex": 1,
+        "explanation": "im-",
+        "id": "c1-u11-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"mantıklı\":",
+        "options": [
+          "sensible",
+          "sensitive"
+        ],
+        "answerIndex": 0,
+        "explanation": "sensible",
+        "id": "c1-u11-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Your help has been invaluable.\"",
+        "options": [
+          "Yardımın değersizdi.",
+          "Yardımın paha biçilmezdi."
+        ],
+        "answerIndex": 1,
+        "explanation": "invaluable",
+        "id": "c1-u11-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"She answered ___.\" (CONFIDENT)",
+        "options": [
+          "confident",
+          "confidently"
+        ],
+        "answerIndex": 1,
+        "explanation": "Zarf",
+        "id": "c1-u11-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "I had a happy ___ in a small village. (CHILD)",
+        "answers": [
+          "childhood"
+        ],
+        "explanation": "-hood",
+        "id": "c1-u11-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "Parking here is ___. (LEGAL, olumsuz)",
+        "answers": [
+          "illegal"
+        ],
+        "explanation": "il-",
+        "id": "c1-u11-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "His comments were completely ___. (RELEVANT, olumsuz)",
+        "answers": [
+          "irrelevant"
+        ],
+        "explanation": "ir-",
+        "id": "c1-u11-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Smoking is ___ to your health. (HARM)",
+        "answers": [
+          "harmful"
+        ],
+        "explanation": "-ful",
+        "id": "c1-u11-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "We need to ___ the road. It's too narrow. (WIDE)",
+        "answers": [
+          "widen"
+        ],
+        "explanation": "-en",
+        "id": "c1-u11-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Sorry, I ___understood your question. (yanlış)",
+        "answers": [
+          "mis"
+        ],
+        "explanation": "mis-",
+        "id": "c1-u11-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "You don't need to call. It's ___. (NECESSARY, olumsuz)",
+        "answers": [
+          "unnecessary"
+        ],
+        "explanation": "un-",
+        "id": "c1-u11-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Our new manager has really changed the department. She has simplified many of the procedures, encouraged more teamwork and strengthened our relationship with customers. Honestly, her leadership has been invaluable.",
+        "prompt": "Yeni müdür ne yaptı?",
+        "options": [
+          "Prosedürleri basitleştirdi ve ekip çalışmasını teşvik etti",
+          "Departmanı kapattı",
+          "Herkesin maaşını düşürdü"
+        ],
+        "answerIndex": 0,
+        "explanation": "simplified, encouraged, strengthened.",
+        "id": "c1-u11-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Doğru biçimi yazın: \"Many people ___ how long it takes to learn a language.\" (ESTIMATE, \"hafife almak\")",
+        "accepted": [
+          "underestimate"
+        ],
+        "explanation": "underestimate",
+        "id": "c1-u11-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "\"The qualities of a good leader\" konusunda kısa bir paragraf ya da konuşma metni yazın (130–160 kelime). En az 12 türetilmiş kelime kullanın: isim yapan sonekler (-ness, -ity, -ship, -ence), sıfat yapan sonekler (-ful, -able, -ive), en az 3 olumsuz önek ve en az 2 zarf.",
+        "modelAnswer": "What makes a good leader? In my opinion, the most important quality is HONESTY. A leader who is DISHONEST will quickly lose the trust of the team. Secondly, good LEADERSHIP requires PATIENCE. Leaders who are IMPATIENT or IRRESPONSIBLE tend to make CARELESS mistakes.\n\nA SUCCESSFUL leader is also DECISIVE. Being INDECISIVE can be just as harmful as making the wrong choice, because the team needs clear DIRECTION. At the same time, a good leader should be SUPPORTIVE and listen CAREFULLY to other people's ideas.\n\nFinally, I believe RELIABILITY is essential. Team members need to know that their leader will act CONSISTENTLY and keep promises. In short, the best leaders combine CONFIDENCE with KINDNESS, and they ENCOURAGE the people around them to grow.",
+        "rubric": [
+          "En az 12 türetilmiş kelime",
+          "İsim ve sıfat sonekleri",
+          "Olumsuz önekler",
+          "Zarflar",
+          "Doğru yazım ve akıcılık"
+        ],
+        "id": "c1-u11-t15"
+      }
+    ]
+  }
+}
