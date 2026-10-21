@@ -1,0 +1,1472 @@
+{
+  "id": "a2-u10",
+  "level": "A2",
+  "number": 10,
+  "title": "Davetler",
+  "titleEn": "Invitations",
+  "canDo": "Birini kibarca davet edebilir, bir daveti uygun şekilde kabul ya da reddedebilir, öneride bulunabilir ve bir davette sohbet edebilirim.",
+  "grammar": [
+    "Would you like (to) ...? ve Do you like ...? farkı",
+    "I'd love to / I'm afraid I can't",
+    "Let's / How about -ing / Why don't we / Shall we",
+    "resmi ve samimi davetiyeler",
+    "sosyal ortamda ikram ve teşekkür"
+  ],
+  "vocabularyThemes": [
+    "sosyal etkinlikler",
+    "kutlamalar",
+    "davet ve cevap ifadeleri"
+  ],
+  "liveClass": {
+    "title": "Parti planlayıcıları",
+    "durationMinutes": 45,
+    "goal": "Gruplar bir etkinlik planlar (doğum günü, mezuniyet, iş yemeği). Önce Let's / How about / Shall we ile karar verirler, sonra her öğrenci başka gruptan birini davet eder. Davet edilen kişi rol kartına göre kabul ya da kibarca reddeder. Son olarak etkinlik canlandırılır: karşılama, ikram ve vedalaşma."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u10-v01",
+      "en": "invite",
+      "tr": "davet etmek",
+      "example": "They invited us to their wedding.",
+      "exampleTr": "Bizi düğünlerine davet ettiler.",
+      "note": "invite someone to something"
+    },
+    {
+      "id": "a2-u10-v02",
+      "en": "invitation",
+      "tr": "davet, davetiye",
+      "example": "Thanks for the invitation!",
+      "exampleTr": "Davetin için teşekkürler!"
+    },
+    {
+      "id": "a2-u10-v03",
+      "en": "would like",
+      "tr": "istemek (kibar)",
+      "example": "Would you like to come?",
+      "exampleTr": "Gelmek ister misin?",
+      "note": "I'd like = I would like"
+    },
+    {
+      "id": "a2-u10-v04",
+      "en": "I'd love to",
+      "tr": "Çok isterim",
+      "example": "Dinner on Friday? I'd love to!",
+      "exampleTr": "Cuma akşam yemeği mi? Çok isterim!"
+    },
+    {
+      "id": "a2-u10-v05",
+      "en": "I'm afraid",
+      "tr": "Korkarım, maalesef",
+      "example": "I'm afraid I can't come.",
+      "exampleTr": "Maalesef gelemiyorum.",
+      "note": "Kibar ret ifadesi."
+    },
+    {
+      "id": "a2-u10-v06",
+      "en": "accept",
+      "tr": "kabul etmek",
+      "example": "I'm happy to accept your invitation.",
+      "exampleTr": "Davetinizi kabul etmekten mutluluk duyarım."
+    },
+    {
+      "id": "a2-u10-v07",
+      "en": "refuse / decline",
+      "tr": "reddetmek",
+      "example": "It's hard to refuse an invitation.",
+      "exampleTr": "Bir daveti reddetmek zor.",
+      "note": "decline daha resmi."
+    },
+    {
+      "id": "a2-u10-v08",
+      "en": "celebrate",
+      "tr": "kutlamak",
+      "example": "We're celebrating our anniversary.",
+      "exampleTr": "Yıldönümümüzü kutluyoruz."
+    },
+    {
+      "id": "a2-u10-v09",
+      "en": "anniversary",
+      "tr": "yıldönümü",
+      "example": "It's our tenth wedding anniversary.",
+      "exampleTr": "Onuncu evlilik yıldönümümüz."
+    },
+    {
+      "id": "a2-u10-v10",
+      "en": "housewarming",
+      "tr": "ev hayırlısı (partisi)",
+      "example": "We're having a housewarming party.",
+      "exampleTr": "Ev hayırlısı partisi veriyoruz."
+    },
+    {
+      "id": "a2-u10-v11",
+      "en": "graduation",
+      "tr": "mezuniyet",
+      "example": "My graduation ceremony is in June.",
+      "exampleTr": "Mezuniyet törenim haziranda."
+    },
+    {
+      "id": "a2-u10-v12",
+      "en": "engagement",
+      "tr": "nişan",
+      "example": "They had a big engagement party.",
+      "exampleTr": "Büyük bir nişan partisi verdiler."
+    },
+    {
+      "id": "a2-u10-v13",
+      "en": "guest",
+      "tr": "misafir",
+      "example": "We have twenty guests.",
+      "exampleTr": "Yirmi misafirimiz var."
+    },
+    {
+      "id": "a2-u10-v14",
+      "en": "host",
+      "tr": "ev sahibi",
+      "example": "The host made a lovely dinner.",
+      "exampleTr": "Ev sahibi harika bir yemek yaptı."
+    },
+    {
+      "id": "a2-u10-v15",
+      "en": "dress code",
+      "tr": "kıyafet kuralı",
+      "example": "What's the dress code? – Smart casual.",
+      "exampleTr": "Kıyafet kuralı ne? – Şık günlük."
+    },
+    {
+      "id": "a2-u10-v16",
+      "en": "RSVP",
+      "tr": "LCV (lütfen cevap veriniz)",
+      "example": "Please RSVP by 10 May.",
+      "exampleTr": "Lütfen 10 Mayıs'a kadar cevap verin.",
+      "note": "Fransızca répondez s'il vous plaît'den."
+    },
+    {
+      "id": "a2-u10-v17",
+      "en": "bring",
+      "tr": "getirmek",
+      "example": "Shall I bring anything?",
+      "exampleTr": "Bir şey getireyim mi?",
+      "note": "bring → brought"
+    },
+    {
+      "id": "a2-u10-v18",
+      "en": "Help yourself!",
+      "tr": "Buyurun, alın!",
+      "example": "There's food in the kitchen. Help yourself!",
+      "exampleTr": "Mutfakta yemek var. Buyurun!"
+    },
+    {
+      "id": "a2-u10-v19",
+      "en": "make yourself at home",
+      "tr": "kendi evin gibi rahat ol",
+      "example": "Come in and make yourself at home.",
+      "exampleTr": "Gel, kendi evin gibi rahat ol."
+    },
+    {
+      "id": "a2-u10-v20",
+      "en": "look forward to",
+      "tr": "dört gözle beklemek",
+      "example": "I'm looking forward to the party!",
+      "exampleTr": "Partiyi dört gözle bekliyorum!",
+      "note": "look forward to + isim / -ing"
+    },
+    {
+      "id": "a2-u10-v21",
+      "en": "get together",
+      "tr": "bir araya gelmek",
+      "example": "Let's get together next week.",
+      "exampleTr": "Gelecek hafta bir araya gelelim."
+    },
+    {
+      "id": "a2-u10-v22",
+      "en": "thank you for having me",
+      "tr": "ağırladığınız için teşekkürler",
+      "example": "Thank you for having me. It was lovely.",
+      "exampleTr": "Beni ağırladığınız için teşekkürler. Çok güzeldi.",
+      "note": "Ayrılırken söylenir."
+    },
+    {
+      "id": "a2-u10-v23",
+      "en": "another time",
+      "tr": "başka bir zaman",
+      "example": "Maybe another time?",
+      "exampleTr": "Belki başka bir zaman?"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u10-l1",
+      "number": 1,
+      "title": "Gelmek ister misin?",
+      "goal": "Would you like (to) ...? ile kibarca davet edebilir ve I'd love to ile kabul edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Koridorda",
+        "lines": [
+          {
+            "speaker": "Burcu",
+            "text": "Hi, Tolga. Would you like to come to my birthday party on Saturday?"
+          },
+          {
+            "speaker": "Tolga",
+            "text": "I'd love to! Where is it?"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "At my flat. We're having a barbecue on the balcony."
+          },
+          {
+            "speaker": "Tolga",
+            "text": "Great. Would you like me to bring anything?"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "Maybe some drinks? And would you like to bring your sister too?"
+          },
+          {
+            "speaker": "Tolga",
+            "text": "That's very kind. I'll ask her. See you on Saturday!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What kind of party is it?",
+            "options": [
+              "A dinner in a restaurant",
+              "A barbecue at Burcu's flat",
+              "A picnic"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"We're having a barbecue on the balcony.\"",
+            "id": "a2-u10-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Burcu ask Tolga to bring?",
+            "options": [
+              "Food",
+              "Drinks",
+              "Music"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Maybe some drinks?\"",
+            "id": "a2-u10-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Would you like to** + fiil? → kibar davet (… ister misin?)\n\n- **Would you like to** come to dinner?\n- **Would you like to** join us?\n\n**Would you like** + isim? → kibar teklif\n\n- **Would you like** a coffee?\n\n**Kabul etmek:** **I'd love to!** / Yes, please. / That sounds great! / Thanks, I'd like that.\n\n**Do you like ...? ile karıştırmayın:**\n\n| Would you like ...? | Do you like ...? |\n|---|---|\n| Şimdi / gelecekte ister misin? | Genelde sever misin? |\n| Would you like a tea? – Yes, please. | Do you like tea? – Yes, I do. |\n\n**Would you like me to** + fiil? → … yapmamı ister misin? (teklif)",
+        "examples": [
+          {
+            "en": "Would you like to go to the cinema tonight?",
+            "tr": "Bu akşam sinemaya gitmek ister misin?"
+          },
+          {
+            "en": "Would you like a piece of cake? – Yes, please!",
+            "tr": "Bir dilim pasta ister misin? – Evet, lütfen!"
+          },
+          {
+            "en": "Would you like me to pick you up?",
+            "tr": "Seni almamı ister misin?"
+          }
+        ],
+        "turkishNote": "\"Ister misin?\" sorusu İngilizcede \"Do you want...?\" ile de sorulabilir ama \"Would you like...?\" çok daha kibardır ve davetlerde, iş ortamında tercih edilir. \"I'd love to\" cevabında fiil tekrar edilmez: \"I'd love to come\" da olur ama sadece \"I'd love to!\" çok doğaldır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kibar davet:",
+          "options": [
+            "Would you like to come to my party?",
+            "Do you like to come to my party?",
+            "You want come to my party?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Would you like to + fiil?",
+          "id": "a2-u10-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Would you like a tea?\" cevabı:",
+          "options": [
+            "Yes, I do.",
+            "Yes, please.",
+            "Yes, I like."
+          ],
+          "answerIndex": 1,
+          "explanation": "Teklif → Yes, please.",
+          "id": "a2-u10-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Do you like tea?\" cevabı:",
+          "options": [
+            "Yes, I do.",
+            "Yes, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "Genel tercih → Yes, I do.",
+          "id": "a2-u10-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would you like ___ join us for dinner?",
+          "answers": [
+            "to"
+          ],
+          "explanation": "would like to + fiil.",
+          "id": "a2-u10-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Dinner on Friday? I'd ___ to!",
+          "answers": [
+            "love"
+          ],
+          "explanation": "I'd love to.",
+          "id": "a2-u10-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would you like ___ to bring anything? (benim getirmemi)",
+          "answers": [
+            "me"
+          ],
+          "explanation": "Would you like me to...?",
+          "id": "a2-u10-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Would",
+            "like",
+            "to",
+            "go",
+            "to",
+            "the",
+            "cinema",
+            "?"
+          ],
+          "answer": "Would you like to go to the cinema?",
+          "explanation": "Would you like to + fiil?",
+          "translation": "Sinemaya gitmek ister misin?",
+          "id": "a2-u10-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Would you like to come to our housewarming party next Friday? – That sounds great! What time?",
+          "prompt": "Davet edilen kişi ne diyor?",
+          "options": [
+            "Kabul ediyor",
+            "Reddediyor",
+            "Emin değil"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"That sounds great!\"",
+          "id": "a2-u10-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Seni almamı ister misin?\"",
+          "accepted": [
+            "Would you like me to pick you up?",
+            "Would you like me to pick you up",
+            "Do you want me to pick you up?",
+            "Do you want me to pick you up"
+          ],
+          "explanation": "Would you like me to + pick you up?",
+          "id": "a2-u10-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Would you like a coffee?",
+              "right": "Yes, please."
+            },
+            {
+              "left": "Do you like coffee?",
+              "right": "Yes, I do."
+            },
+            {
+              "left": "Would you like to come?",
+              "right": "I'd love to!"
+            },
+            {
+              "left": "Would you like me to help?",
+              "right": "That's very kind."
+            }
+          ],
+          "explanation": "Soruları cevaplarla eşleştirin.",
+          "id": "a2-u10-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'yi 3 farklı etkinliğe davet edin (Would you like to...?). Sonra JAI'ye bir ikramda bulunun (Would you like a...?) ve bir yardım teklif edin (Would you like me to...?).",
+          "modelAnswer": "Would you like to come to my graduation? Would you like to go for a walk on Sunday? Would you like to join our book club? Would you like a coffee? Would you like me to send you the address?",
+          "rubric": [
+            "Would you like to + fiil",
+            "Would you like + isim",
+            "Would you like me to + fiil"
+          ]
+        },
+        "id": "a2-u10-l1-use"
+      }
+    },
+    {
+      "id": "a2-u10-l2",
+      "number": 2,
+      "title": "Maalesef gelemiyorum",
+      "goal": "Bir daveti kibarca reddedebilir, sebep gösterebilir ve başka bir zaman önerebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Telefonda",
+        "lines": [
+          {
+            "speaker": "Nur",
+            "text": "Hi, Emre! We're having a dinner party on Friday. Would you like to come?"
+          },
+          {
+            "speaker": "Emre",
+            "text": "Oh, thanks for asking! I'd love to, but I'm afraid I can't. I'm working late on Friday."
+          },
+          {
+            "speaker": "Nur",
+            "text": "That's a shame. What about Saturday? We're going to a concert."
+          },
+          {
+            "speaker": "Emre",
+            "text": "Sorry, I'm visiting my parents this weekend."
+          },
+          {
+            "speaker": "Nur",
+            "text": "No problem. Maybe another time?"
+          },
+          {
+            "speaker": "Emre",
+            "text": "Definitely. Let's get together next week. I'll call you."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why can't Emre come on Friday?",
+            "options": [
+              "He's visiting his parents.",
+              "He's working late.",
+              "He's ill."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'm working late on Friday.\"",
+            "id": "a2-u10-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Emre suggest?",
+            "options": [
+              "Getting together next week",
+              "Going to the concert",
+              "Coming on Saturday"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Let's get together next week.\"",
+            "id": "a2-u10-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Kibar bir ret üç adımdan oluşur:**\n\n1. **Teşekkür / olumlu tepki:** Thanks for asking! / That's very kind of you. / I'd love to, **but** ...\n2. **Özür + sebep:** **I'm afraid** I can't. I'm busy. / Sorry, I've got other plans. / I'm working that day.\n3. **Alternatif:** Maybe another time? / How about next week? / Can we do it on Sunday instead?\n\n**Davet eden kişinin cevabı:**\n\n- That's a shame. / What a pity! (Ne yazık.)\n- No problem. / Never mind. (Önemli değil.)\n\nSadece \"No\" ya da \"I don't want to\" demek İngilizcede **kaba** duyulur.\n\nSebepler için present continuous (ayarlanmış plan) çok kullanılır: I**'m meeting** a client. / We**'re going** away.",
+        "examples": [
+          {
+            "en": "That's very kind of you, but I'm afraid I can't.",
+            "tr": "Çok naziksiniz ama maalesef gelemiyorum."
+          },
+          {
+            "en": "I'd love to, but I've got other plans.",
+            "tr": "Çok isterdim ama başka planlarım var."
+          },
+          {
+            "en": "What a pity! Maybe another time.",
+            "tr": "Ne yazık! Belki başka zaman."
+          }
+        ],
+        "turkishNote": "\"I'm afraid\" burada \"korkuyorum\" anlamında değil, kibarca kötü bir haber vermek içindir: I'm afraid I can't = Maalesef yapamıyorum. Türkçede \"Kusura bakma\" ile başlamak gibidir. İngilizcede ret cümlesine bir teşekkür ve bir sebep eklemek çok önemlidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En kibar ret:",
+          "options": [
+            "No, I can't.",
+            "I'd love to, but I'm afraid I'm busy.",
+            "I don't want to."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumlu + özür + sebep.",
+          "id": "a2-u10-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm afraid I can't come.\" Anlamı:",
+          "options": [
+            "Gelmekten korkuyorum.",
+            "Maalesef gelemiyorum.",
+            "Gelmem lazım."
+          ],
+          "answerIndex": 1,
+          "explanation": "I'm afraid = maalesef.",
+          "id": "a2-u10-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd love to, ___ I'm working that day.",
+          "answers": [
+            "but"
+          ],
+          "explanation": "I'd love to, but...",
+          "id": "a2-u10-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Thanks for ___! (sorduğun için)",
+          "answers": [
+            "asking"
+          ],
+          "explanation": "Thanks for asking.",
+          "id": "a2-u10-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "That's a ___. Maybe another time? (Ne yazık.)",
+          "answers": [
+            "shame",
+            "pity"
+          ],
+          "explanation": "That's a shame / pity.",
+          "id": "a2-u10-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Sorry, I've got other ___. (planlar)",
+          "answers": [
+            "plans"
+          ],
+          "explanation": "other plans.",
+          "id": "a2-u10-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "very",
+            "That's",
+            "kind",
+            "of",
+            "you"
+          ],
+          "answer": "That's very kind of you.",
+          "explanation": "That's very kind of you.",
+          "translation": "Çok naziksin.",
+          "id": "a2-u10-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Would you like to come to the cinema tonight? – Oh, I'm sorry, I can't. I'm meeting my cousin at the airport. How about tomorrow?",
+          "prompt": "Neden bu akşam gelemiyor?",
+          "options": [
+            "Hasta",
+            "Kuzenini havalimanından alacak",
+            "Çalışıyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I'm meeting my cousin at the airport\"",
+          "id": "a2-u10-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Çok isterdim ama başka planlarım var.\"",
+          "accepted": [
+            "I'd love to, but I've got other plans.",
+            "I'd love to, but I've got other plans",
+            "I would love to, but I've got other plans",
+            "I would love to, but I've got other plans.",
+            "I'd love to, but I have other plans.",
+            "I'd love to, but I have other plans",
+            "I would love to, but I have other plans",
+            "I would love to, but I have other plans.",
+            "I'd love to but I've got other plans.",
+            "I'd love to but I've got other plans",
+            "I would love to but I've got other plans",
+            "I would love to but I've got other plans.",
+            "I'd love to but I have other plans.",
+            "I'd love to but I have other plans",
+            "I would love to but I have other plans",
+            "I would love to but I have other plans."
+          ],
+          "explanation": "I'd love to, but + I've got other plans.",
+          "id": "a2-u10-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Thanks for asking!",
+              "right": "olumlu tepki"
+            },
+            {
+              "left": "I'm afraid I can't.",
+              "right": "özür"
+            },
+            {
+              "left": "I'm working late.",
+              "right": "sebep"
+            },
+            {
+              "left": "Maybe another time?",
+              "right": "alternatif"
+            }
+          ],
+          "explanation": "Kibar retin adımlarını eşleştirin.",
+          "id": "a2-u10-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI sizi 3 farklı etkinliğe davet edecek. Birini kabul edin, ikisini kibarca reddedin (teşekkür + özür + sebep + alternatif).",
+          "modelAnswer": "Oh, thanks for asking! I'd love to, but I'm afraid I can't. I'm visiting my grandmother on Saturday. How about next weekend? ... A concert? That sounds great! I'd love to come.",
+          "rubric": [
+            "Kibar ret yapısı (3 adım)",
+            "Sebep için present continuous",
+            "Kabul ifadesi"
+          ]
+        },
+        "id": "a2-u10-l2-use"
+      }
+    },
+    {
+      "id": "a2-u10-l3",
+      "number": 3,
+      "title": "Ne yapalım?",
+      "goal": "Bir grup içinde öneride bulunabilir, önerilere tepki verip ortak karar alabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Sürpriz parti",
+        "lines": [
+          {
+            "speaker": "Ece",
+            "text": "It's Selin's birthday next week. Let's organise a surprise party!"
+          },
+          {
+            "speaker": "Can",
+            "text": "Good idea! Why don't we have it at my place? It's big enough."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "How about inviting her old school friends too?"
+          },
+          {
+            "speaker": "Ece",
+            "text": "Hmm, I'm not sure. I don't have their numbers."
+          },
+          {
+            "speaker": "Can",
+            "text": "What about asking her sister? She knows everyone."
+          },
+          {
+            "speaker": "Ece",
+            "text": "That's a great idea. Shall we meet tomorrow to plan the food?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Sure. Let's meet at the café at six."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where will the party be?",
+            "options": [
+              "At Ece's house",
+              "At Can's place",
+              "At a café"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Why don't we have it at my place?\"",
+            "id": "a2-u10-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who knows Selin's old school friends?",
+            "options": [
+              "Ece",
+              "Selin's sister",
+              "Deniz"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"What about asking her sister? She knows everyone.\"",
+            "id": "a2-u10-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Öneri yapmak:**\n\n| Kalıp | Ardından | Örnek |\n|---|---|---|\n| Let's | yalın fiil | **Let's** order pizza. |\n| Why don't we | yalın fiil | **Why don't we** meet at six? |\n| Shall we | yalın fiil | **Shall we** go now? |\n| How about / What about | **-ing** / isim | **How about** inviting Ali? / **What about** Friday? |\n| We could | yalın fiil | **We could** have it outside. |\n\n**Olumlu tepki:** Good idea! / That's a great idea. / Sure. / Why not?\n\n**Kararsız / olumsuz tepki:** I'm not sure. / Hmm, maybe. / I'd rather not. / I don't think that's a good idea, because ...\n\n**Let's not** + fiil → olumsuz öneri: **Let's not** tell her!",
+        "examples": [
+          {
+            "en": "Why don't we go to the new Italian restaurant?",
+            "tr": "Neden yeni İtalyan restoranına gitmiyoruz?"
+          },
+          {
+            "en": "How about having a picnic?",
+            "tr": "Pikniğe ne dersiniz?"
+          },
+          {
+            "en": "We could watch a film at home.",
+            "tr": "Evde film izleyebiliriz."
+          }
+        ],
+        "turkishNote": "How about / What about sonrası fiil -ing alır: How about going (How about go değil). Diğer kalıplarda (Let's, Why don't we, Shall we, We could) yalın fiil gelir. Türkçedeki \"-elim\" (gidelim) çoğu zaman Let's ile, \"-elim mi?\" (gidelim mi?) Shall we ile söylenir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "How about go to the beach?",
+            "How about going to the beach?"
+          ],
+          "answerIndex": 1,
+          "explanation": "How about + -ing.",
+          "id": "a2-u10-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Why don't we to meet at six?",
+            "Why don't we meet at six?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Why don't we + yalın fiil.",
+          "id": "a2-u10-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gidelim mi?\"",
+          "options": [
+            "Shall we go?",
+            "Do we go?",
+            "Let's we go?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Shall we + fiil?",
+          "id": "a2-u10-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let's ___ pizza tonight. (order)",
+          "answers": [
+            "order"
+          ],
+          "explanation": "Let's + yalın fiil.",
+          "id": "a2-u10-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What about ___ Ali? (invite)",
+          "answers": [
+            "inviting"
+          ],
+          "explanation": "What about + -ing.",
+          "id": "a2-u10-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ have the party in the garden. (-ebiliriz)",
+          "answers": [
+            "could"
+          ],
+          "explanation": "We could + fiil.",
+          "id": "a2-u10-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let's ___ tell her. It's a surprise! (söylemeyelim)",
+          "answers": [
+            "not"
+          ],
+          "explanation": "Let's not.",
+          "id": "a2-u10-l3-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "we",
+            "Why",
+            "don't",
+            "have",
+            "it",
+            "at",
+            "my",
+            "place",
+            "?"
+          ],
+          "answer": "Why don't we have it at my place?",
+          "explanation": "Why don't we + fiil?",
+          "translation": "Neden bizim evde yapmıyoruz?",
+          "id": "a2-u10-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Shall we go to the cinema? – Hmm, I'm not sure. The films this week aren't very good. How about going bowling?",
+          "prompt": "İkinci konuşan ne öneriyor?",
+          "options": [
+            "Sinema",
+            "Bowling",
+            "Evde kalmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"How about going bowling?\"",
+          "id": "a2-u10-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Pikniğe gitmeye ne dersin?\"",
+          "accepted": [
+            "How about going on a picnic?",
+            "How about going on a picnic",
+            "How about having a picnic?",
+            "How about having a picnic",
+            "What about going on a picnic?",
+            "What about going on a picnic",
+            "What about having a picnic?",
+            "What about having a picnic"
+          ],
+          "explanation": "How about + going on a picnic?",
+          "id": "a2-u10-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile bir arkadaşınız için veda partisi planlayın: yer, tarih, yemek, müzik ve hediye hakkında öneriler yapın (en az 4 farklı kalıp) ve JAI'nin önerilerine tepki verin.",
+          "modelAnswer": "Let's have the party on Friday evening. Why don't we have it in the garden? How about ordering food from the Turkish restaurant? We could make a playlist of her favourite songs. Shall we buy her a nice bag? ... Hmm, I'm not sure. That's a great idea!",
+          "rubric": [
+            "Farklı öneri kalıpları",
+            "-ing / yalın fiil doğru",
+            "Tepki ifadeleri"
+          ]
+        },
+        "id": "a2-u10-l3-use"
+      }
+    },
+    {
+      "id": "a2-u10-l4",
+      "number": 4,
+      "title": "Davetiye",
+      "goal": "Resmi ve samimi bir davetiye yazıp yazılı bir davete cevap verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki davetiye",
+        "body": "1)\nMr and Mrs Aydın request the pleasure of your company at the wedding of their daughter Elif to Mr Kerem Demir.\nSaturday 14 June, 7 pm\nGarden Hotel, Bebek, Istanbul\nDress code: formal\nPlease RSVP by 1 June.\n\n2)\nHi everyone!\nGuess what? I've finally got my own flat! 🏠 I'm having a housewarming party next Friday from 8 pm. Bring something to drink and your dancing shoes!\nLet me know if you can come.\nLove, Duygu",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When should guests reply to the wedding invitation?",
+            "options": [
+              "By 14 June",
+              "By 1 June",
+              "On Friday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Please RSVP by 1 June.\"",
+            "id": "a2-u10-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What should guests bring to Duygu's party?",
+            "options": [
+              "Food",
+              "Something to drink",
+              "A present"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Bring something to drink\"",
+            "id": "a2-u10-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Resmi ve samimi davet dili:**\n\n| Resmi | Samimi |\n|---|---|\n| We would like to invite you to ... | Would you like to come to ...? |\n| request the pleasure of your company | I'm having a party! |\n| Please RSVP by ... | Let me know if you can come. |\n| Dress code: formal | Wear something comfy! |\n\n**Kabul cevabı:**\n\n- Resmi: Thank you for your kind invitation. I would be delighted to attend.\n- Samimi: Thanks! I'd love to come. **I'm looking forward to** it!\n\n**Ret cevabı:**\n\n- Resmi: Thank you for your invitation. Unfortunately, I will not be able to attend because ...\n- Samimi: Thanks so much, but I'm afraid I can't make it. I'm ...\n\n**look forward to** + isim / -ing: I'm looking forward **to seeing** you. (to see değil)",
+        "examples": [
+          {
+            "en": "We would like to invite you to our annual dinner.",
+            "tr": "Sizi yıllık yemeğimize davet etmek isteriz."
+          },
+          {
+            "en": "Unfortunately, I won't be able to attend.",
+            "tr": "Maalesef katılamayacağım."
+          },
+          {
+            "en": "I'm looking forward to seeing you!",
+            "tr": "Seni görmeyi dört gözle bekliyorum!"
+          }
+        ],
+        "turkishNote": "\"look forward to\" kalıbındaki to bir edattır; bu yüzden ardından fiil -ing alır: looking forward to meeting you. \"can't make it\" = gelemeyeceğim (günlük dil). Resmi davetiyelerde \"Mr and Mrs\" kalıbı ve üçüncü tekil anlatım kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmi kabul:",
+          "options": [
+            "Cool, I'll come!",
+            "I would be delighted to attend.",
+            "Yes, OK."
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmi → delighted to attend.",
+          "id": "a2-u10-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Samimi ret:",
+          "options": [
+            "Unfortunately, I will not be able to attend.",
+            "Sorry, I can't make it. I'm away that weekend."
+          ],
+          "answerIndex": 1,
+          "explanation": "Samimi → can't make it.",
+          "id": "a2-u10-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm looking forward to see you.",
+            "I'm looking forward to seeing you."
+          ],
+          "answerIndex": 1,
+          "explanation": "look forward to + -ing.",
+          "id": "a2-u10-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Please ___ by 10 May. (cevap verin)",
+          "answers": [
+            "RSVP",
+            "reply"
+          ],
+          "explanation": "RSVP.",
+          "id": "a2-u10-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Thank you for your kind ___.",
+          "answers": [
+            "invitation"
+          ],
+          "explanation": "invitation (isim).",
+          "id": "a2-u10-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm afraid I can't make ___. (gelemem)",
+          "answers": [
+            "it"
+          ],
+          "explanation": "make it.",
+          "id": "a2-u10-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Let me ___ if you can come.",
+          "answers": [
+            "know"
+          ],
+          "explanation": "Let me know.",
+          "id": "a2-u10-l4-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "would",
+            "We",
+            "like",
+            "to",
+            "invite",
+            "you",
+            "to",
+            "our",
+            "wedding"
+          ],
+          "answer": "We would like to invite you to our wedding.",
+          "explanation": "Resmi davet kalıbı.",
+          "translation": "Sizi düğünümüze davet etmek isteriz.",
+          "id": "a2-u10-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi Duygu, thanks for the invitation! I'd love to come. Shall I bring some snacks? Can't wait!",
+          "prompt": "Konuşan ne teklif ediyor?",
+          "options": [
+            "İçecek getirmek",
+            "Atıştırmalık getirmek",
+            "Müzik getirmek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Shall I bring some snacks?\"",
+          "id": "a2-u10-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Maalesef katılamayacağım.\" (resmi)",
+          "accepted": [
+            "Unfortunately, I won't be able to attend.",
+            "Unfortunately, I won't be able to attend",
+            "Unfortunately, I will not be able to attend.",
+            "Unfortunately, I will not be able to attend",
+            "Unfortunately I won't be able to attend.",
+            "Unfortunately I won't be able to attend",
+            "Unfortunately I will not be able to attend.",
+            "Unfortunately I will not be able to attend"
+          ],
+          "explanation": "Unfortunately, + I won't be able to attend.",
+          "id": "a2-u10-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "İki kısa mesaj yazın: (1) Duygu'nun ev partisine samimi bir kabul cevabı (bir şey getirmeyi teklif edin), (2) Elif ve Kerem'in düğününe resmi bir ret cevabı (sebep ve iyi dilekler).",
+          "modelAnswer": "1) Hi Duygu! Congratulations on your new flat! Thanks for the invitation. I'd love to come. Shall I bring some cake? I'm looking forward to it!\n\n2) Dear Mr and Mrs Aydın,\nThank you very much for your kind invitation to Elif and Kerem's wedding. Unfortunately, I will not be able to attend because I will be abroad for work. I wish them a very happy life together.\nBest wishes,\nAhmet Kaya",
+          "rubric": [
+            "Samimi dil doğru",
+            "Resmi dil doğru",
+            "look forward to + isim/-ing",
+            "Teklif ve sebep"
+          ]
+        },
+        "id": "a2-u10-l4-use"
+      }
+    },
+    {
+      "id": "a2-u10-l5",
+      "number": 5,
+      "title": "Partide",
+      "goal": "Bir davette misafir ya da ev sahibi olarak uygun ifadeleri kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ev partisi",
+        "lines": [
+          {
+            "speaker": "Duygu",
+            "text": "Hi, Ahmet! Come in, come in. Make yourself at home."
+          },
+          {
+            "speaker": "Ahmet",
+            "text": "Thanks! This is for you. Congratulations on the new flat!"
+          },
+          {
+            "speaker": "Duygu",
+            "text": "Oh, flowers! That's so kind of you. Would you like something to drink?"
+          },
+          {
+            "speaker": "Ahmet",
+            "text": "I'd love a lemonade, please."
+          },
+          {
+            "speaker": "Duygu",
+            "text": "Here you are. The food is in the kitchen. Help yourself!"
+          },
+          {
+            "speaker": "Ahmet",
+            "text": "Thanks. Your flat is lovely. When did you move in?"
+          },
+          {
+            "speaker": "Duygu",
+            "text": "Just two weeks ago!"
+          },
+          {
+            "speaker": "Ahmet",
+            "text": "(Later) I'm afraid I have to go. Thank you for having me. It was a great party!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Ahmet bring?",
+            "options": [
+              "A cake",
+              "Flowers",
+              "A bottle of lemonade"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Oh, flowers!\"",
+            "id": "a2-u10-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Ahmet say when he leaves?",
+            "options": [
+              "Make yourself at home.",
+              "Thank you for having me.",
+              "Help yourself!"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Thank you for having me.\"",
+            "id": "a2-u10-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Ev sahibinin ifadeleri:**\n\n- Come in! / Welcome! / Make yourself at home.\n- Would you like something to drink / eat?\n- Help yourself! (Buyurun, kendiniz alın.)\n- Can I get you anything else?\n\n**Misafirin ifadeleri:**\n\n- This is for you. (Hediye verirken)\n- What a lovely flat! / The food is delicious!\n- Could I have some water, please?\n- I'm afraid I have to go. / I should get going.\n- **Thank you for having me.** / Thanks for a lovely evening.\n\n**Kutlama ifadeleri:**\n\n| Durum | İfade |\n|---|---|\n| doğum günü | Happy birthday! |\n| yeni ev, iş, mezuniyet, nişan | **Congratulations on** your new job! |\n| düğün | Congratulations! I wish you a happy life together. |\n| yeni yıl | Happy New Year! |",
+        "examples": [
+          {
+            "en": "Congratulations on your graduation!",
+            "tr": "Mezuniyetin kutlu olsun!"
+          },
+          {
+            "en": "Can I get you anything else?",
+            "tr": "Başka bir şey getireyim mi?"
+          },
+          {
+            "en": "Thanks for a lovely evening.",
+            "tr": "Güzel bir akşam için teşekkürler."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"Hoş geldiniz\" için \"Welcome!\" ya da \"Come in!\", \"Ellerinize sağlık\" için \"The food was delicious, thank you!\" denebilir; birebir karşılığı yoktur. \"Congratulations\" her zaman -s ile biter ve ardından on gelir: Congratulations on your new baby."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Misafir gelince ev sahibi:",
+          "options": [
+            "Make yourself at home.",
+            "Thank you for having me.",
+            "I have to go."
+          ],
+          "answerIndex": 0,
+          "explanation": "Karşılama.",
+          "id": "a2-u10-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Misafir ayrılırken:",
+          "options": [
+            "Help yourself!",
+            "Thank you for having me.",
+            "Come in!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teşekkür ederek ayrılma.",
+          "id": "a2-u10-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Congratulation for your new job!",
+            "Congratulations on your new job!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Congratulations on.",
+          "id": "a2-u10-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The food is in the kitchen. Help ___!",
+          "answers": [
+            "yourself"
+          ],
+          "explanation": "Help yourself.",
+          "id": "a2-u10-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This is ___ you. (Hediye)",
+          "answers": [
+            "for"
+          ],
+          "explanation": "This is for you.",
+          "id": "a2-u10-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm afraid I have ___ go.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "have to go.",
+          "id": "a2-u10-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Can I get you anything ___? (başka)",
+          "answers": [
+            "else"
+          ],
+          "explanation": "anything else.",
+          "id": "a2-u10-l5-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "for",
+            "Thanks",
+            "a",
+            "lovely",
+            "evening"
+          ],
+          "answer": "Thanks for a lovely evening.",
+          "explanation": "Thanks for + isim.",
+          "translation": "Güzel bir akşam için teşekkürler.",
+          "id": "a2-u10-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Welcome! Let me take your coat. Would you like some tea or coffee? – A coffee would be lovely, thanks.",
+          "prompt": "Misafir ne istiyor?",
+          "options": [
+            "Çay",
+            "Kahve",
+            "Su"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"A coffee would be lovely\"",
+          "id": "a2-u10-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Happy",
+              "right": "birthday!"
+            },
+            {
+              "left": "Congratulations on",
+              "right": "your engagement!"
+            },
+            {
+              "left": "Make yourself",
+              "right": "at home."
+            },
+            {
+              "left": "Thank you for",
+              "right": "having me."
+            }
+          ],
+          "explanation": "İfadeleri tamamlayın.",
+          "id": "a2-u10-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ev sahibi, siz misafirsiniz. Partiye gelin (hediye verin ve tebrik edin), bir ikramı kabul edin, ev veya yemek hakkında iltifat edin, kısa bir sohbet edin ve teşekkür ederek ayrılın.",
+          "modelAnswer": "Hi! This is for you. Congratulations on your new job! ... Yes, I'd love some juice, please. ... Your house is beautiful! The food is delicious. ... I'm afraid I have to go now. Thank you for having me. It was a lovely evening!",
+          "rubric": [
+            "Tebrik ifadesi doğru",
+            "Kabul ve iltifat",
+            "Kibar ayrılış (Thank you for having me)"
+          ]
+        },
+        "id": "a2-u10-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Kibar davet:",
+        "options": [
+          "Would you like to come?",
+          "Do you like to come?"
+        ],
+        "answerIndex": 0,
+        "explanation": "Would you like to",
+        "id": "a2-u10-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Would you like a coffee?\" cevabı:",
+        "options": [
+          "Yes, I do.",
+          "Yes, please."
+        ],
+        "answerIndex": 1,
+        "explanation": "Yes, please",
+        "id": "a2-u10-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "Would you like ___ to help you? (benim)",
+        "answers": [
+          "me"
+        ],
+        "explanation": "Would you like me to",
+        "id": "a2-u10-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "En kibar ret:",
+        "options": [
+          "No.",
+          "I'd love to, but I'm afraid I can't."
+        ],
+        "answerIndex": 1,
+        "explanation": "Kibar ret",
+        "id": "a2-u10-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'm ___ I can't come. I'm busy. (maalesef)",
+        "answers": [
+          "afraid"
+        ],
+        "explanation": "I'm afraid",
+        "id": "a2-u10-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "That's a ___! Maybe another time.",
+        "answers": [
+          "shame",
+          "pity"
+        ],
+        "explanation": "That's a shame",
+        "id": "a2-u10-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "How about watch a film?",
+          "How about watching a film?"
+        ],
+        "answerIndex": 1,
+        "explanation": "How about + -ing",
+        "id": "a2-u10-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Why don't we ___ at seven? (meet)",
+        "answers": [
+          "meet"
+        ],
+        "explanation": "Why don't we + yalın fiil",
+        "id": "a2-u10-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ we go? (gidelim mi)",
+        "answers": [
+          "Shall"
+        ],
+        "explanation": "Shall we",
+        "id": "a2-u10-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'm looking forward to meet you.",
+          "I'm looking forward to meeting you."
+        ],
+        "answerIndex": 1,
+        "explanation": "look forward to + -ing",
+        "id": "a2-u10-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Resmi ret:",
+        "options": [
+          "Sorry, can't make it!",
+          "Unfortunately, I will not be able to attend."
+        ],
+        "answerIndex": 1,
+        "explanation": "Resmi",
+        "id": "a2-u10-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Congratulations for your wedding!",
+          "Congratulations on your wedding!"
+        ],
+        "answerIndex": 1,
+        "explanation": "on",
+        "id": "a2-u10-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I'd love to come to your party, but I'm afraid I'm working on Saturday night. Can we meet for lunch on Sunday instead?",
+        "prompt": "Konuşan ne öneriyor?",
+        "options": [
+          "Cumartesi akşamı buluşmak",
+          "Pazar öğle yemeği",
+          "Partiye gelmek"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Can we meet for lunch on Sunday instead?\"",
+        "id": "a2-u10-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Beni ağırladığınız için teşekkürler.\"",
+        "accepted": [
+          "Thank you for having me.",
+          "Thank you for having me",
+          "Thanks for having me.",
+          "Thanks for having me",
+          "Thank you for having me!",
+          "Thanks for having me!"
+        ],
+        "explanation": "Thank you for having me.",
+        "id": "a2-u10-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Arkadaşlarınızı bir etkinliğe davet eden samimi bir mesaj yazın (tarih, saat, yer, ne getirmeleri gerektiği). Sonra bir arkadaşınızın bu davete yazdığı kibar ret mesajını da yazın (60–80 kelime toplam).",
+        "modelAnswer": "Hi everyone! I passed my driving test! 🚗 Let's celebrate! I'm having a picnic in Fenerbahçe Park on Sunday at 1 pm. Would you like to come? Please bring some food or drinks. Let me know if you can make it!\n\nReply: Congratulations! That's amazing news. I'd love to come, but I'm afraid I can't. I'm visiting my grandparents in Bursa this weekend. Why don't we have dinner next week to celebrate? Have fun!",
+        "rubric": [
+          "Davet bilgileri tam",
+          "Would you like / Let's doğru",
+          "Kibar ret yapısı",
+          "Tebrik ve alternatif öneri"
+        ],
+        "id": "a2-u10-t15"
+      }
+    ]
+  }
+}
