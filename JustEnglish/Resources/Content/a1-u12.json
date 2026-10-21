@@ -1,0 +1,1451 @@
+{
+  "id": "a1-u12",
+  "level": "A1",
+  "number": 12,
+  "title": "Hafta sonu",
+  "titleEn": "Last Weekend",
+  "canDo": "Geçen hafta sonu ve geçmişte neler yaptığımı basit cümlelerle anlatabilir, başkalarına sorabilirim.",
+  "grammar": [
+    "was / were",
+    "past simple: düzenli fiiller (-ed)",
+    "past simple: didn't ve Did ...?",
+    "zaman ifadeleri: yesterday, last, ago",
+    "ilk düzensiz fiiller: went, had"
+  ],
+  "vocabularyThemes": [
+    "hafta sonu etkinlikleri",
+    "geçmiş zaman ifadeleri",
+    "olay sıralama"
+  ],
+  "liveClass": {
+    "title": "Hafta sonu röportajı",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler ikili olarak birbirine geçen hafta sonunu sorar (Where were you? Did you...? What did you do?), not alır ve partnerinin hafta sonunu sınıfa anlatır. Sınıf en ilginç hafta sonunu oylar."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u12-v01",
+      "en": "yesterday",
+      "tr": "dün",
+      "example": "I was at home yesterday.",
+      "exampleTr": "Dün evdeydim."
+    },
+    {
+      "id": "a1-u12-v02",
+      "en": "last night",
+      "tr": "dün gece",
+      "example": "I watched a film last night.",
+      "exampleTr": "Dün gece film izledim.",
+      "note": "yesterday night denmez."
+    },
+    {
+      "id": "a1-u12-v03",
+      "en": "last weekend",
+      "tr": "geçen hafta sonu",
+      "example": "What did you do last weekend?",
+      "exampleTr": "Geçen hafta sonu ne yaptın?",
+      "note": "last week, last month, last year"
+    },
+    {
+      "id": "a1-u12-v04",
+      "en": "ago",
+      "tr": "önce",
+      "example": "I started this course two months ago.",
+      "exampleTr": "Bu kursa iki ay önce başladım.",
+      "note": "süre + ago"
+    },
+    {
+      "id": "a1-u12-v05",
+      "en": "visit",
+      "tr": "ziyaret etmek",
+      "example": "We visited my grandparents.",
+      "exampleTr": "Büyükannemi ve büyükbabamı ziyaret ettik."
+    },
+    {
+      "id": "a1-u12-v06",
+      "en": "stay",
+      "tr": "kalmak",
+      "example": "I stayed at home on Sunday.",
+      "exampleTr": "Pazar evde kaldım."
+    },
+    {
+      "id": "a1-u12-v07",
+      "en": "relax",
+      "tr": "dinlenmek, rahatlamak",
+      "example": "I relaxed in the garden.",
+      "exampleTr": "Bahçede dinlendim."
+    },
+    {
+      "id": "a1-u12-v08",
+      "en": "clean",
+      "tr": "temizlemek",
+      "example": "We cleaned the flat on Saturday.",
+      "exampleTr": "Cumartesi daireyi temizledik."
+    },
+    {
+      "id": "a1-u12-v09",
+      "en": "watch",
+      "tr": "izlemek",
+      "example": "Did you watch the match?",
+      "exampleTr": "Maçı izledin mi?"
+    },
+    {
+      "id": "a1-u12-v10",
+      "en": "listen to",
+      "tr": "dinlemek",
+      "example": "I listened to a podcast.",
+      "exampleTr": "Bir podcast dinledim."
+    },
+    {
+      "id": "a1-u12-v11",
+      "en": "walk",
+      "tr": "yürümek",
+      "example": "We walked by the sea.",
+      "exampleTr": "Deniz kenarında yürüdük."
+    },
+    {
+      "id": "a1-u12-v12",
+      "en": "cook",
+      "tr": "yemek yapmak",
+      "example": "My husband cooked dinner.",
+      "exampleTr": "Eşim akşam yemeği yaptı."
+    },
+    {
+      "id": "a1-u12-v13",
+      "en": "study",
+      "tr": "ders çalışmak",
+      "example": "I studied for my exam.",
+      "exampleTr": "Sınavıma çalıştım.",
+      "note": "study → studied"
+    },
+    {
+      "id": "a1-u12-v14",
+      "en": "invite",
+      "tr": "davet etmek",
+      "example": "They invited us to dinner.",
+      "exampleTr": "Bizi akşam yemeğine davet ettiler."
+    },
+    {
+      "id": "a1-u12-v15",
+      "en": "arrive",
+      "tr": "varmak",
+      "example": "We arrived late.",
+      "exampleTr": "Geç vardık.",
+      "note": "arrive in + şehir, arrive at + yer"
+    },
+    {
+      "id": "a1-u12-v16",
+      "en": "start",
+      "tr": "başlamak",
+      "example": "The film started at eight.",
+      "exampleTr": "Film sekizde başladı."
+    },
+    {
+      "id": "a1-u12-v17",
+      "en": "finish",
+      "tr": "bitirmek, bitmek",
+      "example": "I finished my book.",
+      "exampleTr": "Kitabımı bitirdim."
+    },
+    {
+      "id": "a1-u12-v18",
+      "en": "went (go)",
+      "tr": "gitti (gitmek)",
+      "example": "I went to the cinema.",
+      "exampleTr": "Sinemaya gittim.",
+      "note": "Düzensiz: go → went."
+    },
+    {
+      "id": "a1-u12-v19",
+      "en": "had (have)",
+      "tr": "vardı; yedi/içti (sahip olmak)",
+      "example": "We had breakfast in a café.",
+      "exampleTr": "Bir kafede kahvaltı yaptık.",
+      "note": "Düzensiz: have → had."
+    },
+    {
+      "id": "a1-u12-v20",
+      "en": "picnic",
+      "tr": "piknik",
+      "example": "We had a picnic in the park.",
+      "exampleTr": "Parkta piknik yaptık.",
+      "note": "have a picnic"
+    },
+    {
+      "id": "a1-u12-v21",
+      "en": "concert",
+      "tr": "konser",
+      "example": "The concert was amazing.",
+      "exampleTr": "Konser muhteşemdi."
+    },
+    {
+      "id": "a1-u12-v22",
+      "en": "tired",
+      "tr": "yorgun",
+      "example": "I was very tired on Sunday evening.",
+      "exampleTr": "Pazar akşamı çok yorgundum."
+    },
+    {
+      "id": "a1-u12-v23",
+      "en": "first / then / after that",
+      "tr": "önce / sonra / ondan sonra",
+      "example": "First we had lunch, then we walked by the sea.",
+      "exampleTr": "Önce öğle yemeği yedik, sonra deniz kenarında yürüdük.",
+      "note": "Olay sıralamak için."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u12-l1",
+      "number": 1,
+      "title": "Neredeydin?",
+      "goal": "was / were ile geçmişte nerede olduğumu ve nasıl olduğunu söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Pazartesi sabahı",
+        "lines": [
+          {
+            "speaker": "Nil",
+            "text": "Good morning, Barış! How was your weekend?"
+          },
+          {
+            "speaker": "Barış",
+            "text": "It was great, thanks. I was in Eskişehir."
+          },
+          {
+            "speaker": "Nil",
+            "text": "Lovely! Who were you with?"
+          },
+          {
+            "speaker": "Barış",
+            "text": "I was with my brother. The weather was perfect."
+          },
+          {
+            "speaker": "Nil",
+            "text": "My weekend was terrible. I was ill and my kids were at home all weekend!"
+          },
+          {
+            "speaker": "Barış",
+            "text": "Oh no! I'm sorry."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where was Barış at the weekend?",
+            "options": [
+              "In Ankara",
+              "In Eskişehir",
+              "At home"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was in Eskişehir.\"",
+            "id": "a1-u12-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How was Nil's weekend?",
+            "options": [
+              "Great",
+              "Terrible",
+              "OK"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"My weekend was terrible.\"",
+            "id": "a1-u12-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**was / were**, am / is / are'nin geçmiş halidir.\n\n| Şimdi | Geçmiş |\n|---|---|\n| I **am** | I **was** |\n| He / She / It **is** | He / She / It **was** |\n| You / We / They **are** | You / We / They **were** |\n\n- I **was** at home yesterday.\n- The film **was** boring.\n- We **were** in Bodrum last summer.\n\n**Soru:** **How was** your weekend? / **Where were** you?",
+        "examples": [
+          {
+            "en": "It was cold yesterday.",
+            "tr": "Dün hava soğuktu."
+          },
+          {
+            "en": "My parents were in Izmir last week.",
+            "tr": "Annemlerle babam geçen hafta İzmir'deydi."
+          },
+          {
+            "en": "How was the concert? – It was amazing!",
+            "tr": "Konser nasıldı? – Muhteşemdi!"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-di\" eki (evdeydim, yorgundum) çoğu zaman was/were'e denk gelir. \"Dün\" = yesterday; \"dün gece\" = last night (yesterday night değil)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I ___ at the gym yesterday.",
+          "options": [
+            "was",
+            "were"
+          ],
+          "answerIndex": 0,
+          "explanation": "I → was.",
+          "id": "a1-u12-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "They ___ very tired.",
+          "options": [
+            "was",
+            "were"
+          ],
+          "answerIndex": 1,
+          "explanation": "they → were.",
+          "id": "a1-u12-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The weather ___ beautiful last weekend.",
+          "options": [
+            "was",
+            "were"
+          ],
+          "answerIndex": 0,
+          "explanation": "weather (it) → was.",
+          "id": "a1-u12-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ in Antalya last summer.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "we → were.",
+          "id": "a1-u12-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "How ___ your holiday? – Great, thanks!",
+          "answers": [
+            "was"
+          ],
+          "explanation": "holiday tekil → was.",
+          "id": "a1-u12-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Dün gece\"",
+          "options": [
+            "yesterday night",
+            "last night"
+          ],
+          "answerIndex": 1,
+          "explanation": "last night",
+          "id": "a1-u12-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "were",
+            "Where",
+            "you",
+            "on",
+            "Saturday",
+            "?"
+          ],
+          "answer": "Where were you on Saturday?",
+          "explanation": "Where + were + you + zaman?",
+          "translation": "Cumartesi neredeydin?",
+          "id": "a1-u12-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Last Sunday I was at my aunt's house. My cousins were there too. It was fun.",
+          "prompt": "Konuşan pazar günü neredeydi?",
+          "options": [
+            "Evde",
+            "Teyzesinin/halasının evinde",
+            "Sinemada"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I was at my aunt's house\"",
+          "id": "a1-u12-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dün hava soğuktu.\"",
+          "accepted": [
+            "It was cold yesterday.",
+            "It was cold yesterday",
+            "Yesterday it was cold.",
+            "Yesterday it was cold",
+            "Yesterday, it was cold.",
+            "Yesterday, it was cold",
+            "The weather was cold yesterday.",
+            "The weather was cold yesterday"
+          ],
+          "explanation": "It was cold + yesterday.",
+          "id": "a1-u12-l1-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I am",
+              "right": "I was"
+            },
+            {
+              "left": "she is",
+              "right": "she was"
+            },
+            {
+              "left": "we are",
+              "right": "we were"
+            },
+            {
+              "left": "they are",
+              "right": "they were"
+            }
+          ],
+          "explanation": "Geçmiş hallerini eşleştirin.",
+          "id": "a1-u12-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Geçen hafta sonu neredeydiniz, kiminle birlikteydiniz ve hafta sonunuz nasıldı? Hava nasıldı?",
+          "modelAnswer": "Last weekend I was in Bursa. I was with my friends. The weather was sunny but cold. It was a great weekend.",
+          "rubric": [
+            "was / were doğru",
+            "Zaman ifadesi",
+            "Hava ve değerlendirme"
+          ]
+        },
+        "id": "a1-u12-l1-use"
+      }
+    },
+    {
+      "id": "a1-u12-l2",
+      "number": 2,
+      "title": "Değildi, mıydı?",
+      "goal": "was / were ile olumsuz cümle kurabilir ve soru sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kayıp telefon",
+        "lines": [
+          {
+            "speaker": "Police officer",
+            "text": "Where were you at nine o'clock last night?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "I was at a restaurant with my friends."
+          },
+          {
+            "speaker": "Police officer",
+            "text": "Was your phone with you?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "Yes, it was. It was in my bag."
+          },
+          {
+            "speaker": "Police officer",
+            "text": "Were your friends with you all evening?"
+          },
+          {
+            "speaker": "Kaya",
+            "text": "No, they weren't. They weren't there after ten. And my phone wasn't in my bag at eleven!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where was Kaya last night?",
+            "options": [
+              "At home",
+              "At a restaurant",
+              "At the police station"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was at a restaurant\"",
+            "id": "a1-u12-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When wasn't the phone in the bag?",
+            "options": [
+              "At nine",
+              "At ten",
+              "At eleven"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"my phone wasn't in my bag at eleven\"",
+            "id": "a1-u12-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Olumsuz:** was not = **wasn't**, were not = **weren't**\n\n- I **wasn't** at work yesterday.\n- They **weren't** happy.\n\n**Soru:** Was / Were + özne + ...?\n\n- **Was** it expensive? – Yes, it **was**. / No, it **wasn't**.\n- **Were** you at home? – Yes, I **was**. / No, I **wasn't**.\n\n**Bilgi sorusu:** Where **were** you? / Who **was** with you? / Why **were** you late?",
+        "examples": [
+          {
+            "en": "The shop wasn't open on Sunday.",
+            "tr": "Dükkan pazar günü açık değildi."
+          },
+          {
+            "en": "Were you at the party? – No, I wasn't.",
+            "tr": "Partide miydin? – Hayır."
+          },
+          {
+            "en": "Why were you late?",
+            "tr": "Neden geç kaldın?"
+          }
+        ],
+        "turkishNote": "\"Geç kaldım\" İngilizcede bir be yapısıdır: I was late. \"Partide miydin?\" = Were you at the party? Soru için cümle başına Was/Were gelir, did kullanılmaz: ~~Did you be~~ yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I wasn't at school.",
+            "I weren't at school.",
+            "I didn't at school."
+          ],
+          "answerIndex": 0,
+          "explanation": "I → wasn't.",
+          "id": "a1-u12-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Were you tired?\" (Evet.)",
+          "options": [
+            "Yes, I was.",
+            "Yes, I were.",
+            "Yes, I did."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yes, I was.",
+          "id": "a1-u12-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Was the film good?\" (Hayır.)",
+          "options": [
+            "No, it wasn't.",
+            "No, it weren't.",
+            "No, it didn't."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, it wasn't.",
+          "id": "a1-u12-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The museum ___ open yesterday. It was Monday. (değildi)",
+          "answers": [
+            "wasn't",
+            "was not"
+          ],
+          "explanation": "Tekil olumsuz → wasn't.",
+          "id": "a1-u12-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "My friends ___ at the party. (değildi)",
+          "answers": [
+            "weren't",
+            "were not"
+          ],
+          "explanation": "Çoğul olumsuz → weren't.",
+          "id": "a1-u12-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you at home last night? – Yes, I was.",
+          "answers": [
+            "Were"
+          ],
+          "explanation": "you → Were.",
+          "id": "a1-u12-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "were",
+            "Why",
+            "you",
+            "late",
+            "?"
+          ],
+          "answer": "Why were you late?",
+          "explanation": "Why + were + you + sıfat?",
+          "translation": "Neden geç kaldın?",
+          "id": "a1-u12-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Was the hotel nice? – Well, the room was big, but it wasn't clean.",
+          "prompt": "Odanın sorunu neydi?",
+          "options": [
+            "Küçüktü",
+            "Temiz değildi",
+            "Pahalıydı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it wasn't clean\"",
+          "id": "a1-u12-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru yapın: \"The tickets were cheap.\"",
+          "accepted": [
+            "Were the tickets cheap?",
+            "Were the tickets cheap"
+          ],
+          "explanation": "Were + the tickets + cheap?",
+          "id": "a1-u12-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Dükkan dün kapalıydı.\"",
+          "options": [
+            "The shop was closed yesterday.",
+            "The shop closed is yesterday.",
+            "The shop were closed yesterday."
+          ],
+          "answerIndex": 0,
+          "explanation": "shop tekil → was closed.",
+          "id": "a1-u12-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI dedektif. Dün akşam saat 8'de neredeydiniz? JAI'nin sorularına was/were ile cevap verin; en az bir olumsuz cevap verin, sonra siz de JAI'ye 2 soru sorun.",
+          "modelAnswer": "I was at home. No, I wasn't alone. My sister was with me. ... Where were you yesterday? Were you at work?",
+          "rubric": [
+            "was/were doğru",
+            "wasn't/weren't doğru",
+            "Was/Were ile soru kurdu"
+          ]
+        },
+        "id": "a1-u12-l2-use"
+      }
+    },
+    {
+      "id": "a1-u12-l3",
+      "number": 3,
+      "title": "Düzenli fiiller",
+      "goal": "Düzenli fiillerle geçmişte yaptıklarımı anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Selin'in günlüğü",
+        "body": "Saturday\n\nI stayed in bed until ten. Then I cleaned my room and I cooked pasta for lunch. In the afternoon I visited my grandma. We talked for hours and we watched an old film together.\n\nIn the evening I listened to music and I studied a little for my English exam. I was very happy. It was a perfect, quiet day.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Selin cook?",
+            "options": [
+              "Soup",
+              "Pasta",
+              "Pizza"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I cooked pasta for lunch\"",
+            "id": "a1-u12-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who did she visit?",
+            "options": [
+              "Her friend",
+              "Her grandma",
+              "Her teacher"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I visited my grandma\"",
+            "id": "a1-u12-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Past simple**, geçmişte olup bitmiş eylemleri anlatır. Düzenli fiiller **-ed** alır ve **her özne için aynıdır**.\n\n- I / You / He / She / We / They **watched** TV.\n\n**Yazım kuralları:**\n\n| Kural | Örnek |\n|---|---|\n| Çoğu fiil: + -ed | walk → walk**ed**, clean → clean**ed** |\n| -e ile bitiyorsa: + -d | live → live**d**, arrive → arrive**d** |\n| ünsüz + y: y → -ied | study → stud**ied**, try → tr**ied** |\n| ünlü + y: + -ed | play → play**ed**, stay → stay**ed** |\n| kısa fiil, ünlü + ünsüz: ikile | stop → sto**pped**, plan → pla**nned** |\n\n**Telaffuz:** -ed üç şekilde okunur:\n\n- /t/: walked, watched, cooked\n- /d/: played, cleaned, stayed\n- /ɪd/ (ekstra hece): **t** veya **d** ile biten fiillerde: visit**ed**, start**ed**, need**ed**",
+        "examples": [
+          {
+            "en": "We walked by the sea.",
+            "tr": "Deniz kenarında yürüdük."
+          },
+          {
+            "en": "She studied all weekend.",
+            "tr": "Bütün hafta sonu ders çalıştı."
+          },
+          {
+            "en": "The film started at nine.",
+            "tr": "Film dokuzda başladı."
+          }
+        ],
+        "turkishNote": "Türkçede geçmiş zaman kişiye göre değişir (yaptım, yaptı, yaptık); İngilizcede değişmez: I cooked, she cooked, we cooked. Sık yapılan bir hata \"walked\" kelimesini iki heceli (walk-ed) okumaktır; doğrusu tek hecedir: /wɔːkt/."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "Yesterday I ___ my room. (clean)",
+          "answers": [
+            "cleaned"
+          ],
+          "explanation": "clean + -ed.",
+          "id": "a1-u12-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ for her exam. (study)",
+          "answers": [
+            "studied"
+          ],
+          "explanation": "ünsüz + y → -ied.",
+          "id": "a1-u12-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ football in the park. (play)",
+          "answers": [
+            "played"
+          ],
+          "explanation": "ünlü + y → + -ed.",
+          "id": "a1-u12-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "They ___ in Izmir for ten years. (live)",
+          "answers": [
+            "lived"
+          ],
+          "explanation": "-e → + -d.",
+          "id": "a1-u12-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The bus ___ at the station. (stop)",
+          "answers": [
+            "stopped"
+          ],
+          "explanation": "stop → stopped.",
+          "id": "a1-u12-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He watchs a film yesterday.",
+            "He watched a film yesterday.",
+            "He watched a film tomorrow."
+          ],
+          "answerIndex": 1,
+          "explanation": "Geçmiş → watched.",
+          "id": "a1-u12-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangi fiilin -ed'i ekstra hece (/ɪd/) olarak okunur?",
+          "options": [
+            "walked",
+            "played",
+            "visited"
+          ],
+          "answerIndex": 2,
+          "explanation": "t ile biten fiil → /ɪd/.",
+          "id": "a1-u12-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "On Sunday I cooked breakfast for my family. Then we walked to the park and played with the dog.",
+          "prompt": "Konuşan kahvaltıdan sonra ne yaptı?",
+          "options": [
+            "Evi temizledi",
+            "Parka yürüdü",
+            "Film izledi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Then we walked to the park\"",
+          "id": "a1-u12-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dün gece bir podcast dinledim.\"",
+          "accepted": [
+            "I listened to a podcast last night.",
+            "I listened to a podcast last night",
+            "Last night I listened to a podcast.",
+            "Last night I listened to a podcast",
+            "Last night, I listened to a podcast.",
+            "Last night, I listened to a podcast"
+          ],
+          "explanation": "listened to + a podcast + last night.",
+          "id": "a1-u12-l3-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "visited",
+            "We",
+            "our",
+            "grandparents",
+            "last",
+            "weekend"
+          ],
+          "answer": "We visited our grandparents last weekend.",
+          "explanation": "Özne + fiil-ed + nesne + zaman.",
+          "translation": "Geçen hafta sonu büyükanne ve büyükbabamızı ziyaret ettik.",
+          "id": "a1-u12-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Selin gibi geçen cumartesi için kısa bir günlük yazın. En az 5 düzenli fiil kullanın.",
+          "modelAnswer": "Saturday\nI stayed at home in the morning and I cleaned the kitchen. In the afternoon I walked to the market. In the evening my friends visited me. We cooked dinner together and we watched a comedy.",
+          "rubric": [
+            "-ed yazımı doğru",
+            "En az 5 düzenli fiil",
+            "Zaman ifadeleri (in the morning, then...)"
+          ]
+        },
+        "id": "a1-u12-l3-use"
+      }
+    },
+    {
+      "id": "a1-u12-l4",
+      "number": 4,
+      "title": "Yaptın mı?",
+      "goal": "Geçmişle ilgili Did ...? soruları sorup didn't ile olumsuz cümle kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ev arkadaşları",
+        "lines": [
+          {
+            "speaker": "Emre",
+            "text": "Did you clean the kitchen?"
+          },
+          {
+            "speaker": "Tolga",
+            "text": "Yes, I did. I cleaned it this morning."
+          },
+          {
+            "speaker": "Emre",
+            "text": "Thanks! Did you call the landlord?"
+          },
+          {
+            "speaker": "Tolga",
+            "text": "No, I didn't. I didn't have time. Sorry!"
+          },
+          {
+            "speaker": "Emre",
+            "text": "No problem. What did you do yesterday evening?"
+          },
+          {
+            "speaker": "Tolga",
+            "text": "I worked late. I arrived home at eleven."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Did Tolga clean the kitchen?",
+            "options": [
+              "Yes, he did.",
+              "No, he didn't."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Yes, I did.\"",
+            "id": "a1-u12-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why didn't Tolga call the landlord?",
+            "options": [
+              "He didn't have time.",
+              "He forgot the number.",
+              "The landlord was busy."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"I didn't have time.\"",
+            "id": "a1-u12-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Present simple'daki do / does, geçmişte **did** olur. did'den sonra fiil **yalın** haline döner.\n\n**Olumsuz:** didn't + yalın fiil\n\n- I **didn't watch** TV. (~~didn't watched~~)\n- She **didn't call** me.\n\n**Soru:** Did + özne + yalın fiil?\n\n- **Did** you **enjoy** the film? – Yes, I **did**. / No, I **didn't**.\n\n**Bilgi sorusu:** Soru kelimesi + did + özne + yalın fiil?\n\n- **What did** you **do** at the weekend?\n- **Where did** they **stay**?\n\n**Dikkat:** be fiilinde did kullanılmaz: Were you tired? (~~Did you be tired?~~)",
+        "examples": [
+          {
+            "en": "Did you watch the match? – No, I didn't.",
+            "tr": "Maçı izledin mi? – Hayır."
+          },
+          {
+            "en": "We didn't stay long.",
+            "tr": "Uzun kalmadık."
+          },
+          {
+            "en": "What did you cook?",
+            "tr": "Ne pişirdin?"
+          }
+        ],
+        "turkishNote": "En sık hata, did'den sonra fiile yine -ed eklemektir: \"Did you watched?\" ya da \"I didn't watched.\" Geçmiş bilgisini did taşıdığı için fiil yalın kalır: Did you watch? / I didn't watch."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Did you watched the film?",
+            "Did you watch the film?",
+            "Do you watched the film?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Did + yalın fiil.",
+          "wrongFeedback": {
+            "0": "did'den sonra -ed olmaz."
+          },
+          "id": "a1-u12-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I didn't cooked.",
+            "I didn't cook.",
+            "I not cooked."
+          ],
+          "answerIndex": 1,
+          "explanation": "didn't + yalın fiil.",
+          "id": "a1-u12-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Did she call you?\" (Evet.)",
+          "options": [
+            "Yes, she called.",
+            "Yes, she did.",
+            "Yes, she was."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yes, she did.",
+          "id": "a1-u12-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ visit the museum. It was closed. (yapmadık)",
+          "answers": [
+            "didn't",
+            "did not"
+          ],
+          "explanation": "Olumsuz: didn't.",
+          "id": "a1-u12-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Did you ___ the party? (enjoy)",
+          "answers": [
+            "enjoy"
+          ],
+          "explanation": "Did + yalın fiil.",
+          "id": "a1-u12-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you do last weekend?",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Geçmiş bilgi sorusu → did.",
+          "id": "a1-u12-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "did",
+            "Where",
+            "you",
+            "stay",
+            "in",
+            "Rome",
+            "?"
+          ],
+          "answer": "Where did you stay in Rome?",
+          "explanation": "Soru kelimesi + did + özne + yalın fiil?",
+          "translation": "Roma'da nerede kaldın?",
+          "id": "a1-u12-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Did you walk to work today? – No, I didn't. It rained all morning, so I travelled by bus.",
+          "prompt": "Konuşan bugün işe yürüdü mü?",
+          "options": [
+            "Evet",
+            "Hayır, otobüsle gitti",
+            "Hayır, evde kaldı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"No, I didn't ... I travelled by bus.\"",
+          "id": "a1-u12-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"I finished my homework.\"",
+          "accepted": [
+            "I didn't finish my homework.",
+            "I didn't finish my homework",
+            "I did not finish my homework",
+            "I did not finish my homework."
+          ],
+          "explanation": "didn't + finish.",
+          "id": "a1-u12-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Did you be at home?",
+            "Were you at home?"
+          ],
+          "answerIndex": 1,
+          "explanation": "be ile did kullanılmaz.",
+          "id": "a1-u12-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'ye dünkü günü hakkında 4 soru sorun (3 tane Did you...?, 1 tane What/Where did...?). Sonra JAI size soracak; kısa cevap verin.",
+          "modelAnswer": "Did you work yesterday? Did you cook dinner? Did you watch TV? What did you do in the evening? ... Yes, I did. / No, I didn't.",
+          "rubric": [
+            "Did + yalın fiil düzeni",
+            "Kısa cevaplar doğru",
+            "Bilgi sorusu kurdu"
+          ]
+        },
+        "id": "a1-u12-l4-use"
+      }
+    },
+    {
+      "id": "a1-u12-l5",
+      "number": 5,
+      "title": "Hafta sonumu anlatıyorum",
+      "goal": "Geçen hafta sonumu sıralı olarak ve zaman ifadeleriyle anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kahve molası",
+        "lines": [
+          {
+            "speaker": "Gizem",
+            "text": "What did you do last weekend?"
+          },
+          {
+            "speaker": "Ozan",
+            "text": "On Saturday I went to Şile with some friends. First we had breakfast in a village café."
+          },
+          {
+            "speaker": "Gizem",
+            "text": "Nice! And then?"
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Then we walked on the beach. After that we had a picnic. We arrived home at nine."
+          },
+          {
+            "speaker": "Gizem",
+            "text": "And on Sunday?"
+          },
+          {
+            "speaker": "Ozan",
+            "text": "I was very tired, so I stayed at home and relaxed. What about you?"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Ozan do first on Saturday?",
+            "options": [
+              "He walked on the beach.",
+              "He had breakfast.",
+              "He had a picnic."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"First we had breakfast in a village café.\"",
+            "id": "a1-u12-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did Ozan stay at home on Sunday?",
+            "options": [
+              "It rained.",
+              "He was tired.",
+              "He worked."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was very tired, so I stayed at home\"",
+            "id": "a1-u12-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Zaman ifadeleri:**\n\n| | |\n|---|---|\n| yesterday | yesterday morning / afternoon / evening |\n| last | last night, last weekend, last week, last year |\n| ago | two days ago, a week ago, ten years ago |\n| on / in / at | on Saturday, in July, at seven o'clock |\n\n**last** ve **ago** ile **on/in/at kullanılmaz**: ~~on last Saturday~~, ~~in two years ago~~.\n\n**Sıralama:** **First**, ... **Then** ... **After that**, ... \n\n**İlk iki düzensiz fiil:** Bazı fiiller -ed almaz. A2'de bunları ayrıntılı göreceğiz; şimdilik en sık kullanılan ikisi:\n\n- go → **went**: I **went** to the cinema.\n- have → **had**: We **had** lunch. / I **had** a great time.\n\nSoru ve olumsuzda yine yalın hal: **Did** you **go**? / I **didn't have** time.",
+        "examples": [
+          {
+            "en": "I went to Ankara three days ago.",
+            "tr": "Üç gün önce Ankara'ya gittim."
+          },
+          {
+            "en": "First we had lunch, then we visited the museum.",
+            "tr": "Önce öğle yemeği yedik, sonra müzeyi gezdik."
+          },
+          {
+            "en": "Did you have a good weekend?",
+            "tr": "Hafta sonun iyi geçti mi?"
+          }
+        ],
+        "turkishNote": "Türkçede \"iki gün önce\" deriz; İngilizcede ago süreden sonra gelir: two days ago (ago two days değil). \"Geçen cumartesi\" = last Saturday (on last Saturday değil)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "on last Saturday",
+            "last Saturday"
+          ],
+          "answerIndex": 1,
+          "explanation": "last ile on kullanılmaz.",
+          "id": "a1-u12-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Üç yıl önce\"",
+          "options": [
+            "ago three years",
+            "three years ago",
+            "before three years"
+          ],
+          "answerIndex": 1,
+          "explanation": "süre + ago.",
+          "id": "a1-u12-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ to the cinema last night. (go)",
+          "answers": [
+            "went"
+          ],
+          "explanation": "go → went.",
+          "id": "a1-u12-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ a picnic in the park. (have)",
+          "answers": [
+            "had"
+          ],
+          "explanation": "have → had.",
+          "id": "a1-u12-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Did you ___ to the concert? (go)",
+          "answers": [
+            "go"
+          ],
+          "explanation": "did + yalın fiil: go.",
+          "id": "a1-u12-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I didn't went.",
+            "I didn't go."
+          ],
+          "answerIndex": 1,
+          "explanation": "didn't + yalın fiil.",
+          "id": "a1-u12-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "First",
+            "we",
+            "had",
+            "breakfast",
+            "then",
+            "we",
+            "walked",
+            "by",
+            "the",
+            "sea"
+          ],
+          "answer": "First we had breakfast, then we walked by the sea.",
+          "explanation": "First ..., then ...",
+          "translation": "Önce kahvaltı yaptık, sonra deniz kenarında yürüdük.",
+          "id": "a1-u12-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Last Friday I went to a concert with my sister. After that we had dinner in Kadıköy. We arrived home very late.",
+          "prompt": "Konserden sonra ne yaptılar?",
+          "options": [
+            "Eve gittiler",
+            "Akşam yemeği yediler",
+            "Yürüdüler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"After that we had dinner\"",
+          "id": "a1-u12-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hafta sonun iyi geçti mi?\"",
+          "accepted": [
+            "Did you have a good weekend?",
+            "Did you have a good weekend",
+            "Did you have a nice weekend?",
+            "Did you have a nice weekend",
+            "How was your weekend?",
+            "How was your weekend"
+          ],
+          "explanation": "Did you have a good weekend?",
+          "id": "a1-u12-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "two days",
+              "right": "ago"
+            },
+            {
+              "left": "last",
+              "right": "night"
+            },
+            {
+              "left": "on",
+              "right": "Saturday"
+            },
+            {
+              "left": "yesterday",
+              "right": "morning"
+            }
+          ],
+          "explanation": "Zaman ifadelerini tamamlayın.",
+          "id": "a1-u12-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Geçen hafta sonunuzu JAI'ye anlatın: cumartesi ve pazar ne yaptınız? First / then / after that kullanın, en az bir yerde was/were ve went/had kullanın.",
+          "modelAnswer": "On Saturday I went to the market with my mum. First we walked around, then we had tea in a café. After that we cooked together. On Sunday I was tired, so I stayed at home and watched a film.",
+          "rubric": [
+            "Past simple doğru (-ed, went, had)",
+            "Sıralama ifadeleri",
+            "Zaman ifadeleri doğru"
+          ]
+        },
+        "id": "a1-u12-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "We ___ in Bodrum last summer.",
+        "options": [
+          "was",
+          "were"
+        ],
+        "answerIndex": 1,
+        "explanation": "we → were.",
+        "id": "a1-u12-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "How ___ the film? – It was boring.",
+        "answers": [
+          "was"
+        ],
+        "explanation": "film → was.",
+        "id": "a1-u12-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Were you at work yesterday?\" (Hayır.)",
+        "options": [
+          "No, I wasn't.",
+          "No, I weren't.",
+          "No, I didn't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, I wasn't.",
+        "id": "a1-u12-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "The shops ___ open on Sunday. (değildi)",
+        "answers": [
+          "weren't",
+          "were not"
+        ],
+        "explanation": "Çoğul olumsuz.",
+        "id": "a1-u12-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ for three hours. (study)",
+        "answers": [
+          "studied"
+        ],
+        "explanation": "study → studied",
+        "id": "a1-u12-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ in a nice hotel. (stay)",
+        "answers": [
+          "stayed"
+        ],
+        "explanation": "stay → stayed",
+        "id": "a1-u12-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangi fiil /ɪd/ ile biter?",
+        "options": [
+          "cleaned",
+          "started",
+          "cooked"
+        ],
+        "answerIndex": 1,
+        "explanation": "t ile biten → /ɪd/.",
+        "id": "a1-u12-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Did you enjoyed it?",
+          "Did you enjoy it?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Did + yalın fiil.",
+        "id": "a1-u12-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I ___ watch the match. I was busy. (izlemedim)",
+        "answers": [
+          "didn't",
+          "did not"
+        ],
+        "explanation": "didn't + yalın fiil.",
+        "id": "a1-u12-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I went to Izmir two weeks ago.",
+          "I went to Izmir ago two weeks.",
+          "I go to Izmir two weeks ago."
+        ],
+        "answerIndex": 0,
+        "explanation": "went + süre + ago.",
+        "id": "a1-u12-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "on last weekend",
+          "last weekend"
+        ],
+        "answerIndex": 1,
+        "explanation": "last ile on yok.",
+        "id": "a1-u12-t11"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "did",
+          "What",
+          "you",
+          "do",
+          "yesterday",
+          "?"
+        ],
+        "answer": "What did you do yesterday?",
+        "explanation": "What + did + you + do + zaman?",
+        "translation": "Dün ne yaptın?",
+        "id": "a1-u12-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I didn't go out on Saturday. I cleaned the house and cooked for my family. But on Sunday I went to the cinema.",
+        "prompt": "Konuşan ne zaman sinemaya gitti?",
+        "options": [
+          "Cumartesi",
+          "Pazar",
+          "Hiç gitmedi"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"on Sunday I went to the cinema\"",
+        "id": "a1-u12-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Dün evdeydim.\"",
+        "accepted": [
+          "I was at home yesterday.",
+          "I was at home yesterday",
+          "Yesterday I was at home.",
+          "Yesterday I was at home",
+          "Yesterday, I was at home.",
+          "Yesterday, I was at home"
+        ],
+        "explanation": "I was at home + yesterday.",
+        "id": "a1-u12-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir arkadaşınıza e-posta yazın: geçen hafta sonu neredeydiniz, neler yaptınız (sıralı), nasıldı? Sonunda ona da hafta sonunu sorun (6–8 cümle).",
+        "modelAnswer": "Hi Ayşe,\nHow are you? Last weekend I was in Eskişehir with my cousin. On Saturday morning we visited the Odunpazarı houses. Then we had lunch by the river. After that we walked in the park. On Sunday it rained, so we stayed at the hotel and watched films. It was a lovely weekend! What did you do?",
+        "rubric": [
+          "was/were doğru",
+          "Düzenli fiiller ve went/had doğru",
+          "Zaman ve sıralama ifadeleri",
+          "Did ile soru"
+        ],
+        "id": "a1-u12-t15"
+      }
+    ]
+  }
+}
