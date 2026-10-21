@@ -1,0 +1,1267 @@
+{
+  "id": "c1-u01",
+  "level": "C1",
+  "number": 1,
+  "title": "Vurgu",
+  "titleEn": "Emphasis",
+  "canDo": "Olumsuz ve kısıtlayıcı zarflardan sonra devrik yapı (inversion) kullanarak konuşmamı ve yazımı vurgulu ve etkileyici hale getirebilir, bu yapıların hangi üslupta uygun olduğunu bilebilir ve vurgulu do, so ... that, such ... that gibi diğer vurgu araçlarını kullanabilirim.",
+  "grammar": [
+    "Never / Rarely / Seldom + devrik yapı",
+    "Not only ... but also, No sooner ... than, Hardly ... when",
+    "Only after / Not until / Under no circumstances",
+    "Little did I know, So / Such ... that devrik yapısı",
+    "vurgulu do / did ve üslup seçimi"
+  ],
+  "vocabularyThemes": [
+    "etkileyici deneyimler",
+    "konuşma ve hitabet",
+    "vurgu ve anlatım"
+  ],
+  "liveClass": {
+    "title": "Unutulmaz anlar",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci hayatındaki unutulmaz bir anı devrik yapılarla dramatik bir şekilde anlatır (Never had I felt so..., No sooner had we arrived than..., Little did I know that...). Sınıf en etkileyici cümleleri seçer; ardından aynı anı sade dille anlatarak devrik yapının ne zaman fazla geldiği tartışılır."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u01-v01",
+      "en": "seldom",
+      "tr": "nadiren (resmî)",
+      "example": "Seldom have I seen such talent.",
+      "exampleTr": "Nadiren böyle bir yetenek gördüm."
+    },
+    {
+      "id": "c1-u01-v02",
+      "en": "scarcely",
+      "tr": "ancak, henüz ... ki",
+      "example": "Scarcely had we sat down when the phone rang.",
+      "exampleTr": "Daha yeni oturmuştuk ki telefon çaldı."
+    },
+    {
+      "id": "c1-u01-v03",
+      "en": "no sooner ... than",
+      "tr": "-er -mez",
+      "example": "No sooner had I left than it started to rain.",
+      "exampleTr": "Çıkar çıkmaz yağmur başladı."
+    },
+    {
+      "id": "c1-u01-v04",
+      "en": "under no circumstances",
+      "tr": "hiçbir koşulda",
+      "example": "Under no circumstances should you open this door.",
+      "exampleTr": "Bu kapıyı hiçbir koşulda açmamalısınız."
+    },
+    {
+      "id": "c1-u01-v05",
+      "en": "on no account",
+      "tr": "asla, hiçbir surette",
+      "example": "On no account must the money be spent.",
+      "exampleTr": "Para hiçbir surette harcanmamalı."
+    },
+    {
+      "id": "c1-u01-v06",
+      "en": "by no means",
+      "tr": "hiç de, katiyen",
+      "example": "It is by no means certain.",
+      "exampleTr": "Hiç de kesin değil."
+    },
+    {
+      "id": "c1-u01-v07",
+      "en": "little did I know",
+      "tr": "hiç bilmiyordum ki",
+      "example": "Little did I know that my life was about to change.",
+      "exampleTr": "Hayatımın değişmek üzere olduğunu hiç bilmiyordum."
+    },
+    {
+      "id": "c1-u01-v08",
+      "en": "unprecedented",
+      "tr": "eşi benzeri görülmemiş",
+      "example": "The storm caused unprecedented damage.",
+      "exampleTr": "Fırtına eşi benzeri görülmemiş hasara yol açtı."
+    },
+    {
+      "id": "c1-u01-v09",
+      "en": "remarkable",
+      "tr": "dikkat çekici, olağanüstü",
+      "example": "She made a remarkable recovery.",
+      "exampleTr": "Olağanüstü bir iyileşme gösterdi."
+    },
+    {
+      "id": "c1-u01-v10",
+      "en": "astonishing",
+      "tr": "hayret verici",
+      "example": "The results were astonishing.",
+      "exampleTr": "Sonuçlar hayret vericiydi."
+    },
+    {
+      "id": "c1-u01-v11",
+      "en": "utterly",
+      "tr": "tamamen, büsbütün",
+      "example": "I was utterly exhausted.",
+      "exampleTr": "Tamamen bitkindim."
+    },
+    {
+      "id": "c1-u01-v12",
+      "en": "profound",
+      "tr": "derin, köklü",
+      "example": "The book had a profound effect on me.",
+      "exampleTr": "Kitabın üzerimde derin bir etkisi oldu."
+    },
+    {
+      "id": "c1-u01-v13",
+      "en": "vividly",
+      "tr": "canlı bir şekilde",
+      "example": "I remember that day vividly.",
+      "exampleTr": "O günü canlı bir şekilde hatırlıyorum."
+    },
+    {
+      "id": "c1-u01-v14",
+      "en": "striking",
+      "tr": "çarpıcı",
+      "example": "There is a striking similarity between them.",
+      "exampleTr": "Aralarında çarpıcı bir benzerlik var."
+    },
+    {
+      "id": "c1-u01-v15",
+      "en": "compelling",
+      "tr": "ikna edici, karşı konulmaz",
+      "example": "She made a compelling argument.",
+      "exampleTr": "İkna edici bir argüman sundu."
+    },
+    {
+      "id": "c1-u01-v16",
+      "en": "emphasise",
+      "tr": "vurgulamak",
+      "example": "I must emphasise how important this is.",
+      "exampleTr": "Bunun ne kadar önemli olduğunu vurgulamalıyım.",
+      "note": "AmE: emphasize"
+    },
+    {
+      "id": "c1-u01-v17",
+      "en": "underestimate",
+      "tr": "hafife almak",
+      "example": "Never underestimate your opponent.",
+      "exampleTr": "Rakibini asla hafife alma."
+    },
+    {
+      "id": "c1-u01-v18",
+      "en": "acknowledge",
+      "tr": "kabul etmek",
+      "example": "He finally acknowledged his mistake.",
+      "exampleTr": "Sonunda hatasını kabul etti."
+    },
+    {
+      "id": "c1-u01-v19",
+      "en": "overwhelmed",
+      "tr": "bunalmış, duygulanmış",
+      "example": "I was overwhelmed by their kindness.",
+      "exampleTr": "Nezaketleri karşısında duygulandım."
+    },
+    {
+      "id": "c1-u01-v20",
+      "en": "breathtaking",
+      "tr": "nefes kesici",
+      "example": "The view was absolutely breathtaking.",
+      "exampleTr": "Manzara kesinlikle nefes kesiciydi."
+    },
+    {
+      "id": "c1-u01-v21",
+      "en": "turning point",
+      "tr": "dönüm noktası",
+      "example": "That meeting was a turning point in my career.",
+      "exampleTr": "O toplantı kariyerimde bir dönüm noktasıydı."
+    },
+    {
+      "id": "c1-u01-v22",
+      "en": "in vain",
+      "tr": "boşuna",
+      "example": "We searched for hours, but in vain.",
+      "exampleTr": "Saatlerce aradık ama boşuna."
+    },
+    {
+      "id": "c1-u01-v23",
+      "en": "at no time",
+      "tr": "hiçbir zaman, hiçbir an",
+      "example": "At no time did I feel unsafe.",
+      "exampleTr": "Hiçbir an kendimi güvensiz hissetmedim."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u01-l1",
+      "number": 1,
+      "title": "Hiç böyle bir şey görmemiştim",
+      "goal": "Never, Rarely, Seldom gibi olumsuz zarflarla devrik yapı kurarak bir deneyimi vurgulu anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir konuşmadan: Ödül töreni",
+        "body": "Thank you all so much. I have to say, never in my life have I felt so honoured.\n\nWhen I started this project ten years ago, I had no money, no team and no office. Rarely did anyone take us seriously. Seldom have I worked so hard, or doubted myself so much.\n\nBut never did I imagine that our small idea would one day reach two million students.\n\nNor could I have done it without my team. They are the real winners tonight. Rarely do you find people who believe in an idea so completely.\n\nThank you.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How did people react to the project at the beginning?",
+            "options": [
+              "They supported it enthusiastically.",
+              "Few people took it seriously.",
+              "They offered money."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Rarely did anyone take us seriously.\"",
+            "id": "c1-u01-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who does the speaker say are the real winners?",
+            "options": [
+              "The students",
+              "The team",
+              "The judges"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"They are the real winners tonight.\"",
+            "id": "c1-u01-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Devrik yapı (inversion)**, olumsuz ya da kısıtlayıcı bir zarf **cümlenin başına** geldiğinde **yardımcı fiil öznenin önüne** geçer. Tıpkı soru cümlesi gibi:\n\n| Normal | Devrik (vurgulu) |\n|---|---|\n| I have **never** felt so honoured. | **Never have I** felt so honoured. |\n| People **rarely** took us seriously. | **Rarely did people** take us seriously. |\n| We **seldom** see such talent. | **Seldom do we** see such talent. |\n| I had **hardly ever** been abroad. | **Hardly ever had I** been abroad. |\n\n**Yardımcı fiil kuralı:**\n\n- Cümlede yardımcı fiil varsa (have, had, can, will, is) → o fiil öne geçer: *Never **have** I seen ...*\n- Yardımcı fiil yoksa (present / past simple) → **do / does / did** eklenir: *Rarely **did** anyone take us seriously.*\n\n**Never before / Never in my life:**\n\n- ***Never before had*** *the city seen such crowds.*\n- ***Never in my life have I*** *been so scared.*\n\n**Nor / Neither** (olumsuz ekleme):\n\n- *I didn't see it, **nor did** I hear anything.*\n\n**Üslup:** Devrik yapı **resmî, edebi ya da dramatik** bir etki yaratır: konuşmalar, makaleler, edebiyat. Günlük sohbette fazla kullanmak **yapay** durur.",
+        "examples": [
+          {
+            "en": "Never have I seen such a beautiful sunset.",
+            "tr": "Hiç böyle güzel bir gün batımı görmemiştim."
+          },
+          {
+            "en": "Rarely does the city experience such heavy snow.",
+            "tr": "Şehir nadiren bu kadar yoğun kar görür."
+          },
+          {
+            "en": "Seldom had she felt so alone.",
+            "tr": "Nadiren kendini bu kadar yalnız hissetmişti."
+          }
+        ],
+        "turkishNote": "Türkçede vurgu genellikle kelime sırasıyla değil, tonlama ve \"hiç\", \"asla\" gibi kelimelerle yapılır: \"Hayatımda hiç bu kadar onurlandırılmamıştım.\" İngilizcede bu etki devrik yapıyla sağlanır. Türkçe konuşanların en sık hatası, zarfı başa alıp yardımcı fiili öne almamaktır: \"Never I have seen\" yanlıştır; \"Never have I seen\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Never I have seen such a thing.",
+            "Never have I seen such a thing."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yardımcı fiil öne.",
+          "id": "c1-u01-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Rarely we go out these days.",
+            "Rarely do we go out these days."
+          ],
+          "answerIndex": 1,
+          "explanation": "do eklenir.",
+          "id": "c1-u01-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Seldom did she complain.\" normal hali:",
+          "options": [
+            "She seldom complained.",
+            "She seldom complains."
+          ],
+          "answerIndex": 0,
+          "explanation": "did → past.",
+          "id": "c1-u01-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Devrik yapı hangi bağlamda en doğal?",
+          "options": [
+            "Arkadaşla mesajlaşma",
+            "Resmî bir konuşma ya da makale"
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmî / dramatik.",
+          "id": "c1-u01-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Never ___ I been so embarrassed in my life. (have)",
+          "answers": [
+            "have"
+          ],
+          "explanation": "Never have I.",
+          "id": "c1-u01-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Rarely ___ he arrive on time. (geçmiş)",
+          "answers": [
+            "did"
+          ],
+          "explanation": "did + yalın fiil.",
+          "id": "c1-u01-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Seldom ___ we see such commitment.",
+          "answers": [
+            "do"
+          ],
+          "explanation": "Present → do.",
+          "id": "c1-u01-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I didn't call her, ___ did I send a message.",
+          "answers": [
+            "nor"
+          ],
+          "explanation": "nor + devrik.",
+          "id": "c1-u01-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Never before had the small town seen so many visitors. Rarely did a day pass without a tour bus arriving. And never did the locals imagine that their quiet streets would appear in a famous film.",
+          "prompt": "Kasabada ne oldu?",
+          "options": [
+            "Ziyaretçi sayısı azaldı",
+            "Daha önce hiç olmadığı kadar ziyaretçi geldi",
+            "Kasaba boşaldı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Never before had the small town seen so many visitors.\"",
+          "id": "c1-u01-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapıyla yeniden yazın: \"I have never tasted such delicious food.\"",
+          "accepted": [
+            "Never have I tasted such delicious food.",
+            "Never have I tasted such delicious food",
+            "Never have I tasted such delicious food!",
+            "Never before have I tasted such delicious food.",
+            "Never before have I tasted such delicious food"
+          ],
+          "explanation": "Never have I tasted such delicious food.",
+          "id": "c1-u01-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir ödül töreninde ya da bir veda partisinde kısa bir konuşma yaptığınızı hayal edin (1 dakika). Never have I / Never in my life / Rarely do / Seldom have / Never did I imagine yapılarından en az 4'ünü kullanın. Devrik yapıları vurgulu bir tonla söyleyin.",
+          "modelAnswer": "Thank you so much, everyone. Never in my life have I felt so lucky. When I joined this company eight years ago, never did I imagine that I would make such wonderful friends. Rarely do you find a team that supports each other like this. Seldom have I laughed as much as I have in this office. I'm going to miss you all, and I hope we stay in touch.",
+          "rubric": [
+            "Devrik yapı doğruluğu",
+            "do / did / have doğru seçimi",
+            "Vurgulu tonlama",
+            "Bağlama uygunluk"
+          ]
+        },
+        "id": "c1-u01-l1-use"
+      }
+    },
+    {
+      "id": "c1-u01-l2",
+      "number": 2,
+      "title": "Yalnızca değil, -er -mez",
+      "goal": "Not only ... but also, No sooner ... than ve Hardly / Scarcely ... when yapılarını doğru zaman ve devrik yapıyla kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir romandan: Fırtına",
+        "body": "No sooner had we left the harbour than the wind began to rise.\n\nWithin minutes, the sky had turned black. Hardly had the captain given the order to turn back when a huge wave crashed over the deck.\n\nNot only did we lose our sails, but the engine also stopped working. For three hours, the little boat was thrown from side to side.\n\nScarcely had the storm passed when we saw the lights of a fishing boat coming towards us. Not only had they seen our signal, but they had also called the coast guard.\n\nWe reached land just before midnight, cold, wet and utterly exhausted, but alive.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When did the wind begin to rise?",
+            "options": [
+              "Just after they left the harbour",
+              "At midnight",
+              "When they reached land"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"No sooner had we left the harbour than the wind began to rise.\"",
+            "id": "c1-u01-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the fishing boat do?",
+            "options": [
+              "It ignored them.",
+              "It saw their signal and called the coast guard.",
+              "It also lost its engine."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Not only had they seen our signal, but they had also called the coast guard.\"",
+            "id": "c1-u01-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Not only ... but (also) ...**\n\n| Normal | Devrik |\n|---|---|\n| We **not only** lost our sails **but also** our engine. | **Not only did we** lose our sails, **but** the engine **also** stopped. |\n| She is **not only** talented **but also** hard-working. | **Not only is she** talented, **but** she is **also** hard-working. |\n\nDevrik yapı **sadece \"Not only\" kısmında** olur; \"but\" kısmı normal kalır.\n\n**2. No sooner ... than / Hardly ... when / Scarcely ... when** (= -er -mez, tam ... ki)\n\nİki geçmiş olay **hemen arka arkaya** olur. İlk olay **past perfect + devrik**, ikinci olay **past simple**.\n\n| Yapı | Örnek |\n|---|---|\n| **No sooner had** + özne + V3 + **than** + past simple | **No sooner had** we left **than** it started to rain. |\n| **Hardly had** + özne + V3 + **when** + past simple | **Hardly had** I sat down **when** the phone rang. |\n| **Scarcely had** + özne + V3 + **when** + past simple | **Scarcely had** she arrived **when** she was asked to leave. |\n\n**Dikkat:** **No sooner** → **than** / **Hardly, Scarcely** → **when**\n\n- ~~No sooner had I arrived when~~ ✗\n- ~~Hardly had I arrived than~~ ✗ (bazen duyulur ama standart değil)\n\n**Normal (devrik olmayan) hali de mümkün:** *I had **no sooner** left **than** it started to rain.* / *I had **hardly** sat down **when** ...*",
+        "examples": [
+          {
+            "en": "No sooner had I paid than I realised I'd forgotten my wallet.",
+            "tr": "Ödemeyi yapar yapmaz cüzdanımı unuttuğumu fark ettim."
+          },
+          {
+            "en": "Hardly had the film started when the power went off.",
+            "tr": "Film başlar başlamaz elektrikler kesildi."
+          },
+          {
+            "en": "Not only did he apologise, but he also offered to pay.",
+            "tr": "Sadece özür dilemekle kalmadı, ödemeyi de teklif etti."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-er -mez\" yapısı (\"eve girer girmez\") İngilizcede \"No sooner had I entered the house than\" ya da \"Hardly had I entered the house when\" ile karşılanır. Bu yapı Türkçede günlük dildir, ama İngilizcede edebi ve resmîdir; günlük konuşmada \"As soon as I got home, ...\" daha doğaldır. En sık hata \"No sooner ... when\" kullanmaktır: \"No sooner\" her zaman \"than\" ile eşleşir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "No sooner had I arrived when it started.",
+            "No sooner had I arrived than it started."
+          ],
+          "answerIndex": 1,
+          "explanation": "No sooner ... than.",
+          "id": "c1-u01-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Hardly had we sat down when the bell rang.",
+            "Hardly we had sat down when the bell rang."
+          ],
+          "answerIndex": 0,
+          "explanation": "Hardly had + özne.",
+          "id": "c1-u01-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Not only she is clever, but also kind.",
+            "Not only is she clever, but she is also kind."
+          ],
+          "answerIndex": 1,
+          "explanation": "Not only + devrik.",
+          "id": "c1-u01-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Günlük konuşmada en doğal:",
+          "options": [
+            "No sooner had I got home than he called.",
+            "As soon as I got home, he called."
+          ],
+          "answerIndex": 1,
+          "explanation": "Devrik yapı edebi.",
+          "id": "c1-u01-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "No sooner ___ she finished her speech than everyone applauded.",
+          "answers": [
+            "had"
+          ],
+          "explanation": "No sooner had.",
+          "id": "c1-u01-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hardly had the game started ___ it began to rain.",
+          "answers": [
+            "when"
+          ],
+          "explanation": "Hardly ... when.",
+          "id": "c1-u01-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Not only ___ he forget my birthday, but he also forgot our anniversary.",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Not only did.",
+          "id": "c1-u01-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Scarcely had we arrived when we ___ (be) asked to leave.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "Past simple (edilgen).",
+          "id": "c1-u01-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Scarcely had the new manager started when the problems began. Not only did half the team resign, but the company also lost its biggest client. No sooner had they found a new client than the office flooded.",
+          "prompt": "Yeni müdür başlar başlamaz ne oldu?",
+          "options": [
+            "Şirket büyüdü",
+            "Sorunlar başladı",
+            "Herkes terfi aldı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Scarcely had the new manager started when the problems began.\"",
+          "id": "c1-u01-l2-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "No",
+            "sooner",
+            "had",
+            "we",
+            "arrived",
+            "than",
+            "the",
+            "rain",
+            "started"
+          ],
+          "answer": "No sooner had we arrived than the rain started.",
+          "explanation": "No sooner had + özne + V3 + than + past simple.",
+          "translation": "Biz varır varmaz yağmur başladı.",
+          "id": "c1-u01-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Her şeyin ters gittiği bir günü bir romancı gibi dramatik bir şekilde anlatın. En az bir No sooner ... than, bir Hardly / Scarcely ... when ve iki Not only ... but also yapısı kullanın. Zaman uyumuna (past perfect + past simple) dikkat edin.",
+          "modelAnswer": "It was the worst day of my life. No sooner had I left the house than I realised I'd forgotten my keys. Hardly had I reached the bus stop when the bus drove past without stopping. Not only was I late for my exam, but I had also left my calculator at home. And scarcely had I sat down in the exam room when my phone started ringing. Not only did everyone turn around and stare, but the teacher also asked me to leave!",
+          "rubric": [
+            "No sooner ... than",
+            "Hardly / Scarcely ... when",
+            "Not only + devrik",
+            "Zaman uyumu"
+          ]
+        },
+        "id": "c1-u01-l2-use"
+      }
+    },
+    {
+      "id": "c1-u01-l3",
+      "number": 3,
+      "title": "Ancak o zaman, hiçbir koşulda",
+      "goal": "Only after / Only when / Not until ile kısıtlayıcı devrik yapıları ve Under no circumstances / On no account gibi kesin yasakları kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Laboratuvar güvenlik kuralları",
+        "body": "SAFETY RULES – PLEASE READ CAREFULLY\n\nUnder no circumstances should food or drink be brought into the laboratory.\n\nOn no account must chemicals be removed from the building.\n\nOnly after receiving full safety training will students be allowed to use the equipment.\n\nNot until the supervisor has checked your work should you leave the lab.\n\nOnly in an emergency may the side doors be used.\n\nAt no time should students work alone in the lab.\n\nAny student who breaks these rules will be asked to leave immediately.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When can students use the equipment?",
+            "options": [
+              "Whenever they want",
+              "Only after full safety training",
+              "Only with a friend"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Only after receiving full safety training\"",
+            "id": "c1-u01-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When may the side doors be used?",
+            "options": [
+              "At the end of the day",
+              "Only in an emergency",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Only in an emergency may the side doors be used.\"",
+            "id": "c1-u01-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Only + zaman / koşul ifadesi → devrik yapı**\n\n**Dikkat:** Devrik yapı **ana cümlede** olur, \"Only\" kısmında değil!\n\n| Yapı | Örnek |\n|---|---|\n| **Only after** + isim / -ing / cümle | **Only after** the meeting **did I** understand. |\n| **Only when** + cümle | **Only when** I got home **did I** notice. |\n| **Only if** + cümle | **Only if** you work hard **will you** succeed. |\n| **Only then** | **Only then did** she realise. |\n| **Only by** + -ing | **Only by** working together **can we** solve this. |\n| **Only in** + isim | **Only in** an emergency **may** the doors be used. |\n\n**2. Not until** (= ancak ... -ince, ... -e kadar değil)\n\n- *I didn't realise until I got home.* → ***Not until** I got home **did I** realise.*\n\n**3. Kesin yasaklar (çok resmî, kurallar ve uyarılar):**\n\n| Yapı | Örnek |\n|---|---|\n| **Under no circumstances** | **Under no circumstances should** you open this. |\n| **On no account** | **On no account must** the door be left open. |\n| **In no way** | **In no way is** this my fault. |\n| **At no time** | **At no time did** I feel unsafe. |\n\n**Not:** \"No\" ile başlayan ifadelerde devrik yapı zorunludur; \"Not until\" ve \"Only\" ile başlayan cümlelerde de öyle.",
+        "examples": [
+          {
+            "en": "Only after the results were published did they realise their mistake.",
+            "tr": "Sonuçlar yayımlandıktan sonra hatalarını ancak fark ettiler."
+          },
+          {
+            "en": "Not until she spoke did I recognise her.",
+            "tr": "Konuşana kadar onu tanımadım. / Ancak konuşunca tanıdım."
+          },
+          {
+            "en": "Under no circumstances should you share your password.",
+            "tr": "Şifrenizi hiçbir koşulda paylaşmamalısınız."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"ancak ... -ince\" yapısı (\"ancak eve gelince fark ettim\") İngilizcede \"Only when I got home did I notice\" ya da \"Not until I got home did I notice\" ile karşılanır. En sık hata, devrik yapıyı yanlış yere koymaktır: \"Only when did I get home I noticed\" yanlıştır. Devrik yapı her zaman ana cümlede, yani virgülden sonraki kısımdadır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Only when did I arrive, I understood.",
+            "Only when I arrived did I understand."
+          ],
+          "answerIndex": 1,
+          "explanation": "Devrik ana cümlede.",
+          "id": "c1-u01-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Not until he left I relaxed.",
+            "Not until he left did I relax."
+          ],
+          "answerIndex": 1,
+          "explanation": "Not until + devrik ana cümle.",
+          "id": "c1-u01-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Under no circumstances should you ...\" anlamı:",
+          "options": [
+            "Bazı durumlarda ...",
+            "Hiçbir koşulda ...-meyin"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kesin yasak.",
+          "id": "c1-u01-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"At no time did I feel unsafe.\"",
+          "options": [
+            "Bazen güvensiz hissettim.",
+            "Hiçbir an kendimi güvensiz hissetmedim."
+          ],
+          "answerIndex": 1,
+          "explanation": "At no time.",
+          "id": "c1-u01-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Only after the storm ___ we see the damage. (geçmiş)",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Ana cümlede devrik.",
+          "id": "c1-u01-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Only by working together ___ we solve this problem.",
+          "answers": [
+            "can"
+          ],
+          "explanation": "Only by + devrik.",
+          "id": "c1-u01-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "On no ___ must you tell anyone.",
+          "answers": [
+            "account"
+          ],
+          "explanation": "On no account.",
+          "id": "c1-u01-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ until the end of the film did I understand the title.",
+          "answers": [
+            "Not"
+          ],
+          "explanation": "Not until.",
+          "id": "c1-u01-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Only after I had lived abroad for a year did I really appreciate my home country. Not until I was far away did I realise how much I missed my family's Sunday breakfasts.",
+          "prompt": "Konuşan ülkesinin değerini ne zaman anladı?",
+          "options": [
+            "Yurt dışına gitmeden önce",
+            "Bir yıl yurt dışında yaşadıktan sonra",
+            "Hiç anlamadı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Only after I had lived abroad for a year\"",
+          "id": "c1-u01-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapıyla yeniden yazın: \"You should not leave the building under any circumstances.\" (Under no circumstances)",
+          "accepted": [
+            "Under no circumstances should you leave the building.",
+            "Under no circumstances should you leave the building",
+            "Under no circumstances should you leave the building!",
+            "Under no circumstances must you leave the building.",
+            "Under no circumstances must you leave the building"
+          ],
+          "explanation": "Under no circumstances should you leave the building.",
+          "id": "c1-u01-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "(1) Bir müze, kütüphane ya da sınav salonu için 4 kuralı resmî bir dille duyurun (Under no circumstances, On no account, Only ... may, At no time). (2) Hayatınızda geç fark ettiğiniz bir şeyi Only when / Only after / Not until ile anlatın.",
+          "modelAnswer": "Ladies and gentlemen, welcome to the museum. Please note the following rules. Under no circumstances should photographs be taken with a flash. On no account must visitors touch the paintings. Only in the café may food and drink be consumed. At no time should children be left alone. Now, something I realised too late: only when I started working did I understand how hard my parents had worked. Not until I paid my first rent did I appreciate everything they had done for me.",
+          "rubric": [
+            "Kesin yasak yapıları",
+            "Only / Not until + doğru devrik yeri",
+            "Resmî duyuru tonu"
+          ]
+        },
+        "id": "c1-u01-l3-use"
+      }
+    },
+    {
+      "id": "c1-u01-l4",
+      "number": 4,
+      "title": "Hiç bilmiyordum ki",
+      "goal": "Little did I know, So ... that, Such ... that devrik yapılarını ve vurgulu do / did yapısını kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kişisel deneme: Yanlış tren",
+        "body": "It was a cold morning in March when I got on the train in Ankara. I was going to Konya. Or so I thought.\n\nLittle did I know that I was on a train to Kars, more than twenty hours away.\n\nSo tired was I that I fell asleep almost immediately. When I woke up, the landscape outside was covered in snow, and the passengers around me were sharing tea and bread.\n\nSuch was their kindness that within an hour I felt like part of the family. An elderly woman did warn me that I was going the wrong way, but by then it was too late to get off.\n\nI did eventually reach Konya, three days late. But I've never regretted that journey. It was the best mistake I've ever made.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where was the train actually going?",
+            "options": [
+              "To Konya",
+              "To Kars",
+              "To Istanbul"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was on a train to Kars\"",
+            "id": "c1-u01-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How does the writer feel about the journey now?",
+            "options": [
+              "Angry",
+              "It was the best mistake they've ever made.",
+              "Embarrassed"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It was the best mistake I've ever made.\"",
+            "id": "c1-u01-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Little did I know / Little did they realise** (= hiç bilmiyordum ki ...)\n\n- *I didn't know at all that ...* → ***Little did I know** that I was on the wrong train.*\n- ***Little did she realise** how important that day would be.*\n\nHikâye anlatımında **merak ve gerilim** yaratmak için çok kullanılır.\n\n**2. So + sıfat / zarf + devrik + that** (= o kadar ... ki)\n\n| Normal | Devrik |\n|---|---|\n| I was **so tired that** I fell asleep. | **So tired was I that** I fell asleep. |\n| He spoke **so quickly that** nobody understood. | **So quickly did he speak that** nobody understood. |\n\n**3. Such + be + isim + that** (= öyle ... idi ki)\n\n| Normal | Devrik |\n|---|---|\n| Their kindness was **so great that** ... | **Such was their kindness that** ... |\n| The noise was so loud that ... | **Such was the noise that** ... |\n\n**4. Vurgulu do / does / did** (olumlu cümlede)\n\nBir şeyin **gerçekten** olduğunu vurgular, özellikle beklentiye ters düştüğünde ya da itiraz ederken:\n\n- *She **did warn** me.* (Gerçekten uyardı, ben dinlemedim.)\n- *I **do like** your idea, but ...* (Gerçekten seviyorum, ama ...)\n- ***Do** sit down.* (Lütfen oturun. → çok kibar, resmî davet)\n\nKonuşmada **do / did** vurgulu söylenir.",
+        "examples": [
+          {
+            "en": "Little did we know that the restaurant was about to close for good.",
+            "tr": "Restoranın tamamen kapanmak üzere olduğunu hiç bilmiyorduk."
+          },
+          {
+            "en": "So beautiful was the music that several people cried.",
+            "tr": "Müzik o kadar güzeldi ki birkaç kişi ağladı."
+          },
+          {
+            "en": "I did lock the door. I'm sure I did!",
+            "tr": "Kapıyı kilitledim, gerçekten! Eminim!"
+          }
+        ],
+        "turkishNote": "Türkçede \"Hiç bilmiyordum ki...\" ifadesi, hikâyelerde merak yaratmak için kullanılır ve \"Little did I know\" ile birebir örtüşür. \"O kadar yorgundum ki\" ise günlük dilde \"I was so tired that\" olarak kalabilir; \"So tired was I that\" daha edebidir. Vurgulu \"did\" ise Türkçedeki \"Ama gerçekten kilitledim!\" ya da \"Söyledim ya!\" tonuna karşılık gelir; olumlu cümlede \"did\" görünce şaşırmayın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Hiç bilmiyordum ki ...\"",
+          "options": [
+            "Little I knew that ...",
+            "Little did I know that ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Little did I know.",
+          "id": "c1-u01-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "So tired I was that I fell asleep.",
+            "So tired was I that I fell asleep."
+          ],
+          "answerIndex": 1,
+          "explanation": "So + sıfat + be + özne.",
+          "id": "c1-u01-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I did tell you!\" vurgusu:",
+          "options": [
+            "Sana söylemedim.",
+            "Sana gerçekten söyledim!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Vurgulu did.",
+          "id": "c1-u01-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Such was the noise that we couldn't sleep.",
+            "Such the noise was that we couldn't sleep."
+          ],
+          "answerIndex": 0,
+          "explanation": "Such + be + isim.",
+          "id": "c1-u01-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Little ___ they realise what was about to happen.",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Little did.",
+          "id": "c1-u01-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "So loud ___ the music that the neighbours complained.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "So + sıfat + was.",
+          "id": "c1-u01-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ was the demand that tickets sold out in minutes. (Öyle)",
+          "answers": [
+            "Such"
+          ],
+          "explanation": "Such was.",
+          "id": "c1-u01-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ like your plan, but I think it's too expensive. (vurgulu, present)",
+          "answers": [
+            "do"
+          ],
+          "explanation": "Vurgulu do.",
+          "id": "c1-u01-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I know you think I forgot, but I did send the email. I sent it on Monday morning. Look, here it is in my sent folder. Little did I know that it had gone to your spam folder!",
+          "prompt": "Konuşan ne iddia ediyor?",
+          "options": [
+            "E-postayı göndermeyi unuttuğunu",
+            "E-postayı gerçekten gönderdiğini",
+            "E-postanın hiç gelmediğini"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I did send the email.\"",
+          "id": "c1-u01-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapıyla yeniden yazın: \"The view was so beautiful that we stayed for hours.\" (So beautiful)",
+          "accepted": [
+            "So beautiful was the view that we stayed for hours.",
+            "So beautiful was the view that we stayed for hours",
+            "So beautiful was the view that we stayed there for hours.",
+            "So beautiful was the view that we stayed there for hours"
+          ],
+          "explanation": "So beautiful was the view that we stayed for hours.",
+          "id": "c1-u01-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Beklenmedik bir şekilde gelişen bir hikâye anlatın (gerçek ya da hayalî). Little did I know ile gerilim yaratın; en az bir So ... that ve bir Such was ... that devrik yapısı kullanın; bir yerde de vurgulu did ile birinin size gerçekten bir şey söylediğini ya da yaptığını vurgulayın.",
+          "modelAnswer": "Five years ago, I applied for a job I didn't really want, just for practice. Little did I know that it would change my life. On the day of the interview, so nervous was I that I spilled coffee on my shirt. But the manager just laughed. Such was her warmth that I immediately relaxed. My friends did tell me to wear a dark shirt, and I should have listened! I got the job, and now that manager is one of my closest friends.",
+          "rubric": [
+            "Little did I know",
+            "So / Such ... that devrik",
+            "Vurgulu do / did",
+            "Hikâye akışı"
+          ]
+        },
+        "id": "c1-u01-l4-use"
+      }
+    },
+    {
+      "id": "c1-u01-l5",
+      "number": 5,
+      "title": "Ölçülü vurgu",
+      "goal": "Devrik yapıyı ve diğer vurgu araçlarını bağlama uygun ve ölçülü kullanarak etkileyici bir konuşma metni ya da makale yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Mezuniyet konuşması (alıntı)",
+        "body": "Dear graduates, dear families, dear teachers,\n\nFour years ago, many of you walked into this building nervous, unsure and, let's be honest, a little lost. Today, you are leaving as confident young adults.\n\nNever have I been prouder of a group of students.\n\nThe last four years were not easy. Not only did you have to adapt to online classes during difficult times, but many of you also worked part-time to support your families. Rarely have I seen such determination.\n\nAnd yet, this is just the beginning. Only by continuing to learn will you keep growing. Only by staying curious will you find work that you love.\n\nYou will make mistakes. You will fail sometimes. But under no circumstances should you let failure stop you.\n\nI do believe that each of you has something unique to offer the world. Go and offer it.\n\nCongratulations.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What extra challenge did many students face?",
+            "options": [
+              "They studied abroad.",
+              "They worked part-time to support their families.",
+              "They changed schools."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"many of you also worked part-time to support your families\"",
+            "id": "c1-u01-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the speaker's main message?",
+            "options": [
+              "Avoid mistakes.",
+              "Keep learning and don't let failure stop you.",
+              "Find a well-paid job."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Only by continuing to learn... under no circumstances should you let failure stop you\"",
+            "id": "c1-u01-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Devrik yapıyı ne zaman kullanmalı?**\n\n| Uygun ✓ | Uygun değil ✗ |\n|---|---|\n| Resmî konuşmalar, törenler | Arkadaşla sohbet |\n| Makaleler, köşe yazıları | Kısa mesajlar |\n| Edebi metinler, hikâyeler | Günlük e-postalar |\n| Kurallar ve uyarılar | Basit bilgi verme |\n| Sınav yazıları (C1 / C2, ölçülü) | Her paragrafta birkaç kez |\n\n**Altın kural: Az ama etkili.** Bir konuşmada ya da makalede **2–4 devrik yapı** yeterlidir. Fazlası yapay ve tekrarlı durur.\n\n**Diğer vurgu araçlarıyla dengeleyin:**\n\n| Araç | Örnek |\n|---|---|\n| **Üçleme (rule of three)** | *nervous, unsure and a little lost* |\n| **Tekrar (anaphora)** | ***Only by** continuing to learn ... **Only by** staying curious ...* |\n| **Kısa vurucu cümle** | *Go and offer it.* |\n| **Vurgulu do** | *I **do** believe that ...* |\n| **Güçlü zarflar** | *utterly, deeply, truly, absolutely* |\n| **Doğrudan hitap** | *Dear graduates, ...* |\n\n**Yapı:** Etkileyici bir açılış → bir hikâye ya da örnek → ana mesaj → çağrı (call to action) → kısa kapanış",
+        "examples": [
+          {
+            "en": "Rarely have I seen such determination.",
+            "tr": "Nadiren böyle bir kararlılık gördüm."
+          },
+          {
+            "en": "I do believe that each of you can make a difference.",
+            "tr": "Her birinizin bir fark yaratabileceğine gerçekten inanıyorum."
+          },
+          {
+            "en": "We came, we learned, we grew.",
+            "tr": "Geldik, öğrendik, büyüdük. (üçleme)"
+          }
+        ],
+        "turkishNote": "Türkçe hitabette tekrar ve üçleme çok güçlü bir gelenektir (\"Ey Türk gençliği!\" gibi). İngilizce hitabette de bu araçlar etkilidir; devrik yapı ise ekstra bir \"resmiyet ve dram\" katmanı ekler. C1 seviyesinde amaç, bu yapıları bildiğinizi göstermek değil, onları doğru anda ve ölçülü kullanmaktır. Her cümlede devrik yapı kullanan bir metin, hiç kullanmayan bir metinden daha zayıf olabilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Devrik yapı için en uygun bağlam:",
+          "options": [
+            "Arkadaşa WhatsApp mesajı",
+            "Mezuniyet konuşması"
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmî / dramatik.",
+          "id": "c1-u01-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir konuşmada kaç devrik yapı ideal?",
+          "options": [
+            "2–4 tane, ölçülü",
+            "Her cümlede"
+          ],
+          "answerIndex": 0,
+          "explanation": "Az ama etkili.",
+          "id": "c1-u01-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Only by working hard ... Only by being kind ...\" hangi araç?",
+          "options": [
+            "Tekrar (anaphora)",
+            "Edilgen"
+          ],
+          "answerIndex": 0,
+          "explanation": "Anaphora.",
+          "id": "c1-u01-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi bir üçleme?",
+          "options": [
+            "We laughed, we cried and we learned.",
+            "We laughed."
+          ],
+          "answerIndex": 0,
+          "explanation": "Rule of three.",
+          "id": "c1-u01-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Rarely ___ I seen such talent in one room.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "Rarely have I.",
+          "id": "c1-u01-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Only by staying curious ___ you find work you love.",
+          "answers": [
+            "will"
+          ],
+          "explanation": "Only by + will you.",
+          "id": "c1-u01-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Under no circumstances ___ you give up. (should)",
+          "answers": [
+            "should"
+          ],
+          "explanation": "should you.",
+          "id": "c1-u01-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ believe that you will succeed. (vurgulu)",
+          "answers": [
+            "do"
+          ],
+          "explanation": "Vurgulu do.",
+          "id": "c1-u01-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Friends, never has our community faced a greater challenge. Not only have prices risen, but many local shops have also closed. But only by working together can we protect the place we call home. So tonight, I ask you: join us.",
+          "prompt": "Konuşmanın amacı ne?",
+          "options": [
+            "Bilgi vermek",
+            "Topluluğu birlikte çalışmaya çağırmak",
+            "Bir dükkânı tanıtmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"only by working together... join us\"",
+          "id": "c1-u01-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapıyla yeniden yazın: \"We can only succeed by working together.\" (Only by)",
+          "accepted": [
+            "Only by working together can we succeed.",
+            "Only by working together can we succeed",
+            "Only by working together will we succeed.",
+            "Only by working together will we succeed"
+          ],
+          "explanation": "Only by working together can we succeed.",
+          "id": "c1-u01-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdakilerden birini yazın (200–250 kelime): (a) Mezun olduğunuz okulun ya da kursunuzun mezuniyet töreni için bir konuşma metni. (b) Bir dergi için \"Hayatımı değiştiren an\" başlıklı kişisel bir deneme. Ölçülü olarak 3–4 farklı devrik yapı kullanın (Never have I, Not only ... but also, Only by / Only when, Little did I know, So ... that) ve en az iki başka vurgu aracı ekleyin (üçleme, tekrar, vurgulu do, kısa vurucu cümle).",
+          "modelAnswer": "The moment that changed my life\n\nI was nineteen, sitting on a bench outside a hospital in Izmir, waiting for news about my father. Little did I know that the next three hours would change the way I saw everything.\n\nMy father had had a heart attack at work. The doctors were calm, kind and incredibly fast. Not only did they save his life, but they also took the time to explain everything to my mother and me, step by step, in a language we could understand.\n\nSitting on that bench, I watched them work. They rushed, they listened, they comforted. Never had I seen people do something so important with so much humility.\n\nAt the time, I was studying economics, and I didn't enjoy it. Only when I saw those doctors did I realise that I wanted my work to matter to someone.\n\nIt wasn't easy. I changed universities, lost two years and had to study harder than ever before. My friends did warn me that it was a crazy decision. Maybe it was.\n\nToday, I'm a nurse in the same hospital. Every time I see a frightened family sitting on that bench, I remember how I felt. And I go and sit with them.\n\nThat's all. Just sit with them.",
+          "rubric": [
+            "3–4 doğru devrik yapı",
+            "Ölçülü ve bağlama uygun kullanım",
+            "Diğer vurgu araçları",
+            "Etkileyici yapı ve kapanış",
+            "C1 düzeyinde dil"
+          ]
+        },
+        "id": "c1-u01-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Never I have felt so happy.",
+          "Never have I felt so happy."
+        ],
+        "answerIndex": 1,
+        "explanation": "Never have I",
+        "id": "c1-u01-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Rarely she goes out.",
+          "Rarely does she go out."
+        ],
+        "answerIndex": 1,
+        "explanation": "does + yalın",
+        "id": "c1-u01-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "No sooner had he left when she arrived.",
+          "No sooner had he left than she arrived."
+        ],
+        "answerIndex": 1,
+        "explanation": "No sooner ... than",
+        "id": "c1-u01-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Only when did I arrive I saw it.",
+          "Only when I arrived did I see it."
+        ],
+        "answerIndex": 1,
+        "explanation": "Devrik ana cümlede",
+        "id": "c1-u01-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Devrik yapı için en uygun bağlam:",
+        "options": [
+          "Arkadaşa kısa mesaj",
+          "Resmî bir konuşma"
+        ],
+        "answerIndex": 1,
+        "explanation": "Resmî",
+        "id": "c1-u01-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "Not only ___ she win the race, but she also broke the record.",
+        "answers": [
+          "did"
+        ],
+        "explanation": "Not only did",
+        "id": "c1-u01-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "Hardly had we started ___ the lights went out.",
+        "answers": [
+          "when"
+        ],
+        "explanation": "Hardly ... when",
+        "id": "c1-u01-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Little ___ I know that he was lying.",
+        "answers": [
+          "did"
+        ],
+        "explanation": "Little did I know",
+        "id": "c1-u01-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Under no ___ should you open this door.",
+        "answers": [
+          "circumstances"
+        ],
+        "explanation": "Under no circumstances",
+        "id": "c1-u01-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "So difficult ___ the exam that nobody finished it.",
+        "answers": [
+          "was"
+        ],
+        "explanation": "So + sıfat + was",
+        "id": "c1-u01-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Not ___ I got home did I realise I'd lost my phone.",
+        "answers": [
+          "until"
+        ],
+        "explanation": "Not until",
+        "id": "c1-u01-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"She did warn me.\" vurgusu:",
+        "options": [
+          "Beni uyarmadı.",
+          "Beni gerçekten uyardı."
+        ],
+        "answerIndex": 1,
+        "explanation": "Vurgulu did",
+        "id": "c1-u01-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Never before had the village seen such a celebration. Not only did the whole village come, but people also travelled from nearby towns. So loud was the music that it could be heard across the valley.",
+        "prompt": "Kutlama hakkında ne söyleniyor?",
+        "options": [
+          "Küçük ve sessizdi",
+          "Köy daha önce hiç böyle bir kutlama görmemişti",
+          "İptal edildi"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Never before had the village seen such a celebration.\"",
+        "id": "c1-u01-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Devrik yapıyla yeniden yazın: \"I didn't realise the truth until much later.\" (Not until)",
+        "accepted": [
+          "Not until much later did I realise the truth.",
+          "Not until much later did I realise the truth",
+          "Not until much later did I realize the truth.",
+          "Not until much later did I realize the truth"
+        ],
+        "explanation": "Not until much later did I realise the truth.",
+        "id": "c1-u01-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir yerel derginin \"Unutamadığım bir yolculuk\" köşesi için kişisel bir yazı yazın (200–250 kelime). En az 4 farklı devrik yapı (Never have I / Rarely / Not only ... but also / No sooner ... than / Hardly ... when / Only when / Little did I know / So ... that) kullanın, ama doğal ve ölçülü olsun. En az bir vurgulu do / did ve bir üçleme ekleyin.",
+        "modelAnswer": "The journey I will never forget\n\nIn the summer of 2019, my best friend and I decided to cycle from Istanbul to Izmir. We had no real training, very little money and a map that was ten years old. Little did we know what we were getting ourselves into.\n\nNo sooner had we left the city than it started to pour with rain. By the end of the first day, we were wet, sore and completely lost. Not only had we taken the wrong road, but my friend's bike also had a flat tyre.\n\nThe next few days were exhausting. We climbed hills, we slept in tents, we lived on bread and tomatoes. My mother did tell me it was a terrible idea, and there were moments when I agreed with her.\n\nBut then something changed. In every village, people stopped to talk to us. They gave us tea, fruit and directions. One family even invited us to stay the night. Rarely have I felt so welcome anywhere.\n\nSo beautiful was the coastline near Ayvalık that we stayed there for two extra days.\n\nWhen we finally arrived in Izmir, eleven days after leaving home, we were thinner, browner and much wiser. Only when I got home and looked at the photos did I realise how much that journey had taught me: about my country, about strangers, and about myself.",
+        "rubric": [
+          "En az 4 doğru devrik yapı",
+          "Doğal ve ölçülü kullanım",
+          "Vurgulu do / did ve üçleme",
+          "Hikâye akışı",
+          "C1 dil düzeyi"
+        ],
+        "id": "c1-u01-t15"
+      }
+    ]
+  }
+}
