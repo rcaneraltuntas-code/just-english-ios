@@ -1,0 +1,5 @@
+// Gerçek anahtarlar Config/Secrets.xcconfig dosyasına yazılır (git'e girmez).
+// Örnek için Config/Secrets.example.xcconfig dosyasına bakın.
+SUPABASE_URL =
+SUPABASE_ANON_KEY =
+#include? "Secrets.xcconfig"

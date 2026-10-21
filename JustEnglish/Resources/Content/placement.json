@@ -1,0 +1,686 @@
+[
+  {
+    "id": "pl-a1-01",
+    "level": "A1",
+    "skill": "grammar",
+    "prompt": "My sister ___ a teacher.",
+    "options": [
+      "is",
+      "are",
+      "am",
+      "be"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tekil üçüncü şahıs (my sister = she) ile \"to be\" fiili \"is\" olur."
+  },
+  {
+    "id": "pl-a1-02",
+    "level": "A1",
+    "skill": "vocabulary",
+    "prompt": "Which word is a day of the week?",
+    "options": [
+      "March",
+      "Thursday",
+      "Summer",
+      "Morning"
+    ],
+    "answerIndex": 1,
+    "explanation": "Thursday (perşembe) haftanın bir günüdür. March bir ay, summer bir mevsim, morning ise günün bir bölümüdür."
+  },
+  {
+    "id": "pl-a1-03",
+    "level": "A1",
+    "skill": "reading",
+    "passage": "Hi! My name is Tom. I am 28 years old and I live in Izmir. I am a nurse. I work in a hospital near my flat. I start work at 7 o'clock in the morning.",
+    "prompt": "Where does Tom work?",
+    "options": [
+      "In a school",
+      "In a hospital",
+      "In a shop",
+      "At home"
+    ],
+    "answerIndex": 1,
+    "explanation": "Metinde \"He works in a hospital\" deniyor. Tom bir hemşire ve hastanede çalışıyor."
+  },
+  {
+    "id": "pl-a1-04",
+    "level": "A1",
+    "skill": "grammar",
+    "prompt": "___ you like coffee?",
+    "options": [
+      "Are",
+      "Is",
+      "Do",
+      "Does"
+    ],
+    "answerIndex": 2,
+    "explanation": "Geniş zamanda \"you\" ile soru yardımcı fiil \"do\" ile kurulur: Do you like...? \"Like\" bir eylem olduğu için \"are\" kullanılmaz."
+  },
+  {
+    "id": "pl-a1-05",
+    "level": "A1",
+    "skill": "vocabulary",
+    "prompt": "I'm hungry. I want to ___ something.",
+    "options": [
+      "drink",
+      "eat",
+      "sleep",
+      "wear"
+    ],
+    "answerIndex": 1,
+    "explanation": "Aç olan biri bir şey yemek ister: eat. Drink içmek, sleep uyumak, wear giymek demektir."
+  },
+  {
+    "id": "pl-a1-06",
+    "level": "A1",
+    "skill": "reading",
+    "passage": "Hi! My name is Tom. I am 28 years old and I live in Izmir. I am a nurse. I work in a hospital near my flat. I start work at 7 o'clock in the morning.",
+    "prompt": "What time does Tom start work?",
+    "options": [
+      "6 o'clock",
+      "7 o'clock",
+      "8 o'clock",
+      "9 o'clock"
+    ],
+    "answerIndex": 1,
+    "explanation": "Metnin son cümlesi: \"I start work at 7 o'clock in the morning.\""
+  },
+  {
+    "id": "pl-a1-07",
+    "level": "A1",
+    "skill": "grammar",
+    "prompt": "There ___ two books on the table.",
+    "options": [
+      "is",
+      "are",
+      "has",
+      "have"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"There is/are\" yapısında çoğul isimle (two books) \"are\" kullanılır. Türkçedeki \"var\" anlamını verir; \"have\" kullanılmaz."
+  },
+  {
+    "id": "pl-a1-08",
+    "level": "A1",
+    "skill": "vocabulary",
+    "prompt": "The opposite of \"cheap\" is ___.",
+    "options": [
+      "expensive",
+      "small",
+      "new",
+      "easy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cheap (ucuz) kelimesinin zıttı expensive (pahalı) olur."
+  },
+  {
+    "id": "pl-a2-01",
+    "level": "A2",
+    "skill": "grammar",
+    "prompt": "Yesterday we ___ to the cinema.",
+    "options": [
+      "go",
+      "goes",
+      "went",
+      "have gone"
+    ],
+    "answerIndex": 2,
+    "explanation": "\"Yesterday\" geçmişte bitmiş bir zamanı gösterir, bu yüzden simple past kullanılır: go → went (düzensiz fiil). Bitmiş bir zaman ifadesiyle present perfect kullanılmaz."
+  },
+  {
+    "id": "pl-a2-02",
+    "level": "A2",
+    "skill": "vocabulary",
+    "prompt": "Can you ___ me the salt, please?",
+    "options": [
+      "pass",
+      "borrow",
+      "take",
+      "bring up"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sofrada bir şeyi uzatmak için \"pass\" kullanılır: Can you pass me the salt?"
+  },
+  {
+    "id": "pl-a2-03",
+    "level": "A2",
+    "skill": "reading",
+    "passage": "Last Monday Elif waited at the bus stop for twenty minutes, but the bus never came. She didn't want to be late for her job interview, so she took a taxi. The interview went well, and the company called her two days later.",
+    "prompt": "Why did Elif take a taxi?",
+    "options": [
+      "She was late.",
+      "It was raining.",
+      "The bus didn't come.",
+      "She was tired."
+    ],
+    "answerIndex": 2,
+    "explanation": "Metinde otobüsün hiç gelmediği (\"the bus never came\") söyleniyor. Elif bu yüzden taksiye bindi."
+  },
+  {
+    "id": "pl-a2-04",
+    "level": "A2",
+    "skill": "grammar",
+    "prompt": "This bag is ___ than that one.",
+    "options": [
+      "heavy",
+      "heavier",
+      "more heavy",
+      "heaviest"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"Than\" karşılaştırma yapar. \"-y\" ile biten tek/iki heceli sıfatlarda y → i olur ve -er eklenir: heavy → heavier."
+  },
+  {
+    "id": "pl-a2-05",
+    "level": "A2",
+    "skill": "vocabulary",
+    "prompt": "I'm going to the ___ to buy some bread.",
+    "options": [
+      "bakery",
+      "library",
+      "pharmacy",
+      "garage"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ekmek fırından (bakery) alınır. Library kütüphane, pharmacy eczane, garage ise garaj/oto tamirci demektir."
+  },
+  {
+    "id": "pl-a2-06",
+    "level": "A2",
+    "skill": "reading",
+    "passage": "Last Monday Elif waited at the bus stop for twenty minutes, but the bus never came. She didn't want to be late for her job interview, so she took a taxi. The interview went well, and the company called her two days later.",
+    "prompt": "When did the company call Elif?",
+    "options": [
+      "On Monday",
+      "The same day",
+      "Two days after the interview",
+      "A week later"
+    ],
+    "answerIndex": 2,
+    "explanation": "Son cümle: \"the company called her two days later.\""
+  },
+  {
+    "id": "pl-a2-07",
+    "level": "A2",
+    "skill": "grammar",
+    "prompt": "I ___ TV when the phone rang.",
+    "options": [
+      "watched",
+      "was watching",
+      "am watching",
+      "watch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Devam eden bir eylem (TV izlemek) başka kısa bir eylemle (telefon çaldı) kesildiğinde past continuous kullanılır: was watching."
+  },
+  {
+    "id": "pl-a2-08",
+    "level": "A2",
+    "skill": "vocabulary",
+    "prompt": "My flight was ___ because of the snow, so I waited three hours.",
+    "options": [
+      "delayed",
+      "missed",
+      "landed",
+      "booked"
+    ],
+    "answerIndex": 0,
+    "explanation": "Delayed \"rötar yaptı / ertelendi\" demektir. Kar yüzünden üç saat beklemek bu anlama uyar."
+  },
+  {
+    "id": "pl-b1-01",
+    "level": "B1",
+    "skill": "grammar",
+    "prompt": "I've lived in Ankara ___ 2019.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "during"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"Since\" bir başlangıç noktasıyla (2019) kullanılır, \"for\" ise süreyle (for five years). Türkçedeki \"-den beri\" anlamı since ile verilir."
+  },
+  {
+    "id": "pl-b1-02",
+    "level": "B1",
+    "skill": "vocabulary",
+    "prompt": "Could you ___ the music down? I'm trying to study.",
+    "options": [
+      "turn",
+      "put",
+      "take",
+      "get"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Turn down\" sesi kısmak demektir. \"Turn up\" ise sesi açmaktır."
+  },
+  {
+    "id": "pl-b1-03",
+    "level": "B1",
+    "skill": "reading",
+    "passage": "Many people prefer to study a new language in the evening, after work. However, research suggests that the morning may be a better time. After a good night's sleep, the brain is rested and stores new information more easily. Even fifteen minutes before breakfast can make a real difference if you do it every day.",
+    "prompt": "What is the main reason the writer gives for learning a language in the morning?",
+    "options": [
+      "It is easier to find a teacher.",
+      "The brain is more rested.",
+      "There is less noise outside.",
+      "Classes are cheaper."
+    ],
+    "answerIndex": 1,
+    "explanation": "Metin sabahları beynin dinlenmiş olduğunu ve yeni bilgiyi daha kolay sakladığını söylüyor."
+  },
+  {
+    "id": "pl-b1-04",
+    "level": "B1",
+    "skill": "grammar",
+    "prompt": "If it ___ tomorrow, we'll cancel the picnic.",
+    "options": [
+      "will rain",
+      "rains",
+      "rained",
+      "would rain"
+    ],
+    "answerIndex": 1,
+    "explanation": "Birinci tip koşul cümlesinde \"if\" kısmında simple present kullanılır: If it rains..., we'll... \"If\" kısmında \"will\" kullanılmaz."
+  },
+  {
+    "id": "pl-b1-05",
+    "level": "B1",
+    "skill": "vocabulary",
+    "prompt": "She's very ___; she always tells the truth.",
+    "options": [
+      "honest",
+      "proud",
+      "polite",
+      "shy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Her zaman doğruyu söyleyen biri honest (dürüst) olur. Polite kibar, proud gururlu, shy utangaç demektir."
+  },
+  {
+    "id": "pl-b1-06",
+    "level": "B1",
+    "skill": "reading",
+    "passage": "Many people prefer to study a new language in the evening, after work. However, research suggests that the morning may be a better time. After a good night's sleep, the brain is rested and stores new information more easily. Even fifteen minutes before breakfast can make a real difference if you do it every day.",
+    "prompt": "According to the text, what is the key to success?",
+    "options": [
+      "Studying for hours at night",
+      "Studying a little every day",
+      "Eating breakfast first",
+      "Finding a quiet room"
+    ],
+    "answerIndex": 1,
+    "explanation": "Son cümle her gün kısa süre çalışmanın (\"fifteen minutes... every day\") fark yarattığını söylüyor."
+  },
+  {
+    "id": "pl-b1-07",
+    "level": "B1",
+    "skill": "grammar",
+    "prompt": "The museum ___ in 1890.",
+    "options": [
+      "built",
+      "was built",
+      "has built",
+      "is building"
+    ],
+    "answerIndex": 1,
+    "explanation": "Müze kendini inşa etmez, birileri onu inşa eder. Bu yüzden edilgen (passive) yapı gerekir: was built."
+  },
+  {
+    "id": "pl-b1-08",
+    "level": "B1",
+    "skill": "vocabulary",
+    "prompt": "I'm really looking forward ___ you next week.",
+    "options": [
+      "to see",
+      "to seeing",
+      "seeing",
+      "for seeing"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"Look forward to\" kalıbında \"to\" bir edattır, bu yüzden ardından fiil -ing alır: looking forward to seeing."
+  },
+  {
+    "id": "pl-b2-01",
+    "level": "B2",
+    "skill": "grammar",
+    "prompt": "By the time we arrived, the film ___.",
+    "options": [
+      "already started",
+      "has already started",
+      "had already started",
+      "was already starting"
+    ],
+    "answerIndex": 2,
+    "explanation": "Geçmişteki bir andan (we arrived) daha önce tamamlanmış bir eylem için past perfect kullanılır: had already started."
+  },
+  {
+    "id": "pl-b2-02",
+    "level": "B2",
+    "skill": "vocabulary",
+    "prompt": "The meeting was ___ until next Friday because the manager was ill.",
+    "options": [
+      "put off",
+      "put out",
+      "put up",
+      "put on"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Put off\" ertelemek demektir. Put out söndürmek, put up misafir etmek/asmak, put on giymek anlamına gelir."
+  },
+  {
+    "id": "pl-b2-03",
+    "level": "B2",
+    "skill": "reading",
+    "passage": "When offices closed in 2020, many predicted that remote work would be a temporary inconvenience. Instead, it has reshaped how millions of people work. For some, the lack of a commute has meant more time with family and fewer distractions. Others, however, report feeling isolated and find it hard to separate their job from their private life. The truth, it seems, is that remote work is neither a miracle nor a disaster; its value depends largely on the individual and the nature of the work.",
+    "prompt": "What does the writer suggest about remote work?",
+    "options": [
+      "It suits everyone equally.",
+      "Its benefits depend on the person and the job.",
+      "It always reduces productivity.",
+      "Companies should ban it."
+    ],
+    "answerIndex": 1,
+    "explanation": "Metin uzaktan çalışmanın bazıları için harika, bazıları için yalnızlaştırıcı olduğunu söylüyor. Yani faydası kişiye ve işe göre değişiyor."
+  },
+  {
+    "id": "pl-b2-04",
+    "level": "B2",
+    "skill": "grammar",
+    "prompt": "I wish I ___ more time to travel when I was younger.",
+    "options": [
+      "have",
+      "had",
+      "had had",
+      "would have"
+    ],
+    "answerIndex": 2,
+    "explanation": "Geçmişe dair pişmanlıkta \"wish\" + past perfect kullanılır: I wish I had had more time. (Keşke daha fazla zamanım olsaydı.)"
+  },
+  {
+    "id": "pl-b2-05",
+    "level": "B2",
+    "skill": "vocabulary",
+    "prompt": "Despite the ___ weather, thousands of fans came to the concert.",
+    "options": [
+      "appalling",
+      "appealing",
+      "approving",
+      "applying"
+    ],
+    "answerIndex": 0,
+    "explanation": "Appalling \"berbat, korkunç\" demektir. \"Despite\" ile verilen zıtlık, havanın kötü olduğunu gösterir. Appealing ise \"çekici\" anlamına gelir."
+  },
+  {
+    "id": "pl-b2-06",
+    "level": "B2",
+    "skill": "reading",
+    "passage": "When offices closed in 2020, many predicted that remote work would be a temporary inconvenience. Instead, it has reshaped how millions of people work. For some, the lack of a commute has meant more time with family and fewer distractions. Others, however, report feeling isolated and find it hard to separate their job from their private life. The truth, it seems, is that remote work is neither a miracle nor a disaster; its value depends largely on the individual and the nature of the work.",
+    "prompt": "The word \"isolated\" in the text is closest in meaning to:",
+    "options": [
+      "lonely and cut off",
+      "busy and stressed",
+      "bored and tired",
+      "free and relaxed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Isolated, insanlardan kopuk ve yalnız hissetmek demektir."
+  },
+  {
+    "id": "pl-b2-07",
+    "level": "B2",
+    "skill": "grammar",
+    "prompt": "He denied ___ the window.",
+    "options": [
+      "to break",
+      "breaking",
+      "break",
+      "to have broke"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"Deny\" fiilinden sonra fiil -ing alır: denied breaking. Aynı şekilde avoid, admit ve suggest de -ing alır."
+  },
+  {
+    "id": "pl-b2-08",
+    "level": "B2",
+    "skill": "vocabulary",
+    "prompt": "We need to ___ a decision before the end of the day.",
+    "options": [
+      "do",
+      "make",
+      "take place",
+      "get"
+    ],
+    "answerIndex": 1,
+    "explanation": "İngilizcede karar \"make\" ile kurulur: make a decision. (İngiliz İngilizcesinde \"take a decision\" da kullanılır, ancak seçeneklerde yalnızca make var.)"
+  },
+  {
+    "id": "pl-c1-01",
+    "level": "C1",
+    "skill": "grammar",
+    "prompt": "___ had I sat down than the phone rang.",
+    "options": [
+      "Hardly",
+      "No sooner",
+      "Barely",
+      "Scarcely"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"No sooner ... than\" kalıbında devrik yapı kullanılır: No sooner had I sat down than... Hardly, scarcely ve barely ise \"when\" ile kullanılır."
+  },
+  {
+    "id": "pl-c1-02",
+    "level": "C1",
+    "skill": "vocabulary",
+    "prompt": "The new policy has been widely criticised, but the government remains ___ that it will work.",
+    "options": [
+      "adamant",
+      "adverse",
+      "ambiguous",
+      "apathetic"
+    ],
+    "answerIndex": 0,
+    "explanation": "Adamant, eleştirilere rağmen fikrinden dönmeyen, \"kesin kararlı\" demektir. Adverse olumsuz, ambiguous belirsiz, apathetic ise ilgisiz anlamına gelir."
+  },
+  {
+    "id": "pl-c1-03",
+    "level": "C1",
+    "skill": "reading",
+    "passage": "We like to think of ourselves as accomplished multitaskers, answering emails while listening in on a conference call. Yet a growing body of evidence suggests that what we call multitasking is in fact rapid task-switching, and that each switch carries a hidden cost in attention and accuracy. Ironically, studies have found that those most confident in their ability to juggle tasks tend to perform worst when tested, perhaps precisely because their confidence leads them to attempt it more often.",
+    "prompt": "What is the writer's main point?",
+    "options": [
+      "Multitasking makes people more efficient.",
+      "People who think they multitask well are often the worst at it.",
+      "Only young people can multitask.",
+      "Technology has solved the problem of distraction."
+    ],
+    "answerIndex": 1,
+    "explanation": "Metin, çoklu görevde iyi olduğunu düşünenlerin testlerde genellikle en kötü sonucu aldığını vurguluyor."
+  },
+  {
+    "id": "pl-c1-04",
+    "level": "C1",
+    "skill": "grammar",
+    "prompt": "It's high time the council ___ something about the traffic.",
+    "options": [
+      "does",
+      "did",
+      "has done",
+      "will do"
+    ],
+    "answerIndex": 1,
+    "explanation": "\"It's high time\" kalıbından sonra şimdiki/gelecek zamanı kastetsek de past simple kullanılır: It's high time they did something."
+  },
+  {
+    "id": "pl-c1-05",
+    "level": "C1",
+    "skill": "vocabulary",
+    "prompt": "Her argument didn't ___ water; there were too many gaps in the logic.",
+    "options": [
+      "hold",
+      "keep",
+      "carry",
+      "bear"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Not hold water\" bir deyimdir ve \"tutarlı olmamak, ikna edici olmamak\" demektir."
+  },
+  {
+    "id": "pl-c1-06",
+    "level": "C1",
+    "skill": "reading",
+    "passage": "We like to think of ourselves as accomplished multitaskers, answering emails while listening in on a conference call. Yet a growing body of evidence suggests that what we call multitasking is in fact rapid task-switching, and that each switch carries a hidden cost in attention and accuracy. Ironically, studies have found that those most confident in their ability to juggle tasks tend to perform worst when tested, perhaps precisely because their confidence leads them to attempt it more often.",
+    "prompt": "According to the text, why might confident multitaskers perform badly?",
+    "options": [
+      "They are less intelligent.",
+      "They multitask more often because of their confidence.",
+      "They use older technology.",
+      "They never practise."
+    ],
+    "answerIndex": 1,
+    "explanation": "Son cümle: \"perhaps precisely because their confidence leads them to attempt it more often.\""
+  },
+  {
+    "id": "pl-c1-07",
+    "level": "C1",
+    "skill": "grammar",
+    "prompt": "Not only ___ late, but he also forgot the tickets.",
+    "options": [
+      "he arrived",
+      "did he arrive",
+      "he did arrive",
+      "arrived he"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cümle \"Not only\" ile başladığında devrik yapı gerekir: Not only did he arrive late..."
+  },
+  {
+    "id": "pl-c1-08",
+    "level": "C1",
+    "skill": "vocabulary",
+    "prompt": "The CEO's speech was full of ___ promises that nobody really believed.",
+    "options": [
+      "hollow",
+      "hallowed",
+      "shallow-minded",
+      "hefty"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hollow promises \"içi boş vaatler\" demektir ve doğal bir eşdizimdir (collocation). Hallowed ise \"kutsal\" anlamına gelir."
+  },
+  {
+    "id": "pl-c2-01",
+    "level": "C2",
+    "skill": "grammar",
+    "prompt": "Were the government ___ the tax, there would be widespread protests.",
+    "options": [
+      "to raise",
+      "raising",
+      "raise",
+      "raised"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Were ... to + fiil\" yapısı, \"if\" yerine kullanılan resmi ve devrik bir koşul cümlesidir: Were the government to raise... = If the government raised..."
+  },
+  {
+    "id": "pl-c2-02",
+    "level": "C2",
+    "skill": "vocabulary",
+    "prompt": "His account of events was so ___ that even his supporters began to doubt him.",
+    "options": [
+      "implausible",
+      "impeccable",
+      "imperative",
+      "impervious"
+    ],
+    "answerIndex": 0,
+    "explanation": "Implausible \"inanılması güç\" demektir. Destekçilerinin bile şüphelenmesi bu anlama uyar. Impeccable kusursuz, impervious ise etkilenmez anlamına gelir."
+  },
+  {
+    "id": "pl-c2-03",
+    "level": "C2",
+    "skill": "reading",
+    "passage": "Purists bristle when they hear \"literally\" used to mean its very opposite, as in \"I literally died laughing\". Yet the history of English is littered with such reversals: \"nice\" once meant foolish, and \"awful\" meant worthy of awe. Lexicographers, whose job is to describe rather than prescribe, have duly recorded the intensifying sense of \"literally\". To lament the change is understandable; to imagine it can be reversed is to misunderstand what a living language is.",
+    "prompt": "What does the writer imply about the word \"literally\"?",
+    "options": [
+      "Its new meaning should be banned.",
+      "Its shift in meaning is part of a normal linguistic process.",
+      "It has always meant \"figuratively\".",
+      "Dictionaries have refused to accept its new use."
+    ],
+    "answerIndex": 1,
+    "explanation": "Yazar, dildeki değişimi \"canlı bir dilin işareti\" olarak görüyor. Kelimenin anlam kaymasını doğal bir süreç sayıyor."
+  },
+  {
+    "id": "pl-c2-04",
+    "level": "C2",
+    "skill": "grammar",
+    "prompt": "Little ___ that his decision would change the course of the company.",
+    "options": [
+      "he knew",
+      "did he know",
+      "he did know",
+      "knew he"
+    ],
+    "answerIndex": 1,
+    "explanation": "Olumsuz anlamlı \"Little\" cümle başına geldiğinde devrik yapı gerekir: Little did he know... (Hiç bilmiyordu ki...)"
+  },
+  {
+    "id": "pl-c2-05",
+    "level": "C2",
+    "skill": "vocabulary",
+    "prompt": "The negotiations reached a(n) ___, with neither side willing to make concessions.",
+    "options": [
+      "impasse",
+      "epitome",
+      "outset",
+      "respite"
+    ],
+    "answerIndex": 0,
+    "explanation": "Impasse \"çıkmaz\" demektir. İki tarafın da taviz vermemesi bu anlama uyar. Respite kısa bir mola, outset başlangıç demektir."
+  },
+  {
+    "id": "pl-c2-06",
+    "level": "C2",
+    "skill": "reading",
+    "passage": "Purists bristle when they hear \"literally\" used to mean its very opposite, as in \"I literally died laughing\". Yet the history of English is littered with such reversals: \"nice\" once meant foolish, and \"awful\" meant worthy of awe. Lexicographers, whose job is to describe rather than prescribe, have duly recorded the intensifying sense of \"literally\". To lament the change is understandable; to imagine it can be reversed is to misunderstand what a living language is.",
+    "prompt": "Why does the writer mention \"nice\" and \"awful\"?",
+    "options": [
+      "To show that English is becoming simpler",
+      "To give examples of words whose meanings have changed over time",
+      "To criticise lexicographers",
+      "To argue that old meanings are better"
+    ],
+    "answerIndex": 1,
+    "explanation": "Bu iki kelime, anlamı zamanla tersine dönmüş kelimelere örnek olarak veriliyor."
+  },
+  {
+    "id": "pl-c2-07",
+    "level": "C2",
+    "skill": "grammar",
+    "prompt": "So ___ was the storm that the ferry service was suspended for a week.",
+    "options": [
+      "severe",
+      "severely",
+      "severity",
+      "a severe"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"So + sıfat + was + özne + that\" devrik vurgu yapısıdır: So severe was the storm that... Burada bir sıfat gerekir."
+  },
+  {
+    "id": "pl-c2-08",
+    "level": "C2",
+    "skill": "vocabulary",
+    "prompt": "The minister's remarks were deliberately ___, allowing him to deny any specific commitment later.",
+    "options": [
+      "equivocal",
+      "unequivocal",
+      "eloquent",
+      "explicit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Equivocal \"bilerek muğlak bırakılmış\" demektir. Bu sayede bakan sonradan bir taahhütte bulunmadığını söyleyebilir. Unequivocal ve explicit ise tam tersine \"açık, net\" demektir."
+  }
+]

@@ -1,0 +1,47 @@
+import XCTest
+@testable import JECore
+
+final class StudyProgressTests: XCTestCase {
+    var calendar: Calendar = {
+        var c = Calendar(identifier: .gregorian)
+        c.timeZone = TimeZone(identifier: "Europe/Istanbul")!
+        return c
+    }()
+
+    func day(_ n: Int, hour: Int = 12) -> Date {
+        calendar.date(from: DateComponents(year: 2026, month: 11, day: n, hour: hour))!
+    }
+
+    func testGoalStartsAndExtendsStreak() {
+        var p = StudyProgress(dailyGoalXP: 20)
+        p.add(xp: 10, at: day(2), calendar: calendar)
+        XCTAssertEqual(p.streak, 0, "Hedef tutmadan seri başlamaz")
+        p.add(xp: 10, at: day(2), calendar: calendar)
+        XCTAssertEqual(p.streak, 1)
+        p.add(xp: 30, at: day(2, hour: 20), calendar: calendar)
+        XCTAssertEqual(p.streak, 1, "Aynı gün seriyi iki kez artırmaz")
+        p.add(xp: 20, at: day(3, hour: 8), calendar: calendar)
+        XCTAssertEqual(p.streak, 2)
+        XCTAssertEqual(p.totalXP, 70)
+        XCTAssertEqual(p.todayXP, 20)
+    }
+
+    func testFreezeCoversOneMissedDay() {
+        var p = StudyProgress(dailyGoalXP: 10)
+        p.add(xp: 10, at: day(2), calendar: calendar)
+        p.add(xp: 10, at: day(4), calendar: calendar)
+        XCTAssertEqual(p.streak, 2)
+        XCTAssertEqual(p.freezesAvailable, 0)
+        p.add(xp: 10, at: day(6), calendar: calendar)
+        XCTAssertEqual(p.streak, 1, "Koruyucu kalmadıysa seri sıfırlanır")
+        XCTAssertEqual(p.longestStreak, 2)
+    }
+
+    func testDisplayedStreakExpires() {
+        var p = StudyProgress(dailyGoalXP: 10)
+        p.freezesAvailable = 0
+        p.add(xp: 10, at: day(2), calendar: calendar)
+        XCTAssertEqual(p.displayedStreak(at: day(3), calendar: calendar), 1)
+        XCTAssertEqual(p.displayedStreak(at: day(4), calendar: calendar), 0)
+    }
+}
