@@ -44,6 +44,10 @@ struct LearnView: View {
                 }
                 .ignoresSafeArea()
             }
+            // Gezinme çubuğu gizli olduğundan, kaydırınca içerik saatin altına girmesin diye durum çubuğuna zemin.
+            .safeAreaInset(edge: .top, spacing: 0) {
+                Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)
+            }
             .toolbar(.hidden, for: .navigationBar)
             .navigationDestination(for: CourseUnit.self) { UnitView(unit: $0) }
             .fullScreenCover(item: $activeLesson) { route in
@@ -87,7 +91,10 @@ struct LearnView: View {
                     .buttonStyle(.plain)
                 }
             }
+            .padding(.horizontal, 20)
         }
+        // Çipler sayfa kenarına kadar kaysın, 20pt boşlukta kesilmesin.
+        .padding(.horizontal, -20)
     }
 }
 
