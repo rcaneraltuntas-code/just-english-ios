@@ -1,0 +1,1465 @@
+{
+  "id": "a2-u02",
+  "level": "A2",
+  "number": 2,
+  "title": "Tatil anıları",
+  "titleEn": "Holiday Memories",
+  "canDo": "Bir tatil anımı arka planıyla birlikte anlatabilir, geçmişte bir olay olurken neler yaşandığını söyleyebilir ve başkasının anlattığına tepki verebilirim.",
+  "grammar": [
+    "past continuous: was / were + -ing",
+    "past continuous ile arka plan anlatımı",
+    "past simple ve past continuous: when / while",
+    "tepki ifadeleri: How awful! / Lucky you!"
+  ],
+  "vocabularyThemes": [
+    "seyahat ve tatil",
+    "konaklama",
+    "tatilde yaşanan sorunlar"
+  ],
+  "liveClass": {
+    "title": "Tatil felaketi",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci gerçek ya da uydurma bir 'tatil felaketi' hikâyesi hazırlar (kayıp bavul, kaçan uçak...). Gruplar halinde hikâyeler anlatılır; dinleyenler tepki ifadeleri kullanır ve sorular sorar. Grup en komik hikâyeyi seçip sınıfa anlatır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u02-v01",
+      "en": "book",
+      "tr": "rezervasyon yapmak",
+      "example": "We booked a hotel near the beach.",
+      "exampleTr": "Plaja yakın bir otel ayırttık.",
+      "note": "book a room / a flight / a table"
+    },
+    {
+      "id": "a2-u02-v02",
+      "en": "pack",
+      "tr": "bavul hazırlamak",
+      "example": "I packed my suitcase the night before.",
+      "exampleTr": "Bavulumu bir gece önceden hazırladım."
+    },
+    {
+      "id": "a2-u02-v03",
+      "en": "suitcase",
+      "tr": "bavul",
+      "example": "My suitcase was too heavy.",
+      "exampleTr": "Bavulum çok ağırdı."
+    },
+    {
+      "id": "a2-u02-v04",
+      "en": "flight",
+      "tr": "uçuş",
+      "example": "Our flight was two hours late.",
+      "exampleTr": "Uçuşumuz iki saat rötar yaptı."
+    },
+    {
+      "id": "a2-u02-v05",
+      "en": "miss",
+      "tr": "kaçırmak (otobüs, uçak)",
+      "example": "We missed the last bus.",
+      "exampleTr": "Son otobüsü kaçırdık.",
+      "note": "Ayrıca: özlemek."
+    },
+    {
+      "id": "a2-u02-v06",
+      "en": "lose",
+      "tr": "kaybetmek",
+      "example": "I lost my passport in Rome.",
+      "exampleTr": "Roma'da pasaportumu kaybettim.",
+      "note": "lose → lost"
+    },
+    {
+      "id": "a2-u02-v07",
+      "en": "passport",
+      "tr": "pasaport",
+      "example": "Don't forget your passport!",
+      "exampleTr": "Pasaportunu unutma!"
+    },
+    {
+      "id": "a2-u02-v08",
+      "en": "sightseeing",
+      "tr": "gezip görme",
+      "example": "We went sightseeing in Prague.",
+      "exampleTr": "Prag'da gezip dolaştık.",
+      "note": "go sightseeing"
+    },
+    {
+      "id": "a2-u02-v09",
+      "en": "sunbathe",
+      "tr": "güneşlenmek",
+      "example": "She sunbathed by the pool all day.",
+      "exampleTr": "Bütün gün havuz başında güneşlendi."
+    },
+    {
+      "id": "a2-u02-v10",
+      "en": "view",
+      "tr": "manzara",
+      "example": "The view from our room was amazing.",
+      "exampleTr": "Odamızdan manzara muhteşemdi."
+    },
+    {
+      "id": "a2-u02-v11",
+      "en": "guide",
+      "tr": "rehber",
+      "example": "Our guide spoke perfect English.",
+      "exampleTr": "Rehberimiz mükemmel İngilizce konuşuyordu."
+    },
+    {
+      "id": "a2-u02-v12",
+      "en": "abroad",
+      "tr": "yurt dışı(na)",
+      "example": "I went abroad for the first time in 2019.",
+      "exampleTr": "İlk kez 2019'da yurt dışına çıktım.",
+      "note": "go abroad (to abroad değil)"
+    },
+    {
+      "id": "a2-u02-v13",
+      "en": "souvenir",
+      "tr": "hediyelik eşya",
+      "example": "I bought souvenirs for my family.",
+      "exampleTr": "Ailem için hediyelik eşya aldım."
+    },
+    {
+      "id": "a2-u02-v14",
+      "en": "campsite",
+      "tr": "kamp alanı",
+      "example": "The campsite was next to a lake.",
+      "exampleTr": "Kamp alanı bir gölün yanındaydı."
+    },
+    {
+      "id": "a2-u02-v15",
+      "en": "tent",
+      "tr": "çadır",
+      "example": "It was raining and our tent was wet.",
+      "exampleTr": "Yağmur yağıyordu ve çadırımız ıslaktı."
+    },
+    {
+      "id": "a2-u02-v16",
+      "en": "crowded",
+      "tr": "kalabalık",
+      "example": "The beach was very crowded.",
+      "exampleTr": "Plaj çok kalabalıktı."
+    },
+    {
+      "id": "a2-u02-v17",
+      "en": "shine",
+      "tr": "parlamak",
+      "example": "The sun was shining.",
+      "exampleTr": "Güneş parlıyordu.",
+      "note": "shine → shone"
+    },
+    {
+      "id": "a2-u02-v18",
+      "en": "happen",
+      "tr": "olmak, meydana gelmek",
+      "example": "What happened on your holiday?",
+      "exampleTr": "Tatilinde ne oldu?"
+    },
+    {
+      "id": "a2-u02-v19",
+      "en": "suddenly",
+      "tr": "aniden",
+      "example": "Suddenly, the lights went out.",
+      "exampleTr": "Aniden ışıklar söndü."
+    },
+    {
+      "id": "a2-u02-v20",
+      "en": "while",
+      "tr": "-irken",
+      "example": "While we were swimming, it started to rain.",
+      "exampleTr": "Biz yüzerken yağmur başladı."
+    },
+    {
+      "id": "a2-u02-v21",
+      "en": "break down",
+      "tr": "bozulmak (araç)",
+      "example": "Our car broke down on the motorway.",
+      "exampleTr": "Arabamız otoyolda bozuldu.",
+      "note": "break → broke"
+    },
+    {
+      "id": "a2-u02-v22",
+      "en": "How awful!",
+      "tr": "Ne kötü!",
+      "example": "They lost your bag? How awful!",
+      "exampleTr": "Çantanı mı kaybettiler? Ne kötü!"
+    },
+    {
+      "id": "a2-u02-v23",
+      "en": "Lucky you!",
+      "tr": "Şanslısın!",
+      "example": "Two weeks in Bali? Lucky you!",
+      "exampleTr": "Bali'de iki hafta mı? Şanslısın!"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u02-l1",
+      "number": 1,
+      "title": "Tatilim nasıldı?",
+      "goal": "Tatil ve seyahat kelimeleriyle geçmiş bir tatili özetleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Tatil dönüşü",
+        "lines": [
+          {
+            "speaker": "Derya",
+            "text": "Welcome back! How was Greece?"
+          },
+          {
+            "speaker": "Okan",
+            "text": "Fantastic! We booked a small hotel on Naxos. The view from our room was amazing."
+          },
+          {
+            "speaker": "Derya",
+            "text": "Lucky you! What did you do there?"
+          },
+          {
+            "speaker": "Okan",
+            "text": "We sunbathed, swam a lot and went sightseeing in the old town."
+          },
+          {
+            "speaker": "Derya",
+            "text": "Any problems?"
+          },
+          {
+            "speaker": "Okan",
+            "text": "Just one. I lost my sunglasses on the first day! But I bought new ones."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did Okan stay?",
+            "options": [
+              "In a big hotel in Athens",
+              "In a small hotel on Naxos",
+              "At a campsite"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"We booked a small hotel on Naxos.\"",
+            "id": "a2-u02-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the problem?",
+            "options": [
+              "He lost his passport.",
+              "He lost his sunglasses.",
+              "The hotel was crowded."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I lost my sunglasses on the first day!\"",
+            "id": "a2-u02-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Bir tatili özetlerken **past simple** kullanırız. Tatille ilgili sık kullanılan kalıplar:\n\n| Kalıp | Örnek |\n|---|---|\n| go + -ing | go sightseeing, go swimming, go shopping, go camping |\n| go + to + yer | go to the beach, go to Greece |\n| go abroad | We went abroad. (~~went to abroad~~) |\n| stay at / in | stay at a hotel, stay in a tent |\n| book | book a flight / a hotel |\n\n**Tatil soruları:**\n\n- How **was** your holiday? – It **was** great / terrible / OK.\n- Where **did** you **stay**?\n- What **did** you **do** there?\n- What **was** the weather **like**?",
+        "examples": [
+          {
+            "en": "We went camping by a lake.",
+            "tr": "Bir göl kenarında kamp yaptık."
+          },
+          {
+            "en": "Where did you stay? – At a lovely little hotel.",
+            "tr": "Nerede kaldınız? – Şirin, küçük bir otelde."
+          },
+          {
+            "en": "What was the food like?",
+            "tr": "Yemekler nasıldı?"
+          }
+        ],
+        "turkishNote": "\"Tatile gitmek\" = go on holiday (go to holiday değil). \"Tatildeyim\" = I'm on holiday. Amerikan İngilizcesinde holiday yerine vacation denir. \"abroad\" bir zarftır, önüne to gelmez: go abroad, live abroad."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "book",
+              "right": "a flight"
+            },
+            {
+              "left": "go",
+              "right": "sightseeing"
+            },
+            {
+              "left": "stay",
+              "right": "at a hotel"
+            },
+            {
+              "left": "buy",
+              "right": "souvenirs"
+            },
+            {
+              "left": "miss",
+              "right": "the bus"
+            }
+          ],
+          "explanation": "Kalıpları eşleştirin.",
+          "id": "a2-u02-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "We went to abroad.",
+            "We went abroad."
+          ],
+          "answerIndex": 1,
+          "explanation": "abroad önüne to almaz.",
+          "id": "a2-u02-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I went to holiday.",
+            "I went on holiday."
+          ],
+          "answerIndex": 1,
+          "explanation": "go on holiday.",
+          "id": "a2-u02-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We went ___ in the old town. (gezip görmek)",
+          "answers": [
+            "sightseeing"
+          ],
+          "explanation": "go sightseeing.",
+          "id": "a2-u02-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "What was the weather ___? – Hot and sunny.",
+          "answers": [
+            "like"
+          ],
+          "explanation": "What was ... like?",
+          "id": "a2-u02-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ my passport at the airport! (lose)",
+          "answers": [
+            "lost"
+          ],
+          "explanation": "lose → lost.",
+          "id": "a2-u02-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "did",
+            "Where",
+            "you",
+            "stay",
+            "in",
+            "Rome",
+            "?"
+          ],
+          "answer": "Where did you stay in Rome?",
+          "explanation": "Where + did + you + stay?",
+          "translation": "Roma'da nerede kaldınız?",
+          "id": "a2-u02-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The hotel was OK, but the beach was very crowded, so we went camping in the mountains for three days.",
+          "prompt": "Neden dağlara gittiler?",
+          "options": [
+            "Otel kötüydü",
+            "Plaj çok kalabalıktı",
+            "Hava kötüydü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the beach was very crowded, so we went camping\"",
+          "id": "a2-u02-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Tatilin nasıldı?\"",
+          "accepted": [
+            "How was your holiday?",
+            "How was your holiday",
+            "How was your vacation?",
+            "How was your vacation"
+          ],
+          "explanation": "How was your holiday?",
+          "id": "a2-u02-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"We spent two weeks in the Maldives.\" Uygun tepki:",
+          "options": [
+            "How awful!",
+            "Lucky you!",
+            "I'm sorry."
+          ],
+          "answerIndex": 1,
+          "explanation": "Güzel bir haber → Lucky you!",
+          "id": "a2-u02-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son tatilinizi özetleyin: nereye gittiniz, nerede kaldınız, neler yaptınız, hava ve yemekler nasıldı?",
+          "modelAnswer": "Last summer I went to Kaş with my family. We stayed at a small hotel near the sea. We swam every day and went sightseeing in the old town. The weather was very hot and the food was delicious.",
+          "rubric": [
+            "Tatil kelimeleri ve kalıpları",
+            "Past simple doğru",
+            "What was ... like? bilgisi"
+          ]
+        },
+        "id": "a2-u02-l1-use"
+      }
+    },
+    {
+      "id": "a2-u02-l2",
+      "number": 2,
+      "title": "O sırada ne yapıyordun?",
+      "goal": "Geçmişte belirli bir anda devam eden eylemleri past continuous ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Otelde bir gece",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Someone took a laptop from room 12 at ten o'clock last night. Where were you all at ten?"
+          },
+          {
+            "speaker": "Ms Demir",
+            "text": "I was having dinner in the restaurant with my husband."
+          },
+          {
+            "speaker": "Mr Lee",
+            "text": "I was swimming in the pool. The guard saw me."
+          },
+          {
+            "speaker": "Sara",
+            "text": "My friends and I were watching a film in our room."
+          },
+          {
+            "speaker": "Manager",
+            "text": "And you, Mr Brown?"
+          },
+          {
+            "speaker": "Mr Brown",
+            "text": "Er... I was sleeping. Alone."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was Mr Lee doing at ten?",
+            "options": [
+              "Having dinner",
+              "Swimming",
+              "Sleeping"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was swimming in the pool.\"",
+            "id": "a2-u02-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who doesn't have a witness?",
+            "options": [
+              "Ms Demir",
+              "Sara",
+              "Mr Brown"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"I was sleeping. Alone.\"",
+            "id": "a2-u02-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Past continuous**, geçmişte belirli bir anda **devam etmekte olan** eylemi anlatır.\n\n**Yapı:** was / were + fiil-ing\n\n| Olumlu | Olumsuz | Soru |\n|---|---|---|\n| I / He / She / It **was** working | **wasn't** working | **Was** she working? |\n| You / We / They **were** working | **weren't** working | **Were** they working? |\n\n- At ten o'clock last night, I **was watching** TV.\n- What **were** you **doing** at 8 am? – I **was driving** to work.\n\nKısa cevap: Yes, I **was**. / No, they **weren't**.",
+        "examples": [
+          {
+            "en": "At midnight we were dancing on the beach.",
+            "tr": "Gece yarısı plajda dans ediyorduk."
+          },
+          {
+            "en": "What were you doing at this time yesterday?",
+            "tr": "Dün bu saatte ne yapıyordun?"
+          },
+          {
+            "en": "She wasn't listening.",
+            "tr": "Dinlemiyordu."
+          }
+        ],
+        "turkishNote": "Past continuous, Türkçedeki \"-iyordu\" ekine denk gelir: yüzüyordum = I was swimming. Ama Türkçede \"-iyordu\" bazen alışkanlık için de kullanılır (Çocukken her gün yüzüyordum); İngilizcede bu durumda past simple ya da used to kullanılır: When I was a child, I swam every day."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "At 9 pm yesterday, I ___ dinner.",
+          "options": [
+            "was having",
+            "were having",
+            "am having"
+          ],
+          "answerIndex": 0,
+          "explanation": "I → was + -ing.",
+          "id": "a2-u02-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "They ___ in the sea when we arrived.",
+          "options": [
+            "was swimming",
+            "were swimming"
+          ],
+          "answerIndex": 1,
+          "explanation": "they → were.",
+          "id": "a2-u02-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "What ___ you doing at 7 o'clock?",
+          "answers": [
+            "were"
+          ],
+          "explanation": "you → were.",
+          "id": "a2-u02-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ working yesterday. She was on holiday. (değildi)",
+          "answers": [
+            "wasn't",
+            "was not"
+          ],
+          "explanation": "she → wasn't.",
+          "id": "a2-u02-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "At midnight, we ___ dancing. (were)",
+          "answers": [
+            "were"
+          ],
+          "explanation": "we → were.",
+          "id": "a2-u02-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Were you sleeping?\" (Hayır.)",
+          "options": [
+            "No, I wasn't.",
+            "No, I weren't.",
+            "No, I didn't."
+          ],
+          "answerIndex": 0,
+          "explanation": "No, I wasn't.",
+          "id": "a2-u02-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "was",
+            "At",
+            "eight",
+            "I",
+            "driving",
+            "to",
+            "work"
+          ],
+          "answer": "At eight I was driving to work.",
+          "explanation": "Zaman + özne + was + -ing.",
+          "translation": "Saat sekizde işe araba sürüyordum.",
+          "id": "a2-u02-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "At three o'clock I wasn't at the hotel. I was walking around the market with my sister.",
+          "prompt": "Saat üçte ne yapıyordu?",
+          "options": [
+            "Otelde dinleniyordu",
+            "Pazarda dolaşıyordu",
+            "Kız kardeşini bekliyordu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I was walking around the market\"",
+          "id": "a2-u02-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dün bu saatte ne yapıyordun?\"",
+          "accepted": [
+            "What were you doing at this time yesterday?",
+            "What were you doing at this time yesterday",
+            "What were you doing this time yesterday?",
+            "What were you doing this time yesterday",
+            "Yesterday at this time, what were you doing?",
+            "Yesterday at this time, what were you doing"
+          ],
+          "explanation": "What were you doing + at this time yesterday?",
+          "id": "a2-u02-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi alışkanlık anlatır?",
+          "options": [
+            "When I was a child, I swam every day.",
+            "At ten o'clock, I was swimming."
+          ],
+          "answerIndex": 0,
+          "explanation": "Alışkanlık → past simple.",
+          "id": "a2-u02-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI dedektif ve size dün günün farklı saatlerinde (8:00, 13:00, 19:00, 23:00) ne yaptığınızı soracak. Past continuous ile cevap verin.",
+          "modelAnswer": "At eight o'clock I was having breakfast. At one o'clock I was working in my office. At seven I was cooking dinner. At eleven I was sleeping.",
+          "rubric": [
+            "was/were + -ing doğru",
+            "Saat ifadeleri",
+            "Soruya uygun kısa cevaplar"
+          ]
+        },
+        "id": "a2-u02-l2-use"
+      }
+    },
+    {
+      "id": "a2-u02-l3",
+      "number": 3,
+      "title": "Sahneyi kurmak",
+      "goal": "Bir hikâyenin arka planını past continuous ile tasvir edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir gezi blogundan",
+        "body": "It was our last evening in Kapadokya. The sun was going down and the sky was turning orange. Hundreds of people were walking to the hill to watch the sunset. Some children were playing football, and an old man was selling tea from a small cart.\n\nWe sat on a rock and drank our tea. Nobody was talking. Then, suddenly, a balloon appeared over the valley. It was the perfect end to a perfect holiday.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the old man doing?",
+            "options": [
+              "Playing football",
+              "Selling tea",
+              "Taking photos"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"an old man was selling tea from a small cart\"",
+            "id": "a2-u02-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What appeared suddenly?",
+            "options": [
+              "A bird",
+              "A balloon",
+              "A plane"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"suddenly, a balloon appeared over the valley\"",
+            "id": "a2-u02-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Hikâye anlatırken iki zamanı birlikte kullanırız:\n\n- **Past continuous** → arka plan, sahne: o sırada neler oluyordu?\n- **Past simple** → hikâyedeki olaylar: ne oldu?\n\n| Arka plan (past continuous) | Olay (past simple) |\n|---|---|\n| The sun **was shining**. | We **arrived** at the beach. |\n| People **were swimming**. | A dog **took** my sandwich! |\n\n**Hikâye başlangıçları:**\n\n- It **was raining** and we **were waiting** for the bus...\n- It was a beautiful morning. The birds **were singing**...\n\nArka plan cümleleri sahneyi bir film gibi canlandırır; dinleyen olayı daha iyi hayal eder.",
+        "examples": [
+          {
+            "en": "It was snowing and everybody was wearing hats.",
+            "tr": "Kar yağıyordu ve herkes şapka takıyordu."
+          },
+          {
+            "en": "The music was playing and people were dancing.",
+            "tr": "Müzik çalıyordu ve insanlar dans ediyordu."
+          },
+          {
+            "en": "We were sitting on the balcony. Then the phone rang.",
+            "tr": "Balkonda oturuyorduk. Sonra telefon çaldı."
+          }
+        ],
+        "turkishNote": "Türkçe hikâyelerde de aynı ayrım vardır: \"Yağmur yağıyordu (arka plan), kapı çaldı (olay).\" İngilizcede bu ayrımı korumak hikâyeyi çok daha doğal yapar. Durum fiilleri (know, want, like) arka planda da -ing almaz: I wanted a coffee (I was wanting değil)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Arka plan cümlesi hangisi?",
+          "options": [
+            "The sun was shining.",
+            "We arrived at the hotel."
+          ],
+          "answerIndex": 0,
+          "explanation": "Devam eden durum → past continuous.",
+          "id": "a2-u02-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Olay cümlesi hangisi?",
+          "options": [
+            "People were sleeping.",
+            "A loud noise woke us up."
+          ],
+          "answerIndex": 1,
+          "explanation": "Ani olay → past simple.",
+          "id": "a2-u02-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ raining, so we stayed in the tent. (was)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "Arka plan: was raining.",
+          "id": "a2-u02-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The birds ___ singing and the sky was blue.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "birds → were.",
+          "id": "a2-u02-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We were sitting in the café. Then a famous actor ___ in! (walk)",
+          "answers": [
+            "walked"
+          ],
+          "explanation": "Olay → past simple.",
+          "id": "a2-u02-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I was wanting a coffee.",
+            "I wanted a coffee."
+          ],
+          "answerIndex": 1,
+          "explanation": "want → durum fiili.",
+          "id": "a2-u02-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "were",
+            "People",
+            "dancing",
+            "and",
+            "the",
+            "music",
+            "was",
+            "playing"
+          ],
+          "answer": "People were dancing and the music was playing.",
+          "explanation": "İki arka plan cümlesi.",
+          "translation": "İnsanlar dans ediyordu ve müzik çalıyordu.",
+          "id": "a2-u02-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "It was a cold night. We were sitting around the fire and my uncle was telling a ghost story. Suddenly, we heard a noise in the trees.",
+          "prompt": "Amca ne yapıyordu?",
+          "options": [
+            "Ateş yakıyordu",
+            "Hayalet hikâyesi anlatıyordu",
+            "Ağaçlara bakıyordu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"my uncle was telling a ghost story\"",
+          "id": "a2-u02-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kar yağıyordu ve herkes mutluydu.\"",
+          "accepted": [
+            "It was snowing and everybody was happy.",
+            "It was snowing and everybody was happy",
+            "It was snowing and everyone was happy.",
+            "It was snowing and everyone was happy",
+            "It was snowing, and everybody was happy.",
+            "It was snowing, and everybody was happy",
+            "It was snowing, and everyone was happy.",
+            "It was snowing, and everyone was happy"
+          ],
+          "explanation": "It was snowing + and everybody was happy.",
+          "id": "a2-u02-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "The sun",
+              "right": "was going down."
+            },
+            {
+              "left": "Some children",
+              "right": "were playing."
+            },
+            {
+              "left": "Nobody",
+              "right": "was talking."
+            },
+            {
+              "left": "A balloon",
+              "right": "appeared."
+            }
+          ],
+          "explanation": "Blogdaki cümleleri tamamlayın.",
+          "id": "a2-u02-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir tatil fotoğrafınızı ya da bir anınızı düşünün. Sahneyi past continuous ile 4 cümlede anlatın, sonra past simple ile bir olay ekleyin.",
+          "modelAnswer": "It was a hot afternoon in Bodrum. The sun was shining and the sea was very calm. My children were building a sandcastle and my husband was reading. Suddenly, a big wave came and destroyed the sandcastle!",
+          "rubric": [
+            "Past continuous ile arka plan",
+            "Past simple ile olay",
+            "Durum fiilleri doğru",
+            "Sahne canlı ve anlaşılır"
+          ]
+        },
+        "id": "a2-u02-l3-use"
+      }
+    },
+    {
+      "id": "a2-u02-l4",
+      "number": 4,
+      "title": "When ve while",
+      "goal": "Bir eylem devam ederken araya giren olayı when ve while ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Havalimanında",
+        "lines": [
+          {
+            "speaker": "Can",
+            "text": "You look terrible! What happened?"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "Oh, it was a nightmare. While we were flying to Madrid, the plane hit a storm."
+          },
+          {
+            "speaker": "Can",
+            "text": "How awful!"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "And when we were waiting for our bags, I realised my wallet wasn't in my pocket."
+          },
+          {
+            "speaker": "Can",
+            "text": "Oh no! Did you find it?"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "Yes! A nice man found it while he was walking to the exit."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened while they were flying?",
+            "options": [
+              "The plane hit a storm.",
+              "She lost her bag.",
+              "She met a nice man."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"While we were flying ..., the plane hit a storm.\"",
+            "id": "a2-u02-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When did Burcu notice her wallet was missing?",
+            "options": [
+              "On the plane",
+              "While they were waiting for bags",
+              "At the exit"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"when we were waiting for our bags, I realised...\"",
+            "id": "a2-u02-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Uzun (devam eden) bir eylem sırasında kısa bir olay olduğunda:\n\n- uzun eylem → **past continuous**\n- kısa olay → **past simple**\n\n**when** genellikle kısa olayın önüne gelir:\n\n- I **was having** a shower **when** the phone **rang**.\n\n**while** genellikle uzun eylemin önüne gelir:\n\n- **While** I **was having** a shower, the phone **rang**.\n\n**Cümle başı:** when / while ile başlayan kısım öndeyse araya **virgül** konur.\n\n- **When** the phone rang**,** I was having a shower.\n- I was having a shower **when** the phone rang. (virgül yok)\n\n**İki kısa olay art arda:** ikisi de past simple: **When** he **saw** me, he **smiled**.",
+        "examples": [
+          {
+            "en": "While we were walking on the beach, we found a ring.",
+            "tr": "Plajda yürürken bir yüzük bulduk."
+          },
+          {
+            "en": "I was reading when the lights went out.",
+            "tr": "Işıklar söndüğünde kitap okuyordum."
+          },
+          {
+            "en": "When I opened the door, the cat ran out.",
+            "tr": "Kapıyı açınca kedi dışarı koştu."
+          }
+        ],
+        "turkishNote": "Türkçede \"-irken\" (yürürken) while'a, \"-ince / -diğinde\" (açınca, söndüğünde) when'e denk gelir. Türkçede yan cümle hep başa gelir; İngilizcede iki sıra da mümkündür, ama yan cümle öndeyse virgül kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I ___ TV when the lights went out.",
+          "options": [
+            "watched",
+            "was watching"
+          ],
+          "answerIndex": 1,
+          "explanation": "Uzun eylem → past continuous.",
+          "id": "a2-u02-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "While she was cooking, she ___ her finger.",
+          "options": [
+            "cut",
+            "was cutting"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kısa olay → past simple.",
+          "id": "a2-u02-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "___ I was sleeping, someone knocked on the door.",
+          "options": [
+            "While",
+            "When"
+          ],
+          "answerIndex": 0,
+          "explanation": "Uzun eylemin önü → while.",
+          "id": "a2-u02-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "We were having lunch ___ it started to rain.",
+          "options": [
+            "while",
+            "when"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kısa olayın önü → when.",
+          "id": "a2-u02-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "When I ___ the door, the cat ran out. (open)",
+          "answers": [
+            "opened"
+          ],
+          "explanation": "İki kısa olay → past simple.",
+          "id": "a2-u02-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "While we ___ walking to the hotel, we met an old friend.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "we → were + -ing.",
+          "id": "a2-u02-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "was",
+            "I",
+            "reading",
+            "when",
+            "the",
+            "phone",
+            "rang"
+          ],
+          "answer": "I was reading when the phone rang.",
+          "explanation": "Uzun eylem + when + kısa olay.",
+          "translation": "Telefon çaldığında okuyordum.",
+          "id": "a2-u02-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "While I was taking a photo of the bridge, my phone fell into the river.",
+          "prompt": "Telefon ne zaman düştü?",
+          "options": [
+            "Köprüde yürürken",
+            "Köprünün fotoğrafını çekerken",
+            "Nehirde yüzerken"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"While I was taking a photo of the bridge\"",
+          "id": "a2-u02-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İki cümleyi while ile birleştirin: \"We were driving. The car broke down.\"",
+          "accepted": [
+            "While we were driving, the car broke down.",
+            "While we were driving, the car broke down",
+            "The car broke down while we were driving.",
+            "The car broke down while we were driving"
+          ],
+          "explanation": "While + past continuous, + past simple.",
+          "id": "a2-u02-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangi cümlede virgül gerekli?",
+          "options": [
+            "When I arrived I was tired.",
+            "I was tired when I arrived."
+          ],
+          "answerIndex": 0,
+          "explanation": "When-cümlesi öndeyse virgül: When I arrived, I was tired.",
+          "id": "a2-u02-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'ye tatilde başınıza gelen (ya da hayal ettiğiniz) beklenmedik 3 olayı anlatın. Her birinde when veya while kullanın.",
+          "modelAnswer": "While I was swimming, I saw a turtle. When we were walking in the old town, it started to rain. I was having dinner when my boss called me!",
+          "rubric": [
+            "while + past continuous",
+            "when + past simple",
+            "Olay ve arka plan ayrımı doğru"
+          ]
+        },
+        "id": "a2-u02-l4-use"
+      }
+    },
+    {
+      "id": "a2-u02-l5",
+      "number": 5,
+      "title": "Anını paylaş",
+      "goal": "Bir tatil anısını akıcı anlatabilir ve dinlerken uygun tepkiler verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kamp hikâyesi",
+        "lines": [
+          {
+            "speaker": "Seda",
+            "text": "Did I tell you about our camping trip to Abant?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "No! What happened?"
+          },
+          {
+            "speaker": "Seda",
+            "text": "Well, on the first night it was raining really hard. We were sleeping in the tent when water started coming in."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Oh no! What did you do?"
+          },
+          {
+            "speaker": "Seda",
+            "text": "We ran to the car and slept there. In the morning, while we were making breakfast, a big dog ate our bread!"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "You're joking! That's so funny."
+          },
+          {
+            "speaker": "Seda",
+            "text": "It wasn't funny then! But now it's my favourite holiday story."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where did they sleep on the first night?",
+            "options": [
+              "In the tent",
+              "In the car",
+              "In a hotel"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"We ran to the car and slept there.\"",
+            "id": "a2-u02-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the dog do?",
+            "options": [
+              "It ate their bread.",
+              "It slept in the tent.",
+              "It ran away with a shoe."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"a big dog ate our bread!\"",
+            "id": "a2-u02-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bir anıya başlamak:**\n\n- Did I tell you about...?\n- You won't believe what happened...\n- It was (last summer / two years ago)...\n\n**Hikâyeyi ilerletmek:** at first, then, after that, suddenly, in the end\n\n**Dinleyenin tepkileri:**\n\n| Durum | Tepki |\n|---|---|\n| İlgi | Really? / What happened? / And then? |\n| Kötü haber | Oh no! / How awful! / Poor you! |\n| İyi haber | Lucky you! / How amazing! / That's great! |\n| Şaşırtıcı | You're joking! / No way! |\n| Komik | That's so funny! |\n\n**How + sıfat!** yapısı: How awful! How lovely! How strange!",
+        "examples": [
+          {
+            "en": "You won't believe what happened on our trip!",
+            "tr": "Gezimizde ne olduğuna inanmayacaksın!"
+          },
+          {
+            "en": "In the end, we found a lovely little hotel.",
+            "tr": "Sonunda şirin, küçük bir otel bulduk."
+          },
+          {
+            "en": "They cancelled your flight? Poor you!",
+            "tr": "Uçuşunu iptal mi ettiler? Vah zavallım!"
+          }
+        ],
+        "turkishNote": "İngilizce sohbette dinleyenin sessiz kalması ilgisizlik gibi algılanabilir. Kısa tepkiler (Really? Oh no!) konuşmayı canlı tutar. \"In the end\" (sonunda) ile \"at the end\" (bir şeyin sonunda: at the end of the film) farklıdır."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Oh no!",
+              "right": "kötü haber"
+            },
+            {
+              "left": "Lucky you!",
+              "right": "iyi haber"
+            },
+            {
+              "left": "You're joking!",
+              "right": "şaşırtıcı"
+            },
+            {
+              "left": "That's so funny!",
+              "right": "komik"
+            }
+          ],
+          "explanation": "Tepkileri durumlarla eşleştirin.",
+          "id": "a2-u02-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I lost my bag on the first day.\" Uygun tepki:",
+          "options": [
+            "Lucky you!",
+            "Poor you!",
+            "How lovely!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kötü haber → Poor you!",
+          "id": "a2-u02-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"We got a free upgrade to a suite!\" Uygun tepki:",
+          "options": [
+            "How awful!",
+            "Lucky you!",
+            "Oh no!"
+          ],
+          "answerIndex": 1,
+          "explanation": "İyi haber → Lucky you!",
+          "id": "a2-u02-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "How ___! A dog ate your bread? (komik / garip)",
+          "answers": [
+            "funny",
+            "strange",
+            "awful"
+          ],
+          "explanation": "How + sıfat!",
+          "id": "a2-u02-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ the end, we found a nice hotel. (sonunda)",
+          "answers": [
+            "In"
+          ],
+          "explanation": "in the end = sonunda.",
+          "id": "a2-u02-l5-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "at the end of the film",
+            "in the end of the film"
+          ],
+          "answerIndex": 0,
+          "explanation": "at the end of + isim.",
+          "id": "a2-u02-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Did",
+            "I",
+            "tell",
+            "about",
+            "our",
+            "trip",
+            "?"
+          ],
+          "answer": "Did I tell you about our trip?",
+          "explanation": "Anıya başlama kalıbı.",
+          "translation": "Sana gezimizi anlattım mı?",
+          "id": "a2-u02-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "We were walking in the forest when we saw a bear! – No way! What did you do? – We walked back very, very slowly.",
+          "prompt": "Ayıyı görünce ne yaptılar?",
+          "options": [
+            "Koştular",
+            "Çok yavaş geri yürüdüler",
+            "Fotoğraf çektiler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"We walked back very, very slowly.\"",
+          "id": "a2-u02-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Gezimizde ne olduğuna inanmayacaksın!\"",
+          "accepted": [
+            "You won't believe what happened on our trip!",
+            "You won't believe what happened on our trip",
+            "You won't believe what happened on our trip."
+          ],
+          "explanation": "You won't believe what happened + on our trip!",
+          "id": "a2-u02-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hikâyeyi dinlerken ilgi göstermek için:",
+          "options": [
+            "And then?",
+            "OK.",
+            "Bye."
+          ],
+          "answerIndex": 0,
+          "explanation": "And then? = Sonra?",
+          "id": "a2-u02-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'ye en unutulmaz tatil anınızı anlatın: bir başlangıç kalıbı kullanın, arka planı past continuous ile verin, olayları past simple ile anlatın. JAI tepki verdikçe hikâyeye devam edin.",
+          "modelAnswer": "Did I tell you about my trip to Rome? It was August and it was really hot. We were walking near the Colosseum when a man stopped us. He was looking for his daughter. Suddenly, she came running. In the end, everybody was happy!",
+          "rubric": [
+            "Anı başlatma kalıbı",
+            "Arka plan + olay ayrımı",
+            "Sıralama ifadeleri",
+            "Akıcılık"
+          ]
+        },
+        "id": "a2-u02-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "We went to abroad.",
+          "We went abroad."
+        ],
+        "answerIndex": 1,
+        "explanation": "go abroad",
+        "id": "a2-u02-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "We went ___ in the old town. (gezip görmek)",
+        "answers": [
+          "sightseeing"
+        ],
+        "explanation": "go sightseeing",
+        "id": "a2-u02-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "I ___ my passport in Paris. (lose)",
+        "answers": [
+          "lost"
+        ],
+        "explanation": "lose → lost",
+        "id": "a2-u02-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "At 8 pm, they ___ dinner.",
+        "options": [
+          "was having",
+          "were having"
+        ],
+        "answerIndex": 1,
+        "explanation": "they → were",
+        "id": "a2-u02-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "What ___ you doing at midnight?",
+        "answers": [
+          "were"
+        ],
+        "explanation": "you → were",
+        "id": "a2-u02-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Was she sleeping?\" (Hayır.)",
+        "options": [
+          "No, she wasn't.",
+          "No, she didn't.",
+          "No, she weren't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, she wasn't.",
+        "id": "a2-u02-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "I ___ a shower when the phone rang.",
+        "options": [
+          "had",
+          "was having"
+        ],
+        "answerIndex": 1,
+        "explanation": "Uzun eylem → continuous",
+        "id": "a2-u02-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "While we were walking, it ___ to rain.",
+        "options": [
+          "started",
+          "was starting"
+        ],
+        "answerIndex": 0,
+        "explanation": "Kısa olay → simple",
+        "id": "a2-u02-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "___ I was cooking, the lights went out.",
+        "options": [
+          "While",
+          "When"
+        ],
+        "answerIndex": 0,
+        "explanation": "Uzun eylem → while",
+        "id": "a2-u02-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I was knowing the answer.",
+          "I knew the answer."
+        ],
+        "answerIndex": 1,
+        "explanation": "know → durum fiili",
+        "id": "a2-u02-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Our hotel was terrible.\" Uygun tepki:",
+        "options": [
+          "Lucky you!",
+          "Oh no!"
+        ],
+        "answerIndex": 1,
+        "explanation": "Kötü haber",
+        "id": "a2-u02-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ the end, we had a great time. (sonunda)",
+        "answers": [
+          "In"
+        ],
+        "explanation": "in the end",
+        "id": "a2-u02-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "It was raining and we were waiting for the bus. Suddenly, a car stopped and the driver offered us a ride.",
+        "prompt": "Ne oldu?",
+        "options": [
+          "Otobüs geldi",
+          "Bir araba durdu ve sürücü onları götürmeyi teklif etti",
+          "Yağmur durdu"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"a car stopped and the driver offered us a ride\"",
+        "id": "a2-u02-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Birleştirin: \"I was sleeping. The alarm rang.\" (when)",
+        "accepted": [
+          "I was sleeping when the alarm rang.",
+          "I was sleeping when the alarm rang",
+          "When the alarm rang, I was sleeping.",
+          "When the alarm rang, I was sleeping"
+        ],
+        "explanation": "past continuous + when + past simple",
+        "id": "a2-u02-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir tatil anınızı anlatan bir e-posta yazın (80–100 kelime): arka planı past continuous ile verin, en az 3 olay past simple ile olsun, when ve while kullanın.",
+        "modelAnswer": "Hi Mert,\nYou won't believe what happened in Antalya! On the second day, the sun was shining and we were swimming in the sea. While I was swimming, I lost my wedding ring! I was very upset. We looked for it for hours. Then, when we were leaving the beach, a little boy came to us. He was holding my ring! I gave him an ice cream. In the end, it was a great day.\nSee you soon,\nAyşe",
+        "rubric": [
+          "Past continuous arka plan",
+          "Past simple olaylar",
+          "when / while doğru",
+          "Tatil kelimeleri",
+          "Anlamlı, sıralı bir hikâye"
+        ],
+        "id": "a2-u02-t15"
+      }
+    ]
+  }
+}
