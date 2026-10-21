@@ -1,0 +1,1322 @@
+{
+  "id": "c2-u04",
+  "level": "C2",
+  "number": 4,
+  "title": "Retorik",
+  "titleEn": "Rhetoric",
+  "canDo": "Tekrar (anafora, üçleme, paralellik), karşıtlık (antitez, kiazmus), retorik sorular ve ikna stratejileri (ethos, pathos, logos) ile metafor, benzetme ve abartı gibi söz sanatlarını tanıyıp analiz edebilir ve bunları ölçülü kullanarak etkileyici bir ikna konuşması yazıp sunabilirim.",
+  "grammar": [
+    "tekrar: anafora, üçleme, paralellik",
+    "karşıtlık: antitez ve kiazmus",
+    "retorik sorular, kapsayıcı we ve ethos / pathos / logos",
+    "metafor, analoji, abartı ve aliterasyon",
+    "ikna konuşması"
+  ],
+  "vocabularyThemes": [
+    "siyaset ve toplum",
+    "iş dünyası",
+    "kamusal konuşma"
+  ],
+  "liveClass": {
+    "title": "Bir dakikada ikna et",
+    "durationMinutes": 45,
+    "goal": "Her öğrenciye bir konu verilir (örneğin \"Our town needs a public library\"). Öğrenci 10 dakikada en az bir anafora, bir üçleme, bir antitez ve bir retorik soru içeren bir dakikalık bir konuşma hazırlar ve sunar. Dinleyiciler her konuşmada duydukları retorik araçları işaretler ve en ikna edici konuşmayı ethos, pathos ve logos açısından değerlendirir."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u04-v01",
+      "en": "rhetoric",
+      "tr": "retorik, söz sanatı",
+      "example": "The speech was full of powerful rhetoric.",
+      "exampleTr": "Konuşma güçlü bir retorikle doluydu.",
+      "note": "Bazen olumsuz: \"empty rhetoric\" = boş laf."
+    },
+    {
+      "id": "c2-u04-v02",
+      "en": "rhetorical device",
+      "tr": "söz sanatı, retorik araç",
+      "example": "Repetition is a common rhetorical device.",
+      "exampleTr": "Tekrar yaygın bir söz sanatıdır."
+    },
+    {
+      "id": "c2-u04-v03",
+      "en": "anaphora",
+      "tr": "anafora (cümle başı tekrarı)",
+      "example": "\"We will ... We will ... We will ...\" is anaphora.",
+      "exampleTr": "\"Yapacağız ... Yapacağız ...\" bir anaforadır."
+    },
+    {
+      "id": "c2-u04-v04",
+      "en": "tricolon / rule of three",
+      "tr": "üçleme",
+      "example": "\"Faster, cheaper, better\" is a tricolon.",
+      "exampleTr": "\"Daha hızlı, daha ucuz, daha iyi\" bir üçlemedir."
+    },
+    {
+      "id": "c2-u04-v05",
+      "en": "parallelism",
+      "tr": "paralellik, koşut yapı",
+      "example": "Parallelism makes ideas easier to remember.",
+      "exampleTr": "Paralellik fikirleri hatırlamayı kolaylaştırır."
+    },
+    {
+      "id": "c2-u04-v06",
+      "en": "antithesis",
+      "tr": "antitez, karşıtlık",
+      "example": "\"Not a problem but an opportunity\" is an antithesis.",
+      "exampleTr": "\"Bir sorun değil, bir fırsat\" bir antitezdir."
+    },
+    {
+      "id": "c2-u04-v07",
+      "en": "chiasmus",
+      "tr": "kiazmus (çapraz tekrar)",
+      "example": "\"Work to live, don't live to work\" is a chiasmus.",
+      "exampleTr": "\"Yaşamak için çalış, çalışmak için yaşama\" bir kiazmustur."
+    },
+    {
+      "id": "c2-u04-v08",
+      "en": "rhetorical question",
+      "tr": "retorik soru",
+      "example": "\"Who doesn't want a better life?\" is a rhetorical question.",
+      "exampleTr": "\"Kim daha iyi bir hayat istemez?\" bir retorik sorudur."
+    },
+    {
+      "id": "c2-u04-v09",
+      "en": "ethos",
+      "tr": "ethos (güvenilirlik)",
+      "example": "Her experience as a doctor gave her ethos.",
+      "exampleTr": "Doktor olarak deneyimi ona güvenilirlik kazandırdı."
+    },
+    {
+      "id": "c2-u04-v10",
+      "en": "pathos",
+      "tr": "pathos (duyguya hitap)",
+      "example": "The story of the child was pure pathos.",
+      "exampleTr": "Çocuğun hikâyesi tamamen duygulara hitap ediyordu."
+    },
+    {
+      "id": "c2-u04-v11",
+      "en": "logos",
+      "tr": "logos (mantığa hitap)",
+      "example": "The statistics provided strong logos.",
+      "exampleTr": "İstatistikler güçlü bir mantıksal destek sağladı."
+    },
+    {
+      "id": "c2-u04-v12",
+      "en": "metaphor",
+      "tr": "metafor, eğretileme",
+      "example": "\"Time is money\" is a metaphor.",
+      "exampleTr": "\"Zaman paradır\" bir metafordur."
+    },
+    {
+      "id": "c2-u04-v13",
+      "en": "analogy",
+      "tr": "analoji, benzetme yoluyla açıklama",
+      "example": "She used an analogy to explain the economy.",
+      "exampleTr": "Ekonomiyi açıklamak için bir analoji kullandı."
+    },
+    {
+      "id": "c2-u04-v14",
+      "en": "hyperbole",
+      "tr": "abartma",
+      "example": "\"I've told you a million times\" is hyperbole.",
+      "exampleTr": "\"Sana milyon kere söyledim\" bir abartmadır."
+    },
+    {
+      "id": "c2-u04-v15",
+      "en": "alliteration",
+      "tr": "aliterasyon (ses tekrarı)",
+      "example": "\"Bold, brave and brilliant\" uses alliteration.",
+      "exampleTr": "\"Bold, brave and brilliant\" ses tekrarı kullanır."
+    },
+    {
+      "id": "c2-u04-v16",
+      "en": "mixed metaphor",
+      "tr": "karışık metafor (hata)",
+      "example": "\"We'll burn that bridge when we come to it\" is a mixed metaphor.",
+      "exampleTr": "Bu karışık bir metafordur."
+    },
+    {
+      "id": "c2-u04-v17",
+      "en": "to resonate",
+      "tr": "yankı uyandırmak, etkilemek",
+      "example": "Her words resonated with the audience.",
+      "exampleTr": "Sözleri dinleyicilerde yankı uyandırdı."
+    },
+    {
+      "id": "c2-u04-v18",
+      "en": "to rally",
+      "tr": "toparlamak, harekete geçirmek",
+      "example": "The speech rallied the team.",
+      "exampleTr": "Konuşma ekibi harekete geçirdi."
+    },
+    {
+      "id": "c2-u04-v19",
+      "en": "compelling",
+      "tr": "etkileyici, ikna edici",
+      "example": "She made a compelling case.",
+      "exampleTr": "İkna edici bir savunma yaptı."
+    },
+    {
+      "id": "c2-u04-v20",
+      "en": "soundbite",
+      "tr": "akılda kalıcı kısa söz",
+      "example": "The speech was full of memorable soundbites.",
+      "exampleTr": "Konuşma akılda kalıcı sözlerle doluydu."
+    },
+    {
+      "id": "c2-u04-v21",
+      "en": "call to action",
+      "tr": "harekete geçirme çağrısı",
+      "example": "End your speech with a clear call to action.",
+      "exampleTr": "Konuşmanızı net bir harekete geçirme çağrısıyla bitirin."
+    },
+    {
+      "id": "c2-u04-v22",
+      "en": "manipulative",
+      "tr": "manipülatif",
+      "example": "Some advertising is highly manipulative.",
+      "exampleTr": "Bazı reklamlar son derece manipülatif."
+    },
+    {
+      "id": "c2-u04-v23",
+      "en": "eloquent",
+      "tr": "belagatli, etkili konuşan",
+      "example": "She is an eloquent speaker.",
+      "exampleTr": "O etkili bir konuşmacı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u04-l1",
+      "number": 1,
+      "title": "Tekrarın gücü",
+      "goal": "Anafora, üçleme ve paralellik gibi tekrar araçlarını tanıyıp konuşma ve yazıda etkili bir şekilde kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir okul müdürünün mezuniyet konuşmasından (kurgusal)",
+        "body": "Four years ago, you arrived here as strangers. Today, you leave as friends. You came with questions; you leave with answers, and, I hope, with better questions.\n\nWe asked you to work hard, and you worked hard. We asked you to be kind, and you were kind. We asked you to be brave, and you were braver than we ever imagined.\n\nRemember this school. Remember your teachers. Remember the friends who stood beside you.\n\nYou are ready to learn, ready to lead and ready to change the world.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the head teacher hope the students leave with?",
+            "options": [
+              "Only answers",
+              "Answers and better questions",
+              "Good exam results"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"you leave with answers, and, I hope, with better questions\"",
+            "id": "c2-u04-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which word is repeated at the start of three sentences?",
+            "options": [
+              "Ready",
+              "Remember",
+              "Today"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Remember this school. Remember ... Remember ...\"",
+            "id": "c2-u04-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Anafora (anaphora):** Ardışık cümle ya da öbeklerin **başında** aynı kelimenin / ifadenin tekrarı.\n\n- ***Remember** this school. **Remember** your teachers. **Remember** the friends ...*\n- ***We asked you** to work hard ... **We asked you** to be kind ...*\n\n**2. Üçleme (tricolon / rule of three):** Üç öğenin arka arkaya sıralanması. İnsan beyni üçlü yapıları **dengeli ve tam** algılar.\n\n- *ready to learn, ready to lead and ready to change the world*\n- *faster, cheaper, better*\n- *Our goal is simple: fewer cars, cleaner air, healthier children.*\n\n**Artan üçleme (ascending tricolon):** Üçüncü öğe en uzun ya da en güçlüdür: *ready to learn, ready to lead and **ready to change the world***.\n\n**3. Paralellik (parallelism):** Benzer fikirleri **aynı dilbilgisi yapısıyla** ifade etmek.\n\n| Paralel değil | Paralel |\n|---|---|\n| *She likes reading, to swim and cycling.* | *She likes **reading, swimming and cycling**.* |\n| *You came with questions; answers are what you leave with.* | ***You came with** questions; **you leave with** answers.* |\n\n**4. Epifora (epistrophe):** Cümle **sonlarında** tekrar.\n\n- *When we work together, **we succeed**. When we listen to each other, **we succeed**.*\n\n**Neden etkili?** Tekrar, **ritim** yaratır, **vurgu** yapar ve mesajı **akılda kalıcı** kılar.\n\n**Dikkat:** Akademik ve teknik yazıda bu araçlar genellikle kullanılmaz. Konuşma, köşe yazısı, kampanya ve reklam için uygundur.",
+        "examples": [
+          {
+            "en": "We will not give up. We will not give in. We will not be silenced.",
+            "tr": "Pes etmeyeceğiz. Teslim olmayacağız. Susturulmayacağız."
+          },
+          {
+            "en": "The plan is simple, affordable and effective.",
+            "tr": "Plan basit, uygun maliyetli ve etkili."
+          },
+          {
+            "en": "We came, we saw, we conquered.",
+            "tr": "Geldik, gördük, fethettik."
+          }
+        ],
+        "turkishNote": "Türkçe hitabet geleneğinde de tekrar ve üçlemeler çok yaygındır; marşlarda, nutuklarda ve şiirlerde bunları sıkça görürsünüz. Ancak İngilizcede paralellik kuralı daha katıdır: Bir listedeki bütün öğeler aynı dilbilgisi yapısında olmalıdır (\"reading, swimming and cycling\", ✗ \"reading, to swim and cycling\"). Türk öğrencilerin İngilizce yazılarında sık görülen bir hata, listelerde farklı yapıları karıştırmaktır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Anafora örneği:",
+          "options": [
+            "We will try. We will learn. We will succeed.",
+            "She was tired, so she went to bed."
+          ],
+          "answerIndex": 0,
+          "explanation": "Cümle başı tekrar.",
+          "id": "c2-u04-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Üçleme örneği:",
+          "options": [
+            "faster, cheaper, better",
+            "fast and cheap"
+          ],
+          "answerIndex": 0,
+          "explanation": "Üç öğe.",
+          "id": "c2-u04-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Paralel yapı:",
+          "options": [
+            "She enjoys reading, swimming and cycling.",
+            "She enjoys reading, to swim and cycling."
+          ],
+          "answerIndex": 0,
+          "explanation": "Paralellik.",
+          "id": "c2-u04-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu araçlar en az nerede uygundur?",
+          "options": [
+            "Bir siyasi konuşmada",
+            "Bir teknik kullanım kılavuzunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teknik metin.",
+          "id": "c2-u04-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Paralel yapın: \"The job requires patience, creativity and being organised.\" → patience, creativity and ___",
+          "answers": [
+            "organisation",
+            "organization"
+          ],
+          "explanation": "Hepsi isim.",
+          "id": "c2-u04-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We asked for change. We asked for fairness. We ___ for hope. (anafora)",
+          "answers": [
+            "asked"
+          ],
+          "explanation": "Anafora.",
+          "id": "c2-u04-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Our city deserves cleaner air, safer streets and ___ schools. (daha iyi)",
+          "answers": [
+            "better"
+          ],
+          "explanation": "Üçleme.",
+          "id": "c2-u04-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Paralel yapın: \"He promised to listen, to act and that he would deliver.\" → to listen, to act and to ___",
+          "answers": [
+            "deliver"
+          ],
+          "explanation": "Hepsi to + fiil.",
+          "id": "c2-u04-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "We built this company with passion. We grew this company with patience. And we will protect this company with everything we have.",
+          "prompt": "Bu konuşmada hangi retorik araç kullanılıyor?",
+          "options": [
+            "Antitez",
+            "Anafora ve paralellik",
+            "Kiazmus"
+          ],
+          "answerIndex": 1,
+          "explanation": "We built / We grew / we will protect + paralel yapı.",
+          "id": "c2-u04-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Paralel yapın: \"The course is interesting, useful and you can afford it.\" (The course is interesting, useful and ...)",
+          "accepted": [
+            "The course is interesting, useful and affordable.",
+            "The course is interesting, useful and affordable",
+            "The course is interesting, useful, and affordable.",
+            "The course is interesting, useful, and affordable"
+          ],
+          "explanation": "The course is interesting, useful and affordable.",
+          "id": "c2-u04-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir spor takımına, bir proje ekibine ya da bir sınıfa önemli bir maçtan / sunumdan / sınavdan önce 45 saniyelik bir motivasyon konuşması yapın. En az bir anafora, en az bir üçleme (tercihen artan üçleme) ve paralel yapılar kullanın.",
+          "modelAnswer": "Listen, everyone. Tomorrow is the day we've been working towards for six months. We trained in the rain. We trained in the cold. We trained when everyone else was asleep. We know our strengths, we know our weaknesses, and we know exactly what we need to do. So tomorrow, I want you to play with focus, play with courage and play like this is the last game of your lives. Win or lose, I am proud of every single one of you.",
+          "rubric": [
+            "Anafora",
+            "Artan üçleme",
+            "Paralel yapılar",
+            "Ritim ve tonlama"
+          ]
+        },
+        "id": "c2-u04-l1-use"
+      }
+    },
+    {
+      "id": "c2-u04-l2",
+      "number": 2,
+      "title": "Karşıtlık: antitez ve kiazmus",
+      "goal": "Zıt fikirleri dengeli yapılarla yan yana koyan antitezi ve çapraz tekrar yapan kiazmusu tanıyıp akılda kalıcı cümleler kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Ünlü sözler ve bir şirket sloganı",
+        "body": "In his inaugural address in 1961, President John F. Kennedy told Americans: \"Ask not what your country can do for you; ask what you can do for your country.\"\n\nIn 1969, Neil Armstrong stepped onto the Moon and said: \"That's one small step for man, one giant leap for mankind.\"\n\nA fictional company's new slogan: \"We don't just sell products. We solve problems.\"\n\nA teacher's advice to students: \"It's not about being the best in the class; it's about being better than you were yesterday.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Armstrong compare?",
+            "options": [
+              "A small step for one man and a giant leap for humanity",
+              "The Earth and the Moon",
+              "America and Russia"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"one small step for man, one giant leap for mankind\"",
+            "id": "c2-u04-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "According to the teacher, what matters?",
+            "options": [
+              "Being the best in the class",
+              "Being better than you were yesterday"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"being better than you were yesterday\"",
+            "id": "c2-u04-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Antitez (antithesis):** İki zıt fikri **paralel yapılarla** yan yana koymak.\n\n| Örnek | Zıtlık |\n|---|---|\n| *one **small step** for man, one **giant leap** for mankind* | small ↔ giant, man ↔ mankind |\n| *We don't just **sell products**. We **solve problems**.* | sell ↔ solve |\n| *It's **not about** being the best; it's **about** being better.* | not about ↔ about |\n| *Speech is silver, silence is golden.* | speech ↔ silence |\n\n**Yaygın antitez kalıpları:**\n\n- *not X but Y*: *This is **not** an ending **but** a beginning.*\n- *It's not about X; it's about Y.*\n- *Not because X, but because Y.*\n- *X is easy; Y is hard.*: *Making promises is easy; keeping them is hard.*\n- *We don't just X. We Y.*\n\n**2. Kiazmus (chiasmus):** İki öğenin ikinci yarıda **ters sırayla** tekrarlanması (A-B, B-A).\n\n| Örnek | Yapı |\n|---|---|\n| *Ask not what **your country** can do for **you**; ask what **you** can do for **your country**.* | country-you / you-country |\n| ***Work** to **live**; don't **live** to **work**.* | work-live / live-work |\n| *Don't **live** to **eat**; **eat** to **live**.* | live-eat / eat-live |\n| *When **the going** gets **tough**, **the tough** get **going**.* | going-tough / tough-going |\n\n**Neden etkili?** Antitez ve kiazmus **denge** ve **simetri** yaratır, bu da onları çok **akılda kalıcı** yapar. Bu yüzden sloganlarda ve ünlü sözlerde sık görülür.",
+        "examples": [
+          {
+            "en": "This is not the end. It is the beginning.",
+            "tr": "Bu son değil. Bu bir başlangıç."
+          },
+          {
+            "en": "Making promises is easy; keeping them is hard.",
+            "tr": "Söz vermek kolay, tutmak zor."
+          },
+          {
+            "en": "We don't stop playing because we grow old; we grow old because we stop playing.",
+            "tr": "Yaşlandığımız için oynamayı bırakmayız; oynamayı bıraktığımız için yaşlanırız."
+          }
+        ],
+        "turkishNote": "Türkçede de antitez ve kiazmusa benzer güçlü sözler vardır: \"Yaşamak için yemek, yemek için yaşamak değil\" ya da atasözlerinde sıkça görülen zıtlıklar (\"Söz gümüşse sükût altındır\"). İngilizce antitez kalıpları, özellikle \"not X but Y\" ve \"It's not about X; it's about Y\", sunumlarda ve iş yazışmalarında çok etkilidir. Ancak abartılı kullanıldığında slogan gibi, yapay görünebilir; bir konuşmada bir-iki kez yeterlidir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Antitez örneği:",
+          "options": [
+            "Making promises is easy; keeping them is hard.",
+            "We tried, we failed, we tried again."
+          ],
+          "answerIndex": 0,
+          "explanation": "Zıtlık.",
+          "id": "c2-u04-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kiazmus örneği:",
+          "options": [
+            "Work to live; don't live to work.",
+            "Work hard and play hard."
+          ],
+          "answerIndex": 0,
+          "explanation": "A-B, B-A.",
+          "id": "c2-u04-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"not X but Y\" kalıbı:",
+          "options": [
+            "This is not a crisis but an opportunity.",
+            "This is a crisis and an opportunity."
+          ],
+          "answerIndex": 0,
+          "explanation": "Antitez.",
+          "id": "c2-u04-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kiazmusun yapısı:",
+          "options": [
+            "A-B, A-B",
+            "A-B, B-A"
+          ],
+          "answerIndex": 1,
+          "explanation": "Çapraz.",
+          "id": "c2-u04-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This is ___ an ending but a beginning.",
+          "answers": [
+            "not"
+          ],
+          "explanation": "not X but Y.",
+          "id": "c2-u04-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's not about winning; it's ___ taking part.",
+          "answers": [
+            "about"
+          ],
+          "explanation": "It's not about X; it's about Y.",
+          "id": "c2-u04-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We don't just make cars. We ___ dreams. (antitez: yaratmak)",
+          "answers": [
+            "create",
+            "build",
+            "make"
+          ],
+          "explanation": "We don't just X. We Y.",
+          "id": "c2-u04-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Don't live to eat; ___ to live. (kiazmus)",
+          "answers": [
+            "eat"
+          ],
+          "explanation": "Kiazmus.",
+          "id": "c2-u04-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Some people see a problem and ask, \"Why?\" I see a problem and ask, \"Why not?\" Leadership is not about having all the answers. It's about asking the right questions.",
+          "prompt": "Konuşmacıya göre liderlik nedir?",
+          "options": [
+            "Bütün cevaplara sahip olmak",
+            "Doğru soruları sormak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"It's about asking the right questions.\"",
+          "id": "c2-u04-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "one small step for man, one giant leap for mankind",
+              "right": "antithesis"
+            },
+            {
+              "left": "Work to live; don't live to work.",
+              "right": "chiasmus"
+            },
+            {
+              "left": "Remember ... Remember ... Remember ...",
+              "right": "anaphora"
+            },
+            {
+              "left": "faster, cheaper, better",
+              "right": "tricolon"
+            },
+            {
+              "left": "Not a problem but an opportunity.",
+              "right": "antithesis"
+            }
+          ],
+          "explanation": "Her örneği retorik araçla eşleştirin.",
+          "id": "c2-u04-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kurgusal bir şirket, bir okul ya da bir sosyal sorumluluk kampanyası için (1) iki slogan (biri antitez, biri kiazmus) oluşturun, sonra (2) bu sloganları kullanan 30–45 saniyelik bir tanıtım konuşması yapın. En az iki farklı antitez kalıbı kullanın (not X but Y, It's not about X; it's about Y, We don't just X. We Y.).",
+          "modelAnswer": "Slogans: \"We don't just teach English. We open doors.\" and \"Learn to speak, and speak to learn.\" Speech: Hello, everyone. At our school, we believe that language learning is not about memorising rules; it's about connecting with people. We don't just teach English. We open doors to new friendships, new careers and new worlds. For us, a mistake is not a failure but a step forward. Our motto is simple: learn to speak, and speak to learn. Join us, and discover what you can do with English.",
+          "rubric": [
+            "Antitez",
+            "Kiazmus",
+            "Farklı antitez kalıpları",
+            "İkna edici ton"
+          ]
+        },
+        "id": "c2-u04-l2-use"
+      }
+    },
+    {
+      "id": "c2-u04-l3",
+      "number": 3,
+      "title": "Retorik sorular ve ikna stratejileri",
+      "goal": "Retorik soru ve soru-cevap (hypophora), kapsayıcı we ve doğrudan hitap kullanabilir ve bir metindeki ethos, pathos ve logos stratejilerini analiz edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir belediye toplantısında konuşma (kurgusal)",
+        "body": "I have been a paediatric nurse in this town for twenty-two years. I have held the hands of children who couldn't breathe because of the air on our streets.\n\nSo let me ask you: what kind of town do we want to leave our children? A town where they can play outside safely? Or a town where they need an inhaler just to walk to school?\n\nThe figures are clear. Since the new shopping centre opened, traffic in the centre has risen by thirty per cent, according to the council's own report. Why does this matter? Because traffic and air quality go hand in hand.\n\nWe can change this. We can create a car-free zone around our schools. Isn't that worth a few extra minutes on our journeys?",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does the speaker mention twenty-two years as a nurse?",
+            "options": [
+              "To show expertise and credibility",
+              "To complain about the job"
+            ],
+            "answerIndex": 0,
+            "explanation": "Ethos.",
+            "id": "c2-u04-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the speaker propose?",
+            "options": [
+              "A new bypass",
+              "A car-free zone around schools",
+              "A new hospital"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a car-free zone around our schools\"",
+            "id": "c2-u04-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Aristoteles'in üç ikna stratejisi:**\n\n| Strateji | Hitap ettiği | Örnek |\n|---|---|---|\n| **Ethos** | konuşmacının **güvenilirliği** | *I have been a paediatric nurse for twenty-two years.* |\n| **Pathos** | dinleyicinin **duyguları** | *I have held the hands of children who couldn't breathe.* |\n| **Logos** | **mantık ve kanıt** | *Traffic has risen by thirty per cent, according to the council's report.* |\n\nEn etkili konuşmalar üçünü **dengeli** kullanır. Sadece pathos **manipülatif**, sadece logos **soğuk** görünebilir.\n\n**2. Retorik soru (rhetorical question):** Cevap beklemeyen, dinleyiciyi **düşündüren** soru.\n\n- *What kind of town do we want to leave our children?*\n- *Isn't that worth a few extra minutes?*\n- *Who among us hasn't felt this way?*\n\n**3. Soru-cevap (hypophora):** Soru sorup **hemen cevaplamak**. Dinleyicinin aklındaki soruyu önceden yanıtlar.\n\n- ***Why does this matter? Because** traffic and air quality go hand in hand.*\n- *So what's the solution? It's simple: ...*\n\n**4. Kapsayıcı \"we\" ve doğrudan hitap:**\n\n| Araç | Etki | Örnek |\n|---|---|---|\n| **Inclusive we** | birlik, ortak sorumluluk | ***We** can change this.* |\n| **Direct address (you)** | kişisel bağ | *Let me ask **you** ...* |\n| **Imperative** | harekete geçirme | ***Imagine** a town where ...* |\n\n**5. İkili seçim (false choice dikkat!):** *A town where they play safely? Or a town where they need an inhaler?* Retorikte etkili, ama C1 Ünite 12'de gördüğümüz gibi **yanlış ikilem** olabilir. Eleştirel dinleyici bunu fark eder.",
+        "examples": [
+          {
+            "en": "Why does this matter? Because every child deserves clean air.",
+            "tr": "Bu neden önemli? Çünkü her çocuk temiz havayı hak ediyor."
+          },
+          {
+            "en": "Imagine a city where every child can walk to school safely.",
+            "tr": "Her çocuğun okula güvenle yürüyebildiği bir şehir hayal edin."
+          },
+          {
+            "en": "Who among us hasn't made a mistake?",
+            "tr": "Aramızda hiç hata yapmamış olan var mı?"
+          }
+        ],
+        "turkishNote": "Türkçe hitabette de retorik sorular ve \"biz\" dili çok yaygındır: \"Biz bunu hak etmiyor muyuz?\" İngilizcede \"inclusive we\" özellikle siyasi ve iş konuşmalarında birlik duygusu yaratmak için kullanılır. Ethos, pathos ve logos kavramları, IELTS ve CPE sınavlarında bir metnin \"yazarın amacı\" ve \"ikna yöntemi\" sorularında çok işe yarar. Bir konuşmayı analiz ederken her zaman sorun: Konuşmacı bize kim olduğuyla mı, duygularımızla mı, yoksa kanıtla mı ikna etmeye çalışıyor?"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Ethos örneği:",
+          "options": [
+            "As a doctor with thirty years' experience, ...",
+            "Imagine your own child ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Güvenilirlik.",
+          "id": "c2-u04-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Pathos örneği:",
+          "options": [
+            "Unemployment rose by 4% last year.",
+            "I watched my father cry when he lost his job."
+          ],
+          "answerIndex": 1,
+          "explanation": "Duygu.",
+          "id": "c2-u04-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Logos örneği:",
+          "options": [
+            "According to the report, accidents fell by 20%.",
+            "Don't you love your children?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kanıt.",
+          "id": "c2-u04-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hypophora (soru-cevap):",
+          "options": [
+            "Why does this matter? Because ...",
+            "Isn't that obvious?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Soru + hemen cevap.",
+          "id": "c2-u04-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ a world where every child can read. (Hayal edin)",
+          "answers": [
+            "Imagine",
+            "Picture"
+          ],
+          "explanation": "Imagine.",
+          "id": "c2-u04-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Why does this matter? ___ our future depends on it.",
+          "answers": [
+            "Because"
+          ],
+          "explanation": "Hypophora.",
+          "id": "c2-u04-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ among us hasn't felt afraid at some point? (Kim)",
+          "answers": [
+            "Who"
+          ],
+          "explanation": "Retorik soru.",
+          "id": "c2-u04-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Using only emotional appeals can seem ___. (manipülatif)",
+          "answers": [
+            "manipulative"
+          ],
+          "explanation": "manipulative.",
+          "id": "c2-u04-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "As a teacher for over fifteen years, I've seen what happens when schools don't have enough books. A recent national survey found that one in four primary schools has no library. So what can we do? We can start right here, in our own community.",
+          "prompt": "Konuşmacı hangi üç stratejiyi kullanıyor?",
+          "options": [
+            "Sadece pathos",
+            "Ethos (öğretmenlik), logos (anket) ve hypophora (soru-cevap)",
+            "Sadece logos"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ethos + logos + hypophora.",
+          "id": "c2-u04-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "As a scientist with twenty years' experience ...",
+              "right": "ethos"
+            },
+            {
+              "left": "Think of the families who lost everything ...",
+              "right": "pathos"
+            },
+            {
+              "left": "The data show a 40% increase ...",
+              "right": "logos"
+            },
+            {
+              "left": "Why does this matter? Because ...",
+              "right": "hypophora"
+            },
+            {
+              "left": "Isn't it time we acted?",
+              "right": "rhetorical question"
+            }
+          ],
+          "explanation": "Her örneği stratejiyle eşleştirin.",
+          "id": "c2-u04-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Okulunuzda, işyerinizde ya da mahallenizde bir değişiklik öneren bir dakikalık bir konuşma yapın (örneğin daha fazla yeşil alan, bir kütüphane, esnek çalışma saatleri). Ethos, pathos ve logos'un üçünü de kullanın; en az bir retorik soru, bir hypophora ve kapsayıcı we kullanın ve bir harekete geçirme çağrısıyla bitirin.",
+          "modelAnswer": "Good evening, everyone. As someone who has lived on this street for over thirty years, I've watched our neighbourhood change. When I was young, we had a small park at the end of the road. My children learned to ride their bikes there. Today, that park is a car park. So let me ask you: where will our grandchildren play? Research shows that children who have access to green spaces are healthier and happier. Why does that matter? Because the decisions we make today will shape their lives for decades. We have the land, we have the support, and we have the chance. Let's sign the petition tonight and give our children back their park.",
+          "rubric": [
+            "Ethos, pathos, logos dengesi",
+            "Retorik soru ve hypophora",
+            "Kapsayıcı we",
+            "Harekete geçirme çağrısı"
+          ]
+        },
+        "id": "c2-u04-l3-use"
+      }
+    },
+    {
+      "id": "c2-u04-l4",
+      "number": 4,
+      "title": "Metafor, analoji ve abartı",
+      "goal": "İkna ve betimleme için metafor, analoji, abartı ve aliterasyon kullanabilir, karışık metaforlardan kaçınabilir ve bu araçların etkisini değerlendirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir CEO'nun çalışanlara mesajı (kurgusal)",
+        "body": "Our company is a ship in a storm. The waves are high, the wind is strong, and some of you are worried that we might sink. But a ship doesn't survive a storm by staying still. It survives because every member of the crew knows their role.\n\nThink of our strategy like a marathon, not a sprint. We won't win this race in the first kilometre. We'll win it by keeping a steady pace, step by step, month by month.\n\nI've said it a thousand times, and I'll say it again: our people are our greatest strength. Bold ideas, brave decisions and brilliant teamwork will carry us through.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the company compared to?",
+            "options": [
+              "A marathon runner",
+              "A ship in a storm",
+              "A building"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Our company is a ship in a storm.\"",
+            "id": "c2-u04-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does \"a marathon, not a sprint\" mean here?",
+            "options": [
+              "Success will come quickly.",
+              "Success requires steady, long-term effort."
+            ],
+            "answerIndex": 1,
+            "explanation": "Analoji.",
+            "id": "c2-u04-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Metafor (metaphor):** Bir şeyi **başka bir şeymiş gibi** anlatmak (\"like / as\" olmadan).\n\n- *Our company **is a ship in a storm**.*\n- *Time **is** money.*\n- *She has **a heart of gold**.*\n\n**Benzetme (simile):** \"like / as\" ile: *as brave as a lion, like a ship in a storm*.\n\n**2. Analoji (analogy):** Karmaşık bir fikri, bilinen bir şeyle **ayrıntılı karşılaştırarak** açıklamak.\n\n- *Think of our strategy **like a marathon, not a sprint**. We won't win in the first kilometre ...*\n- *The immune system works **like an army**: it identifies the enemy, sends soldiers ...*\n\n**3. Abartma (hyperbole):** Vurgu için bilinçli abartı.\n\n- *I've said it **a thousand times**.*\n- *This bag weighs **a ton**.*\n- *I'm **dying** to see you.*\n\n**4. Aliterasyon (alliteration):** Yakın kelimelerin **aynı sesle** başlaması; akılda kalıcılık için.\n\n- ***B**old ideas, **b**rave decisions and **b**rilliant teamwork*\n- *Don't **d**elay, **d**ecide today.*\n\n**5. Karışık metafor (mixed metaphor):** İki uyumsuz metaforu birleştirmek. **Kaçının!**\n\n| Karışık (✗) | Doğru |\n|---|---|\n| *We'll **burn that bridge** when we **come to it**.* | *We'll cross that bridge when we come to it.* |\n| *Let's **nip it in the bud** before it **snowballs out of the water**.* | *Let's nip it in the bud before it snowballs.* |\n| *The ship is sinking, so let's **hit the ground running**.* | *Let's steer the ship back on course.* |\n\n**Bir metafor seçtiyseniz, ona sadık kalın** (ship → storm, crew, waves, steer, course).",
+        "examples": [
+          {
+            "en": "Education is not the filling of a bucket but the lighting of a fire.",
+            "tr": "Eğitim bir kovayı doldurmak değil, bir ateşi yakmaktır."
+          },
+          {
+            "en": "Starting a business is like planting a tree: it takes years before you see the fruit.",
+            "tr": "Bir iş kurmak ağaç dikmeye benzer: meyvesini görmek yıllar alır."
+          },
+          {
+            "en": "I've got a million things to do today.",
+            "tr": "Bugün yapacak milyon tane işim var."
+          }
+        ],
+        "turkishNote": "Türkçede de metaforlar ve abartılar günlük dilde çok yaygındır: \"altın kalpli\", \"bin kere söyledim\", \"ölüyorum merakımdan\". Ancak İngilizce metaforlar her zaman Türkçeye birebir çevrilemez; örneğin Türkçedeki \"gözü kara\" İngilizcede \"fearless\" ya da \"bold\" olur, \"black-eyed\" değil. İngilizce yazarken karışık metaforlardan özellikle kaçının: Anadili İngilizce olan okuyucular bunları hemen fark eder ve genellikle komik bulur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Metafor:",
+          "options": [
+            "Life is a journey.",
+            "Life is like a journey."
+          ],
+          "answerIndex": 0,
+          "explanation": "like yok.",
+          "id": "c2-u04-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Benzetme (simile):",
+          "options": [
+            "She is as brave as a lion.",
+            "She is a lion."
+          ],
+          "answerIndex": 0,
+          "explanation": "as ... as.",
+          "id": "c2-u04-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Abartma:",
+          "options": [
+            "I've told you a million times!",
+            "I've told you twice."
+          ],
+          "answerIndex": 0,
+          "explanation": "Hyperbole.",
+          "id": "c2-u04-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karışık metafor:",
+          "options": [
+            "We'll cross that bridge when we come to it.",
+            "We'll burn that bridge when we come to it."
+          ],
+          "answerIndex": 1,
+          "explanation": "Mixed metaphor.",
+          "id": "c2-u04-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "My grandmother has a heart of ___. She helps everyone. (altın)",
+          "answers": [
+            "gold"
+          ],
+          "explanation": "a heart of gold.",
+          "id": "c2-u04-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Think of it as a marathon, not a ___. (kısa koşu)",
+          "answers": [
+            "sprint"
+          ],
+          "explanation": "a marathon, not a sprint.",
+          "id": "c2-u04-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "This suitcase weighs a ___! What's in it? (abartı: ton)",
+          "answers": [
+            "ton"
+          ],
+          "explanation": "weighs a ton.",
+          "id": "c2-u04-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Bold, brave and ___. (aliterasyon: parlak)",
+          "answers": [
+            "brilliant"
+          ],
+          "explanation": "Alliteration.",
+          "id": "c2-u04-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Running a small business is like riding a bicycle uphill. If you stop pedalling, even for a moment, you start rolling backwards. That's why we can never stop innovating.",
+          "prompt": "Konuşmacı küçük bir işletmeyi neye benzetiyor?",
+          "options": [
+            "Yokuş yukarı bisiklet sürmeye",
+            "Bir maratona",
+            "Fırtınadaki bir gemiye"
+          ],
+          "answerIndex": 0,
+          "explanation": "Analoji.",
+          "id": "c2-u04-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Time is money.",
+              "right": "metaphor"
+            },
+            {
+              "left": "as cold as ice",
+              "right": "simile"
+            },
+            {
+              "left": "I'm so hungry I could eat a horse.",
+              "right": "hyperbole"
+            },
+            {
+              "left": "Peter Piper picked a peck of pickled peppers.",
+              "right": "alliteration"
+            },
+            {
+              "left": "Learning a language is like building a house, brick by brick.",
+              "right": "analogy"
+            }
+          ],
+          "explanation": "Her örneği söz sanatıyla eşleştirin.",
+          "id": "c2-u04-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Karmaşık bir konuyu (örneğin dil öğrenmek, bir şirketi yönetmek, iklim değişikliği, internetin nasıl çalıştığı) basit bir analojiyle açıklayan 45 saniyelik bir konuşma yapın. Tek bir ana metafora / analojiye sadık kalın (karışık metafor yok!), bir abartı ve bir aliterasyon ekleyin.",
+          "modelAnswer": "Learning a language is like building a house. First, you need strong foundations: the basic grammar and the most common words. Without them, everything else will collapse. Then, brick by brick, you add the walls: new vocabulary, new structures, new expressions. Some days you'll lay a hundred bricks; other days, only one. And every so often, you'll need to repair a wall that you built badly. It takes time, a million mistakes and a lot of patience. But one day, you'll step inside and realise you've built something solid, something strong and something that's truly your own.",
+          "rubric": [
+            "Tutarlı analoji",
+            "Karışık metafor yok",
+            "Abartı ve aliterasyon",
+            "Açıklayıcı ve akıcı"
+          ]
+        },
+        "id": "c2-u04-l4-use"
+      }
+    },
+    {
+      "id": "c2-u04-l5",
+      "number": 5,
+      "title": "İkna konuşması",
+      "goal": "Ünitedeki retorik araçları (tekrar, karşıtlık, retorik soru, ethos / pathos / logos, metafor) ölçülü ve dengeli kullanarak etkileyici bir ikna konuşması yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir öğrenci konseyi seçim konuşması (kurgusal)",
+        "body": "Friends, teachers, fellow students,\n\nFor three years, I've sat where you're sitting. I've queued for forty minutes in the canteen. I've studied in a library that closes at four. I've heard the same complaints, year after year.\n\nSo why am I standing here? Because I believe that a student council should not just listen to problems; it should solve them.\n\nHere is my plan. First, a longer lunch break, so nobody has to choose between eating and studying. Second, a library that stays open until six. Third, a monthly open meeting, where any student can speak and every voice is heard.\n\nSome people say these ideas are unrealistic. But last year, our neighbouring school introduced a later library closing time, and their exam results improved. If they can do it, why can't we?\n\nThis school is not just a building. It's a community. And a community is only as strong as the voices within it.\n\nOn Friday, don't just vote for a name. Vote for change.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What are the three parts of the speaker's plan?",
+            "options": [
+              "Longer lunch, later library hours, monthly meetings",
+              "New uniforms, free food, fewer exams",
+              "More homework, new teachers, a new building"
+            ],
+            "answerIndex": 0,
+            "explanation": "First, Second, Third.",
+            "id": "c2-u04-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What evidence does the speaker give that the ideas are realistic?",
+            "options": [
+              "A national survey",
+              "A neighbouring school's experience",
+              "A teacher's opinion"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"our neighbouring school introduced a later library closing time\"",
+            "id": "c2-u04-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İkna konuşmasının yapısı:**\n\n| Bölüm | İşlev | Retorik araçlar |\n|---|---|---|\n| **1. Açılış** | Dikkat çekme, bağ kurma | Doğrudan hitap, ethos (*For three years, I've sat where you're sitting*), anafora (*I've queued ... I've studied ... I've heard ...*) |\n| **2. Problem / tez** | Neden buradasınız? | Hypophora (*So why am I standing here? Because ...*), antitez (*not just listen ...; it should solve*) |\n| **3. Çözüm / argümanlar** | Somut öneriler | Üçleme (*First ... Second ... Third ...*), paralellik |\n| **4. Karşı argüman** | İtirazı önceden yanıtlama | Logos (kanıt, örnek), retorik soru (*why can't we?*) |\n| **5. Duygusal doruk** | Mesajı derinleştirme | Metafor (*not just a building. It's a community*), pathos |\n| **6. Kapanış** | Harekete geçirme çağrısı | Antitez (*don't just vote for a name. Vote for change.*) |\n\n**Altın kurallar:**\n\n1. **Ölçü:** Her cümlede retorik araç kullanmayın. Güçlü bir konuşmada 5–8 belirgin araç yeterlidir.\n2. **Denge:** Ethos + pathos + logos. Sadece duygu manipülatif, sadece veri soğuk görünür.\n3. **Somutluk:** Retorik, **gerçek bir içeriği** taşımalıdır. Boş retorik (*empty rhetoric*) dinleyiciyi kaybettirir.\n4. **Sesli okuma:** Konuşmalar okunmak için değil, **dinlenmek** için yazılır. Yazdıktan sonra sesli okuyun ve ritmi kontrol edin.\n5. **Güçlü son:** İlk ve son cümleler en çok hatırlananlardır.\n\n**Eleştirel bakış:** Bu araçlar hem dürüst bir ikna hem de **manipülasyon** için kullanılabilir. İyi bir dinleyici, retoriğin arkasındaki **kanıtı** sorgular.",
+        "examples": [
+          {
+            "en": "So why am I standing here? Because I believe we can do better.",
+            "tr": "Peki neden buradayım? Çünkü daha iyisini yapabileceğimize inanıyorum."
+          },
+          {
+            "en": "Don't just vote for a name. Vote for change.",
+            "tr": "Sadece bir isme oy vermeyin. Değişime oy verin."
+          },
+          {
+            "en": "A community is only as strong as the voices within it.",
+            "tr": "Bir topluluk ancak içindeki sesler kadar güçlüdür."
+          }
+        ],
+        "turkishNote": "Türk okullarında ve iş yerlerinde hazırlanan konuşmalar bazen aşırı resmî ve uzun olabilir. İngilizce ikna konuşmalarında ise kısa cümleler, somut örnekler ve kişisel hikâyeler çok daha etkili kabul edilir. Ayrıca İngilizce konuşmalarda dinleyiciye doğrudan hitap (\"you\") ve kapsayıcı \"we\" çok yaygındır. Konuşmanızı yazdıktan sonra sesli okuyun: Nefes almakta zorlandığınız cümleler, dinleyicinin anlamakta zorlanacağı cümlelerdir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Güçlü bir ikna konuşmasında:",
+          "options": [
+            "Her cümlede retorik araç olmalı.",
+            "Araçlar ölçülü ve içerikle desteklenmeli."
+          ],
+          "answerIndex": 1,
+          "explanation": "Ölçü.",
+          "id": "c2-u04-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Konuşmanın en çok hatırlanan bölümleri:",
+          "options": [
+            "Orta bölümler",
+            "İlk ve son cümleler"
+          ],
+          "answerIndex": 1,
+          "explanation": "Açılış ve kapanış.",
+          "id": "c2-u04-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Empty rhetoric\" nedir?",
+          "options": [
+            "İçeriği olmayan süslü söz",
+            "Çok kısa bir konuşma"
+          ],
+          "answerIndex": 0,
+          "explanation": "Boş retorik.",
+          "id": "c2-u04-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı argümanı yanıtlamak için en güçlü araç:",
+          "options": [
+            "Kanıt ve örnek (logos)",
+            "Sadece duygusal bir hikâye"
+          ],
+          "answerIndex": 0,
+          "explanation": "Logos.",
+          "id": "c2-u04-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "So why am I standing here? ___ I believe change is possible.",
+          "answers": [
+            "Because"
+          ],
+          "explanation": "Hypophora.",
+          "id": "c2-u04-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Don't just vote for a name. Vote for ___. (antitez: değişim)",
+          "answers": [
+            "change"
+          ],
+          "explanation": "Antitez.",
+          "id": "c2-u04-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "If they can do it, why ___ we? (retorik soru)",
+          "answers": [
+            "can't"
+          ],
+          "explanation": "why can't we?",
+          "id": "c2-u04-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "End your speech with a clear call to ___.",
+          "answers": [
+            "action"
+          ],
+          "explanation": "call to action.",
+          "id": "c2-u04-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "They told us it couldn't be done. They told us it was too expensive. They told us nobody would care. Well, look around you. Five hundred people are here tonight. So I'll ask you one more time: does anyone still think nobody cares?",
+          "prompt": "Bu konuşmada hangi iki retorik araç belirgin?",
+          "options": [
+            "Anafora ve retorik soru",
+            "Kiazmus ve aliterasyon",
+            "Metafor ve analoji"
+          ],
+          "answerIndex": 0,
+          "explanation": "They told us ×3 + retorik soru.",
+          "id": "c2-u04-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Antitez kullanarak kapanış cümlesi yazın: \"Bu sadece bir proje değil, bir hareket.\" (This is not just ...)",
+          "accepted": [
+            "This is not just a project. It's a movement.",
+            "This is not just a project. It's a movement",
+            "This is not just a project. It is a movement",
+            "This is not just a project. It is a movement.",
+            "This is not just a project; it's a movement.",
+            "This is not just a project; it's a movement",
+            "This is not just a project; it is a movement",
+            "This is not just a project; it is a movement.",
+            "This is not just a project, it's a movement.",
+            "This is not just a project, it's a movement",
+            "This is not just a project, it is a movement",
+            "This is not just a project, it is a movement.",
+            "This is not just a project but a movement.",
+            "This is not just a project but a movement"
+          ],
+          "explanation": "This is not just a project. It's a movement.",
+          "id": "c2-u04-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Şu durumlardan biri için bir ikna konuşması yazın (220–270 kelime): (1) Şehrinizin belediye meclisinde, merkeze bir bisiklet yolu ağı yapılmasını savunan bir vatandaş. (2) Bir şirketin yıllık toplantısında, çalışanlara haftada bir gün uzaktan çalışma hakkı verilmesini savunan bir yönetici. (3) Bir okulda, öğrencilerin bir yabancı dil kulübü kurmasını savunan bir öğretmen. Konuşmada şu araçları ölçülü kullanın: anafora, üçleme, antitez veya kiazmus, retorik soru ve hypophora, ethos / pathos / logos dengesi, tek ve tutarlı bir metafor; bir karşı argümanı yanıtlayın ve güçlü bir harekete geçirme çağrısıyla bitirin.",
+          "modelAnswer": "Members of the council, neighbours, friends,\n\nI have cycled to work in this city for twelve years. In that time, I have been knocked off my bike twice, shouted at more times than I can count, and forced, every single day, to share the road with buses and lorries.\n\nI am not alone. Every morning, hundreds of us take the same risk. Every evening, our families wait for us to come home. And every year, the number of accidents grows.\n\nSo why am I here tonight? Because I believe that cycling should not be a test of courage; it should be a normal part of city life.\n\nMy proposal is simple: a connected network of protected cycle lanes linking the station, the university and the city centre. Safe for children, affordable for families and good for the environment.\n\nSome will say we cannot afford it. But can we afford not to? Cities across Europe that have invested in cycle lanes have seen traffic fall, air quality improve and local shops benefit from more customers on foot and on bikes.\n\nThink of our city as a body. Our roads are its arteries, and right now, they are blocked. Cycle lanes will not cure every problem, but they will help this city breathe again.\n\nThis is not a choice between drivers and cyclists. It is a choice between the past and the future.\n\nTonight, you have the power to make that choice. Don't just discuss it. Vote for it.",
+          "rubric": [
+            "Net yapı (açılış, tez, çözüm, karşı argüman, kapanış)",
+            "Çeşitli retorik araçlar, ölçülü kullanım",
+            "Ethos / pathos / logos dengesi",
+            "Tutarlı metafor",
+            "Güçlü harekete geçirme çağrısı"
+          ]
+        },
+        "id": "c2-u04-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Anafora:",
+        "options": [
+          "We will fight. We will win. We will rebuild.",
+          "We fought and won."
+        ],
+        "answerIndex": 0,
+        "explanation": "Cümle başı tekrar",
+        "id": "c2-u04-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Paralel yapı:",
+        "options": [
+          "She likes cooking, to paint and dancing.",
+          "She likes cooking, painting and dancing."
+        ],
+        "answerIndex": 1,
+        "explanation": "Paralellik",
+        "id": "c2-u04-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kiazmus:",
+        "options": [
+          "Work to live; don't live to work.",
+          "Work hard, play hard."
+        ],
+        "answerIndex": 0,
+        "explanation": "A-B, B-A",
+        "id": "c2-u04-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Ethos:",
+        "options": [
+          "As a doctor with twenty years' experience, ...",
+          "Imagine your own child in that hospital ..."
+        ],
+        "answerIndex": 0,
+        "explanation": "Güvenilirlik",
+        "id": "c2-u04-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Karışık metafor:",
+        "options": [
+          "We'll cross that bridge when we come to it.",
+          "We'll burn that bridge when we come to it."
+        ],
+        "answerIndex": 1,
+        "explanation": "Mixed metaphor",
+        "id": "c2-u04-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "This is not an ending ___ a beginning.",
+        "answers": [
+          "but"
+        ],
+        "explanation": "not X but Y",
+        "id": "c2-u04-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "It's not about winning; it's ___ learning.",
+        "answers": [
+          "about"
+        ],
+        "explanation": "It's not about X; it's about Y",
+        "id": "c2-u04-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Why does this matter? ___ every child deserves a chance.",
+        "answers": [
+          "Because"
+        ],
+        "explanation": "Hypophora",
+        "id": "c2-u04-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ a city where everyone feels safe. (Hayal edin)",
+        "answers": [
+          "Imagine",
+          "Picture"
+        ],
+        "explanation": "Imagine",
+        "id": "c2-u04-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "Think of it as a marathon, not a ___.",
+        "answers": [
+          "sprint"
+        ],
+        "explanation": "Analoji",
+        "id": "c2-u04-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "I've told you a ___ times! (abartı: bin)",
+        "answers": [
+          "thousand",
+          "million",
+          "hundred"
+        ],
+        "explanation": "Hyperbole",
+        "id": "c2-u04-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "End your speech with a clear call to ___.",
+        "answers": [
+          "action"
+        ],
+        "explanation": "call to action",
+        "id": "c2-u04-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "I have taught in this school for twenty-five years. I have watched children arrive shy and leave confident. And I can tell you this: a school is not measured by its buildings, but by the people inside them. So I ask you: will you help us build that future?",
+        "prompt": "Konuşmacı hangi araçları kullanıyor?",
+        "options": [
+          "Ethos, anafora, antitez ve retorik soru",
+          "Sadece istatistik",
+          "Sadece metafor"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ethos + I have ×2 + not X but Y + soru.",
+        "id": "c2-u04-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Paralel yapın: \"Our goals are to reduce costs, improving quality and customer satisfaction.\" (Our goals are to reduce costs, to improve quality and to ...)",
+        "accepted": [
+          "Our goals are to reduce costs, to improve quality and to increase customer satisfaction.",
+          "Our goals are to reduce costs, to improve quality and to increase customer satisfaction",
+          "Our goals are to reduce costs, to improve quality, and to increase customer satisfaction.",
+          "Our goals are to reduce costs, to improve quality, and to increase customer satisfaction",
+          "Our goals are to reduce costs, to improve quality and to raise customer satisfaction.",
+          "Our goals are to reduce costs, to improve quality and to raise customer satisfaction",
+          "Our goals are to reduce costs, to improve quality and to improve customer satisfaction.",
+          "Our goals are to reduce costs, to improve quality and to improve customer satisfaction",
+          "Our goals are to reduce costs, to improve quality and to boost customer satisfaction.",
+          "Our goals are to reduce costs, to improve quality and to boost customer satisfaction"
+        ],
+        "explanation": "Our goals are to reduce costs, to improve quality and to increase customer satisfaction.",
+        "id": "c2-u04-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Şu önergelerden birini destekleyen bir ikna konuşması yazın (220–270 kelime): (1) \"Every town should have a free public library open seven days a week.\" (2) \"Young people should be given one paid day off a month for volunteering.\" (3) \"Schools should teach financial skills from the age of twelve.\" Anafora, üçleme, antitez veya kiazmus, retorik soru ve hypophora, ethos / pathos / logos dengesi ve tek ve tutarlı bir metafor kullanın. Bir karşı argümanı yanıtlayın ve güçlü bir harekete geçirme çağrısıyla bitirin. Araçları ölçülü kullanın.",
+        "modelAnswer": "Ladies and gentlemen,\n\nWhen I was fourteen, I opened a bank account. Nobody explained interest to me. Nobody explained credit cards. Nobody explained why the money I saved seemed to shrink every year. I learned those lessons the hard way, and many of you did too.\n\nSo why are we still sending young people into the world without the skills they need to manage their money?\n\nAs a secondary school teacher for eighteen years, I have seen bright, capable students leave school able to solve equations but unable to read a payslip. That is not a failure of the students. It is a failure of the system.\n\nMy proposal is simple: from the age of twelve, every student should have one hour a week of financial education. They would learn to budget, to save and to understand debt.\n\nSome will say the timetable is already full. But what is more important: memorising facts they will soon forget, or learning skills they will use every day for the rest of their lives? Research suggests that students who receive financial education are more likely to save regularly and less likely to fall into serious debt.\n\nThink of money as a river. Without guidance, it can flood a family's life; with the right skills, it can water their dreams.\n\nWe teach children to read so that they are not lost in a world of words. Let us teach them about money so that they are not lost in a world of numbers.\n\nDon't just agree with me tonight. Write to the school board tomorrow.",
+        "rubric": [
+          "Net yapı",
+          "Çeşitli retorik araçlar, ölçülü",
+          "Ethos / pathos / logos",
+          "Tutarlı metafor",
+          "Karşı argüman ve harekete geçirme çağrısı"
+        ],
+        "id": "c2-u04-t15"
+      }
+    ]
+  }
+}
