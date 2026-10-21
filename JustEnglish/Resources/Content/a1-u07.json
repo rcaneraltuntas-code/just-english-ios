@@ -1,0 +1,1499 @@
+{
+  "id": "a1-u07",
+  "level": "A1",
+  "number": 7,
+  "title": "Kafede",
+  "titleEn": "At the Café",
+  "canDo": "Bir kafede ya da restoranda kibarca sipariş verebilir, fiyat sorup hesabı isteyebilirim.",
+  "grammar": [
+    "sayılabilen / sayılamayan isimler",
+    "some / any",
+    "would like / Can I have...?",
+    "How much...?"
+  ],
+  "vocabularyThemes": [
+    "yiyecek ve içecek",
+    "kafe ve restoran ifadeleri",
+    "fiyatlar"
+  ],
+  "liveClass": {
+    "title": "Just Café",
+    "durationMinutes": 45,
+    "goal": "Sınıf bir kafeye dönüşür: öğrenciler sırayla garson ve müşteri olur, menüden sipariş verir, fiyat sorar ve hesap ister."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u07-v01",
+      "en": "water",
+      "tr": "su",
+      "example": "Can I have some water, please?",
+      "exampleTr": "Biraz su alabilir miyim lütfen?",
+      "note": "Sayılamaz: a water değil, some water / a glass of water."
+    },
+    {
+      "id": "a1-u07-v02",
+      "en": "coffee",
+      "tr": "kahve",
+      "example": "A black coffee, please.",
+      "exampleTr": "Sade bir kahve lütfen.",
+      "note": "Siparişte \"a coffee\" (bir fincan kahve) denebilir."
+    },
+    {
+      "id": "a1-u07-v03",
+      "en": "tea",
+      "tr": "çay",
+      "example": "Would you like some tea?",
+      "exampleTr": "Biraz çay ister misin?"
+    },
+    {
+      "id": "a1-u07-v04",
+      "en": "milk",
+      "tr": "süt",
+      "example": "Do you have any milk?",
+      "exampleTr": "Hiç sütün var mı?"
+    },
+    {
+      "id": "a1-u07-v05",
+      "en": "juice",
+      "tr": "meyve suyu",
+      "example": "An orange juice, please.",
+      "exampleTr": "Bir portakal suyu lütfen."
+    },
+    {
+      "id": "a1-u07-v06",
+      "en": "bread",
+      "tr": "ekmek",
+      "example": "There's some bread on the table.",
+      "exampleTr": "Masada biraz ekmek var.",
+      "note": "Sayılamaz: a bread değil, some bread / a loaf of bread."
+    },
+    {
+      "id": "a1-u07-v07",
+      "en": "cheese",
+      "tr": "peynir",
+      "example": "I'd like a cheese sandwich.",
+      "exampleTr": "Peynirli bir sandviç istiyorum."
+    },
+    {
+      "id": "a1-u07-v08",
+      "en": "egg",
+      "tr": "yumurta",
+      "example": "two eggs",
+      "exampleTr": "iki yumurta"
+    },
+    {
+      "id": "a1-u07-v09",
+      "en": "sandwich",
+      "tr": "sandviç",
+      "example": "A chicken sandwich, please.",
+      "exampleTr": "Tavuklu bir sandviç lütfen."
+    },
+    {
+      "id": "a1-u07-v10",
+      "en": "salad",
+      "tr": "salata",
+      "example": "Would you like a salad?",
+      "exampleTr": "Salata ister misiniz?"
+    },
+    {
+      "id": "a1-u07-v11",
+      "en": "soup",
+      "tr": "çorba",
+      "example": "The soup is hot.",
+      "exampleTr": "Çorba sıcak."
+    },
+    {
+      "id": "a1-u07-v12",
+      "en": "cake",
+      "tr": "kek, pasta",
+      "example": "a piece of chocolate cake",
+      "exampleTr": "bir dilim çikolatalı pasta"
+    },
+    {
+      "id": "a1-u07-v13",
+      "en": "sugar",
+      "tr": "şeker",
+      "example": "No sugar, thanks.",
+      "exampleTr": "Şekersiz, teşekkürler."
+    },
+    {
+      "id": "a1-u07-v14",
+      "en": "menu",
+      "tr": "menü",
+      "example": "Can I see the menu, please?",
+      "exampleTr": "Menüyü görebilir miyim lütfen?"
+    },
+    {
+      "id": "a1-u07-v15",
+      "en": "bill",
+      "tr": "hesap",
+      "example": "Can we have the bill, please?",
+      "exampleTr": "Hesabı alabilir miyiz lütfen?",
+      "note": "Amerikan İngilizcesinde: check."
+    },
+    {
+      "id": "a1-u07-v16",
+      "en": "order",
+      "tr": "sipariş vermek",
+      "example": "Are you ready to order?",
+      "exampleTr": "Sipariş vermeye hazır mısınız?"
+    },
+    {
+      "id": "a1-u07-v17",
+      "en": "would like",
+      "tr": "istemek (kibarca)",
+      "example": "I'd like a tea, please.",
+      "exampleTr": "Bir çay rica ediyorum.",
+      "note": "I want'ten daha kibar."
+    },
+    {
+      "id": "a1-u07-v18",
+      "en": "small / medium / large",
+      "tr": "küçük / orta / büyük",
+      "example": "A large latte, please.",
+      "exampleTr": "Büyük bir latte lütfen."
+    },
+    {
+      "id": "a1-u07-v19",
+      "en": "a cup of",
+      "tr": "bir fincan",
+      "example": "a cup of tea",
+      "exampleTr": "bir fincan çay"
+    },
+    {
+      "id": "a1-u07-v20",
+      "en": "a glass of",
+      "tr": "bir bardak",
+      "example": "a glass of water",
+      "exampleTr": "bir bardak su"
+    },
+    {
+      "id": "a1-u07-v21",
+      "en": "a bottle of",
+      "tr": "bir şişe",
+      "example": "a bottle of water",
+      "exampleTr": "bir şişe su"
+    },
+    {
+      "id": "a1-u07-v22",
+      "en": "a piece of",
+      "tr": "bir parça, bir dilim",
+      "example": "a piece of cake",
+      "exampleTr": "bir dilim pasta"
+    },
+    {
+      "id": "a1-u07-v23",
+      "en": "delicious",
+      "tr": "çok lezzetli",
+      "example": "This soup is delicious!",
+      "exampleTr": "Bu çorba çok lezzetli!"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u07-l1",
+      "number": 1,
+      "title": "Sayılabilen ve sayılamayan",
+      "goal": "Yiyecek ve içecekleri a/an ya da some ile söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kahvaltı masası",
+        "lines": [
+          {
+            "speaker": "Mum",
+            "text": "Breakfast is ready! There's some bread, some cheese and some olives."
+          },
+          {
+            "speaker": "Can",
+            "text": "Is there an egg for me?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "Yes, there are two eggs. And there's some tea in the pot."
+          },
+          {
+            "speaker": "Can",
+            "text": "Can I have some orange juice, too?"
+          },
+          {
+            "speaker": "Mum",
+            "text": "Sure, there's a bottle in the fridge."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many eggs are there?",
+            "options": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"there are two eggs\"",
+            "id": "a1-u07-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where's the orange juice?",
+            "options": [
+              "On the table",
+              "In the fridge",
+              "In the pot"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"there's a bottle in the fridge\"",
+            "id": "a1-u07-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sayılabilen** isimler tek tek sayılır: **an** egg, **two** eggs, **a** sandwich.\n\n**Sayılamayan** isimler sayılmaz ve çoğul olmaz: water, bread, milk, cheese, sugar, rice, money.\n\n- Sayılamayanla **a/an kullanılmaz**: ~~a bread~~ → **some** bread\n- Miktar için kap ya da ölçü kullanılır: **a glass of** water, **a cup of** tea, **a piece of** cake, **a bottle of** milk.",
+        "examples": [
+          {
+            "en": "I'd like an apple and some water.",
+            "tr": "Bir elma ve biraz su istiyorum."
+          },
+          {
+            "en": "There's some milk in the fridge.",
+            "tr": "Buzdolabında biraz süt var."
+          },
+          {
+            "en": "Two cups of coffee, please.",
+            "tr": "İki fincan kahve lütfen."
+          }
+        ],
+        "turkishNote": "Türkçede \"bir ekmek\" deriz ama İngilizcede bread sayılamaz: \"a bread\" yanlıştır. \"some bread\" ya da \"a loaf of bread\" (bir somun ekmek) denir. Aynı şekilde \"money\" de sayılamaz: \"moneys\" denmez."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "apple",
+              "right": "an"
+            },
+            {
+              "left": "water",
+              "right": "some"
+            },
+            {
+              "left": "sandwich",
+              "right": "a"
+            },
+            {
+              "left": "bread",
+              "right": "some"
+            },
+            {
+              "left": "egg",
+              "right": "an"
+            }
+          ],
+          "explanation": "Sayılabilen tekil → a/an, sayılamayan → some.",
+          "id": "a1-u07-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "a bread",
+            "some bread",
+            "breads"
+          ],
+          "answerIndex": 1,
+          "explanation": "bread sayılamaz → some bread.",
+          "wrongFeedback": {
+            "0": "bread sayılamaz, a ile kullanılmaz."
+          },
+          "id": "a1-u07-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi sayılabilir?",
+          "options": [
+            "milk",
+            "sugar",
+            "egg"
+          ],
+          "answerIndex": 2,
+          "explanation": "egg tek tek sayılır: one egg, two eggs.",
+          "id": "a1-u07-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "a ___ of water (bardak)",
+          "answers": [
+            "glass"
+          ],
+          "explanation": "bir bardak = a glass of",
+          "id": "a1-u07-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "a ___ of cake (dilim)",
+          "answers": [
+            "piece"
+          ],
+          "explanation": "bir dilim = a piece of",
+          "id": "a1-u07-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "two ___ of tea (fincan)",
+          "answers": [
+            "cups"
+          ],
+          "explanation": "two → cups",
+          "id": "a1-u07-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Biraz para\" İngilizcede:",
+          "options": [
+            "some moneys",
+            "some money",
+            "a money"
+          ],
+          "answerIndex": 1,
+          "explanation": "money sayılamaz.",
+          "id": "a1-u07-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "For breakfast I have two eggs, some bread and a glass of milk.",
+          "prompt": "Konuşan kahvaltıda ne içiyor?",
+          "options": [
+            "Çay",
+            "Süt",
+            "Meyve suyu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"a glass of milk\"",
+          "id": "a1-u07-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"bir şişe su\"",
+          "accepted": [
+            "a bottle of water",
+            "A bottle of water"
+          ],
+          "explanation": "a bottle of + water",
+          "id": "a1-u07-l1-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "some",
+            "There's",
+            "cheese",
+            "the",
+            "in",
+            "fridge"
+          ],
+          "answer": "There's some cheese in the fridge.",
+          "explanation": "There's + some + sayılamaz isim.",
+          "translation": "Buzdolabında biraz peynir var.",
+          "id": "a1-u07-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bu sabah kahvaltıda ne yediğinizi ve içtiğinizi söyleyin (a/an, some, a cup of...).",
+          "modelAnswer": "I have some bread, some cheese and an egg. I have a cup of tea.",
+          "rubric": [
+            "a/an ve some doğru",
+            "Sayılamayanlarla a/an kullanmadı",
+            "Ölçü ifadesi kullandı"
+          ]
+        },
+        "id": "a1-u07-l1-use"
+      }
+    },
+    {
+      "id": "a1-u07-l2",
+      "number": 2,
+      "title": "Biraz, hiç",
+      "goal": "some ve any ile miktar söyleyip sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Alışveriş listesi",
+        "lines": [
+          {
+            "speaker": "Elif",
+            "text": "Do we have any milk?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "No, we don't have any milk. And we don't have any eggs."
+          },
+          {
+            "speaker": "Elif",
+            "text": "OK. Is there any coffee?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Yes, there's some coffee. And there are some apples."
+          },
+          {
+            "speaker": "Elif",
+            "text": "So, milk and eggs. Let's go to the shop."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What do they need to buy?",
+            "options": [
+              "Coffee and apples",
+              "Milk and eggs",
+              "Milk and coffee"
+            ],
+            "answerIndex": 1,
+            "explanation": "Süt ve yumurta yok.",
+            "id": "a1-u07-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Is there any coffee?",
+            "options": [
+              "Yes, there is.",
+              "No, there isn't."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Yes, there's some coffee.\"",
+            "id": "a1-u07-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**some** ve **any** hem sayılamayan hem çoğul sayılabilen isimlerle kullanılır.\n\n| | some / any |\n|---|---|\n| olumlu | There's **some** milk. There are **some** eggs. |\n| olumsuz | There isn't **any** milk. There aren't **any** eggs. |\n| soru | Is there **any** milk? Are there **any** eggs? |\n\n**İstisna:** Bir şey teklif ederken ya da isterken soruda da **some** kullanılır: **Would you like some** tea? **Can I have some** water?",
+        "examples": [
+          {
+            "en": "We have some time.",
+            "tr": "Biraz vaktimiz var."
+          },
+          {
+            "en": "I don't have any money.",
+            "tr": "Hiç param yok."
+          },
+          {
+            "en": "Would you like some cake?",
+            "tr": "Biraz pasta ister misin?"
+          }
+        ],
+        "turkishNote": "Türkçede \"Hiç süt var mı?\" sorusunda \"hiç\" kullanmak zorunlu değildir, İngilizcede ise any doğal olarak eklenir: \"Is there any milk?\" Olumsuzda \"I don't have some money\" yanlıştır, any gerekir."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "There's ___ juice in the fridge.",
+          "answers": [
+            "some"
+          ],
+          "explanation": "Olumlu → some.",
+          "id": "a1-u07-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "We don't have ___ bread.",
+          "answers": [
+            "any"
+          ],
+          "explanation": "Olumsuz → any.",
+          "id": "a1-u07-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Are there ___ eggs?",
+          "answers": [
+            "any"
+          ],
+          "explanation": "Soru → any.",
+          "id": "a1-u07-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Would you like ___ coffee?",
+          "answers": [
+            "some"
+          ],
+          "explanation": "Teklif → some.",
+          "id": "a1-u07-l2-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I don't have some money.",
+            "I don't have any money."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumsuz → any.",
+          "id": "a1-u07-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir misafire çay teklif ediyorsunuz:",
+          "options": [
+            "Would you like any tea?",
+            "Would you like some tea?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Teklifte some.",
+          "id": "a1-u07-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "any",
+            "Is",
+            "there",
+            "sugar",
+            "?"
+          ],
+          "answer": "Is there any sugar?",
+          "explanation": "Is there + any + sayılamaz?",
+          "translation": "Hiç şeker var mı?",
+          "id": "a1-u07-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Sorry, we don't have any chocolate cake today, but we have some apple pie.",
+          "prompt": "Bugün hangi tatlı var?",
+          "options": [
+            "Çikolatalı pasta",
+            "Elmalı turta",
+            "İkisi de"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"we have some apple pie\"",
+          "id": "a1-u07-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Olumsuz yapın: \"There are some apples.\"",
+          "accepted": [
+            "There aren't any apples.",
+            "There aren't any apples",
+            "There are not any apples",
+            "There are not any apples."
+          ],
+          "explanation": "aren't + any",
+          "id": "a1-u07-l2-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Can I have ___ water, please?\"",
+          "options": [
+            "some",
+            "any",
+            "a"
+          ],
+          "answerIndex": 0,
+          "explanation": "Rica → some.",
+          "id": "a1-u07-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Buzdolabınızda ne var, ne yok? 4 cümle söyleyin (some/any).",
+          "modelAnswer": "There's some milk and some cheese. There are some eggs. There isn't any juice.",
+          "rubric": [
+            "Olumluda some",
+            "Olumsuzda any",
+            "is/are doğru"
+          ]
+        },
+        "id": "a1-u07-l2-use"
+      }
+    },
+    {
+      "id": "a1-u07-l3",
+      "number": 3,
+      "title": "Ne istersiniz?",
+      "goal": "would like ile kibarca isteyip teklif edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Misafir",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "Come in! Would you like something to drink?"
+          },
+          {
+            "speaker": "Tom",
+            "text": "Yes, please. I'd like a glass of water."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Would you like some Turkish coffee, too?"
+          },
+          {
+            "speaker": "Tom",
+            "text": "Oh, yes please! I love Turkish coffee."
+          },
+          {
+            "speaker": "Selin",
+            "text": "How would you like it? With sugar?"
+          },
+          {
+            "speaker": "Tom",
+            "text": "A little sugar, please. Thanks!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Tom ask for first?",
+            "options": [
+              "Coffee",
+              "Water",
+              "Tea"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I'd like a glass of water.\"",
+            "id": "a1-u07-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How does Tom like his coffee?",
+            "options": [
+              "Without sugar",
+              "With a little sugar",
+              "With milk"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"A little sugar, please.\"",
+            "id": "a1-u07-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**would like** = istemek (kibarca). **want**'tan daha naziktir.\n\n- **I'd like** (I would like) a tea, please.\n- **Would you like** some cake? – Yes, please. / No, thank you.\n- **What would you like?** – I'd like a sandwich.\n\nwould like'tan sonra fiil gelirse **to** eklenir: I'd like **to** order.",
+        "examples": [
+          {
+            "en": "I'd like a coffee, please.",
+            "tr": "Bir kahve rica ediyorum."
+          },
+          {
+            "en": "Would you like a biscuit? – No, thank you.",
+            "tr": "Bisküvi ister misin? – Hayır, teşekkürler."
+          },
+          {
+            "en": "I'd like to pay, please.",
+            "tr": "Ödemek istiyorum lütfen."
+          }
+        ],
+        "turkishNote": "\"I want a coffee\" dilbilgisi olarak doğrudur ama bir kafede kaba duyulabilir. \"I'd like\" ya da \"Can I have\" kullanın. Ayrıca \"Would you like...?\" sorusuna \"Yes, I would like\" yerine kısaca \"Yes, please.\" denir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Garsona en kibar istek:",
+          "options": [
+            "I want a tea.",
+            "Give me a tea.",
+            "I'd like a tea, please."
+          ],
+          "answerIndex": 2,
+          "explanation": "I'd like ... please en kibarıdır.",
+          "id": "a1-u07-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'___ like a sandwich, please.",
+          "answers": [
+            "d"
+          ],
+          "explanation": "I'd = I would.",
+          "id": "a1-u07-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ you like some cake?",
+          "answers": [
+            "Would"
+          ],
+          "explanation": "Teklif: Would you like...?",
+          "id": "a1-u07-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Would you like some tea?\" (Evet.)",
+          "options": [
+            "Yes, please.",
+            "Yes, I like.",
+            "Yes, I would like."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kısa ve doğal: Yes, please.",
+          "id": "a1-u07-l3-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Would you like some tea?\" (Hayır.)",
+          "options": [
+            "No, thank you.",
+            "No, I don't like.",
+            "No, please."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kibar ret: No, thank you.",
+          "id": "a1-u07-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'd like order now.",
+            "I'd like to order now."
+          ],
+          "answerIndex": 1,
+          "explanation": "would like + to + fiil.",
+          "id": "a1-u07-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "would",
+            "What",
+            "like",
+            "you",
+            "?"
+          ],
+          "answer": "What would you like?",
+          "explanation": "What + would + you + like?",
+          "translation": "Ne istersiniz?",
+          "id": "a1-u07-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "What would you like? – I'd like a cheese sandwich and a small orange juice, please.",
+          "prompt": "Müşteri ne içecek istiyor?",
+          "options": [
+            "Büyük portakal suyu",
+            "Küçük portakal suyu",
+            "Su"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"a small orange juice\"",
+          "id": "a1-u07-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Kibar yapın: \"I want a coffee.\"",
+          "accepted": [
+            "I'd like a coffee.",
+            "I'd like a coffee",
+            "I would like a coffee",
+            "I would like a coffee.",
+            "I'd like a coffee, please.",
+            "I'd like a coffee, please",
+            "I would like a coffee, please",
+            "I would like a coffee, please.",
+            "Can I have a coffee, please?",
+            "Can I have a coffee, please",
+            "Could I have a coffee, please?",
+            "Could I have a coffee, please"
+          ],
+          "explanation": "I'd like a coffee, please.",
+          "id": "a1-u07-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Would you like a tea?",
+              "right": "Yes, please."
+            },
+            {
+              "left": "What would you like?",
+              "right": "A latte, please."
+            },
+            {
+              "left": "Anything else?",
+              "right": "No, thanks."
+            }
+          ],
+          "explanation": "Soruyla cevabı eşleştirin.",
+          "id": "a1-u07-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI evinize gelen bir misafir. Ona iki şey teklif edin ve ne istediğini sorun.",
+          "modelAnswer": "Would you like some tea? Would you like some cake? What would you like?",
+          "rubric": [
+            "Would you like doğru",
+            "some kullandı",
+            "Kibar tonda"
+          ]
+        },
+        "id": "a1-u07-l3-use"
+      }
+    },
+    {
+      "id": "a1-u07-l4",
+      "number": 4,
+      "title": "Sipariş vermek",
+      "goal": "Kafede başından sonuna sipariş verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Just Café",
+        "lines": [
+          {
+            "speaker": "Barista",
+            "text": "Hi! What can I get you?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Can I have a latte, please?"
+          },
+          {
+            "speaker": "Barista",
+            "text": "Sure. Small, medium or large?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Medium, please."
+          },
+          {
+            "speaker": "Barista",
+            "text": "Anything else?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, a piece of carrot cake."
+          },
+          {
+            "speaker": "Barista",
+            "text": "Is that for here or to take away?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "For here, please."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What size is Deniz's latte?",
+            "options": [
+              "Small",
+              "Medium",
+              "Large"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Medium, please.\"",
+            "id": "a1-u07-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Deniz eat?",
+            "options": [
+              "In the café",
+              "At home",
+              "In the office"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"For here, please.\"",
+            "id": "a1-u07-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Garsonun / baristanın soruları:**\n\n- What can I get you? / Are you ready to order? (Ne alırsınız?)\n- Small, medium or large? (Boyu?)\n- Anything else? (Başka bir şey?)\n- For here or to take away? (Burada mı, paket mi?)\n\n**Müşterinin cevapları:**\n\n- **Can I have** a latte, please? / **I'd like** a latte, please.\n- That's all, thanks. (Hepsi bu, teşekkürler.)\n- For here, please. / To take away, please.",
+        "examples": [
+          {
+            "en": "Can I have a tea, please?",
+            "tr": "Bir çay alabilir miyim lütfen?"
+          },
+          {
+            "en": "Can I see the menu, please?",
+            "tr": "Menüyü görebilir miyim lütfen?"
+          },
+          {
+            "en": "That's all, thank you.",
+            "tr": "Hepsi bu, teşekkür ederim."
+          }
+        ],
+        "turkishNote": "\"please\" İngilizcede çok önemlidir; istek cümlesinin sonunda olmazsa kaba duyulabilir. Türkçedeki \"bir çay\" kısalığında \"A tea\" demek yerine \"A tea, please\" deyin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Anything else?\" ne demek?",
+          "options": [
+            "Başka bir şey?",
+            "Her şey yolunda mı?",
+            "Bir şey mi istediniz?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Başka bir şey ister misiniz?",
+          "id": "a1-u07-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"For here or to take away?\" (Paket istiyorsunuz.)",
+          "options": [
+            "For here, please.",
+            "To take away, please.",
+            "Take, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "Paket = to take away.",
+          "id": "a1-u07-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I have a hot chocolate, please?",
+          "answers": [
+            "Can"
+          ],
+          "explanation": "Rica: Can I have...?",
+          "id": "a1-u07-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "That's ___, thank you.",
+          "answers": [
+            "all"
+          ],
+          "explanation": "Hepsi bu = That's all.",
+          "id": "a1-u07-l4-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Small, medium or large?\"",
+          "options": [
+            "Large, please.",
+            "Yes, please.",
+            "I'd like."
+          ],
+          "answerIndex": 0,
+          "explanation": "Boyu söyleyin.",
+          "id": "a1-u07-l4-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Can",
+            "see",
+            "I",
+            "menu",
+            "the",
+            "please",
+            "?"
+          ],
+          "answer": "Can I see the menu, please?",
+          "explanation": "Can I + fiil + ...?",
+          "translation": "Menüyü görebilir miyim lütfen?",
+          "id": "a1-u07-l4-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi, are you ready to order? – Yes. Can I have the tomato soup and a green salad, please?",
+          "prompt": "Müşteri ne sipariş ediyor?",
+          "options": [
+            "Çorba ve salata",
+            "Sandviç ve salata",
+            "Çorba ve sandviç"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"the tomato soup and a green salad\"",
+          "id": "a1-u07-l4-p07"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bir çay alabilir miyim lütfen?\"",
+          "accepted": [
+            "Can I have a tea, please?",
+            "Can I have a tea, please",
+            "Can I have a cup of tea, please?",
+            "Can I have a cup of tea, please",
+            "Could I have a tea, please?",
+            "Could I have a tea, please"
+          ],
+          "explanation": "Can I have + a tea + please?",
+          "id": "a1-u07-l4-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "What can I get you?",
+              "right": "A cappuccino, please."
+            },
+            {
+              "left": "Small or large?",
+              "right": "Small, please."
+            },
+            {
+              "left": "Anything else?",
+              "right": "That's all, thanks."
+            },
+            {
+              "left": "For here or to take away?",
+              "right": "For here, please."
+            }
+          ],
+          "explanation": "Soruyla cevabı eşleştirin.",
+          "id": "a1-u07-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kafede sipariş için en uygun cümle:",
+          "options": [
+            "Give me a coffee.",
+            "Can I have a coffee, please?",
+            "I want coffee."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kibar istek: Can I have..., please?",
+          "id": "a1-u07-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI bir barista. Kafede bir içecek ve bir yiyecek sipariş edin; boyutu ve paket mi burada mı olduğunu söyleyin.",
+          "modelAnswer": "Can I have a large cappuccino, please? And a piece of chocolate cake. To take away, please.",
+          "rubric": [
+            "Can I have / I'd like kullandı",
+            "please kullandı",
+            "Baristanın sorularına doğru cevap"
+          ]
+        },
+        "id": "a1-u07-l4-use"
+      }
+    },
+    {
+      "id": "a1-u07-l5",
+      "number": 5,
+      "title": "Hesap lütfen",
+      "goal": "Fiyat sorup hesabı isteyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Londra'da bir kafe",
+        "lines": [
+          {
+            "speaker": "Ali",
+            "text": "Excuse me, how much is a cup of tea?"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "It's two pounds fifty."
+          },
+          {
+            "speaker": "Ali",
+            "text": "And how much are the muffins?"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "They're three pounds each."
+          },
+          {
+            "speaker": "Ali",
+            "text": "OK, one tea and one muffin, please."
+          },
+          {
+            "speaker": "Waiter",
+            "text": "That's five pounds fifty, please."
+          },
+          {
+            "speaker": "Ali",
+            "text": "Can I pay by card?"
+          },
+          {
+            "speaker": "Waiter",
+            "text": "Of course."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How much is a muffin?",
+            "options": [
+              "£2.50",
+              "£3.00",
+              "£5.50"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"They're three pounds each.\"",
+            "id": "a1-u07-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How does Ali pay?",
+            "options": [
+              "By card",
+              "In cash",
+              "By phone"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Can I pay by card?\" – \"Of course.\"",
+            "id": "a1-u07-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Fiyat sormak:**\n\n- **How much is** the cake? (tekil) – **It's** £3.\n- **How much are** the muffins? (çoğul) – **They're** £3 each.\n\n**Fiyat okumak:** £2.50 = two pounds fifty, €4.99 = four euros ninety-nine, 120 TL = a hundred and twenty lira.\n\n**Ödeme:**\n\n- **Can I have the bill, please?** (Hesap lütfen.)\n- **Can I pay by card?** / **in cash?**",
+        "examples": [
+          {
+            "en": "How much is this sandwich?",
+            "tr": "Bu sandviç ne kadar?"
+          },
+          {
+            "en": "That's twelve euros, please.",
+            "tr": "On iki avro lütfen."
+          },
+          {
+            "en": "Can we have the bill, please?",
+            "tr": "Hesabı alabilir miyiz lütfen?"
+          }
+        ],
+        "turkishNote": "Türkçedeki \"Hesap lütfen\" yerine \"The bill, please\" denebilir, ama \"Can I have the bill, please?\" daha kibardır. Fiyat söylerken para birimi sayıdan sonra okunur: £5 = five pounds (pounds five değil)."
+      },
+      "practice": [
+        {
+          "type": "gapFill",
+          "text": "How much ___ the coffee?",
+          "answers": [
+            "is"
+          ],
+          "explanation": "Tekil → is.",
+          "id": "a1-u07-l5-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "How much ___ these cookies?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "Çoğul → are.",
+          "id": "a1-u07-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "£4.50 nasıl okunur?",
+          "options": [
+            "four pounds fifty",
+            "pounds four fifty",
+            "four fifty pounds"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sayı + para birimi + kuruş.",
+          "id": "a1-u07-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hesabı istemek için:",
+          "options": [
+            "Can I have the bill, please?",
+            "Give me money.",
+            "How much are you?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Can I have the bill, please?",
+          "id": "a1-u07-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Can I pay ___ card?",
+          "answers": [
+            "by"
+          ],
+          "explanation": "Kartla = by card. Nakit = in cash.",
+          "id": "a1-u07-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "much",
+            "How",
+            "is",
+            "the",
+            "soup",
+            "?"
+          ],
+          "answer": "How much is the soup?",
+          "explanation": "How much + is + tekil isim?",
+          "translation": "Çorba ne kadar?",
+          "id": "a1-u07-l5-p06"
+        },
+        {
+          "type": "listening",
+          "audioText": "That's eight euros and forty cents, please.",
+          "prompt": "Toplam ne kadar?",
+          "options": [
+            "€4.80",
+            "€8.40",
+            "€8.14"
+          ],
+          "answerIndex": 1,
+          "explanation": "eight euros and forty cents = €8.40",
+          "id": "a1-u07-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The sandwiches are four pounds each, and the drinks are two pounds.",
+          "prompt": "Bir sandviç ne kadar?",
+          "options": [
+            "£2",
+            "£4",
+            "£6"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"four pounds each\"",
+          "id": "a1-u07-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Nakit ödeyebilir miyim?\"",
+          "accepted": [
+            "Can I pay in cash?",
+            "Can I pay in cash",
+            "Can I pay cash?",
+            "Can I pay cash",
+            "Could I pay in cash?",
+            "Could I pay in cash"
+          ],
+          "explanation": "Can I pay + in cash?",
+          "id": "a1-u07-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"How much are the apples?\"",
+          "options": [
+            "It's two euros a kilo.",
+            "They're two euros a kilo."
+          ],
+          "answerIndex": 1,
+          "explanation": "apples çoğul → They're.",
+          "id": "a1-u07-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Restorandasınız. Bir yemeğin fiyatını sorun, sipariş verin ve sonunda hesabı isteyip kartla ödeyin.",
+          "modelAnswer": "Excuse me, how much is the soup? OK, I'd like the soup, please. ... Can I have the bill, please? Can I pay by card?",
+          "rubric": [
+            "How much is/are doğru",
+            "Sipariş kibar",
+            "Hesap ve ödeme ifadeleri doğru"
+          ]
+        },
+        "id": "a1-u07-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "a bread",
+          "some bread",
+          "a breads"
+        ],
+        "answerIndex": 1,
+        "explanation": "bread sayılamaz.",
+        "id": "a1-u07-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "a ___ of tea (fincan)",
+        "answers": [
+          "cup"
+        ],
+        "explanation": "a cup of tea",
+        "id": "a1-u07-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "We don't have ___ milk.",
+        "answers": [
+          "any"
+        ],
+        "explanation": "Olumsuz → any.",
+        "id": "a1-u07-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "There are ___ apples on the table.",
+        "answers": [
+          "some"
+        ],
+        "explanation": "Olumlu → some.",
+        "id": "a1-u07-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Teklif: \"___ you like some cake?\"",
+        "options": [
+          "Do",
+          "Would",
+          "Are"
+        ],
+        "answerIndex": 1,
+        "explanation": "Would you like...?",
+        "id": "a1-u07-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Would you like a coffee?\" (Evet.)",
+        "options": [
+          "Yes, please.",
+          "Yes, I like.",
+          "Yes, I'd."
+        ],
+        "answerIndex": 0,
+        "explanation": "Yes, please.",
+        "id": "a1-u07-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I'd like order.",
+          "I'd like to order."
+        ],
+        "answerIndex": 1,
+        "explanation": "would like + to + fiil",
+        "id": "a1-u07-t07"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "I",
+          "Can",
+          "have",
+          "a",
+          "water",
+          "of",
+          "glass",
+          "?"
+        ],
+        "answer": "Can I have a glass of water?",
+        "explanation": "Can I have + miktar + isim?",
+        "translation": "Bir bardak su alabilir miyim?",
+        "id": "a1-u07-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"For here or to take away?\" (Burada.)",
+        "options": [
+          "For here, please.",
+          "Take away.",
+          "Here, I'd like."
+        ],
+        "answerIndex": 0,
+        "explanation": "For here, please.",
+        "id": "a1-u07-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "How much ___ the sandwiches?",
+        "answers": [
+          "are"
+        ],
+        "explanation": "Çoğul → are.",
+        "id": "a1-u07-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "£6.20 nasıl okunur?",
+        "options": [
+          "six pounds twenty",
+          "pounds six twenty",
+          "sixty-two pounds"
+        ],
+        "answerIndex": 0,
+        "explanation": "six pounds twenty",
+        "id": "a1-u07-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "Are you ready to order? – Yes, I'd like the chicken salad and a bottle of water, please.",
+        "prompt": "Müşteri ne içecek istiyor?",
+        "options": [
+          "Bir bardak su",
+          "Bir şişe su",
+          "Meyve suyu"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"a bottle of water\"",
+        "id": "a1-u07-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Hesabı alabilir miyim lütfen?\"",
+        "accepted": [
+          "Can I have the bill, please?",
+          "Can I have the bill, please",
+          "Could I have the bill, please?",
+          "Could I have the bill, please"
+        ],
+        "explanation": "Can I have the bill, please?",
+        "id": "a1-u07-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Garsona en kibar istek:",
+        "options": [
+          "I want soup.",
+          "I'd like the soup, please.",
+          "Soup."
+        ],
+        "answerIndex": 1,
+        "explanation": "I'd like ..., please.",
+        "id": "a1-u07-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir kafede geçen kısa bir konuşma yazın: garson ve sizin aranızda en az 6 satır.",
+        "modelAnswer": "Waiter: Hi, what can I get you? Me: Can I have a large tea, please? Waiter: Anything else? Me: Yes, a piece of cake. How much is it? Waiter: It's four pounds. Me: OK. Can I pay by card?",
+        "rubric": [
+          "Kibar istek (Can I have / I'd like)",
+          "a/an, some, a piece of doğru",
+          "How much is/are doğru",
+          "please kullandı"
+        ],
+        "id": "a1-u07-t15"
+      }
+    ]
+  }
+}
