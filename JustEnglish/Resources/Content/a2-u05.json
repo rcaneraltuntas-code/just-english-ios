@@ -1,0 +1,1490 @@
+{
+  "id": "a2-u05",
+  "level": "A2",
+  "number": 5,
+  "title": "Sağlık",
+  "titleEn": "Health",
+  "canDo": "Doktora ya da eczacıya şikayetlerimi anlatabilir, verilen talimatları anlayabilir ve başkalarına sağlıkla ilgili tavsiye verebilirim.",
+  "grammar": [
+    "What's the matter? / I have a ... / My ... hurts",
+    "should / shouldn't (tavsiye)",
+    "Should I ...? / Why don't you ...?",
+    "talimatlar: Take ... twice a day"
+  ],
+  "vocabularyThemes": [
+    "vücut bölümleri",
+    "hastalıklar ve belirtiler",
+    "ilaç ve sağlıklı yaşam"
+  ],
+  "liveClass": {
+    "title": "Sağlık köşesi",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler sırayla 'hasta' ve 'doktor' olur. Hasta bir şikayet kartı çeker ve belirtilerini anlatır; doktor sorular sorup should/shouldn't ile tavsiye verir. Sonunda sınıf, bir dergi için 'Sağlıklı yaşam için 10 tavsiye' listesi hazırlar."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u05-v01",
+      "en": "head",
+      "tr": "baş",
+      "example": "My head hurts.",
+      "exampleTr": "Başım ağrıyor."
+    },
+    {
+      "id": "a2-u05-v02",
+      "en": "throat",
+      "tr": "boğaz",
+      "example": "I have a sore throat.",
+      "exampleTr": "Boğazım ağrıyor.",
+      "note": "sore throat = boğaz ağrısı"
+    },
+    {
+      "id": "a2-u05-v03",
+      "en": "stomach",
+      "tr": "mide, karın",
+      "example": "I have a stomach ache.",
+      "exampleTr": "Midem ağrıyor.",
+      "note": "Okunuşu: /ˈstʌmək/"
+    },
+    {
+      "id": "a2-u05-v04",
+      "en": "back",
+      "tr": "sırt, bel",
+      "example": "My back hurts after work.",
+      "exampleTr": "İşten sonra belim ağrıyor."
+    },
+    {
+      "id": "a2-u05-v05",
+      "en": "tooth (teeth)",
+      "tr": "diş (dişler)",
+      "example": "I have a terrible toothache.",
+      "exampleTr": "Korkunç bir diş ağrım var.",
+      "note": "Düzensiz çoğul."
+    },
+    {
+      "id": "a2-u05-v06",
+      "en": "ear",
+      "tr": "kulak",
+      "example": "The baby has an ear infection.",
+      "exampleTr": "Bebeğin kulak enfeksiyonu var."
+    },
+    {
+      "id": "a2-u05-v07",
+      "en": "knee",
+      "tr": "diz",
+      "example": "I hurt my knee playing football.",
+      "exampleTr": "Futbol oynarken dizimi incittim.",
+      "note": "k okunmaz: /niː/"
+    },
+    {
+      "id": "a2-u05-v08",
+      "en": "ache",
+      "tr": "ağrı",
+      "example": "I have a headache.",
+      "exampleTr": "Başım ağrıyor.",
+      "note": "headache, stomach ache, toothache, backache, earache"
+    },
+    {
+      "id": "a2-u05-v09",
+      "en": "hurt",
+      "tr": "ağrımak; incitmek",
+      "example": "My leg hurts.",
+      "exampleTr": "Bacağım ağrıyor.",
+      "note": "hurt → hurt → hurt"
+    },
+    {
+      "id": "a2-u05-v10",
+      "en": "cold",
+      "tr": "soğuk algınlığı",
+      "example": "I think I'm getting a cold.",
+      "exampleTr": "Sanırım soğuk alıyorum.",
+      "note": "have a cold"
+    },
+    {
+      "id": "a2-u05-v11",
+      "en": "flu",
+      "tr": "grip",
+      "example": "She's in bed with flu.",
+      "exampleTr": "Gripten yatıyor.",
+      "note": "the flu da denir."
+    },
+    {
+      "id": "a2-u05-v12",
+      "en": "temperature",
+      "tr": "ateş; sıcaklık",
+      "example": "He has a high temperature.",
+      "exampleTr": "Ateşi yüksek.",
+      "note": "fever da kullanılır."
+    },
+    {
+      "id": "a2-u05-v13",
+      "en": "cough",
+      "tr": "öksürük; öksürmek",
+      "example": "I have a bad cough.",
+      "exampleTr": "Kötü bir öksürüğüm var.",
+      "note": "Okunuşu: /kɒf/"
+    },
+    {
+      "id": "a2-u05-v14",
+      "en": "sneeze",
+      "tr": "hapşırmak",
+      "example": "I can't stop sneezing.",
+      "exampleTr": "Hapşırmayı durduramıyorum."
+    },
+    {
+      "id": "a2-u05-v15",
+      "en": "feel sick",
+      "tr": "midesi bulanmak",
+      "example": "I feel sick. I don't want to eat.",
+      "exampleTr": "Midem bulanıyor. Yemek istemiyorum.",
+      "note": "Amerikan: feel nauseous."
+    },
+    {
+      "id": "a2-u05-v16",
+      "en": "dizzy",
+      "tr": "başı dönen",
+      "example": "I feel dizzy when I stand up.",
+      "exampleTr": "Ayağa kalkınca başım dönüyor."
+    },
+    {
+      "id": "a2-u05-v17",
+      "en": "medicine",
+      "tr": "ilaç",
+      "example": "Take this medicine after meals.",
+      "exampleTr": "Bu ilacı yemeklerden sonra al."
+    },
+    {
+      "id": "a2-u05-v18",
+      "en": "tablet / pill",
+      "tr": "tablet, hap",
+      "example": "Take two tablets twice a day.",
+      "exampleTr": "Günde iki kez iki tablet al."
+    },
+    {
+      "id": "a2-u05-v19",
+      "en": "prescription",
+      "tr": "reçete",
+      "example": "You need a prescription for these.",
+      "exampleTr": "Bunlar için reçete gerekiyor."
+    },
+    {
+      "id": "a2-u05-v20",
+      "en": "rest",
+      "tr": "dinlenmek; dinlenme",
+      "example": "You should rest for a few days.",
+      "exampleTr": "Birkaç gün dinlenmelisin."
+    },
+    {
+      "id": "a2-u05-v21",
+      "en": "should",
+      "tr": "-meli / -malı",
+      "example": "You should drink more water.",
+      "exampleTr": "Daha çok su içmelisin.",
+      "note": "should + yalın fiil"
+    },
+    {
+      "id": "a2-u05-v22",
+      "en": "healthy",
+      "tr": "sağlıklı",
+      "example": "Fruit and vegetables are healthy.",
+      "exampleTr": "Meyve ve sebze sağlıklıdır.",
+      "note": "unhealthy (sağlıksız)"
+    },
+    {
+      "id": "a2-u05-v23",
+      "en": "Get well soon!",
+      "tr": "Geçmiş olsun!",
+      "example": "I heard you're ill. Get well soon!",
+      "exampleTr": "Hasta olduğunu duydum. Geçmiş olsun!"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u05-l1",
+      "number": 1,
+      "title": "Neren ağrıyor?",
+      "goal": "Vücudumun ağrıyan yerini ve nasıl hissettiğimi anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İş yerinde",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "You don't look well, Arda. What's the matter?"
+          },
+          {
+            "speaker": "Arda",
+            "text": "I have a terrible headache, and my back hurts too."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Oh no. Is it because of the new chair?"
+          },
+          {
+            "speaker": "Arda",
+            "text": "Maybe. I sit at this desk for ten hours every day."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Do you feel dizzy?"
+          },
+          {
+            "speaker": "Arda",
+            "text": "A little. I think I need some fresh air."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What's wrong with Arda?",
+            "options": [
+              "Headache and backache",
+              "Stomach ache",
+              "A cold"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"I have a terrible headache, and my back hurts too.\"",
+            "id": "a2-u05-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Arda need?",
+            "options": [
+              "Medicine",
+              "Fresh air",
+              "A new desk"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I think I need some fresh air.\"",
+            "id": "a2-u05-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sormak:**\n\n- **What's the matter?** / **What's wrong?** (Neyin var?)\n- **How do you feel?** / **Are you OK?**\n\n**Ağrıları anlatmak — üç yol:**\n\n| Yapı | Örnek |\n|---|---|\n| I have a + ...ache | I have a **headache** / **stomach ache** / **toothache** / **backache** / **earache** |\n| My + vücut bölümü + **hurts** | My **knee hurts**. / My **eyes hurt**. |\n| I have a sore + ... | I have a **sore throat**. |\n\n**Nasıl hissettiğini söylemek:** I feel **sick** / **dizzy** / **tired** / **terrible** / **better**.\n\nİngiliz İngilizcesinde **I've got a headache** de çok yaygındır; anlamı aynıdır.",
+        "examples": [
+          {
+            "en": "My eyes hurt after a long day at the computer.",
+            "tr": "Uzun bir bilgisayar gününden sonra gözlerim ağrıyor."
+          },
+          {
+            "en": "I have a sore throat and I feel tired.",
+            "tr": "Boğazım ağrıyor ve yorgun hissediyorum."
+          },
+          {
+            "en": "What's the matter? – I feel sick.",
+            "tr": "Neyin var? – Midem bulanıyor."
+          }
+        ],
+        "turkishNote": "Türkçede \"başım ağrıyor\" deriz; İngilizcede \"my head aches\" çok az kullanılır, doğal olan \"I have a headache\" demektir. \"I feel sick\" Türkçedeki \"hasta hissediyorum\" değil, \"midem bulanıyor\" anlamındadır. Hasta olduğunuzu söylemek için \"I'm ill\" ya da \"I'm not well\" deyin."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "head",
+              "right": "baş"
+            },
+            {
+              "left": "throat",
+              "right": "boğaz"
+            },
+            {
+              "left": "stomach",
+              "right": "mide"
+            },
+            {
+              "left": "knee",
+              "right": "diz"
+            },
+            {
+              "left": "back",
+              "right": "sırt, bel"
+            }
+          ],
+          "explanation": "Vücut bölümlerini eşleştirin.",
+          "id": "a2-u05-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Başım ağrıyor.\" En doğal söyleyiş:",
+          "options": [
+            "I have a headache.",
+            "My head is aching me.",
+            "I have head pain."
+          ],
+          "answerIndex": 0,
+          "explanation": "I have a headache.",
+          "id": "a2-u05-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My knee hurt.",
+            "My knee hurts.",
+            "My knee is hurt me."
+          ],
+          "answerIndex": 1,
+          "explanation": "Tekil özne → hurts.",
+          "id": "a2-u05-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My eyes hurts.",
+            "My eyes hurt."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çoğul → hurt.",
+          "id": "a2-u05-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I have a sore ___. I can't speak. (boğaz)",
+          "answers": [
+            "throat"
+          ],
+          "explanation": "sore throat.",
+          "id": "a2-u05-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "What's the ___? – I feel dizzy.",
+          "answers": [
+            "matter"
+          ],
+          "explanation": "What's the matter?",
+          "id": "a2-u05-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I feel sick\" ne demek?",
+          "options": [
+            "Midem bulanıyor.",
+            "Çok hastayım.",
+            "Ateşim var."
+          ],
+          "answerIndex": 0,
+          "explanation": "feel sick = midesi bulanmak.",
+          "id": "a2-u05-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I can't eat anything. I have a stomach ache and I feel sick.",
+          "prompt": "Konuşanın sorunu ne?",
+          "options": [
+            "Diş ağrısı",
+            "Mide ağrısı ve bulantı",
+            "Baş dönmesi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"stomach ache ... feel sick\"",
+          "id": "a2-u05-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Dişim ağrıyor.\"",
+          "accepted": [
+            "I have a toothache.",
+            "I have a toothache",
+            "I've got a toothache.",
+            "I've got a toothache",
+            "I have toothache.",
+            "I have toothache",
+            "I've got toothache.",
+            "I've got toothache",
+            "My tooth hurts.",
+            "My tooth hurts"
+          ],
+          "explanation": "I have a toothache. / My tooth hurts.",
+          "id": "a2-u05-l1-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "How",
+            "do",
+            "feel",
+            "today",
+            "?"
+          ],
+          "answer": "How do you feel today?",
+          "explanation": "How do you feel + zaman?",
+          "translation": "Bugün nasıl hissediyorsun?",
+          "id": "a2-u05-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size \"What's the matter?\" diye soracak. Üç farklı şikayeti (biri hurts, biri ...ache, biri feel ile) anlatın.",
+          "modelAnswer": "I have a headache and my neck hurts. I also feel very tired. I think I work too much.",
+          "rubric": [
+            "I have a ...ache doğru",
+            "My ... hurts doğru",
+            "I feel + sıfat"
+          ]
+        },
+        "id": "a2-u05-l1-use"
+      }
+    },
+    {
+      "id": "a2-u05-l2",
+      "number": 2,
+      "title": "Doktorda",
+      "goal": "Doktora belirtilerimi anlatabilir ve sorularına cevap verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Muayenehanede",
+        "lines": [
+          {
+            "speaker": "Doctor",
+            "text": "Good morning. How can I help you?"
+          },
+          {
+            "speaker": "Leyla",
+            "text": "I feel terrible. I have a bad cough and a sore throat."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "When did it start?"
+          },
+          {
+            "speaker": "Leyla",
+            "text": "Three days ago. And last night I had a high temperature."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "Let me check. ... Yes, it's flu. Are you allergic to anything?"
+          },
+          {
+            "speaker": "Leyla",
+            "text": "No, I'm not."
+          },
+          {
+            "speaker": "Doctor",
+            "text": "OK. Here's a prescription. You need to rest for a few days."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When did Leyla's illness start?",
+            "options": [
+              "Yesterday",
+              "Three days ago",
+              "Last week"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Three days ago.\"",
+            "id": "a2-u05-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the doctor say it is?",
+            "options": [
+              "A cold",
+              "Flu",
+              "An allergy"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Yes, it's flu.\"",
+            "id": "a2-u05-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hastalıklar:**\n\n| | |\n|---|---|\n| have **a cold** | soğuk algınlığı |\n| have **flu** / **the flu** | grip |\n| have **a temperature** / **a fever** | ateş |\n| have **a cough** | öksürük |\n| have **an allergy** / be **allergic to** ... | alerji |\n| have **an infection** | enfeksiyon |\n\n**Doktorun soruları:**\n\n- How can I help you? / What seems to be the problem?\n- **When did** it **start**? – Two days ago. / Yesterday.\n- Are you **allergic to** anything? – Yes, I'm allergic to penicillin.\n- Are you taking any medicine?\n\n**Doktorun cevapları:** Let me check. / It's nothing serious. / Here's a prescription.",
+        "examples": [
+          {
+            "en": "I think I have a cold. I keep sneezing.",
+            "tr": "Sanırım soğuk algınlığım var. Sürekli hapşırıyorum."
+          },
+          {
+            "en": "I'm allergic to cats.",
+            "tr": "Kedilere alerjim var."
+          },
+          {
+            "en": "It's nothing serious. You'll be fine.",
+            "tr": "Ciddi bir şey değil. İyileşeceksin."
+          }
+        ],
+        "turkishNote": "\"Ateşim var\" = I have a temperature (fever). \"Grip oldum\" = I have flu / I've got the flu. \"-e alerjim var\" İngilizcede \"allergic to\" ile söylenir: I'm allergic to nuts (fındık/fıstığa). \"keep + -ing\" = sürekli ... -mek: I keep sneezing."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "cold",
+              "right": "soğuk algınlığı"
+            },
+            {
+              "left": "flu",
+              "right": "grip"
+            },
+            {
+              "left": "temperature",
+              "right": "ateş"
+            },
+            {
+              "left": "cough",
+              "right": "öksürük"
+            },
+            {
+              "left": "prescription",
+              "right": "reçete"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "a2-u05-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm allergic ___ nuts.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "allergic to.",
+          "id": "a2-u05-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "When did it ___? – Two days ago. (başlamak)",
+          "answers": [
+            "start",
+            "begin"
+          ],
+          "explanation": "When did it start?",
+          "id": "a2-u05-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Ateşim var.\"",
+          "options": [
+            "I have a temperature.",
+            "I am fire.",
+            "I have hot."
+          ],
+          "answerIndex": 0,
+          "explanation": "have a temperature.",
+          "id": "a2-u05-l2-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I have a flu.",
+            "I have flu."
+          ],
+          "answerIndex": 1,
+          "explanation": "flu → a almaz (the flu olabilir).",
+          "id": "a2-u05-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I keep ___. Maybe it's an allergy. (sneeze)",
+          "answers": [
+            "sneezing"
+          ],
+          "explanation": "keep + -ing.",
+          "id": "a2-u05-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doktor muayene etmeden önce:",
+          "options": [
+            "Let me check.",
+            "Get well soon.",
+            "Here's your bill."
+          ],
+          "answerIndex": 0,
+          "explanation": "Let me check = Bir bakayım.",
+          "id": "a2-u05-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I have a cough and a runny nose, but no temperature. It started yesterday.",
+          "prompt": "Hangisi konuşanda YOK?",
+          "options": [
+            "Öksürük",
+            "Burun akıntısı",
+            "Ateş"
+          ],
+          "answerIndex": 2,
+          "explanation": "\"but no temperature\"",
+          "id": "a2-u05-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kedilere alerjim var.\"",
+          "accepted": [
+            "I'm allergic to cats.",
+            "I'm allergic to cats",
+            "I am allergic to cats",
+            "I am allergic to cats.",
+            "I have an allergy to cats.",
+            "I have an allergy to cats"
+          ],
+          "explanation": "I'm allergic to cats.",
+          "id": "a2-u05-l2-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Are",
+            "taking",
+            "any",
+            "medicine",
+            "?"
+          ],
+          "answer": "Are you taking any medicine?",
+          "explanation": "Are you taking + any + isim?",
+          "translation": "Herhangi bir ilaç kullanıyor musun?",
+          "id": "a2-u05-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI doktor. Muayeneye girin: belirtilerinizi anlatın, ne zaman başladığını söyleyin ve doktorun sorularına cevap verin (alerji, ilaç).",
+          "modelAnswer": "Good morning. I have a sore throat and a bad cough. It started four days ago. Yesterday I had a temperature. No, I'm not allergic to anything. I'm not taking any medicine.",
+          "rubric": [
+            "Belirtiler doğru ifade edildi",
+            "When did it start? cevabı (ago)",
+            "allergic to doğru"
+          ]
+        },
+        "id": "a2-u05-l2-use"
+      }
+    },
+    {
+      "id": "a2-u05-l3",
+      "number": 3,
+      "title": "Tavsiye vermek",
+      "goal": "should ve shouldn't ile birine tavsiye verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Dergi köşesi: Dr. Yasemin cevaplıyor",
+        "body": "Dear Dr Yasemin,\nI always feel tired, and I often have headaches. I work on a computer all day and I drink about six cups of coffee. What should I do?\n— Tired Tolga\n\nDear Tolga,\nYou should take a short break every hour and look away from the screen. You shouldn't drink so much coffee. Two cups a day is enough. You should drink more water and go for a walk at lunchtime. And you should go to bed before midnight! If the headaches don't stop, you should see a doctor.\n— Dr Yasemin",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How much coffee does Tolga drink?",
+            "options": [
+              "Two cups",
+              "About six cups",
+              "None"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"about six cups of coffee\"",
+            "id": "a2-u05-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Dr Yasemin say about coffee?",
+            "options": [
+              "Drink more",
+              "Two cups a day is enough",
+              "Stop completely"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Two cups a day is enough.\"",
+            "id": "a2-u05-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**should** + yalın fiil → tavsiye (bence yapman iyi olur)\n\n**shouldn't** + yalın fiil → olumsuz tavsiye (bence yapmasan iyi olur)\n\n- You **should** drink more water.\n- You **shouldn't** eat so much sugar.\n- He **should** see a doctor.\n\n**can** gibi **should** de her özneyle aynıdır; -s, to veya do almaz:\n\n- ~~He shoulds~~ / ~~You should to rest~~ / ~~You don't should~~\n\n**Yumuşatmak:** I think you should... / I don't think you should... (I think you shouldn't yerine)",
+        "examples": [
+          {
+            "en": "You should go to bed early tonight.",
+            "tr": "Bu akşam erken yatmalısın."
+          },
+          {
+            "en": "You shouldn't lift heavy things with a bad back.",
+            "tr": "Belin ağrıyorken ağır şeyler kaldırmamalısın."
+          },
+          {
+            "en": "I don't think you should go to work today.",
+            "tr": "Bence bugün işe gitmemelisin."
+          }
+        ],
+        "turkishNote": "should, Türkçedeki \"-meli\" ekine denk gelir ama bir emir değil, tavsiyedir: \"You should rest\" = Dinlenmelisin (bence). Zorunluluk için have to / must kullanılır (8. ünite). İngilizcede \"I don't think you should\" yapısı \"I think you shouldn't\"tan daha doğaldır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "You should to rest.",
+            "You should rest.",
+            "You should resting."
+          ],
+          "answerIndex": 1,
+          "explanation": "should + yalın fiil.",
+          "id": "a2-u05-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She shoulds see a doctor.",
+            "She should see a doctor."
+          ],
+          "answerIndex": 1,
+          "explanation": "should her özneyle aynı.",
+          "id": "a2-u05-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ eat so much fast food. It's unhealthy. (shouldn't)",
+          "answers": [
+            "shouldn't",
+            "should not"
+          ],
+          "explanation": "Olumsuz tavsiye.",
+          "id": "a2-u05-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "You have a temperature. You should ___ in bed. (stay)",
+          "answers": [
+            "stay"
+          ],
+          "explanation": "should + yalın fiil.",
+          "id": "a2-u05-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I don't ___ you should go out in this cold.",
+          "answers": [
+            "think"
+          ],
+          "explanation": "I don't think you should...",
+          "id": "a2-u05-l3-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir arkadaşınızın dişi ağrıyor:",
+          "options": [
+            "You should see a dentist.",
+            "You shouldn't see a dentist.",
+            "You should eat sweets."
+          ],
+          "answerIndex": 0,
+          "explanation": "Mantıklı tavsiye.",
+          "id": "a2-u05-l3-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "should",
+            "You",
+            "take",
+            "a",
+            "break",
+            "every",
+            "hour"
+          ],
+          "answer": "You should take a break every hour.",
+          "explanation": "You should + fiil + nesne + zaman.",
+          "translation": "Her saat ara vermelisin.",
+          "id": "a2-u05-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "You have a bad back, so you shouldn't carry heavy bags. And you should do some gentle exercise, like swimming.",
+          "prompt": "Hangi egzersiz öneriliyor?",
+          "options": [
+            "Koşu",
+            "Yüzme",
+            "Ağırlık kaldırma"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"gentle exercise, like swimming\"",
+          "id": "a2-u05-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Daha çok su içmelisin.\"",
+          "accepted": [
+            "You should drink more water.",
+            "You should drink more water"
+          ],
+          "explanation": "You should + drink more water.",
+          "id": "a2-u05-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I have a cold.",
+              "right": "You should drink hot tea."
+            },
+            {
+              "left": "I'm always tired.",
+              "right": "You should sleep more."
+            },
+            {
+              "left": "My eyes hurt.",
+              "right": "You shouldn't look at your phone so much."
+            },
+            {
+              "left": "I have toothache.",
+              "right": "You should see a dentist."
+            }
+          ],
+          "explanation": "Şikayetleri tavsiyelerle eşleştirin.",
+          "id": "a2-u05-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Dr. Yasemin'e bir okuyucu daha yazdı: \"Geceleri uyuyamıyorum, sabahları çok yorgunum.\" Ona 5 tavsiyeli bir cevap yazın (should / shouldn't / I don't think you should).",
+          "modelAnswer": "Dear reader,\nYou shouldn't drink coffee or tea after 4 pm. You should turn off your phone an hour before bed. I don't think you should eat a big dinner late at night. You should go to bed at the same time every day. And you should try some light exercise in the morning.\n— Dr Yasemin",
+          "rubric": [
+            "should / shouldn't + yalın fiil",
+            "I don't think you should kullandı",
+            "Tavsiyeler mantıklı"
+          ]
+        },
+        "id": "a2-u05-l3-use"
+      }
+    },
+    {
+      "id": "a2-u05-l4",
+      "number": 4,
+      "title": "Ne yapmalıyım?",
+      "goal": "Tavsiye isteyebilir ve farklı yollarla öneride bulunabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Spor yaralanması",
+        "lines": [
+          {
+            "speaker": "Onur",
+            "text": "I hurt my knee playing football yesterday. Should I go to the hospital?"
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "Can you walk on it?"
+          },
+          {
+            "speaker": "Onur",
+            "text": "Yes, but it hurts a lot."
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "Why don't you put some ice on it first? And you shouldn't play football this week."
+          },
+          {
+            "speaker": "Onur",
+            "text": "OK. Should I take a painkiller?"
+          },
+          {
+            "speaker": "Ayşe",
+            "text": "Yes, but if it doesn't get better in two days, you should definitely see a doctor."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Onur hurt?",
+            "options": [
+              "His back",
+              "His knee",
+              "His foot"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I hurt my knee playing football\"",
+            "id": "a2-u05-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Ayşe suggest first?",
+            "options": [
+              "Going to the hospital",
+              "Putting ice on it",
+              "Playing again"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Why don't you put some ice on it first?\"",
+            "id": "a2-u05-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Tavsiye istemek:**\n\n- **Should I** + fiil? → Should I take a painkiller? – Yes, you **should**. / No, you **shouldn't**.\n- **What should I** do?\n- **Do you think I should** + fiil?\n\n**Öneri sunmanın diğer yolları:**\n\n| Kalıp | Örnek |\n|---|---|\n| Why don't you + fiil? | **Why don't you** put some ice on it? |\n| Try + -ing | **Try drinking** some ginger tea. |\n| If I were you, I'd + fiil | **If I were you, I'd** see a doctor. |\n\n**Tavsiyeye cevap:** That's a good idea. / Thanks, I'll try that. / I don't think that's a good idea.",
+        "examples": [
+          {
+            "en": "Should I call the doctor? – Yes, I think you should.",
+            "tr": "Doktoru aramalı mıyım? – Evet, bence aramalısın."
+          },
+          {
+            "en": "Why don't you take a day off?",
+            "tr": "Neden bir gün izin almıyorsun?"
+          },
+          {
+            "en": "If I were you, I'd stay at home.",
+            "tr": "Yerinde olsam evde kalırdım."
+          }
+        ],
+        "turkishNote": "\"Why don't you...?\" şikayet gibi duyulsa da aslında arkadaşça bir öneridir: \"Neden ... yapmıyorsun?\" değil, \"... yapsana\" anlamında. \"If I were you\" bir kalıptır; I was değil I were denir. Bu yapının dilbilgisini B1'de göreceğiz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Do I should rest?",
+            "Should I rest?",
+            "Should I to rest?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Should + I + yalın fiil?",
+          "id": "a2-u05-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Should I take a painkiller?\" (Evet.)",
+          "options": [
+            "Yes, you should.",
+            "Yes, you do.",
+            "Yes, I should."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yes, you should.",
+          "id": "a2-u05-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Why don't you ___ some ice on it? (put)",
+          "answers": [
+            "put"
+          ],
+          "explanation": "Why don't you + yalın fiil?",
+          "id": "a2-u05-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Try ___ some ginger tea. (drink)",
+          "answers": [
+            "drinking"
+          ],
+          "explanation": "Try + -ing.",
+          "id": "a2-u05-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "If I ___ you, I'd see a doctor.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "If I were you.",
+          "id": "a2-u05-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir tavsiyeyi kabul etmek:",
+          "options": [
+            "That's a good idea. Thanks!",
+            "You shouldn't.",
+            "Should I?"
+          ],
+          "answerIndex": 0,
+          "explanation": "That's a good idea.",
+          "id": "a2-u05-l4-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "I",
+            "What",
+            "should",
+            "do",
+            "?"
+          ],
+          "answer": "What should I do?",
+          "explanation": "What + should + I + do?",
+          "translation": "Ne yapmalıyım?",
+          "id": "a2-u05-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I can't sleep at night. – Why don't you try reading a book instead of looking at your phone? – Good idea, I'll try that.",
+          "prompt": "Ne öneriliyor?",
+          "options": [
+            "Telefona bakmak",
+            "Telefon yerine kitap okumak",
+            "İlaç almak"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"try reading a book instead of looking at your phone\"",
+          "id": "a2-u05-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yerinde olsam evde kalırdım.\"",
+          "accepted": [
+            "If I were you, I'd stay at home.",
+            "If I were you, I'd stay at home",
+            "If I were you, I would stay at home",
+            "If I were you, I would stay at home.",
+            "If I were you I'd stay at home.",
+            "If I were you I'd stay at home",
+            "If I were you I would stay at home",
+            "If I were you I would stay at home.",
+            "If I were you, I'd stay home.",
+            "If I were you, I'd stay home",
+            "If I were you, I would stay home",
+            "If I were you, I would stay home."
+          ],
+          "explanation": "If I were you, I'd + stay at home.",
+          "id": "a2-u05-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Neden bir gün izin almıyorsun?\"",
+          "accepted": [
+            "Why don't you take a day off?",
+            "Why don't you take a day off",
+            "Why do not you take a day off",
+            "Why do not you take a day off?"
+          ],
+          "explanation": "Why don't you + take a day off?",
+          "id": "a2-u05-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'nin bir sağlık sorunu var ve sizden tavsiye istiyor. En az 4 farklı kalıpla tavsiye verin (should, shouldn't, Why don't you, If I were you).",
+          "modelAnswer": "You should rest and drink a lot of water. You shouldn't go to the gym this week. Why don't you take a hot shower? If I were you, I'd see a doctor tomorrow.",
+          "rubric": [
+            "Farklı tavsiye kalıpları",
+            "Yalın fiil doğru",
+            "Tavsiyeler duruma uygun"
+          ]
+        },
+        "id": "a2-u05-l4-use"
+      }
+    },
+    {
+      "id": "a2-u05-l5",
+      "number": 5,
+      "title": "Eczanede",
+      "goal": "Eczacıdan ilaç isteyebilir ve kullanım talimatlarını anlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Eczane",
+        "lines": [
+          {
+            "speaker": "Pharmacist",
+            "text": "Hello. Can I help you?"
+          },
+          {
+            "speaker": "Tourist",
+            "text": "Yes, please. I have a cold and a sore throat. Do you have anything for it?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "Try these tablets. Take two tablets three times a day, after meals."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "Can I take them with coffee?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "It's better with water. And you shouldn't drive. They can make you sleepy."
+          },
+          {
+            "speaker": "Tourist",
+            "text": "OK, thank you. How much are they?"
+          },
+          {
+            "speaker": "Pharmacist",
+            "text": "Eighty-five lira. Get well soon!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How often should the tourist take the tablets?",
+            "options": [
+              "Once a day",
+              "Twice a day",
+              "Three times a day"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"three times a day, after meals\"",
+            "id": "a2-u05-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why shouldn't the tourist drive?",
+            "options": [
+              "The tablets can make you sleepy.",
+              "The roads are dangerous.",
+              "There's no car."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"They can make you sleepy.\"",
+            "id": "a2-u05-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İlaç istemek:**\n\n- Do you have anything **for** a headache / a cough?\n- Can I have something **for** my stomach?\n- Do I need a prescription?\n\n**Talimatları anlamak:**\n\n| İfade | Anlam |\n|---|---|\n| once / twice / three times a day | günde bir / iki / üç kez |\n| before / after meals | yemeklerden önce / sonra |\n| with water | su ile |\n| on an empty stomach | aç karnına |\n| every four hours | dört saatte bir |\n| Don't take more than ... | ...'dan fazla almayın |\n\n**Sağlıklı yaşam için:** eat healthily, get enough sleep, do exercise, drink plenty of water, avoid stress",
+        "examples": [
+          {
+            "en": "Do you have anything for a sore throat?",
+            "tr": "Boğaz ağrısı için bir şeyiniz var mı?"
+          },
+          {
+            "en": "Take one tablet every six hours.",
+            "tr": "Altı saatte bir bir tablet alın."
+          },
+          {
+            "en": "Don't take more than four tablets a day.",
+            "tr": "Günde dört tabletten fazla almayın."
+          }
+        ],
+        "turkishNote": "\"Günde iki kez\" = twice a day (two times a day da anlaşılır ama twice daha doğaldır). \"Baş ağrısı için\" = for a headache (against değil). \"İlaç içmek\" İngilizcede take medicine'dir: drink medicine sadece şurup için kullanılabilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Günde iki kez\"",
+          "options": [
+            "two a day",
+            "twice a day",
+            "double a day"
+          ],
+          "answerIndex": 1,
+          "explanation": "twice a day.",
+          "id": "a2-u05-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Do you have anything against a headache?",
+            "Do you have anything for a headache?"
+          ],
+          "answerIndex": 1,
+          "explanation": "something for + şikayet.",
+          "id": "a2-u05-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"İlacımı aldım.\"",
+          "options": [
+            "I drank my medicine.",
+            "I took my medicine."
+          ],
+          "answerIndex": 1,
+          "explanation": "take medicine.",
+          "id": "a2-u05-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Take one tablet ___ meals. (yemeklerden sonra)",
+          "answers": [
+            "after"
+          ],
+          "explanation": "after meals.",
+          "id": "a2-u05-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Take these tablets on an empty ___. (aç karnına)",
+          "answers": [
+            "stomach"
+          ],
+          "explanation": "on an empty stomach.",
+          "id": "a2-u05-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Don't take ___ than six tablets a day. (fazla)",
+          "answers": [
+            "more"
+          ],
+          "explanation": "more than.",
+          "id": "a2-u05-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Take",
+            "two",
+            "tablets",
+            "three",
+            "times",
+            "a",
+            "day"
+          ],
+          "answer": "Take two tablets three times a day.",
+          "explanation": "Take + miktar + sıklık.",
+          "translation": "Günde üç kez iki tablet alın.",
+          "id": "a2-u05-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Take one spoonful of this syrup every four hours. Don't take it on an empty stomach.",
+          "prompt": "Şurup ne sıklıkla alınmalı?",
+          "options": [
+            "Dört saatte bir",
+            "Günde dört kez",
+            "Aç karnına"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"every four hours\"",
+          "id": "a2-u05-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Boğaz ağrısı için bir şeyiniz var mı?\"",
+          "accepted": [
+            "Do you have anything for a sore throat?",
+            "Do you have anything for a sore throat",
+            "Have you got anything for a sore throat?",
+            "Have you got anything for a sore throat"
+          ],
+          "explanation": "Do you have anything for + a sore throat?",
+          "id": "a2-u05-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "eat",
+              "right": "healthily"
+            },
+            {
+              "left": "get enough",
+              "right": "sleep"
+            },
+            {
+              "left": "drink plenty of",
+              "right": "water"
+            },
+            {
+              "left": "avoid",
+              "right": "stress"
+            }
+          ],
+          "explanation": "Sağlıklı yaşam kalıplarını eşleştirin.",
+          "id": "a2-u05-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI eczacı. Bir şikayetinizi anlatın ve ilaç isteyin; ilacı nasıl kullanacağınızı sorun, eczacının talimatlarını tekrar ederek kontrol edin ve fiyatını sorun.",
+          "modelAnswer": "Hello. I have a headache and a temperature. Do you have anything for it? How often should I take them? So, one tablet every six hours, after meals. Can I drive? How much is it?",
+          "rubric": [
+            "İlaç isteme kalıbı",
+            "Talimatları anladı ve tekrar etti",
+            "Should I...? soruları"
+          ]
+        },
+        "id": "a2-u05-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Başım ağrıyor.\"",
+        "options": [
+          "I have a headache.",
+          "I have a head ache me."
+        ],
+        "answerIndex": 0,
+        "explanation": "I have a headache.",
+        "id": "a2-u05-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "My back hurt.",
+          "My back hurts."
+        ],
+        "answerIndex": 1,
+        "explanation": "Tekil → hurts",
+        "id": "a2-u05-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "I have a sore ___. I can't swallow. (boğaz)",
+        "answers": [
+          "throat"
+        ],
+        "explanation": "sore throat",
+        "id": "a2-u05-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'm allergic ___ penicillin.",
+        "answers": [
+          "to"
+        ],
+        "explanation": "allergic to",
+        "id": "a2-u05-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I have a flu.",
+          "I have flu."
+        ],
+        "answerIndex": 1,
+        "explanation": "flu",
+        "id": "a2-u05-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "You should to see a doctor.",
+          "You should see a doctor."
+        ],
+        "answerIndex": 1,
+        "explanation": "should + yalın fiil",
+        "id": "a2-u05-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "You ___ smoke. It's bad for you. (shouldn't)",
+        "answers": [
+          "shouldn't",
+          "should not"
+        ],
+        "explanation": "shouldn't",
+        "id": "a2-u05-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Should I call him?\" (Hayır.)",
+        "options": [
+          "No, you shouldn't.",
+          "No, you don't."
+        ],
+        "answerIndex": 0,
+        "explanation": "No, you shouldn't.",
+        "id": "a2-u05-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Why don't you ___ a day off? (take)",
+        "answers": [
+          "take"
+        ],
+        "explanation": "Why don't you + yalın fiil",
+        "id": "a2-u05-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "If I ___ you, I'd rest.",
+        "answers": [
+          "were"
+        ],
+        "explanation": "If I were you",
+        "id": "a2-u05-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Günde üç kez\"",
+        "options": [
+          "three times a day",
+          "three a day times"
+        ],
+        "answerIndex": 0,
+        "explanation": "three times a day",
+        "id": "a2-u05-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"İlaç almak\"",
+        "options": [
+          "drink medicine",
+          "take medicine"
+        ],
+        "answerIndex": 1,
+        "explanation": "take medicine",
+        "id": "a2-u05-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "You have a high temperature. You should stay in bed for two days and take these tablets twice a day.",
+        "prompt": "Kaç gün yatakta kalmalı?",
+        "options": [
+          "Bir",
+          "İki",
+          "Üç"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"stay in bed for two days\"",
+        "id": "a2-u05-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Ne yapmalıyım?\"",
+        "accepted": [
+          "What should I do?",
+          "What should I do"
+        ],
+        "explanation": "What should I do?",
+        "id": "a2-u05-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Hasta bir arkadaşınıza mesaj yazın: geçmiş olsun deyin, nasıl olduğunu sorun ve en az 4 tavsiye verin (farklı kalıplarla). 50–70 kelime.",
+        "modelAnswer": "Hi Ece, I heard you have flu. Get well soon! How do you feel today? You should stay in bed and rest. You shouldn't go to work this week. Why don't you drink some hot soup? My mum makes great chicken soup. If I were you, I'd call the doctor if the temperature doesn't go down. Take care!",
+        "rubric": [
+          "Geçmiş olsun ve soru",
+          "should / shouldn't doğru",
+          "Why don't you / If I were you",
+          "Sağlık kelimeleri"
+        ],
+        "id": "a2-u05-t15"
+      }
+    ]
+  }
+}
