@@ -1,0 +1,1411 @@
+{
+  "id": "b1-u07",
+  "level": "B1",
+  "number": 7,
+  "title": "Aktarma",
+  "titleEn": "Reported Speech",
+  "canDo": "Başkalarının söylediklerini dolaylı anlatımla aktarabilir, say ve tell'i doğru kullanabilir, zaman, zamir ve zaman ifadelerini değiştirebilir ve explain, promise, complain gibi fiillerle konuşmaları özetleyebilirim.",
+  "grammar": [
+    "say ve tell",
+    "dolaylı anlatım: present → past",
+    "zaman kaydırma: perfect, past, will, can",
+    "zamir ve zaman ifadesi değişiklikleri",
+    "aktarma fiilleri + that"
+  ],
+  "vocabularyThemes": [
+    "iletişim fiilleri",
+    "mesajlar ve dedikodu",
+    "iş yeri iletişimi"
+  ],
+  "liveClass": {
+    "title": "Kim ne dedi?",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler \"kulaktan kulağa\" oyununun gelişmiş bir halini oynar: Her öğrenci kısa bir cümle duyar ve bir sonrakine He said that... / She told me that... ile aktarır. Sonra çiftler halinde birbirlerini hafta sonları hakkında röportaj yapar ve partnerlerinin söylediklerini aktarma fiilleriyle (explained, complained, admitted) sınıfa anlatır."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u07-v01",
+      "en": "say",
+      "tr": "söylemek, demek",
+      "example": "She said that she was tired.",
+      "exampleTr": "Yorgun olduğunu söyledi.",
+      "note": "say → said; say (to sb)"
+    },
+    {
+      "id": "b1-u07-v02",
+      "en": "tell",
+      "tr": "söylemek, anlatmak (birine)",
+      "example": "He told me that he was busy.",
+      "exampleTr": "Bana meşgul olduğunu söyledi.",
+      "note": "tell → told; tell + kişi"
+    },
+    {
+      "id": "b1-u07-v03",
+      "en": "explain",
+      "tr": "açıklamak",
+      "example": "She explained that the shop was closed.",
+      "exampleTr": "Dükkânın kapalı olduğunu açıkladı."
+    },
+    {
+      "id": "b1-u07-v04",
+      "en": "promise",
+      "tr": "söz vermek",
+      "example": "He promised that he would call.",
+      "exampleTr": "Arayacağına söz verdi."
+    },
+    {
+      "id": "b1-u07-v05",
+      "en": "complain",
+      "tr": "şikâyet etmek",
+      "example": "They complained that the room was cold.",
+      "exampleTr": "Odanın soğuk olduğundan şikâyet ettiler.",
+      "note": "complaint (şikâyet)"
+    },
+    {
+      "id": "b1-u07-v06",
+      "en": "admit",
+      "tr": "itiraf etmek, kabul etmek",
+      "example": "He admitted that he had made a mistake.",
+      "exampleTr": "Hata yaptığını kabul etti."
+    },
+    {
+      "id": "b1-u07-v07",
+      "en": "agree",
+      "tr": "katılmak, kabul etmek",
+      "example": "She agreed that it was a good idea.",
+      "exampleTr": "Bunun iyi bir fikir olduğunu kabul etti."
+    },
+    {
+      "id": "b1-u07-v08",
+      "en": "reply",
+      "tr": "cevap vermek",
+      "example": "He replied that he didn't know.",
+      "exampleTr": "Bilmediğini cevap verdi."
+    },
+    {
+      "id": "b1-u07-v09",
+      "en": "mention",
+      "tr": "bahsetmek",
+      "example": "She mentioned that she was moving.",
+      "exampleTr": "Taşınacağından bahsetti."
+    },
+    {
+      "id": "b1-u07-v10",
+      "en": "announce",
+      "tr": "duyurmak",
+      "example": "The manager announced that the office would close.",
+      "exampleTr": "Müdür ofisin kapanacağını duyurdu."
+    },
+    {
+      "id": "b1-u07-v11",
+      "en": "whisper",
+      "tr": "fısıldamak",
+      "example": "He whispered that he loved her.",
+      "exampleTr": "Onu sevdiğini fısıldadı."
+    },
+    {
+      "id": "b1-u07-v12",
+      "en": "shout",
+      "tr": "bağırmak",
+      "example": "Someone shouted that there was a fire.",
+      "exampleTr": "Biri yangın olduğunu bağırdı."
+    },
+    {
+      "id": "b1-u07-v13",
+      "en": "gossip",
+      "tr": "dedikodu; dedikodu yapmak",
+      "example": "I don't like gossip.",
+      "exampleTr": "Dedikoduyu sevmem."
+    },
+    {
+      "id": "b1-u07-v14",
+      "en": "rumour",
+      "tr": "söylenti",
+      "example": "There's a rumour that she's leaving.",
+      "exampleTr": "Gideceğine dair bir söylenti var."
+    },
+    {
+      "id": "b1-u07-v15",
+      "en": "message",
+      "tr": "mesaj",
+      "example": "Can I take a message?",
+      "exampleTr": "Mesaj bırakmak ister misiniz?"
+    },
+    {
+      "id": "b1-u07-v16",
+      "en": "pass on",
+      "tr": "iletmek",
+      "example": "I'll pass on your message.",
+      "exampleTr": "Mesajını iletirim."
+    },
+    {
+      "id": "b1-u07-v17",
+      "en": "keep a secret",
+      "tr": "sır saklamak",
+      "example": "Can you keep a secret?",
+      "exampleTr": "Sır saklayabilir misin?"
+    },
+    {
+      "id": "b1-u07-v18",
+      "en": "tell the truth",
+      "tr": "doğruyu söylemek",
+      "example": "Please tell me the truth.",
+      "exampleTr": "Lütfen bana doğruyu söyle."
+    },
+    {
+      "id": "b1-u07-v19",
+      "en": "the day before",
+      "tr": "bir önceki gün",
+      "example": "She said she had seen him the day before.",
+      "exampleTr": "Onu bir önceki gün gördüğünü söyledi.",
+      "note": "yesterday → the day before"
+    },
+    {
+      "id": "b1-u07-v20",
+      "en": "the next day",
+      "tr": "ertesi gün",
+      "example": "He said he would come the next day.",
+      "exampleTr": "Ertesi gün geleceğini söyledi.",
+      "note": "tomorrow → the next day"
+    },
+    {
+      "id": "b1-u07-v21",
+      "en": "that day",
+      "tr": "o gün",
+      "example": "She said she was busy that day.",
+      "exampleTr": "O gün meşgul olduğunu söyledi.",
+      "note": "today → that day"
+    },
+    {
+      "id": "b1-u07-v22",
+      "en": "according to",
+      "tr": "-e göre",
+      "example": "According to Ali, the meeting is at ten.",
+      "exampleTr": "Ali'ye göre toplantı saat onda."
+    },
+    {
+      "id": "b1-u07-v23",
+      "en": "misunderstand",
+      "tr": "yanlış anlamak",
+      "example": "I think you misunderstood me.",
+      "exampleTr": "Sanırım beni yanlış anladın.",
+      "note": "misunderstanding"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u07-l1",
+      "number": 1,
+      "title": "Ne dedi?",
+      "goal": "say ve tell'i doğru kullanarak başkasının söylediklerini aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ofiste",
+        "lines": [
+          {
+            "speaker": "Burak",
+            "text": "Did you talk to Seda this morning?"
+          },
+          {
+            "speaker": "Gül",
+            "text": "Yes. She said she was really tired."
+          },
+          {
+            "speaker": "Burak",
+            "text": "Why? What's wrong?"
+          },
+          {
+            "speaker": "Gül",
+            "text": "She told me that her neighbours had a party until three in the morning."
+          },
+          {
+            "speaker": "Burak",
+            "text": "Poor Seda. Is she coming to the meeting?"
+          },
+          {
+            "speaker": "Gül",
+            "text": "She said she wanted to go home early, so I don't think so."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why was Seda tired?",
+            "options": [
+              "She worked late.",
+              "Her neighbours had a party.",
+              "She was ill."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"her neighbours had a party until three in the morning\"",
+            "id": "b1-u07-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Seda want to do?",
+            "options": [
+              "Go home early",
+              "Go to the party",
+              "Go to the meeting"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"She said she wanted to go home early\"",
+            "id": "b1-u07-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Dolaylı anlatım (reported speech)**, birinin söylediğini **onun kelimeleriyle değil**, kendi cümlemizle aktarmaktır.\n\n| Doğrudan | Dolaylı |\n|---|---|\n| Seda: \"I **am** tired.\" | Seda said (that) she **was** tired. |\n| Seda: \"I **want** to go home.\" | She told me (that) she **wanted** to go home. |\n\nAktarma fiili geçmişte olduğu için (said, told) **zaman bir adım geriye** gider: present simple → **past simple**, present continuous → **past continuous**.\n\n- \"I'm working.\" → He said he **was working**.\n\n**say mi tell mi?**\n\n| say | tell |\n|---|---|\n| say (that) ... | tell **+ kişi** (that) ... |\n| She **said** she was tired. | She **told me** she was tired. |\n| She said **to me** ... (az kullanılır) | ~~She told that...~~ |\n\n**that** günlük konuşmada genellikle atlanır.",
+        "examples": [
+          {
+            "en": "He said he was hungry.",
+            "tr": "Aç olduğunu söyledi."
+          },
+          {
+            "en": "She told us she lived in Ankara.",
+            "tr": "Bize Ankara'da yaşadığını söyledi."
+          },
+          {
+            "en": "They said they were waiting for a taxi.",
+            "tr": "Taksi beklediklerini söylediler."
+          }
+        ],
+        "turkishNote": "Türkçede \"Yorgun olduğunu söyledi\" derken zaman değişmez gibi görünür, ama İngilizcede said'den sonra zaman geriye kayar: \"She said she is tired\" yerine \"She said she was tired\". Ayrıca \"söylemek\" fiilinin iki karşılığı vardır: kişi varsa tell (told me), kişi yoksa say (said)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "She ___ me she was busy.",
+          "options": [
+            "said",
+            "told"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kişi var → told.",
+          "id": "b1-u07-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "He ___ he was hungry.",
+          "options": [
+            "said",
+            "told"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kişi yok → said.",
+          "id": "b1-u07-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi yanlış?",
+          "options": [
+            "She told that she was tired.",
+            "She said that she was tired.",
+            "She told me that she was tired."
+          ],
+          "answerIndex": 0,
+          "explanation": "tell + kişi zorunlu.",
+          "id": "b1-u07-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I live in Izmir.\" → He said he ___ in Izmir.",
+          "options": [
+            "lives",
+            "lived",
+            "is living"
+          ],
+          "answerIndex": 1,
+          "explanation": "Present → past.",
+          "id": "b1-u07-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I'm cooking.\" → She said she ___ cooking.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "am → was.",
+          "id": "b1-u07-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"We like it.\" → They said they ___ it.",
+          "answers": [
+            "liked"
+          ],
+          "explanation": "like → liked.",
+          "id": "b1-u07-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ us that he worked in a bank.",
+          "answers": [
+            "told"
+          ],
+          "explanation": "told + us.",
+          "id": "b1-u07-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "told",
+            "She",
+            "me",
+            "she",
+            "was",
+            "tired"
+          ],
+          "answer": "She told me she was tired.",
+          "explanation": "Özne + told + kişi + cümle.",
+          "translation": "Bana yorgun olduğunu söyledi.",
+          "id": "b1-u07-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I saw Murat yesterday. He said he was looking for a new job because he didn't like his manager.",
+          "prompt": "Murat neden yeni iş arıyor?",
+          "options": [
+            "Maaşı düşük",
+            "Müdürünü sevmiyor",
+            "Şehir değiştiriyor"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"he didn't like his manager\"",
+          "id": "b1-u07-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Aktarın: Ayşe: \"I'm very happy.\"",
+          "accepted": [
+            "Ayşe said she was very happy.",
+            "Ayşe said she was very happy",
+            "Ayşe said that she was very happy.",
+            "Ayşe said that she was very happy",
+            "She said she was very happy.",
+            "She said she was very happy",
+            "She said that she was very happy.",
+            "She said that she was very happy"
+          ],
+          "explanation": "Ayşe said (that) she was very happy.",
+          "id": "b1-u07-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size 5 kısa cümle söyleyecek (I'm hungry. I live near the sea. I'm learning Japanese...). Her birini önce said, sonra told me ile aktarın.",
+          "modelAnswer": "You said you were hungry. You told me you lived near the sea. You said you were learning Japanese. You told me you didn't like cold weather.",
+          "rubric": [
+            "said / told doğru",
+            "Zaman kaydırma",
+            "Zamir değişikliği (I → you/he/she)"
+          ]
+        },
+        "id": "b1-u07-l1-use"
+      }
+    },
+    {
+      "id": "b1-u07-l2",
+      "number": 2,
+      "title": "Zaman geri gider",
+      "goal": "Present perfect, past simple, will ve can içeren cümleleri doğru zaman kaydırmasıyla aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Müşteri temsilcisinin notları",
+        "body": "Call 1 – Mr Kaya\nMr Kaya said he had ordered a sofa three weeks ago, but it hadn't arrived. He told me he had called twice already. I explained that the delivery company would bring it on Friday.\n\nCall 2 – Ms Er\nMs Er said she couldn't log in to her account. She said she had tried five times. I told her I would send her a new password by email.\n\nCall 3 – Mr Tan\nMr Tan said he was very happy with his new washing machine. He said it was quieter than his old one and he would recommend us to his friends.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was Mr Kaya's problem?",
+            "options": [
+              "His sofa was broken.",
+              "His sofa hadn't arrived.",
+              "He wanted a refund."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he had ordered a sofa three weeks ago, but it hadn't arrived\"",
+            "id": "b1-u07-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the customer service agent promise Ms Er?",
+            "options": [
+              "A refund",
+              "A new password by email",
+              "A phone call"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I would send her a new password by email\"",
+            "id": "b1-u07-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Zaman kaydırma tablosu:**\n\n| Doğrudan | Dolaylı |\n|---|---|\n| present simple: \"I **work**.\" | past simple: he said he **worked** |\n| present continuous: \"I'**m working**.\" | past continuous: he said he **was working** |\n| present perfect: \"I'**ve ordered** it.\" | past perfect: he said he **had ordered** it |\n| past simple: \"I **ordered** it.\" | past perfect: he said he **had ordered** it |\n| **will**: \"I'**ll** call.\" | **would**: she said she **would** call |\n| **can**: \"I **can't** log in.\" | **could**: she said she **couldn't** log in |\n| **am/is/are going to**: \"I'm going to stay.\" | **was/were going to**: he said he **was going to** stay |\n\n**Not:** Günlük konuşmada past simple bazen değişmeden kalabilir: He said he **ordered** it last week. ✓\n\n**Hâlâ doğru olan bilgiler** değişmeyebilir: She said she **lives** in Bursa. (Hâlâ orada yaşıyor.)",
+        "examples": [
+          {
+            "en": "\"I've lost my keys.\" → She said she had lost her keys.",
+            "tr": "Anahtarlarını kaybettiğini söyledi."
+          },
+          {
+            "en": "\"I'll help you.\" → He said he would help me.",
+            "tr": "Bana yardım edeceğini söyledi."
+          },
+          {
+            "en": "\"I can swim.\" → She said she could swim.",
+            "tr": "Yüzebildiğini söyledi."
+          }
+        ],
+        "turkishNote": "Türkçede \"Arayacağını söyledi\" (gelecek) ve \"Aradığını söyledi\" (geçmiş) diyerek zamanı ekle belirtiriz. İngilizcede will → would, past → past perfect kaydırması yapılır. \"He said he will call\" çok yaygın bir hatadır; doğrusu \"He said he would call\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'll call you.\" → She said she ___ call me.",
+          "options": [
+            "will",
+            "would"
+          ],
+          "answerIndex": 1,
+          "explanation": "will → would.",
+          "id": "b1-u07-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I can't come.\" → He said he ___ come.",
+          "options": [
+            "can't",
+            "couldn't"
+          ],
+          "answerIndex": 1,
+          "explanation": "can → could.",
+          "id": "b1-u07-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I've finished.\" → She said she ___ finished.",
+          "options": [
+            "has",
+            "had"
+          ],
+          "answerIndex": 1,
+          "explanation": "present perfect → past perfect.",
+          "id": "b1-u07-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I lost my phone.\" → He said he ___ his phone.",
+          "options": [
+            "had lost",
+            "has lost"
+          ],
+          "answerIndex": 0,
+          "explanation": "past → past perfect.",
+          "id": "b1-u07-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I'm going to leave.\" → She said she ___ going to leave.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "am going to → was going to.",
+          "id": "b1-u07-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"We'll be late.\" → They said they ___ be late.",
+          "answers": [
+            "would",
+            "'d"
+          ],
+          "explanation": "will → would.",
+          "id": "b1-u07-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I've never been to Rome.\" → He said he had never ___ to Rome.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "had + V3.",
+          "id": "b1-u07-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I can speak French.\" → She said she ___ speak French.",
+          "answers": [
+            "could"
+          ],
+          "explanation": "can → could.",
+          "id": "b1-u07-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "My brother called this morning. He said he had passed his driving test and he would drive us to the beach at the weekend!",
+          "prompt": "Kardeşi ne yapmış?",
+          "options": [
+            "Ehliyet sınavını geçmiş",
+            "Araba almış",
+            "Plaja gitmiş"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"he had passed his driving test\"",
+          "id": "b1-u07-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Aktarın: Can: \"I'll pay you back tomorrow.\" (He said...)",
+          "accepted": [
+            "He said he would pay me back the next day.",
+            "He said he would pay me back the next day",
+            "He said that he would pay me back the next day.",
+            "He said that he would pay me back the next day",
+            "He said he would pay me back the following day.",
+            "He said he would pay me back the following day",
+            "He said he'd pay me back the next day.",
+            "He said he'd pay me back the next day",
+            "He said he would pay me back tomorrow.",
+            "He said he would pay me back tomorrow",
+            "He said that he would pay me back the following day.",
+            "He said that he would pay me back the following day"
+          ],
+          "explanation": "He said he would pay me back the next day.",
+          "id": "b1-u07-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son bir haftada biriyle yaptığınız telefon görüşmesini ya da mesajlaşmayı aktarın. Karşınızdakinin söylediği en az 5 şeyi will → would, can → could, present perfect → past perfect kaydırmalarıyla anlatın.",
+          "modelAnswer": "My friend Elif called me on Sunday. She said she had found a new flat. She told me it was near the sea and she would move next month. She said she couldn't carry everything alone, so I said I would help her. She said she had already bought a new sofa!",
+          "rubric": [
+            "Zaman kaydırma doğru",
+            "said / told",
+            "Akıcı aktarım"
+          ]
+        },
+        "id": "b1-u07-l2-use"
+      }
+    },
+    {
+      "id": "b1-u07-l3",
+      "number": 3,
+      "title": "Burada, bugün, yarın",
+      "goal": "Aktarırken zamirleri, zaman ve yer ifadelerini doğru şekilde değiştirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kaçırılan mesaj",
+        "lines": [
+          {
+            "speaker": "Tuna",
+            "text": "Did Asya call? I was out all day yesterday."
+          },
+          {
+            "speaker": "Mom",
+            "text": "Yes, she called around five. She said she was at the station."
+          },
+          {
+            "speaker": "Tuna",
+            "text": "The station? Why?"
+          },
+          {
+            "speaker": "Mom",
+            "text": "She said she was leaving for Izmir that evening and she would be back the next week."
+          },
+          {
+            "speaker": "Tuna",
+            "text": "Oh no! Did she say anything else?"
+          },
+          {
+            "speaker": "Mom",
+            "text": "She told me she had left your book on the table there, at the café."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where was Asya when she called?",
+            "options": [
+              "At home",
+              "At the station",
+              "At the café"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She said she was at the station.\"",
+            "id": "b1-u07-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "When will Asya be back?",
+            "options": [
+              "The next day",
+              "The next week",
+              "That evening"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"she would be back the next week\"",
+            "id": "b1-u07-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Aktarırken **kişi, yer ve zaman** değişebilir, çünkü konuşan ve zaman farklıdır.\n\n**Zamirler:**\n\n- Asya: \"**I** left **your** book.\" → She said **she** had left **my** book.\n\n**Zaman ve yer ifadeleri** (farklı bir zamanda / yerde aktarıyorsak):\n\n| Doğrudan | Dolaylı |\n|---|---|\n| today | **that day** |\n| tonight | **that night** |\n| tomorrow | **the next day** / the following day |\n| yesterday | **the day before** / the previous day |\n| next week | **the next week** / the following week |\n| last week | **the week before** |\n| now | **then** / at that time |\n| here | **there** |\n| this | **that** |\n| ago | **before** |\n\n**Aynı gün ve aynı yerde** aktarıyorsak değişmeyebilir:\n\n- (Bugün) Ali said he would come **tomorrow**. ✓",
+        "examples": [
+          {
+            "en": "\"I saw him yesterday.\" → She said she had seen him the day before.",
+            "tr": "Onu bir önceki gün gördüğünü söyledi."
+          },
+          {
+            "en": "\"I'm leaving tonight.\" → He said he was leaving that night.",
+            "tr": "O gece gideceğini söyledi."
+          },
+          {
+            "en": "\"I'll meet you here.\" → She said she would meet me there.",
+            "tr": "Benimle orada buluşacağını söyledi."
+          }
+        ],
+        "turkishNote": "Türkçede de \"yarın gelirim\" dediğini bir hafta sonra anlatırken \"ertesi gün geleceğini söyledi\" deriz; mantık aynıdır. Kendinize sorun: Konuşmayı aktardığım an ve yer, konuşmanın yapıldığı an ve yerle aynı mı? Değilse ifadeleri değiştirin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"tomorrow\" (bir hafta sonra aktarırken)",
+          "options": [
+            "tomorrow",
+            "the next day",
+            "the day before"
+          ],
+          "answerIndex": 1,
+          "explanation": "tomorrow → the next day.",
+          "id": "b1-u07-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"yesterday\"",
+          "options": [
+            "the day before",
+            "the next day",
+            "that day"
+          ],
+          "answerIndex": 0,
+          "explanation": "yesterday → the day before.",
+          "id": "b1-u07-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"here\"",
+          "options": [
+            "there",
+            "here",
+            "that"
+          ],
+          "answerIndex": 0,
+          "explanation": "here → there.",
+          "id": "b1-u07-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"two weeks ago\"",
+          "options": [
+            "two weeks before",
+            "two weeks later",
+            "two weeks ago"
+          ],
+          "answerIndex": 0,
+          "explanation": "ago → before.",
+          "id": "b1-u07-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I'm busy today.\" → She said she was busy ___ day.",
+          "answers": [
+            "that"
+          ],
+          "explanation": "today → that day.",
+          "id": "b1-u07-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I'll call you tonight.\" → He said he would call me that ___.",
+          "answers": [
+            "night",
+            "evening"
+          ],
+          "explanation": "tonight → that night.",
+          "id": "b1-u07-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I love your dress.\" → She said she loved ___ dress. (benim)",
+          "answers": [
+            "my"
+          ],
+          "explanation": "your → my.",
+          "id": "b1-u07-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"I saw her last week.\" → He said he had seen her the week ___.",
+          "answers": [
+            "before"
+          ],
+          "explanation": "last week → the week before.",
+          "id": "b1-u07-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When I spoke to Kemal on Monday, he said he would finish the report the next day. But it's Friday now and I still haven't got it!",
+          "prompt": "Kemal raporu ne zaman bitireceğini söylemişti?",
+          "options": [
+            "Pazartesi",
+            "Salı (ertesi gün)",
+            "Cuma"
+          ],
+          "answerIndex": 1,
+          "explanation": "Pazartesi konuştular, \"the next day\" = salı.",
+          "id": "b1-u07-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Aktarın (bir hafta sonra): Deniz: \"I'll see you tomorrow.\"",
+          "accepted": [
+            "Deniz said she would see me the next day.",
+            "Deniz said she would see me the next day",
+            "Deniz said he would see me the next day.",
+            "Deniz said he would see me the next day",
+            "Deniz said they would see me the next day.",
+            "Deniz said they would see me the next day",
+            "Deniz said she would see me the following day.",
+            "Deniz said she would see me the following day",
+            "Deniz said he would see me the following day.",
+            "Deniz said he would see me the following day",
+            "Deniz said that she would see me the next day.",
+            "Deniz said that she would see me the next day",
+            "Deniz said that he would see me the next day.",
+            "Deniz said that he would see me the next day"
+          ],
+          "explanation": "Deniz said ... would see me the next day.",
+          "id": "b1-u07-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Geçen hafta biriyle yaptığınız bir konuşmayı aktarın. today, tomorrow, yesterday, here, this gibi ifadeleri dolaylı anlatıma uygun şekilde değiştirin (that day, the next day...). En az 5 cümle.",
+          "modelAnswer": "Last Tuesday my boss called me into her office. She said she had read my report the day before. She told me she was very happy with it. She said there would be a meeting the next day and she wanted me to present it there. She also said I could leave early that day!",
+          "rubric": [
+            "Zaman / yer ifadeleri değişti",
+            "Zamirler doğru",
+            "Zaman kaydırma"
+          ]
+        },
+        "id": "b1-u07-l3-use"
+      }
+    },
+    {
+      "id": "b1-u07-l4",
+      "number": 4,
+      "title": "Söz verdi, şikâyet etti",
+      "goal": "explain, promise, complain, admit gibi aktarma fiilleriyle söylenenleri daha net aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Apartman toplantısından notlar",
+        "body": "Last night's building meeting was a long one.\n\nMrs Avcı complained that the lift had been out of order for two weeks. The building manager apologised and explained that the repair company was very busy. He promised that the lift would work again by Monday.\n\nMr Öz mentioned that some people were leaving rubbish bags in the corridor. Nobody admitted that they had done it, but everyone agreed that it was a problem.\n\nFinally, the manager announced that the building would get a new security camera next month. Everyone replied that it was a great idea.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Mrs Avcı complain about?",
+            "options": [
+              "The rubbish",
+              "The lift",
+              "The camera"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the lift had been out of order\"",
+            "id": "b1-u07-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the manager promise?",
+            "options": [
+              "A new lift",
+              "The lift would work again by Monday",
+              "A new camera this week"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He promised that the lift would work again by Monday.\"",
+            "id": "b1-u07-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**said** yerine daha **anlamlı aktarma fiilleri** kullanmak anlatımı zenginleştirir. Hepsi **(that) + cümle** ile kullanılabilir.\n\n| Fiil | Anlam | Örnek |\n|---|---|---|\n| **explain** | açıklamak | He **explained that** the company was busy. |\n| **promise** | söz vermek | He **promised that** it would work by Monday. |\n| **complain** | şikâyet etmek | She **complained that** the lift was broken. |\n| **admit** | kabul / itiraf etmek | He **admitted that** he had forgotten. |\n| **agree** | katılmak | Everyone **agreed that** it was a problem. |\n| **mention** | bahsetmek | She **mentioned that** she was moving. |\n| **announce** | duyurmak | The manager **announced that** ... |\n| **reply** | cevap vermek | He **replied that** he didn't know. |\n\n**Dikkat:** explain **+ kişi** olmaz, **to + kişi** gerekir:\n\n- He explained **to me** that ... (~~He explained me~~)",
+        "examples": [
+          {
+            "en": "She admitted that she had broken the glass.",
+            "tr": "Bardağı kırdığını itiraf etti."
+          },
+          {
+            "en": "My son promised that he would tidy his room.",
+            "tr": "Oğlum odasını toplayacağına söz verdi."
+          },
+          {
+            "en": "The teacher explained to us that the exam was easy.",
+            "tr": "Öğretmen bize sınavın kolay olduğunu açıkladı."
+          }
+        ],
+        "turkishNote": "Türkçede \"Bana açıkladı\" dediğimiz için \"He explained me\" demek çok yaygın bir hatadır. explain fiilinden sonra kişi gelecekse to kullanılır: He explained to me. Aynı kural say için de geçerlidir: He said to me."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He explained me the problem.",
+            "He explained the problem to me."
+          ],
+          "answerIndex": 1,
+          "explanation": "explain + to + kişi.",
+          "id": "b1-u07-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'll help you, I promise!\" → He ___ that he would help me.",
+          "options": [
+            "complained",
+            "promised",
+            "admitted"
+          ],
+          "answerIndex": 1,
+          "explanation": "promise.",
+          "id": "b1-u07-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"OK, it was me. I ate the cake.\" → She ___ that she had eaten the cake.",
+          "options": [
+            "admitted",
+            "announced",
+            "replied"
+          ],
+          "answerIndex": 0,
+          "explanation": "admit.",
+          "id": "b1-u07-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The food is cold!\" → He ___ that the food was cold.",
+          "options": [
+            "agreed",
+            "complained",
+            "promised"
+          ],
+          "answerIndex": 1,
+          "explanation": "complain.",
+          "id": "b1-u07-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Everyone ___ that it was a good idea. (katıldı)",
+          "answers": [
+            "agreed"
+          ],
+          "explanation": "agree.",
+          "id": "b1-u07-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "She ___ that she was moving to Spain. (bahsetti)",
+          "answers": [
+            "mentioned"
+          ],
+          "explanation": "mention.",
+          "id": "b1-u07-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The pilot ___ that we would land in ten minutes. (duyurdu)",
+          "answers": [
+            "announced"
+          ],
+          "explanation": "announce.",
+          "id": "b1-u07-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "He explained ___ us that the road was closed.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "explain to.",
+          "id": "b1-u07-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "At the hotel reception, a guest complained that there was no hot water. The manager apologised and explained that a pipe was broken. He promised that it would work again by the evening.",
+          "prompt": "Müdür neye söz verdi?",
+          "options": [
+            "Odayı değiştirmeye",
+            "Suyun akşama kadar geleceğine",
+            "Para iadesine"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"He promised that it would work again by the evening.\"",
+          "id": "b1-u07-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Aktarın: Elif: \"I'm sorry. I forgot your birthday.\" (admit)",
+          "accepted": [
+            "Elif admitted that she had forgotten my birthday.",
+            "Elif admitted that she had forgotten my birthday",
+            "Elif admitted she had forgotten my birthday.",
+            "Elif admitted she had forgotten my birthday",
+            "She admitted that she had forgotten my birthday.",
+            "She admitted that she had forgotten my birthday",
+            "She admitted she had forgotten my birthday.",
+            "She admitted she had forgotten my birthday",
+            "Elif admitted that she'd forgotten my birthday.",
+            "Elif admitted that she'd forgotten my birthday"
+          ],
+          "explanation": "Elif admitted (that) she had forgotten my birthday.",
+          "id": "b1-u07-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "İş yerinizde, okulunuzda ya da apartmanınızda yapılan bir toplantıyı (gerçek ya da hayali) anlatın. Kimin ne söylediğini en az 5 farklı aktarma fiiliyle aktarın: complain, explain, promise, admit, agree, announce.",
+          "modelAnswer": "At our team meeting last week, Ahmet complained that the office was too cold. The manager explained that the heating system was old. She promised that someone would fix it next month. Then Zehra admitted that she hadn't finished her part of the project. In the end, everyone agreed that we needed more time.",
+          "rubric": [
+            "En az 5 aktarma fiili",
+            "that + kaydırılmış zaman",
+            "explain to doğru"
+          ]
+        },
+        "id": "b1-u07-l4-use"
+      }
+    },
+    {
+      "id": "b1-u07-l5",
+      "number": 5,
+      "title": "Mesajını ileteyim",
+      "goal": "Telefon mesajlarını ve konuşmaları başkasına doğru ve özet bir şekilde aktarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Resepsiyonda",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Good morning, Ms Uslu. You had two calls while you were out."
+          },
+          {
+            "speaker": "Ms Uslu",
+            "text": "Oh, thank you. Who called?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "First, Mr Polat. He said he was going to be late for your meeting this afternoon. He explained that his flight was late."
+          },
+          {
+            "speaker": "Ms Uslu",
+            "text": "I see. And the other one?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Your daughter. She told me she had forgotten her keys and she would come here after school to get yours."
+          },
+          {
+            "speaker": "Ms Uslu",
+            "text": "Typical! Thanks for passing on the messages."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why will Mr Polat be late?",
+            "options": [
+              "He's ill.",
+              "His flight was delayed.",
+              "He forgot the meeting."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He explained that his flight was late.\"",
+            "id": "b1-u07-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What had Ms Uslu's daughter forgotten?",
+            "options": [
+              "Her phone",
+              "Her keys",
+              "Her school bag"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"she had forgotten her keys\"",
+            "id": "b1-u07-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Mesaj almak:**\n\n- **Can I take a message?** (Mesaj bırakmak ister misiniz?)\n- **I'll pass on the message.** / I'll tell her you called.\n- **Could you tell him (that)** I called?\n\n**Mesajı aktarmak:**\n\n| Kalıp | Örnek |\n|---|---|\n| X called. **He said (that)** ... | Mr Polat called. He said he was going to be late. |\n| **She asked me to tell you (that)** ... | She asked me to tell you that she'd be here at four. |\n| **According to** X, ... | According to Ali, the meeting is cancelled. |\n| **Apparently**, ... | Apparently, the flight was delayed. |\n\n**Özetlemek:** Her kelimeyi aktarmak gerekmez. **Önemli bilgiyi** seçin:\n\n- \"Hi, it's Polat. Look, I'm really sorry, but my flight's late, and, you know, I won't be there until four.\"\n- → **He said** his flight was late **and** he **wouldn't** be there until four.",
+        "examples": [
+          {
+            "en": "Your mum called. She said she would call back later.",
+            "tr": "Annen aradı. Sonra tekrar arayacağını söyledi."
+          },
+          {
+            "en": "According to the weather forecast, it's going to snow.",
+            "tr": "Hava durumuna göre kar yağacak."
+          },
+          {
+            "en": "He asked me to tell you that he's sorry.",
+            "tr": "Senden özür dilediğini söylememi istedi."
+          }
+        ],
+        "turkishNote": "\"... söylememi istedi\" yapısı İngilizcede \"asked me to tell you\" ile kurulur. \"According to\" kalıbından sonra kişinin ya da kaynağın adı gelir; \"according to me\" denmez, kendi fikriniz için \"in my opinion\" kullanılır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Telefonda: \"Mesaj bırakmak ister misiniz?\"",
+          "options": [
+            "Can I take a message?",
+            "Can I give a message?",
+            "Do you want to say me?"
+          ],
+          "answerIndex": 0,
+          "explanation": "Can I take a message?",
+          "id": "b1-u07-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kendi fikriniz için:",
+          "options": [
+            "According to me, ...",
+            "In my opinion, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "according to me denmez.",
+          "id": "b1-u07-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"... söylememi istedi\"",
+          "options": [
+            "She wanted me say you...",
+            "She asked me to tell you..."
+          ],
+          "answerIndex": 1,
+          "explanation": "asked me to tell you.",
+          "id": "b1-u07-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'll pass ___ the message.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "pass on.",
+          "id": "b1-u07-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ to Ali, the meeting is at ten. (-e göre)",
+          "answers": [
+            "According"
+          ],
+          "explanation": "According to.",
+          "id": "b1-u07-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Your dad called. He said he ___ (will) be late.",
+          "answers": [
+            "would",
+            "'d"
+          ],
+          "explanation": "will → would.",
+          "id": "b1-u07-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Could you ___ her that I called?",
+          "answers": [
+            "tell"
+          ],
+          "explanation": "tell + kişi.",
+          "id": "b1-u07-l5-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "asked",
+            "She",
+            "me",
+            "to",
+            "tell",
+            "you",
+            "she",
+            "was",
+            "sorry"
+          ],
+          "answer": "She asked me to tell you she was sorry.",
+          "explanation": "asked me to tell you + cümle.",
+          "translation": "Senden özür dilediğini söylememi istedi.",
+          "id": "b1-u07-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hi, it's Leyla. Can you tell Okan that I can't come to dinner tonight? My son's ill. I'll call him tomorrow.",
+          "prompt": "Okan'a ne iletilmeli?",
+          "options": [
+            "Leyla akşam yemeğine gelemeyecek",
+            "Leyla geç kalacak",
+            "Leyla'nın oğlu yemeğe gelecek"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I can't come to dinner tonight\"",
+          "id": "b1-u07-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Mesajı aktarın: \"Hi, it's Mert. I'm stuck in traffic. I'll be there in twenty minutes.\" (Mert called. He said...)",
+          "accepted": [
+            "Mert called. He said he was stuck in traffic and he would be there in twenty minutes.",
+            "Mert called. He said he was stuck in traffic and he would be there in twenty minutes",
+            "Mert called. He said he was stuck in traffic and would be there in twenty minutes.",
+            "Mert called. He said he was stuck in traffic and would be there in twenty minutes",
+            "Mert called. He said that he was stuck in traffic and he would be there in twenty minutes.",
+            "Mert called. He said that he was stuck in traffic and he would be there in twenty minutes",
+            "Mert called. He said he was stuck in traffic and he'd be there in twenty minutes.",
+            "Mert called. He said he was stuck in traffic and he'd be there in twenty minutes",
+            "Mert called. He said he was in traffic and he would be there in twenty minutes.",
+            "Mert called. He said he was in traffic and he would be there in twenty minutes"
+          ],
+          "explanation": "Mert called. He said he was stuck in traffic and he would be there in twenty minutes.",
+          "id": "b1-u07-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir iş arkadaşınız bugün ofiste yoktu. Ona, gün içinde aldığınız 3 telefon mesajını ve toplantıda konuşulanları aktaran bir e-posta yazın (100–130 kelime). say, tell, explain, promise ve complain kullanın; zamanları ve zaman ifadelerini doğru kaydırın.",
+          "modelAnswer": "Hi Ece,\n\nHere are your messages from today.\n\nFirst, Mr Demir called at ten. He said he had received your report and he was very happy with it. He promised that he would send the contract the next day.\n\nThen a customer, Ms Arslan, called. She complained that her order hadn't arrived. I told her you would call her back.\n\nYour sister called too. She said she couldn't pick you up after work.\n\nIn the meeting, the manager explained that the office would close early on Friday. She also announced that there would be a team lunch next week. Everyone agreed that it was a great idea!\n\nSee you tomorrow,\nKaan",
+          "rubric": [
+            "Aktarma fiilleri çeşitli",
+            "Zaman kaydırma doğru",
+            "Zaman ifadeleri değişti",
+            "Özet ve net mesajlar",
+            "E-posta düzeni"
+          ]
+        },
+        "id": "b1-u07-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "She ___ me she was tired.",
+        "options": [
+          "said",
+          "told"
+        ],
+        "answerIndex": 1,
+        "explanation": "tell + kişi",
+        "id": "b1-u07-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "He ___ he was hungry.",
+        "options": [
+          "told",
+          "said"
+        ],
+        "answerIndex": 1,
+        "explanation": "say",
+        "id": "b1-u07-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I'm busy.\" → She said she ___ busy.",
+        "options": [
+          "is",
+          "was"
+        ],
+        "answerIndex": 1,
+        "explanation": "am → was",
+        "id": "b1-u07-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I'll help.\" → He said he ___ help.",
+        "options": [
+          "will",
+          "would"
+        ],
+        "answerIndex": 1,
+        "explanation": "will → would",
+        "id": "b1-u07-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I can't swim.\" → She said she ___ swim.",
+        "options": [
+          "can't",
+          "couldn't"
+        ],
+        "answerIndex": 1,
+        "explanation": "can → could",
+        "id": "b1-u07-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"I've lost my bag.\" → He said he ___ lost his bag.",
+        "answers": [
+          "had"
+        ],
+        "explanation": "past perfect",
+        "id": "b1-u07-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"I saw it yesterday.\" → She said she had seen it the day ___.",
+        "answers": [
+          "before"
+        ],
+        "explanation": "yesterday → the day before",
+        "id": "b1-u07-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "\"I'll come tomorrow.\" → He said he would come the ___ day.",
+        "answers": [
+          "next",
+          "following"
+        ],
+        "explanation": "tomorrow → the next day",
+        "id": "b1-u07-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She explained me the rules.",
+          "She explained the rules to me."
+        ],
+        "answerIndex": 1,
+        "explanation": "explain to",
+        "id": "b1-u07-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Yes, it was me. I broke it.\" → He ___ that he had broken it.",
+        "options": [
+          "promised",
+          "admitted"
+        ],
+        "answerIndex": 1,
+        "explanation": "admit",
+        "id": "b1-u07-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "They ___ that the room was too small. (şikâyet ettiler)",
+        "answers": [
+          "complained"
+        ],
+        "explanation": "complain",
+        "id": "b1-u07-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I love your new car.\" → She said she loved ___ new car. (benim)",
+        "options": [
+          "your",
+          "my",
+          "her"
+        ],
+        "answerIndex": 1,
+        "explanation": "your → my",
+        "id": "b1-u07-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "My landlord called this morning. He said he was going to increase the rent next year, but he promised that he would repair the kitchen first.",
+        "prompt": "Ev sahibi neye söz verdi?",
+        "options": [
+          "Kirayı artırmamaya",
+          "Önce mutfağı tamir etmeye",
+          "Yeni mobilya almaya"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"he promised that he would repair the kitchen first\"",
+        "id": "b1-u07-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Aktarın: Selim: \"I'm moving to Berlin next month.\" (He told me...)",
+        "accepted": [
+          "He told me he was moving to Berlin the next month.",
+          "He told me he was moving to Berlin the next month",
+          "He told me that he was moving to Berlin the next month.",
+          "He told me that he was moving to Berlin the next month",
+          "He told me he was moving to Berlin the following month.",
+          "He told me he was moving to Berlin the following month",
+          "He told me that he was moving to Berlin the following month.",
+          "He told me that he was moving to Berlin the following month",
+          "He told me he was moving to Berlin next month.",
+          "He told me he was moving to Berlin next month",
+          "He told me that he was moving to Berlin next month.",
+          "He told me that he was moving to Berlin next month"
+        ],
+        "explanation": "He told me he was moving to Berlin the next month.",
+        "id": "b1-u07-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Son zamanlarda biriyle yaptığınız ilginç bir konuşmayı bir arkadaşınıza anlatan bir mesaj yazın (100–130 kelime). En az 6 dolaylı anlatım cümlesi, say / tell ve en az 3 farklı aktarma fiili (explain, promise, admit, complain, mention...) kullanın.",
+        "modelAnswer": "You won't believe my conversation with Burcu yesterday! She told me she had quit her job. She explained that she had been unhappy there for a long time and she wanted to start her own business. She said she was going to open a small bakery near the university. She admitted that she was a bit scared, but she said she had saved enough money for a year. She mentioned that her brother would help her with the shop. I told her it was a brave decision. She promised that I would get the first cake for free! She said the bakery would open in March. I can't wait!",
+        "rubric": [
+          "Zaman kaydırma doğru",
+          "say / tell doğru",
+          "Çeşitli aktarma fiilleri",
+          "Zaman ifadeleri ve zamirler",
+          "Akıcı anlatım"
+        ],
+        "id": "b1-u07-t15"
+      }
+    ]
+  }
+}
