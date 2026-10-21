@@ -1,0 +1,1330 @@
+{
+  "id": "b2-u06",
+  "level": "B2",
+  "number": 6,
+  "title": "Seyahat yazıları",
+  "titleEn": "Travel Writing",
+  "canDo": "Bir yeri tanıtırken virgüllü (non-defining) ilgi cümleleriyle ek bilgi verebilir, which ile bütün bir cümleye yorum ekleyebilir, edatlı ve miktar bildiren ilgi yapılarını kullanabilir ve coğrafya ile kültür kelimeleriyle zengin bir gezi yazısı yazabilirim.",
+  "grammar": [
+    "defining ve non-defining relative clauses",
+    "cümleye yorum ekleyen which",
+    "edat + which / whom",
+    "some of which / most of whom",
+    "betimleyici gezi yazısı dili"
+  ],
+  "vocabularyThemes": [
+    "coğrafya ve manzara",
+    "kültür ve gelenekler",
+    "seyahat deneyimleri"
+  ],
+  "liveClass": {
+    "title": "Gizli cennetler",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci gittiği ya da gitmek istediği bir yeri, virgüllü ilgi cümleleriyle zenginleştirilmiş 2 dakikalık bir sunumla tanıtır (Mardin, which overlooks the Mesopotamian plain, ...). Dinleyenler sorular sorar. Sınıf sonunda bir \"seyahat rehberi\" için en ilgi çekici üç yeri seçer ve her biri için birlikte bir paragraf yazar."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u06-v01",
+      "en": "landscape",
+      "tr": "manzara, peyzaj",
+      "example": "The landscape changes completely in winter.",
+      "exampleTr": "Manzara kışın tamamen değişiyor."
+    },
+    {
+      "id": "b2-u06-v02",
+      "en": "coastline",
+      "tr": "kıyı şeridi",
+      "example": "Turkey has a very long coastline.",
+      "exampleTr": "Türkiye'nin çok uzun bir kıyı şeridi var."
+    },
+    {
+      "id": "b2-u06-v03",
+      "en": "valley",
+      "tr": "vadi",
+      "example": "The village lies in a green valley.",
+      "exampleTr": "Köy yeşil bir vadide yer alıyor."
+    },
+    {
+      "id": "b2-u06-v04",
+      "en": "plain",
+      "tr": "ova",
+      "example": "The city overlooks a vast plain.",
+      "exampleTr": "Şehir geniş bir ovaya bakıyor."
+    },
+    {
+      "id": "b2-u06-v05",
+      "en": "peak",
+      "tr": "zirve",
+      "example": "The peak is covered in snow all year.",
+      "exampleTr": "Zirve bütün yıl karla kaplı."
+    },
+    {
+      "id": "b2-u06-v06",
+      "en": "overlook",
+      "tr": "-e bakmak, tepeden görmek",
+      "example": "Our room overlooked the harbour.",
+      "exampleTr": "Odamız limana bakıyordu."
+    },
+    {
+      "id": "b2-u06-v07",
+      "en": "stunning",
+      "tr": "nefes kesici",
+      "example": "The views were stunning.",
+      "exampleTr": "Manzara nefes kesiciydi."
+    },
+    {
+      "id": "b2-u06-v08",
+      "en": "breathtaking",
+      "tr": "nefes kesen",
+      "example": "It was a breathtaking sunset.",
+      "exampleTr": "Nefes kesen bir gün batımıydı."
+    },
+    {
+      "id": "b2-u06-v09",
+      "en": "picturesque",
+      "tr": "pitoresk, resim gibi",
+      "example": "It's a picturesque fishing village.",
+      "exampleTr": "Resim gibi bir balıkçı köyü."
+    },
+    {
+      "id": "b2-u06-v10",
+      "en": "remote",
+      "tr": "ücra, uzak",
+      "example": "We stayed in a remote mountain hut.",
+      "exampleTr": "Ücra bir dağ kulübesinde kaldık."
+    },
+    {
+      "id": "b2-u06-v11",
+      "en": "off the beaten track",
+      "tr": "turistik rotaların dışında",
+      "example": "I prefer places off the beaten track.",
+      "exampleTr": "Turistik rotaların dışındaki yerleri tercih ederim."
+    },
+    {
+      "id": "b2-u06-v12",
+      "en": "bustling",
+      "tr": "hareketli, kaynayan",
+      "example": "We walked through the bustling market.",
+      "exampleTr": "Hareketli pazarda yürüdük."
+    },
+    {
+      "id": "b2-u06-v13",
+      "en": "ancient",
+      "tr": "antik, çok eski",
+      "example": "The ancient city is 2,000 years old.",
+      "exampleTr": "Antik kent 2.000 yıllık."
+    },
+    {
+      "id": "b2-u06-v14",
+      "en": "heritage",
+      "tr": "miras",
+      "example": "It's a UNESCO World Heritage Site.",
+      "exampleTr": "UNESCO Dünya Mirası Alanı."
+    },
+    {
+      "id": "b2-u06-v15",
+      "en": "custom",
+      "tr": "gelenek, âdet",
+      "example": "It's a local custom to take off your shoes.",
+      "exampleTr": "Ayakkabı çıkarmak yerel bir âdet.",
+      "note": "customs = gümrük"
+    },
+    {
+      "id": "b2-u06-v16",
+      "en": "cuisine",
+      "tr": "mutfak (yemek kültürü)",
+      "example": "The local cuisine is famous for its spices.",
+      "exampleTr": "Yerel mutfak baharatlarıyla ünlü."
+    },
+    {
+      "id": "b2-u06-v17",
+      "en": "hospitality",
+      "tr": "misafirperverlik",
+      "example": "We were amazed by their hospitality.",
+      "exampleTr": "Misafirperverliklerine hayran kaldık."
+    },
+    {
+      "id": "b2-u06-v18",
+      "en": "local",
+      "tr": "yerel; yerli halk",
+      "example": "Ask the locals for recommendations.",
+      "exampleTr": "Önerileri yerlilere sor."
+    },
+    {
+      "id": "b2-u06-v19",
+      "en": "souvenir",
+      "tr": "hatıra eşyası",
+      "example": "I bought a carpet as a souvenir.",
+      "exampleTr": "Hatıra olarak bir halı aldım."
+    },
+    {
+      "id": "b2-u06-v20",
+      "en": "tourist trap",
+      "tr": "turist tuzağı",
+      "example": "That restaurant is a tourist trap.",
+      "exampleTr": "O restoran bir turist tuzağı."
+    },
+    {
+      "id": "b2-u06-v21",
+      "en": "unspoilt",
+      "tr": "bozulmamış, el değmemiş",
+      "example": "The beaches are still unspoilt.",
+      "exampleTr": "Plajlar hâlâ el değmemiş."
+    },
+    {
+      "id": "b2-u06-v22",
+      "en": "stroll",
+      "tr": "gezinmek, yürüyüş",
+      "example": "We strolled along the seafront.",
+      "exampleTr": "Sahil boyunca yürüdük."
+    },
+    {
+      "id": "b2-u06-v23",
+      "en": "whom",
+      "tr": "kime, kimi (resmî)",
+      "example": "The guide, whom we met in Kars, spoke six languages.",
+      "exampleTr": "Kars'ta tanıştığımız rehber altı dil konuşuyordu.",
+      "note": "who'nun nesne hali"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u06-l1",
+      "number": 1,
+      "title": "Virgüllü ilgi cümleleri",
+      "goal": "Defining ve non-defining ilgi cümlelerini ayırt edebilir ve virgülle ek bilgi verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Mardin'e bir hafta sonu",
+        "body": "Mardin, which sits on a hill above the Mesopotamian plain, is one of the most beautiful cities in Turkey.\n\nThe old town, where honey-coloured stone houses climb up the hillside, looks like something from another century. Our guide, Şeyma, who has lived here all her life, took us through narrow streets full of small workshops.\n\nThe hotel that we stayed in was a 200-year-old mansion. From our room, which had a tiny balcony, we could see the plain stretching all the way to Syria.\n\nIn the evening, we tried a local dish called kaburga dolması, which was absolutely delicious.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Mardin sit?",
+            "options": [
+              "By the sea",
+              "On a hill above a plain",
+              "In a forest"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"which sits on a hill above the Mesopotamian plain\"",
+            "id": "b2-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Şeyma?",
+            "options": [
+              "The hotel owner",
+              "The guide",
+              "A chef"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Our guide, Şeyma, who has lived here all her life\"",
+            "id": "b2-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "B1'de **defining** (tanımlayıcı) ilgi cümlelerini öğrendiniz. **Non-defining** (tanımlayıcı olmayan) ilgi cümleleri, zaten belli olan bir kişi ya da şey hakkında **ek bilgi** verir.\n\n| Defining | Non-defining |\n|---|---|\n| **Hangisi** olduğunu söyler | **Ek bilgi** verir; çıkarılsa da anlam bozulmaz |\n| **Virgül yok** | **Virgül var** (yazıda), konuşmada duraklama |\n| who, which, **that** | who, which (**that olmaz**) |\n| Zamir atlanabilir (nesne ise) | Zamir **asla atlanmaz** |\n| The hotel **that we stayed in** was old. | Our hotel, **which was 200 years old**, ... |\n\n**Karşılaştırın:**\n\n- My brother **who lives in Paris** is a chef. (Birden fazla erkek kardeşim var; Paris'teki aşçı.)\n- My brother, **who lives in Paris**, is a chef. (Tek erkek kardeşim var; ek bilgi: Paris'te yaşıyor.)\n\n**Özel isimler** (Mardin, Şeyma, my mother) zaten belirli olduğu için genellikle **non-defining** alır:\n\n- **Mardin, which** sits on a hill, ...\n- **Şeyma, who** has lived here all her life, ...\n\n**whose** ve **where** de non-defining olarak kullanılabilir: The old town, **where** ..., / Ali, **whose** father ..., ...",
+        "examples": [
+          {
+            "en": "Istanbul, which is divided by the Bosphorus, is on two continents.",
+            "tr": "Boğaz'la ikiye ayrılan İstanbul iki kıtada yer alır."
+          },
+          {
+            "en": "My grandmother, who is 90, still swims every day.",
+            "tr": "90 yaşındaki büyükannem hâlâ her gün yüzüyor."
+          },
+          {
+            "en": "We visited Ephesus, where we saw the Library of Celsus.",
+            "tr": "Efes'i ziyaret ettik, orada Celsus Kütüphanesi'ni gördük."
+          }
+        ],
+        "turkishNote": "Türkçede \"90 yaşındaki büyükannem\" gibi ek bilgiler ismin önüne gelir ve virgül kullanılmaz. İngilizcede bu tür ek bilgiler non-defining relative clause ile ismin arkasına, virgüller arasında verilir. En sık hata, non-defining cümlelerde \"that\" kullanmaktır: \"Mardin, that is in the south-east\" yanlıştır; \"Mardin, which is in the south-east\" doğrudur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Ankara, that is the capital, is in central Turkey.",
+            "Ankara, which is the capital, is in central Turkey."
+          ],
+          "answerIndex": 1,
+          "explanation": "Non-defining → that olmaz.",
+          "id": "b2-u06-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"My sister, who lives in Bursa, is a nurse.\" Konuşanın kaç kız kardeşi var?",
+          "options": [
+            "Bir",
+            "Birden fazla"
+          ],
+          "answerIndex": 0,
+          "explanation": "Virgül → ek bilgi → tek kız kardeş.",
+          "id": "b2-u06-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"My sister who lives in Bursa is a nurse.\" Konuşanın kaç kız kardeşi var?",
+          "options": [
+            "Bir",
+            "Muhtemelen birden fazla"
+          ],
+          "answerIndex": 1,
+          "explanation": "Virgülsüz → tanımlayıcı.",
+          "id": "b2-u06-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Non-defining cümlede ilgi zamiri atlanabilir mi?",
+          "options": [
+            "Evet",
+            "Hayır"
+          ],
+          "answerIndex": 1,
+          "explanation": "Asla atlanmaz.",
+          "id": "b2-u06-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Our guide, ___ spoke five languages, was fantastic.",
+          "answers": [
+            "who"
+          ],
+          "explanation": "Kişi → who.",
+          "id": "b2-u06-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Cappadocia, ___ is famous for its balloons, is in central Anatolia.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "Yer (özne) → which.",
+          "id": "b2-u06-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "We stayed in Kaş, ___ we went diving every day.",
+          "answers": [
+            "where"
+          ],
+          "explanation": "Yer + özne + fiil → where.",
+          "id": "b2-u06-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The chef, ___ restaurant had just opened, cooked for us.",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "Sahiplik → whose.",
+          "id": "b2-u06-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "We spent three days in Lisbon, which is built on seven hills. Our host, who was a retired teacher, showed us the best places to eat.",
+          "prompt": "Ev sahibinin mesleği neydi?",
+          "options": [
+            "Rehber",
+            "Emekli öğretmen",
+            "Aşçı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Our host, who was a retired teacher\"",
+          "id": "b2-u06-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (virgüllü): \"My grandmother is 90. She still swims every day.\"",
+          "accepted": [
+            "My grandmother, who is 90, still swims every day.",
+            "My grandmother, who is 90, still swims every day",
+            "My grandmother, who is ninety, still swims every day.",
+            "My grandmother, who is ninety, still swims every day"
+          ],
+          "explanation": "My grandmother, who is 90, still swims every day.",
+          "id": "b2-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ailenizden 3 kişiyi ve şehrinizden 3 yeri non-defining relative clause ile tanıtın. Her cümlede ek bilgiyi virgüller arasında verin (konuşurken kısa duraklama yapın). who, which, where ve whose'u en az birer kez kullanın.",
+          "modelAnswer": "My father, who is a retired engineer, loves gardening. My aunt, whose children live abroad, visits us every Sunday. My best friend, who I've known since primary school, is getting married next month. Konya, which is in central Anatolia, is famous for Mevlana. The Mevlana Museum, which attracts millions of visitors, is beautiful. Our old neighbourhood, where I grew up, has changed a lot.",
+          "rubric": [
+            "Non-defining doğru (that yok)",
+            "who / which / where / whose",
+            "Duraklama ve ek bilgi"
+          ]
+        },
+        "id": "b2-u06-l1-use"
+      }
+    },
+    {
+      "id": "b2-u06-l2",
+      "number": 2,
+      "title": "Ki bu da...",
+      "goal": "which ile bütün bir cümleye yorum ekleyebilir ve anlatımımı daha akıcı hale getirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Tatil dönüşü",
+        "lines": [
+          {
+            "speaker": "Ozan",
+            "text": "How was Georgia?"
+          },
+          {
+            "speaker": "Bahar",
+            "text": "Wonderful! It didn't rain once, which was lucky because we were hiking every day."
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Did you go to Tbilisi?"
+          },
+          {
+            "speaker": "Bahar",
+            "text": "Yes, but our flight was delayed by five hours, which meant we missed our first night in the hotel."
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Oh no!"
+          },
+          {
+            "speaker": "Bahar",
+            "text": "It was fine. The locals were incredibly friendly and kept inviting us for dinner, which made the trip really special."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why was it lucky that it didn't rain?",
+            "options": [
+              "They were swimming.",
+              "They were hiking every day.",
+              "They didn't have umbrellas."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"which was lucky because we were hiking every day\"",
+            "id": "b2-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What made the trip special?",
+            "options": [
+              "The hotel",
+              "The locals inviting them for dinner",
+              "The weather"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The locals... kept inviting us for dinner, which made the trip really special.\"",
+            "id": "b2-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**which** bütün bir **cümleye** (sadece bir isme değil) **yorum** ekleyebilir. Önünde **her zaman virgül** olur.\n\n| Cümle | Yorum (which = bu durum) |\n|---|---|\n| It didn't rain once, | **which** was lucky. |\n| Our flight was delayed, | **which** meant we missed the first night. |\n| They kept inviting us for dinner, | **which** made the trip special. |\n\nBu yapıda **which = and this / and that**:\n\n- It didn't rain, **which** was lucky. = It didn't rain, **and this** was lucky.\n\n**Dikkat:**\n\n- Bu kullanımda **what** ya da **that** kullanılmaz: ~~It didn't rain, what was lucky.~~\n- **which** ile başlayan yeni bir cümle yazıda kullanılmaz: ~~It didn't rain. Which was lucky.~~ (Konuşmada duyulabilir.)\n\n**Sık kullanılan yorumlar:**\n\n- ..., **which was a relief / a shame / a surprise**.\n- ..., **which meant (that)** ...\n- ..., **which is why** ...\n- ..., **which made me** + sıfat / fiil",
+        "examples": [
+          {
+            "en": "The museum was closed, which was a real shame.",
+            "tr": "Müze kapalıydı, bu gerçekten yazık oldu."
+          },
+          {
+            "en": "He spoke perfect Turkish, which surprised everyone.",
+            "tr": "Mükemmel Türkçe konuşuyordu, bu herkesi şaşırttı."
+          },
+          {
+            "en": "The hotel was full, which is why we stayed in a guesthouse.",
+            "tr": "Otel doluydu, bu yüzden bir pansiyonda kaldık."
+          }
+        ],
+        "turkishNote": "Türkçede \"... ki bu da ...\" ya da \"... bu da ... oldu\" yapıları, İngilizcedeki cümleye yorum ekleyen which'e denk gelir. Türkçe konuşanlar bu durumda sık sık \"what\" kullanır: \"It rained, what was terrible\" yanlıştır; doğrusu \"It rained, which was terrible\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "It rained all week, what was terrible.",
+            "It rained all week, which was terrible."
+          ],
+          "answerIndex": 1,
+          "explanation": "Cümleye yorum → which.",
+          "id": "b2-u06-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"which\" burada neye bağlı? \"We missed the bus, which made us late.\"",
+          "options": [
+            "the bus",
+            "Otobüsü kaçırmamız (bütün cümle)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Bütün cümleye yorum.",
+          "id": "b2-u06-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru noktalama:",
+          "options": [
+            "The shop was closed which was annoying.",
+            "The shop was closed, which was annoying."
+          ],
+          "answerIndex": 1,
+          "explanation": "Virgül gerekli.",
+          "id": "b2-u06-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Our guide got lost, ___ was quite funny.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "Cümleye yorum → which.",
+          "id": "b2-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The flight was cancelled, which ___ we had to stay another night. (anlamına geldi)",
+          "answers": [
+            "meant"
+          ],
+          "explanation": "which meant.",
+          "id": "b2-u06-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was a holiday, which is ___ all the shops were closed. (bu yüzden)",
+          "answers": [
+            "why"
+          ],
+          "explanation": "which is why.",
+          "id": "b2-u06-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "They gave us free breakfast, which was a nice ___. (sürpriz)",
+          "answers": [
+            "surprise"
+          ],
+          "explanation": "which was a nice surprise.",
+          "id": "b2-u06-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "missed",
+            "We",
+            "the",
+            "ferry",
+            "which",
+            "meant",
+            "we",
+            "had",
+            "to",
+            "wait",
+            "three",
+            "hours"
+          ],
+          "answer": "We missed the ferry which meant we had to wait three hours.",
+          "explanation": "Cümle + which meant + cümle.",
+          "translation": "Feribotu kaçırdık, bu da üç saat beklememiz gerektiği anlamına geliyordu.",
+          "id": "b2-u06-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The hotel upgraded us to a suite with a sea view, which was amazing. But the restaurant closed at eight, which meant we had to eat in town every night.",
+          "prompt": "Restoranın erken kapanması ne anlama geliyordu?",
+          "options": [
+            "Akşam yemeği yiyemediler",
+            "Her akşam şehirde yemek zorunda kaldılar",
+            "Oda servisi kullandılar"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"which meant we had to eat in town every night\"",
+          "id": "b2-u06-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (which ile): \"The museum was closed. That was a real shame.\"",
+          "accepted": [
+            "The museum was closed, which was a real shame.",
+            "The museum was closed, which was a real shame",
+            "The museum was closed, which was a shame.",
+            "The museum was closed, which was a shame"
+          ],
+          "explanation": "The museum was closed, which was a real shame.",
+          "id": "b2-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son seyahatinizi anlatın ve en az 5 olayı which ile yorumlayın: which was lucky / a shame / a relief / a surprise, which meant ..., which is why ..., which made me ...",
+          "modelAnswer": "Last summer I went to Antalya with my family. We arrived at midnight, which meant we were all exhausted. The hotel gave us a bigger room, which was a nice surprise. It was 40 degrees every day, which is why we spent most of the time in the sea. My brother lost his phone on the beach, which was a disaster. But a stranger found it, which restored my faith in people!",
+          "rubric": [
+            "Cümleye yorum ekleyen which",
+            "Virgül / duraklama",
+            "Çeşitli yorum kalıpları"
+          ]
+        },
+        "id": "b2-u06-l2-use"
+      }
+    },
+    {
+      "id": "b2-u06-l3",
+      "number": 3,
+      "title": "Edatlı ve miktarlı ilgi cümleleri",
+      "goal": "Edat + which / whom ve some of which / most of whom gibi yapılarla daha resmî ve ayrıntılı tanımlar yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Rehber kitaptan: Van Gölü",
+        "body": "Lake Van, which is the largest lake in Turkey, lies in the far east of the country at an altitude of about 1,650 metres.\n\nThe lake, the water of which is extremely salty and alkaline, has very few fish species. The best known is the inci kefali, which swims from the lake up into the rivers each spring to lay its eggs.\n\nThe region has many historical sites, most of which date back to the Urartian period. On Akdamar Island, to which boats run regularly in summer, you can visit a beautiful tenth-century Armenian church.\n\nThe local people, many of whom speak several languages, are known for their warm hospitality. Don't leave without trying a Van breakfast, for which the city is famous.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is special about Lake Van's water?",
+            "options": [
+              "It's very cold.",
+              "It's extremely salty and alkaline.",
+              "It's fresh drinking water."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"extremely salty and alkaline\"",
+            "id": "b2-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the city of Van famous for?",
+            "options": [
+              "Its fish market",
+              "Its breakfast",
+              "Its carpets"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a Van breakfast, for which the city is famous\"",
+            "id": "b2-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Edat + which / whom** (daha resmî)\n\nGünlük dilde edat cümlenin **sonunda** kalır; resmî yazıda **which / whom'dan önce** gelir.\n\n| Günlük | Resmî |\n|---|---|\n| The island **(which) boats run to** ... | The island, **to which** boats run, ... |\n| The city **(that) it's famous for** ... | ... **for which** the city is famous |\n| The man **(who) I spoke to** ... | The man **to whom** I spoke ... |\n\n**Dikkat:** Edattan sonra **who** ve **that** kullanılmaz: ~~to who~~ / ~~to that~~ → **to whom** / **to which**\n\n**2. Miktar + of which / of whom**\n\n| Yapı | Örnek |\n|---|---|\n| **some of which** | There are many sites, **some of which** are 3,000 years old. |\n| **most of whom** | The locals, **most of whom** speak Kurdish and Turkish, ... |\n| **all of which** | We visited five museums, **all of which** were free. |\n| **none of whom** | I met ten people, **none of whom** spoke English. |\n| **both of which** | It has two beaches, **both of which** are unspoilt. |\n| **the water of which** / **whose water** | The lake, **whose water** is salty, ... |\n\nİnsanlar için **whom**, şeyler için **which** kullanılır.",
+        "examples": [
+          {
+            "en": "The village, to which there is only one road, is very peaceful.",
+            "tr": "Tek bir yolla ulaşılan köy çok huzurlu."
+          },
+          {
+            "en": "We met many travellers, most of whom were from Europe.",
+            "tr": "Pek çok gezginle tanıştık, çoğu Avrupalıydı."
+          },
+          {
+            "en": "The region has three national parks, all of which are worth visiting.",
+            "tr": "Bölgede üç milli park var ve hepsi görülmeye değer."
+          }
+        ],
+        "turkishNote": "\"... hepsi görülmeye değer\", \"... çoğu Avrupalıydı\" gibi Türkçe yapılar İngilizcede \"all of which\", \"most of whom\" ile kurulur. Türkçe konuşanlar genellikle bunu iki ayrı cümle olarak söyler (\"...three parks. All of them are...\"). Bu da doğrudur, ama of which / of whom yapısı yazıda daha akıcı ve ileri bir seviye gösterir. \"most of them\" ile \"most of whom\" karıştırılmamalıdır: virgülden sonra tek cümlede \"whom\" gerekir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmî: \"The man ___ I spoke was very helpful.\"",
+          "options": [
+            "to who",
+            "to whom",
+            "to that"
+          ],
+          "answerIndex": 1,
+          "explanation": "Edat + whom.",
+          "id": "b2-u06-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I met ten tourists, most of them were German.",
+            "I met ten tourists, most of whom were German."
+          ],
+          "answerIndex": 1,
+          "explanation": "Tek cümle → most of whom.",
+          "id": "b2-u06-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Şeyler için:",
+          "options": [
+            "some of whom",
+            "some of which"
+          ],
+          "answerIndex": 1,
+          "explanation": "Şey → which.",
+          "id": "b2-u06-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We visited three castles, all of ___ were built in the 12th century.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "all of which.",
+          "id": "b2-u06-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The students, most of ___ were from Asia, loved the tour.",
+          "answers": [
+            "whom"
+          ],
+          "explanation": "most of whom.",
+          "id": "b2-u06-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The hotel, ___ which we had paid a lot, was disappointing. (için)",
+          "answers": [
+            "for"
+          ],
+          "explanation": "for which.",
+          "id": "b2-u06-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The house in ___ the poet was born is now a museum.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "in which.",
+          "id": "b2-u06-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It has two beaches, ___ of which are unspoilt. (ikisi de)",
+          "answers": [
+            "both"
+          ],
+          "explanation": "both of which.",
+          "id": "b2-u06-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Our group had twelve people, none of whom had been to Iran before. The guide, to whom we owe a lot, showed us places that tourists rarely see.",
+          "prompt": "Gruptakilerden kaç kişi daha önce İran'a gitmişti?",
+          "options": [
+            "Hiçbiri",
+            "Yarısı",
+            "Hepsi"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"none of whom had been to Iran before\"",
+          "id": "b2-u06-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin: \"The region has five lakes. Most of them are very deep.\" (most of which)",
+          "accepted": [
+            "The region has five lakes, most of which are very deep.",
+            "The region has five lakes, most of which are very deep"
+          ],
+          "explanation": "The region has five lakes, most of which are very deep.",
+          "id": "b2-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir şehri ya da bölgeyi rehber kitap üslubuyla tanıtın. En az 2 edat + which / whom (to which, for which, in which) ve en az 3 miktar + of which / of whom (some of which, most of whom, all of which, none of which) kullanın.",
+          "modelAnswer": "Kars, which is in north-eastern Turkey, is famous for its cheese and honey, for which people travel from all over the country. The city has many Russian-style buildings, most of which were built in the 19th century. Nearby is Ani, to which tourists come to see the ancient ruins. The region has several lakes, some of which freeze completely in winter. The locals, most of whom are farmers, are very welcoming.",
+          "rubric": [
+            "Edat + which / whom",
+            "Miktar + of which / whom",
+            "Resmî rehber üslubu"
+          ]
+        },
+        "id": "b2-u06-l3-use"
+      }
+    },
+    {
+      "id": "b2-u06-l4",
+      "number": 4,
+      "title": "Manzarayı anlatmak",
+      "goal": "Coğrafya, manzara ve kültür kelimeleriyle bir yeri canlı ve özgün bir şekilde betimleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Gezi vlogu çekimi",
+        "lines": [
+          {
+            "speaker": "Vlogger",
+            "text": "Good morning from Pamukkale! Behind me you can see the famous white terraces, which look like snow but are actually made of limestone."
+          },
+          {
+            "speaker": "Vlogger",
+            "text": "The view from up here is breathtaking. You can see the whole valley stretching out below us."
+          },
+          {
+            "speaker": "Friend",
+            "text": "And it's still early, so it's not crowded yet. By noon this place will be bustling with tourists."
+          },
+          {
+            "speaker": "Vlogger",
+            "text": "Right. Tip number one: come at sunrise. Tip number two: you have to take your shoes off on the terraces to protect them."
+          },
+          {
+            "speaker": "Friend",
+            "text": "And don't miss Hierapolis, the ancient city right next to it."
+          },
+          {
+            "speaker": "Vlogger",
+            "text": "Absolutely. It's one of the most stunning places I've ever been to."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What are the white terraces made of?",
+            "options": [
+              "Snow",
+              "Limestone",
+              "Salt"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"actually made of limestone\"",
+            "id": "b2-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why should you take your shoes off?",
+            "options": [
+              "Because it's hot",
+              "To protect the terraces",
+              "Because it's a custom in mosques"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"to protect them\"",
+            "id": "b2-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bir yeri betimlerken kullanılan dil:**\n\n| Konum | Örnek |\n|---|---|\n| **lie / be situated / be located** | The village **lies** in a green valley. |\n| **overlook** | The castle **overlooks** the sea. |\n| **stretch** | The beach **stretches** for 10 km. |\n| **surround** | It's **surrounded by** mountains. |\n| **be home to** | The park **is home to** rare birds. |\n\n**Güçlü betimleme sıfatları:**\n\n| Doğa | Şehir / kültür |\n|---|---|\n| breathtaking, stunning | bustling, lively, vibrant |\n| unspoilt, remote | picturesque, charming |\n| rugged (engebeli), lush (yemyeşil) | ancient, historic |\n\n**\"Klişe\"den kaçının:** \"beautiful\" ve \"nice\" yerine daha özgün kelimeler seçin.\n\n- ~~The beach was nice.~~ → The beach **stretched for miles**, and the sand was **as white as flour**.\n\n**Duyuları kullanın:** Ne gördünüz, ne duydunuz, ne kokladınız, ne tattınız?\n\n- The air **smelled of** jasmine. / You can **hear** the call to prayer echoing across the valley.\n\n**Tavsiye dili:** **Don't miss** ... / **It's well worth** + -ing / **Avoid** ... / **The best time to visit is** ...",
+        "examples": [
+          {
+            "en": "The village lies at the foot of a rugged mountain.",
+            "tr": "Köy engebeli bir dağın eteğinde yer alıyor."
+          },
+          {
+            "en": "The town is surrounded by lush green forests.",
+            "tr": "Kasaba yemyeşil ormanlarla çevrili."
+          },
+          {
+            "en": "It's well worth getting up early to see the sunrise.",
+            "tr": "Gün doğumunu görmek için erken kalkmaya kesinlikle değer."
+          }
+        ],
+        "turkishNote": "Türkçe gezi yazılarında \"muhteşem\", \"harika\" gibi sıfatlar sık tekrarlanır. İngilizce gezi yazısında okuyucu somut ayrıntı ve özgün betimleme bekler: \"It was amazing\" yerine ne gördüğünüzü, duyduğunuzu ve hissettiğinizi anlatın. \"customs\" kelimesine de dikkat: tekil \"custom\" gelenek, çoğul \"customs\" çoğunlukla gümrük anlamındadır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Köy bir vadide yer alıyor.\"",
+          "options": [
+            "The village lies in a valley.",
+            "The village lays in a valley."
+          ],
+          "answerIndex": 0,
+          "explanation": "lie (yer almak).",
+          "id": "b2-u06-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kalabalık ve hareketli bir pazar:",
+          "options": [
+            "a remote market",
+            "a bustling market"
+          ],
+          "answerIndex": 1,
+          "explanation": "bustling.",
+          "id": "b2-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hiç bozulmamış plaj:",
+          "options": [
+            "unspoilt",
+            "spoilt"
+          ],
+          "answerIndex": 0,
+          "explanation": "unspoilt.",
+          "id": "b2-u06-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"customs\" havalimanında:",
+          "options": [
+            "gelenekler",
+            "gümrük"
+          ],
+          "answerIndex": 1,
+          "explanation": "customs = gümrük.",
+          "id": "b2-u06-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The hotel ___ the harbour. (bakıyor)",
+          "answers": [
+            "overlooks"
+          ],
+          "explanation": "overlook.",
+          "id": "b2-u06-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The town is surrounded ___ olive groves.",
+          "answers": [
+            "by"
+          ],
+          "explanation": "surrounded by.",
+          "id": "b2-u06-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The national park is ___ to more than 200 species of birds.",
+          "answers": [
+            "home"
+          ],
+          "explanation": "be home to.",
+          "id": "b2-u06-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's well worth ___ (visit) the old bazaar.",
+          "answers": [
+            "visiting"
+          ],
+          "explanation": "worth + -ing.",
+          "id": "b2-u06-l4-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "breathtaking",
+              "right": "nefes kesici"
+            },
+            {
+              "left": "remote",
+              "right": "ücra"
+            },
+            {
+              "left": "lush",
+              "right": "yemyeşil"
+            },
+            {
+              "left": "rugged",
+              "right": "engebeli"
+            },
+            {
+              "left": "picturesque",
+              "right": "resim gibi"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b2-u06-l4-p09"
+        },
+        {
+          "type": "listening",
+          "audioText": "The best time to visit Cappadocia is spring or autumn. In summer it gets very hot, and in winter the roads can be icy. But if you go in January, you might see the fairy chimneys covered in snow, which is stunning.",
+          "prompt": "Kapadokya'yı ziyaret için en iyi zaman ne?",
+          "options": [
+            "Yaz",
+            "İlkbahar ya da sonbahar",
+            "Sadece kış"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"The best time to visit Cappadocia is spring or autumn.\"",
+          "id": "b2-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir vlogger gibi en sevdiğiniz doğal ya da tarihi bir yeri \"canlı\" olarak tanıtın. Konum fiillerini (lie, overlook, stretch, surround), en az 4 güçlü sıfatı ve duyularla ilgili ayrıntıları kullanın. Sonunda izleyicilere 2 tavsiye verin.",
+          "modelAnswer": "Hi everyone, I'm in Uzungöl, which lies in a lush green valley in the mountains above Trabzon. The lake is surrounded by pine forests, and the air smells of wood and rain. Behind me, wooden houses climb up the rugged hillside. It's breathtaking in the early morning, when the mist covers the water. My tips: avoid weekends in August, when it's crowded, and don't miss the local trout!",
+          "rubric": [
+            "Konum fiilleri",
+            "Güçlü betimleme sıfatları",
+            "Duyusal ayrıntılar",
+            "Tavsiye dili"
+          ]
+        },
+        "id": "b2-u06-l4-use"
+      }
+    },
+    {
+      "id": "b2-u06-l5",
+      "number": 5,
+      "title": "Gezi yazısı",
+      "goal": "İlgi cümleleri, betimleyici dil ve kişisel deneyimlerle zenginleştirilmiş, yayınlanabilir kalitede bir gezi yazısı yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek gezi yazısı: Kaçkarlar'da bir yayla",
+        "body": "At 2,000 metres, the clouds sit below you.\n\nThat was my first thought as I stepped out of the minibus in Pokut, a tiny highland village in the Kaçkar Mountains, which I had dreamed of visiting for years.\n\nThe village, which is only open from June to September, consists of about thirty wooden houses, most of which belong to families from the valleys below. There are no shops and almost no phone signal, which, I quickly realised, was exactly the point.\n\nOur host, Fadime Teyze, whose family has spent every summer here for four generations, welcomed us with fresh bread, butter and a cheese called minci. In the evening, we sat on her wooden balcony and watched the sun sink into a sea of clouds.\n\nIf you go, bring warm clothes, even in August. And leave your laptop at home. You won't need it.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When is the village open?",
+            "options": [
+              "All year",
+              "From June to September",
+              "Only in winter"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"only open from June to September\"",
+            "id": "b2-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the writer suggest leaving at home?",
+            "options": [
+              "Warm clothes",
+              "Your laptop",
+              "Your camera"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"leave your laptop at home\"",
+            "id": "b2-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İyi bir gezi yazısının özellikleri:**\n\n| Bölüm | İpucu | Örnek |\n|---|---|---|\n| **Çarpıcı giriş** | Bir görüntü, bir an ya da bir cümleyle başlayın. | *At 2,000 metres, the clouds sit below you.* |\n| **Konum ve bağlam** | Yeri kısa ve somut tanıtın. | *Pokut, a tiny highland village in the Kaçkar Mountains, ...* |\n| **Ayrıntılı betimleme** | Non-defining clauses ile ek bilgi ekleyin. | *The village, which is only open in summer, ...* |\n| **İnsanlar ve kültür** | Yerel bir kişi, yemek ya da gelenek. | *Our host, whose family has ...* |\n| **Kişisel yorum** | which ile duygu / yorum ekleyin. | *..., which was exactly the point.* |\n| **Pratik tavsiye ve kapanış** | Kısa ve akılda kalıcı. | *Leave your laptop at home. You won't need it.* |\n\n**Üslup ipuçları:**\n\n- **Cümle uzunluğunu değiştirin**: uzun betimleyici cümlelerin arkasından kısa vurucu cümleler.\n- **Apposition** (açıklayıcı isim grubu) kullanın: *Pokut, **a tiny highland village**, ...* (which is'siz kısa non-defining)\n- **Şimdiki zaman** yerin genel özelliklerini, **geçmiş zaman** sizin deneyiminizi anlatır.\n- Klişelerden kaçının: *hidden gem, paradise on earth* gibi ifadeleri az kullanın.",
+        "examples": [
+          {
+            "en": "Göreme, a small town in the heart of Cappadocia, is surrounded by fairy chimneys.",
+            "tr": "Kapadokya'nın kalbindeki küçük bir kasaba olan Göreme peri bacalarıyla çevrili."
+          },
+          {
+            "en": "There was no Wi-Fi, which, to my surprise, I didn't miss at all.",
+            "tr": "Wi-Fi yoktu ve şaşırtıcı bir şekilde hiç aramadım."
+          },
+          {
+            "en": "Bring comfortable shoes. You'll be walking a lot.",
+            "tr": "Rahat ayakkabı getirin. Çok yürüyeceksiniz."
+          }
+        ],
+        "turkishNote": "Türkçe gezi yazılarında bilgi ve kişisel deneyim genellikle ayrı paragraflarda verilir. İngilizce gezi yazısında (travel writing) ikisi iç içedir: Yazar okuyucuyu kendi gözünden geziye çıkarır. Non-defining relative clauses ve apposition, bilgiyi cümlenin akışını bozmadan eklemenin en etkili yoludur."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Etkili bir gezi yazısı girişi:",
+          "options": [
+            "Today I will tell you about my holiday.",
+            "The first thing you notice in Mardin is the silence."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çarpıcı bir görüntü ya da an.",
+          "id": "b2-u06-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Apposition örneği:",
+          "options": [
+            "Pokut, a tiny village in the mountains, is ...",
+            "Pokut is a tiny village. It is in the mountains."
+          ],
+          "answerIndex": 0,
+          "explanation": "İsim + açıklayıcı isim grubu.",
+          "id": "b2-u06-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Yerin genel özelliği için genellikle hangi zaman?",
+          "options": [
+            "Present simple",
+            "Past simple"
+          ],
+          "answerIndex": 0,
+          "explanation": "Genel bilgi → present.",
+          "id": "b2-u06-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kaçınılması gereken klişe:",
+          "options": [
+            "paradise on earth",
+            "the village lies in a valley"
+          ],
+          "answerIndex": 0,
+          "explanation": "Klişe.",
+          "id": "b2-u06-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Our host, ___ family had lived there for generations, made us breakfast.",
+          "answers": [
+            "whose"
+          ],
+          "explanation": "whose.",
+          "id": "b2-u06-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The village has thirty houses, most of ___ are made of wood.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "most of which.",
+          "id": "b2-u06-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "There was no signal, ___ was actually a relief.",
+          "answers": [
+            "which"
+          ],
+          "explanation": "Cümleye yorum.",
+          "id": "b2-u06-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Göreme, a small town ___ the heart of Cappadocia, is very popular.",
+          "answers": [
+            "in"
+          ],
+          "explanation": "in the heart of.",
+          "id": "b2-u06-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I arrived in Fes, one of the oldest cities in Morocco, late at night. The medina, which has more than 9,000 narrow streets, felt like a maze. I got lost twice, which turned out to be the best way to discover it.",
+          "prompt": "Konuşan kaybolmanın nasıl olduğunu söylüyor?",
+          "options": [
+            "Korkutucuydu",
+            "Şehri keşfetmenin en iyi yoluydu",
+            "Zaman kaybıydı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"which turned out to be the best way to discover it\"",
+          "id": "b2-u06-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Apposition ile birleştirin: \"Ayvalık is a charming town on the Aegean coast. It is famous for its olive oil.\"",
+          "accepted": [
+            "Ayvalık, a charming town on the Aegean coast, is famous for its olive oil.",
+            "Ayvalık, a charming town on the Aegean coast, is famous for its olive oil",
+            "Ayvalık, a charming town on the Aegean coast, is famous for olive oil.",
+            "Ayvalık, a charming town on the Aegean coast, is famous for olive oil"
+          ],
+          "explanation": "Ayvalık, a charming town on the Aegean coast, is famous for its olive oil.",
+          "id": "b2-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir seyahat dergisi için gittiğiniz (ya da çok iyi bildiğiniz) bir yer hakkında gezi yazısı yazın (200–250 kelime). Çarpıcı bir girişle başlayın; en az 4 non-defining relative clause, bir cümleye yorum ekleyen which, bir miktar + of which / whom ve bir apposition kullanın. Yerel insanlar ve kültürden söz edin ve pratik bir tavsiyeyle bitirin.",
+          "modelAnswer": "The ferry horn sounds twice, and suddenly the noise of Istanbul disappears behind you.\n\nBüyükada, the largest of the Princes' Islands, is only ninety minutes from the city centre, but it feels like another century. There are no private cars on the island, which means the only sounds are seagulls, bicycle bells and the quiet hum of electric buggies.\n\nI spent a long weekend in a small guesthouse near the harbour. The owner, Rebeka Hanım, whose grandparents built the house in 1910, served breakfast in a garden full of roses and fig trees. She told me stories about the island's past, much of which I had never heard before.\n\nThe island is famous for its grand wooden mansions, many of which were built by wealthy families in the late nineteenth century. Some are beautifully restored; others are slowly falling apart, which gives the streets a strange, romantic sadness.\n\nThe best way to explore is on foot or by bicycle. Climb up to the Aya Yorgi Monastery, which sits on the island's highest hill, and you'll be rewarded with a breathtaking view of the Sea of Marmara.\n\nA final tip: avoid summer weekends, when the ferries are packed. Go on a weekday in May or October, and you might feel as if you have the whole island to yourself.",
+          "rubric": [
+            "Çarpıcı giriş",
+            "Non-defining clauses (en az 4)",
+            "which ile yorum, of which / whom, apposition",
+            "Betimleyici dil ve kültür",
+            "Pratik tavsiye ve güçlü kapanış"
+          ]
+        },
+        "id": "b2-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Paris, that is the capital of France, is beautiful.",
+          "Paris, which is the capital of France, is beautiful."
+        ],
+        "answerIndex": 1,
+        "explanation": "that olmaz",
+        "id": "b2-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"My brother, who is a doctor, lives in Ankara.\" Kaç erkek kardeş?",
+        "options": [
+          "Bir",
+          "Birden fazla"
+        ],
+        "answerIndex": 0,
+        "explanation": "Virgül → ek bilgi",
+        "id": "b2-u06-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "It rained all day, what ruined our plans.",
+          "It rained all day, which ruined our plans."
+        ],
+        "answerIndex": 1,
+        "explanation": "which",
+        "id": "b2-u06-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Resmî: \"The person ___ I spoke was very kind.\"",
+        "options": [
+          "to who",
+          "to whom"
+        ],
+        "answerIndex": 1,
+        "explanation": "to whom",
+        "id": "b2-u06-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "We met many locals, most of them spoke English.",
+          "We met many locals, most of whom spoke English."
+        ],
+        "answerIndex": 1,
+        "explanation": "most of whom",
+        "id": "b2-u06-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "Our guide, ___ name was Aras, knew everything about the city.",
+        "answers": [
+          "whose"
+        ],
+        "explanation": "whose",
+        "id": "b2-u06-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "We went to Kaş, ___ we went diving.",
+        "answers": [
+          "where"
+        ],
+        "explanation": "where",
+        "id": "b2-u06-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "The flight was delayed, which ___ we missed the tour. (anlamına geliyordu)",
+        "answers": [
+          "meant"
+        ],
+        "explanation": "which meant",
+        "id": "b2-u06-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "The region has four lakes, all of ___ are worth visiting.",
+        "answers": [
+          "which"
+        ],
+        "explanation": "all of which",
+        "id": "b2-u06-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "The village is surrounded ___ mountains.",
+        "answers": [
+          "by"
+        ],
+        "explanation": "surrounded by",
+        "id": "b2-u06-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kalabalık ve hareketli:",
+        "options": [
+          "remote",
+          "bustling"
+        ],
+        "answerIndex": 1,
+        "explanation": "bustling",
+        "id": "b2-u06-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "The castle ___ the town. (tepeden bakıyor)",
+        "answers": [
+          "overlooks"
+        ],
+        "explanation": "overlook",
+        "id": "b2-u06-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "We stayed in Şirince, a small village near Selçuk, which is famous for its fruit wines. Our host, whose house was more than 150 years old, cooked for us every evening, which made us feel like part of the family.",
+        "prompt": "Ev sahibinin her akşam yemek yapması onlara ne hissettirdi?",
+        "options": [
+          "Turist gibi",
+          "Ailenin bir parçası gibi",
+          "Yabancı gibi"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"which made us feel like part of the family\"",
+        "id": "b2-u06-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Birleştirin (virgüllü): \"Antalya is on the Mediterranean coast. It attracts millions of tourists every year.\"",
+        "accepted": [
+          "Antalya, which is on the Mediterranean coast, attracts millions of tourists every year.",
+          "Antalya, which is on the Mediterranean coast, attracts millions of tourists every year",
+          "Antalya, which attracts millions of tourists every year, is on the Mediterranean coast.",
+          "Antalya, which attracts millions of tourists every year, is on the Mediterranean coast"
+        ],
+        "explanation": "Antalya, which is on the Mediterranean coast, attracts millions of tourists every year.",
+        "id": "b2-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Türkiye'de turistlerin pek bilmediği bir yeri tanıtan bir gezi yazısı yazın (200–250 kelime). Non-defining relative clauses, cümleye yorum ekleyen which, miktar + of which / whom, apposition, konum fiilleri ve güçlü betimleme sıfatları kullanın. Kişisel bir deneyim ve pratik bir tavsiye ekleyin.",
+        "modelAnswer": "Most people who visit the Black Sea go straight to Trabzon or Uzungöl. Very few take the narrow road east to Şavşat, a small town in the province of Artvin, which is a shame, because it's one of the most breathtaking corners of Turkey.\n\nŞavşat lies in a lush valley surrounded by dense forests of pine and spruce. Just above the town is Karagöl, a dark mountain lake which reflects the trees so perfectly that it looks like a mirror. In autumn, when the leaves turn orange and red, the landscape is truly stunning.\n\nI stayed in a wooden guesthouse run by a family, most of whom had never left the region. The grandmother, who was in her eighties, made fresh corn bread every morning and told me stories about the winters, some of which lasted six months.\n\nThe local cuisine is simple but delicious. Try the honey, much of which comes from tiny hives hidden in the forest, and the famous Şavşat cheese.\n\nThere's not much nightlife, and the phone signal is weak, which, after a busy year in Istanbul, was exactly what I needed.\n\nIf you go, rent a car, because public transport is limited. The best time to visit is late September or early October, when the forests are at their most colourful and the summer crowds have gone.",
+        "rubric": [
+          "Non-defining clauses",
+          "which ile yorum ve of which / whom",
+          "Apposition ve konum fiilleri",
+          "Güçlü betimleme ve kültür",
+          "Kişisel deneyim ve tavsiye"
+        ],
+        "id": "b2-u06-t15"
+      }
+    ]
+  }
+}
