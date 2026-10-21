@@ -1,0 +1,1529 @@
+{
+  "id": "a1-u02",
+  "level": "A1",
+  "number": 2,
+  "title": "Ailem",
+  "titleEn": "My Family",
+  "canDo": "Ailemi ve arkadaşlarımı tanıtabilir, onların nasıl göründüğünü basitçe anlatabilirim.",
+  "grammar": [
+    "iyelik sıfatları (my, your, his, her, our, their)",
+    "iyelik 's",
+    "have / has (aile)",
+    "sıfatlar: görünüş"
+  ],
+  "vocabularyThemes": [
+    "aile üyeleri",
+    "görünüş sıfatları"
+  ],
+  "liveClass": {
+    "title": "Aile fotoğrafı",
+    "durationMinutes": 45,
+    "goal": "Her öğrenci telefonundan bir aile fotoğrafı gösterip 4–5 cümleyle ailesini tanıtır, diğerleri soru sorar."
+  },
+  "vocabulary": [
+    {
+      "id": "a1-u02-v01",
+      "en": "mother",
+      "tr": "anne",
+      "example": "My mother is a doctor.",
+      "exampleTr": "Annem bir doktor.",
+      "note": "Günlük konuşmada: mum (İngiliz), mom (Amerikan)"
+    },
+    {
+      "id": "a1-u02-v02",
+      "en": "father",
+      "tr": "baba",
+      "example": "His father is from Ankara.",
+      "exampleTr": "Onun babası Ankaralı.",
+      "note": "Günlük konuşmada: dad"
+    },
+    {
+      "id": "a1-u02-v03",
+      "en": "parents",
+      "tr": "anne baba, ebeveyn",
+      "example": "Her parents are teachers.",
+      "exampleTr": "Onun annesi ve babası öğretmen.",
+      "note": "Her zaman çoğul: anne ve baba birlikte."
+    },
+    {
+      "id": "a1-u02-v04",
+      "en": "brother",
+      "tr": "erkek kardeş, ağabey",
+      "example": "I have one brother.",
+      "exampleTr": "Bir erkek kardeşim var.",
+      "note": "Ağabey de kardeş de brother'dır. Gerekirse older/younger eklenir."
+    },
+    {
+      "id": "a1-u02-v05",
+      "en": "sister",
+      "tr": "kız kardeş, abla",
+      "example": "My sister is twenty.",
+      "exampleTr": "Kız kardeşim yirmi yaşında."
+    },
+    {
+      "id": "a1-u02-v06",
+      "en": "son",
+      "tr": "oğul",
+      "example": "They have a son.",
+      "exampleTr": "Onların bir oğulları var.",
+      "note": "Telaffuzu \"sun\" (güneş) ile aynıdır."
+    },
+    {
+      "id": "a1-u02-v07",
+      "en": "daughter",
+      "tr": "kız evlat",
+      "example": "Their daughter is a student.",
+      "exampleTr": "Onların kızı öğrenci.",
+      "note": "\"gh\" okunmaz: /ˈdɔːtə/"
+    },
+    {
+      "id": "a1-u02-v08",
+      "en": "husband",
+      "tr": "koca, eş (erkek)",
+      "example": "Her husband is Italian.",
+      "exampleTr": "Onun kocası İtalyan."
+    },
+    {
+      "id": "a1-u02-v09",
+      "en": "wife",
+      "tr": "karı, eş (kadın)",
+      "example": "His wife is a nurse.",
+      "exampleTr": "Onun karısı hemşire."
+    },
+    {
+      "id": "a1-u02-v10",
+      "en": "grandmother",
+      "tr": "büyükanne, nine",
+      "example": "My grandmother is eighty.",
+      "exampleTr": "Büyükannem seksen yaşında.",
+      "note": "Günlük konuşmada: grandma"
+    },
+    {
+      "id": "a1-u02-v11",
+      "en": "grandfather",
+      "tr": "büyükbaba, dede",
+      "example": "My grandfather is from Rize.",
+      "exampleTr": "Dedem Rizeli.",
+      "note": "Günlük konuşmada: grandpa"
+    },
+    {
+      "id": "a1-u02-v12",
+      "en": "aunt",
+      "tr": "teyze, hala, yenge",
+      "example": "My aunt lives in London.",
+      "exampleTr": "Teyzem Londra'da yaşıyor.",
+      "note": "İngilizcede teyze ve hala aynı kelimedir."
+    },
+    {
+      "id": "a1-u02-v13",
+      "en": "uncle",
+      "tr": "amca, dayı, enişte",
+      "example": "Our uncle is a chef.",
+      "exampleTr": "Amcamız bir aşçı.",
+      "note": "İngilizcede amca ve dayı aynı kelimedir."
+    },
+    {
+      "id": "a1-u02-v14",
+      "en": "cousin",
+      "tr": "kuzen",
+      "example": "Selin is my cousin.",
+      "exampleTr": "Selin benim kuzenim."
+    },
+    {
+      "id": "a1-u02-v15",
+      "en": "child / children",
+      "tr": "çocuk / çocuklar",
+      "example": "They have three children.",
+      "exampleTr": "Onların üç çocuğu var.",
+      "note": "Düzensiz çoğul: childs değil, children."
+    },
+    {
+      "id": "a1-u02-v16",
+      "en": "only child",
+      "tr": "tek çocuk",
+      "example": "I'm an only child.",
+      "exampleTr": "Ben tek çocuğum."
+    },
+    {
+      "id": "a1-u02-v17",
+      "en": "married",
+      "tr": "evli",
+      "example": "My brother is married.",
+      "exampleTr": "Ağabeyim evli."
+    },
+    {
+      "id": "a1-u02-v18",
+      "en": "tall",
+      "tr": "uzun boylu",
+      "example": "My father is very tall.",
+      "exampleTr": "Babam çok uzun boylu.",
+      "note": "İnsanlar için long değil, tall kullanılır."
+    },
+    {
+      "id": "a1-u02-v19",
+      "en": "short",
+      "tr": "kısa (boylu); kısa",
+      "example": "She has short hair.",
+      "exampleTr": "Onun kısa saçları var."
+    },
+    {
+      "id": "a1-u02-v20",
+      "en": "young",
+      "tr": "genç",
+      "example": "Their parents are young.",
+      "exampleTr": "Onların anne babası genç."
+    },
+    {
+      "id": "a1-u02-v21",
+      "en": "hair",
+      "tr": "saç",
+      "example": "He has dark hair.",
+      "exampleTr": "Onun koyu renk saçları var.",
+      "note": "Sayılamaz: hairs değil, hair."
+    },
+    {
+      "id": "a1-u02-v22",
+      "en": "slim",
+      "tr": "ince, zayıf",
+      "example": "My sister is tall and slim.",
+      "exampleTr": "Kız kardeşim uzun boylu ve ince."
+    },
+    {
+      "id": "a1-u02-v23",
+      "en": "friendly",
+      "tr": "cana yakın, arkadaş canlısı",
+      "example": "My cousins are very friendly.",
+      "exampleTr": "Kuzenlerim çok cana yakın."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a1-u02-l1",
+      "number": 1,
+      "title": "Aile üyeleri",
+      "goal": "Aile üyelerimin adını söyleyebilir ve onları tanıtabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Bir fotoğraf",
+        "lines": [
+          {
+            "speaker": "Ali",
+            "text": "Is this your family, Elif?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "Yes, it is. This is my mother and this is my father."
+          },
+          {
+            "speaker": "Ali",
+            "text": "And who's this?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "That's my brother, Can. And this is my grandmother."
+          },
+          {
+            "speaker": "Ali",
+            "text": "She looks very happy!"
+          },
+          {
+            "speaker": "Elif",
+            "text": "She is! She's eighty and she's very funny."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Can?",
+            "options": [
+              "Elif's father",
+              "Elif's brother",
+              "Elif's cousin"
+            ],
+            "answerIndex": 1,
+            "explanation": "Elif \"That's my brother, Can.\" diyor.",
+            "id": "a1-u02-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How old is Elif's grandmother?",
+            "options": [
+              "18",
+              "80",
+              "90"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She's eighty.\" = 80",
+            "id": "a1-u02-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Aileyi tanıtırken **This is my ...** kalıbını kullanırız. Uzaktaki biri ya da fotoğrafta uzaktaki kişi için **That's my ...** denir.\n\n| Kadın | Erkek | İkisi birlikte |\n|---|---|---|\n| mother | father | parents |\n| sister | brother | — |\n| daughter | son | children |\n| wife | husband | — |\n| grandmother | grandfather | grandparents |\n| aunt | uncle | — |\n\n**cousin** (kuzen) hem kız hem erkek için kullanılır.",
+        "examples": [
+          {
+            "en": "This is my sister, Ayşe.",
+            "tr": "Bu benim kız kardeşim, Ayşe."
+          },
+          {
+            "en": "Who's that?",
+            "tr": "Şu kim?"
+          },
+          {
+            "en": "These are my parents.",
+            "tr": "Bunlar benim annem ve babam."
+          }
+        ],
+        "turkishNote": "Türkçede abla/kız kardeş, ağabey/erkek kardeş, teyze/hala, amca/dayı ayrı kelimelerdir. İngilizcede her biri için tek kelime var: sister, brother, aunt, uncle. Yaşı belirtmek gerekirse \"older sister\" (abla), \"younger brother\" (küçük erkek kardeş) denir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "mother",
+              "right": "anne"
+            },
+            {
+              "left": "son",
+              "right": "oğul"
+            },
+            {
+              "left": "aunt",
+              "right": "teyze / hala"
+            },
+            {
+              "left": "uncle",
+              "right": "amca / dayı"
+            },
+            {
+              "left": "cousin",
+              "right": "kuzen"
+            }
+          ],
+          "explanation": "Aile kelimelerini Türkçeleriyle eşleştirin.",
+          "id": "a1-u02-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Annenizin annesi sizin neyiniz olur?",
+          "options": [
+            "aunt",
+            "grandmother",
+            "sister"
+          ],
+          "answerIndex": 1,
+          "explanation": "Annenin annesi = grandmother (büyükanne).",
+          "id": "a1-u02-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Babanızın erkek kardeşi:",
+          "options": [
+            "uncle",
+            "cousin",
+            "grandfather"
+          ],
+          "answerIndex": 0,
+          "explanation": "Amca ve dayı İngilizcede aynı kelimedir: uncle.",
+          "id": "a1-u02-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "My father's wife is my ___.",
+          "answers": [
+            "mother"
+          ],
+          "explanation": "Babanın eşi = anne (mother). Üvey anne ise stepmother'dır.",
+          "id": "a1-u02-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "My aunt's son is my ___.",
+          "answers": [
+            "cousin"
+          ],
+          "explanation": "Teyzenin ya da halanın oğlu = kuzen (cousin).",
+          "id": "a1-u02-l1-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"parents\" kimleri kapsar?",
+          "options": [
+            "Anne ve baba",
+            "Bütün akrabalar",
+            "Kardeşler"
+          ],
+          "answerIndex": 0,
+          "explanation": "parents = anne ve baba. Bütün akrabalar için relatives kullanılır.",
+          "wrongFeedback": {
+            "1": "Dikkat: parents yalnızca anne ve babadır. Akrabalar = relatives."
+          },
+          "id": "a1-u02-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "This",
+            "my",
+            "brother"
+          ],
+          "answer": "This is my brother.",
+          "explanation": "This is + kişi.",
+          "translation": "Bu benim erkek kardeşim.",
+          "id": "a1-u02-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "This is my uncle, Mehmet. He's my mother's brother.",
+          "prompt": "Mehmet konuşanın neyi?",
+          "options": [
+            "Babası",
+            "Dayısı",
+            "Kuzeni"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"my mother's brother\" = annesinin erkek kardeşi, yani dayısı (uncle).",
+          "id": "a1-u02-l1-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu benim büyükannem.\"",
+          "accepted": [
+            "This is my grandmother.",
+            "This is my grandmother",
+            "This is my grandma.",
+            "This is my grandma"
+          ],
+          "explanation": "This is my + aile üyesi.",
+          "id": "a1-u02-l1-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kız kardeşinizi tanıtıyorsunuz. O, sizden uzakta duruyor:",
+          "options": [
+            "This is my sister.",
+            "That's my sister.",
+            "Those are my sister."
+          ],
+          "answerIndex": 1,
+          "explanation": "Uzaktaki tek kişi için that kullanılır.",
+          "wrongFeedback": {
+            "2": "those çoğul içindir. Tek kişi için that."
+          },
+          "id": "a1-u02-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ailenizden üç kişiyi tanıtın (This is my ...).",
+          "modelAnswer": "This is my mother, Ayşe. This is my father, Ahmet. And this is my sister, Elif.",
+          "rubric": [
+            "This is my ... kalıbını kullandı",
+            "Aile kelimeleri doğru",
+            "İsimleri ekledi"
+          ]
+        },
+        "id": "a1-u02-l1-use"
+      }
+    },
+    {
+      "id": "a1-u02-l2",
+      "number": 2,
+      "title": "Benim, senin, onun",
+      "goal": "my, your, his, her, our, their ile kimin neyi olduğunu söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Partide",
+        "lines": [
+          {
+            "speaker": "Mia",
+            "text": "Hi! I'm Mia. What's your name?"
+          },
+          {
+            "speaker": "Tom",
+            "text": "I'm Tom. And this is my friend, Ken."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Nice to meet you, Ken. Is that your sister?"
+          },
+          {
+            "speaker": "Ken",
+            "text": "No, she isn't. That's Tom's sister. Her name is Lisa."
+          },
+          {
+            "speaker": "Mia",
+            "text": "And who are they?"
+          },
+          {
+            "speaker": "Tom",
+            "text": "They're our neighbours. Their son is in my class."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Lisa?",
+            "options": [
+              "Ken's sister",
+              "Tom's sister",
+              "Mia's sister"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"That's Tom's sister. Her name is Lisa.\"",
+            "id": "a1-u02-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is in Tom's class?",
+            "options": [
+              "The neighbours' son",
+              "Ken's brother",
+              "Lisa"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Their son is in my class.\"",
+            "id": "a1-u02-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "İyelik sıfatları ismin önüne gelir ve \"kimin\" olduğunu gösterir.\n\n| Özne | İyelik | Örnek |\n|---|---|---|\n| I | my | my car |\n| you | your | your phone |\n| he | his | his mother |\n| she | her | her father |\n| it | its | its name |\n| we | our | our house |\n| they | their | their children |\n\nİyelik sıfatı değişmez: my brother, my brothers.",
+        "examples": [
+          {
+            "en": "His name is Ali.",
+            "tr": "Onun (erkek) adı Ali."
+          },
+          {
+            "en": "Her name is Elif.",
+            "tr": "Onun (kadın) adı Elif."
+          },
+          {
+            "en": "Their house is big.",
+            "tr": "Onların evi büyük."
+          }
+        ],
+        "turkishNote": "his ve her, sahip olanın cinsiyetine göre seçilir, sahip olunan şeye göre değil. Ali'nin annesi → his mother (Ali erkek olduğu için). Elif'in babası → her father. Ayrıca \"its\" (onun) ile \"it's\" (it is) farklıdır: The cat is happy. Its name is Tom."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I",
+              "right": "my"
+            },
+            {
+              "left": "he",
+              "right": "his"
+            },
+            {
+              "left": "she",
+              "right": "her"
+            },
+            {
+              "left": "we",
+              "right": "our"
+            },
+            {
+              "left": "they",
+              "right": "their"
+            }
+          ],
+          "explanation": "Özne → iyelik sıfatı",
+          "id": "a1-u02-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "Ali is my friend. ___ sister is a doctor.",
+          "answers": [
+            "His"
+          ],
+          "explanation": "Ali erkek, bu yüzden his.",
+          "hint": "Ali erkek",
+          "id": "a1-u02-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "Elif is a student. ___ father is a teacher.",
+          "answers": [
+            "Her"
+          ],
+          "explanation": "Elif kadın, bu yüzden her.",
+          "id": "a1-u02-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Tom and Lisa have a dog. ___ dog is small.",
+          "options": [
+            "Their",
+            "There",
+            "They're"
+          ],
+          "answerIndex": 0,
+          "explanation": "Onların = their. There (orada) ve they're (they are) sesçe benzer ama farklıdır.",
+          "wrongFeedback": {
+            "1": "there \"orada\" demektir. Sahiplik için their.",
+            "2": "they're = they are. Sahiplik için their."
+          },
+          "id": "a1-u02-l2-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ali'nin annesi için hangisi doğru?",
+          "options": [
+            "her mother",
+            "his mother",
+            "its mother"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sahip olan Ali (erkek), bu yüzden his. Annenin kadın olması önemli değil.",
+          "wrongFeedback": {
+            "0": "Dikkat! Sahip olana bakılır: Ali erkek → his."
+          },
+          "id": "a1-u02-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We're from Izmir. ___ house is near the sea.",
+          "answers": [
+            "Our"
+          ],
+          "explanation": "we → our",
+          "id": "a1-u02-l2-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "What's ___ name? – My name is Can.",
+          "options": [
+            "you",
+            "your",
+            "you're"
+          ],
+          "answerIndex": 1,
+          "explanation": "Senin = your. you're = you are.",
+          "id": "a1-u02-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "name",
+            "Her",
+            "Selin",
+            "is"
+          ],
+          "answer": "Her name is Selin.",
+          "explanation": "İyelik sıfatı + isim + is + ...",
+          "translation": "Onun adı Selin.",
+          "id": "a1-u02-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "This is my friend Ken. His family is from Japan. His sister's name is Yuki.",
+          "prompt": "Yuki kimin kız kardeşi?",
+          "options": [
+            "Konuşanın",
+            "Ken'in",
+            "Tom'un"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"His sister's name is Yuki\": his = Ken'in.",
+          "id": "a1-u02-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Onların evi büyük.\"",
+          "accepted": [
+            "Their house is big.",
+            "Their house is big"
+          ],
+          "explanation": "their + house",
+          "id": "a1-u02-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir arkadaşınızı ve onun ailesini 3 cümleyle anlatın (his/her kullanın).",
+          "modelAnswer": "This is my friend Deniz. Her mother is a teacher. Her brother's name is Ozan.",
+          "rubric": [
+            "his/her doğru seçildi",
+            "İyelik sıfatı ismin önünde",
+            "is doğru kullanıldı"
+          ]
+        },
+        "id": "a1-u02-l2-use"
+      }
+    },
+    {
+      "id": "a1-u02-l3",
+      "number": 3,
+      "title": "Ali'nin kız kardeşi",
+      "goal": "'s ile birinin akrabasını ya da eşyasını söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Aile ağacı",
+        "lines": [
+          {
+            "speaker": "Teacher",
+            "text": "Look at Can's family tree. Who's Ayşe?"
+          },
+          {
+            "speaker": "Student",
+            "text": "She's Can's mother."
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Right. And who's Murat?"
+          },
+          {
+            "speaker": "Student",
+            "text": "He's Ayşe's brother, so he's Can's uncle."
+          },
+          {
+            "speaker": "Teacher",
+            "text": "Very good! And Murat's children are Can's...?"
+          },
+          {
+            "speaker": "Student",
+            "text": "Cousins!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Who is Murat?",
+            "options": [
+              "Can's father",
+              "Can's uncle",
+              "Can's cousin"
+            ],
+            "answerIndex": 1,
+            "explanation": "Murat, Can'in annesinin erkek kardeşi: uncle.",
+            "id": "a1-u02-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What are Murat's children to Can?",
+            "options": [
+              "brothers",
+              "cousins",
+              "sons"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Cousins!\"",
+            "id": "a1-u02-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "İsimden sonra **'s** getirerek sahipliği gösteririz. Türkçedeki \"-in\" ekine benzer.\n\n- Ali**'s** sister = Ali'nin kız kardeşi\n- my mother**'s** car = annemin arabası\n\nÇoğul ve -s ile biten isimlerde yalnızca kesme işareti eklenir: my parents**'** house (annemle babamın evi).\n\nKimin olduğunu sormak için: **Whose** bag is this? – It's Tom's.",
+        "examples": [
+          {
+            "en": "Elif's brother is a student.",
+            "tr": "Elif'in erkek kardeşi öğrenci."
+          },
+          {
+            "en": "This is my parents' car.",
+            "tr": "Bu annemle babamın arabası."
+          },
+          {
+            "en": "Whose phone is this? – It's Ali's.",
+            "tr": "Bu kimin telefonu? – Ali'nin."
+          }
+        ],
+        "turkishNote": "Türkçede ek ismin sonuna gelir ve sahip olunan şey de ek alır (Ali'nin kardeş-i). İngilizcede yalnızca sahip olan 's alır: Ali's sister. Dikkat: \"Ali's tall\" cümlesindeki 's ise \"is\"in kısaltmasıdır (Ali is tall)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Elif'in annesi\" İngilizcede:",
+          "options": [
+            "Elif mother",
+            "Elif's mother",
+            "mother's Elif"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sahip olan + 's + sahip olunan.",
+          "id": "a1-u02-l3-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "This is Tom___ bike.",
+          "answers": [
+            "'s"
+          ],
+          "explanation": "Tom'un bisikleti = Tom's bike.",
+          "id": "a1-u02-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "My parents___ house is in Bursa.",
+          "answers": [
+            "'"
+          ],
+          "explanation": "Çoğul -s ile biten isimde yalnızca kesme işareti: parents'.",
+          "id": "a1-u02-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Ali's tall.\" cümlesindeki 's nedir?",
+          "options": [
+            "Sahiplik ('in)",
+            "is'in kısaltması"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ali's tall = Ali is tall. Ardından bir isim değil sıfat geliyor.",
+          "id": "a1-u02-l3-p04"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Ali's car\" cümlesindeki 's nedir?",
+          "options": [
+            "Sahiplik ('in)",
+            "is'in kısaltması"
+          ],
+          "answerIndex": 0,
+          "explanation": "Ardından bir isim (car) geliyor, yani sahiplik: Ali'nin arabası.",
+          "id": "a1-u02-l3-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Whose",
+            "is",
+            "this",
+            "bag",
+            "?"
+          ],
+          "answer": "Whose bag is this?",
+          "explanation": "Whose + isim + is + this?",
+          "translation": "Bu kimin çantası?",
+          "id": "a1-u02-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ book is this? – It's Elif's.",
+          "answers": [
+            "Whose"
+          ],
+          "explanation": "Kimin = whose.",
+          "id": "a1-u02-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "This is my cousin Deniz. Deniz's father is my uncle Murat. Deniz's mother is a doctor.",
+          "prompt": "Deniz'in annesinin mesleği ne?",
+          "options": [
+            "Öğretmen",
+            "Doktor",
+            "Hemşire"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"Deniz's mother is a doctor.\"",
+          "id": "a1-u02-l3-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu Can'in telefonu.\"",
+          "accepted": [
+            "This is Can's phone.",
+            "This is Can's phone"
+          ],
+          "explanation": "Can's + phone",
+          "id": "a1-u02-l3-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Annenizin kız kardeşinin oğlu sizin neyinizdir?",
+          "options": [
+            "My cousin",
+            "My uncle",
+            "My brother"
+          ],
+          "answerIndex": 0,
+          "explanation": "Teyzenin oğlu = kuzen (cousin).",
+          "id": "a1-u02-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size aile ağacınızla ilgili sorular soracak (örneğin \"Who's your mother's sister?\"). 's kullanarak cevaplayın.",
+          "modelAnswer": "My mother's sister is my aunt, Zeynep. Her son is my cousin, Ege.",
+          "rubric": [
+            "'s ile sahiplik doğru",
+            "Aile kelimeleri doğru",
+            "his/her doğru"
+          ]
+        },
+        "id": "a1-u02-l3-use"
+      }
+    },
+    {
+      "id": "a1-u02-l4",
+      "number": 4,
+      "title": "Kaç kardeşin var?",
+      "goal": "Kaç kardeşim olduğunu söyleyip başkalarına sorabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Yeni arkadaş",
+        "lines": [
+          {
+            "speaker": "Lucas",
+            "text": "Do you have any brothers or sisters, Deniz?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Yes, I have two sisters. They're twins!"
+          },
+          {
+            "speaker": "Lucas",
+            "text": "Wow! How old are they?"
+          },
+          {
+            "speaker": "Deniz",
+            "text": "They're twelve. And you?"
+          },
+          {
+            "speaker": "Lucas",
+            "text": "I don't have any brothers or sisters. I'm an only child."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "But you have a lot of cousins, right?"
+          },
+          {
+            "speaker": "Lucas",
+            "text": "Yes! My mother has five brothers and sisters, so I have fourteen cousins."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many sisters does Deniz have?",
+            "options": [
+              "One",
+              "Two",
+              "Three"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I have two sisters.\"",
+            "id": "a1-u02-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does \"only child\" mean?",
+            "options": [
+              "The youngest child",
+              "A child with no brothers or sisters",
+              "A child with one sister"
+            ],
+            "answerIndex": 1,
+            "explanation": "Lucas'ın kardeşi yok: \"I don't have any brothers or sisters. I'm an only child.\"",
+            "id": "a1-u02-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Sahip olduklarımızı **have** ile söyleriz. **he, she, it** ile **has** olur.\n\n- I / you / we / they **have** a brother.\n- he / she / it **has** a brother.\n\nSoru ve olumsuz için şimdilik bu kalıpları öğrenelim (geniş zamanı 5. ünitede ayrıntılı göreceğiz):\n\n- **Do you have** any brothers or sisters?\n- **How many** cousins **do you have**?\n- I **don't have** any brothers.",
+        "examples": [
+          {
+            "en": "I have one brother and one sister.",
+            "tr": "Bir erkek, bir kız kardeşim var."
+          },
+          {
+            "en": "She has three children.",
+            "tr": "Onun üç çocuğu var."
+          },
+          {
+            "en": "How many cousins do you have?",
+            "tr": "Kaç kuzenin var?"
+          }
+        ],
+        "turkishNote": "Türkçede \"var\" kelimesi her yerde aynıdır. İngilizcede sahiplik için have/has kullanılır: \"Bir kardeşim var\" = I have a brother. \"There is\" ise bir yerde bir şeyin bulunduğunu anlatır (4. ünite). \"I have\" ile \"there is\"i karıştırmayın."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I",
+              "right": "have"
+            },
+            {
+              "left": "she",
+              "right": "has"
+            },
+            {
+              "left": "they",
+              "right": "have"
+            },
+            {
+              "left": "he",
+              "right": "has"
+            },
+            {
+              "left": "we",
+              "right": "have"
+            }
+          ],
+          "explanation": "he/she/it → has, diğerleri → have",
+          "id": "a1-u02-l4-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "My brother ___ two children.",
+          "answers": [
+            "has"
+          ],
+          "explanation": "my brother = he → has",
+          "id": "a1-u02-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ a big family.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "we → have",
+          "id": "a1-u02-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She have a sister.",
+            "She has a sister.",
+            "She is a sister have."
+          ],
+          "answerIndex": 1,
+          "explanation": "she → has",
+          "wrongFeedback": {
+            "0": "she ile have değil, has kullanılır."
+          },
+          "id": "a1-u02-l4-p04"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "many",
+            "How",
+            "cousins",
+            "you",
+            "have",
+            "do",
+            "?"
+          ],
+          "answer": "How many cousins do you have?",
+          "explanation": "How many + çoğul isim + do you have?",
+          "translation": "Kaç kuzenin var?",
+          "id": "a1-u02-l4-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Do you have any brothers?\" Kardeşiniz yok. Cevabınız:",
+          "options": [
+            "No, I don't. I'm an only child.",
+            "No, I haven't brothers.",
+            "No, I'm not."
+          ],
+          "answerIndex": 0,
+          "explanation": "Do you have...? sorusuna kısa cevap: No, I don't.",
+          "id": "a1-u02-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I don't have ___ sisters.",
+          "answers": [
+            "any"
+          ],
+          "explanation": "Olumsuz ve soru cümlelerinde çoğul isimden önce any kullanılır.",
+          "id": "a1-u02-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I have one brother and two sisters. My brother is married and he has a daughter.",
+          "prompt": "Konuşanın kaç kardeşi var?",
+          "options": [
+            "İki",
+            "Üç",
+            "Dört"
+          ],
+          "answerIndex": 1,
+          "explanation": "1 brother + 2 sisters = 3 kardeş.",
+          "id": "a1-u02-l4-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İki erkek kardeşim var.\"",
+          "accepted": [
+            "I have two brothers.",
+            "I have two brothers",
+            "I've got two brothers.",
+            "I've got two brothers"
+          ],
+          "explanation": "I have + two + çoğul isim.",
+          "id": "a1-u02-l4-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My aunt has two childs.",
+            "My aunt has two children.",
+            "My aunt have two children."
+          ],
+          "answerIndex": 1,
+          "explanation": "child'ın çoğulu düzensizdir: children. aunt → has.",
+          "id": "a1-u02-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI size kardeşlerinizi ve kuzenlerinizi soracak. Kaç tane olduklarını ve yaşlarını söyleyin.",
+          "modelAnswer": "I have one brother. He's twenty-five. I have six cousins.",
+          "rubric": [
+            "have/has doğru",
+            "Sayılar doğru",
+            "Çoğul isimler doğru (brothers, cousins)"
+          ]
+        },
+        "id": "a1-u02-l4-use"
+      }
+    },
+    {
+      "id": "a1-u02-l5",
+      "number": 5,
+      "title": "Nasıl biri?",
+      "goal": "Aile üyelerimin görünüşünü basit sıfatlarla anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Havaalanında",
+        "lines": [
+          {
+            "speaker": "Elif",
+            "text": "Can you meet my cousin at the airport? Her name's Sara."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Sure. What does she look like?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "She's tall and slim. She has long dark hair."
+          },
+          {
+            "speaker": "Tom",
+            "text": "Is she young?"
+          },
+          {
+            "speaker": "Elif",
+            "text": "Yes, she's twenty-two. And she's very friendly!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Sara look like?",
+            "options": [
+              "Short with fair hair",
+              "Tall with long dark hair",
+              "Tall with short hair"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She's tall and slim. She has long dark hair.\"",
+            "id": "a1-u02-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How old is Sara?",
+            "options": [
+              "20",
+              "22",
+              "32"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She's twenty-two.\"",
+            "id": "a1-u02-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Birinin görünüşünü sormak için: **What does he/she look like?**\n\nCevap vermek için iki kalıp var:\n\n- **be** + sıfat → She**'s** tall. He**'s** young.\n- **have/has** + sıfat + hair → She **has** long dark hair.\n\nSıfatlar ismin **önüne** gelir ve hiçbir zaman çoğul eki almaz: two tall brothers.",
+        "examples": [
+          {
+            "en": "My father is tall.",
+            "tr": "Babam uzun boylu."
+          },
+          {
+            "en": "My sister has short fair hair.",
+            "tr": "Kız kardeşimin kısa sarı saçları var."
+          },
+          {
+            "en": "What does your brother look like?",
+            "tr": "Ağabeyin nasıl görünüyor?"
+          }
+        ],
+        "turkishNote": "İnsan boyu için \"long\" değil \"tall\" kullanılır: a tall man. \"long\" saç, yol gibi şeyler içindir: long hair. Ayrıca \"hair\" sayılamaz, \"hairs\" denmez. Sıfatlar da çoğul olmaz: \"talls brothers\" değil, \"tall brothers\"."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "tall",
+              "right": "uzun boylu"
+            },
+            {
+              "left": "short",
+              "right": "kısa"
+            },
+            {
+              "left": "young",
+              "right": "genç"
+            },
+            {
+              "left": "slim",
+              "right": "ince, zayıf"
+            },
+            {
+              "left": "friendly",
+              "right": "cana yakın"
+            }
+          ],
+          "explanation": "Sıfatları eşleştirin.",
+          "id": "a1-u02-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "My brother is long.",
+            "My brother is tall.",
+            "My brother has tall."
+          ],
+          "answerIndex": 1,
+          "explanation": "İnsan boyu için tall.",
+          "wrongFeedback": {
+            "0": "long insan boyu için kullanılmaz. tall deyin."
+          },
+          "id": "a1-u02-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She has long hair.",
+            "She has long hairs.",
+            "She is long hair."
+          ],
+          "answerIndex": 0,
+          "explanation": "hair sayılamaz, -s almaz; görünüş için has + hair.",
+          "id": "a1-u02-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ short dark hair.",
+          "answers": [
+            "has"
+          ],
+          "explanation": "Saç için has kullanılır.",
+          "id": "a1-u02-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "My grandmother ___ very friendly.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "Kişilik ve görünüş sıfatı için be: is.",
+          "id": "a1-u02-l5-p05"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "does",
+            "What",
+            "look",
+            "she",
+            "like",
+            "?"
+          ],
+          "answer": "What does she look like?",
+          "explanation": "Görünüş sorusu: What does ... look like?",
+          "translation": "O nasıl görünüyor?",
+          "id": "a1-u02-l5-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"İki uzun boylu ağabeyim var.\"",
+          "options": [
+            "I have two talls brothers.",
+            "I have two tall brothers.",
+            "I have two brothers tall."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sıfat ismin önüne gelir ve çoğul eki almaz.",
+          "id": "a1-u02-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My uncle is tall and he has short dark hair. He's fifty-five.",
+          "prompt": "Amcanın saçı nasıl?",
+          "options": [
+            "Uzun ve koyu renk",
+            "Kısa ve koyu renk",
+            "Kısa ve sarı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"short dark hair\" = kısa, koyu renk saç",
+          "id": "a1-u02-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Annem genç ve cana yakın.\"",
+          "accepted": [
+            "My mother is young and friendly.",
+            "My mother is young and friendly",
+            "My mum is young and friendly.",
+            "My mum is young and friendly",
+            "My mom is young and friendly.",
+            "My mom is young and friendly"
+          ],
+          "explanation": "be + sıfat + and + sıfat",
+          "id": "a1-u02-l5-p09"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Your sister is very friendly!\" cümlesine uygun bir cevap:",
+          "options": [
+            "Yes, she is!",
+            "Yes, she has!",
+            "Yes, she does friendly!"
+          ],
+          "answerIndex": 0,
+          "explanation": "be ile kurulan cümleye be ile kısa cevap: Yes, she is.",
+          "id": "a1-u02-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ailenizden birini anlatın: kim, kaç yaşında, nasıl görünüyor?",
+          "modelAnswer": "This is my brother, Emre. He's thirty. He's tall and he has short dark hair. He's very friendly.",
+          "rubric": [
+            "Aile ilişkisini söyledi",
+            "be + sıfat doğru",
+            "has + hair doğru",
+            "Sıfat sırası doğru"
+          ]
+        },
+        "id": "a1-u02-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Babanızın babası:",
+        "options": [
+          "uncle",
+          "grandfather",
+          "cousin"
+        ],
+        "answerIndex": 1,
+        "explanation": "Babanın babası = grandfather.",
+        "id": "a1-u02-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Annenizin kız kardeşi:",
+        "options": [
+          "aunt",
+          "sister",
+          "cousin"
+        ],
+        "answerIndex": 0,
+        "explanation": "Teyze = aunt.",
+        "id": "a1-u02-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "Ayşe is a teacher. ___ husband is a doctor.",
+        "answers": [
+          "Her"
+        ],
+        "explanation": "Ayşe kadın → her.",
+        "id": "a1-u02-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "Can and Ece are married. ___ son is five.",
+        "answers": [
+          "Their"
+        ],
+        "explanation": "Onların = their.",
+        "id": "a1-u02-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Ali'nin annesi:",
+        "options": [
+          "Ali's mother",
+          "her mother of Ali",
+          "Ali mother's"
+        ],
+        "answerIndex": 0,
+        "explanation": "Ali's mother",
+        "id": "a1-u02-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "She have two brothers.",
+          "She has two brothers.",
+          "She has two brother."
+        ],
+        "answerIndex": 1,
+        "explanation": "she → has, two → çoğul brothers.",
+        "id": "a1-u02-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "How ___ cousins do you have?",
+        "answers": [
+          "many"
+        ],
+        "explanation": "Kaç tane = how many.",
+        "id": "a1-u02-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Do you have any sisters?\" Kız kardeşiniz yok:",
+        "options": [
+          "No, I don't.",
+          "No, I'm not.",
+          "No, I haven't sisters."
+        ],
+        "answerIndex": 0,
+        "explanation": "Do you have...? → No, I don't.",
+        "id": "a1-u02-t08"
+      },
+      {
+        "type": "ordering",
+        "words": [
+          "parents'",
+          "This",
+          "my",
+          "is",
+          "car"
+        ],
+        "answer": "This is my parents' car.",
+        "explanation": "Çoğul isimde kesme işareti: parents'.",
+        "translation": "Bu annemle babamın arabası.",
+        "id": "a1-u02-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "My father is very long.",
+          "My father is very tall.",
+          "My father has very tall."
+        ],
+        "answerIndex": 1,
+        "explanation": "İnsan boyu = tall.",
+        "id": "a1-u02-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "She ___ long fair hair.",
+        "answers": [
+          "has"
+        ],
+        "explanation": "Saç için has.",
+        "id": "a1-u02-t11"
+      },
+      {
+        "type": "listening",
+        "audioText": "My sister is twenty-eight. She's married and she has a son. His name is Arda.",
+        "prompt": "Arda kimin oğlu?",
+        "options": [
+          "Konuşanın",
+          "Konuşanın kız kardeşinin",
+          "Konuşanın annesinin"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"My sister ... has a son. His name is Arda.\" Arda, kız kardeşin oğlu.",
+        "id": "a1-u02-t12"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Çoğulunu yazın: child",
+        "accepted": [
+          "children",
+          "Children"
+        ],
+        "explanation": "child → children (düzensiz çoğul)",
+        "id": "a1-u02-t13"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "What does your brother look like?",
+        "options": [
+          "He's a doctor.",
+          "He's tall with dark hair.",
+          "He likes football."
+        ],
+        "answerIndex": 1,
+        "explanation": "look like görünüşü sorar.",
+        "id": "a1-u02-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Ailenizi 5 cümleyle tanıtın: kaç kişisiniz, kimler var, biri nasıl görünüyor?",
+        "modelAnswer": "I have a small family. My mother's name is Ayşe and my father's name is Ali. I have one sister. Her name is Ece. She's tall and she has long dark hair.",
+        "rubric": [
+          "Aile kelimeleri doğru",
+          "have/has doğru",
+          "his/her ve 's doğru",
+          "Görünüş sıfatları doğru yerde"
+        ],
+        "id": "a1-u02-t15"
+      }
+    ]
+  }
+}
