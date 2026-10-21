@@ -1,0 +1,1353 @@
+{
+  "id": "b2-u07",
+  "level": "B2",
+  "number": 7,
+  "title": "Geçmişe dair tahmin",
+  "titleEn": "Looking Back",
+  "canDo": "Geçmişteki olaylar hakkında kanıtlara dayanarak ne kadar emin olduğumu (must have, can't have, might have) ifade edebilir, geçmişteki hataları eleştirebilir (should have) ve gereksiz yapılan işleri (needn't have) anlatabilirim.",
+  "grammar": [
+    "must have / can't have + V3",
+    "might / may / could have + V3",
+    "should / shouldn't have + V3",
+    "needn't have vs didn't need to",
+    "kanıt ve çıkarım dili"
+  ],
+  "vocabularyThemes": [
+    "gizemler ve araştırma",
+    "tarih ve arkeoloji",
+    "yorum ve eleştiri"
+  ],
+  "liveClass": {
+    "title": "Dedektif masası",
+    "durationMinutes": 45,
+    "goal": "Gruplar kısa bir \"gizem dosyası\" alır (bir fotoğraf, birkaç ipucu). Kanıtları tartışıp must have / can't have / might have ile ne olduğuna dair bir teori kurar ve sınıfa sunar. Sonunda öğretmen gerçeği açıklar ve gruplar should have ile kendi akıl yürütme hatalarını değerlendirir."
+  },
+  "vocabulary": [
+    {
+      "id": "b2-u07-v01",
+      "en": "evidence",
+      "tr": "kanıt",
+      "example": "There's no evidence that he was there.",
+      "exampleTr": "Orada olduğuna dair hiçbir kanıt yok.",
+      "note": "sayılamaz: a piece of evidence"
+    },
+    {
+      "id": "b2-u07-v02",
+      "en": "clue",
+      "tr": "ipucu",
+      "example": "The detective found an important clue.",
+      "exampleTr": "Dedektif önemli bir ipucu buldu."
+    },
+    {
+      "id": "b2-u07-v03",
+      "en": "theory",
+      "tr": "teori",
+      "example": "I have a theory about what happened.",
+      "exampleTr": "Ne olduğuna dair bir teorim var."
+    },
+    {
+      "id": "b2-u07-v04",
+      "en": "deduce",
+      "tr": "sonuç çıkarmak",
+      "example": "From the footprints, she deduced that two people had been there.",
+      "exampleTr": "Ayak izlerinden orada iki kişinin bulunduğu sonucunu çıkardı."
+    },
+    {
+      "id": "b2-u07-v05",
+      "en": "conclusion",
+      "tr": "sonuç, varılan yargı",
+      "example": "Don't jump to conclusions.",
+      "exampleTr": "Hemen sonuca atlama."
+    },
+    {
+      "id": "b2-u07-v06",
+      "en": "assume",
+      "tr": "varsaymak",
+      "example": "I assumed you had already left.",
+      "exampleTr": "Çoktan gittiğini varsaydım."
+    },
+    {
+      "id": "b2-u07-v07",
+      "en": "suspect",
+      "tr": "şüphelenmek; şüpheli",
+      "example": "Police suspect that the fire was started deliberately.",
+      "exampleTr": "Polis yangının kasten çıkarıldığından şüpheleniyor."
+    },
+    {
+      "id": "b2-u07-v08",
+      "en": "witness",
+      "tr": "tanık",
+      "example": "A witness saw a man running away.",
+      "exampleTr": "Bir tanık kaçan bir adam gördü."
+    },
+    {
+      "id": "b2-u07-v09",
+      "en": "mystery",
+      "tr": "gizem",
+      "example": "Her disappearance is still a mystery.",
+      "exampleTr": "Ortadan kaybolması hâlâ bir gizem."
+    },
+    {
+      "id": "b2-u07-v10",
+      "en": "solve",
+      "tr": "çözmek",
+      "example": "The case was never solved.",
+      "exampleTr": "Dava hiç çözülmedi."
+    },
+    {
+      "id": "b2-u07-v11",
+      "en": "explanation",
+      "tr": "açıklama",
+      "example": "There must be a logical explanation.",
+      "exampleTr": "Mantıklı bir açıklaması olmalı."
+    },
+    {
+      "id": "b2-u07-v12",
+      "en": "likely",
+      "tr": "muhtemel",
+      "example": "It's likely that they got lost.",
+      "exampleTr": "Kaybolmuş olmaları muhtemel."
+    },
+    {
+      "id": "b2-u07-v13",
+      "en": "unlikely",
+      "tr": "pek olası değil",
+      "example": "It's unlikely that he did it alone.",
+      "exampleTr": "Bunu tek başına yapmış olması pek olası değil."
+    },
+    {
+      "id": "b2-u07-v14",
+      "en": "ruins",
+      "tr": "harabe, kalıntılar",
+      "example": "We explored the ruins of an ancient temple.",
+      "exampleTr": "Antik bir tapınağın kalıntılarını gezdik."
+    },
+    {
+      "id": "b2-u07-v15",
+      "en": "excavation",
+      "tr": "kazı",
+      "example": "The excavation began in 1995.",
+      "exampleTr": "Kazı 1995'te başladı."
+    },
+    {
+      "id": "b2-u07-v16",
+      "en": "archaeologist",
+      "tr": "arkeolog",
+      "example": "Archaeologists found pottery at the site.",
+      "exampleTr": "Arkeologlar alanda çanak çömlek buldu."
+    },
+    {
+      "id": "b2-u07-v17",
+      "en": "site",
+      "tr": "alan, ören yeri",
+      "example": "Göbekli Tepe is an important archaeological site.",
+      "exampleTr": "Göbekli Tepe önemli bir arkeolojik alan."
+    },
+    {
+      "id": "b2-u07-v18",
+      "en": "date back to",
+      "tr": "-e dayanmak (tarih)",
+      "example": "The tools date back to 10,000 BC.",
+      "exampleTr": "Aletler MÖ 10.000'e dayanıyor."
+    },
+    {
+      "id": "b2-u07-v19",
+      "en": "ritual",
+      "tr": "ritüel, tören",
+      "example": "The stones may have been used for rituals.",
+      "exampleTr": "Taşlar ritüeller için kullanılmış olabilir."
+    },
+    {
+      "id": "b2-u07-v20",
+      "en": "carelessly",
+      "tr": "dikkatsizce",
+      "example": "He carelessly left the door open.",
+      "exampleTr": "Kapıyı dikkatsizce açık bıraktı."
+    },
+    {
+      "id": "b2-u07-v21",
+      "en": "in hindsight",
+      "tr": "geriye dönüp bakınca",
+      "example": "In hindsight, we should have left earlier.",
+      "exampleTr": "Geriye dönüp bakınca daha erken çıkmalıydık."
+    },
+    {
+      "id": "b2-u07-v22",
+      "en": "to blame",
+      "tr": "suçlu, sorumlu",
+      "example": "Who is to blame for the mistake?",
+      "exampleTr": "Hatadan kim sorumlu?"
+    },
+    {
+      "id": "b2-u07-v23",
+      "en": "overreact",
+      "tr": "aşırı tepki vermek",
+      "example": "Maybe I overreacted a little.",
+      "exampleTr": "Belki biraz aşırı tepki verdim."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b2-u07-l1",
+      "number": 1,
+      "title": "Kesin olmalı, olamaz",
+      "goal": "must have ve can't / couldn't have ile geçmiş hakkında güçlü çıkarımlar yapabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ofiste sabah",
+        "lines": [
+          {
+            "speaker": "Nur",
+            "text": "Look at this. The kitchen's a mess, and all the cake is gone."
+          },
+          {
+            "speaker": "Kaan",
+            "text": "Someone must have stayed late last night. The lights were still on when I arrived."
+          },
+          {
+            "speaker": "Nur",
+            "text": "It can't have been Melis. She was at the conference in Izmir all week."
+          },
+          {
+            "speaker": "Kaan",
+            "text": "And it couldn't have been the cleaners. They don't come on Thursdays."
+          },
+          {
+            "speaker": "Nur",
+            "text": "Wait, there's a pizza box with Burak's name on it."
+          },
+          {
+            "speaker": "Kaan",
+            "text": "Ha! He must have been working on the presentation. It's due today."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Kaan think someone stayed late?",
+            "options": [
+              "The door was open.",
+              "The lights were still on.",
+              "He saw them."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The lights were still on when I arrived.\"",
+            "id": "b2-u07-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why can't it have been Melis?",
+            "options": [
+              "She was ill.",
+              "She was at a conference in Izmir.",
+              "She doesn't like cake."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"She was at the conference in Izmir all week.\"",
+            "id": "b2-u07-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Şimdiki zamanda **must** ve **can't** ile çıkarım yapmayı biliyorsunuz (*He must be tired.*). Geçmiş için **modal + have + V3** kullanılır.\n\n| Yapı | Anlam | Kesinlik |\n|---|---|---|\n| **must have** + V3 | Kesin öyle oldu (kanıta göre) | ~%95 evet |\n| **can't have** + V3 | Kesin öyle olmadı (imkânsız) | ~%95 hayır |\n| **couldn't have** + V3 | Kesin öyle olmadı | ~%95 hayır |\n\n**Örnekler:**\n\n- The lights were on. Someone **must have stayed** late.\n- She was in Izmir. It **can't have been** her.\n- He **couldn't have seen** us. It was too dark.\n\n**Çok önemli:**\n\n- **must have**'ın olumsuzu **mustn't have DEĞİLDİR**. Çıkarımda olumsuz **can't have / couldn't have**'dır.\n  - ~~She mustn't have known.~~ → She **can't have known**.\n- Telaffuz: konuşmada **must've** /ˈmʌstəv/, **can't've** /ˈkɑːntəv/ gibi kısaltılır.\n- Süreç bildiren olaylar için **must have been + -ing**: *He **must have been working** on the presentation.*",
+        "examples": [
+          {
+            "en": "The ground is wet. It must have rained last night.",
+            "tr": "Yer ıslak. Dün gece yağmur yağmış olmalı."
+          },
+          {
+            "en": "You can't have finished already! You only started ten minutes ago.",
+            "tr": "Bitirmiş olamazsın! On dakika önce başladın."
+          },
+          {
+            "en": "She must have been waiting for hours.",
+            "tr": "Saatlerdir bekliyor olmalı."
+          }
+        ],
+        "turkishNote": "Türkçede \"-mış olmalı\" (must have) ve \"-mış olamaz\" (can't have) yapıları birebir karşılık gelir: \"yağmış olmalı\" = must have rained. En sık hata olumsuzu \"mustn't have\" ile kurmaktır. Bir de \"-mış\" ekinin duyulan geçmiş (He's left, apparently) anlamıyla karışmamasına dikkat: çıkarımda modal + have gerekir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Yerde ayak izleri var.\" → Someone ___ in here.",
+          "options": [
+            "must have been",
+            "can't have been"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kanıt → must have.",
+          "id": "b2-u07-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olumsuz çıkarım:",
+          "options": [
+            "He mustn't have heard us.",
+            "He can't have heard us."
+          ],
+          "answerIndex": 1,
+          "explanation": "can't have.",
+          "id": "b2-u07-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"It can't have been Ali.\" anlamı:",
+          "options": [
+            "Ali olmuş olabilir.",
+            "Ali olmuş olamaz."
+          ],
+          "answerIndex": 1,
+          "explanation": "İmkânsız.",
+          "id": "b2-u07-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"She must have been sleeping.\" vurgusu:",
+          "options": [
+            "Tamamlanmış eylem",
+            "Süren eylem"
+          ],
+          "answerIndex": 1,
+          "explanation": "have been + -ing.",
+          "id": "b2-u07-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The car is gone. Dad must ___ taken it.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "must have + V3.",
+          "id": "b2-u07-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "You can't have ___ (see) him yesterday. He's in Japan.",
+          "answers": [
+            "seen"
+          ],
+          "explanation": "V3.",
+          "id": "b2-u07-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The window is broken. Someone must have ___ (throw) a stone.",
+          "answers": [
+            "thrown"
+          ],
+          "explanation": "throw-threw-thrown.",
+          "id": "b2-u07-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "She couldn't have ___ (know) about the party. It was a secret.",
+          "answers": [
+            "known"
+          ],
+          "explanation": "know-knew-known.",
+          "id": "b2-u07-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Wow, your garden looks amazing! You must have spent all weekend working on it. And these tomatoes can't have come from the supermarket. They're far too tasty.",
+          "prompt": "Konuşan domatesler hakkında ne düşünüyor?",
+          "options": [
+            "Süpermarketten alınmış",
+            "Süpermarketten gelmiş olamaz",
+            "Komşudan gelmiş"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"can't have come from the supermarket\"",
+          "id": "b2-u07-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Yolu kaybetmiş olmalılar.\" (they, lose their way)",
+          "accepted": [
+            "They must have lost their way.",
+            "They must have lost their way",
+            "They must've lost their way.",
+            "They must've lost their way"
+          ],
+          "explanation": "They must have lost their way.",
+          "id": "b2-u07-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki durumlar için must have ve can't / couldn't have ile birer çıkarım yapın ve gerekçenizi söyleyin: (1) Komşunuzun evinin önünde bir taşınma kamyonu vardı. (2) Arkadaşınız sınavdan 100 aldı. (3) Telefonunuzda 12 cevapsız arama var. (4) Buzdolabındaki tatlı yok olmuş.",
+          "modelAnswer": "There was a removal van outside my neighbour's house, so they must have moved out. My friend got 100 in the exam. She must have studied really hard. She can't have cheated because the teacher was watching all the time. I've got twelve missed calls from my mum. Something must have happened. The dessert has disappeared. It can't have been my dad because he's on a diet, so it must have been my brother!",
+          "rubric": [
+            "must have + V3",
+            "can't / couldn't have",
+            "Gerekçe gösterme"
+          ]
+        },
+        "id": "b2-u07-l1-use"
+      }
+    },
+    {
+      "id": "b2-u07-l2",
+      "number": 2,
+      "title": "Olmuş olabilir",
+      "goal": "might / may / could have ile geçmiş hakkında olasılıkları tartışabilir ve farklı teoriler önerebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Göbekli Tepe'nin gizemi",
+        "body": "Göbekli Tepe, near Şanlıurfa, is one of the most important archaeological sites in the world. Its huge stone pillars date back to around 9500 BC, which makes them about 6,000 years older than Stonehenge.\n\nBut who built it, and why? The people who lived there were hunter-gatherers. They didn't have metal tools or the wheel. So how did they move stones that weigh several tonnes?\n\nArchaeologists have several theories. The site may have been a religious centre, where people from different groups came together for rituals and feasts. Some experts think it might have been used for burials. Others suggest that it could have been a kind of meeting place for trade.\n\nOne thing is clear: building it must have required hundreds of people working together for years. And that may have changed the way humans lived, and even led to the beginning of farming.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How old are the pillars?",
+            "options": [
+              "About 2,000 years old",
+              "Around 9500 BC",
+              "About 500 years old"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"date back to around 9500 BC\"",
+            "id": "b2-u07-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is one theory about the site?",
+            "options": [
+              "It was a royal palace.",
+              "It may have been a religious centre.",
+              "It was a market for metal tools."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The site may have been a religious centre\"",
+            "id": "b2-u07-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Geçmişteki **olasılıklar** için **might / may / could have + V3** kullanılır. Üçü de yaklaşık aynı anlama gelir: **\"-mış olabilir\"**.\n\n| Yapı | Anlam | Kesinlik |\n|---|---|---|\n| must have | kesin (çıkarım) | %95 |\n| **may have** | olabilir | %50 |\n| **might have** | olabilir (biraz daha az emin) | %40 |\n| **could have** | olabilir | %40 |\n| can't have | imkânsız | %5 |\n\n**Olumsuz:**\n\n- **may not have / might not have** = belki olmadı\n  - *He **might not have received** my email.* (Belki almadı.)\n- **couldn't have** ≠ might not have!\n  - *He **couldn't have received** it.* = Kesinlikle almadı (imkânsız).\n\n**B2 Ünite 3'teki could have ile farkı:** Orada **could have** \"yapabilirdin ama yapmadın\" (kaçırılmış fırsat) anlamındaydı. Burada **\"belki öyle oldu, bilmiyoruz\"** anlamında bir tahmin.\n\n- *You **could have called** me!* (Arayabilirdin, aramadın. → eleştiri)\n- *She **could have called** while I was out.* (Ben dışarıdayken aramış olabilir. → tahmin)",
+        "examples": [
+          {
+            "en": "The site may have been a religious centre.",
+            "tr": "Alan bir dini merkez olmuş olabilir."
+          },
+          {
+            "en": "I can't find my keys. I might have left them at work.",
+            "tr": "Anahtarlarımı bulamıyorum. İşte bırakmış olabilirim."
+          },
+          {
+            "en": "She may not have heard the news yet.",
+            "tr": "Haberi henüz duymamış olabilir."
+          }
+        ],
+        "turkishNote": "Türkçede \"-mış olabilir\" tek bir yapıyla karşılanır; İngilizcede may / might / could have aynı işi görür. Asıl zorluk olumsuzlarda: \"might not have\" (belki olmadı) ile \"couldn't have\" (kesinlikle olmadı) çok farklı kesinlik düzeyleridir. \"Almamış olabilir\" demek istiyorsanız \"couldn't have\" değil, \"might not have\" kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Toplantıyı unutmuş olabilir.\"",
+          "options": [
+            "He must have forgotten the meeting.",
+            "He might have forgotten the meeting."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olasılık → might have.",
+          "id": "b2-u07-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Belki e-postamı görmedi.\"",
+          "options": [
+            "She couldn't have seen my email.",
+            "She may not have seen my email."
+          ],
+          "answerIndex": 1,
+          "explanation": "Belki olmadı → may not have.",
+          "id": "b2-u07-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"You could have told me!\" burada:",
+          "options": [
+            "Tahmin",
+            "Eleştiri (söyleyebilirdin)"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kaçırılmış fırsat.",
+          "id": "b2-u07-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi en kesin?",
+          "options": [
+            "might have",
+            "may have",
+            "must have"
+          ],
+          "answerIndex": 2,
+          "explanation": "must have.",
+          "id": "b2-u07-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'm not sure where Can is. He ___ have gone to the gym. (olabilir)",
+          "answers": [
+            "might",
+            "may",
+            "could"
+          ],
+          "explanation": "might / may / could.",
+          "id": "b2-u07-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The stones may have ___ (use) for rituals.",
+          "answers": [
+            "been used"
+          ],
+          "explanation": "Edilgen: have been + V3.",
+          "id": "b2-u07-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "They might not ___ (hear) the doorbell.",
+          "answers": [
+            "have heard"
+          ],
+          "explanation": "might not have + V3.",
+          "id": "b2-u07-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "It ___ have been a meeting place. Nobody knows for sure. (olabilir)",
+          "answers": [
+            "may",
+            "might",
+            "could"
+          ],
+          "explanation": "Olasılık.",
+          "id": "b2-u07-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Nobody knows why the ancient city was abandoned. There might have been a terrible drought, or an earthquake could have destroyed it. Some historians think disease may have killed most of the population.",
+          "prompt": "Hangisi teorilerden biri DEĞİL?",
+          "options": [
+            "Kuraklık",
+            "Deprem",
+            "Savaş"
+          ],
+          "answerIndex": 2,
+          "explanation": "Savaştan söz edilmiyor.",
+          "id": "b2-u07-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Otobüsü kaçırmış olabilir.\" (she, might)",
+          "accepted": [
+            "She might have missed the bus.",
+            "She might have missed the bus",
+            "She might've missed the bus.",
+            "She might've missed the bus"
+          ],
+          "explanation": "She might have missed the bus.",
+          "id": "b2-u07-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Tarihî bir gizem seçin (Truva, piramitler, Göbekli Tepe, kayıp bir uçak, vb.). Ne olduğuna dair en az 3 farklı teori önerin (may / might / could have) ve en mantıklısının hangisi olduğunu must have / can't have ile savunun.",
+          "modelAnswer": "I'd like to talk about the pyramids in Egypt. People have wondered how they were built for thousands of years. Some people believe that the Egyptians might have used ramps to move the stones. Others think they could have used water to float the blocks. A few even say aliens may have helped, but that can't have happened! In my opinion, the workers must have used ramps, because archaeologists have found evidence of them.",
+          "rubric": [
+            "may / might / could have",
+            "must / can't have ile savunma",
+            "Kanıta dayalı akıl yürütme"
+          ]
+        },
+        "id": "b2-u07-l2-use"
+      }
+    },
+    {
+      "id": "b2-u07-l3",
+      "number": 3,
+      "title": "Yapmalıydın",
+      "goal": "should have ve shouldn't have ile geçmişteki hataları eleştirebilir ve ders çıkarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kaçırılan uçak",
+        "lines": [
+          {
+            "speaker": "Selin",
+            "text": "I can't believe we missed the flight."
+          },
+          {
+            "speaker": "Arda",
+            "text": "We should have left the house earlier. I told you the traffic would be terrible."
+          },
+          {
+            "speaker": "Selin",
+            "text": "Well, you shouldn't have spent forty minutes looking for your sunglasses!"
+          },
+          {
+            "speaker": "Arda",
+            "text": "Fair enough. And we should have checked in online. The queue was enormous."
+          },
+          {
+            "speaker": "Selin",
+            "text": "In hindsight, we shouldn't have booked such an early flight either."
+          },
+          {
+            "speaker": "Arda",
+            "text": "OK, lesson learned. Next time, we pack the night before."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did Arda delay them?",
+            "options": [
+              "He forgot his passport.",
+              "He was looking for his sunglasses.",
+              "He was on the phone."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"looking for your sunglasses\"",
+            "id": "b2-u07-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What lesson do they learn?",
+            "options": [
+              "Take a taxi.",
+              "Pack the night before.",
+              "Never fly again."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Next time, we pack the night before.\"",
+            "id": "b2-u07-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**should have + V3** = \"-malıydı / -meliydin\" (yapılmadı ve bu bir hataydı)\n\n**shouldn't have + V3** = \"-mamalıydı / -mamalıydın\" (yapıldı ve bu bir hataydı)\n\n| Yapı | Gerçek | Anlam |\n|---|---|---|\n| We **should have left** earlier. | Erken çıkmadık. | Erken çıkmalıydık. |\n| You **shouldn't have spent** so long. | Çok zaman harcadın. | Harcamamalıydın. |\n| He **ought to have** told us. | Söylemedi. | Söylemeliydi. (daha resmî) |\n\n**Kullanım alanları:**\n\n1. **Eleştiri:** *You **should have asked** me first.*\n2. **Pişmanlık:** *I **shouldn't have said** that.*\n3. **Beklenti (şaşırma):** *The train **should have arrived** by now.* (Şimdiye kadar gelmiş olmalıydı; gelmedi.)\n\n**must have ile karıştırmayın:**\n\n- He **must have left**. (Gitmiş olmalı. → çıkarım)\n- He **should have left**. (Gitmeliydi. → eleştiri; gitmedi)\n\n**Kibar eleştiri:** *Maybe you **could have** asked first?* / *It **might have been** better to ...*",
+        "examples": [
+          {
+            "en": "I should have studied harder for the exam.",
+            "tr": "Sınava daha çok çalışmalıydım."
+          },
+          {
+            "en": "You shouldn't have left the door unlocked.",
+            "tr": "Kapıyı kilitsiz bırakmamalıydın."
+          },
+          {
+            "en": "They should have arrived by now. I hope they're OK.",
+            "tr": "Şimdiye kadar gelmiş olmaları gerekirdi. Umarım iyilerdir."
+          }
+        ],
+        "turkishNote": "Türkçede \"çıkmalıydık\" (should have left) ile \"çıkmış olmalıyız\" (must have left) yapıları benzer olduğu için karıştırılabilir. Kural: eleştiri ya da pişmanlıksa should have, kanıta dayalı çıkarımsa must have. Ayrıca \"Teşekkürler, zahmet etmeseydin!\" İngilizcede \"You shouldn't have!\" olarak söylenir: hediye alırken çok kullanılan nazik bir kalıptır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Sana söylemeliydim.\"",
+          "options": [
+            "I must have told you.",
+            "I should have told you."
+          ],
+          "answerIndex": 1,
+          "explanation": "Pişmanlık → should have.",
+          "id": "b2-u07-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gitmiş olmalı, arabası yok.\"",
+          "options": [
+            "He should have left.",
+            "He must have left."
+          ],
+          "answerIndex": 1,
+          "explanation": "Çıkarım → must have.",
+          "id": "b2-u07-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hediye aldığınızda \"Zahmet etmeseydin!\":",
+          "options": [
+            "You mustn't!",
+            "You shouldn't have!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kalıp.",
+          "id": "b2-u07-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"The bus should have come by now.\" anlamı:",
+          "options": [
+            "Otobüs geldi.",
+            "Otobüsün gelmiş olması gerekirdi ama gelmedi."
+          ],
+          "answerIndex": 1,
+          "explanation": "Beklenti.",
+          "id": "b2-u07-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "You ___ have eaten so much. Now you feel sick. (yememeliydin)",
+          "answers": [
+            "shouldn't"
+          ],
+          "explanation": "shouldn't have.",
+          "id": "b2-u07-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We should have ___ (book) a table. The restaurant is full.",
+          "answers": [
+            "booked"
+          ],
+          "explanation": "V3.",
+          "id": "b2-u07-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I shouldn't have ___ (say) that. I'm sorry.",
+          "answers": [
+            "said"
+          ],
+          "explanation": "say-said-said.",
+          "id": "b2-u07-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ought ___ have told his boss earlier.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "ought to have.",
+          "id": "b2-u07-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I really regret selling my old car. It was cheap to run and never broke down. I should have kept it. And I definitely shouldn't have bought this new one. It's been to the garage three times already.",
+          "prompt": "Konuşan neden pişman?",
+          "options": [
+            "Eski arabasını sattığı için",
+            "Hiç araba almadığı için",
+            "Ehliyet almadığı için"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I really regret selling my old car... I should have kept it.\"",
+          "id": "b2-u07-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Kapıyı kilitlemeliydin.\" (you, lock the door)",
+          "accepted": [
+            "You should have locked the door.",
+            "You should have locked the door",
+            "You should've locked the door.",
+            "You should've locked the door"
+          ],
+          "explanation": "You should have locked the door.",
+          "id": "b2-u07-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızda ya da bir arkadaşınızın hayatında yanlış giden bir durumu anlatın (kötü geçen bir tatil, bir iş görüşmesi, bir tartışma). should have ve shouldn't have ile en az 5 hata ve ders çıkarın. Bir kez de kibar eleştiri kalıbı (Maybe I could have ...) kullanın.",
+          "modelAnswer": "Last year I had a job interview that went really badly. First of all, I should have researched the company, because they asked me questions I couldn't answer. I shouldn't have stayed up so late the night before. I was exhausted. I should have left home earlier, too, because I arrived ten minutes late. And I definitely shouldn't have talked so much about my salary. Maybe I could have asked more questions about the team. Lesson learned!",
+          "rubric": [
+            "should have / shouldn't have",
+            "must have ile karıştırmama",
+            "Kibar eleştiri"
+          ]
+        },
+        "id": "b2-u07-l3-use"
+      }
+    },
+    {
+      "id": "b2-u07-l4",
+      "number": 4,
+      "title": "Gerek yokmuş",
+      "goal": "needn't have ile didn't need to arasındaki farkı bilerek gereksiz yapılan işleri anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Piknik hazırlığı",
+        "lines": [
+          {
+            "speaker": "Defne",
+            "text": "I made three kinds of salad and two cakes for the picnic."
+          },
+          {
+            "speaker": "Mert",
+            "text": "Oh, you needn't have made so much! Everyone else brought food too."
+          },
+          {
+            "speaker": "Defne",
+            "text": "Really? I should have asked. What about you? Did you bring drinks?"
+          },
+          {
+            "speaker": "Mert",
+            "text": "No, I didn't need to. The park café gives free water to everyone."
+          },
+          {
+            "speaker": "Defne",
+            "text": "And I took a taxi because I thought it would rain. I needn't have worried. It's sunny!"
+          },
+          {
+            "speaker": "Mert",
+            "text": "Never mind. At least we won't go hungry."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Did Defne make a lot of food?",
+            "options": [
+              "Yes, but it wasn't necessary.",
+              "No, she forgot.",
+              "Yes, and it was necessary."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"you needn't have made so much\"",
+            "id": "b2-u07-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Did Mert bring drinks?",
+            "options": [
+              "Yes",
+              "No, it wasn't necessary"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I didn't need to.\"",
+            "id": "b2-u07-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "İkisi de \"gerek yoktu\" anlamına gelir, ama farklı bir şey söyler:\n\n| Yapı | Eylem yapıldı mı? | Örnek |\n|---|---|---|\n| **needn't have** + V3 | **Evet, yapıldı** (ama gereksizdi) | You **needn't have made** so much. (Yaptın, ama gerek yokmuş.) |\n| **didn't need to** + V1 | Genellikle **hayır**, yapılmadı | I **didn't need to** bring drinks. (Getirmedim, çünkü gerek yoktu.) |\n\n**Daha fazla örnek:**\n\n- I **needn't have taken** an umbrella. It didn't rain. (Şemsiye aldım, boşunaymış.)\n- I **didn't need to take** an umbrella. The forecast said sun. (Almadım, gerek yoktu.)\n\n**Dikkat:** **didn't need to** bazen eylem yapılmış olsa da kullanılabilir (*I didn't need to wait, but I did.*), ama **needn't have** her zaman eylemin yapıldığını gösterir.\n\n**didn't have to** = didn't need to\n\n- *We **didn't have to** pay. It was free.*\n\n**Sık kullanılan kalıp:** *You **needn't have bothered**.* (Zahmet etmeseydin. / Boşuna uğraşmışsın.) *I **needn't have worried**.* (Boşuna endişelenmişim.)",
+        "examples": [
+          {
+            "en": "I needn't have worried. The exam was easy.",
+            "tr": "Boşuna endişelenmişim. Sınav kolaydı."
+          },
+          {
+            "en": "We didn't need to book. The restaurant was empty.",
+            "tr": "Rezervasyon yapmamıza gerek yoktu. Restoran boştu."
+          },
+          {
+            "en": "You needn't have bought me a present!",
+            "tr": "Bana hediye almana gerek yoktu!"
+          }
+        ],
+        "turkishNote": "Türkçede \"Boşuna endişelenmişim\" ve \"Endişelenmeme gerek yoktu\" farklı şeyler anlatır; İngilizce de bu farkı needn't have (yaptım, boşunaymış) ve didn't need to (gerek yoktu, yapmadım) ile yapar. \"Boşuna\" kelimesini düşünmek işe yarar: \"boşuna yaptım\" diyorsanız needn't have kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Şemsiye almışım, boşunaymış.\"",
+          "options": [
+            "I didn't need to take an umbrella.",
+            "I needn't have taken an umbrella."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yapıldı ama gereksizdi.",
+          "id": "b2-u07-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"We didn't need to queue.\" Sıraya girdiler mi?",
+          "options": [
+            "Muhtemelen hayır",
+            "Evet"
+          ],
+          "answerIndex": 0,
+          "explanation": "didn't need to.",
+          "id": "b2-u07-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"You needn't have bothered.\" anlamı:",
+          "options": [
+            "Zahmet etmeseydin.",
+            "Zahmet etmeliydin."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kalıp.",
+          "id": "b2-u07-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi didn't need to ile aynı anlamda?",
+          "options": [
+            "didn't have to",
+            "mustn't"
+          ],
+          "answerIndex": 0,
+          "explanation": "didn't have to.",
+          "id": "b2-u07-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I needn't ___ (cook). They'd already eaten.",
+          "answers": [
+            "have cooked"
+          ],
+          "explanation": "needn't have + V3.",
+          "id": "b2-u07-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We didn't ___ to pay. Entry was free.",
+          "answers": [
+            "need",
+            "have"
+          ],
+          "explanation": "didn't need / have to.",
+          "id": "b2-u07-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "You needn't have ___ (buy) so much bread.",
+          "answers": [
+            "bought"
+          ],
+          "explanation": "buy-bought-bought.",
+          "id": "b2-u07-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I needn't have ___ (worry). Everything went well.",
+          "answers": [
+            "worried"
+          ],
+          "explanation": "V3.",
+          "id": "b2-u07-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I got up at five to finish my report before the meeting. Then my manager called and said the meeting had been postponed until next week. I needn't have rushed at all.",
+          "prompt": "Konuşan erken kalkmakla ilgili ne düşünüyor?",
+          "options": [
+            "Gerekliydi",
+            "Boşunaymış",
+            "Daha da erken kalkmalıydı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I needn't have rushed at all.\"",
+          "id": "b2-u07-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizcesi: \"Bu kadar çok yemek yapmana gerek yoktu!\" (needn't have)",
+          "accepted": [
+            "You needn't have cooked so much!",
+            "You needn't have cooked so much",
+            "You needn't have made so much food!",
+            "You needn't have made so much food",
+            "You needn't have cooked so much food!",
+            "You needn't have cooked so much food"
+          ],
+          "explanation": "You needn't have cooked so much!",
+          "id": "b2-u07-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Boşuna yaptığınız 3 şeyi (needn't have) ve gerek olmadığı için yapmadığınız 3 şeyi (didn't need to / didn't have to) anlatın. Her biri için nedenini de söyleyin.",
+          "modelAnswer": "Last week I needn't have studied all night for the quiz, because the teacher cancelled it. I needn't have taken a jacket to Antalya. It was thirty degrees. And I needn't have worried about my presentation. Everyone loved it. On the other hand, I didn't need to cook on Sunday, because my aunt invited us for lunch. I didn't have to pay for parking, because it was a holiday. And I didn't need to take the bus, because my friend gave me a lift.",
+          "rubric": [
+            "needn't have + V3",
+            "didn't need to / didn't have to",
+            "Doğru anlam farkı"
+          ]
+        },
+        "id": "b2-u07-l4-use"
+      }
+    },
+    {
+      "id": "b2-u07-l5",
+      "number": 5,
+      "title": "Olayı yeniden kurmak",
+      "goal": "Bütün geçmiş modal yapılarını birleştirerek bir olayı kanıtlara dayanarak analiz edebilir ve yorumlayan bir metin yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Okuyucu mektubu: Kayıp bisiklet",
+        "body": "Last Tuesday, my bike disappeared from outside the library. I had locked it to the railings at 2 p.m., and when I came out at 5, only the lock was left, cut cleanly in half.\n\nThe thief must have used a strong cutting tool, because it was a thick steel lock. They can't have done it quickly, so someone must have seen something. However, the security guard told me the camera at the entrance hadn't been working for a week.\n\nIn hindsight, I made a few mistakes. I shouldn't have left the bike in the same place every day, and I should have registered it with the police. I might have got it back if I had done that.\n\nThe library should have repaired the camera much sooner. And the city needn't have spent so much money on new bike lanes if it can't protect the bikes that use them.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does the writer think the thief used a strong tool?",
+            "options": [
+              "The bike was heavy.",
+              "It was a thick steel lock.",
+              "A witness saw it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"because it was a thick steel lock\"",
+            "id": "b2-u07-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the writer criticise the library for?",
+            "options": [
+              "Closing early",
+              "Not repairing the camera sooner",
+              "Not having bike racks"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"should have repaired the camera much sooner\"",
+            "id": "b2-u07-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Geçmiş modal yapıları: Bütün tablo**\n\n| İşlev | Yapı | Türkçe |\n|---|---|---|\n| Kesin çıkarım | **must have** + V3 | -mış olmalı |\n| İmkânsızlık | **can't / couldn't have** + V3 | -mış olamaz |\n| Olasılık | **may / might / could have** + V3 | -mış olabilir |\n| Olumsuz olasılık | **may not / might not have** + V3 | -mamış olabilir |\n| Eleştiri / pişmanlık | **should / ought to have** + V3 | -malıydı |\n| Olumsuz eleştiri | **shouldn't have** + V3 | -mamalıydı |\n| Gereksiz yapılmış | **needn't have** + V3 | gerek yokmuş (yapıldı) |\n| Kaçırılan fırsat | **could have** + V3 | -abilirdi (yapılmadı) |\n\n**Bir olayı analiz ederken yapı:**\n\n1. **Olgular:** past simple / past perfect (*I had locked it at 2 p.m.*)\n2. **Çıkarımlar:** must / can't / might have (*The thief must have used ...*)\n3. **Değerlendirme:** should / shouldn't have (*The library should have ...*)\n4. **Ders:** In hindsight, ... / Next time, ...\n\n**Kanıt dili:** *judging by* (-e bakılırsa), *the evidence suggests*, *it seems likely that*, *there's no way that*",
+        "examples": [
+          {
+            "en": "Judging by the footprints, there must have been two people.",
+            "tr": "Ayak izlerine bakılırsa, iki kişi olmalı."
+          },
+          {
+            "en": "The evidence suggests that the fire may have started in the kitchen.",
+            "tr": "Kanıtlar yangının mutfakta başlamış olabileceğini gösteriyor."
+          },
+          {
+            "en": "In hindsight, they should have called the police immediately.",
+            "tr": "Geriye dönüp bakınca, polisi hemen aramalıydılar."
+          }
+        ],
+        "turkishNote": "Türkçede \"-mış\" eki hem çıkarım hem duyulan geçmiş hem de bitmiş eylem için kullanılabilir; bu yüzden Türkçe konuşanlar İngilizcede kesinlik düzeyini belirtmeyi unutabilir. \"Hırsız güçlü bir alet kullanmış\" cümlesini İngilizceye çevirirken kendinize sorun: Bunu biliyor musunuz (used), kesin mi düşünüyorsunuz (must have used), yoksa sadece olası mı (might have used)?"
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kesin çıkarım:",
+          "options": [
+            "He may have taken it.",
+            "He must have taken it."
+          ],
+          "answerIndex": 1,
+          "explanation": "must have.",
+          "id": "b2-u07-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Eleştiri:",
+          "options": [
+            "You should have told me.",
+            "You must have told me."
+          ],
+          "answerIndex": 0,
+          "explanation": "should have.",
+          "id": "b2-u07-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İmkânsızlık:",
+          "options": [
+            "She can't have done it.",
+            "She shouldn't have done it."
+          ],
+          "answerIndex": 0,
+          "explanation": "can't have.",
+          "id": "b2-u07-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gereksiz yapılmış:",
+          "options": [
+            "I didn't need to run.",
+            "I needn't have run."
+          ],
+          "answerIndex": 1,
+          "explanation": "needn't have.",
+          "id": "b2-u07-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ by the mess, there must have been a party. (-e bakılırsa)",
+          "answers": [
+            "Judging"
+          ],
+          "explanation": "Judging by.",
+          "id": "b2-u07-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The evidence ___ that the boat sank in a storm. (gösteriyor)",
+          "answers": [
+            "suggests"
+          ],
+          "explanation": "the evidence suggests.",
+          "id": "b2-u07-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "He ___ have stolen it. He was with me all evening. (imkânsız)",
+          "answers": [
+            "can't",
+            "couldn't"
+          ],
+          "explanation": "can't / couldn't have.",
+          "id": "b2-u07-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "In ___, I shouldn't have trusted him. (geriye dönüp bakınca)",
+          "answers": [
+            "hindsight"
+          ],
+          "explanation": "in hindsight.",
+          "id": "b2-u07-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "When the police arrived, the window was open and the jewellery box was empty. The dog hadn't barked, so the thief must have been someone the dog knew. It can't have been the gardener, because he was on holiday. The owners should have installed an alarm years ago.",
+          "prompt": "Köpeğin havlamaması neyi gösteriyor?",
+          "options": [
+            "Köpek uyuyordu",
+            "Hırsız köpeğin tanıdığı biriydi",
+            "Hırsız yoktu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the thief must have been someone the dog knew\"",
+          "id": "b2-u07-l5-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Judging",
+            "by",
+            "the",
+            "evidence",
+            "the",
+            "fire",
+            "might",
+            "have",
+            "started",
+            "in",
+            "the",
+            "kitchen"
+          ],
+          "answer": "Judging by the evidence the fire might have started in the kitchen.",
+          "explanation": "Judging by + modal have + V3.",
+          "translation": "Kanıtlara bakılırsa yangın mutfakta başlamış olabilir.",
+          "id": "b2-u07-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Bir gazetenin \"okuyucu mektupları\" bölümü için yaşadığınız (ya da hayal ettiğiniz) olumsuz bir olayı analiz eden bir mektup yazın (180–220 kelime): kaybolan bir kargo, iptal edilen bir konser, bozuk çıkan bir ürün, vb. Olguları anlatın; must have, can't have ve might have ile çıkarımlar yapın; should / shouldn't have ile sorumluları eleştirin ve needn't have ile bir gereksiz yapılan işi anlatın.",
+          "modelAnswer": "Dear Editor,\n\nI am writing about the concert that was cancelled at the City Stadium last Saturday.\n\nThousands of us had travelled from other cities, and many had booked hotels. At 8 p.m., when the concert should have started, an announcement said it had been cancelled \"for technical reasons\".\n\nJudging by the storm the night before, the stage must have been damaged. The organisers can't have discovered this at the last minute, as workers had been on the stage all afternoon. They might have hoped to fix it in time, but they clearly couldn't.\n\nIn my opinion, the organisers should have informed us that morning. A simple text message would have saved thousands of people a lot of time and money. They also shouldn't have kept the gates open until 7:30, letting people in when they already knew there was a problem.\n\nPersonally, I needn't have taken two days off work and paid for a hotel. I am still waiting for a refund.\n\nI hope the organisers will learn from this and treat their audiences with more respect in the future.\n\nYours faithfully,\nZeynep Arslan",
+          "rubric": [
+            "Olgular ve geçmiş zamanlar",
+            "must / can't / might have ile çıkarım",
+            "should / shouldn't have ile eleştiri",
+            "needn't have",
+            "Resmî mektup yapısı"
+          ]
+        },
+        "id": "b2-u07-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"The ground is wet.\" → It ___ rained.",
+        "options": [
+          "must have",
+          "should have"
+        ],
+        "answerIndex": 0,
+        "explanation": "Çıkarım",
+        "id": "b2-u07-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olumsuz çıkarım:",
+        "options": [
+          "She mustn't have seen it.",
+          "She can't have seen it."
+        ],
+        "answerIndex": 1,
+        "explanation": "can't have",
+        "id": "b2-u07-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Belki e-postamı almadı.\"",
+        "options": [
+          "He couldn't have received my email.",
+          "He might not have received my email."
+        ],
+        "answerIndex": 1,
+        "explanation": "might not have",
+        "id": "b2-u07-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Sana söylemeliydim.\"",
+        "options": [
+          "I should have told you.",
+          "I must have told you."
+        ],
+        "answerIndex": 0,
+        "explanation": "should have",
+        "id": "b2-u07-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Boşuna endişelenmişim.\"",
+        "options": [
+          "I didn't need to worry.",
+          "I needn't have worried."
+        ],
+        "answerIndex": 1,
+        "explanation": "needn't have",
+        "id": "b2-u07-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "I can't find my phone. I ___ have left it on the bus. (olabilir)",
+        "answers": [
+          "might",
+          "may",
+          "could"
+        ],
+        "explanation": "Olasılık",
+        "id": "b2-u07-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "You ___ have eaten all that chocolate. (yememeliydin)",
+        "answers": [
+          "shouldn't"
+        ],
+        "explanation": "shouldn't have",
+        "id": "b2-u07-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "She must have ___ (forget) about our meeting.",
+        "answers": [
+          "forgotten"
+        ],
+        "explanation": "V3",
+        "id": "b2-u07-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "We didn't ___ to book. The restaurant was empty.",
+        "answers": [
+          "need",
+          "have"
+        ],
+        "explanation": "didn't need to",
+        "id": "b2-u07-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "He couldn't have ___ (see) us. It was too dark.",
+        "answers": [
+          "seen"
+        ],
+        "explanation": "V3",
+        "id": "b2-u07-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"You could have called me!\" burada:",
+        "options": [
+          "Tahmin",
+          "Eleştiri"
+        ],
+        "answerIndex": 1,
+        "explanation": "Kaçırılmış fırsat",
+        "id": "b2-u07-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "In ___, we should have left earlier. (geriye dönüp bakınca)",
+        "answers": [
+          "hindsight"
+        ],
+        "explanation": "in hindsight",
+        "id": "b2-u07-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "The flat was empty when we arrived. The table was set for two and the candles had burned down completely. They must have been waiting for someone who never came. Or they might have left in a hurry. We'll probably never know.",
+        "prompt": "Konuşan ne olduğundan ne kadar emin?",
+        "options": [
+          "Tamamen emin",
+          "Emin değil, birden fazla teori var",
+          "Polis açıkladı"
+        ],
+        "answerIndex": 1,
+        "explanation": "must have / might have / never know",
+        "id": "b2-u07-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizcesi: \"Kapıyı açık bırakmış olamaz.\" (he, leave the door open)",
+        "accepted": [
+          "He can't have left the door open.",
+          "He can't have left the door open",
+          "He cannot have left the door open",
+          "He cannot have left the door open.",
+          "He couldn't have left the door open.",
+          "He couldn't have left the door open"
+        ],
+        "explanation": "He can't have left the door open.",
+        "id": "b2-u07-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Tarihte çözülememiş bir gizemi ya da hayatınızda açıklanamayan bir olayı anlatın (180–220 kelime). Olguları verin; must have, can't have, may / might / could have ile farklı teorileri tartışın; en mantıklı açıklamayı savunun ve should have ile birinin (ya da sizin) yapması gerekeni değerlendirin.",
+        "modelAnswer": "One of the strangest things that ever happened to me took place during a summer holiday in Ayvalık when I was twelve.\n\nOne evening, my grandmother's gold bracelet disappeared from the kitchen table. She had taken it off to cook, and twenty minutes later it was gone. The windows were open, but the house was on the second floor, and nobody else had come in.\n\nWe discussed several theories. My cousin might have taken it as a joke, but he swore he hadn't. It could have fallen behind the cupboard, but we moved everything and found nothing. My uncle even suggested that the cat may have knocked it off the table, but the cat can't have carried it very far.\n\nThree days later, my grandfather found it on the roof, next to a seagull's nest. A seagull must have flown in through the window, attracted by the shiny gold, and carried it away. It sounds unbelievable, but there was no other explanation.\n\nIn hindsight, my grandmother shouldn't have left it near an open window. And we needn't have blamed my poor cousin. We still laugh about it every summer.",
+        "rubric": [
+          "Olgular",
+          "must / can't / may / might / could have",
+          "En mantıklı açıklama",
+          "should / needn't have",
+          "Akıcı anlatım"
+        ],
+        "id": "b2-u07-t15"
+      }
+    ]
+  }
+}
