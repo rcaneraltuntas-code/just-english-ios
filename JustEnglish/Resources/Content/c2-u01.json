@@ -1,0 +1,1280 @@
+{
+  "id": "c2-u01",
+  "level": "C2",
+  "number": 1,
+  "title": "Üslup ustalığı",
+  "titleEn": "Stylistic Mastery",
+  "canDo": "Öne alma (fronting), yer ve yön bildiren devrik yapılar, Such was / So great was gibi ileri vurgu yapıları, Were it not for / Had it not been for gibi şart devriklikleri ve Be that as it may gibi kalıplaşmış dilek kipi ifadelerini anlayıp yerinde kullanabilir, cümle çeşitliliği ve ritimle etkileyici bir metin yazabilirim.",
+  "grammar": [
+    "öne alma: Tired as she was / Strange though it may seem",
+    "yer ve yön devrikliği: In the corner stood ... / Down came ...",
+    "ileri vurgu: Such was ..., So great was ..., Nowhere / On no account",
+    "Were it not for / Had it not been for ve kalıplaşmış dilek kipi",
+    "cümle çeşitliliği ve ritim"
+  ],
+  "vocabularyThemes": [
+    "edebiyat",
+    "konuşma sanatı",
+    "köşe yazıları"
+  ],
+  "liveClass": {
+    "title": "Aynı cümle, beş ses",
+    "durationMinutes": 45,
+    "goal": "Öğretmen sade bir paragraf verir (örneğin bir şehirde yaşanan büyük bir fırtına). Gruplar paragrafı önce bir roman sahnesi (yer devrikliği, öne alma), sonra bir anma konuşması (Such was ..., Never before ..., Come what may) olarak yeniden yazar ve okur. Sınıf her versiyonda hangi yapının en etkili olduğunu tartışır ve aşırı kullanımın etkisini değerlendirir."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u01-v01",
+      "en": "fronting",
+      "tr": "öne alma",
+      "example": "Fronting puts important information first.",
+      "exampleTr": "Öne alma, önemli bilgiyi başa koyar."
+    },
+    {
+      "id": "c2-u01-v02",
+      "en": "stylistic",
+      "tr": "üslupla ilgili",
+      "example": "The change is purely stylistic.",
+      "exampleTr": "Değişiklik tamamen üslupla ilgili."
+    },
+    {
+      "id": "c2-u01-v03",
+      "en": "Tired as she was, ...",
+      "tr": "Ne kadar yorgun olsa da ...",
+      "example": "Tired as she was, she kept working.",
+      "exampleTr": "Ne kadar yorgun olsa da çalışmaya devam etti."
+    },
+    {
+      "id": "c2-u01-v04",
+      "en": "Strange though it may seem, ...",
+      "tr": "Garip görünse de ...",
+      "example": "Strange though it may seem, I enjoy the rain.",
+      "exampleTr": "Garip görünse de yağmurdan hoşlanırım."
+    },
+    {
+      "id": "c2-u01-v05",
+      "en": "Much as I ..., ...",
+      "tr": "Ne kadar ... -sam da",
+      "example": "Much as I like him, I can't agree.",
+      "exampleTr": "Onu ne kadar sevsem de katılamam."
+    },
+    {
+      "id": "c2-u01-v06",
+      "en": "Such was ...",
+      "tr": "O kadar ... idi ki",
+      "example": "Such was the noise that nobody could sleep.",
+      "exampleTr": "Gürültü o kadar fazlaydı ki kimse uyuyamadı."
+    },
+    {
+      "id": "c2-u01-v07",
+      "en": "So great was ...",
+      "tr": "O kadar büyüktü ki",
+      "example": "So great was the demand that tickets sold out.",
+      "exampleTr": "Talep o kadar büyüktü ki biletler tükendi."
+    },
+    {
+      "id": "c2-u01-v08",
+      "en": "Nowhere ...",
+      "tr": "Hiçbir yerde ...",
+      "example": "Nowhere have I seen such beauty.",
+      "exampleTr": "Hiçbir yerde böyle bir güzellik görmedim."
+    },
+    {
+      "id": "c2-u01-v09",
+      "en": "On no account",
+      "tr": "hiçbir surette",
+      "example": "On no account should you open this door.",
+      "exampleTr": "Bu kapıyı hiçbir surette açmamalısın."
+    },
+    {
+      "id": "c2-u01-v10",
+      "en": "Not once",
+      "tr": "bir kez bile",
+      "example": "Not once did she complain.",
+      "exampleTr": "Bir kez bile şikâyet etmedi."
+    },
+    {
+      "id": "c2-u01-v11",
+      "en": "Were it not for ...",
+      "tr": "... olmasaydı",
+      "example": "Were it not for your help, I would fail.",
+      "exampleTr": "Yardımın olmasaydı başarısız olurdum."
+    },
+    {
+      "id": "c2-u01-v12",
+      "en": "Had it not been for ...",
+      "tr": "... olmasaydı (geçmiş)",
+      "example": "Had it not been for the rain, we would have won.",
+      "exampleTr": "Yağmur olmasaydı kazanırdık."
+    },
+    {
+      "id": "c2-u01-v13",
+      "en": "Be that as it may, ...",
+      "tr": "Her ne olursa olsun, yine de",
+      "example": "Be that as it may, we must decide today.",
+      "exampleTr": "Her ne olursa olsun bugün karar vermeliyiz."
+    },
+    {
+      "id": "c2-u01-v14",
+      "en": "Come what may, ...",
+      "tr": "Ne olursa olsun",
+      "example": "Come what may, I'll be there.",
+      "exampleTr": "Ne olursa olsun orada olacağım."
+    },
+    {
+      "id": "c2-u01-v15",
+      "en": "Suffice it to say ...",
+      "tr": "Şu kadarını söyleyeyim ki",
+      "example": "Suffice it to say, he wasn't pleased.",
+      "exampleTr": "Şu kadarını söyleyeyim, memnun değildi."
+    },
+    {
+      "id": "c2-u01-v16",
+      "en": "Far be it from me to ...",
+      "tr": "-mek bana düşmez ama",
+      "example": "Far be it from me to criticise, but ...",
+      "exampleTr": "Eleştirmek bana düşmez ama ..."
+    },
+    {
+      "id": "c2-u01-v17",
+      "en": "If need be",
+      "tr": "gerekirse",
+      "example": "I'll work all night if need be.",
+      "exampleTr": "Gerekirse bütün gece çalışırım."
+    },
+    {
+      "id": "c2-u01-v18",
+      "en": "So be it.",
+      "tr": "Öyle olsun.",
+      "example": "If that's your decision, so be it.",
+      "exampleTr": "Kararın buysa öyle olsun."
+    },
+    {
+      "id": "c2-u01-v19",
+      "en": "rhythm",
+      "tr": "ritim",
+      "example": "Varying sentence length improves rhythm.",
+      "exampleTr": "Cümle uzunluğunu değiştirmek ritmi iyileştirir."
+    },
+    {
+      "id": "c2-u01-v20",
+      "en": "rhetorical effect",
+      "tr": "retorik etki",
+      "example": "Inversion is used for rhetorical effect.",
+      "exampleTr": "Devrik yapı retorik etki için kullanılır."
+    },
+    {
+      "id": "c2-u01-v21",
+      "en": "overwrought",
+      "tr": "aşırı süslü, abartılı",
+      "example": "The style is rather overwrought.",
+      "exampleTr": "Üslup biraz abartılı."
+    },
+    {
+      "id": "c2-u01-v22",
+      "en": "understated",
+      "tr": "sade, abartısız",
+      "example": "Her writing is elegant and understated.",
+      "exampleTr": "Onun yazısı zarif ve sade."
+    },
+    {
+      "id": "c2-u01-v23",
+      "en": "cadence",
+      "tr": "ahenk, ritim (konuşma)",
+      "example": "The speech had a beautiful cadence.",
+      "exampleTr": "Konuşmanın güzel bir ahengi vardı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u01-l1",
+      "number": 1,
+      "title": "Öne alma (fronting)",
+      "goal": "Sıfat, zarf ya da nesneyi cümle başına alarak (Tired as she was, Strange though it may seem, This I cannot accept) vurgu ve üslup katabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir romandan",
+        "body": "Exhausted as she was, Nehir refused to stop. The last train had long gone, and the city was silent. Strange though it may seem, she felt no fear, only a quiet determination. The letter she had promised to deliver was still in her coat pocket. That letter she would deliver, whatever it cost. Much as she wanted to sleep, she knew that by morning it would be too late. So she walked on, through the empty streets, towards the old harbour.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How did Nehir feel?",
+            "options": [
+              "Frightened and confused",
+              "Exhausted but determined",
+              "Happy and relaxed"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Exhausted as she was\" ... \"quiet determination\"",
+            "id": "c2-u01-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why couldn't she wait until morning?",
+            "options": [
+              "The harbour would close.",
+              "It would be too late to deliver the letter.",
+              "She had to catch a train."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"by morning it would be too late\"",
+            "id": "c2-u01-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Öne alma (fronting),** normalde cümlenin sonunda olan bir öğeyi başa taşıyarak **vurgu** ya da **bağlam** oluşturmaktır.\n\n**1. Sıfat / zarf + as / though + özne + fiil (= Although ...):**\n\n| Normal | Öne alınmış |\n|---|---|\n| Although she was exhausted, ... | **Exhausted as / though she was**, ... |\n| Although it may seem strange, ... | **Strange though / as it may seem**, ... |\n| Although he tried hard, ... | **Hard as he tried**, ... |\n| Although I like him a lot, ... | **Much as I like him**, ... |\n\n**Dikkat:**\n\n- Öne alınan sıfattan önce **a / an** kullanılmaz: ✓ *Brilliant scientist though he was*.\n- Bu yapıda **as**, \"çünkü\" değil **\"-e rağmen\"** anlamındadır!\n- *Much as* özellikle *like, love, admire, want, hate* ile kullanılır.\n\n**2. Nesneyi öne alma (object fronting):** Konuşmada ve edebiyatta güçlü vurgu ya da karşıtlık için.\n\n- ***That letter** she would deliver, whatever it cost.*\n- ***This** I cannot accept.*\n- ***What he did next**, nobody could have predicted.*\n- *Some of the songs I loved; **others** I couldn't stand.*\n\n**3. Tamamlayıcıyı öne alma:**\n\n- ***Gone** are the days when ...* (... günler geride kaldı)\n- ***Equally important** is the question of cost.*\n- ***More worrying** is the lack of evidence.*\n\nBu son yapılarda **özne ile fiil yer değiştirir** (devrik).",
+        "examples": [
+          {
+            "en": "Hard as he tried, he couldn't remember her name.",
+            "tr": "Ne kadar uğraşsa da adını hatırlayamadı."
+          },
+          {
+            "en": "Gone are the days when a letter took weeks to arrive.",
+            "tr": "Bir mektubun haftalarca sürdüğü günler geride kaldı."
+          },
+          {
+            "en": "More worrying is the fact that nobody noticed.",
+            "tr": "Daha endişe verici olan, kimsenin fark etmemiş olmasıydı."
+          }
+        ],
+        "turkishNote": "Türkçede öğe sırası esnektir ve vurgulanan öğe genellikle yüklemin hemen önüne konur (\"O mektubu teslim edecekti\" / \"Teslim edecekti o mektubu\"). İngilizcede ise öğe sırası katıdır; bu yüzden öne alma güçlü ve dikkat çekici bir üslup tercihidir. Türk öğrencilerin en sık karıştırdığı nokta, \"Tired as she was\" yapısındaki \"as\"in \"çünkü\" değil \"-e rağmen\" anlamına gelmesidir. Türkçedeki \"Ne kadar yorgun olsa da\" yapısıyla eşleştirin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Tired as she was, she kept going.\" anlamı:",
+          "options": [
+            "Yorgun olduğu için devam etti.",
+            "Ne kadar yorgun olsa da devam etti."
+          ],
+          "answerIndex": 1,
+          "explanation": "as = -e rağmen.",
+          "id": "c2-u01-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Much as I admire her, I disagree.",
+            "Much I admire her, I disagree."
+          ],
+          "answerIndex": 0,
+          "explanation": "Much as.",
+          "id": "c2-u01-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Gone are the days ...\" anlamı:",
+          "options": [
+            "Günler gitti, yorgunum.",
+            "... günler geride kaldı."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gone are the days.",
+          "id": "c2-u01-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru devrik yapı:",
+          "options": [
+            "More worrying is the cost.",
+            "More worrying the cost is."
+          ],
+          "answerIndex": 0,
+          "explanation": "Tamamlayıcı + fiil + özne.",
+          "id": "c2-u01-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ though it may sound, I've never seen the sea. (Garip)",
+          "answers": [
+            "Strange"
+          ],
+          "explanation": "Strange though it may sound.",
+          "id": "c2-u01-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Hard ___ he tried, he couldn't open the box.",
+          "answers": [
+            "as",
+            "though"
+          ],
+          "explanation": "Hard as he tried.",
+          "id": "c2-u01-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ as I love my job, I need a holiday.",
+          "answers": [
+            "Much"
+          ],
+          "explanation": "Much as.",
+          "id": "c2-u01-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ are the days when people wrote letters by hand. (geride kalmış)",
+          "answers": [
+            "Gone"
+          ],
+          "explanation": "Gone are the days.",
+          "id": "c2-u01-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Brilliant though the plan was, it had one serious flaw: nobody had asked the residents what they wanted. Equally important was the question of cost, which the council had barely considered.",
+          "prompt": "Planın ciddi kusuru neydi?",
+          "options": [
+            "Çok pahalıydı.",
+            "Kimse sakinlere ne istediklerini sormamıştı.",
+            "Çok geç başlamıştı."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"nobody had asked the residents what they wanted\"",
+          "id": "c2-u01-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Öne alın (as ile): \"Although he was rich, he lived simply.\"",
+          "accepted": [
+            "Rich as he was, he lived simply.",
+            "Rich as he was, he lived simply",
+            "Rich though he was, he lived simply.",
+            "Rich though he was, he lived simply",
+            "Rich as he was he lived simply.",
+            "Rich as he was he lived simply"
+          ],
+          "explanation": "Rich as he was, he lived simply.",
+          "id": "c2-u01-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Zor bir dönemde azimle bir şey başardığınız bir deneyimi (sınav, spor, iş, taşınma) kısa ve etkileyici bir hikâye olarak anlatın (1 dakika). En az 3 öne alma yapısı kullanın: Tired / Hard / Much as ..., Strange though it may seem, Gone are the days ..., That I would never forget, More surprising was ...",
+          "modelAnswer": "Three years ago, I decided to run my first half-marathon. Busy as I was with work, I trained every morning at six. Hard as I tried, I couldn't get faster than twelve kilometres an hour, and I nearly gave up. Strange though it may seem, it was a stranger who changed everything. An older runner saw me struggling one day and gave me a simple tip about breathing. That advice I will never forget. On race day, I finished in just under two hours. More surprising than my time was how happy I felt. Gone are the days when I thought I wasn't a sporty person.",
+          "rubric": [
+            "Öne alma yapıları",
+            "Doğru anlam (as = -e rağmen)",
+            "Hikâye anlatımı",
+            "Vurgu ve tonlama"
+          ]
+        },
+        "id": "c2-u01-l1-use"
+      }
+    },
+    {
+      "id": "c2-u01-l2",
+      "number": 2,
+      "title": "Yer ve yön devrikliği",
+      "goal": "Edebi ve betimleyici metinlerde yer, yön ve hareket bildiren ifadelerle devrik yapıyı (In the corner stood a piano / Down came the rain / Here comes the bus) anlayıp kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir öyküden",
+        "body": "At the end of the narrow street stood an old stone house. Above the door hung a rusty lantern, swinging gently in the wind. Inside, the air was cold. In the corner sat an old man, wrapped in a blanket, staring at the fire. On the table lay a pile of yellowed letters. Suddenly, there was a crash of thunder, and down came the rain. The door flew open, and in rushed a young woman, soaking wet. \"There you are!\" said the old man. \"I've been waiting for you.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was on the table?",
+            "options": [
+              "A lantern",
+              "A pile of old letters",
+              "A blanket"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"On the table lay a pile of yellowed letters.\"",
+            "id": "c2-u01-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened when the rain started?",
+            "options": [
+              "The old man left.",
+              "A young woman rushed in.",
+              "The fire went out."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"in rushed a young woman, soaking wet\"",
+            "id": "c2-u01-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Yer / yön devrikliği (locative inversion),** edebi ve betimleyici metinlerde, okuyucunun dikkatini önce **mekâna**, sonra **özneye** çekmek için kullanılır.\n\n**Yapı:** Yer / yön ifadesi + **fiil** + özne\n\n**1. Yer ifadeleriyle (durum fiilleri: stand, sit, lie, hang, live):**\n\n| Normal | Devrik |\n|---|---|\n| An old house stood at the end of the street. | **At the end of the street stood** an old house. |\n| A lantern hung above the door. | **Above the door hung** a lantern. |\n| A pile of letters lay on the table. | **On the table lay** a pile of letters. |\n\n**2. Yön zarflarıyla (hareket fiilleri: come, go, run, fly, rush):**\n\n| Normal | Devrik |\n|---|---|\n| The rain came down. | **Down came** the rain. |\n| A young woman rushed in. | **In rushed** a young woman. |\n| The balloon went up. | **Up went** the balloon. |\n\n**3. Here / There ile (konuşmada çok yaygın):**\n\n- ***Here comes** the bus!*\n- ***There goes** my last chance.*\n- ***Here's** your coffee.*\n\n**Önemli kural: Özne zamir ise devrik yapılmaz!**\n\n| İsim özne | Zamir özne |\n|---|---|\n| ✓ *Here comes **the bus**.* | ✓ *Here **it comes**.* (✗ *Here comes it.*) |\n| ✓ *Down came **the rain**.* | ✓ *Down **it came**.* |\n| ✓ *There goes **Ali**.* | ✓ *There **he goes**.* |\n\n**Not:** Bu yapı genellikle yardımcı fiil olmadan, **basit geçmiş** ya da **geniş zamanla** kullanılır.",
+        "examples": [
+          {
+            "en": "In the middle of the garden stood a huge oak tree.",
+            "tr": "Bahçenin ortasında kocaman bir meşe ağacı duruyordu."
+          },
+          {
+            "en": "Out jumped a small black cat.",
+            "tr": "Dışarı küçük siyah bir kedi fırladı."
+          },
+          {
+            "en": "Here comes the bride!",
+            "tr": "İşte gelin geliyor!"
+          }
+        ],
+        "turkishNote": "Türkçede yer ifadesini başa almak çok doğaldır: \"Sokağın sonunda eski bir ev vardı.\" Bu nedenle İngilizce yer devrikliği Türk öğrencilere mantıklı gelir. Ancak iki noktaya dikkat edin: (1) İngilizcede bu yapı edebi ve betimleyicidir; günlük yazışmalarda kullanılmaz (\"Here comes the bus\" gibi kalıplar hariç). (2) Özne zamir olduğunda devrik yapılmaz: \"Here it comes\", ✗ \"Here comes it\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Here comes it!",
+            "Here it comes!"
+          ],
+          "answerIndex": 1,
+          "explanation": "Zamir özne: devrik yok.",
+          "id": "c2-u01-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru devrik yapı:",
+          "options": [
+            "On the wall hung a painting.",
+            "On the wall a painting hung it."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yer + fiil + özne.",
+          "id": "c2-u01-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Out ran the children.",
+            "Out the children ran they."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yön + fiil + özne.",
+          "id": "c2-u01-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu yapı en çok nerede kullanılır?",
+          "options": [
+            "İş e-postalarında",
+            "Edebi ve betimleyici metinlerde"
+          ],
+          "answerIndex": 1,
+          "explanation": "Edebi.",
+          "id": "c2-u01-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "At the top of the hill ___ a small chapel. (durmak, geçmiş)",
+          "answers": [
+            "stood"
+          ],
+          "explanation": "stood.",
+          "id": "c2-u01-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Down ___ the rain, and everyone ran for cover. (gelmek, geçmiş)",
+          "answers": [
+            "came"
+          ],
+          "explanation": "came.",
+          "id": "c2-u01-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Here ___ the train. Quick, get your bags! (gelmek)",
+          "answers": [
+            "comes"
+          ],
+          "explanation": "Here comes.",
+          "id": "c2-u01-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "\"Where's the taxi?\" \"Look, here it ___!\"",
+          "answers": [
+            "comes"
+          ],
+          "explanation": "Here it comes.",
+          "id": "c2-u01-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Behind the old library was a small courtyard. In the centre stood a fountain, and around it grew wild roses. Every afternoon, out came the same elderly couple, who sat on the bench and fed the pigeons.",
+          "prompt": "Her öğleden sonra avluya kim geliyordu?",
+          "options": [
+            "Bir grup öğrenci",
+            "Aynı yaşlı çift",
+            "Kütüphaneci"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"out came the same elderly couple\"",
+          "id": "c2-u01-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapın: \"A small boat lay on the beach.\" (On the beach ...)",
+          "accepted": [
+            "On the beach lay a small boat.",
+            "On the beach lay a small boat"
+          ],
+          "explanation": "On the beach lay a small boat.",
+          "id": "c2-u01-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Gözlerinizi kapatın ve çok sevdiğiniz bir yeri (çocukluk eviniz, bir kafe, bir köy meydanı) hayal edin. Bu yeri bir romanın açılış sahnesi gibi betimleyin (1 dakika). En az 4 yer devrikliği (In the corner stood ..., On the wall hung ..., Above the door ...) ve en az 1 yön devrikliği (In came ..., Out ran ..., Down came ...) kullanın.",
+          "modelAnswer": "At the end of a narrow street in my grandparents' village stood a small white house. Above the blue door hung a basket of red geraniums. Inside, the kitchen smelled of fresh bread. In the corner stood an old wooden cupboard, full of my grandmother's jars of jam. On the wall hung a black-and-white photograph of my grandparents on their wedding day. Every evening at six, in came my grandfather from the fields, with mud on his boots and a huge smile on his face. And out ran all of us children to greet him.",
+          "rubric": [
+            "Yer devrikliği",
+            "Yön devrikliği",
+            "Zamir kuralı",
+            "Betimleyici ve edebi ton"
+          ]
+        },
+        "id": "c2-u01-l2-use"
+      }
+    },
+    {
+      "id": "c2-u01-l3",
+      "number": 3,
+      "title": "İleri vurgu yapıları",
+      "goal": "Such was ..., So great was ..., Nowhere ..., Not once ..., On no account ..., In no way ... gibi ileri devrik vurgu yapılarını resmî konuşma ve yazıda kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir anma konuşmasından",
+        "body": "Such was her dedication to her students that she rarely left the school before eight in the evening. So great was her influence that many of them became teachers themselves. Not once in forty years did she miss a day of work. Nowhere else have I met a person so generous with her time. On no account would she accept praise; she always insisted that the credit belonged to her students. In no way can words express how much we will miss her.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How long did the teacher work?",
+            "options": [
+              "Twenty years",
+              "Forty years",
+              "Eight years"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Not once in forty years\"",
+            "id": "c2-u01-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How did she react to praise?",
+            "options": [
+              "She enjoyed it.",
+              "She refused to accept it.",
+              "She asked for more."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"On no account would she accept praise\"",
+            "id": "c2-u01-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "C1 Ünite 1'de *Never, Rarely, Not only, No sooner, Little did* gibi devrik yapıları gördük. C2'de daha ileri ve resmî yapılara geçiyoruz.\n\n**1. Such was / were + isim + that ...:** (O kadar ... idi ki)\n\n| Normal | Devrik |\n|---|---|\n| Her dedication was so great that ... | **Such was her dedication that** ... |\n| The crowds were so large that ... | **Such were the crowds that** ... |\n\n**2. So + sıfat + was / were + özne + that ...:**\n\n| Normal | Devrik |\n|---|---|\n| The demand was so great that ... | **So great was the demand that** ... |\n| He was so tired that ... | **So tired was he that** ... |\n\n**3. Olumsuz ve kısıtlayıcı ifadelerle devrik yapı:**\n\n| İfade | Örnek |\n|---|---|\n| **Nowhere** | **Nowhere** else **have I** met such a person. |\n| **Not once** | **Not once did** she complain. |\n| **On no account** | **On no account should** you leave. |\n| **In no way** | **In no way can** words express ... |\n| **At no time** | **At no time was** the public in danger. |\n| **Under no circumstances** | **Under no circumstances will** we accept late work. |\n| **Only then** | **Only then did** I understand. |\n| **Not a single ...** | **Not a single word did** he say. |\n\n**Kural:** Bu ifadelerden sonra soru düzeni gelir: **yardımcı fiil + özne + ana fiil**. Yardımcı fiil yoksa **do / does / did** eklenir.\n\n**Kullanım:** Resmî konuşma, anma, haber, edebi metin. Günlük konuşmada **abartılı** gelir.",
+        "examples": [
+          {
+            "en": "Such was the noise that we couldn't hear ourselves think.",
+            "tr": "Gürültü o kadar fazlaydı ki kendi düşüncemizi bile duyamıyorduk."
+          },
+          {
+            "en": "At no time was the public in any danger.",
+            "tr": "Halk hiçbir zaman tehlikede değildi."
+          },
+          {
+            "en": "Not a single word did he say all evening.",
+            "tr": "Bütün akşam tek bir kelime bile etmedi."
+          }
+        ],
+        "turkishNote": "Türkçede vurgu genellikle \"o kadar ... ki\", \"hiçbir surette\", \"bir kez bile\" gibi ifadelerle ve tonlamayla yapılır, cümle yapısı değişmez. İngilizcede ise bu ifadeler başa geldiğinde soru düzeni zorunludur. Türk öğrencilerin sık yaptığı hata, devrik yapıyı unutmaktır: ✗ \"Not once she complained.\" ✓ \"Not once did she complain.\" Ayrıca \"Such was\" ile \"So + sıfat + was\" yapısını karıştırmayın: Such + isim, So + sıfat."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Not once she complained.",
+            "Not once did she complain."
+          ],
+          "answerIndex": 1,
+          "explanation": "Devrik.",
+          "id": "c2-u01-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Such was the demand that ...",
+            "So was the demand great that ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Such + isim.",
+          "id": "c2-u01-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "So tired was he that he fell asleep.",
+            "Such tired was he that he fell asleep."
+          ],
+          "answerIndex": 0,
+          "explanation": "So + sıfat.",
+          "id": "c2-u01-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "At no time the public was in danger.",
+            "At no time was the public in danger."
+          ],
+          "answerIndex": 1,
+          "explanation": "Devrik.",
+          "id": "c2-u01-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ was the heat that the roads began to melt. (O kadar)",
+          "answers": [
+            "Such"
+          ],
+          "explanation": "Such was.",
+          "id": "c2-u01-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "So ___ was the crowd that the police closed the street. (büyük)",
+          "answers": [
+            "large",
+            "big",
+            "great"
+          ],
+          "explanation": "So + sıfat.",
+          "id": "c2-u01-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nowhere else ___ I seen such a beautiful sunset.",
+          "answers": [
+            "have"
+          ],
+          "explanation": "Nowhere else have I.",
+          "id": "c2-u01-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "On no account ___ you share your password with anyone.",
+          "answers": [
+            "should",
+            "must"
+          ],
+          "explanation": "On no account should.",
+          "id": "c2-u01-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Ladies and gentlemen, I want to reassure you. At no time were passengers in any danger. Such was the skill of the crew that the plane landed safely within minutes. On no account should anyone panic. Updates will follow shortly.",
+          "prompt": "Konuşmanın amacı nedir?",
+          "options": [
+            "Yolcuları korkutmak",
+            "Yolcuları rahatlatmak",
+            "Uçuşu iptal etmek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I want to reassure you\"",
+          "id": "c2-u01-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Devrik yapın (Such was ...): \"Her talent was so great that she won every competition.\"",
+          "accepted": [
+            "Such was her talent that she won every competition.",
+            "Such was her talent that she won every competition",
+            "Such was her talent, that she won every competition.",
+            "Such was her talent, that she won every competition"
+          ],
+          "explanation": "Such was her talent that she won every competition.",
+          "id": "c2-u01-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Hayatınızda önemli bir yeri olan bir kişiyi (öğretmen, aile büyüğü, bir lider) onurlandıran kısa bir resmî konuşma yapın (1 dakika). En az 5 ileri vurgu yapısı kullanın: Such was ..., So great / generous was ..., Not once did ..., Nowhere else have I ..., In no way can ..., Only then did I ..., At no time ...",
+          "modelAnswer": "Today, I would like to pay tribute to my grandfather, who passed away last year. Such was his kindness that our door was always open to neighbours in need. So generous was he that he often gave away more than he could afford. Not once did I hear him speak badly of anyone. Nowhere else have I met a person who listened so patiently. When I was young, I didn't understand his quiet strength. Only later did I realise how much he had taught me. In no way can these few words do justice to the man he was, but I hope they remind us of how he lived.",
+          "rubric": [
+            "İleri devrik yapılar",
+            "Such / So doğru",
+            "Resmî ve duygusal ton",
+            "Ritim ve tonlama"
+          ]
+        },
+        "id": "c2-u01-l3-use"
+      }
+    },
+    {
+      "id": "c2-u01-l4",
+      "number": 4,
+      "title": "Şart devrikliği ve kalıplaşmış dilek kipi",
+      "goal": "Were it not for / Had it not been for gibi şart devriklikleri ve Be that as it may, Come what may, Suffice it to say, Far be it from me gibi kalıplaşmış dilek kipi (subjunctive) ifadelerini yerinde kullanabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir yöneticinin mektubundan",
+        "body": "Dear team,\n\nWere it not for your hard work this year, we would not be celebrating our best results in a decade. Had it not been for your patience during the difficult spring months, many of our clients would have left us.\n\nI am aware that some of you have concerns about the planned reorganisation. Be that as it may, I believe it is the right decision for the company's future. Far be it from me to pretend that change is easy, but I am confident that, come what may, we will face it together.\n\nSuffice it to say that I am extremely proud of what we have achieved. If need be, I will meet each of you individually to discuss your concerns.\n\nWith warm regards,\nDefne Arslan, Managing Director",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does the director thank the team?",
+            "options": [
+              "For the best results in a decade",
+              "For accepting lower salaries",
+              "For finding new clients"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"best results in a decade\"",
+            "id": "c2-u01-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the director offer to do?",
+            "options": [
+              "Cancel the reorganisation",
+              "Meet each person individually if necessary",
+              "Give everyone a bonus"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"If need be, I will meet each of you individually\"",
+            "id": "c2-u01-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Were it not for / Had it not been for (= If it weren't for / If it hadn't been for):**\n\n| Normal | Devrik (resmî) | Zaman |\n|---|---|---|\n| If it weren't for your help, I would fail. | **Were it not for** your help, I would fail. | şimdi |\n| If it hadn't been for the rain, we would have won. | **Had it not been for** the rain, we would have won. | geçmiş |\n| If it hadn't been for you, I would be lost now. | **Had it not been for** you, I would be lost now. | karışık |\n\n**Not:** *But for* (C1 Ünite 3) de aynı anlamdadır ve daha kısadır: *But for your help, ...*\n\n**2. Kalıplaşmış dilek kipi (formulaic subjunctive):** Fiilin yalın hali (*be, come, suffice*) kullanılan, eski İngilizceden kalma sabit ifadeler.\n\n| İfade | Anlam | Örnek |\n|---|---|---|\n| **Be that as it may, ...** | Her ne olursa olsun, yine de | **Be that as it may**, we must decide today. |\n| **Come what may, ...** | Ne olursa olsun | **Come what may**, I'll support you. |\n| **Suffice it to say (that) ...** | Şu kadarını söyleyeyim ki | **Suffice it to say** he wasn't happy. |\n| **Far be it from me to ...** | -mek bana düşmez ama | **Far be it from me to** criticise, but ... |\n| **If need be, ...** | Gerekirse | I'll stay late **if need be**. |\n| **So be it.** | Öyle olsun. | If that's what you want, **so be it**. |\n| **God / Heaven forbid!** | Allah korusun! | **Heaven forbid** anything should go wrong. |\n| **Long live ...!** | Çok yaşa ...! | **Long live** the king! |\n\n**Not:** *Far be it from me to ...* genellikle tam da \"bana düşmez\" dediğiniz şeyi yapacağınızı gösterir (ironik): *Far be it from me to tell you what to do, but ...*\n\n**3. Önceden gördüğümüz dilek kipi (B2):** *I suggest that he **be** informed. It is essential that she **attend**.*",
+        "examples": [
+          {
+            "en": "Were it not for the internet, I would never have met my best friend.",
+            "tr": "İnternet olmasaydı en iyi arkadaşımla asla tanışmazdım."
+          },
+          {
+            "en": "Far be it from me to interfere, but are you sure that's a good idea?",
+            "tr": "Karışmak bana düşmez ama bunun iyi bir fikir olduğundan emin misin?"
+          },
+          {
+            "en": "Suffice it to say that the meeting did not go well.",
+            "tr": "Şu kadarını söyleyeyim ki toplantı iyi geçmedi."
+          }
+        ],
+        "turkishNote": "Bu kalıpların çoğunun Türkçede de sabit karşılıkları vardır: \"Ne olursa olsun\" (Come what may), \"Allah korusun\" (Heaven forbid), \"Öyle olsun\" (So be it). Bu ifadeler kalıplaşmış oldukları için kelimeleri değiştirilmez: ✗ \"Comes what may\", ✗ \"Be it that as it may\". Türk öğrencilerin dikkat etmesi gereken bir nokta, \"Far be it from me\" ifadesinin genellikle ironik kullanıldığıdır: \"Karışmak bana düşmez ama...\" deyip aslında karışmak gibi."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Were it not for your help\" anlamı:",
+          "options": [
+            "Yardımın olmasaydı",
+            "Yardımın olduğu için"
+          ],
+          "answerIndex": 0,
+          "explanation": "If it weren't for.",
+          "id": "c2-u01-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Geçmiş zaman için doğru:",
+          "options": [
+            "Were it not for the storm, we would have arrived.",
+            "Had it not been for the storm, we would have arrived."
+          ],
+          "answerIndex": 1,
+          "explanation": "Had it not been for.",
+          "id": "c2-u01-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Come what may\" anlamı:",
+          "options": [
+            "Gelecek ne olacak?",
+            "Ne olursa olsun"
+          ],
+          "answerIndex": 1,
+          "explanation": "Come what may.",
+          "id": "c2-u01-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Far be it from me to criticise, but ...\" genellikle:",
+          "options": [
+            "Konuşan eleştirmeyecek.",
+            "Konuşan aslında eleştirecek."
+          ],
+          "answerIndex": 1,
+          "explanation": "İronik.",
+          "id": "c2-u01-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ it not for her support, I would give up.",
+          "answers": [
+            "Were"
+          ],
+          "explanation": "Were it not for.",
+          "id": "c2-u01-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Had it not ___ for the map, we would have got lost.",
+          "answers": [
+            "been"
+          ],
+          "explanation": "Had it not been for.",
+          "id": "c2-u01-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ that as it may, we still need to finish by Friday.",
+          "answers": [
+            "Be"
+          ],
+          "explanation": "Be that as it may.",
+          "id": "c2-u01-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ it to say, the party was a disaster. (Şu kadarını söyleyeyim)",
+          "answers": [
+            "Suffice"
+          ],
+          "explanation": "Suffice it to say.",
+          "id": "c2-u01-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Look, I know the deadline is tight. Be that as it may, the client won't wait. We'll work through the weekend if need be. And if that means cancelling our plans, so be it. Come what may, this project goes out on Monday.",
+          "prompt": "Proje ne zaman teslim edilecek?",
+          "options": [
+            "Cuma",
+            "Pazartesi",
+            "Hafta sonu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"this project goes out on Monday\"",
+          "id": "c2-u01-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Be that as it may",
+              "right": "yine de, her ne olursa olsun"
+            },
+            {
+              "left": "Come what may",
+              "right": "ne olursa olsun"
+            },
+            {
+              "left": "If need be",
+              "right": "gerekirse"
+            },
+            {
+              "left": "So be it",
+              "right": "öyle olsun"
+            },
+            {
+              "left": "Suffice it to say",
+              "right": "şu kadarını söyleyeyim ki"
+            }
+          ],
+          "explanation": "Her kalıbı anlamıyla eşleştirin.",
+          "id": "c2-u01-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Ekibinize zor bir kararı açıklayan kısa bir konuşma yapın (örneğin bir projenin ertelenmesi ya da yeni bir çalışma düzeni) (1 dakika). Were it not for / Had it not been for yapılarından birini ve en az 3 kalıplaşmış ifadeyi (Be that as it may, Come what may, Suffice it to say, Far be it from me, If need be, So be it) kullanın.",
+          "modelAnswer": "Good morning, everyone. I'll be brief. Had it not been for the problems with our supplier, we would have launched the new product next month. Unfortunately, that is no longer possible. Suffice it to say that we've done everything we can to avoid a delay. I know many of you are disappointed, and I understand why. Be that as it may, launching a product that isn't ready would damage our reputation. Far be it from me to promise that the next few weeks will be easy, but we'll get through them. If need be, we'll bring in extra help. Come what may, we will launch in the spring.",
+          "rubric": [
+            "Şart devrikliği",
+            "Kalıplaşmış ifadeler doğru",
+            "Resmî ve güven veren ton",
+            "Akıcılık"
+          ]
+        },
+        "id": "c2-u01-l4-use"
+      }
+    },
+    {
+      "id": "c2-u01-l5",
+      "number": 5,
+      "title": "Cümle çeşitliliği ve ritim",
+      "goal": "Kısa ve uzun cümleleri, öne almayı, devrik yapıları ve kalıplaşmış ifadeleri bilinçli ve ölçülü kullanarak etkileyici ve ritmik bir metin yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki versiyon",
+        "body": "Version A:\n\"The storm arrived at night. The storm was very strong. Many trees fell down. The electricity went off. People were scared. The next morning, the city was very quiet. Many streets were closed. The damage was very bad. People started to clean up.\"\n\nVersion B:\n\"The storm arrived at night. Such was its force that trees that had stood for a century were torn from the ground, and, one by one, the lights of the city went out. Nobody slept. By morning, an eerie silence had fallen over the streets. Gone were the cars, the buses, the usual morning noise. In their place lay broken branches and shattered glass. Shocked as they were, people began, slowly, to clean up.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which version is more effective?",
+            "options": [
+              "Version A",
+              "Version B"
+            ],
+            "answerIndex": 1,
+            "explanation": "Çeşitli cümleler ve yapılar.",
+            "id": "c2-u01-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What replaced the usual morning noise?",
+            "options": [
+              "Music",
+              "An eerie silence",
+              "Thunder"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"an eerie silence had fallen over the streets\"",
+            "id": "c2-u01-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "C2 seviyesinde iyi bir yazar sadece doğru değil, **etkileyici** yazar. Bunun anahtarı **çeşitlilik** ve **ritimdir**.\n\n**Version A neden zayıf?**\n\n- Bütün cümleler aynı uzunlukta ve aynı yapıda (Özne + Fiil)\n- Tekrar: *The storm ..., The storm ...*\n- Zayıf sıfatlar: *very strong, very bad*\n\n**Version B neden güçlü?**\n\n| Araç | Örnek |\n|---|---|\n| **Kısa cümle (vurgu)** | *Nobody slept.* |\n| **Uzun, akan cümle** | *Such was its force that trees ... were torn from the ground, and, one by one, ...* |\n| **İleri vurgu** | *Such was its force that ...* |\n| **Tamamlayıcıyı öne alma** | *Gone were the cars, ...* |\n| **Yer devrikliği** | *In their place lay broken branches ...* |\n| **Sıfat öne alma** | *Shocked as they were, ...* |\n| **Güçlü kelimeler** | *torn, eerie, shattered* (very strong / very bad yerine) |\n| **Üçleme (triplet)** | *the cars, the buses, the usual morning noise* |\n\n**Ritim için ipuçları:**\n\n1. **Uzun cümleden sonra kısa cümle**, vurgu yaratır.\n2. Cümleleri **farklı öğelerle** başlatın: zarf, yan cümle, öne alınmış öğe.\n3. **Üçlemeler** akılda kalır: *the cars, the buses, the noise*.\n4. **very + sıfat** yerine güçlü tek kelimeler: *very bad → devastating*, *very quiet → silent*.\n\n**Ölçü önemli!** Bu ünitedeki yapılar **tuz gibidir**: az kullanıldığında lezzet katar, çok kullanıldığında metni **overwrought** (abartılı, aşırı süslü) yapar. Bir paragrafta 1–2 devrik yapı genellikle yeterlidir.",
+        "examples": [
+          {
+            "en": "The meeting lasted six hours. Nothing was decided.",
+            "tr": "Toplantı altı saat sürdü. Hiçbir şeye karar verilmedi."
+          },
+          {
+            "en": "Gone were the crowds, the music, the laughter.",
+            "tr": "Kalabalık, müzik, kahkahalar geride kalmıştı."
+          },
+          {
+            "en": "Her style is elegant and understated.",
+            "tr": "Onun üslubu zarif ve sade."
+          }
+        ],
+        "turkishNote": "Türkçe yazıda uzun ve çok yan cümleli yapılar yaygındır, bazen tek bir cümle bir paragraf kadar uzun olabilir. İngilizce yazıda ise ritim için kısa ve uzun cümleler dengeli kullanılır; özellikle bir uzun cümleden sonra gelen çok kısa bir cümle (\"Nobody slept.\") güçlü bir etki yaratır. Türk öğrencilerin İngilizce yazılarında görülen bir başka sorun, \"very\" kelimesinin aşırı kullanımıdır. C2 seviyesinde \"very bad\" yerine \"devastating\", \"very tired\" yerine \"exhausted\" gibi güçlü kelimeler tercih edilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi daha güçlü bir ritim yaratır?",
+          "options": [
+            "Bütün cümleleri aynı uzunlukta yazmak",
+            "Uzun cümleden sonra kısa bir cümle kullanmak"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ritim.",
+          "id": "c2-u01-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"very tired\" yerine güçlü kelime:",
+          "options": [
+            "exhausted",
+            "very very tired"
+          ],
+          "answerIndex": 0,
+          "explanation": "Güçlü sıfat.",
+          "id": "c2-u01-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bir paragrafta devrik yapı sayısı:",
+          "options": [
+            "Mümkün olduğunca çok",
+            "Genellikle 1–2 yeterli"
+          ],
+          "answerIndex": 1,
+          "explanation": "Ölçü.",
+          "id": "c2-u01-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"overwrought\" bir metin:",
+          "options": [
+            "Aşırı süslü ve abartılı",
+            "Sade ve zarif"
+          ],
+          "answerIndex": 0,
+          "explanation": "overwrought.",
+          "id": "c2-u01-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Gone ___ the days when we could leave our doors unlocked.",
+          "answers": [
+            "are"
+          ],
+          "explanation": "Gone are the days.",
+          "id": "c2-u01-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Such ___ the silence that we could hear our own hearts.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "Such was.",
+          "id": "c2-u01-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "In the middle of the square ___ a statue of the town's founder. (durmak)",
+          "answers": [
+            "stood"
+          ],
+          "explanation": "stood.",
+          "id": "c2-u01-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Exhausted ___ she was, she finished the race.",
+          "answers": [
+            "as",
+            "though"
+          ],
+          "explanation": "Exhausted as she was.",
+          "id": "c2-u01-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "For years, the factory had been the heart of the town. Then, one winter, it closed. Gone were the jobs, the noise, the sense of purpose. So deep was the shock that some families left within months. Those who stayed, however, refused to give up.",
+          "prompt": "Fabrika kapandıktan sonra ne oldu?",
+          "options": [
+            "Herkes kasabada kaldı ve hiçbir şey değişmedi.",
+            "Bazı aileler kısa sürede ayrıldı ama kalanlar pes etmedi.",
+            "Yeni bir fabrika açıldı."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"some families left within months. Those who stayed, however, refused to give up.\"",
+          "id": "c2-u01-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Güçlü kısa cümleyle bitirin: \"We had planned everything for months: the venue, the music, the food. Then it rained. ___ (Hiçbir şey planlandığı gibi gitmedi)\"",
+          "accepted": [
+            "Nothing went to plan.",
+            "Nothing went to plan",
+            "Nothing went according to plan.",
+            "Nothing went according to plan",
+            "Nothing went as planned.",
+            "Nothing went as planned"
+          ],
+          "explanation": "Nothing went to plan.",
+          "id": "c2-u01-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Hayatınızı ya da bir topluluğu değiştiren bir olayı (bir doğal olay, bir taşınma, bir kayıp, büyük bir başarı) anlatan bir anı yazısı ya da köşe yazısı yazın (200–250 kelime). Uzun ve kısa cümleleri dengeli kullanın ve şu yapılardan en az 5 farklı türü ölçülü bir şekilde kullanın: öne alma (Tired as I was / Gone are the days), yer devrikliği, Such was / So + sıfat + was, olumsuz devrik (Not once / Nowhere / Only then), Had it not been for, kalıplaşmış ifade (Be that as it may / Come what may / Suffice it to say). very + sıfat kullanmayın.",
+          "modelAnswer": "The Summer the River Rose\n\nI was twelve when the river burst its banks. It had been raining for nine days. On the tenth, the water came.\n\nSuch was its speed that within an hour, the ground floor of our house had disappeared. My father carried my little brother on his shoulders; my mother held my hand so tightly that it hurt. Not once did she let go. We spent the night on the roof of the school, along with half the village, wrapped in blankets and watching the dark water rise.\n\nBy morning, the rain had stopped. Gone were the gardens, the market stalls, the small wooden bridge where we used to fish. In their place lay mud, broken furniture and an extraordinary, unbearable silence.\n\nHad it not been for our neighbours, I am not sure how we would have survived the weeks that followed. Exhausted as they were, they shared food, dried each other's clothes and rebuilt each other's walls. Only then did I understand what the word \"community\" really meant.\n\nSuffice it to say that the village was never quite the same. Nowhere else have I seen people so devastated and yet so generous. Thirty years later, the river is calm. I am not. Every time it rains for more than a day, I remember the roof, the blankets, and my mother's hand.",
+          "rubric": [
+            "En az 5 farklı ileri yapı",
+            "Ölçülü kullanım (abartısız)",
+            "Cümle çeşitliliği ve ritim",
+            "Güçlü kelime seçimi",
+            "Etkileyici giriş ve son"
+          ]
+        },
+        "id": "c2-u01-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Tired as he was, he kept working.\" anlamı:",
+        "options": [
+          "Yorgun olduğu için çalıştı.",
+          "Ne kadar yorgun olsa da çalışmaya devam etti."
+        ],
+        "answerIndex": 1,
+        "explanation": "as = -e rağmen",
+        "id": "c2-u01-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olan:",
+        "options": [
+          "Here comes it!",
+          "Here it comes!"
+        ],
+        "answerIndex": 1,
+        "explanation": "Zamir özne",
+        "id": "c2-u01-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olan:",
+        "options": [
+          "Not once she apologised.",
+          "Not once did she apologise."
+        ],
+        "answerIndex": 1,
+        "explanation": "Devrik",
+        "id": "c2-u01-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olan:",
+        "options": [
+          "So great was the noise that ...",
+          "Such great was the noise that ..."
+        ],
+        "answerIndex": 0,
+        "explanation": "So + sıfat",
+        "id": "c2-u01-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Far be it from me to judge, but ...\" genellikle:",
+        "options": [
+          "Konuşan yargılamayacak.",
+          "Konuşan aslında yargılayacak."
+        ],
+        "answerIndex": 1,
+        "explanation": "İronik",
+        "id": "c2-u01-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ as I like her, I can't support her plan.",
+        "answers": [
+          "Much"
+        ],
+        "explanation": "Much as",
+        "id": "c2-u01-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "On the hill ___ an old windmill. (durmak, geçmiş)",
+        "answers": [
+          "stood"
+        ],
+        "explanation": "Yer devrikliği",
+        "id": "c2-u01-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ was the crowd that the doors had to be closed.",
+        "answers": [
+          "Such"
+        ],
+        "explanation": "Such was",
+        "id": "c2-u01-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Nowhere else ___ I tasted such delicious bread.",
+        "answers": [
+          "have"
+        ],
+        "explanation": "Nowhere have I",
+        "id": "c2-u01-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "Had it not ___ for the doctor, he would have died.",
+        "answers": [
+          "been"
+        ],
+        "explanation": "Had it not been for",
+        "id": "c2-u01-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ that as it may, the decision is final.",
+        "answers": [
+          "Be"
+        ],
+        "explanation": "Be that as it may",
+        "id": "c2-u01-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ are the days when a phone was just a phone.",
+        "answers": [
+          "Gone"
+        ],
+        "explanation": "Gone are the days",
+        "id": "c2-u01-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Such was the success of the first festival that the town decided to make it an annual event. Not once in the twenty years since has it been cancelled, and come what may, the organisers say, it never will be.",
+        "prompt": "Festival kaç yıldır iptal edilmedi?",
+        "options": [
+          "On yıl",
+          "Yirmi yıl",
+          "Hiç düzenlenmedi"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"Not once in the twenty years since\"",
+        "id": "c2-u01-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Devrik yapın (Were it not for ...): \"If it weren't for my sister, I wouldn't have a job.\"",
+        "accepted": [
+          "Were it not for my sister, I wouldn't have a job.",
+          "Were it not for my sister, I wouldn't have a job",
+          "Were it not for my sister, I would not have a job.",
+          "Were it not for my sister, I would not have a job",
+          "Were it not for my sister I wouldn't have a job.",
+          "Were it not for my sister I wouldn't have a job"
+        ],
+        "explanation": "Were it not for my sister, I wouldn't have a job.",
+        "id": "c2-u01-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir şehrin, mahallenin ya da okulun zaman içinde nasıl değiştiğini anlatan bir köşe yazısı ya da anı yazısı yazın (200–250 kelime). Uzun ve kısa cümleleri dengeli kullanın ve en az 5 farklı ileri yapıyı ölçülü bir şekilde kullanın (öne alma, yer devrikliği, Such was / So + sıfat, olumsuz devrik, Had it not been for / Were it not for, kalıplaşmış dilek kipi). very + sıfat kullanmayın.",
+        "modelAnswer": "The Street Where I Grew Up\n\nWhen I was a child, our street was the whole world. At one end stood the bakery, where Mr Yücel sold warm simit at six every morning. At the other was the small mosque, its courtyard full of pigeons and old men playing backgammon.\n\nSuch was the sense of community that nobody locked their doors. Not once do I remember feeling unsafe. Children played football until the street lights came on, and every adult was, in a sense, everyone's parent.\n\nThen, slowly, things changed. Gone are the bakery, the tailor and the little shop that sold everything from batteries to rose water. In their place stand glass towers, a car park and a chain coffee shop. Modern as the new buildings are, they have no character. Few of the families I knew still live there.\n\nFar be it from me to romanticise the past. Life was not always easy, and many of the old houses were cold and damp. Be that as it may, something important has been lost. Were it not for a handful of residents who still meet every Friday in the mosque courtyard, the street would have no memory at all.\n\nI went back last month. The pigeons were still there. So, remarkably, was one of the old men, still playing backgammon. He recognised me at once. Only then did I realise how much I had missed it.",
+        "rubric": [
+          "En az 5 farklı ileri yapı",
+          "Ölçülü ve doğal kullanım",
+          "Cümle çeşitliliği ve ritim",
+          "Güçlü kelimeler",
+          "Bütünlük ve etkileyici son"
+        ],
+        "id": "c2-u01-t15"
+      }
+    ]
+  }
+}
