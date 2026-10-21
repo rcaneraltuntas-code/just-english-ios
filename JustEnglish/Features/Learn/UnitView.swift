@@ -14,8 +14,14 @@ struct UnitView: View {
                 VStack(alignment: .leading, spacing: 8) {
                     HStack {
                         LevelBadge(level: unit.level)
-                        Text(unit.titleEn).font(.jakarta(.subheadline, weight: .semibold)).foregroundStyle(.secondary)
+                        Text("Ünite \(unit.number) · \(unit.titleEn)").font(.jakarta(.subheadline, weight: .semibold)).foregroundStyle(.secondary)
+                        Spacer()
+                        Text("\(model.completedCount(in: unit))/\(unit.lessons.count)")
+                            .font(.jakarta(.subheadline, weight: .heavy))
+                            .foregroundStyle(Theme.color(for: unit.level))
                     }
+                    ProgressBar(value: Double(model.completedCount(in: unit)) / Double(max(unit.lessons.count, 1)),
+                                color: Theme.color(for: unit.level), height: 12)
                     Text(unit.canDo).font(.jakarta(.body))
                     if !unit.grammar.isEmpty {
                         FlowLayout(spacing: 6) {
@@ -25,16 +31,10 @@ struct UnitView: View {
                     }
                 }
 
-                SectionTitle(text: "Dersler")
-                VStack(spacing: 10) {
-                    ForEach(unit.lessons) { lesson in
-                        Button { activeLesson = LessonRoute(unit: unit, lesson: lesson) } label: {
-                            LessonRow(lesson: lesson,
-                                      done: model.state.completedLessons.contains(lesson.id),
-                                      score: model.state.lessonScores[lesson.id])
-                        }
-                        .buttonStyle(.plain)
-                    }
+                LessonPathView(unit: unit) { lesson in
+                    activeLesson = LessonRoute(unit: unit, lesson: lesson)
+                } onTest: {
+                    showTest = true
                 }
 
                 SectionTitle(text: "Ünite testi")

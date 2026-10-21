@@ -13,17 +13,19 @@ struct LearnView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 20) {
-                    TodayCard()
+                    TodayCard().staggeredAppear(0)
                     if let next = model.nextLesson {
                         ContinueCard(unit: next.unit, lesson: next.lesson) {
                             activeLesson = LessonRoute(unit: next.unit, lesson: next.lesson)
                         }
+                        .staggeredAppear(1)
                     }
                     levelPicker
                     VStack(spacing: 12) {
                         ForEach(model.units(for: level)) { unit in
                             NavigationLink(value: unit) { UnitRow(unit: unit) }
-                                .buttonStyle(.plain)
+                                .buttonStyle(PressableCardStyle())
+                                .staggeredAppear(unit.number)
                         }
                     }
                 }
@@ -43,7 +45,7 @@ struct LearnView: View {
             HStack(spacing: 8) {
                 ForEach(CEFRLevel.allCases) { item in
                     Button {
-                        selectedLevel = item
+                        withAnimation(Motion.smooth) { selectedLevel = item }
                         Haptics.tap()
                     } label: {
                         VStack(spacing: 2) {
@@ -88,9 +90,13 @@ struct TodayCard: View {
             VStack(alignment: .leading, spacing: 6) {
                 Text(ratio >= 1 ? "Bugünkü hedef tamam!" : "Bugünkü hedef: \(progress.dailyGoalXP) XP")
                     .font(.jakarta(.headline))
-                Label("\(progress.displayedStreak(at: .now)) gün seri", systemImage: "flame.fill")
-                    .font(.jakarta(.subheadline, weight: .semibold))
-                    .foregroundStyle(Theme.streak)
+                HStack(spacing: 4) {
+                    Image(systemName: "flame.fill")
+                        .symbolEffect(.bounce, options: .repeat(2), value: progress.goalReachedToday)
+                    RollingNumber(value: progress.displayedStreak(at: .now), suffix: " gün seri",
+                                  font: .jakarta(.subheadline, weight: .bold))
+                }
+                .foregroundStyle(progress.displayedStreak(at: .now) > 0 ? Theme.streak : .secondary)
                 Text("Toplam \(progress.totalXP) XP")
                     .font(.jakarta(.footnote))
                     .foregroundStyle(.secondary)
@@ -118,17 +124,24 @@ struct ContinueCard: View {
             Text(lesson.goal).font(.jakarta(.subheadline)).foregroundStyle(.white.opacity(0.9))
             Button(action: onStart) {
                 Label("Derse başla", systemImage: "play.fill")
-                    .font(.jakarta(.headline, weight: .bold))
-                    .frame(maxWidth: .infinity, minHeight: 48)
-                    .background(.white, in: RoundedRectangle(cornerRadius: 12))
-                    .foregroundStyle(Theme.accent)
             }
-            .buttonStyle(.plain)
+            .buttonStyle(DepthButtonStyle(color: .white, foreground: Theme.accent))
         }
         .padding(18)
-        .background(LinearGradient(colors: [Theme.accent, Theme.color(for: unit.level)],
-                                   startPoint: .topLeading, endPoint: .bottomTrailing),
-                    in: RoundedRectangle(cornerRadius: 20))
+        .background {
+            ZStack(alignment: .topTrailing) {
+                LinearGradient(colors: [Theme.accent, Theme.color(for: unit.level)],
+                               startPoint: .topLeading, endPoint: .bottomTrailing)
+                // Arka plandaki büyük, yarı saydam simge karta derinlik verir.
+                Image(systemName: "graduationcap.fill")
+                    .font(.system(size: 120, weight: .black))
+                    .foregroundStyle(.white.opacity(0.12))
+                    .rotationEffect(.degrees(-12))
+                    .offset(x: 30, y: -10)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        }
+        .shadow(color: Theme.accent.opacity(0.3), radius: 14, y: 8)
     }
 }
 
@@ -157,5 +170,15 @@ struct UnitRow: View {
             Image(systemName: "chevron.right").foregroundStyle(.tertiary)
         }
         .card()
+    }
+}
+
+/// Kart şeklindeki gezinme bağlantıları için: basılınca hafifçe küçülür.
+struct PressableCardStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.97 : 1)
+            .brightness(configuration.isPressed ? -0.03 : 0)
+            .animation(Motion.press, value: configuration.isPressed)
     }
 }

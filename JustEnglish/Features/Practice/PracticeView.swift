@@ -58,24 +58,29 @@ struct PracticeView: View {
                 .font(.jakarta(.headline))
                 .foregroundStyle(.white)
             Text(due > 0 ? "\(due) kart sizi bekliyor" : "Bugünlük tekrar yok")
+                .contentTransition(.numericText())
                 .font(.jakarta(.title2, weight: .bold))
                 .foregroundStyle(.white)
             Text("Destede \(model.deckSize) kelime var. Kartlar, unutmak üzere olduğunuz anda yeniden karşınıza çıkar.")
                 .font(.jakarta(.subheadline))
                 .foregroundStyle(.white.opacity(0.9))
-            Button { session = .review } label: {
-                Text(due > 0 ? "Tekrara başla" : "Kart yok")
-                    .font(.jakarta(.headline, weight: .bold))
-                    .frame(maxWidth: .infinity, minHeight: 48)
-                    .background(.white, in: RoundedRectangle(cornerRadius: 12))
-                    .foregroundStyle(Theme.accent)
-            }
-            .buttonStyle(.plain)
-            .disabled(due == 0)
-            .opacity(due == 0 ? 0.6 : 1)
+            Button(due > 0 ? "Tekrara başla" : "Kart yok") { session = .review }
+                .buttonStyle(DepthButtonStyle(color: .white, foreground: Theme.accent))
+                .disabled(due == 0)
         }
         .padding(18)
-        .background(Theme.accent, in: RoundedRectangle(cornerRadius: 20))
+        .background {
+            ZStack(alignment: .topTrailing) {
+                LinearGradient(colors: [Theme.accent, Theme.color(for: .b2)], startPoint: .topLeading, endPoint: .bottomTrailing)
+                Image(systemName: "rectangle.stack.fill")
+                    .font(.system(size: 110, weight: .black))
+                    .foregroundStyle(.white.opacity(0.12))
+                    .rotationEffect(.degrees(12))
+                    .offset(x: 24, y: -6)
+            }
+            .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
+        }
+        .shadow(color: Theme.accent.opacity(0.3), radius: 14, y: 8)
     }
 
     private func tile(icon: String, color: Color, title: String, detail: String, action: @escaping () -> Void) -> some View {
@@ -95,7 +100,7 @@ struct PracticeView: View {
             }
             .card()
         }
-        .buttonStyle(.plain)
+        .buttonStyle(PressableCardStyle())
         .disabled(title != "Yanlışlarım" && model.gamePool.count < GameRules.minimumCards)
     }
 }

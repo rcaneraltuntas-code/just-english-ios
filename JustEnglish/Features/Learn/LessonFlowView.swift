@@ -17,6 +17,8 @@ struct LessonFlowView: View {
     @State private var retried: Set<String> = []
     @State private var finished = false
     @State private var confirmExit = false
+    /// Üst üste doğru cevap sayısı; 3 ve üzerinde başlıkta alev rozeti çıkar.
+    @State private var combo = 0
 
     var body: some View {
         VStack(spacing: 0) {
@@ -52,8 +54,18 @@ struct LessonFlowView: View {
                 Image(systemName: "xmark").font(.jakarta(.headline, weight: .bold))
             }
             .foregroundStyle(.secondary)
-            ProgressBar(value: finished ? 1 : Double(index) / Double(max(steps.count, 1)), height: 10)
+            ProgressBar(value: finished ? 1 : Double(index) / Double(max(steps.count, 1)),
+                        color: combo >= 3 ? Theme.streak : Theme.success, height: 14)
+            if combo >= 3 {
+                HStack(spacing: 3) {
+                    Image(systemName: "flame.fill").symbolEffect(.bounce, value: combo)
+                    RollingNumber(value: combo, font: .jakarta(.subheadline, weight: .heavy))
+                }
+                .foregroundStyle(Theme.streak)
+                .transition(.scale.combined(with: .opacity))
+            }
         }
+        .animation(Motion.pop, value: combo >= 3)
         .padding(.horizontal, 20)
         .padding(.vertical, 12)
     }
@@ -81,6 +93,7 @@ struct LessonFlowView: View {
     private func record(_ exercise: Exercise, section: LessonStep.Section, outcome: ExerciseOutcome) {
         if let correct = outcome.correct {
             let isRetry = retried.contains(exercise.id)
+            combo = correct ? combo + 1 : 0
             if !isRetry {
                 graded += 1
                 if correct { firstTryCorrect += 1 }
@@ -319,43 +332,69 @@ struct LessonSummaryView: View {
     let onClose: () -> Void
 
     @Environment(AppModel.self) private var model
+    @State private var appeared = false
 
     private var percent: Int { total == 0 ? 100 : Int((Double(correct) / Double(total) * 100).rounded()) }
+    private var stars: Int { percent >= 95 ? 3 : percent >= 75 ? 2 : 1 }
+    private var earnedXP: Int { XPRule.lessonCompleted + (percent == 100 ? XPRule.perfectLesson : 0) + correct * XPRule.correctAnswer }
 
     var body: some View {
-        VStack(spacing: 24) {
-            Spacer()
-            Image(systemName: percent == 100 ? "star.circle.fill" : "checkmark.seal.fill")
-                .font(.system(size: 88))
-                .foregroundStyle(percent == 100 ? Theme.warning : Theme.success)
-                .symbolEffect(.bounce, value: true)
-            VStack(spacing: 6) {
-                Text("Ders tamamlandı!").font(.jakarta(.title, weight: .bold))
-                Text(lesson.title).font(.jakarta(.headline)).foregroundStyle(.secondary)
+        ZStack {
+            VStack(spacing: 22) {
+                Spacer()
+                StarRating(stars: stars)
+                VStack(spacing: 6) {
+                    Text(percent == 100 ? "Kusursuz ders!" : "Ders tamamlandı!")
+                        .font(.jakarta(.largeTitle, weight: .heavy))
+                    Text(lesson.title).font(.jakarta(.headline)).foregroundStyle(.secondary)
+                }
+                .opacity(appeared ? 1 : 0)
+                .offset(y: appeared ? 0 : 20)
+                HStack(spacing: 10) {
+                    stat(target: earnedXP, prefix: "+", label: "XP", icon: "bolt.fill", color: Theme.warning, delay: 0.5)
+                    stat(target: percent, prefix: "%", label: "Doğruluk", icon: "target", color: Theme.success, delay: 0.7)
+                    stat(target: model.state.progress.displayedStreak(at: .now), prefix: "", label: "Gün serisi",
+                         icon: "flame.fill", color: Theme.streak, delay: 0.9)
+                }
+                if model.state.progress.goalReachedToday {
+                    Label("Günlük hedefinize ulaştınız!", systemImage: "checkmark.seal.fill")
+                        .font(.jakarta(.headline, weight: .bold))
+                        .foregroundStyle(.white)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 10)
+                        .background(Theme.streak, in: Capsule())
+                        .staggeredAppear(8, delay: 0.15)
+                }
+                Spacer()
+                Button("Devam", action: onClose).buttonStyle(.primary)
             }
-            HStack(spacing: 12) {
-                stat(value: "%\(percent)", label: "Doğruluk", color: Theme.success)
-                stat(value: "\(model.state.progress.todayXP)", label: "Bugünkü XP", color: Theme.accent)
-                stat(value: "\(model.state.progress.displayedStreak(at: .now))", label: "Gün serisi", color: Theme.streak)
-            }
-            if model.state.progress.goalReachedToday {
-                Label("Günlük hedefinize ulaştınız!", systemImage: "flame.fill")
-                    .font(.jakarta(.headline))
-                    .foregroundStyle(Theme.streak)
-            }
-            Spacer()
-            Button("Bitir", action: onClose).buttonStyle(.primary)
+            .padding(20)
+            ConfettiView()
         }
-        .padding(20)
+        .onAppear {
+            Haptics.success()
+            withAnimation(Motion.smooth.delay(0.2)) { appeared = true }
+        }
     }
 
-    private func stat(value: String, label: String, color: Color) -> some View {
-        VStack(spacing: 4) {
-            Text(value).font(.jakarta(.title2, weight: .bold)).foregroundStyle(color)
-            Text(label).font(.jakarta(.caption)).foregroundStyle(.secondary)
+    private func stat(target: Int, prefix: String, label: String, icon: String, color: Color, delay: Double) -> some View {
+        VStack(spacing: 6) {
+            Text(label.uppercased(with: Locale(identifier: "tr")))
+                .font(.jakarta(.caption2, weight: .heavy))
+                .foregroundStyle(.white)
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 5)
+                .background(color)
+            HStack(spacing: 4) {
+                Image(systemName: icon)
+                CountUpNumber(target: target, prefix: prefix, font: .jakarta(.title3, weight: .heavy), delay: delay)
+            }
+            .foregroundStyle(color)
+            .padding(.bottom, 10)
         }
-        .frame(maxWidth: .infinity)
-        .padding(.vertical, 14)
-        .background(color.opacity(0.1), in: RoundedRectangle(cornerRadius: 14))
+        .background(Theme.surface)
+        .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+        .overlay(RoundedRectangle(cornerRadius: 14, style: .continuous).stroke(color, lineWidth: 2))
+        .staggeredAppear(Int(delay * 10), delay: 0.06)
     }
 }

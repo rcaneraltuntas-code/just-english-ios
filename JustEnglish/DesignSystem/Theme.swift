@@ -11,6 +11,8 @@ enum Theme {
     static let streak = Color(light: 0xF2620F, dark: 0xFB923C)
     static let background = Color(uiColor: .systemGroupedBackground)
     static let surface = Color(uiColor: .secondarySystemGroupedBackground)
+    /// İkincil düğmelerin yüzeyi: açık temada hafif gri, koyu temada bir ton açık.
+    static let surfaceRaised = Color(light: 0xEEF1F8, dark: 0x2C2C30)
     static let muted = Color.secondary
 
     static let cornerRadius: CGFloat = 16

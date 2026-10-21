@@ -1,38 +1,13 @@
 import SwiftUI
 import JECore
 
-struct PrimaryButtonStyle: ButtonStyle {
-    var color: Color = Theme.accent
-    @Environment(\.isEnabled) private var isEnabled
+/// Birincil eylem: 3D, basılınca çöken düğme (bkz. Motion.swift).
+typealias PrimaryButtonStyle = DepthButtonStyle
 
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.jakarta(.headline, weight: .bold))
-            .foregroundStyle(.white)
-            .frame(maxWidth: .infinity, minHeight: 52)
-            .background(isEnabled ? color : Color.gray.opacity(0.4), in: RoundedRectangle(cornerRadius: 14))
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-            .animation(.snappy(duration: 0.15), value: configuration.isPressed)
-    }
-}
-
-struct SecondaryButtonStyle: ButtonStyle {
-    func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .font(.jakarta(.headline, weight: .semibold))
-            .foregroundStyle(Theme.accent)
-            .frame(maxWidth: .infinity, minHeight: 52)
-            .background(Theme.accent.opacity(0.12), in: RoundedRectangle(cornerRadius: 14))
-            .scaleEffect(configuration.isPressed ? 0.97 : 1)
-    }
-}
-
-extension ButtonStyle where Self == PrimaryButtonStyle {
-    static var primary: PrimaryButtonStyle { PrimaryButtonStyle() }
-}
-
-extension ButtonStyle where Self == SecondaryButtonStyle {
-    static var secondary: SecondaryButtonStyle { SecondaryButtonStyle() }
+extension ButtonStyle where Self == DepthButtonStyle {
+    static var primary: DepthButtonStyle { DepthButtonStyle() }
+    /// İkincil eylem: açık yüzeyli 3D düğme, vurgu renginde yazı.
+    static var secondary: DepthButtonStyle { DepthButtonStyle(color: Theme.surfaceRaised, foreground: Theme.accent) }
 }
 
 struct CardModifier: ViewModifier {
@@ -68,13 +43,24 @@ struct ProgressBar: View {
 
     var body: some View {
         GeometryReader { geo in
+            let width = geo.size.width * min(max(value, 0), 1)
             ZStack(alignment: .leading) {
-                Capsule().fill(color.opacity(0.15))
-                Capsule().fill(color).frame(width: geo.size.width * min(max(value, 0), 1))
+                Capsule().fill(Color(uiColor: .systemGray5))
+                Capsule()
+                    .fill(color)
+                    .frame(width: value > 0 ? max(width, height) : 0)
+                    // Üstteki parlak şerit dolguya hacim verir.
+                    .overlay(alignment: .top) {
+                        Capsule()
+                            .fill(.white.opacity(0.3))
+                            .frame(height: height * 0.28)
+                            .padding(.horizontal, height * 0.45)
+                            .padding(.top, height * 0.2)
+                    }
             }
         }
         .frame(height: height)
-        .animation(.easeOut, value: value)
+        .animation(Motion.smooth, value: value)
     }
 }
 
@@ -124,6 +110,7 @@ struct SpeakButton: View {
     }
 }
 
+@MainActor
 enum Haptics {
     static func success() { UINotificationFeedbackGenerator().notificationOccurred(.success) }
     static func error() { UINotificationFeedbackGenerator().notificationOccurred(.error) }

@@ -16,6 +16,7 @@ struct ExerciseView: View {
     let onContinue: (ExerciseOutcome) -> Void
 
     @State private var outcome: ExerciseOutcome?
+    @State private var wrongShakes = 0
 
     var body: some View {
         VStack(spacing: 0) {
@@ -23,21 +24,31 @@ struct ExerciseView: View {
                 content
                     .padding(20)
                     .disabled(outcome != nil && exercise.isAutoGraded)
+                    .shake(wrongShakes)
             }
             .scrollDismissesKeyboard(.interactively)
             if let outcome {
                 FeedbackPanel(outcome: outcome, showsFeedback: showsFeedback) {
                     onContinue(outcome)
                 }
-                .transition(.move(edge: .bottom).combined(with: .opacity))
+                .transition(.move(edge: .bottom))
+                .zIndex(1)
             }
         }
-        .animation(.snappy, value: outcome)
+        .overlay(alignment: .bottom) {
+            if showsFeedback, outcome?.correct == true {
+                FloatingReward(text: "+\(XPRule.correctAnswer) XP")
+                    .padding(.bottom, 200)
+            }
+        }
+        .animation(Motion.smooth, value: outcome)
     }
 
     private func submit(_ result: ExerciseOutcome) {
         guard outcome == nil else { return }
-        if let correct = result.correct { correct ? Haptics.success() : Haptics.error() }
+        if let correct = result.correct {
+            if correct { Haptics.success() } else { Haptics.error(); wrongShakes += 1 }
+        }
         if !showsFeedback && exercise.isAutoGraded {
             onContinue(result)
         } else {
@@ -100,6 +111,8 @@ struct FeedbackPanel: View {
     let showsFeedback: Bool
     let onContinue: () -> Void
 
+    @State private var iconScale: CGFloat = 0.2
+
     private var color: Color {
         switch outcome.correct {
         case true?: Theme.success
@@ -108,15 +121,29 @@ struct FeedbackPanel: View {
         }
     }
 
+    /// Doğru cevapta her seferinde aynı söz tekrarlanmasın diye küçük bir havuz.
+    private static let praise = ["Harika!", "Doğru!", "Süper!", "Mükemmel!", "Aynen öyle!", "Çok iyi!"]
+    @State private var title = FeedbackPanel.praise.randomElement() ?? "Doğru!"
+
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: 12) {
             if showsFeedback, let correct = outcome.correct {
-                Label(correct ? "Doğru!" : "Doğru değil", systemImage: correct ? "checkmark.circle.fill" : "xmark.circle.fill")
-                    .font(.jakarta(.title3, weight: .bold))
-                    .foregroundStyle(color)
+                HStack(spacing: 12) {
+                    Image(systemName: correct ? "checkmark" : "xmark")
+                        .font(.system(size: 20, weight: .black))
+                        .foregroundStyle(.white)
+                        .frame(width: 40, height: 40)
+                        .background(color, in: Circle())
+                        .scaleEffect(iconScale)
+                    Text(correct ? title : "Doğru değil")
+                        .font(.jakarta(.title2, weight: .heavy))
+                        .foregroundStyle(color)
+                }
                 if let answer = outcome.correctAnswer {
-                    (Text("Doğru cevap: ").bold() + Text(answer))
-                        .font(.jakarta(.callout))
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Doğru cevap").font(.jakarta(.caption, weight: .bold)).foregroundStyle(color)
+                        Text(answer).font(.jakarta(.headline))
+                    }
                 }
                 if let message = outcome.message, !message.isEmpty {
                     Text(message)
@@ -127,11 +154,15 @@ struct FeedbackPanel: View {
             }
             Button("Devam", action: onContinue)
                 .buttonStyle(PrimaryButtonStyle(color: color))
+                .padding(.top, 4)
         }
         .padding(20)
+        .padding(.bottom, 4)
         .frame(maxWidth: .infinity, alignment: .leading)
-        .background(color.opacity(0.1))
+        .background(color.opacity(0.12))
         .background(.background)
+        .overlay(alignment: .top) { Rectangle().fill(color.opacity(0.35)).frame(height: 2) }
+        .onAppear { withAnimation(Motion.pop.delay(0.05)) { iconScale = 1 } }
     }
 }
 
@@ -146,70 +177,106 @@ struct ChoiceExercise: View {
     let onChoose: (Int) -> Void
 
     @State private var chosen: Int?
-    @State private var playCount = 0
+    @State private var speaking = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             if let audioText {
-                HStack(spacing: 16) {
-                    Button {
-                        Speech.shared.speak(audioText)
-                        playCount += 1
-                    } label: {
+                HStack(spacing: 18) {
+                    Button { play(audioText, rate: 0.45) } label: {
                         Image(systemName: "speaker.wave.3.fill")
-                            .font(.system(size: 32))
-                            .frame(width: 88, height: 88)
-                            .background(Theme.accent, in: Circle())
+                            .font(.system(size: 34, weight: .semibold))
+                            .symbolEffect(.variableColor.iterative, isActive: speaking)
+                            .frame(width: 96, height: 96)
                             .foregroundStyle(.white)
                     }
-                    Button {
-                        Speech.shared.speak(audioText, rate: 0.32)
-                        playCount += 1
-                    } label: {
-                        Label("Yavaş", systemImage: "tortoise.fill")
+                    .buttonStyle(RoundDepthButtonStyle(color: Theme.accent))
+                    Button { play(audioText, rate: 0.3) } label: {
+                        Image(systemName: "tortoise.fill")
+                            .font(.system(size: 22, weight: .semibold))
+                            .frame(width: 60, height: 60)
+                            .foregroundStyle(Theme.accent)
                     }
-                    .buttonStyle(.bordered)
+                    .buttonStyle(RoundDepthButtonStyle(color: Theme.surfaceRaised))
+                    .accessibilityLabel("Yavaş dinle")
                 }
                 .frame(maxWidth: .infinity)
-                .onAppear { Speech.shared.speak(audioText) }
+                .onAppear { play(audioText, rate: 0.45) }
             }
             Text(prompt)
-                .font(.jakarta(.title3, weight: .semibold))
+                .font(.jakarta(.title3, weight: .bold))
                 .fixedSize(horizontal: false, vertical: true)
-            VStack(spacing: 10) {
+            VStack(spacing: 8) {
                 ForEach(Array(options.enumerated()), id: \.offset) { index, option in
                     Button {
                         guard !locked else { return }
-                        chosen = index
                         Haptics.tap()
-                        onChoose(index)
+                        withAnimation(Motion.press) { chosen = index }
                     } label: {
-                        Text(option)
-                            .font(.jakarta(.body, weight: .medium))
-                            .multilineTextAlignment(.leading)
-                            .frame(maxWidth: .infinity, alignment: .leading)
-                            .padding(16)
-                            .background(background(for: index), in: RoundedRectangle(cornerRadius: 14))
-                            .overlay(RoundedRectangle(cornerRadius: 14).stroke(border(for: index), lineWidth: 2))
+                        HStack(spacing: 14) {
+                            Text(["A", "B", "C", "D", "E", "F"][min(index, 5)])
+                                .font(.jakarta(.subheadline, weight: .heavy))
+                                .foregroundStyle(tint(for: index) == nil ? Color.secondary : .white)
+                                .frame(width: 30, height: 30)
+                                .background(tint(for: index) ?? Color.secondary.opacity(0.12), in: RoundedRectangle(cornerRadius: 8))
+                            Text(option)
+                                .font(.jakarta(.body, weight: .semibold))
+                                .multilineTextAlignment(.leading)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                            if locked && index == answerIndex {
+                                Image(systemName: "checkmark.circle.fill").foregroundStyle(Theme.success).transition(.scale)
+                            }
+                        }
+                        .padding(14)
                     }
-                    .buttonStyle(.plain)
+                    .buttonStyle(TileButtonStyle(highlight: tint(for: index)))
+                    .scaleEffect(locked && index == answerIndex ? 1.02 : 1)
+                    .staggeredAppear(index)
                 }
             }
+            if !locked {
+                Button("Kontrol et") {
+                    if let chosen { onChoose(chosen) }
+                }
+                .buttonStyle(.primary)
+                .disabled(chosen == nil)
+                .padding(.top, 4)
+            }
+        }
+        .animation(Motion.pop, value: locked)
+    }
+
+    private func play(_ text: String, rate: Float) {
+        Speech.shared.speak(text, rate: rate)
+        speaking = true
+        Task {
+            try? await Task.sleep(for: .seconds(Double(text.count) / (rate > 0.4 ? 14 : 9)))
+            speaking = false
         }
     }
 
-    private func background(for index: Int) -> Color {
-        guard locked else { return Theme.surface }
-        if index == answerIndex { return Theme.success.opacity(0.15) }
-        if index == chosen { return Theme.danger.opacity(0.15) }
-        return Theme.surface
+    private func tint(for index: Int) -> Color? {
+        if locked {
+            if index == answerIndex { return Theme.success }
+            if index == chosen { return Theme.danger }
+            return nil
+        }
+        return index == chosen ? Theme.accent : nil
     }
+}
 
-    private func border(for index: Int) -> Color {
-        guard locked else { return Color.secondary.opacity(0.2) }
-        if index == answerIndex { return Theme.success }
-        if index == chosen { return Theme.danger }
-        return Color.secondary.opacity(0.2)
+/// Yuvarlak 3D düğme (ses çal, mikrofon).
+struct RoundDepthButtonStyle: ButtonStyle {
+    var color: Color
+
+    func makeBody(configuration: Configuration) -> some View {
+        let pressed = configuration.isPressed
+        return configuration.label
+            .background(color, in: Circle())
+            .background(Circle().fill(color.blended(with: .black, amount: 0.25)).offset(y: pressed ? 0 : 5))
+            .offset(y: pressed ? 5 : 0)
+            .padding(.bottom, 5)
+            .animation(Motion.press, value: pressed)
     }
 }
 
@@ -310,33 +377,54 @@ struct OrderingExercise: View {
 
     /// Kelimelerin `words` içindeki indeksleri; aynı kelime iki kez geçebilir.
     @State private var chosen: [Int] = []
+    @Namespace private var tiles
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             Text("Cümleyi kurun")
-                .font(.jakarta(.subheadline, weight: .semibold))
-                .foregroundStyle(.secondary)
+                .font(.jakarta(.subheadline, weight: .bold))
+                .foregroundStyle(Theme.accent)
             if let translation {
-                Text(translation)
-                    .font(.jakarta(.title3, weight: .semibold))
+                HStack(alignment: .top, spacing: 10) {
+                    Image(systemName: "text.bubble.fill").foregroundStyle(Theme.accent)
+                    Text(translation).font(.jakarta(.title3, weight: .bold))
+                }
             }
+            // Cevap alanı: çizgili satırlar üzerinde seçilen kelimeler.
             FlowLayout(spacing: 8) {
                 ForEach(chosen, id: \.self) { index in
                     tile(words[index]) { chosen.removeAll { $0 == index } }
+                        .matchedGeometryEffect(id: index, in: tiles)
                 }
             }
-            .frame(maxWidth: .infinity, minHeight: 110, alignment: .topLeading)
-            .padding(12)
-            .background(Theme.surface, in: RoundedRectangle(cornerRadius: 14))
-            .overlay(RoundedRectangle(cornerRadius: 14).stroke(Theme.accent.opacity(0.3), style: StrokeStyle(lineWidth: 1, dash: [5])))
+            .frame(maxWidth: .infinity, minHeight: 120, alignment: .topLeading)
+            .padding(.vertical, 8)
+            .background(alignment: .top) {
+                VStack(spacing: 52) {
+                    ForEach(0..<3, id: \.self) { _ in Rectangle().fill(Color.secondary.opacity(0.18)).frame(height: 2) }
+                }
+                .padding(.top, 52)
+            }
 
+            // Kelime bankası: seçilen kelimenin yerinde gri bir boşluk kalır.
             FlowLayout(spacing: 8) {
                 ForEach(Array(words.enumerated()), id: \.offset) { index, word in
-                    tile(word) { chosen.append(index) }
-                        .opacity(chosen.contains(index) ? 0.25 : 1)
-                        .disabled(chosen.contains(index))
+                    ZStack {
+                        Text(word)
+                            .font(.jakarta(.body, weight: .bold))
+                            .padding(.horizontal, 14)
+                            .padding(.vertical, 11)
+                            .foregroundStyle(.clear)
+                            .background(Color.secondary.opacity(0.12), in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                            .padding(.bottom, 4)
+                        if !chosen.contains(index) {
+                            tile(word) { chosen.append(index) }
+                                .matchedGeometryEffect(id: index, in: tiles)
+                        }
+                    }
                 }
             }
+            .frame(maxWidth: .infinity)
             Button("Kontrol et") { onSubmit(chosen.map { words[$0] }) }
                 .buttonStyle(.primary)
                 .disabled(chosen.count != words.count)
@@ -346,16 +434,14 @@ struct OrderingExercise: View {
     private func tile(_ word: String, action: @escaping () -> Void) -> some View {
         Button {
             Haptics.tap()
-            withAnimation(.snappy(duration: 0.2)) { action() }
+            withAnimation(Motion.smooth) { action() }
         } label: {
             Text(word)
-                .font(.jakarta(.body, weight: .semibold))
+                .font(.jakarta(.body, weight: .bold))
                 .padding(.horizontal, 14)
-                .padding(.vertical, 10)
-                .background(.background, in: RoundedRectangle(cornerRadius: 10))
-                .overlay(RoundedRectangle(cornerRadius: 10).stroke(Color.secondary.opacity(0.3)))
+                .padding(.vertical, 11)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(TileButtonStyle())
     }
 }
 
@@ -426,23 +512,25 @@ struct MatchingExercise: View {
     }
 
     private func cell(_ text: String, state: CellState, action: @escaping () -> Void) -> some View {
-        let color: Color = switch state {
-        case .normal: Color.secondary.opacity(0.25)
+        let color: Color? = switch state {
+        case .normal: nil
         case .selected: Theme.accent
         case .matched: Theme.success
         case .wrong: Theme.danger
         }
         return Button(action: action) {
             Text(text)
-                .font(.jakarta(.callout, weight: .medium))
+                .font(.jakarta(.callout, weight: .bold))
                 .multilineTextAlignment(.center)
-                .frame(maxWidth: .infinity, minHeight: 56)
+                .minimumScaleFactor(0.7)
+                .frame(maxWidth: .infinity, minHeight: 58)
                 .padding(.horizontal, 8)
-                .background(state == .normal ? Theme.surface : color.opacity(0.12), in: RoundedRectangle(cornerRadius: 12))
-                .overlay(RoundedRectangle(cornerRadius: 12).stroke(color, lineWidth: 2))
-                .opacity(state == .matched ? 0.5 : 1)
         }
-        .buttonStyle(.plain)
+        .buttonStyle(TileButtonStyle(highlight: color))
+        .opacity(state == .matched ? 0.45 : 1)
+        .scaleEffect(state == .selected ? 1.03 : (state == .matched ? 0.96 : 1))
+        .modifier(ShakeEffect(travel: 6, animatableData: state == .wrong ? 1 : 0))
+        .animation(state == .wrong ? .linear(duration: 0.35) : Motion.pop, value: state)
         .disabled(state == .matched)
     }
 }
