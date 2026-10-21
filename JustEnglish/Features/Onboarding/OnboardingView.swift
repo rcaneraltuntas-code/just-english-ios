@@ -17,7 +17,8 @@ struct OnboardingView: View {
 
     var body: some View {
         ZStack {
-            AIBackground(animated: true)
+            // Referans 1: düz, çok açık mavi zemin.
+            Color(light: 0xEEF4FF, dark: 0x0B0D16).ignoresSafeArea()
             switch step {
             case .welcome: welcome.transition(.opacity)
             case .name, .goal, .level:
@@ -40,76 +41,83 @@ struct OnboardingView: View {
         VStack(spacing: 0) {
             WelcomeIllustration()
                 .frame(maxHeight: .infinity)
-            VStack(spacing: 12) {
+            VStack(spacing: 14) {
                 Text("Yapay zekâ ile daha akıllı öğrenin, daha hızlı konuşun")
-                    .font(.jakarta(.title, weight: .heavy))
+                    .font(.custom(Theme.fontFamily, size: 27, relativeTo: .title).weight(.bold))
                     .foregroundStyle(Theme.ink)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
                     .staggeredAppear(1, delay: 0.12)
-                Text("JAI ile İngilizceyi size göre, eğlenceli ve hızlı öğrenin. A1'den C2'ye 68 ünite, oyunlar ve canlı dersler; hepsi ücretsiz.")
-                    .font(.jakarta(.callout, weight: .medium))
-                    .foregroundStyle(.secondary)
+                Text("JAI ile İngilizce öğrenmek eğlenceli, hızlı ve tamamen size göre.")
+                    .font(.custom(Theme.fontFamily, size: 17, relativeTo: .body))
+                    .foregroundStyle(Color(light: 0x4A4F5C, dark: 0x9AA3B5))
+                    .lineSpacing(5)
                     .multilineTextAlignment(.center)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(.horizontal, 12)
                     .staggeredAppear(2, delay: 0.12)
             }
-            .padding(.horizontal, 8)
-            .padding(.bottom, 28)
+            .padding(.bottom, 56)
             VStack(spacing: 12) {
                 Button("Başlayalım") { step = .name }
-                    .buttonStyle(.primary)
+                    .buttonStyle(OnboardingButtonStyle(filled: true))
                 Button("Zaten hesabım var") { showSignIn = true }
-                    .buttonStyle(.outline)
+                    .buttonStyle(OnboardingButtonStyle(filled: false))
             }
             .staggeredAppear(3, delay: 0.12)
         }
-        .padding(24)
+        .padding(.horizontal, 20)
+        .padding(.bottom, 24)
     }
 
     // MARK: - Sorular
 
     private var questionStep: some View {
-        ZStack(alignment: .top) {
-            FadedPhraseCards()
-                .padding(.top, 220)
-            VStack(alignment: .leading, spacing: 18) {
-                HStack {
-                    Button {
-                        step = Step(rawValue: step.rawValue - 1) ?? .welcome
-                    } label: {
-                        Image(systemName: "arrow.left")
-                            .font(.system(size: 17, weight: .bold))
-                            .foregroundStyle(Theme.ink)
-                            .frame(width: 44, height: 44)
-                            .glassCapsule(interactive: true)
-                    }
-                    .accessibilityLabel("Geri")
-                    Spacer()
-                    StepDots(current: step.rawValue - 1, total: 3)
+        VStack(alignment: .leading, spacing: 18) {
+            HStack {
+                Button {
+                    step = Step(rawValue: step.rawValue - 1) ?? .welcome
+                } label: {
+                    Image(systemName: "arrow.left")
+                        .font(.system(size: 20, weight: .regular))
+                        .foregroundStyle(Theme.ink)
+                        .frame(width: 44, height: 44, alignment: .leading)
                 }
-                Text(heading)
-                    .font(.jakarta(.title, weight: .heavy))
-                    .foregroundStyle(Theme.ink)
-                    .fixedSize(horizontal: false, vertical: true)
-                    .id(step)
-                    .transition(.opacity.combined(with: .move(edge: .bottom)))
-                Group {
-                    switch step {
-                    case .name: nameField
-                    case .goal: GoalPicker(selection: $goal)
-                    case .level: levelOptions
-                    default: EmptyView()
-                    }
-                }
-                .transition(.opacity)
+                .accessibilityLabel("Geri")
                 Spacer()
-                if step != .level {
-                    Button(step == .name ? "Devam edelim" : "Hadi başlayalım") {
-                        step = step == .name ? .goal : .level
-                    }
-                    .buttonStyle(.primary)
+                StepDots(current: step.rawValue - 1, total: 3)
+            }
+            Text(heading)
+                .font(.custom(Theme.fontFamily, size: 28, relativeTo: .title).weight(.bold))
+                .foregroundStyle(Theme.ink)
+                .fixedSize(horizontal: false, vertical: true)
+                .id(step)
+                .transition(.opacity.combined(with: .move(edge: .bottom)))
+            Group {
+                switch step {
+                case .name: nameField
+                case .goal: GoalPicker(selection: $goal)
+                case .level: levelOptions
+                default: EmptyView()
                 }
             }
-            .padding(24)
+            .transition(.opacity)
+            Spacer()
+            if step != .level {
+                Button(step == .name ? "Devam edelim" : "Hadi başlayalım") {
+                    step = step == .name ? .goal : .level
+                }
+                .buttonStyle(OnboardingButtonStyle(filled: true))
+            }
+        }
+        .padding(.horizontal, 20)
+        .padding(.top, 8)
+        .padding(.bottom, 24)
+        // Soluk kartlar arka planda, başlığın ve ad alanının altından başlar; yazıların arkasına binmez
+        // ve sayfanın yüksekliğini etkilemez.
+        .background(alignment: .top) {
+            FadedPhraseCards()
+                .padding(.top, step == .name ? 400 : 300)
         }
     }
 
@@ -177,51 +185,79 @@ struct OnboardingView: View {
 
 // MARK: - Parçalar
 
-/// Karşılama görseli: cam kubbe içinde JAI, çevresinde süzülen dil balonları ve sinir ağı.
+/// Referans 1'deki butonlar: 44pt, köşesi 10pt; dolu olan vurgu renginde ve altı 3pt koyu, boş olan ince mavi çerçeveli beyaz.
+struct OnboardingButtonStyle: ButtonStyle {
+    let filled: Bool
+
+    func makeBody(configuration: Configuration) -> some View {
+        let pressed = configuration.isPressed
+        return configuration.label
+            .font(.custom(Theme.fontFamily, size: 17, relativeTo: .headline).weight(.medium))
+            .foregroundStyle(filled ? .white : Theme.accent)
+            .frame(maxWidth: .infinity, minHeight: 46)
+            .background(filled ? Theme.accent : Theme.surface, in: RoundedRectangle(cornerRadius: 10, style: .continuous))
+            .overlay {
+                if !filled {
+                    RoundedRectangle(cornerRadius: 10, style: .continuous).stroke(Theme.accent.opacity(0.8), lineWidth: 1.5)
+                }
+            }
+            .background {
+                if filled {
+                    RoundedRectangle(cornerRadius: 10, style: .continuous).fill(Theme.accentDeep).offset(y: pressed ? 0 : 3)
+                }
+            }
+            .offset(y: filled && pressed ? 3 : 0)
+            .animation(Motion.press, value: pressed)
+    }
+}
+
+/// Karşılama görseli (referans 1): ortada cam kubbe içinde JAI, üstünde bayraklı konuşma balonları,
+/// çevresinde yumuşak sinir ağı noktaları. Balonlar hafifçe süzülür.
 struct WelcomeIllustration: View {
     @State private var float = false
     @State private var hop = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    private let bubbles: [(text: String, x: CGFloat, y: CGFloat, tint: Color)] = [
-        ("🇬🇧 Hello!", -0.28, -0.32, Theme.accent),
-        ("🇹🇷 Merhaba!", 0.27, -0.24, Theme.brandRed),
-        ("How are you?", -0.3, 0.14, Theme.aiViolet),
-        ("Nasılsınız?", 0.3, 0.2, Theme.success),
+    /// Konum: görsel genişliğine/yüksekliğine oranla merkezden; boyut: genişliğe oranla.
+    private let bubbles: [(flag: String, x: CGFloat, y: CGFloat, size: CGFloat, tint: Color, tailLeft: Bool)] = [
+        ("🇬🇧", -0.22, -0.20, 0.18, Color(light: 0x4F7BEF, dark: 0x4F7BEF), false),
+        ("🇺🇸", 0.02, -0.29, 0.21, Color(light: 0x4CC46A, dark: 0x4CC46A), true),
+        ("🇹🇷", 0.24, -0.10, 0.15, Color(light: 0xF5C443, dark: 0xF5C443), true),
+        ("🇦🇺", -0.29, 0.06, 0.11, Color(light: 0x6E8BFF, dark: 0x6E8BFF), false),
     ]
 
     var body: some View {
         GeometryReader { geo in
-            let size = min(geo.size.width, geo.size.height)
+            let w = geo.size.width, h = geo.size.height
             ZStack {
-                // Referanstaki gibi karakterin çevresinde yumuşak ağ noktaları.
                 NeuralNetwork(color: Theme.accent)
-                    .frame(width: size * 0.95, height: size * 1.7)
-                    .offset(y: size * 0.3)
-                    .opacity(0.7)
+                    .frame(width: w * 0.95, height: h * 0.8)
+                    .offset(y: h * 0.05)
+                    .opacity(0.55)
                 Circle()
-                    .fill(Theme.accent.opacity(0.18))
-                    .frame(width: size * 0.62)
-                    .blur(radius: 30)
-                Circle()
-                    .fill(.white.opacity(0.4))
-                    .frame(width: size * 0.5, height: size * 0.5)
-                    .glass(cornerRadius: size * 0.25)
-                JAIView(mood: .happy, size: size * 0.36, bounceTrigger: hop)
-                    .onTapGesture { hop += 1; Haptics.tap() }
+                    .fill(Theme.accent.opacity(0.14))
+                    .frame(width: w * 0.62)
+                    .blur(radius: 34)
+                    .offset(y: h * 0.12)
+                ZStack {
+                    Circle()
+                        .fill(RadialGradient(colors: [.white.opacity(0.95), Color(light: 0xC9DBFF, dark: 0x2A3A70).opacity(0.6)],
+                                             center: .topLeading, startRadius: 4, endRadius: w * 0.4))
+                        .overlay(Circle().stroke(.white.opacity(0.9), lineWidth: 1.5))
+                        .frame(width: w * 0.46, height: w * 0.46)
+                        .shadow(color: Theme.accent.opacity(0.2), radius: 18, y: 10)
+                    JAIView(mood: .happy, size: w * 0.34, bounceTrigger: hop)
+                }
+                .offset(y: h * 0.14)
+                .onTapGesture { hop += 1; Haptics.tap() }
                 ForEach(Array(bubbles.enumerated()), id: \.offset) { index, bubble in
-                    Text(bubble.text)
-                        .font(.jakarta(.subheadline, weight: .bold))
-                        .foregroundStyle(bubble.tint)
-                        .padding(.horizontal, 14)
-                        .padding(.vertical, 9)
-                        .glassCapsule()
-                        .offset(x: bubble.x * geo.size.width,
-                                y: bubble.y * size + (float ? -6 : 6) * (index.isMultiple(of: 2) ? 1 : -1))
+                    FlagBubble(flag: bubble.flag, tint: bubble.tint, size: w * bubble.size, tailLeft: bubble.tailLeft)
+                        .offset(x: bubble.x * w,
+                                y: bubble.y * h + (float ? -5 : 5) * (index.isMultiple(of: 2) ? 1 : -1))
                         .staggeredAppear(index + 1, delay: 0.15)
                 }
             }
-            .frame(width: geo.size.width, height: geo.size.height)
+            .frame(width: w, height: h)
         }
         .onAppear {
             guard !reduceMotion else { return }
@@ -237,15 +273,40 @@ struct WelcomeIllustration: View {
     }
 }
 
+/// İçinde bayrak olan yuvarlak konuşma balonu; alt köşesinde küçük bir kuyruk.
+struct FlagBubble: View {
+    let flag: String
+    let tint: Color
+    let size: CGFloat
+    var tailLeft = false
+
+    var body: some View {
+        ZStack {
+            Circle()
+                .fill(LinearGradient(colors: [tint.blended(with: .white, amount: 0.25), tint], startPoint: .top, endPoint: .bottom))
+                .shadow(color: tint.opacity(0.35), radius: 8, y: 5)
+            Text(flag).font(.system(size: size * 0.48))
+        }
+        .frame(width: size, height: size)
+        .overlay(alignment: tailLeft ? .bottomLeading : .bottomTrailing) {
+            Image(systemName: "arrowtriangle.down.fill")
+                .font(.system(size: size * 0.26))
+                .foregroundStyle(tint)
+                .rotationEffect(.degrees(tailLeft ? 30 : -30))
+                .offset(x: tailLeft ? size * 0.12 : -size * 0.12, y: size * 0.06)
+        }
+    }
+}
+
 /// Soru adımlarının arka planında yukarı doğru süzülen, soluk ifade kartları (referans ekran 2).
 struct FadedPhraseCards: View {
     private let phrases: [(en: String, tr: String, flag: String, tint: Color)] = [
-        ("How are you?", "Nasılsınız?", "🇬🇧", Theme.accent),
-        ("Nice to meet you", "Tanıştığımıza memnun oldum", "🇺🇸", Theme.success),
-        ("Where are you from?", "Nerelisiniz?", "🇬🇧", Theme.warning),
-        ("I'm fine, thanks", "İyiyim, teşekkürler", "🇨🇦", Theme.aiViolet),
-        ("See you soon!", "Görüşmek üzere!", "🇦🇺", Theme.color(for: .a2)),
-        ("Good morning", "Günaydın", "🇮🇪", Theme.coral),
+        ("How are you?", "Nasılsınız?", "🇬🇧 UK", Theme.accent),
+        ("Nice to meet you", "Tanıştığımıza memnun oldum", "🇺🇸 US", Theme.success),
+        ("Where are you from?", "Nerelisiniz?", "🇬🇧 UK", Theme.warning),
+        ("I'm fine, thanks", "İyiyim, teşekkürler", "🇨🇦 CA", Theme.aiViolet),
+        ("See you soon!", "Görüşmek üzere!", "🇦🇺 AU", Theme.color(for: .a2)),
+        ("Good morning", "Günaydın", "🇮🇪 IE", Theme.coral),
     ]
     @State private var drift = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
@@ -256,7 +317,9 @@ struct FadedPhraseCards: View {
             column(Array(phrases.enumerated().filter { !$0.offset.isMultiple(of: 2) }.map(\.element)))
                 .padding(.top, 60)
         }
-        .padding(.horizontal, 24)
+        // Arka planda durduğu için yüksekliği sınırlanmasın; kartlar kendi doğal yüksekliklerini alır, yazı kesilmez.
+        .fixedSize(horizontal: false, vertical: true)
+        .padding(.horizontal, 4)
         .offset(y: drift ? -30 : 0)
         .opacity(0.35)
         .mask(LinearGradient(colors: [.clear, .black, .black, .clear], startPoint: .top, endPoint: .bottom))
@@ -273,10 +336,11 @@ struct FadedPhraseCards: View {
             ForEach(items, id: \.en) { item in
                 VStack(spacing: 8) {
                     Text(item.flag)
-                        .font(.system(size: 16))
+                        .font(.custom(Theme.fontFamily, size: 16, relativeTo: .callout).weight(.semibold))
+                        .foregroundStyle(.white)
                         .padding(.horizontal, 14)
-                        .padding(.vertical, 6)
-                        .background(item.tint.opacity(0.25), in: Capsule())
+                        .padding(.vertical, 8)
+                        .background(item.tint, in: Capsule())
                     Text(item.en).font(.jakarta(.headline, weight: .bold)).foregroundStyle(item.tint)
                     Text(item.tr).font(.jakarta(.subheadline, weight: .medium)).foregroundStyle(.secondary)
                 }
