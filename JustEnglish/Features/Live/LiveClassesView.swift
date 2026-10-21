@@ -12,33 +12,36 @@ struct LiveClassesView: View {
     var body: some View {
         NavigationStack {
             ScrollView {
-                VStack(alignment: .leading, spacing: 18) {
+                VStack(alignment: .leading, spacing: 22) {
                     hero
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 8) {
-                            FilterChip(title: "Tümü", selected: levelFilter == nil) { levelFilter = nil }
+                            SoftChip(title: "Tümü", selected: levelFilter == nil) { levelFilter = nil }
                             ForEach(CEFRLevel.allCases) { level in
-                                FilterChip(title: level.rawValue, selected: levelFilter == level, color: Theme.color(for: level)) {
-                                    levelFilter = level
-                                }
+                                SoftChip(title: level.rawValue, selected: levelFilter == level) { levelFilter = level }
                             }
                         }
-                        .padding(.horizontal, 20)
-                        .padding(.vertical, 4)
+                        .padding(.horizontal, 16)
+                        .padding(.vertical, 2)
                     }
-                    .padding(.horizontal, -20)
+                    .padding(.horizontal, -16)
                     sessionList
                     howItWorks
                     plans
                 }
-                .padding(20)
+                .padding(.horizontal, 16)
+                .padding(.bottom, 20)
                 .animation(Motion.smooth, value: levelFilter)
+                .background(alignment: .top) {
+                    // Ana sayfadaki gibi üstte doygun mavi bant; kaydırınca içerikle birlikte kayar.
+                    HomeStyle.band.frame(height: 340).padding(.horizontal, -16)
+                }
             }
             .tabBarSpacer()
-            .appBackground()
-            // Kaydırılan içerik saatin altına girmesin diye durum çubuğuna buzlu zemin.
+            .background(HomeStyle.page.ignoresSafeArea())
+            // Gezinme çubuğu gizli; durum çubuğunun arkası bandın en üst rengiyle dolu.
             .safeAreaInset(edge: .top, spacing: 0) {
-                Color.clear.frame(height: 0).background(.ultraThinMaterial, ignoresSafeAreaEdges: .top)
+                Color.clear.frame(height: 0).background(HomeStyle.bandTop, ignoresSafeAreaEdges: .top)
             }
             .toolbar(.hidden, for: .navigationBar)
             .refreshable { await store.refresh() }
@@ -52,37 +55,51 @@ struct LiveClassesView: View {
         }
     }
 
+    /// Mavi bant üzerinde başlık, kısa açıklama ve canlı ders sayısı; öğretmenler için "Derslerim" düğmesi.
     private var hero: some View {
-        HeroHeader(title: "Canlı dersler",
-                   subtitle: "Just English öğretmenleriyle küçük gruplarda konuşun. Ünitenizi bitirip derse hazır gelin.",
-                   gradient: Theme.inkGradient, glow: Theme.ink) {
-            if auth.isTeacher {
-                NavigationLink { TeacherSessionsView() } label: {
-                    Image(systemName: "person.badge.key.fill")
-                        .font(.system(size: 18, weight: .bold))
+        VStack(alignment: .leading, spacing: 14) {
+            HStack(alignment: .top) {
+                VStack(alignment: .leading, spacing: 6) {
+                    Text("Canlı dersler")
+                        .font(.custom(Theme.fontFamily, size: 26, relativeTo: .title).weight(.bold))
                         .foregroundStyle(.white)
-                        .frame(width: 44, height: 44)
-                        .background(.white.opacity(0.18), in: Circle())
+                    Text("Just English öğretmenleriyle küçük gruplarda konuşun. Ünitenizi bitirip derse hazır gelin.")
+                        .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                        .foregroundStyle(.white.opacity(0.9))
+                        .lineSpacing(3)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
-                .accessibilityLabel("Derslerim")
+                Spacer(minLength: 12)
+                if auth.isTeacher {
+                    NavigationLink { TeacherSessionsView() } label: {
+                        Image(systemName: "person.badge.key")
+                            .font(.system(size: 17, weight: .medium))
+                            .foregroundStyle(.white)
+                            .frame(width: 40, height: 40)
+                            .background(.white.opacity(0.25), in: Circle())
+                    }
+                    .accessibilityLabel("Derslerim")
+                }
             }
-        } bottom: {
             HStack(spacing: 8) {
                 HStack(spacing: 6) {
-                    LivePulse(color: .white)
-                    Text(upcomingText).font(.jakarta(.caption, weight: .heavy)).foregroundStyle(.white)
+                    LivePulse()
+                    Text(upcomingText)
+                        .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote).weight(.semibold))
+                        .foregroundStyle(HomeStyle.title)
                 }
-                .padding(.horizontal, 10)
-                .padding(.vertical, 6)
-                .background(Theme.accent, in: Capsule())
-                Label("Küçük grup", systemImage: "person.3.fill")
-                    .font(.jakarta(.caption, weight: .heavy))
+                .padding(.horizontal, 12)
+                .frame(height: 32)
+                .background(.white.opacity(0.9), in: Capsule())
+                Label("Küçük grup", systemImage: "person.3")
+                    .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote).weight(.semibold))
                     .foregroundStyle(.white)
-                    .padding(.horizontal, 10)
-                    .padding(.vertical, 6)
-                    .background(.white.opacity(0.15), in: Capsule())
+                    .padding(.horizontal, 12)
+                    .frame(height: 32)
+                    .background(.white.opacity(0.25), in: Capsule())
             }
         }
+        .padding(.top, 14)
     }
 
     private var upcomingText: String {
@@ -94,10 +111,11 @@ struct LiveClassesView: View {
         case .idle, .loading:
             VStack(spacing: 12) {
                 ForEach(0..<2, id: \.self) { _ in
-                    RoundedRectangle(cornerRadius: 22, style: .continuous)
+                    RoundedRectangle(cornerRadius: 18, style: .continuous)
                         .fill(Theme.surface)
                         .frame(height: 150)
                         .overlay(ProgressView())
+                        .modifier(HomeCard())
                 }
             }
         case .unavailable:
@@ -113,7 +131,7 @@ struct LiveClassesView: View {
                               message: "Bu seviyede planlanmış canlı ders yok. Yakında yenileri eklenecek.", mood: .idle)
             } else {
                 VStack(alignment: .leading, spacing: 12) {
-                    SectionHeader(title: "Yaklaşan dersler")
+                    sectionTitle("Yaklaşan dersler")
                     ForEach(Array(sessions.enumerated()), id: \.element.id) { index, session in
                         LiveSessionRow(session: session, unit: model.library?.unit(id: session.unitID))
                             .staggeredAppear(index)
@@ -123,40 +141,53 @@ struct LiveClassesView: View {
         }
     }
 
+    private func sectionTitle(_ text: String) -> some View {
+        Text(text)
+            .font(.custom(Theme.fontFamily, size: 20, relativeTo: .title3).weight(.bold))
+            .foregroundStyle(HomeStyle.title)
+    }
+
     private var howItWorks: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Nasıl çalışır?")
-            HStack(alignment: .top, spacing: 10) {
-                step(1, "calendar.badge.plus", "Yer ayırtın", "Seviyenize uygun dersi seçin.", Theme.color(for: .a2))
-                step(2, "book.fill", "Hazırlanın", "Bağlı üniteyi bitirin.", Theme.color(for: .b2))
-                step(3, "video.fill", "Katılın", "Bağlantı dersten 10 dk önce açılır.", Theme.accent)
+            sectionTitle("Nasıl çalışır?")
+            VStack(spacing: 10) {
+                step(1, "calendar.badge.plus", "Yer ayırtın", "Seviyenize uygun dersi seçin.")
+                step(2, "book", "Hazırlanın", "Derse bağlı üniteyi bitirin.")
+                step(3, "video", "Katılın", "Bağlantı dersten 10 dakika önce açılır.")
             }
         }
     }
 
-    private func step(_ number: Int, _ icon: String, _ title: String, _ detail: String, _ color: Color) -> some View {
-        VStack(alignment: .leading, spacing: 8) {
-            ZStack(alignment: .topTrailing) {
-                Image(systemName: icon)
-                    .font(.system(size: 18, weight: .bold))
-                    .foregroundStyle(.white)
-                    .frame(width: 40, height: 40)
-                    .background(color.gradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
-                Text("\(number)")
-                    .font(.jakarta(.caption2, weight: .heavy))
-                    .foregroundStyle(color)
-                    .frame(width: 18, height: 18)
-                    .background(.white, in: Circle())
-                    .overlay(Circle().stroke(color, lineWidth: 1.5))
-                    .offset(x: 6, y: -6)
+    /// Ana sayfadaki "Akıcılığa giden yol" satırları gibi: açık gri zemin, solda numaralı simge.
+    private func step(_ number: Int, _ icon: String, _ title: String, _ detail: String) -> some View {
+        HStack(spacing: 14) {
+            Image(systemName: icon)
+                .font(.system(size: 19, weight: .medium))
+                .foregroundStyle(Theme.accent)
+                .frame(width: 44, height: 44)
+                .background(Theme.accentSoft, in: Circle())
+                .overlay(alignment: .topTrailing) {
+                    Text("\(number)")
+                        .font(.custom(Theme.fontFamily, size: 11, relativeTo: .caption2).weight(.bold))
+                        .foregroundStyle(.white)
+                        .frame(width: 18, height: 18)
+                        .background(Theme.accent, in: Circle())
+                        .offset(x: 4, y: -4)
+                }
+            VStack(alignment: .leading, spacing: 3) {
+                Text(title)
+                    .font(.custom(Theme.fontFamily, size: 16, relativeTo: .headline).weight(.semibold))
+                    .foregroundStyle(HomeStyle.title)
+                Text(detail)
+                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                    .foregroundStyle(HomeStyle.body)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            Text(title).font(.jakarta(.subheadline, weight: .heavy)).foregroundStyle(Theme.ink)
-            Text(detail).font(.jakarta(.caption)).foregroundStyle(.secondary).fixedSize(horizontal: false, vertical: true)
+            Spacer(minLength: 0)
         }
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .padding(12)
-        .background(Theme.surface, in: RoundedRectangle(cornerRadius: 18, style: .continuous))
-        .overlay(RoundedRectangle(cornerRadius: 18, style: .continuous).stroke(Theme.hairline, lineWidth: 1))
+        .padding(.horizontal, 14)
+        .padding(.vertical, 12)
+        .background(HomeStyle.rowFill, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
         .staggeredAppear(number)
     }
 
@@ -164,7 +195,7 @@ struct LiveClassesView: View {
         let units = model.units(for: levelFilter ?? model.state.currentLevel)
         if !units.isEmpty {
             VStack(alignment: .leading, spacing: 12) {
-                SectionHeader(title: "\((levelFilter ?? model.state.currentLevel).rawValue) ders planları")
+                sectionTitle("\((levelFilter ?? model.state.currentLevel).rawValue) ders planları")
                 ScrollView(.horizontal, showsIndicators: false) {
                     HStack(spacing: 12) {
                         ForEach(units) { unit in
@@ -172,10 +203,10 @@ struct LiveClassesView: View {
                                 .frame(width: 260)
                         }
                     }
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 6)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 4)
                 }
-                .padding(.horizontal, -20)
+                .padding(.horizontal, -16)
             }
         }
     }
@@ -193,68 +224,67 @@ struct LiveSessionRow: View {
     @Environment(\.openURL) private var openURL
 
     var body: some View {
-        let color = Theme.color(for: session.level)
         VStack(alignment: .leading, spacing: 12) {
             HStack(alignment: .top, spacing: 14) {
                 VStack(spacing: 0) {
                     Text(session.startsAt.formatted(.dateTime.month(.abbreviated)))
-                        .font(.jakarta(.caption2, weight: .heavy))
-                        .foregroundStyle(.white)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 3)
-                        .background(color)
+                        .font(.custom(Theme.fontFamily, size: 12, relativeTo: .caption2).weight(.semibold))
+                        .foregroundStyle(Theme.accent)
+                        .padding(.top, 6)
                     Text(session.startsAt.formatted(.dateTime.day()))
-                        .font(.jakarta(.title2, weight: .heavy))
-                        .foregroundStyle(Theme.ink)
-                        .padding(.top, 2)
+                        .font(.custom(Theme.fontFamily, size: 24, relativeTo: .title2).weight(.bold))
+                        .foregroundStyle(HomeStyle.title)
                     Text(session.startsAt.formatted(.dateTime.hour().minute()))
-                        .font(.jakarta(.caption2, weight: .bold))
-                        .foregroundStyle(.secondary)
-                        .padding(.bottom, 4)
+                        .font(.custom(Theme.fontFamily, size: 12, relativeTo: .caption2).weight(.medium))
+                        .foregroundStyle(HomeStyle.body)
+                        .padding(.bottom, 6)
                 }
                 .frame(width: 58)
-                .background(Theme.surfaceRaised)
-                .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
+                .background(Theme.accentSoft, in: RoundedRectangle(cornerRadius: 14, style: .continuous))
                 VStack(alignment: .leading, spacing: 5) {
                     HStack(spacing: 6) {
                         LevelBadge(level: session.level)
                         if session.isJoinable {
-                            HStack(spacing: 4) { LivePulse(); Text("Şimdi").font(.jakarta(.caption, weight: .heavy)) }
-                                .foregroundStyle(Theme.accent)
+                            HStack(spacing: 4) { LivePulse(); Text("Şimdi").font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.semibold)) }
+                                .foregroundStyle(Theme.brandRed)
                         } else {
                             Text(session.startsAt.formatted(.relative(presentation: .named)))
-                                .font(.jakarta(.caption, weight: .bold))
+                                .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.semibold))
                                 .foregroundStyle(Theme.accent)
                         }
                     }
-                    Text(session.title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink)
+                    Text(session.title)
+                        .font(.custom(Theme.fontFamily, size: 17, relativeTo: .headline).weight(.bold))
+                        .foregroundStyle(HomeStyle.title)
                     if let unit {
                         Text("Ünite \(unit.number): \(unit.title) · \(unit.liveClass.goal)")
-                            .font(.jakarta(.footnote))
-                            .foregroundStyle(.secondary)
+                            .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote))
+                            .foregroundStyle(HomeStyle.body)
                             .lineLimit(2)
                     }
                 }
             }
             HStack(spacing: 10) {
                 Text(String(session.teacherName.prefix(1)).uppercased())
-                    .font(.jakarta(.caption, weight: .heavy))
-                    .foregroundStyle(.white)
-                    .frame(width: 26, height: 26)
-                    .background(Theme.ink, in: Circle())
-                Text(session.teacherName).font(.jakarta(.footnote, weight: .bold)).foregroundStyle(Theme.ink)
+                    .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.bold))
+                    .foregroundStyle(Theme.accent)
+                    .frame(width: 28, height: 28)
+                    .background(Theme.accentSoft, in: Circle())
+                Text(session.teacherName)
+                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .footnote).weight(.semibold))
+                    .foregroundStyle(HomeStyle.title)
                 Spacer()
-                Label("\(session.durationMinutes) dk", systemImage: "clock.fill")
-                    .font(.jakarta(.caption, weight: .bold))
-                    .foregroundStyle(.secondary)
+                Label("\(session.durationMinutes) dk", systemImage: "clock")
+                    .font(.custom(Theme.fontFamily, size: 14, relativeTo: .caption).weight(.medium))
+                    .foregroundStyle(HomeStyle.body)
             }
             if let capacity = session.capacity, let seats = session.seatsLeft {
                 VStack(alignment: .leading, spacing: 4) {
                     ProgressBar(value: Double(capacity - seats) / Double(max(capacity, 1)),
-                                color: seats <= 2 ? Theme.danger : color, height: 8)
+                                color: seats <= 2 ? Theme.danger : Theme.accent, height: 6)
                     Text(seats == 0 ? "Kontenjan dolu" : "\(seats) yer kaldı")
-                        .font(.jakarta(.caption, weight: .bold))
-                        .foregroundStyle(seats <= 2 ? Theme.danger : .secondary)
+                        .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.medium))
+                        .foregroundStyle(seats <= 2 ? Theme.danger : HomeStyle.body)
                 }
             }
             if session.isJoinable, let url = session.joinURL {
@@ -267,43 +297,47 @@ struct LiveSessionRow: View {
                 .buttonStyle(PrimaryButtonStyle(color: Theme.success))
             } else if store.isBooked(session) {
                 Label("Yeriniz ayrıldı", systemImage: "checkmark.circle.fill")
-                    .font(.jakarta(.subheadline, weight: .heavy))
+                    .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
                     .foregroundStyle(Theme.success)
                 Button("Kaydınızı iptal edin") { Task { await store.cancel(session) } }
-                    .buttonStyle(.secondary)
+                    .buttonStyle(OnboardingButtonStyle(filled: false))
             } else {
                 Button("Yer ayırtın") { Task { await store.book(session) } }
-                    .buttonStyle(.primary)
+                    .buttonStyle(OnboardingButtonStyle(filled: true))
                     .disabled(session.seatsLeft == 0)
             }
         }
-        .card()
+        .padding(16)
+        .modifier(HomeCard())
     }
 }
 
-/// Ünite sayfasında, o ünitenin canlı ders planı.
+/// Ünite sayfasında ve canlı ders planlarında, bir ünitenin canlı ders planı.
 struct LiveClassCard: View {
     let unit: CourseUnit
 
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             HStack {
-                Image(systemName: "video.fill")
-                    .font(.system(size: 17, weight: .bold))
-                    .foregroundStyle(.white)
-                    .frame(width: 40, height: 40)
-                    .background(Theme.brandGradient, in: RoundedRectangle(cornerRadius: 12, style: .continuous))
+                Image("lesson-videocam").resizable().scaledToFit().frame(width: 40, height: 40)
                 Spacer()
                 LevelBadge(level: unit.level)
             }
-            Text(unit.liveClass.title).font(.jakarta(.headline, weight: .heavy)).foregroundStyle(Theme.ink).lineLimit(2)
-            Text(unit.liveClass.goal).font(.jakarta(.subheadline)).foregroundStyle(.secondary).lineLimit(3)
+            Text(unit.liveClass.title)
+                .font(.custom(Theme.fontFamily, size: 17, relativeTo: .headline).weight(.bold))
+                .foregroundStyle(HomeStyle.title)
+                .lineLimit(2)
+            Text(unit.liveClass.goal)
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                .foregroundStyle(HomeStyle.body)
+                .lineLimit(3)
             Spacer(minLength: 0)
-            Label("\(unit.liveClass.durationMinutes) dakika · küçük grup", systemImage: "person.3.fill")
-                .font(.jakarta(.caption, weight: .bold))
+            Label("\(unit.liveClass.durationMinutes) dakika · küçük grup", systemImage: "person.3")
+                .font(.custom(Theme.fontFamily, size: 14, relativeTo: .caption).weight(.semibold))
                 .foregroundStyle(Theme.accent)
         }
         .frame(maxHeight: .infinity, alignment: .topLeading)
-        .card()
+        .padding(16)
+        .modifier(HomeCard())
     }
 }

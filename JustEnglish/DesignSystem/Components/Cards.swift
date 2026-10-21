@@ -107,6 +107,29 @@ struct FilterChip: View {
     }
 }
 
+/// Yeni tasarımın süzgeç düğmesi: seçili olan vurgu renginde beyaz yazılı, diğerleri açık gri kapsül.
+struct SoftChip: View {
+    let title: String
+    let selected: Bool
+    let action: () -> Void
+
+    var body: some View {
+        Button {
+            Haptics.tap()
+            withAnimation(Motion.smooth) { action() }
+        } label: {
+            Text(title)
+                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                .foregroundStyle(selected ? .white : HomeStyle.title)
+                .padding(.horizontal, 16)
+                .frame(height: 36)
+                .background(selected ? Theme.accent : HomeStyle.rowFill, in: Capsule())
+        }
+        .buttonStyle(PressableCardStyle())
+        .accessibilityAddTraits(selected ? .isSelected : [])
+    }
+}
+
 /// Bölüm başlığı; isteğe bağlı sağda küçük bir eylem.
 struct SectionHeader: View {
     let title: String
