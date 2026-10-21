@@ -29,7 +29,7 @@ Supabase anahtarları için `Config/Secrets.example.xcconfig` dosyasını `Confi
 ```sh
 cd content-src
 python3 placement.py ../JustEnglish/Resources/Content/placement.json
-python3 a1_u01.py ../JustEnglish/Resources/Content/a1-u01.json
+for f in a[12]_u*.py; do python3 "$f" "../JustEnglish/Resources/Content/$(basename "$f" .py | tr _ -).json"; done
 python3 render_review.py ../JustEnglish/Resources/Content/a1-u01.json > a1-u01.md   # öğretmen incelemesi için
 ```
 

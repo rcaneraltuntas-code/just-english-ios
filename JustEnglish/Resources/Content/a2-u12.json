@@ -1,0 +1,1426 @@
+{
+  "id": "a2-u12",
+  "level": "A2",
+  "number": 12,
+  "title": "Hikâye anlatma",
+  "titleEn": "Telling Stories",
+  "canDo": "Başımdan geçen bir olayı duygularımla birlikte, sıralı ve bağlantılı bir şekilde anlatabilir; neden ve sonuçları açıklayabilirim.",
+  "grammar": [
+    "-ed ve -ing sıfatları (bored / boring)",
+    "bağlaçlar: and, but, because, so",
+    "sıralama: first, then, after that, finally, in the end",
+    "hikâye zarfları: suddenly, luckily, unfortunately",
+    "past simple ve past continuous ile hikâye"
+  ],
+  "vocabularyThemes": [
+    "duygular",
+    "olaylar ve tepkiler",
+    "hikâye dili"
+  ],
+  "liveClass": {
+    "title": "Hikâye zinciri",
+    "durationMinutes": 45,
+    "goal": "Öğretmen bir hikâyenin ilk cümlesini verir ('It was a dark, rainy night and I was waiting for the last bus...'). Her öğrenci sırayla bir cümle ekler ve verilen bir kelimeyi kullanmak zorundadır (suddenly, luckily, so, because, embarrassed...). Sonra gruplar kendi gerçek ya da uydurma hikâyelerini hazırlayıp anlatır; dinleyenler tepki verir ve soru sorar."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u12-v01",
+      "en": "excited",
+      "tr": "heyecanlı",
+      "example": "I was so excited about the trip.",
+      "exampleTr": "Gezi için çok heyecanlıydım.",
+      "note": "exciting = heyecan verici"
+    },
+    {
+      "id": "a2-u12-v02",
+      "en": "bored",
+      "tr": "sıkılmış",
+      "example": "The children were bored.",
+      "exampleTr": "Çocuklar sıkılmıştı.",
+      "note": "boring = sıkıcı"
+    },
+    {
+      "id": "a2-u12-v03",
+      "en": "tired",
+      "tr": "yorgun",
+      "example": "We were very tired after the walk.",
+      "exampleTr": "Yürüyüşten sonra çok yorgunduk.",
+      "note": "tiring = yorucu"
+    },
+    {
+      "id": "a2-u12-v04",
+      "en": "surprised",
+      "tr": "şaşırmış",
+      "example": "I was surprised to see him there.",
+      "exampleTr": "Onu orada gördüğüme şaşırdım.",
+      "note": "surprising = şaşırtıcı"
+    },
+    {
+      "id": "a2-u12-v05",
+      "en": "embarrassed",
+      "tr": "utanmış, mahcup",
+      "example": "I was so embarrassed!",
+      "exampleTr": "Çok utandım!",
+      "note": "embarrassing = utandırıcı"
+    },
+    {
+      "id": "a2-u12-v06",
+      "en": "frightened / scared",
+      "tr": "korkmuş",
+      "example": "She was frightened of the dog.",
+      "exampleTr": "Köpekten korkmuştu.",
+      "note": "frightening = korkutucu"
+    },
+    {
+      "id": "a2-u12-v07",
+      "en": "worried",
+      "tr": "endişeli",
+      "example": "My parents were worried about me.",
+      "exampleTr": "Ailem benim için endişelenmişti."
+    },
+    {
+      "id": "a2-u12-v08",
+      "en": "relieved",
+      "tr": "rahatlamış",
+      "example": "I was relieved when I found my passport.",
+      "exampleTr": "Pasaportumu bulunca rahatladım."
+    },
+    {
+      "id": "a2-u12-v09",
+      "en": "disappointed",
+      "tr": "hayal kırıklığına uğramış",
+      "example": "We were disappointed with the hotel.",
+      "exampleTr": "Otelden hayal kırıklığına uğradık.",
+      "note": "disappointing = hayal kırıklığı yaratan"
+    },
+    {
+      "id": "a2-u12-v10",
+      "en": "annoyed",
+      "tr": "sinirlenmiş, canı sıkılmış",
+      "example": "He was annoyed because the bus was late.",
+      "exampleTr": "Otobüs geç kaldığı için sinirlenmişti.",
+      "note": "annoying = sinir bozucu"
+    },
+    {
+      "id": "a2-u12-v11",
+      "en": "proud",
+      "tr": "gururlu",
+      "example": "I'm really proud of you!",
+      "exampleTr": "Seninle gurur duyuyorum!",
+      "note": "proud of + kişi"
+    },
+    {
+      "id": "a2-u12-v12",
+      "en": "because",
+      "tr": "çünkü",
+      "example": "I stayed at home because I was ill.",
+      "exampleTr": "Evde kaldım çünkü hastaydım.",
+      "note": "Sebep"
+    },
+    {
+      "id": "a2-u12-v13",
+      "en": "so",
+      "tr": "bu yüzden",
+      "example": "I was ill, so I stayed at home.",
+      "exampleTr": "Hastaydım, bu yüzden evde kaldım.",
+      "note": "Sonuç"
+    },
+    {
+      "id": "a2-u12-v14",
+      "en": "suddenly",
+      "tr": "aniden",
+      "example": "Suddenly, the lights went out.",
+      "exampleTr": "Aniden ışıklar söndü."
+    },
+    {
+      "id": "a2-u12-v15",
+      "en": "luckily",
+      "tr": "neyse ki",
+      "example": "Luckily, nobody was hurt.",
+      "exampleTr": "Neyse ki kimse yaralanmadı."
+    },
+    {
+      "id": "a2-u12-v16",
+      "en": "unfortunately",
+      "tr": "maalesef, ne yazık ki",
+      "example": "Unfortunately, the shop was closed.",
+      "exampleTr": "Ne yazık ki dükkan kapalıydı."
+    },
+    {
+      "id": "a2-u12-v17",
+      "en": "finally",
+      "tr": "sonunda, en sonunda",
+      "example": "Finally, we arrived at the hotel.",
+      "exampleTr": "Sonunda otele vardık."
+    },
+    {
+      "id": "a2-u12-v18",
+      "en": "in the end",
+      "tr": "sonunda (her şeyden sonra)",
+      "example": "In the end, everything was fine.",
+      "exampleTr": "Sonunda her şey yolundaydı."
+    },
+    {
+      "id": "a2-u12-v19",
+      "en": "at first",
+      "tr": "ilk başta",
+      "example": "At first I was scared, but then I enjoyed it.",
+      "exampleTr": "İlk başta korktum ama sonra keyif aldım."
+    },
+    {
+      "id": "a2-u12-v20",
+      "en": "happen",
+      "tr": "olmak, yaşanmak",
+      "example": "You won't believe what happened!",
+      "exampleTr": "Ne olduğuna inanmayacaksın!"
+    },
+    {
+      "id": "a2-u12-v21",
+      "en": "realise",
+      "tr": "fark etmek",
+      "example": "Then I realised my bag was gone.",
+      "exampleTr": "Sonra çantamın gittiğini fark ettim.",
+      "note": "Amerikan yazımı: realize."
+    },
+    {
+      "id": "a2-u12-v22",
+      "en": "drop",
+      "tr": "düşürmek",
+      "example": "I dropped my phone in the sea.",
+      "exampleTr": "Telefonumu denize düşürdüm."
+    },
+    {
+      "id": "a2-u12-v23",
+      "en": "shout",
+      "tr": "bağırmak",
+      "example": "Someone shouted, \"Help!\"",
+      "exampleTr": "Biri \"İmdat!\" diye bağırdı."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u12-l1",
+      "number": 1,
+      "title": "Nasıl hissettin?",
+      "goal": "-ed ve -ing sıfatlarıyla duygularımı ve olayları tanımlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Film çıkışı",
+        "lines": [
+          {
+            "speaker": "Asya",
+            "text": "So, what did you think of the film?"
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Honestly? It was boring. I was bored after twenty minutes."
+          },
+          {
+            "speaker": "Asya",
+            "text": "Really? I thought it was exciting! The ending was so surprising."
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Well, I was surprised too. Surprised that it was so long!"
+          },
+          {
+            "speaker": "Asya",
+            "text": "Ha ha. And I was embarrassed when my phone rang in the middle of it."
+          },
+          {
+            "speaker": "Ozan",
+            "text": "Yes, that was embarrassing! Everybody looked at us."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did Ozan think of the film?",
+            "options": [
+              "Exciting",
+              "Boring",
+              "Surprising"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It was boring.\"",
+            "id": "a2-u12-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why was Asya embarrassed?",
+            "options": [
+              "She fell asleep.",
+              "Her phone rang.",
+              "She laughed loudly."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"my phone rang in the middle of it\"",
+            "id": "a2-u12-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Birçok duygu sıfatının iki hali vardır:\n\n| -ed → kişi ne **hissediyor** | -ing → şey / kişi nasıl **bir etki yaratıyor** |\n|---|---|\n| I was **bored**. (Sıkıldım.) | The film was **boring**. (Film sıkıcıydı.) |\n| She's **interested** in art. | Art is **interesting**. |\n| We were **tired**. | The walk was **tiring**. |\n| He was **surprised**. | The news was **surprising**. |\n| I was **embarrassed**. | It was **embarrassing**. |\n| They were **frightened**. | The story was **frightening**. |\n\n**Dikkat:** \"I'm boring\" = Ben sıkıcı biriyim! Sıkıldığınızı söylemek için **I'm bored** deyin.\n\n**Vurgulamak:** so / really / very / a bit: I was **so** excited! / It was **a bit** disappointing.",
+        "examples": [
+          {
+            "en": "I was really excited about my first flight.",
+            "tr": "İlk uçuşum için çok heyecanlıydım."
+          },
+          {
+            "en": "The museum was interesting, but the tour was tiring.",
+            "tr": "Müze ilginçti ama tur yorucuydu."
+          },
+          {
+            "en": "We were disappointed because the beach was dirty.",
+            "tr": "Plaj kirli olduğu için hayal kırıklığına uğradık."
+          }
+        ],
+        "turkishNote": "Türkçede \"sıkıldım\" ve \"sıkıcı\" farklı kelimeler olduğu için fark kolay anlaşılır, ama İngilizcede iki kelime birbirine çok benzediğinden karıştırılır. Kural: insanın içindeki duygu → -ed; bu duyguyu yaratan şey → -ing. \"I'm interesting in music\" yanlış; doğrusu \"I'm interested in music\"."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Sıkıldığınızı söylemek:",
+          "options": [
+            "I'm boring.",
+            "I'm bored."
+          ],
+          "answerIndex": 1,
+          "explanation": "Duygu → -ed.",
+          "id": "a2-u12-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The film was very ___.",
+          "options": [
+            "excited",
+            "exciting"
+          ],
+          "answerIndex": 1,
+          "explanation": "Etkiyi yaratan → -ing.",
+          "id": "a2-u12-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I'm ___ in history.",
+          "options": [
+            "interested",
+            "interesting"
+          ],
+          "answerIndex": 0,
+          "explanation": "Duygu → interested in.",
+          "id": "a2-u12-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The ten-hour flight was very ___. (tire)",
+          "answers": [
+            "tiring"
+          ],
+          "explanation": "Etki → -ing.",
+          "id": "a2-u12-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We were ___ when we saw the price. (surprise)",
+          "answers": [
+            "surprised"
+          ],
+          "explanation": "Duygu → -ed.",
+          "id": "a2-u12-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Falling on the stage was so ___! (embarrass)",
+          "answers": [
+            "embarrassing"
+          ],
+          "explanation": "Etki → -ing.",
+          "id": "a2-u12-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The children were ___ of the big dog. (frighten)",
+          "answers": [
+            "frightened",
+            "scared"
+          ],
+          "explanation": "Duygu → -ed.",
+          "id": "a2-u12-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "The concert was a bit disappointing. The singer was very late and the sound was terrible. Everybody was annoyed.",
+          "prompt": "Konser nasıldı?",
+          "options": [
+            "Heyecan vericiydi",
+            "Biraz hayal kırıklığıydı",
+            "Korkutucuydu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"a bit disappointing\"",
+          "id": "a2-u12-l1-p08"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "bored",
+              "right": "sıkılmış"
+            },
+            {
+              "left": "boring",
+              "right": "sıkıcı"
+            },
+            {
+              "left": "relieved",
+              "right": "rahatlamış"
+            },
+            {
+              "left": "annoying",
+              "right": "sinir bozucu"
+            },
+            {
+              "left": "proud",
+              "right": "gururlu"
+            }
+          ],
+          "explanation": "Sıfatları eşleştirin.",
+          "id": "a2-u12-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Seninle gurur duyuyorum!\"",
+          "accepted": [
+            "I'm proud of you!",
+            "I'm proud of you",
+            "I am proud of you",
+            "I am proud of you!",
+            "I'm so proud of you!",
+            "I'm so proud of you",
+            "I am so proud of you",
+            "I am so proud of you!",
+            "I'm really proud of you!",
+            "I'm really proud of you",
+            "I am really proud of you",
+            "I am really proud of you!",
+            "I'm very proud of you!",
+            "I'm very proud of you",
+            "I am very proud of you",
+            "I am very proud of you!"
+          ],
+          "explanation": "I'm proud of + you!",
+          "id": "a2-u12-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Son izlediğiniz bir film, gittiğiniz bir etkinlik ya da yaşadığınız bir gün hakkında konuşun. En az 3 -ed ve 3 -ing sıfatı kullanın.",
+          "modelAnswer": "Last week I went to a football match. It was really exciting! At first I was a bit bored because nothing happened, but then our team scored. I was so excited! The journey home was tiring and the traffic was annoying.",
+          "rubric": [
+            "-ed / -ing doğru seçildi",
+            "so / really / a bit ile vurgu",
+            "Geçmiş zaman doğru"
+          ]
+        },
+        "id": "a2-u12-l1-use"
+      }
+    },
+    {
+      "id": "a2-u12-l2",
+      "number": 2,
+      "title": "Çünkü, bu yüzden, ama",
+      "goal": "because, so, but ve and ile cümleleri bağlayıp neden ve sonuçları açıklayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kötü bir gün",
+        "body": "Yesterday was a terrible day. My alarm didn't ring, so I woke up late. I didn't have time for breakfast and I ran to the bus stop. I missed the bus, so I took a taxi. The taxi was expensive, but I arrived at work on time.\n\nThen I realised that I didn't have my laptop because I left it at home! I called my brother and he brought it to the office. I was annoyed, but I was also grateful. In the evening I went to bed at nine because I was so tired.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did the writer wake up late?",
+            "options": [
+              "The alarm didn't ring.",
+              "The bus was late.",
+              "He went to bed late."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"My alarm didn't ring, so I woke up late.\"",
+            "id": "a2-u12-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who brought the laptop?",
+            "options": [
+              "A colleague",
+              "The taxi driver",
+              "The writer's brother"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"I called my brother and he brought it\"",
+            "id": "a2-u12-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bağlaçlar** iki cümleyi birleştirir:\n\n| Bağlaç | Anlam | Örnek |\n|---|---|---|\n| **and** | ve (ekleme) | I ran **and** I caught the bus. |\n| **but** | ama (zıtlık) | It was expensive, **but** it was fast. |\n| **because** | çünkü (**sebep**) | I was late **because** I missed the bus. |\n| **so** | bu yüzden (**sonuç**) | I missed the bus, **so** I was late. |\n\n**because ve so aynı durumu iki yönden anlatır:**\n\n- I was tired **because** I worked all day. (sebep → because'dan sonra)\n- I worked all day, **so** I was tired. (sonuç → so'dan sonra)\n\n**Virgül:** but ve so'dan önce genellikle virgül konur. because öndeyse: **Because** it was raining, we stayed at home.",
+        "examples": [
+          {
+            "en": "It was raining, so we took a taxi.",
+            "tr": "Yağmur yağıyordu, bu yüzden taksiye bindik."
+          },
+          {
+            "en": "We took a taxi because it was raining.",
+            "tr": "Yağmur yağdığı için taksiye bindik."
+          },
+          {
+            "en": "The hotel was old, but it was very clean.",
+            "tr": "Otel eskiydi ama çok temizdi."
+          }
+        ],
+        "turkishNote": "Türkçede sebep genellikle önce gelir (\"Yağmur yağdığı için taksiye bindik\"); İngilizcede because cümlesi çoğunlukla sonra gelir. \"So\" bağlacını \"so tired\" (çok yorgun) ile karıştırmayın: I was so tired (çok yorgundum) / I was tired, so I slept (yorgundum, bu yüzden uyudum)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "I was hungry, ___ I made a sandwich.",
+          "options": [
+            "because",
+            "so"
+          ],
+          "answerIndex": 1,
+          "explanation": "Sonuç → so.",
+          "id": "a2-u12-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "I made a sandwich ___ I was hungry.",
+          "options": [
+            "because",
+            "so"
+          ],
+          "answerIndex": 0,
+          "explanation": "Sebep → because.",
+          "id": "a2-u12-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The film was long, ___ it was really good.",
+          "options": [
+            "but",
+            "so"
+          ],
+          "answerIndex": 0,
+          "explanation": "Zıtlık → but.",
+          "id": "a2-u12-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "We stayed at home ___ it was snowing.",
+          "answers": [
+            "because"
+          ],
+          "explanation": "Sebep → because.",
+          "id": "a2-u12-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It was snowing, ___ we stayed at home.",
+          "answers": [
+            "so"
+          ],
+          "explanation": "Sonuç → so.",
+          "id": "a2-u12-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The hotel was old, ___ it was very clean.",
+          "answers": [
+            "but"
+          ],
+          "explanation": "Zıtlık → but.",
+          "id": "a2-u12-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "I opened the door ___ I saw a big box. (ve)",
+          "answers": [
+            "and"
+          ],
+          "explanation": "Ekleme → and.",
+          "id": "a2-u12-l2-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "missed",
+            "I",
+            "the",
+            "bus",
+            "so",
+            "I",
+            "took",
+            "a",
+            "taxi"
+          ],
+          "answer": "I missed the bus so I took a taxi.",
+          "explanation": "Sebep + so + sonuç.",
+          "translation": "Otobüsü kaçırdım, bu yüzden taksiye bindim.",
+          "id": "a2-u12-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I didn't go to the party because I had an exam the next morning. But my friends sent me lots of photos, so I didn't feel left out.",
+          "prompt": "Neden partiye gitmedi?",
+          "options": [
+            "Hastaydı",
+            "Ertesi sabah sınavı vardı",
+            "Davet edilmedi"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"because I had an exam the next morning\"",
+          "id": "a2-u12-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "so ile birleştirin: \"I was tired. I went to bed early.\"",
+          "accepted": [
+            "I was tired, so I went to bed early.",
+            "I was tired, so I went to bed early",
+            "I was tired so I went to bed early.",
+            "I was tired so I went to bed early"
+          ],
+          "explanation": "Sebep + , so + sonuç.",
+          "id": "a2-u12-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kötü (ya da çok iyi) geçen bir gününüzü anlatın. Her olayı bir sonraki olaya bağlayın: en az 2 because, 2 so ve 1 but kullanın.",
+          "modelAnswer": "Last Monday was a crazy day. I forgot my keys, so I couldn't get into my flat. I called my landlord, but he didn't answer because he was on holiday. So I went to my sister's house. I stayed there because it was too late to find a locksmith.",
+          "rubric": [
+            "because = sebep",
+            "so = sonuç",
+            "but = zıtlık",
+            "Olaylar mantıklı bağlandı"
+          ]
+        },
+        "id": "a2-u12-l2-use"
+      }
+    },
+    {
+      "id": "a2-u12-l3",
+      "number": 3,
+      "title": "Önce, sonra, en sonunda",
+      "goal": "Sıralama ifadeleriyle olayları doğru sırayla anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "İlk yemek denemesi",
+        "lines": [
+          {
+            "speaker": "Ela",
+            "text": "How was your first dinner party?"
+          },
+          {
+            "speaker": "Kuzey",
+            "text": "A disaster! First, I burned the rice."
+          },
+          {
+            "speaker": "Ela",
+            "text": "Oh no!"
+          },
+          {
+            "speaker": "Kuzey",
+            "text": "Then I made new rice, but I forgot to put salt in it. After that, I dropped the salad on the floor!"
+          },
+          {
+            "speaker": "Ela",
+            "text": "What did you do?"
+          },
+          {
+            "speaker": "Kuzey",
+            "text": "Finally, I ordered pizza. In the end, everyone had a great time, and nobody remembered the rice!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened first?",
+            "options": [
+              "He dropped the salad.",
+              "He burned the rice.",
+              "He ordered pizza."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"First, I burned the rice.\"",
+            "id": "a2-u12-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How did the evening end?",
+            "options": [
+              "Badly",
+              "Everyone had a great time.",
+              "Everyone went home early."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"In the end, everyone had a great time\"",
+            "id": "a2-u12-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sıralama ifadeleri** dinleyenin hikâyeyi takip etmesini kolaylaştırır.\n\n| Başlangıç | Orta | Son |\n|---|---|---|\n| **First,** ... | **Then** ... | **Finally,** ... |\n| **At first,** ... | **After that,** ... | **In the end,** ... |\n| **One day,** ... | **Next,** ... | |\n| | **Later,** ... | |\n\n- **At first** = ilk başta (sonra durum değişti): **At first** I was scared, but then I loved it.\n- **Finally** = bir listenin son adımı ya da uzun bekleyişin sonu: **Finally**, the bus came.\n- **In the end** = her şeyden sonra, sonuç olarak: **In the end**, we had a great time.\n\n**Zaman bağlaçları:**\n\n- **when**: **When** I got home, I had a shower.\n- **after** + isim / cümle: **After** dinner, we went for a walk.\n- **before** + isim / cümle: **Before** I left, I locked the door.",
+        "examples": [
+          {
+            "en": "At first I didn't like him, but then we became friends.",
+            "tr": "İlk başta ondan hoşlanmadım ama sonra arkadaş olduk."
+          },
+          {
+            "en": "After that, we went to a café.",
+            "tr": "Ondan sonra bir kafeye gittik."
+          },
+          {
+            "en": "Before I went to bed, I checked my emails.",
+            "tr": "Yatmadan önce e-postalarıma baktım."
+          }
+        ],
+        "turkishNote": "\"Then\" ile \"after that\" aynı anlamdadır; sürekli \"and then, and then\" demek yerine çeşitlilik hikâyeyi daha akıcı yapar. \"At the end\" bir şeyin sonunda (at the end of the film), \"in the end\" ise sonuç olarak anlamındadır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hikâyenin en başında:",
+          "options": [
+            "Finally,",
+            "First,",
+            "In the end,"
+          ],
+          "answerIndex": 1,
+          "explanation": "First.",
+          "id": "a2-u12-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İlk başta korktu, sonra sevdi:",
+          "options": [
+            "At first I was scared, but then I loved it.",
+            "In the end I was scared, but first I loved it."
+          ],
+          "answerIndex": 0,
+          "explanation": "At first ..., but then ...",
+          "id": "a2-u12-l3-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ that, we went to the beach. (Ondan sonra)",
+          "answers": [
+            "After"
+          ],
+          "explanation": "After that.",
+          "id": "a2-u12-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I left the house, I locked the door. (-den önce)",
+          "answers": [
+            "Before"
+          ],
+          "explanation": "Before + cümle.",
+          "id": "a2-u12-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ I got home, I made dinner. (-dığımda)",
+          "answers": [
+            "When"
+          ],
+          "explanation": "When + cümle.",
+          "id": "a2-u12-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "We waited for two hours. ___, the bus came. (sonunda)",
+          "answers": [
+            "Finally"
+          ],
+          "explanation": "Finally = uzun bekleyişin sonu.",
+          "id": "a2-u12-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "at the end of the film",
+            "in the end of the film"
+          ],
+          "answerIndex": 0,
+          "explanation": "at the end of + isim.",
+          "id": "a2-u12-l3-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "First we visited the castle. Then we had lunch by the river. After that, it started to rain, so we went back to the hotel.",
+          "prompt": "Öğle yemeğinden sonra ne oldu?",
+          "options": [
+            "Kaleyi gezdiler",
+            "Yağmur başladı",
+            "Nehirde yüzdüler"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"After that, it started to rain\"",
+          "id": "a2-u12-l3-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "After",
+            "dinner",
+            "we",
+            "went",
+            "for",
+            "a",
+            "walk"
+          ],
+          "answer": "After dinner we went for a walk.",
+          "explanation": "After + isim + cümle.",
+          "translation": "Akşam yemeğinden sonra yürüyüşe çıktık.",
+          "id": "a2-u12-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Sonunda her şey yolundaydı.\"",
+          "accepted": [
+            "In the end, everything was fine.",
+            "In the end, everything was fine",
+            "In the end everything was fine.",
+            "In the end everything was fine",
+            "In the end, everything was OK.",
+            "In the end, everything was OK",
+            "In the end everything was OK.",
+            "In the end everything was OK"
+          ],
+          "explanation": "In the end, + everything was fine.",
+          "id": "a2-u12-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Kuzey gibi, ilk kez denediğiniz bir şeyi (yemek yapmak, araba sürmek, bir sınav, yeni bir iş...) sıralama ifadeleriyle anlatın (70–90 kelime). En az 5 farklı sıralama ifadesi kullanın.",
+          "modelAnswer": "My first driving lesson was terrible! At first, I was very nervous. First, the teacher showed me the car. Then I started the engine, but I pressed the wrong pedal. After that, I drove very slowly around the car park. Later, we went onto a real road. When a bus came behind us, I was so frightened! In the end, the teacher said I did well, and I felt proud.",
+          "rubric": [
+            "Sıralama ifadeleri çeşitli ve doğru",
+            "when / before / after",
+            "Past simple doğru",
+            "Duygu sıfatları"
+          ]
+        },
+        "id": "a2-u12-l3-use"
+      }
+    },
+    {
+      "id": "a2-u12-l4",
+      "number": 4,
+      "title": "Aniden!",
+      "goal": "Hikâye zarflarıyla bir olayı daha canlı anlatabilir ve arka planla olayları ayırabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Kısa hikâye: Kayıp yüzük",
+        "body": "It was a beautiful summer evening. My husband and I were walking along the beach in Çeşme. The sun was going down and children were playing in the sand.\n\nSuddenly, I realised that my wedding ring wasn't on my finger! I was so worried. We looked everywhere, but unfortunately it was getting dark.\n\nThen a little girl ran towards us. She was holding something shiny. \"Is this yours?\" she asked. Luckily, it was my ring! I was so relieved that I nearly cried. To say thank you, we bought her the biggest ice cream on the beach.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What were the children doing?",
+            "options": [
+              "Swimming",
+              "Playing in the sand",
+              "Eating ice cream"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"children were playing in the sand\"",
+            "id": "a2-u12-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How did the writer feel when she got the ring back?",
+            "options": [
+              "Worried",
+              "Relieved",
+              "Disappointed"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was so relieved that I nearly cried\"",
+            "id": "a2-u12-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Hikâye zarfları** dinleyene ne hissetmesi gerektiğini gösterir. Genellikle **cümle başında, virgülle** kullanılır.\n\n| Zarf | Anlam | Örnek |\n|---|---|---|\n| **Suddenly,** | aniden (beklenmedik olay) | **Suddenly,** the lights went out. |\n| **Luckily,** / **Fortunately,** | neyse ki (iyi haber) | **Luckily,** nobody was hurt. |\n| **Unfortunately,** | ne yazık ki (kötü haber) | **Unfortunately,** the shop was closed. |\n| **Amazingly,** | inanılmaz bir şekilde | **Amazingly,** we won! |\n\n**Hikâyenin zamanları (2. üniteyi hatırlayalım):**\n\n- **Arka plan:** past continuous → We **were walking** on the beach.\n- **Olaylar:** past simple → Suddenly, I **realised** ...\n- **Durum ve duygular:** was / were + sıfat → I **was** so worried.\n\n**so + sıfat + that** → o kadar ... ki: I was **so** relieved **that** I nearly cried.",
+        "examples": [
+          {
+            "en": "Suddenly, someone shouted, \"Fire!\"",
+            "tr": "Aniden biri \"Yangın!\" diye bağırdı."
+          },
+          {
+            "en": "Unfortunately, we missed the last train.",
+            "tr": "Ne yazık ki son treni kaçırdık."
+          },
+          {
+            "en": "Luckily, a kind man helped us.",
+            "tr": "Neyse ki nazik bir adam bize yardım etti."
+          }
+        ],
+        "turkishNote": "Türkçede \"neyse ki\", \"maalesef\" gibi ifadeler de cümle başında kullanılır, bu yüzden bu zarflar kolayca öğrenilir. En sık hata, hikâyede her şeyi past simple ile anlatmaktır; arka plan için past continuous kullanmak hikâyeyi çok daha canlı yapar."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "İyi bir haber:",
+          "options": [
+            "Unfortunately, we found the key.",
+            "Luckily, we found the key."
+          ],
+          "answerIndex": 1,
+          "explanation": "İyi haber → Luckily.",
+          "id": "a2-u12-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kötü bir haber:",
+          "options": [
+            "Unfortunately, it rained all week.",
+            "Luckily, it rained all week."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kötü haber → Unfortunately.",
+          "id": "a2-u12-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Beklenmedik olay:",
+          "options": [
+            "Suddenly, the door opened.",
+            "Finally, the door opened."
+          ],
+          "answerIndex": 0,
+          "explanation": "Beklenmedik → Suddenly.",
+          "id": "a2-u12-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Arka plan cümlesi:",
+          "options": [
+            "The sun was shining.",
+            "Suddenly, a dog appeared."
+          ],
+          "answerIndex": 0,
+          "explanation": "Arka plan → past continuous.",
+          "id": "a2-u12-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We ___ walking home when it started to rain.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "Arka plan → were + -ing.",
+          "id": "a2-u12-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was ___ happy that I started to dance. (o kadar)",
+          "answers": [
+            "so"
+          ],
+          "explanation": "so + sıfat + that.",
+          "id": "a2-u12-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, nobody was hurt in the accident. (neyse ki)",
+          "answers": [
+            "Luckily",
+            "Fortunately"
+          ],
+          "explanation": "Luckily / Fortunately.",
+          "id": "a2-u12-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "We were having dinner in a restaurant when suddenly the lights went out. Unfortunately, it was a power cut in the whole area. Luckily, the waiters brought candles.",
+          "prompt": "Garsonlar ne getirdi?",
+          "options": [
+            "Fener",
+            "Mum",
+            "Yeni yemek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the waiters brought candles\"",
+          "id": "a2-u12-l4-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Suddenly",
+            "I",
+            "realised",
+            "my",
+            "wallet",
+            "was",
+            "gone"
+          ],
+          "answer": "Suddenly I realised my wallet was gone.",
+          "explanation": "Suddenly + olay.",
+          "translation": "Aniden cüzdanımın gittiğini fark ettim.",
+          "id": "a2-u12-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Ne yazık ki son treni kaçırdık.\"",
+          "accepted": [
+            "Unfortunately, we missed the last train.",
+            "Unfortunately, we missed the last train",
+            "Unfortunately we missed the last train.",
+            "Unfortunately we missed the last train"
+          ],
+          "explanation": "Unfortunately, + we missed the last train.",
+          "id": "a2-u12-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI'ye kısa bir hikâye anlatın (gerçek ya da uydurma): arka planı past continuous ile verin, sonra Suddenly ile bir olay, Unfortunately ile bir sorun ve Luckily ile bir çözüm ekleyin. Duygularınızı da söyleyin.",
+          "modelAnswer": "I was waiting for my flight in Rome. People were sleeping on the chairs. Suddenly, I heard my name on the speakers. Unfortunately, my flight was cancelled! I was so annoyed. Luckily, the airline gave me a free hotel room, and in the end I had an extra day in Rome.",
+          "rubric": [
+            "Past continuous arka plan",
+            "Suddenly / Unfortunately / Luckily",
+            "Duygu sıfatları",
+            "Akıcı sıralama"
+          ]
+        },
+        "id": "a2-u12-l4-use"
+      }
+    },
+    {
+      "id": "a2-u12-l5",
+      "number": 5,
+      "title": "Hikâyeni anlat",
+      "goal": "A2'de öğrendiklerimi kullanarak başımdan geçen bir olayı baştan sona akıcı bir şekilde anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kahve sohbeti",
+        "lines": [
+          {
+            "speaker": "Melis",
+            "text": "You won't believe what happened to me last week!"
+          },
+          {
+            "speaker": "Arda",
+            "text": "What happened?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "Well, I was taking the metro to work. I was very tired, so I fell asleep."
+          },
+          {
+            "speaker": "Arda",
+            "text": "Oh no! Did you miss your stop?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "Yes! When I woke up, I was at the last station. At first I was really worried, because I had an important meeting."
+          },
+          {
+            "speaker": "Arda",
+            "text": "So what did you do?"
+          },
+          {
+            "speaker": "Melis",
+            "text": "I called my boss. Luckily, the meeting was cancelled! In the end, I just had a coffee and went back. But I was so embarrassed!"
+          },
+          {
+            "speaker": "Arda",
+            "text": "Ha ha! That's so funny. That's happened to me too!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did Melis fall asleep?",
+            "options": [
+              "She was bored.",
+              "She was very tired.",
+              "The metro was quiet."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I was very tired, so I fell asleep.\"",
+            "id": "a2-u12-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happened to the meeting?",
+            "options": [
+              "It started late.",
+              "It was cancelled.",
+              "Melis missed it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Luckily, the meeting was cancelled!\"",
+            "id": "a2-u12-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İyi bir hikâyenin yapısı:**\n\n1. **Giriş (dikkat çek):** You won't believe what happened! / Did I tell you about ...?\n2. **Arka plan (ne zaman, nerede, ne oluyordu?):** Last week, I **was taking** the metro ...\n3. **Olaylar (sırayla):** First / Then / When / Suddenly + past simple\n4. **Sorun ve çözüm:** Unfortunately ... / Luckily ...\n5. **Son ve duygu:** In the end ... / I was so relieved!\n\n**Dinleyen olarak:**\n\n- Tepki: Oh no! / Really? / That's so funny!\n- Soru: What happened next? / So what did you do? / How did you feel?\n- Benzer deneyim: **That's happened to me too!** (present perfect, 6. ünite)\n\nA2 seviyesinde öğrendiğiniz her şey bu derste bir araya geliyor: past simple, past continuous, bağlaçlar, sıralama, duygu sıfatları ve tepki ifadeleri.",
+        "examples": [
+          {
+            "en": "Did I tell you about my trip to Van?",
+            "tr": "Sana Van gezimi anlattım mı?"
+          },
+          {
+            "en": "So what did you do?",
+            "tr": "Peki ne yaptın?"
+          },
+          {
+            "en": "That's happened to me too!",
+            "tr": "Bu benim de başıma geldi!"
+          }
+        ],
+        "turkishNote": "İngilizcede hikâye anlatırken dinleyenin araya girip soru sorması ve tepki vermesi beklenir; bu bir kabalık değil, ilgi göstergesidir. Hikâyeyi anlatan kişi de dinleyenin tepkilerine kısa cevaplarla karşılık verir (Yes! / I know!) ve hikâyeye devam eder."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hikâyeye dikkat çekici bir başlangıç:",
+          "options": [
+            "You won't believe what happened!",
+            "The end.",
+            "I'm bored."
+          ],
+          "answerIndex": 0,
+          "explanation": "Dikkat çekici giriş.",
+          "id": "a2-u12-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Dinleyen olarak devamını sormak:",
+          "options": [
+            "What happened next?",
+            "I don't care.",
+            "Stop."
+          ],
+          "answerIndex": 0,
+          "explanation": "What happened next?",
+          "id": "a2-u12-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Benzer deneyim:",
+          "options": [
+            "That's happened to me too!",
+            "That happens me too yesterday."
+          ],
+          "answerIndex": 0,
+          "explanation": "That's happened to me too!",
+          "id": "a2-u12-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was ___ to work when I saw an old friend. (walk)",
+          "answers": [
+            "walking"
+          ],
+          "explanation": "Arka plan → past continuous.",
+          "id": "a2-u12-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I was very tired, ___ I fell asleep.",
+          "answers": [
+            "so"
+          ],
+          "explanation": "Sonuç → so.",
+          "id": "a2-u12-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ first I was worried, but then I relaxed.",
+          "answers": [
+            "At"
+          ],
+          "explanation": "At first.",
+          "id": "a2-u12-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "So what ___ you do?",
+          "answers": [
+            "did"
+          ],
+          "explanation": "Past simple soru.",
+          "id": "a2-u12-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Did I tell you about my first day at work? I was so nervous that I went to the wrong floor! I walked into a meeting and everybody looked at me. Luckily, a kind woman showed me my office.",
+          "prompt": "İlk iş gününde ne oldu?",
+          "options": [
+            "Geç kaldı",
+            "Yanlış kata gitti ve bir toplantıya girdi",
+            "Ofisi bulamayıp eve döndü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I went to the wrong floor! I walked into a meeting\"",
+          "id": "a2-u12-l5-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "what",
+            "You",
+            "won't",
+            "believe",
+            "happened",
+            "to",
+            "me"
+          ],
+          "answer": "You won't believe what happened to me.",
+          "explanation": "Hikâye giriş kalıbı.",
+          "translation": "Başıma ne geldiğine inanmayacaksın.",
+          "id": "a2-u12-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Introduction",
+              "right": "Did I tell you about...?"
+            },
+            {
+              "left": "Background",
+              "right": "I was waiting for the bus."
+            },
+            {
+              "left": "Problem",
+              "right": "Unfortunately, it didn't come."
+            },
+            {
+              "left": "Ending",
+              "right": "In the end, I walked home."
+            }
+          ],
+          "explanation": "Hikâye bölümlerini eşleştirin.",
+          "id": "a2-u12-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "A2 final görevi: JAI'ye başınızdan geçen gerçek bir olayı 1–2 dakika boyunca anlatın. Hikâye yapısının 5 bölümünü kullanın. JAI sorular soracak; cevap verip hikâyeye devam edin.",
+          "modelAnswer": "Did I tell you about my trip to Kars? It was January and it was snowing heavily. We were driving to the hotel when suddenly our car stopped. Unfortunately, there was no signal on our phones, so we couldn't call anyone. We were so frightened because it was very cold. Then a farmer came with his tractor. Luckily, he pulled our car to his village. In the end, his family gave us hot soup and we stayed with them. It was the best night of the trip!",
+          "rubric": [
+            "Hikâye yapısı tam (5 bölüm)",
+            "Past simple + past continuous",
+            "Bağlaçlar ve sıralama",
+            "Duygu sıfatları",
+            "Soruları cevaplayıp devam etti"
+          ]
+        },
+        "id": "a2-u12-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Sıkıldığınızı söylemek:",
+        "options": [
+          "I'm boring.",
+          "I'm bored."
+        ],
+        "answerIndex": 1,
+        "explanation": "-ed = duygu",
+        "id": "a2-u12-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "The trip was very ___.",
+        "options": [
+          "tiring",
+          "tired"
+        ],
+        "answerIndex": 0,
+        "explanation": "-ing = etki",
+        "id": "a2-u12-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "I'm very ___ in photography. (interest)",
+        "answers": [
+          "interested"
+        ],
+        "explanation": "interested in",
+        "id": "a2-u12-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "It was raining, ___ we stayed at home.",
+        "answers": [
+          "so"
+        ],
+        "explanation": "Sonuç → so",
+        "id": "a2-u12-t04"
+      },
+      {
+        "type": "gapFill",
+        "text": "We stayed at home ___ it was raining.",
+        "answers": [
+          "because"
+        ],
+        "explanation": "Sebep → because",
+        "id": "a2-u12-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "The hotel was old, ___ it was clean.",
+        "options": [
+          "so",
+          "but"
+        ],
+        "answerIndex": 1,
+        "explanation": "Zıtlık → but",
+        "id": "a2-u12-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hikâyenin sonu (sonuç olarak):",
+        "options": [
+          "In the end,",
+          "At first,"
+        ],
+        "answerIndex": 0,
+        "explanation": "In the end",
+        "id": "a2-u12-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "___ I went to bed, I brushed my teeth. (-den önce)",
+        "answers": [
+          "Before"
+        ],
+        "explanation": "Before",
+        "id": "a2-u12-t08"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "at the end of the day",
+          "in the end of the day"
+        ],
+        "answerIndex": 0,
+        "explanation": "at the end of",
+        "id": "a2-u12-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "İyi haber:",
+        "options": [
+          "Luckily, we caught the train.",
+          "Unfortunately, we caught the train."
+        ],
+        "answerIndex": 0,
+        "explanation": "Luckily",
+        "id": "a2-u12-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "We ___ sitting in the garden when it started to rain.",
+        "answers": [
+          "were"
+        ],
+        "explanation": "Arka plan",
+        "id": "a2-u12-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "I was ___ happy that I cried. (o kadar)",
+        "answers": [
+          "so"
+        ],
+        "explanation": "so ... that",
+        "id": "a2-u12-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "At first I didn't want to go camping because I hate insects. But in the end I loved it. The stars were amazing and I wasn't frightened at all.",
+        "prompt": "Kamp hakkında sonunda ne düşündü?",
+        "options": [
+          "Nefret etti",
+          "Çok sevdi",
+          "Korktu"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"in the end I loved it\"",
+        "id": "a2-u12-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Başıma ne geldiğine inanmayacaksın!\"",
+        "accepted": [
+          "You won't believe what happened to me!",
+          "You won't believe what happened to me",
+          "You won't believe what happened to me.",
+          "You will not believe what happened to me!",
+          "You will not believe what happened to me"
+        ],
+        "explanation": "You won't believe + what happened to me!",
+        "id": "a2-u12-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "A2 final yazısı: Başınızdan geçen unutulmaz bir olayı anlatan bir hikâye yazın (100–120 kelime). Bir giriş kalıbı, past continuous ile arka plan, sıralama ifadeleri, because / so / but, Suddenly / Luckily / Unfortunately ve en az 3 duygu sıfatı kullanın.",
+        "modelAnswer": "Did I tell you about my sister's wedding? It was a hot day in July and everyone was dancing in the garden. I was so excited because I had to give a speech. First, I drank some water. Then I took the microphone. Suddenly, I realised my notes were in the car! I was really embarrassed, and my hands were shaking. Unfortunately, the car was far away, so I decided to speak without notes. At first it was difficult, but then people started laughing at my stories. In the end, my sister hugged me and said it was the best speech of the night. I was so proud and relieved!",
+        "rubric": [
+          "Hikâye yapısı",
+          "Past simple + past continuous",
+          "Bağlaçlar ve sıralama",
+          "Hikâye zarfları",
+          "Duygu sıfatları (-ed / -ing)"
+        ],
+        "id": "a2-u12-t15"
+      }
+    ]
+  }
+}
