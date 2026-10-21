@@ -48,7 +48,8 @@ Marka renkleri `JustEnglish/DesignSystem/Theme.swift` ve `Assets.xcassets/Accent
 
 ### Canlı ders ekleme
 
-Şimdilik canlı dersler **Table Editor → live_sessions** üzerinden eklenir:
+Öğretmen rolü verilen hesaplar uygulamada **Canlı dersler → Derslerim** ekranından ders açar, düzenler, iptal eder ve kayıtlı öğrencileri görür.
+Gerekirse dersler **Table Editor → live_sessions** üzerinden de eklenebilir:
 `unit_id` (ör. `b1-u03`), `level` (`B1`), `title`, `starts_at`, `duration_minutes`, `teacher_id`, `teacher_name`,
 `join_url` (Zoom/Meet bağlantısı) ve isteğe bağlı `capacity`. Katılım bağlantısını yalnızca yer ayırtan öğrenciler görür
 ve bağlantı dersten 10 dakika önce açılır.

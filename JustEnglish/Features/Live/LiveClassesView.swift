@@ -6,6 +6,7 @@ import JECore
 struct LiveClassesView: View {
     @Environment(AppModel.self) private var model
     @Environment(LiveSessionStore.self) private var store
+    @Environment(AuthService.self) private var auth
     @State private var levelFilter: CEFRLevel?
 
     var body: some View {
@@ -50,6 +51,13 @@ struct LiveClassesView: View {
             }
             .listStyle(.insetGrouped)
             .navigationTitle("Canlı dersler")
+            .toolbar {
+                if auth.isTeacher {
+                    NavigationLink { TeacherSessionsView() } label: {
+                        Label("Derslerim", systemImage: "person.badge.key.fill")
+                    }
+                }
+            }
             .refreshable { await store.refresh() }
             .alert(store.notice ?? "", isPresented: Binding(get: { store.notice != nil }, set: { if !$0 { store.notice = nil } })) {
                 Button("Tamam", role: .cancel) {}

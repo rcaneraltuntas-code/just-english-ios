@@ -12,9 +12,12 @@ final class AuthService {
     private(set) var userID: UUID?
     private(set) var email: String?
     private(set) var error: String?
+    /// profiles.role: öğretmenler canlı ders açabilir.
+    private(set) var role = "student"
     private var currentNonce: String?
 
     var isSignedIn: Bool { userID != nil }
+    var isTeacher: Bool { role == "teacher" || role == "admin" }
 
     init() {
         Task { await restore() }
@@ -24,6 +27,14 @@ final class AuthService {
         guard let client = Backend.client, let session = try? await client.auth.session else { return }
         userID = session.user.id
         email = session.user.email
+        await loadRole()
+    }
+
+    func loadRole() async {
+        guard let client = Backend.client, let userID else { return }
+        struct Profile: Decodable { let role: String }
+        let rows: [Profile]? = try? await client.from("profiles").select("role").eq("id", value: userID).execute().value
+        role = rows?.first?.role ?? "student"
     }
 
     /// SignInWithAppleButton'ın isteğini hazırlar.
@@ -48,6 +59,7 @@ final class AuthService {
                 credentials: OpenIDConnectCredentials(provider: .apple, idToken: token, nonce: nonce))
             userID = session.user.id
             email = session.user.email
+            await loadRole()
             return credential.fullName
         } catch let error as ASAuthorizationError where error.code == .canceled {
             return nil
@@ -61,6 +73,7 @@ final class AuthService {
         try? await Backend.client?.auth.signOut()
         userID = nil
         email = nil
+        role = "student"
     }
 
     /// Hesap silme: App Store kuralı gereği uygulama içinden yapılabilmelidir.
