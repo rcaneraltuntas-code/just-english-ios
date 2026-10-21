@@ -24,20 +24,22 @@ struct LessonPathView: View {
     var body: some View {
         let count = unit.lessons.count + 1
         let doneCount = unit.lessons.filter { model.state.completedLessons.contains($0.id) }.count
+        let emojis = LessonEmoji.sequence(for: unit.lessons.map(\.title))
         GeometryReader { geo in
             let w = geo.size.width
             let points = (0..<count).map { CGPoint(x: w * roadRatios[$0 % roadRatios.count], y: rowHeight * (CGFloat($0) + 0.5)) }
             let progress = CGFloat(doneCount) / CGFloat(max(count - 1, 1))
             ZStack(alignment: .topLeading) {
                 // Yol: iki ince gri kenar çizgisi ve aralarında çok açık bir şerit.
+                // Uçlar düz kesilir; yuvarlak uç yolun başında "U" gibi görünüyordu.
                 road(points, shift: 0)
-                    .stroke(Color(light: 0xDDE3EC, dark: 0x2A3150), style: StrokeStyle(lineWidth: 28, lineCap: .round, lineJoin: .round))
+                    .stroke(Color(light: 0xE2E7F0, dark: 0x2A3150), style: StrokeStyle(lineWidth: 32, lineCap: .butt, lineJoin: .round))
                 road(points, shift: 0)
-                    .stroke(Color(light: 0xF6F8FB, dark: 0x141829), style: StrokeStyle(lineWidth: 17, lineCap: .round, lineJoin: .round))
+                    .stroke(Theme.surface, style: StrokeStyle(lineWidth: 22, lineCap: .butt, lineJoin: .round))
                 // Bitirilen kısım: yolun sol kenarı maviye döner.
-                road(points, shift: -11)
+                road(points, shift: -13.5)
                     .trim(from: 0, to: drawn ? progress : 0)
-                    .stroke(Theme.accent, style: StrokeStyle(lineWidth: 5.5, lineCap: .round, lineJoin: .round))
+                    .stroke(Theme.accent, style: StrokeStyle(lineWidth: 5, lineCap: .round, lineJoin: .round))
                     .animation(.easeInOut(duration: 1.2).delay(0.25), value: drawn)
 
                 ForEach(0..<count, id: \.self) { i in
@@ -62,10 +64,10 @@ struct LessonPathView: View {
                     .position(x: pillCenter, y: y)
                     .staggeredAppear(i, delay: 0.08)
                     // Görsel yolun öbür yanında, yola yakın; referanstaki gibi büyük.
-                    Text(isTest ? "🏆" : LessonEmoji.for(lesson?.title ?? ""))
-                        .font(.system(size: 54))
-                        .shadow(color: Theme.ink.opacity(0.15), radius: 6, y: 4)
-                        .position(x: min(max(extendsRight ? roadX - 58 : roadX + 58, 34), w - 34), y: y)
+                    Text(isTest ? "🏆" : emojis[i])
+                        .font(.system(size: 66))
+                        .shadow(color: Theme.ink.opacity(0.22), radius: 7, x: 2, y: 6)
+                        .position(x: min(max(extendsRight ? roadX - 62 : roadX + 62, 40), w - 40), y: y)
                         .staggeredAppear(i, delay: 0.08)
                 }
             }
@@ -106,9 +108,24 @@ enum LessonEmoji {
         ("yetenek", "🎸"), ("geçmiş", "🕰️"), ("gelecek", "🔮"), ("plan", "🗓️"), ("hikâye", "📖"), ("hikaye", "📖"),
     ]
 
+    private static let fallbacks = ["📘", "✏️", "💬", "🎯", "🧩", "🌟"]
+
     static func `for`(_ title: String) -> String {
         let lower = title.lowercased(with: Locale(identifier: "tr"))
         return map.first { lower.contains($0.0) }?.1 ?? "📘"
+    }
+
+    /// Bir ünitenin dersleri için görseller; aynı görsel art arda iki kez gelmez.
+    static func sequence(for titles: [String]) -> [String] {
+        var result: [String] = []
+        for (i, title) in titles.enumerated() {
+            var emoji = self.for(title)
+            if emoji == result.last || (emoji == "📘" && result.contains(emoji)) {
+                emoji = fallbacks.first { $0 != result.last && !result.contains($0) } ?? fallbacks[i % fallbacks.count]
+            }
+            result.append(emoji)
+        }
+        return result
     }
 }
 
@@ -124,10 +141,19 @@ struct PathPill: View {
     let action: () -> Void
 
     @SwiftUI.State private var bob = false
+    @SwiftUI.State private var shakes = 0
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
-        Button(action: action) {
+        Button {
+            // Kilitli ders açılmaz: hafifçe sallanır ve titreşir.
+            if state == .locked {
+                shakes += 1
+                Haptics.error()
+            } else {
+                action()
+            }
+        } label: {
             HStack(spacing: 8) {
                 if state == .locked && extendsRight { lock }
                 Text(title)
@@ -135,17 +161,17 @@ struct PathPill: View {
                     .minimumScaleFactor(0.7)
                 if state == .locked && !extendsRight { lock }
             }
-            .font(.jakarta(.callout, weight: state == .locked ? .medium : .semibold))
-            .foregroundStyle(state == .locked ? Color(light: 0x9AA4B5, dark: 0x6C7690) : .white)
+            .font(.jakarta(.callout, weight: .medium))
+            .foregroundStyle(state == .locked ? Color(light: 0x9AA3B2, dark: 0x6C7690) : .white)
             .padding(.leading, extendsRight ? 26 : 14)
             .padding(.trailing, extendsRight ? 14 : 26)
-            .frame(width: width, height: 44)
+            .frame(width: width, height: 46)
             .background {
-                RoundedRectangle(cornerRadius: 14, style: .continuous)
-                    .fill(state == .locked ? Color(light: 0xDCE1EA, dark: 0x262D45) : Theme.accent)
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
+                    .fill(state == .locked ? Color(light: 0xE2E6EE, dark: 0x262D45) : Theme.accent)
             }
             .background {
-                RoundedRectangle(cornerRadius: 14, style: .continuous)
+                RoundedRectangle(cornerRadius: 16, style: .continuous)
                     .fill(state == .locked ? Color.clear : Theme.accentDeep)
                     .offset(x: 1, y: 2.5)
             }
@@ -162,6 +188,7 @@ struct PathPill: View {
             }
         }
         .buttonStyle(PressableCardStyle())
+        .shake(shakes)
         .overlay(alignment: extendsRight ? .trailing : .leading) {
             if state == .current {
                 StartBubble(pointsRight: !extendsRight)
@@ -191,10 +218,10 @@ struct StartBubble: View {
         Text("Başla")
             .font(.jakarta(.title3, weight: .bold))
             .foregroundStyle(Theme.accent)
-            .padding(.horizontal, 12)
+            .padding(.horizontal, 13)
             .padding(.vertical, 9)
             .background(Theme.surface, in: RoundedRectangle(cornerRadius: 4, style: .continuous))
-            .overlay(RoundedRectangle(cornerRadius: 4, style: .continuous).stroke(Color(light: 0xCFD8E6, dark: 0x3A4361), lineWidth: 1.2))
+            .overlay(RoundedRectangle(cornerRadius: 4, style: .continuous).stroke(Color(light: 0xC9D3E3, dark: 0x3A4361), lineWidth: 1))
             .overlay(alignment: pointsRight ? .trailing : .leading) {
                 Image(systemName: pointsRight ? "arrowtriangle.right.fill" : "arrowtriangle.left.fill")
                     .font(.system(size: 12))

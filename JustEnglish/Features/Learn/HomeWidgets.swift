@@ -165,7 +165,7 @@ struct HomeStatPair: View {
         // Hedef dakika olarak seçildi; 1 dakika ≈ 2 XP (DailyGoal.xp).
         let minutes = Int((Double(left) / 2).rounded(.up))
         HStack(spacing: 12) {
-            tile(emoji: "🏅", title: "\(progress.weekXP(at: .now)) XP", detail: "bu hafta kazanıldı")
+            tile(emoji: "🏅", title: "\(progress.weekXP(at: .now)) XP", detail: "bu hafta")
             tile(emoji: "🎯", title: left == 0 ? "Hedef tamam!" : "\(minutes) dk kaldı", detail: left == 0 ? "bugün harikasınız" : "günlük hedefe")
         }
     }

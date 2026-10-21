@@ -5,19 +5,22 @@ struct UnitView: View {
     let unit: CourseUnit
 
     @Environment(AppModel.self) private var model
+    @Environment(\.dismiss) private var dismiss
+    @Environment(\.selectTab) private var selectTab
     @State private var activeLesson: LessonRoute?
     @State private var showTest = false
 
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
+                topBar
                 // Referanstaki seviye kartı: açık gri zemin, küçük gri üst satır, kalın ünite adı, sağda 🔥 ve ⭐ sayaçları.
                 HStack(alignment: .center) {
                     VStack(alignment: .leading, spacing: 4) {
-                        Text("Seviye \(unit.level.rawValue) · Ünite \(unit.number)")
-                            .font(.jakarta(.footnote, weight: .semibold))
-                            .tracking(0.6)
-                            .foregroundStyle(.secondary)
+                        Text("ÜNİTE \(unit.number) · \(unit.level.rawValue)")
+                            .font(.jakarta(.footnote, weight: .regular))
+                            .tracking(0.8)
+                            .foregroundStyle(Color(light: 0x6B7385, dark: 0x9AA3B5))
                         Text(unit.title).font(.jakarta(.title3, weight: .bold)).foregroundStyle(Theme.ink.opacity(0.85))
                     }
                     Spacer()
@@ -25,11 +28,11 @@ struct UnitView: View {
                         Text("🔥 \(model.state.progress.displayedStreak(at: .now))")
                         Text("⭐ \(model.state.progress.totalXP)")
                     }
-                    .font(.jakarta(.headline, weight: .bold))
-                    .foregroundStyle(Theme.ink.opacity(0.8))
+                    .font(.jakarta(.headline, weight: .semibold))
+                    .foregroundStyle(Theme.ink.opacity(0.75))
                 }
                 .padding(18)
-                .background(Color(light: 0xF1F4F9, dark: 0x1D2233), in: RoundedRectangle(cornerRadius: 20, style: .continuous))
+                .background(Color(light: 0xF3F4F7, dark: 0x1D2233), in: RoundedRectangle(cornerRadius: 18, style: .continuous))
                 .staggeredAppear(0)
 
                 LessonPathView(unit: unit) { lesson in
@@ -87,11 +90,41 @@ struct UnitView: View {
             .padding(20)
         }
         .tabBarSpacer()
-        .appBackground()
-        .navigationTitle("Dersler")
-        .navigationBarTitleDisplayMode(.inline)
+        // Referanstaki gibi düz beyaz sayfa; gezinme çubuğu yerine kendi üst satırımız.
+        .background(Theme.surface.ignoresSafeArea())
+        .toolbar(.hidden, for: .navigationBar)
         .fullScreenCover(item: $activeLesson) { LessonFlowView(unit: $0.unit, lesson: $0.lesson) }
         .fullScreenCover(isPresented: $showTest) { UnitTestView(unit: unit) }
+    }
+
+    /// Üst satır: geri, büyük kalın başlık, zil ve bayrak (referanstaki "Scenarios" satırı).
+    private var topBar: some View {
+        HStack(spacing: 12) {
+            Button { dismiss() } label: {
+                Image(systemName: "chevron.left")
+                    .font(.system(size: 19, weight: .semibold))
+                    .foregroundStyle(Theme.ink)
+                    .frame(width: 30, height: 36, alignment: .leading)
+            }
+            .accessibilityLabel("Geri")
+            Text("Ünite \(unit.number)")
+                .font(.jakarta(.title3, weight: .heavy))
+                .foregroundStyle(Theme.ink)
+            Spacer()
+            Button { selectTab(.practice) } label: {
+                Image(systemName: "bell")
+                    .font(.system(size: 21, weight: .regular))
+                    .foregroundStyle(Theme.ink)
+            }
+            .accessibilityLabel("Bildirimler")
+            Text("🇬🇧")
+                .font(.system(size: 22))
+                .frame(width: 30, height: 30)
+                .background(Theme.surfaceRaised, in: Circle())
+                .clipShape(Circle())
+                .accessibilityLabel("Öğrenilen dil: İngilizce")
+        }
+        .padding(.top, 4)
     }
 
     private func tag(_ text: String, color: Color) -> some View {
