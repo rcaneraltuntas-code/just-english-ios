@@ -1,0 +1,1341 @@
+{
+  "id": "c1-u12",
+  "level": "C1",
+  "number": 12,
+  "title": "Tartışma",
+  "titleEn": "Argument",
+  "canDo": "Bir iddiayı gerekçe, kanıt ve örnekle destekleyebilir, karşı görüşü kabul edip çürütebilir, zayıf argümanları ve mantık hatalarını fark edebilir, bir münazarada kibarca söz alıp itiraz edebilir ve karşı argümanı da ele alan ikna edici bir deneme yazabilirim.",
+  "grammar": [
+    "argüman yapısı: iddia, gerekçe, kanıt, örnek",
+    "kabul ve karşı çıkma: admittedly, granted, that said",
+    "mantık hataları ve argümanı değerlendirmek",
+    "münazara dili: söz almak, itiraz, açıklama istemek",
+    "karşı argümanlı tartışma denemesi"
+  ],
+  "vocabularyThemes": [
+    "eğitim",
+    "teknoloji",
+    "toplum"
+  ],
+  "liveClass": {
+    "title": "Sınıf münazarası",
+    "durationMinutes": 45,
+    "goal": "Sınıf iki takıma ayrılır ve bir önerge tartışılır (örneğin \"Homework should be banned in primary schools\"). Her takım açılış konuşması, iki argüman, bir karşı argümanı kabul edip çürütme ve kapanış hazırlar. Münazara sırasında öğrenciler kibarca söz alma ve itiraz kalıplarını kullanır. Sonunda dinleyiciler en güçlü argümanı ve fark ettikleri mantık hatalarını oylar."
+  },
+  "vocabulary": [
+    {
+      "id": "c1-u12-v01",
+      "en": "claim",
+      "tr": "iddia",
+      "example": "The writer's main claim is that cities should ban cars.",
+      "exampleTr": "Yazarın ana iddiası, şehirlerin arabaları yasaklaması gerektiği."
+    },
+    {
+      "id": "c1-u12-v02",
+      "en": "evidence",
+      "tr": "kanıt",
+      "example": "There is little evidence to support this view.",
+      "exampleTr": "Bu görüşü destekleyen çok az kanıt var.",
+      "note": "Sayılamaz: ✗ an evidence, ✓ a piece of evidence."
+    },
+    {
+      "id": "c1-u12-v03",
+      "en": "counter-argument",
+      "tr": "karşı argüman",
+      "example": "A good essay considers counter-arguments.",
+      "exampleTr": "İyi bir deneme karşı argümanları da ele alır."
+    },
+    {
+      "id": "c1-u12-v04",
+      "en": "rebuttal",
+      "tr": "çürütme",
+      "example": "Her rebuttal was clear and convincing.",
+      "exampleTr": "Onun çürütmesi açık ve ikna ediciydi."
+    },
+    {
+      "id": "c1-u12-v05",
+      "en": "admittedly",
+      "tr": "kabul etmek gerekir ki",
+      "example": "Admittedly, the plan is expensive.",
+      "exampleTr": "Kabul etmek gerekir ki plan pahalı."
+    },
+    {
+      "id": "c1-u12-v06",
+      "en": "granted",
+      "tr": "doğru, kabul",
+      "example": "Granted, it's not perfect, but it's a start.",
+      "exampleTr": "Doğru, mükemmel değil ama bir başlangıç."
+    },
+    {
+      "id": "c1-u12-v07",
+      "en": "that said",
+      "tr": "bununla birlikte",
+      "example": "It's a great city. That said, it's very expensive.",
+      "exampleTr": "Harika bir şehir. Bununla birlikte çok pahalı."
+    },
+    {
+      "id": "c1-u12-v08",
+      "en": "nevertheless",
+      "tr": "yine de",
+      "example": "It was risky. Nevertheless, they went ahead.",
+      "exampleTr": "Riskliydi. Yine de devam ettiler."
+    },
+    {
+      "id": "c1-u12-v09",
+      "en": "valid",
+      "tr": "geçerli",
+      "example": "That's a valid point.",
+      "exampleTr": "Bu geçerli bir nokta."
+    },
+    {
+      "id": "c1-u12-v10",
+      "en": "flawed",
+      "tr": "kusurlu, hatalı",
+      "example": "The argument is fundamentally flawed.",
+      "exampleTr": "Argüman temelden hatalı."
+    },
+    {
+      "id": "c1-u12-v11",
+      "en": "generalisation",
+      "tr": "genelleme",
+      "example": "\"All teenagers are lazy\" is a generalisation.",
+      "exampleTr": "\"Bütün gençler tembeldir\" bir genellemedir."
+    },
+    {
+      "id": "c1-u12-v12",
+      "en": "assumption",
+      "tr": "varsayım",
+      "example": "This argument is based on a false assumption.",
+      "exampleTr": "Bu argüman yanlış bir varsayıma dayanıyor."
+    },
+    {
+      "id": "c1-u12-v13",
+      "en": "fallacy",
+      "tr": "mantık hatası, safsata",
+      "example": "That's a common logical fallacy.",
+      "exampleTr": "Bu yaygın bir mantık hatası."
+    },
+    {
+      "id": "c1-u12-v14",
+      "en": "correlation",
+      "tr": "ilişki, bağıntı",
+      "example": "Correlation does not prove causation.",
+      "exampleTr": "Bağıntı nedenselliği kanıtlamaz."
+    },
+    {
+      "id": "c1-u12-v15",
+      "en": "to back up",
+      "tr": "desteklemek",
+      "example": "Can you back up that claim with data?",
+      "exampleTr": "Bu iddiayı verilerle destekleyebilir misin?"
+    },
+    {
+      "id": "c1-u12-v16",
+      "en": "to undermine",
+      "tr": "zayıflatmak, baltalamak",
+      "example": "These figures undermine his argument.",
+      "exampleTr": "Bu rakamlar onun argümanını zayıflatıyor."
+    },
+    {
+      "id": "c1-u12-v17",
+      "en": "to concede",
+      "tr": "kabul etmek (bir noktayı)",
+      "example": "I concede that there are some risks.",
+      "exampleTr": "Bazı riskler olduğunu kabul ediyorum."
+    },
+    {
+      "id": "c1-u12-v18",
+      "en": "to refute",
+      "tr": "çürütmek",
+      "example": "She refuted every point he made.",
+      "exampleTr": "Onun öne sürdüğü her noktayı çürüttü."
+    },
+    {
+      "id": "c1-u12-v19",
+      "en": "compelling",
+      "tr": "ikna edici, güçlü",
+      "example": "There is compelling evidence that exercise improves mood.",
+      "exampleTr": "Egzersizin ruh halini iyileştirdiğine dair güçlü kanıtlar var."
+    },
+    {
+      "id": "c1-u12-v20",
+      "en": "motion",
+      "tr": "önerge (münazara)",
+      "example": "The motion is: \"Social media does more harm than good.\"",
+      "exampleTr": "Önerge: \"Sosyal medya yarardan çok zarar veriyor.\""
+    },
+    {
+      "id": "c1-u12-v21",
+      "en": "If I could just come in here",
+      "tr": "Burada araya girebilirsem",
+      "example": "If I could just come in here, I'd like to add something.",
+      "exampleTr": "Burada araya girebilirsem bir şey eklemek istiyorum."
+    },
+    {
+      "id": "c1-u12-v22",
+      "en": "with all due respect",
+      "tr": "kusura bakmayın ama, tüm saygımla",
+      "example": "With all due respect, I think you're wrong.",
+      "exampleTr": "Tüm saygımla, bence yanılıyorsunuz."
+    },
+    {
+      "id": "c1-u12-v23",
+      "en": "on balance",
+      "tr": "her şey göz önüne alındığında",
+      "example": "On balance, I think the benefits outweigh the risks.",
+      "exampleTr": "Her şey göz önüne alındığında, faydaların risklerden ağır bastığını düşünüyorum."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c1-u12-l1",
+      "number": 1,
+      "title": "Argümanın yapısı",
+      "goal": "Bir iddiayı gerekçe, kanıt ve örnekle (PEEL: Point, Evidence, Explanation, Link) destekleyen güçlü bir argüman paragrafı kurabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki argüman",
+        "body": "Argument A:\n\"Schools should start later. Teenagers are always tired. Everyone knows that.\"\n\nArgument B:\n\"Secondary schools should consider starting later in the morning. Sleep researchers have found that teenagers' body clocks naturally shift during adolescence, which makes it difficult for many of them to fall asleep early. For example, some schools that have moved their start time later have reported better attendance and fewer students falling asleep in class. A later start, therefore, could help students arrive at school more alert and ready to learn.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Which argument is more convincing?",
+            "options": [
+              "Argument A",
+              "Argument B"
+            ],
+            "answerIndex": 1,
+            "explanation": "B: iddia + kanıt + örnek + sonuç.",
+            "id": "c1-u12-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "According to Argument B, why do teenagers find it hard to sleep early?",
+            "options": [
+              "They use phones too much.",
+              "Their body clocks naturally shift.",
+              "They have too much homework."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"teenagers' body clocks naturally shift during adolescence\"",
+            "id": "c1-u12-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Güçlü bir argüman sadece bir görüş değildir; **gerekçelendirilmiş** bir görüştür.\n\n**PEEL yapısı:**\n\n| Bölüm | İşlev | Kalıplar |\n|---|---|---|\n| **P**oint (iddia) | Ana fikri açıkça belirtin | *I would argue that ... / One key reason is that ...* |\n| **E**vidence (kanıt) | Veri, araştırma, uzman görüşü | *Research suggests that ... / According to ... / Studies have shown ...* |\n| **E**xplanation / Example (açıklama / örnek) | Kanıtın neden önemli olduğunu gösterin | *For instance, ... / This shows that ... / This is because ...* |\n| **L**ink (bağlantı) | Ana iddiaya / soruya geri dönün | *Therefore, ... / This is why ... / Clearly, then, ...* |\n\n**Argüman A neden zayıf?**\n\n- *always* → aşırı genelleme\n- *Everyone knows that* → kanıt değil, popülerliğe başvurma\n- Örnek ya da açıklama yok\n\n**Argüman B neden güçlü?**\n\n- Temkinli iddia: *should **consider***\n- Kanıt: *Sleep researchers have found ...*\n- Örnek: *some schools ... have reported ...*\n- Sonuç bağlantısı: *therefore*\n\n**Kanıt türleri:**\n\n| Tür | Örnek |\n|---|---|\n| İstatistik | *Around 40% of ...* |\n| Araştırma | *A recent study found ...* |\n| Uzman görüşü | *Many doctors believe ...* |\n| Örnek / vaka | *In Finland, for example, ...* |\n| Kişisel deneyim | *In my experience, ...* (en zayıf kanıt türü) |",
+        "examples": [
+          {
+            "en": "One key reason is that public transport reduces air pollution.",
+            "tr": "Önemli bir neden, toplu taşımanın hava kirliliğini azaltmasıdır."
+          },
+          {
+            "en": "Studies have shown that regular exercise improves concentration.",
+            "tr": "Araştırmalar düzenli egzersizin konsantrasyonu artırdığını göstermiştir."
+          },
+          {
+            "en": "This is why many cities are investing in cycle lanes.",
+            "tr": "Bu yüzden birçok şehir bisiklet yollarına yatırım yapıyor."
+          }
+        ],
+        "turkishNote": "Türk eğitim sisteminde kompozisyon genellikle \"giriş, gelişme, sonuç\" şeklinde öğretilir ve gelişme bölümü bazen kanıt yerine genel düşüncelerle doldurulur. İngilizce akademik ve sınav yazımında (IELTS, Cambridge) her paragrafın bir iddia ve onu destekleyen kanıt ve örnek içermesi beklenir. Ayrıca \"Herkes bilir ki...\" (Everyone knows that...) gibi ifadeler İngilizcede kanıt sayılmaz ve zayıf görünür."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "PEEL'deki \"P\" nedir?",
+          "options": [
+            "Point (iddia)",
+            "Problem"
+          ],
+          "answerIndex": 0,
+          "explanation": "Point.",
+          "id": "c1-u12-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "En zayıf kanıt türü:",
+          "options": [
+            "Bir araştırma sonucu",
+            "\"Everyone knows that\""
+          ],
+          "answerIndex": 1,
+          "explanation": "Popülerliğe başvurma.",
+          "id": "c1-u12-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kanıt sunan cümle:",
+          "options": [
+            "I think it's a good idea.",
+            "A recent study found that 60% of users ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kanıt.",
+          "id": "c1-u12-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Paragrafı ana iddiaya bağlayan cümle:",
+          "options": [
+            "This is why the policy should be introduced.",
+            "For instance, in Japan ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Link.",
+          "id": "c1-u12-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Research ___ that children who read regularly have a wider vocabulary. (göstermek, öne sürmek)",
+          "answers": [
+            "suggests",
+            "shows",
+            "indicates"
+          ],
+          "explanation": "Research suggests.",
+          "id": "c1-u12-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___ instance, several cities have banned cars from their centres.",
+          "answers": [
+            "For"
+          ],
+          "explanation": "For instance.",
+          "id": "c1-u12-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Can you back ___ that claim with any evidence?",
+          "answers": [
+            "up"
+          ],
+          "explanation": "back up.",
+          "id": "c1-u12-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "There is compelling ___ that sleep affects learning. (kanıt)",
+          "answers": [
+            "evidence"
+          ],
+          "explanation": "evidence.",
+          "id": "c1-u12-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "I'd argue that companies should allow more remote work. A number of surveys have found that many employees feel more productive at home. For example, some of the people in our own team say they finish tasks faster without office interruptions. This is why I think we should offer at least two remote days a week.",
+          "prompt": "Konuşan hangi kanıtı kullanıyor?",
+          "options": [
+            "Sadece kişisel duygularını",
+            "Anketleri ve kendi ekibinden bir örneği",
+            "Bir hükümet raporunu"
+          ],
+          "answerIndex": 1,
+          "explanation": "surveys + example.",
+          "id": "c1-u12-l1-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "This",
+            "is",
+            "why",
+            "the",
+            "policy",
+            "should",
+            "be",
+            "introduced"
+          ],
+          "answer": "This is why the policy should be introduced",
+          "explanation": "Link cümlesi.",
+          "translation": "Bu yüzden bu politika uygulanmalı.",
+          "id": "c1-u12-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şu önergelerden birini seçin ve PEEL yapısıyla bir dakikalık bir argüman sunun: (1) \"Every student should learn to code at school.\" (2) \"Cities should make public transport free.\" (3) \"Social media should be banned for under-16s.\" İddiayı açıkça belirtin, en az bir kanıt (genel bir araştırma / veri / örnek) ve bir açıklama verin ve sonuç cümlesiyle bitirin.",
+          "modelAnswer": "I'd argue that cities should seriously consider making public transport free. One key reason is that it would reduce traffic and air pollution. Several cities around the world have experimented with free public transport, and some have reported an increase in passenger numbers. For instance, if a family can travel to work and school without paying, they may decide they don't need a second car. This, in turn, would mean fewer cars on the roads and cleaner air for everyone. Admittedly, it would be expensive, but this is why I believe it's an investment worth making.",
+          "rubric": [
+            "Açık iddia",
+            "Kanıt ve örnek",
+            "Açıklama",
+            "Sonuç bağlantısı"
+          ]
+        },
+        "id": "c1-u12-l1-use"
+      }
+    },
+    {
+      "id": "c1-u12-l2",
+      "number": 2,
+      "title": "Kabul et ve karşı çık",
+      "goal": "Karşı görüşün geçerli bir noktasını kabul edip (admittedly, granted, while it is true that) sonra kendi görüşümü güçlü bir şekilde savunabilirim (nevertheless, that said, even so).",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir köşe yazısından",
+        "body": "Should homework be banned? Admittedly, homework can be stressful, and some studies suggest that too much of it has little benefit for younger children. Granted, many families also struggle to find the time to help. Nevertheless, I believe that banning homework completely would be a mistake. While it is true that some tasks are pointless, well-designed homework helps students develop independence and good study habits. Moreover, it gives parents an insight into what their children are learning. The answer, then, is not to ban homework but to make it shorter and more meaningful.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the writer's opinion?",
+            "options": [
+              "Homework should be banned.",
+              "Homework should not be banned, but improved.",
+              "Homework should be doubled."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"not to ban homework but to make it shorter and more meaningful\"",
+            "id": "c1-u12-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Which point does the writer concede?",
+            "options": [
+              "Homework can be stressful.",
+              "Homework is always useless.",
+              "Parents don't care."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"Admittedly, homework can be stressful\"",
+            "id": "c1-u12-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Kabul ve karşı çıkma (concession and counter-argument),** ikna edici yazının en güçlü araçlarından biridir. Karşı görüşü kabul etmek sizi **adil ve güvenilir** gösterir.\n\n**Yapı:** Kabul (karşı görüş) → Dönüş → Kendi görüşünüz\n\n**1. Kabul ifadeleri:**\n\n| İfade | Örnek |\n|---|---|\n| **Admittedly, ...** | **Admittedly**, homework can be stressful. |\n| **Granted, ...** | **Granted**, it's expensive. |\n| **It is true that ...** | **It is true that** some tasks are pointless. |\n| **While / Although it is true that ...,** | **While it is true that** ..., (aynı cümlede dönüş) |\n| **I accept / concede that ...** | **I concede that** there are risks. |\n| **There is some truth in the argument that ...** | |\n| **Opponents / Critics argue that ...** | |\n\n**2. Dönüş ifadeleri:**\n\n| İfade | Üslup |\n|---|---|\n| **Nevertheless, / Nonetheless,** | resmî |\n| **However, ...** | nötr |\n| **That said, ...** | nötr / samimi |\n| **Even so, ...** | nötr |\n| **But / Yet ...** | nötr |\n| **This does not mean that ...** | güçlü |\n\n**Tek cümlede:** *While it is true that some tasks are pointless, well-designed homework helps students develop independence.*\n\n**İki cümlede:** *Admittedly, homework can be stressful. Nevertheless, banning it completely would be a mistake.*\n\n**Dikkat:** *Although* ve *Nevertheless* aynı cümlede kullanılmaz! ✗ *Although it's expensive, nevertheless it's worth it.*",
+        "examples": [
+          {
+            "en": "Granted, electric cars are still expensive. Even so, their running costs are much lower.",
+            "tr": "Doğru, elektrikli arabalar hâlâ pahalı. Yine de işletme maliyetleri çok daha düşük."
+          },
+          {
+            "en": "While it is true that social media can be addictive, it also helps people stay connected.",
+            "tr": "Sosyal medyanın bağımlılık yapabileceği doğru olsa da insanların bağlantıda kalmasına da yardımcı oluyor."
+          },
+          {
+            "en": "Critics argue that the plan is unrealistic. That said, no better alternative has been proposed.",
+            "tr": "Eleştirmenler planın gerçekçi olmadığını söylüyor. Bununla birlikte daha iyi bir alternatif önerilmedi."
+          }
+        ],
+        "turkishNote": "Türkçede \"Her ne kadar ... olsa da\", \"Kabul etmek gerekir ki ...\", \"Bununla birlikte ...\" kalıpları İngilizcedeki concession yapılarına benzer. Türk öğrencilerin sık yaptığı hata, Türkçedeki \"Her ne kadar ... olsa da, yine de ...\" yapısını birebir çevirmektir: ✗ \"Although it is expensive, but it is useful.\" İngilizcede \"although\" ile \"but\" ya da \"nevertheless\" aynı cümlede kullanılmaz. Birini seçin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Doğru olan:",
+          "options": [
+            "Although it's expensive, but it's worth it.",
+            "Although it's expensive, it's worth it."
+          ],
+          "answerIndex": 1,
+          "explanation": "although + but olmaz.",
+          "id": "c1-u12-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kabul ifadesi:",
+          "options": [
+            "Admittedly, ...",
+            "Moreover, ..."
+          ],
+          "answerIndex": 0,
+          "explanation": "Admittedly.",
+          "id": "c1-u12-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Dönüş ifadesi:",
+          "options": [
+            "Granted, ...",
+            "Nevertheless, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Nevertheless.",
+          "id": "c1-u12-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı görüşü kabul etmek yazarı nasıl gösterir?",
+          "options": [
+            "Zayıf ve kararsız",
+            "Adil ve güvenilir"
+          ],
+          "answerIndex": 1,
+          "explanation": "Concession.",
+          "id": "c1-u12-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, the new system has some problems. However, it's much better than the old one. (Kabul etmek gerekir ki)",
+          "answers": [
+            "Admittedly",
+            "Granted"
+          ],
+          "explanation": "Admittedly.",
+          "id": "c1-u12-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "While it is ___ that cars are convenient, they cause a lot of pollution.",
+          "answers": [
+            "true"
+          ],
+          "explanation": "While it is true that.",
+          "id": "c1-u12-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The city is beautiful. That ___, it's very crowded in summer.",
+          "answers": [
+            "said"
+          ],
+          "explanation": "That said.",
+          "id": "c1-u12-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ that there are some risks, but the benefits are greater. (kabul etmek)",
+          "answers": [
+            "concede",
+            "accept",
+            "admit"
+          ],
+          "explanation": "I concede that.",
+          "id": "c1-u12-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Granted, learning a musical instrument takes a lot of time and patience. Many children give up after a few months. Even so, I'd say it's one of the most valuable skills a child can develop. It improves concentration, memory and confidence.",
+          "prompt": "Konuşanın görüşü nedir?",
+          "options": [
+            "Müzik aleti öğrenmek zaman kaybıdır.",
+            "Zor olsa da çok değerli bir beceridir.",
+            "Çocuklar bırakmalıdır."
+          ],
+          "answerIndex": 1,
+          "explanation": "Granted ... Even so ...",
+          "id": "c1-u12-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Birleştirin (While it is true that ...): \"Tablets are useful in class. They can also distract students.\"",
+          "accepted": [
+            "While it is true that tablets are useful in class, they can also distract students.",
+            "While it is true that tablets are useful in class, they can also distract students",
+            "While it is true that tablets are useful in class they can also distract students.",
+            "While it is true that tablets are useful in class they can also distract students",
+            "While it is true that tablets can be useful in class, they can also distract students.",
+            "While it is true that tablets can be useful in class, they can also distract students"
+          ],
+          "explanation": "While it is true that tablets are useful in class, they can also distract students.",
+          "id": "c1-u12-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şu görüşlerden birini savunun, ama önce karşı görüşü kabul edin (1 dakika): (1) \"Tourism is good for local communities.\" (2) \"University education should be free.\" (3) \"Children should have a smartphone from the age of ten.\" En az iki kabul ifadesi (Admittedly, Granted, While it is true that, I concede that) ve en az iki dönüş ifadesi (Nevertheless, That said, Even so, This does not mean that) kullanın.",
+          "modelAnswer": "I'd argue that tourism is, on the whole, good for local communities. Admittedly, it can cause problems. Popular places can become overcrowded, and house prices often rise. Granted, some of the money also goes to large international companies rather than local people. Nevertheless, tourism creates thousands of jobs, from hotels and restaurants to transport and crafts. While it is true that these jobs are sometimes seasonal, they are often the main source of income in small towns. That said, I believe tourism must be managed carefully, so that it benefits the people who actually live there.",
+          "rubric": [
+            "Karşı görüşü kabul",
+            "Güçlü dönüş",
+            "Kendi görüşünü destekleme",
+            "Akıcılık ve ikna gücü"
+          ]
+        },
+        "id": "c1-u12-l2-use"
+      }
+    },
+    {
+      "id": "c1-u12-l3",
+      "number": 3,
+      "title": "Zayıf argümanları fark etmek",
+      "goal": "Yaygın mantık hatalarını (aşırı genelleme, yanlış neden-sonuç, popülerliğe başvurma, kişiye saldırı, yanlış ikilem) tanıyıp eleştirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir forumdan yorumlar",
+        "body": "Comment 1: \"Ice cream sales and swimming accidents both go up in summer. So eating ice cream must make people worse at swimming.\"\n\nComment 2: \"Millions of people use this diet, so it must work.\"\n\nComment 3: \"Why should we listen to his ideas about the economy? He didn't even finish university.\"\n\nComment 4: \"Either we ban all cars from the city centre, or we accept that our children will grow up breathing poison.\"\n\nComment 5: \"My grandfather smoked all his life and lived to 95, so smoking can't be that bad.\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is wrong with Comment 1?",
+            "options": [
+              "It confuses correlation with causation.",
+              "It attacks a person."
+            ],
+            "answerIndex": 0,
+            "explanation": "Both rise in summer; one doesn't cause the other.",
+            "id": "c1-u12-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is wrong with Comment 3?",
+            "options": [
+              "It attacks the person, not the argument.",
+              "It uses statistics wrongly."
+            ],
+            "answerIndex": 0,
+            "explanation": "Ad hominem.",
+            "id": "c1-u12-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Yaygın mantık hataları (logical fallacies):**\n\n| Hata | Açıklama | Örnek |\n|---|---|---|\n| **Hasty generalisation** (aşırı genelleme) | Az örnekten genel sonuç çıkarmak | *My grandfather smoked and lived to 95, so smoking isn't bad.* |\n| **False cause** (yanlış neden-sonuç) | Bağıntıyı nedensellik sanmak | *Ice cream sales and accidents both rise, so ice cream causes accidents.* |\n| **Appeal to popularity** (popülerliğe başvurma) | \"Herkes yapıyorsa doğrudur\" | *Millions use this diet, so it must work.* |\n| **Ad hominem** (kişiye saldırı) | Argüman yerine kişiye saldırmak | *He didn't finish university, so his ideas are wrong.* |\n| **False dilemma** (yanlış ikilem) | Sadece iki seçenek varmış gibi sunmak | *Either we ban all cars, or our children breathe poison.* |\n| **Slippery slope** (kaygan zemin) | Küçük bir adımın kaçınılmaz felakete yol açacağını iddia etmek | *If we allow phones in class, students will stop learning altogether.* |\n\n**Bir argümanı eleştirmek için kalıplar:**\n\n- *This argument is based on the **assumption** that ...*\n- *This is a **generalisation**; one example does not prove ...*\n- ***Correlation does not prove causation.***\n- *This **attacks the person** rather than the argument.*\n- *There are other options; it is not simply a choice between X and Y.*\n- *The evidence is **anecdotal**.* (kişisel anekdota dayalı)\n- *The argument is **flawed** because ...*\n- *These figures **undermine** the claim that ...*\n\n**Kendi argümanlarınızda** bu hatalardan kaçının! Özellikle *always, never, everyone, nobody* gibi mutlak kelimeler genellikle zayıf bir argümanın işaretidir.",
+        "examples": [
+          {
+            "en": "This argument is based on the assumption that all students learn in the same way.",
+            "tr": "Bu argüman bütün öğrencilerin aynı şekilde öğrendiği varsayımına dayanıyor."
+          },
+          {
+            "en": "Correlation does not prove causation.",
+            "tr": "Bağıntı nedenselliği kanıtlamaz."
+          },
+          {
+            "en": "The evidence is largely anecdotal.",
+            "tr": "Kanıtlar büyük ölçüde kişisel anekdotlara dayanıyor."
+          }
+        ],
+        "turkishNote": "Türkçede de \"Benim dedem de sigara içti, 95 yaşına kadar yaşadı\" ya da \"Herkes böyle yapıyor\" gibi argümanlar günlük konuşmada sık duyulur. İngilizce akademik tartışmada bu tür argümanlar hemen eleştirilir. Bu mantık hatalarının İngilizce adlarını bilmek, IELTS ve Cambridge sınavlarındaki okuma ve tartışma sorularında, ayrıca iş toplantılarında size büyük avantaj sağlar."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Everyone is buying this phone, so it must be the best.\"",
+          "options": [
+            "Appeal to popularity",
+            "Ad hominem"
+          ],
+          "answerIndex": 0,
+          "explanation": "Popülerlik.",
+          "id": "c1-u12-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"She's too young to have a valid opinion on politics.\"",
+          "options": [
+            "False dilemma",
+            "Ad hominem"
+          ],
+          "answerIndex": 1,
+          "explanation": "Kişiye saldırı.",
+          "id": "c1-u12-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Either you support this plan, or you don't care about the environment.\"",
+          "options": [
+            "False dilemma",
+            "Hasty generalisation"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yanlış ikilem.",
+          "id": "c1-u12-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"If we let students use calculators, they'll never learn maths, and soon nobody will be able to count.\"",
+          "options": [
+            "Slippery slope",
+            "Appeal to popularity"
+          ],
+          "answerIndex": 0,
+          "explanation": "Kaygan zemin.",
+          "id": "c1-u12-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Correlation does not prove ___. (nedensellik)",
+          "answers": [
+            "causation"
+          ],
+          "explanation": "causation.",
+          "id": "c1-u12-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "This argument is based on the ___ that all customers want lower prices. (varsayım)",
+          "answers": [
+            "assumption"
+          ],
+          "explanation": "assumption.",
+          "id": "c1-u12-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The evidence is largely ___; it's based on a few personal stories.",
+          "answers": [
+            "anecdotal"
+          ],
+          "explanation": "anecdotal.",
+          "id": "c1-u12-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "These new figures ___ the minister's claim. (zayıflatmak)",
+          "answers": [
+            "undermine"
+          ],
+          "explanation": "undermine.",
+          "id": "c1-u12-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "People who drink coffee tend to live longer, according to some studies. So, the speaker says, everyone should drink five cups a day. But wait: these studies only show a link. Coffee drinkers might also exercise more or have healthier lifestyles.",
+          "prompt": "Konuşan argümandaki hangi hatayı gösteriyor?",
+          "options": [
+            "Bağıntıyı nedensellik sanmak",
+            "Kişiye saldırmak",
+            "Yanlış ikilem"
+          ],
+          "answerIndex": 0,
+          "explanation": "Only a link, not proof of causation.",
+          "id": "c1-u12-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "One example proves everything.",
+              "right": "hasty generalisation"
+            },
+            {
+              "left": "A happens with B, so A causes B.",
+              "right": "false cause"
+            },
+            {
+              "left": "Everyone does it, so it's right.",
+              "right": "appeal to popularity"
+            },
+            {
+              "left": "Attack the speaker, not the idea.",
+              "right": "ad hominem"
+            },
+            {
+              "left": "Only two options exist.",
+              "right": "false dilemma"
+            }
+          ],
+          "explanation": "Her açıklamayı mantık hatasıyla eşleştirin.",
+          "id": "c1-u12-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki üç zayıf argümanı eleştirin. Her biri için hatanın adını söyleyin, neden zayıf olduğunu açıklayın ve daha güçlü bir versiyonunu önerin: (1) \"My neighbour's son plays video games all day and he's failing at school, so video games make children stupid.\" (2) \"We either raise taxes or close all the hospitals.\" (3) \"This app is the best language app because it has 100 million downloads.\"",
+          "modelAnswer": "The first argument is a hasty generalisation and also a false cause. It's based on just one example, and even if this boy plays games and is failing, the games may not be the reason. There could be other problems at home or at school. A stronger version would be: \"Some research suggests that excessive screen time may affect concentration, so parents might consider setting limits.\" The second is a false dilemma. There are clearly other options, such as cutting other spending or improving efficiency. The third is an appeal to popularity. A large number of downloads shows that the app is popular, not that it's effective. A better argument would refer to evidence about how much users actually learn.",
+          "rubric": [
+            "Mantık hatalarının adı",
+            "Açık eleştiri",
+            "Daha güçlü alternatif",
+            "Eleştiri kalıpları"
+          ]
+        },
+        "id": "c1-u12-l3-use"
+      }
+    },
+    {
+      "id": "c1-u12-l4",
+      "number": 4,
+      "title": "Münazara dili",
+      "goal": "Bir münazarada kibarca söz alabilir, itiraz edebilir, açıklama isteyebilir, sözümün kesilmesine karşı çıkabilir ve karşı tarafın argümanını çürütebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Okul münazarası: \"Uniforms should be abolished.\"",
+        "lines": [
+          {
+            "speaker": "Chair",
+            "text": "Thank you. Now, the opposition. Deniz, you have two minutes."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Thank you. My opponent claims that uniforms limit students' freedom. With all due respect, I think this misses the point. Uniforms actually reduce pressure on students, because nobody is judged on their clothes."
+          },
+          {
+            "speaker": "Arda",
+            "text": "If I could just come in here..."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Sorry, if I could just finish my point. Uniforms also save families money, as parents don't have to buy expensive fashionable clothes."
+          },
+          {
+            "speaker": "Arda",
+            "text": "But that's simply not true. Uniforms are often more expensive than ordinary clothes."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "Could you clarify what you mean by 'more expensive'? Do you have any figures?"
+          },
+          {
+            "speaker": "Arda",
+            "text": "Well, a full uniform at many schools can cost a lot, and children grow out of it every year."
+          },
+          {
+            "speaker": "Deniz",
+            "text": "I take your point, but ordinary clothes also need replacing. On balance, I still believe uniforms create a fairer environment."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is Deniz's position?",
+            "options": [
+              "Against school uniforms",
+              "In favour of school uniforms"
+            ],
+            "answerIndex": 1,
+            "explanation": "Deniz is the opposition: uniforms should not be abolished.",
+            "id": "c1-u12-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Deniz ask Arda for?",
+            "options": [
+              "An apology",
+              "Figures to support Arda's claim",
+              "More time"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Do you have any figures?\"",
+            "id": "c1-u12-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Münazara ve toplantı dili:**\n\n**1. Söz almak / araya girmek (kibarca):**\n\n- *If I could just come in here, ...*\n- *Sorry to interrupt, but ...*\n- *Can I just add something?*\n- *May I make a point?*\n\n**2. Sözünün kesilmesine karşı çıkmak:**\n\n- *Sorry, if I could just finish my point.*\n- *Let me finish, please.*\n- *Just a moment, I haven't finished.*\n\n**3. Kibarca itiraz etmek:**\n\n| Daha yumuşak | Daha güçlü |\n|---|---|\n| *I see what you mean, but ...* | *I'm afraid I completely disagree.* |\n| *I take your point, but ...* | *That's simply not true.* |\n| *That's a valid point. However, ...* | *With all due respect, ...* |\n| *I'm not sure I agree with that.* | *I think this misses the point.* |\n\n**Dikkat:** *With all due respect* kibar görünse de genellikle **güçlü bir itirazın** habercisidir.\n\n**4. Açıklama ve kanıt istemek:**\n\n- *Could you clarify what you mean by ...?*\n- *What evidence do you have for that?*\n- *Do you have any figures to back that up?*\n- *Are you saying that ...?*\n\n**5. Çürütme (rebuttal):**\n\n- *My opponent claims that ... However, ...*\n- *This argument ignores the fact that ...*\n- *Even if that were true, it would not mean that ...*\n\n**6. Toparlama:**\n\n- *On balance, ...*\n- *To sum up, ...*\n- *For all these reasons, I urge you to support / oppose the motion.*",
+        "examples": [
+          {
+            "en": "Sorry to interrupt, but could you clarify that figure?",
+            "tr": "Böldüğüm için özür dilerim ama o rakamı açıklayabilir misiniz?"
+          },
+          {
+            "en": "I take your point, but I still think the cost is too high.",
+            "tr": "Ne demek istediğinizi anlıyorum ama hâlâ maliyetin çok yüksek olduğunu düşünüyorum."
+          },
+          {
+            "en": "Even if that were true, it would not justify such a drastic change.",
+            "tr": "Bu doğru olsa bile bu kadar radikal bir değişikliği haklı çıkarmaz."
+          }
+        ],
+        "turkishNote": "Türkçe tartışmalarda araya girmek ve hızlıca itiraz etmek bazen daha kabul görür. İngilizce resmî münazara ve iş toplantılarında ise araya girmek için kibar kalıplar (\"If I could just come in here\") kullanılır. Doğrudan \"You're wrong\" (Yanılıyorsun) demek kaba kaçar. Bunun yerine \"I see what you mean, but...\" ya da \"I'm not sure I agree\" tercih edilir. Ayrıca \"With all due respect\" ifadesini Türkçedeki \"Kusura bakmayın ama\" gibi düşünün: kibar bir çerçeve ama ardından gelen genellikle sert bir eleştiridir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Kibarca araya girmek:",
+          "options": [
+            "Stop talking!",
+            "If I could just come in here, ..."
+          ],
+          "answerIndex": 1,
+          "explanation": "Kibar.",
+          "id": "c1-u12-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sözünün kesilmesine karşı çıkmak:",
+          "options": [
+            "Sorry, if I could just finish my point.",
+            "You're wrong."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kibar.",
+          "id": "c1-u12-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kanıt istemek:",
+          "options": [
+            "What evidence do you have for that?",
+            "I take your point."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kanıt.",
+          "id": "c1-u12-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"With all due respect\" genellikle:",
+          "options": [
+            "Tam bir onayın habercisi",
+            "Güçlü bir itirazın habercisi"
+          ],
+          "answerIndex": 1,
+          "explanation": "With all due respect.",
+          "id": "c1-u12-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ your point, but I still disagree. (anlamak, kabul etmek)",
+          "answers": [
+            "take",
+            "see"
+          ],
+          "explanation": "I take your point.",
+          "id": "c1-u12-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Could you ___ what you mean by \"successful\"? (açıklamak)",
+          "answers": [
+            "clarify",
+            "explain"
+          ],
+          "explanation": "clarify.",
+          "id": "c1-u12-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "My ___ claims that the plan is too expensive. (rakip)",
+          "answers": [
+            "opponent"
+          ],
+          "explanation": "My opponent.",
+          "id": "c1-u12-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Even if that ___ true, it wouldn't justify the cost.",
+          "answers": [
+            "were",
+            "was"
+          ],
+          "explanation": "Even if that were true.",
+          "id": "c1-u12-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Sorry to interrupt, but I think there's a problem with that figure. You said that seventy per cent of people support the plan, but that survey only asked two hundred people. That's hardly representative, is it?",
+          "prompt": "Konuşan rakamla ilgili neye itiraz ediyor?",
+          "options": [
+            "Rakamın çok düşük olmasına",
+            "Anketin çok az kişiyle yapılmış olmasına",
+            "Planın pahalı olmasına"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"that survey only asked two hundred people\"",
+          "id": "c1-u12-l4-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Sorry to interrupt, but ...",
+              "right": "söz almak"
+            },
+            {
+              "left": "Let me finish, please.",
+              "right": "sözünü korumak"
+            },
+            {
+              "left": "Could you clarify ...?",
+              "right": "açıklama istemek"
+            },
+            {
+              "left": "I take your point, but ...",
+              "right": "kibar itiraz"
+            },
+            {
+              "left": "On balance, ...",
+              "right": "toparlama"
+            }
+          ],
+          "explanation": "Her ifadeyi işleviyle eşleştirin.",
+          "id": "c1-u12-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Kısa bir münazara canlandırın (iki rol). Önerge: \"Working from home should be the norm for office jobs.\" (1) Bir taraf için 30 saniyelik açılış yapın. (2) Diğer tarafın bir argümanına kibarca araya girin ve kanıt isteyin. (3) Sözünüz kesildiğinde sözünüzü koruyun. (4) Bir argümanı çürütün. (5) \"On balance\" ile toparlayın.",
+          "modelAnswer": "Opening: I'm here to argue that working from home should be the norm for office jobs. It saves commuting time, reduces pollution and gives people a better work-life balance. Opponent: But people are less productive at home. Me: Sorry to interrupt, but what evidence do you have for that? Several surveys suggest the opposite. Opponent: Well, managers say... Me: If I could just finish my point. Even if some people are less productive, that doesn't mean everyone is. My opponent claims that teamwork suffers, but this ignores the fact that online tools now make collaboration easy. On balance, I believe the benefits clearly outweigh the drawbacks, and I urge you to support the motion.",
+          "rubric": [
+            "Kibar söz alma ve koruma",
+            "Kanıt isteme",
+            "Çürütme",
+            "Toparlama",
+            "Münazara tonu"
+          ]
+        },
+        "id": "c1-u12-l4-use"
+      }
+    },
+    {
+      "id": "c1-u12-l5",
+      "number": 5,
+      "title": "Tartışma denemesi",
+      "goal": "Giriş, iki destekleyici paragraf, kabul ve çürütme paragrafı ve sonuç içeren, mantık hatalarından arınmış ikna edici bir tartışma denemesi yazabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Örnek deneme: \"Should zoos be closed?\"",
+        "body": "Zoos have existed for centuries, but in recent years many people have begun to question whether they should exist at all. In my view, rather than being closed, zoos should be reformed so that they focus on conservation and education.\n\nFirstly, well-run zoos play an important role in protecting endangered species. Many zoos take part in breeding programmes, and some animals that were once extinct in the wild have been reintroduced thanks to such efforts. Closing zoos would put these programmes at risk.\n\nSecondly, zoos can raise awareness of environmental issues. Seeing an animal up close can make a much stronger impression on a child than a documentary, and this experience may inspire a lifelong interest in nature.\n\nAdmittedly, critics argue that keeping wild animals in captivity is cruel, and it is true that some zoos still keep animals in small, unsuitable enclosures. Nevertheless, this is an argument for better regulation, not for closing all zoos. Poor conditions in some zoos do not mean that all zoos are harmful.\n\nIn conclusion, while the concerns about animal welfare are valid, closing zoos would do more harm than good. Instead, governments should introduce strict standards to ensure that every zoo puts the needs of animals first.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the writer's position?",
+            "options": [
+              "Zoos should be closed.",
+              "Zoos should be reformed, not closed."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"rather than being closed, zoos should be reformed\"",
+            "id": "c1-u12-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How does the writer respond to the critics?",
+            "options": [
+              "By ignoring them",
+              "By accepting the point and arguing for better regulation"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"this is an argument for better regulation, not for closing all zoos\"",
+            "id": "c1-u12-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Tartışma denemesi (argumentative essay) yapısı:**\n\n| Paragraf | İçerik | Kalıplar |\n|---|---|---|\n| **1. Giriş** | Konuyu tanıt + **tez cümlesi** (net görüş) | *In recent years, ... / In my view, ... / This essay will argue that ...* |\n| **2. Argüman 1** | PEEL | *Firstly, ... / One key reason is ...* |\n| **3. Argüman 2** | PEEL | *Secondly, ... / Another important point is ...* |\n| **4. Karşı argüman + çürütme** | Kabul et → dönüş → çürüt | *Admittedly, critics argue that ... Nevertheless, ...* |\n| **5. Sonuç** | Tezi yeniden ifade et + öneri / son düşünce | *In conclusion, ... / On balance, ... / Instead, ...* |\n\n**Güçlü bir deneme için kontrol listesi:**\n\n1. **Tez açık mı?** Okuyucu ilk paragraftan sonra görüşünüzü biliyor mu?\n2. **Her paragrafta bir ana fikir** ve onu destekleyen kanıt / örnek var mı?\n3. **Karşı argüman** adil bir şekilde sunulup çürütülmüş mü?\n4. **Mantık hatası** var mı? (*always, everyone, never* gibi mutlak ifadeler)\n5. **Temkinli dil** (Ünite 6): *may, tend to, it could be argued*\n6. **Bağlaçlar** (B2 Ünite 12): *Firstly, Moreover, However, Consequently*\n7. **Sonuç** yeni bir argüman eklemiyor, tezi güçlendiriyor mu?\n\n**Tez cümlesi örnekleri:**\n\n- *This essay will argue that ...*\n- *In my view, rather than X, we should Y.*\n- *Although X has some advantages, I believe the disadvantages outweigh them.*\n\n**Sık yapılan hatalar:**\n\n- Tezi sadece sonuçta belirtmek\n- Karşı argümanı görmezden gelmek\n- Sonuçta yeni bir fikir eklemek\n- Kanıt yerine kişisel duygular kullanmak",
+        "examples": [
+          {
+            "en": "This essay will argue that the benefits of remote work outweigh the drawbacks.",
+            "tr": "Bu deneme uzaktan çalışmanın faydalarının dezavantajlarından ağır bastığını savunacak."
+          },
+          {
+            "en": "Poor conditions in some zoos do not mean that all zoos are harmful.",
+            "tr": "Bazı hayvanat bahçelerindeki kötü koşullar, bütün hayvanat bahçelerinin zararlı olduğu anlamına gelmez."
+          },
+          {
+            "en": "In conclusion, while these concerns are valid, a ban would do more harm than good.",
+            "tr": "Sonuç olarak, bu endişeler geçerli olsa da bir yasak yarardan çok zarar getirir."
+          }
+        ],
+        "turkishNote": "Türk öğrenciler İngilizce denemelerde genellikle görüşlerini en sonda açıklar ya da \"her iki tarafın da haklı olduğu\" sonucuna varır. İngilizce argumentative essay'de ise tez **girişte** açıkça belirtilmeli ve deneme boyunca savunulmalıdır. Karşı argümanı kabul etmek zayıflık değil, güçtür; ama onu mutlaka çürütmelisiniz. IELTS Task 2 ve Cambridge C1 Advanced sınavlarında bu yapı yüksek puanın anahtarıdır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Tez cümlesi nerede olmalı?",
+          "options": [
+            "Sadece sonuçta",
+            "Girişte"
+          ],
+          "answerIndex": 1,
+          "explanation": "Girişte.",
+          "id": "c1-u12-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Sonuç paragrafında:",
+          "options": [
+            "Yeni bir argüman eklenir.",
+            "Tez yeniden ifade edilir ve güçlendirilir."
+          ],
+          "answerIndex": 1,
+          "explanation": "Yeni fikir yok.",
+          "id": "c1-u12-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Karşı argüman paragrafında:",
+          "options": [
+            "Karşı görüş kabul edilir ve çürütülür.",
+            "Karşı görüş görmezden gelinir."
+          ],
+          "answerIndex": 0,
+          "explanation": "Concession + rebuttal.",
+          "id": "c1-u12-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Güçlü tez cümlesi:",
+          "options": [
+            "There are good and bad points about zoos.",
+            "In my view, zoos should be reformed rather than closed."
+          ],
+          "answerIndex": 1,
+          "explanation": "Net görüş.",
+          "id": "c1-u12-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This essay ___ argue that public transport should be free.",
+          "answers": [
+            "will"
+          ],
+          "explanation": "This essay will argue.",
+          "id": "c1-u12-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, critics argue that the plan is too expensive. (Kabul etmek gerekir ki)",
+          "answers": [
+            "Admittedly",
+            "Granted"
+          ],
+          "explanation": "Admittedly.",
+          "id": "c1-u12-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Poor conditions in some schools do not ___ that all schools are failing.",
+          "answers": [
+            "mean"
+          ],
+          "explanation": "do not mean that.",
+          "id": "c1-u12-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "On ___, I believe the advantages outweigh the disadvantages.",
+          "answers": [
+            "balance"
+          ],
+          "explanation": "On balance.",
+          "id": "c1-u12-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "In conclusion, although banning cars from city centres would be inconvenient for some people, the benefits for public health and the environment are too significant to ignore. Rather than a sudden ban, however, cities should introduce the change gradually and invest in better public transport.",
+          "prompt": "Konuşanın sonuç önerisi nedir?",
+          "options": [
+            "Arabaları hemen yasaklamak",
+            "Değişikliği kademeli yapmak ve toplu taşımaya yatırım yapmak",
+            "Hiçbir şey değiştirmemek"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"introduce the change gradually and invest in better public transport\"",
+          "id": "c1-u12-l5-p09"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "Admittedly",
+            "critics",
+            "argue",
+            "that",
+            "the",
+            "plan",
+            "is",
+            "unrealistic"
+          ],
+          "answer": "Admittedly critics argue that the plan is unrealistic",
+          "explanation": "Kabul cümlesi.",
+          "translation": "Kabul etmek gerekir ki eleştirmenler planın gerçekçi olmadığını savunuyor.",
+          "id": "c1-u12-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Şu konulardan biri hakkında bir tartışma denemesi yazın (250–300 kelime): (1) \"Should university education be free for everyone?\" (2) \"Should social media platforms be banned for children under 16?\" (3) \"Is it better to live in a big city or a small town?\" Girişte net bir tez belirtin, iki PEEL paragrafı yazın, bir karşı argümanı kabul edip çürütün ve tezi güçlendiren bir sonuçla bitirin. Mantık hatalarından kaçının ve temkinli dil kullanın.",
+          "modelAnswer": "Should social media be banned for children under 16?\n\nSocial media has become a central part of young people's lives, and concerns about its effects on children are growing. In my view, rather than a complete ban, there should be strict age-appropriate rules and better education for both children and parents.\n\nFirstly, a total ban would be extremely difficult to enforce. Many children already use their parents' accounts or simply lie about their age, and there is little evidence that age limits alone have stopped them. A ban might therefore push young users towards less regulated platforms, where they could be even more vulnerable.\n\nSecondly, social media can offer genuine benefits. For many teenagers, it is a way to stay in touch with friends, find support and explore creative interests such as music, art or video-making. Removing access entirely would mean losing these opportunities.\n\nAdmittedly, critics argue that social media can harm young people's mental health, and there is some research to suggest that heavy use may be linked to anxiety and poor sleep. It would be wrong to ignore these concerns. Nevertheless, a link does not necessarily prove that social media is the cause, and the problem may depend more on how and how much it is used than on access itself. This is an argument for better design and clear limits, not for a total ban.\n\nIn conclusion, while the risks of social media are real, a ban for under-16s is unlikely to be effective. Instead, governments should require platforms to introduce stronger protections for young users, and schools should teach children how to use social media safely and responsibly.",
+          "rubric": [
+            "Net tez cümlesi",
+            "İki PEEL paragrafı",
+            "Kabul ve çürütme",
+            "Mantık hatası yok, temkinli dil",
+            "Güçlü sonuç ve bağlaçlar"
+          ]
+        },
+        "id": "c1-u12-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "PEEL'deki \"E\" (ilk):",
+        "options": [
+          "Evidence",
+          "Ending"
+        ],
+        "answerIndex": 0,
+        "explanation": "Evidence",
+        "id": "c1-u12-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru olan:",
+        "options": [
+          "Although it's risky, but it's worth trying.",
+          "Although it's risky, it's worth trying."
+        ],
+        "answerIndex": 1,
+        "explanation": "although + but olmaz",
+        "id": "c1-u12-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Everyone uses this app, so it must be good.\"",
+        "options": [
+          "Appeal to popularity",
+          "False dilemma"
+        ],
+        "answerIndex": 0,
+        "explanation": "Popülerlik",
+        "id": "c1-u12-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"He's never had a job, so his ideas about work are worthless.\"",
+        "options": [
+          "Ad hominem",
+          "Slippery slope"
+        ],
+        "answerIndex": 0,
+        "explanation": "Kişiye saldırı",
+        "id": "c1-u12-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Kibarca araya girmek:",
+        "options": [
+          "If I could just come in here, ...",
+          "Be quiet, I'm talking."
+        ],
+        "answerIndex": 0,
+        "explanation": "Kibar",
+        "id": "c1-u12-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "___, the plan has some weaknesses. Nevertheless, it's the best option we have. (Kabul etmek gerekir ki)",
+        "answers": [
+          "Admittedly",
+          "Granted"
+        ],
+        "explanation": "Admittedly",
+        "id": "c1-u12-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "While it is ___ that exams cause stress, they also motivate students.",
+        "answers": [
+          "true"
+        ],
+        "explanation": "While it is true that",
+        "id": "c1-u12-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Correlation does not prove ___.",
+        "answers": [
+          "causation"
+        ],
+        "explanation": "causation",
+        "id": "c1-u12-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Can you back ___ that claim with any data?",
+        "answers": [
+          "up"
+        ],
+        "explanation": "back up",
+        "id": "c1-u12-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "I ___ your point, but I'm not sure I agree.",
+        "answers": [
+          "take",
+          "see"
+        ],
+        "explanation": "I take your point",
+        "id": "c1-u12-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "This essay ___ argue that homework should be reduced.",
+        "answers": [
+          "will"
+        ],
+        "explanation": "This essay will argue",
+        "id": "c1-u12-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "On ___, the benefits outweigh the risks.",
+        "answers": [
+          "balance"
+        ],
+        "explanation": "On balance",
+        "id": "c1-u12-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "My opponent says that we must either build a new motorway or accept permanent traffic jams. But that's a false choice. We could improve rail services, encourage remote work or introduce congestion charges. There are many options between those two extremes.",
+        "prompt": "Konuşan rakibinin argümanında hangi hatayı gösteriyor?",
+        "options": [
+          "Yanlış ikilem (false dilemma)",
+          "Kişiye saldırı (ad hominem)",
+          "Popülerliğe başvurma"
+        ],
+        "answerIndex": 0,
+        "explanation": "Only two options presented.",
+        "id": "c1-u12-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Birleştirin (While it is true that ...): \"Online learning is flexible. It can feel isolating.\"",
+        "accepted": [
+          "While it is true that online learning is flexible, it can feel isolating.",
+          "While it is true that online learning is flexible, it can feel isolating",
+          "While it is true that online learning is flexible it can feel isolating.",
+          "While it is true that online learning is flexible it can feel isolating",
+          "While it is true that online learning is flexible, it can also feel isolating.",
+          "While it is true that online learning is flexible, it can also feel isolating"
+        ],
+        "explanation": "While it is true that online learning is flexible, it can feel isolating.",
+        "id": "c1-u12-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Şu önerge hakkında bir tartışma denemesi yazın (250–300 kelime): \"Schools should replace traditional exams with continuous assessment (projects, presentations and coursework).\" Girişte net bir tez belirtin, iki PEEL paragrafı yazın, bir karşı argümanı kabul edip çürütün ve tezi güçlendiren bir sonuçla bitirin. Kabul / dönüş ifadeleri, kanıt kalıpları ve temkinli dil kullanın; mantık hatalarından kaçının.",
+        "modelAnswer": "Should exams be replaced by continuous assessment?\n\nFor generations, students' success has been measured mainly by final exams. However, many educators now question whether a single test can fairly reflect what a student has learned. In my view, schools should rely mainly on continuous assessment, while keeping a small number of exams for key skills.\n\nFirstly, continuous assessment gives a more complete picture of a student's abilities. A final exam tests what a student can remember on one particular day, under considerable pressure. Projects, presentations and coursework, by contrast, can show how students research, think critically and work with others, skills that are highly valued in further education and the workplace.\n\nSecondly, continuous assessment may reduce stress and encourage steady learning. When everything depends on one exam, many students tend to leave revision until the last minute. Regular assessed tasks, on the other hand, encourage them to work consistently throughout the year, which research suggests can lead to deeper and longer-lasting learning.\n\nAdmittedly, critics argue that coursework is easier to cheat on, as students may copy material or receive too much help from parents. It is true that this is a real risk. Nevertheless, it can be reduced through in-class tasks, oral presentations and careful supervision. The possibility of cheating is an argument for better design, not for abandoning continuous assessment altogether.\n\nIn conclusion, while exams still have a limited role to play, a system based mainly on continuous assessment would be fairer and more useful. Schools should therefore move gradually towards this model, ensuring that tasks are well designed and properly supervised.",
+        "rubric": [
+          "Net tez",
+          "İki PEEL paragrafı",
+          "Kabul ve çürütme",
+          "Temkinli dil, mantık hatası yok",
+          "Yapı, bağlaçlar ve sonuç"
+        ],
+        "id": "c1-u12-t15"
+      }
+    ]
+  }
+}
