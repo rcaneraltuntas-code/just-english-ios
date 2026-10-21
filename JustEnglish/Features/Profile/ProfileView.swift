@@ -31,11 +31,11 @@ struct ProfileView: View {
                     accountCard
                     VStack(spacing: 8) {
                         Button("Tüm ilerlemeyi sıfırla", role: .destructive) { confirmReset = true }
-                            .font(.jakarta(.subheadline, weight: .bold))
+                            .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
                             .foregroundStyle(Theme.danger)
                         Text("Sürüm \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as? String ?? "")")
-                            .font(.jakarta(.caption))
-                            .foregroundStyle(.tertiary)
+                            .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                            .foregroundStyle(HomeStyle.body)
                     }
                     .padding(.top, 4)
                 }
@@ -180,74 +180,117 @@ struct ProfileView: View {
         .background(HomeStyle.rowFill, in: RoundedRectangle(cornerRadius: 16, style: .continuous))
     }
 
+    /// Çalışma ayarları: günlük hedef, çalışılan seviye ve seviye testi; beyaz, kenarlıklı kart.
     private var studyCard: some View {
         @Bindable var model = model
-        return VStack(alignment: .leading, spacing: 14) {
-            SectionHeader(title: "Çalışma ayarları")
-            Text("Günlük hedef").font(.jakarta(.subheadline, weight: .bold)).foregroundStyle(.secondary)
-            HStack(spacing: 8) {
-                ForEach(DailyGoal.allCases) { goal in
-                    FilterChip(title: "\(goal.minutes) dk", selected: model.state.dailyGoal == goal) {
-                        model.setDailyGoal(goal)
+        return VStack(alignment: .leading, spacing: 12) {
+            sectionTitle("Çalışma ayarları")
+            VStack(alignment: .leading, spacing: 14) {
+                settingLabel("Günlük hedef")
+                HStack(spacing: 8) {
+                    ForEach(DailyGoal.allCases) { goal in
+                        SoftChip(title: "\(goal.minutes) dk", selected: model.state.dailyGoal == goal) {
+                            model.setDailyGoal(goal)
+                        }
                     }
                 }
-            }
-            Divider()
-            HStack {
-                Text("Çalıştığım seviye").font(.jakarta(.subheadline, weight: .bold)).foregroundStyle(.secondary)
-                Spacer()
-                Menu {
-                    Picker("Seviye", selection: $model.state.currentLevel) {
-                        ForEach(CEFRLevel.allCases) { Text("\($0.rawValue) · \($0.title)").tag($0) }
+                Divider().overlay(HomeStyle.cardBorder)
+                HStack {
+                    settingLabel("Çalıştığım seviye")
+                    Spacer()
+                    Menu {
+                        Picker("Seviye", selection: $model.state.currentLevel) {
+                            ForEach(CEFRLevel.allCases) { Text("\($0.rawValue) · \($0.title)").tag($0) }
+                        }
+                    } label: {
+                        HStack(spacing: 6) {
+                            LevelBadge(level: model.state.currentLevel)
+                            Text(model.state.currentLevel.title)
+                                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                            Image(systemName: "chevron.up.chevron.down").font(.caption)
+                        }
+                        .foregroundStyle(HomeStyle.title)
+                        .padding(.horizontal, 12)
+                        .frame(height: 36)
+                        .background(HomeStyle.rowFill, in: Capsule())
                     }
-                } label: {
-                    HStack(spacing: 6) {
-                        LevelBadge(level: model.state.currentLevel)
-                        Text(model.state.currentLevel.title).font(.jakarta(.subheadline, weight: .bold))
-                        Image(systemName: "chevron.up.chevron.down").font(.caption)
-                    }
-                    .foregroundStyle(Theme.ink)
                 }
+                Button { showPlacement = true } label: {
+                    Label("Seviye testine tekrar girin", systemImage: "chart.bar")
+                }
+                .buttonStyle(OnboardingButtonStyle(filled: false))
+                Text("Seri koruyucu, hedefi kaçırdığınız tek bir günü kapatır. Her pazartesi bir tane yenilenir.")
+                    .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                    .foregroundStyle(HomeStyle.body)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            Button { showPlacement = true } label: {
-                Label("Seviye testine tekrar girin", systemImage: "chart.bar.fill")
-            }
-            .buttonStyle(.secondary)
-            Text("Seri koruyucu, hedefi kaçırdığınız tek bir günü kapatır. Her pazartesi bir tane yenilenir.")
-                .font(.jakarta(.caption))
-                .foregroundStyle(.secondary)
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .modifier(HomeCard())
         }
-        .card()
     }
 
+    private func settingLabel(_ text: String) -> some View {
+        Text(text)
+            .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+            .foregroundStyle(HomeStyle.title)
+    }
+
+    /// Hesap: giriş yapılmışsa e-posta, çıkış ve hesabı silme; değilse Apple ile giriş.
     private var accountCard: some View {
         VStack(alignment: .leading, spacing: 12) {
-            SectionHeader(title: "Hesap")
-            if auth.isSignedIn {
-                Label(auth.email ?? "Apple hesabı", systemImage: "checkmark.icloud.fill")
-                    .font(.jakarta(.subheadline, weight: .bold))
-                    .foregroundStyle(Theme.success)
-                Button("Çıkış yap") { Task { await auth.signOut() } }.buttonStyle(.secondary)
-                Button("Hesabımı sil", role: .destructive) { confirmDelete = true }
-                    .font(.jakarta(.subheadline, weight: .bold))
-                    .foregroundStyle(Theme.danger)
-            } else if Backend.isConfigured {
-                SignInWithAppleButton(.signIn) { auth.prepare($0) } onCompletion: { result in
-                    Task { await signedIn(result) }
+            sectionTitle("Hesap")
+            VStack(alignment: .leading, spacing: 14) {
+                if auth.isSignedIn {
+                    HStack(spacing: 12) {
+                        Image(systemName: "checkmark.icloud")
+                            .font(.system(size: 18, weight: .medium))
+                            .foregroundStyle(Theme.success)
+                            .frame(width: 40, height: 40)
+                            .background(Theme.successSoft, in: Circle())
+                        VStack(alignment: .leading, spacing: 2) {
+                            Text(auth.email ?? "Apple hesabı")
+                                .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                                .foregroundStyle(HomeStyle.title)
+                                .lineLimit(1)
+                            Text("İlerlemeniz yedekleniyor")
+                                .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                                .foregroundStyle(HomeStyle.body)
+                        }
+                    }
+                    Button { Task { await auth.signOut() } } label: {
+                        Label("Çıkış yap", systemImage: "rectangle.portrait.and.arrow.right")
+                    }
+                    .buttonStyle(OnboardingButtonStyle(filled: false))
+                    Button("Hesabımı sil", role: .destructive) { confirmDelete = true }
+                        .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline).weight(.semibold))
+                        .foregroundStyle(Theme.danger)
+                        .frame(maxWidth: .infinity)
+                } else if Backend.isConfigured {
+                    SignInWithAppleButton(.signIn) { auth.prepare($0) } onCompletion: { result in
+                        Task { await signedIn(result) }
+                    }
+                    .frame(height: 50)
+                    .clipShape(RoundedRectangle(cornerRadius: 10, style: .continuous))
+                    if let error = auth.error {
+                        Text(error)
+                            .font(.custom(Theme.fontFamily, size: 14, relativeTo: .footnote))
+                            .foregroundStyle(Theme.danger)
+                    }
+                } else {
+                    Label("Bulut yedekleme bu sürümde kapalı.", systemImage: "icloud.slash")
+                        .font(.custom(Theme.fontFamily, size: 15, relativeTo: .subheadline))
+                        .foregroundStyle(HomeStyle.body)
                 }
-                .frame(height: 50)
-                .clipShape(RoundedRectangle(cornerRadius: 14, style: .continuous))
-                if let error = auth.error { Text(error).foregroundStyle(Theme.danger).font(.jakarta(.footnote)) }
-            } else {
-                Label("Bulut yedekleme bu sürümde kapalı.", systemImage: "icloud.slash")
-                    .font(.jakarta(.subheadline))
-                    .foregroundStyle(.secondary)
+                Text("Giriş yapmak isteğe bağlıdır. Giriş yaparsanız ilerlemeniz yedeklenir, başka cihazda devam edebilir ve canlı derslere kaydolabilirsiniz.")
+                    .font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption))
+                    .foregroundStyle(HomeStyle.body)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            Text("Giriş yapmak isteğe bağlıdır. Giriş yaparsanız ilerlemeniz yedeklenir, başka cihazda devam edebilir ve canlı derslere kaydolabilirsiniz.")
-                .font(.jakarta(.caption))
-                .foregroundStyle(.secondary)
+            .padding(16)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .modifier(HomeCard())
         }
-        .card()
     }
 
     private func signedIn(_ result: Result<ASAuthorization, Error>) async {
