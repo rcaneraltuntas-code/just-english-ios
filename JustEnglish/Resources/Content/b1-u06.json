@@ -1,0 +1,1372 @@
+{
+  "id": "b1-u06",
+  "level": "B1",
+  "number": 6,
+  "title": "İcatlar",
+  "titleEn": "Inventions",
+  "canDo": "Bir şeyin nasıl yapıldığını ve kim tarafından icat edildiğini edilgen yapıyla anlatabilir, etken ve edilgen yapı arasında uygun olanı seçebilir ve bir ürünü ya da icadı tanıtabilirim.",
+  "grammar": [
+    "passive: present simple (is made)",
+    "passive: past simple (was invented)",
+    "by + eylemi yapan",
+    "etken mi edilgen mi?",
+    "edilgen sorular ve olumsuzlar",
+    "made of / made from / used for"
+  ],
+  "vocabularyThemes": [
+    "icatlar ve keşifler",
+    "malzemeler",
+    "üretim ve teknoloji"
+  ],
+  "liveClass": {
+    "title": "Büyük icat yarışması",
+    "durationMinutes": 45,
+    "goal": "Gruplar hayali bir icat tasarlar ve 2 dakikalık bir tanıtım hazırlar: It is made of..., It is used for..., It was designed by... Sunumların ardından diğer gruplar edilgen sorular sorar (How is it powered? Where will it be sold?) ve sınıf en kullanışlı icadı oylar."
+  },
+  "vocabulary": [
+    {
+      "id": "b1-u06-v01",
+      "en": "invent",
+      "tr": "icat etmek",
+      "example": "Who invented the telephone?",
+      "exampleTr": "Telefonu kim icat etti?"
+    },
+    {
+      "id": "b1-u06-v02",
+      "en": "invention",
+      "tr": "icat",
+      "example": "The wheel is one of the oldest inventions.",
+      "exampleTr": "Tekerlek en eski icatlardan biridir."
+    },
+    {
+      "id": "b1-u06-v03",
+      "en": "inventor",
+      "tr": "mucit",
+      "example": "She's a young inventor from Konya.",
+      "exampleTr": "Konyalı genç bir mucit."
+    },
+    {
+      "id": "b1-u06-v04",
+      "en": "discover",
+      "tr": "keşfetmek",
+      "example": "Penicillin was discovered in 1928.",
+      "exampleTr": "Penisilin 1928'de keşfedildi.",
+      "note": "discovery (keşif)"
+    },
+    {
+      "id": "b1-u06-v05",
+      "en": "design",
+      "tr": "tasarlamak; tasarım",
+      "example": "The bridge was designed by a famous architect.",
+      "exampleTr": "Köprü ünlü bir mimar tarafından tasarlandı."
+    },
+    {
+      "id": "b1-u06-v06",
+      "en": "develop",
+      "tr": "geliştirmek",
+      "example": "The company developed a new app.",
+      "exampleTr": "Şirket yeni bir uygulama geliştirdi."
+    },
+    {
+      "id": "b1-u06-v07",
+      "en": "produce",
+      "tr": "üretmek",
+      "example": "Millions of cars are produced every year.",
+      "exampleTr": "Her yıl milyonlarca araba üretilir.",
+      "note": "product (ürün)"
+    },
+    {
+      "id": "b1-u06-v08",
+      "en": "grow",
+      "tr": "yetiştirmek",
+      "example": "Tea is grown in Rize.",
+      "exampleTr": "Rize'de çay yetiştirilir.",
+      "note": "grow → grew → grown"
+    },
+    {
+      "id": "b1-u06-v09",
+      "en": "made of",
+      "tr": "-den yapılmış (malzeme görünür)",
+      "example": "This table is made of wood.",
+      "exampleTr": "Bu masa ahşaptan yapılmış."
+    },
+    {
+      "id": "b1-u06-v10",
+      "en": "made from",
+      "tr": "-den yapılmış (malzeme dönüşmüş)",
+      "example": "Paper is made from wood.",
+      "exampleTr": "Kâğıt ağaçtan yapılır."
+    },
+    {
+      "id": "b1-u06-v11",
+      "en": "used for",
+      "tr": "... için kullanılır",
+      "example": "This tool is used for cutting glass.",
+      "exampleTr": "Bu alet cam kesmek için kullanılır.",
+      "note": "used for + -ing"
+    },
+    {
+      "id": "b1-u06-v12",
+      "en": "material",
+      "tr": "malzeme",
+      "example": "What material is it made of?",
+      "exampleTr": "Hangi malzemeden yapılmış?"
+    },
+    {
+      "id": "b1-u06-v13",
+      "en": "plastic",
+      "tr": "plastik",
+      "example": "Plastic is used in almost everything.",
+      "exampleTr": "Plastik neredeyse her şeyde kullanılır."
+    },
+    {
+      "id": "b1-u06-v14",
+      "en": "metal",
+      "tr": "metal",
+      "example": "The frame is made of metal.",
+      "exampleTr": "Çerçeve metalden yapılmış."
+    },
+    {
+      "id": "b1-u06-v15",
+      "en": "glass",
+      "tr": "cam",
+      "example": "Glass is made from sand.",
+      "exampleTr": "Cam kumdan yapılır."
+    },
+    {
+      "id": "b1-u06-v16",
+      "en": "device",
+      "tr": "cihaz",
+      "example": "A smartwatch is a small device.",
+      "exampleTr": "Akıllı saat küçük bir cihazdır."
+    },
+    {
+      "id": "b1-u06-v17",
+      "en": "battery",
+      "tr": "pil, batarya",
+      "example": "The battery lasts two days.",
+      "exampleTr": "Pil iki gün dayanıyor."
+    },
+    {
+      "id": "b1-u06-v18",
+      "en": "by accident",
+      "tr": "kazara, tesadüfen",
+      "example": "Many things were discovered by accident.",
+      "exampleTr": "Pek çok şey tesadüfen keşfedildi."
+    },
+    {
+      "id": "b1-u06-v19",
+      "en": "sell",
+      "tr": "satmak",
+      "example": "These phones are sold all over the world.",
+      "exampleTr": "Bu telefonlar bütün dünyada satılıyor.",
+      "note": "sell → sold → sold"
+    },
+    {
+      "id": "b1-u06-v20",
+      "en": "build",
+      "tr": "inşa etmek",
+      "example": "The bridge was built in 1973.",
+      "exampleTr": "Köprü 1973'te inşa edildi.",
+      "note": "build → built → built"
+    },
+    {
+      "id": "b1-u06-v21",
+      "en": "replace",
+      "tr": "yerini almak, değiştirmek",
+      "example": "Emails have replaced letters.",
+      "exampleTr": "E-postalar mektupların yerini aldı."
+    },
+    {
+      "id": "b1-u06-v22",
+      "en": "powered by",
+      "tr": "... ile çalışan",
+      "example": "The car is powered by electricity.",
+      "exampleTr": "Araba elektrikle çalışıyor."
+    },
+    {
+      "id": "b1-u06-v23",
+      "en": "useful",
+      "tr": "kullanışlı, faydalı",
+      "example": "It's a really useful invention.",
+      "exampleTr": "Gerçekten faydalı bir icat.",
+      "note": "useless (işe yaramaz)"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "b1-u06-l1",
+      "number": 1,
+      "title": "Nasıl yapılır?",
+      "goal": "Bir ürünün nasıl yapıldığını present simple edilgen yapıyla anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Çay: Tarladan bardağa",
+        "body": "Turkey is one of the biggest tea producers in the world, and most Turkish tea is grown in Rize and the Black Sea region.\n\nFirst, the young green leaves are picked by hand or with special scissors. Then they are taken to a factory.\n\nAt the factory, the leaves are dried for a few hours. After that, they are rolled and cut into small pieces.\n\nNext, the tea is left in the air, and it slowly turns dark brown. Finally, it is dried again, packed and sent to shops all over the country.\n\nEvery day, millions of glasses of tea are drunk in Turkey.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is most Turkish tea grown?",
+            "options": [
+              "In Istanbul",
+              "In Rize and the Black Sea region",
+              "In Antalya"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"most Turkish tea is grown in Rize and the Black Sea region\"",
+            "id": "b1-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happens to the leaves first?",
+            "options": [
+              "They are dried.",
+              "They are picked.",
+              "They are packed."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"First, the young green leaves are picked\"",
+            "id": "b1-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Edilgen yapı (passive)**, eylemi **kimin yaptığı önemli değilse** ya da bilinmiyorsa kullanılır. Odak **eylemin kendisi** ya da **etkilenen şey**dir.\n\n**Present simple passive:** am / is / are + **V3**\n\n| Etken (active) | Edilgen (passive) |\n|---|---|\n| They **grow** tea in Rize. | Tea **is grown** in Rize. |\n| Workers **pick** the leaves. | The leaves **are picked**. |\n| People **drink** millions of glasses. | Millions of glasses **are drunk**. |\n\n**Olumsuz:** isn't / aren't + V3\n\n- Coffee **isn't grown** in Turkey.\n\n**Süreç anlatırken** sıralama kelimeleri kullanılır: **First**, ... **Then** ... **After that**, ... **Next**, ... **Finally**, ...",
+        "examples": [
+          {
+            "en": "Glass is made from sand.",
+            "tr": "Cam kumdan yapılır."
+          },
+          {
+            "en": "English is spoken in many countries.",
+            "tr": "İngilizce birçok ülkede konuşulur."
+          },
+          {
+            "en": "The rooms are cleaned every day.",
+            "tr": "Odalar her gün temizlenir."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-ılır / -ilir\" (yapılır, konuşulur, yetiştirilir) eki present simple passive'e denk gelir. Türkçe konuşanlar sık sık \"be\" fiilini unutur: \"Tea grown in Rize\" yanlış, \"Tea is grown in Rize\" doğru. Fiilin mutlaka V3 halinde olmasına da dikkat edin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Çay Rize'de yetiştirilir.\"",
+          "options": [
+            "Tea grows in Rize.",
+            "Tea is grown in Rize.",
+            "Tea is grow in Rize."
+          ],
+          "answerIndex": 1,
+          "explanation": "is + V3.",
+          "id": "b1-u06-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Cars are produce here.",
+            "Cars are produced here."
+          ],
+          "answerIndex": 1,
+          "explanation": "are + V3.",
+          "id": "b1-u06-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "English ___ in Australia.",
+          "options": [
+            "is spoken",
+            "are spoken",
+            "speaks"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tekil → is + V3.",
+          "id": "b1-u06-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Paper ___ made from wood.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "is + V3.",
+          "id": "b1-u06-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The leaves are ___ by hand. (pick)",
+          "answers": [
+            "picked"
+          ],
+          "explanation": "V3.",
+          "id": "b1-u06-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Millions of emails are ___ every second. (send)",
+          "answers": [
+            "sent"
+          ],
+          "explanation": "send → sent.",
+          "id": "b1-u06-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Coffee ___ grown in Turkey. (olumsuz)",
+          "answers": [
+            "isn't",
+            "is not"
+          ],
+          "explanation": "Olumsuz passive.",
+          "id": "b1-u06-l1-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "is",
+            "Glass",
+            "made",
+            "from",
+            "sand"
+          ],
+          "answer": "Glass is made from sand.",
+          "explanation": "Özne + is + V3.",
+          "translation": "Cam kumdan yapılır.",
+          "id": "b1-u06-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Olive oil is produced in many parts of Turkey. First, the olives are picked in autumn. Then they are washed and pressed.",
+          "prompt": "Zeytinler ne zaman toplanır?",
+          "options": [
+            "İlkbaharda",
+            "Sonbaharda",
+            "Yazın"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the olives are picked in autumn\"",
+          "id": "b1-u06-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"İngilizce birçok ülkede konuşulur.\"",
+          "accepted": [
+            "English is spoken in many countries.",
+            "English is spoken in many countries",
+            "English is spoken in lots of countries.",
+            "English is spoken in lots of countries",
+            "In many countries English is spoken.",
+            "In many countries English is spoken",
+            "English is spoken in a lot of countries.",
+            "English is spoken in a lot of countries"
+          ],
+          "explanation": "English is spoken in many countries.",
+          "id": "b1-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Şehrinizde ya da ülkenizde üretilen bir yiyeceğin ya da ürünün nasıl yapıldığını anlatın (ekmek, peynir, halı, zeytinyağı...). Sıralama kelimeleri ve en az 5 edilgen cümle kullanın.",
+          "modelAnswer": "Turkish delight is made from sugar, starch and water. First, the sugar and water are boiled. Then the starch is added. After that, the mixture is cooked for hours. Next, nuts or rose water are added. Finally, it is cut into small pieces and covered with powdered sugar.",
+          "rubric": [
+            "is / are + V3",
+            "Sıralama kelimeleri",
+            "V3 biçimleri doğru"
+          ]
+        },
+        "id": "b1-u06-l1-use"
+      }
+    },
+    {
+      "id": "b1-u06-l2",
+      "number": 2,
+      "title": "Kim icat etti?",
+      "goal": "Tarihteki icatları ve keşifleri past simple edilgen yapı ve by ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Tesadüfen bulunan icatlar",
+        "body": "Some of the most useful inventions in history were discovered by accident.\n\nPENICILLIN\nIn 1928, a Scottish scientist, Alexander Fleming, came back from holiday and noticed something strange in his lab. A type of mould had killed the bacteria in one of his dishes. This was the start of penicillin, and millions of lives were saved.\n\nTHE MICROWAVE OVEN\nIn 1945, an American engineer, Percy Spencer, was working with radar equipment when he realised that a chocolate bar in his pocket had melted. The first microwave oven was built soon after.\n\nVELCRO\nThe idea for Velcro came from nature. In 1941, a Swiss engineer, George de Mestral, was walking his dog when he saw small seeds stuck in the dog's fur. Velcro was designed using the same idea.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "When was penicillin discovered?",
+            "options": [
+              "In 1928",
+              "In 1945",
+              "In 1941"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"In 1928\"",
+            "id": "b1-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What gave Percy Spencer the idea for the microwave oven?",
+            "options": [
+              "A broken radar",
+              "A melted chocolate bar",
+              "A cold lunch"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a chocolate bar in his pocket had melted\"",
+            "id": "b1-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Past simple passive:** was / were + **V3**\n\n| Etken | Edilgen |\n|---|---|\n| Fleming **discovered** penicillin. | Penicillin **was discovered** by Fleming. |\n| They **built** the bridge in 1973. | The bridge **was built** in 1973. |\n| Penicillin **saved** millions of lives. | Millions of lives **were saved**. |\n\n**by + eylemi yapan**: Kimin yaptığı **önemliyse** by ile eklenir.\n\n- The telephone **was invented by** Alexander Graham Bell.\n- The World Wide Web **was invented by** Tim Berners-Lee in 1989.\n\nKimin yaptığı **belli değilse ya da önemsizse** by kullanılmaz:\n\n- My bike **was stolen** last night. (~~by someone~~)\n\n**Olumsuz:** wasn't / weren't + V3 → The car **wasn't damaged**.",
+        "examples": [
+          {
+            "en": "The Galata Bridge was rebuilt many times.",
+            "tr": "Galata Köprüsü defalarca yeniden inşa edildi."
+          },
+          {
+            "en": "Paper was invented in China about 2,000 years ago.",
+            "tr": "Kâğıt yaklaşık 2.000 yıl önce Çin'de icat edildi."
+          },
+          {
+            "en": "The first emails were sent in the 1970s.",
+            "tr": "İlk e-postalar 1970'lerde gönderildi."
+          }
+        ],
+        "turkishNote": "\"-ıldı / -ildi\" eki (icat edildi, inşa edildi) past simple passive'e denk gelir. \"Tarafından\" ise by ile verilir: \"Bell tarafından icat edildi\" → \"was invented by Bell\". Türkçede olduğu gibi İngilizcede de eylemi yapan çoğu zaman söylenmez."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Telefon Bell tarafından icat edildi.\"",
+          "options": [
+            "The telephone invented by Bell.",
+            "The telephone was invented by Bell."
+          ],
+          "answerIndex": 1,
+          "explanation": "was + V3 + by.",
+          "id": "b1-u06-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The first microwave oven ___ in the 1940s.",
+          "options": [
+            "was built",
+            "were built",
+            "built"
+          ],
+          "answerIndex": 0,
+          "explanation": "Tekil → was + V3.",
+          "id": "b1-u06-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Millions of lives ___ by penicillin.",
+          "options": [
+            "was saved",
+            "were saved"
+          ],
+          "answerIndex": 1,
+          "explanation": "Çoğul → were.",
+          "id": "b1-u06-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Penicillin was ___ by Alexander Fleming. (discover)",
+          "answers": [
+            "discovered"
+          ],
+          "explanation": "V3.",
+          "id": "b1-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The bridge was ___ in 1973. (build)",
+          "answers": [
+            "built"
+          ],
+          "explanation": "build → built.",
+          "id": "b1-u06-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "My car ___ stolen last week.",
+          "answers": [
+            "was"
+          ],
+          "explanation": "Tekil → was.",
+          "id": "b1-u06-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Luckily, nobody ___ hurt. (nobody → tekil fiil)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "nobody + was.",
+          "id": "b1-u06-l2-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Gereksiz \"by\" olan cümle:",
+          "options": [
+            "My phone was stolen.",
+            "My phone was stolen by someone."
+          ],
+          "answerIndex": 1,
+          "explanation": "Bilinmeyen kişi → by gereksiz.",
+          "id": "b1-u06-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The Hagia Sophia was built in the sixth century. It was used as a church for nearly a thousand years.",
+          "prompt": "Ayasofya ne zaman inşa edildi?",
+          "options": [
+            "Altıncı yüzyılda",
+            "On altıncı yüzyılda",
+            "Bin yıl önce"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"in the sixth century\"",
+          "id": "b1-u06-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kâğıt Çin'de icat edildi.\"",
+          "accepted": [
+            "Paper was invented in China.",
+            "Paper was invented in China",
+            "Paper was first invented in China.",
+            "Paper was first invented in China",
+            "In China paper was invented.",
+            "In China paper was invented"
+          ],
+          "explanation": "Paper was invented in China.",
+          "id": "b1-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "En önemli bulduğunuz 3 icadı seçin ve anlatın: Ne zaman, nerede, kim tarafından icat edildi ya da keşfedildi? Hayatımızı nasıl değiştirdi? Bilmediğiniz bilgileri uydurmayın; \"I'm not sure who it was invented by\" diyebilirsiniz.",
+          "modelAnswer": "I think the World Wide Web is the most important invention. It was invented by Tim Berners-Lee in 1989. Penicillin was also very important. It was discovered by Alexander Fleming in 1928, and millions of lives were saved. And the wheel. I'm not sure who it was invented by, but it was invented thousands of years ago.",
+          "rubric": [
+            "was / were + V3",
+            "by doğru kullanımı",
+            "İcat kelimeleri"
+          ]
+        },
+        "id": "b1-u06-l2-use"
+      }
+    },
+    {
+      "id": "b1-u06-l3",
+      "number": 3,
+      "title": "Etken mi, edilgen mi?",
+      "goal": "Bir cümlede neyin önemli olduğuna göre etken ya da edilgen yapıyı seçebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Müze turu",
+        "lines": [
+          {
+            "speaker": "Guide",
+            "text": "This beautiful vase was made in İznik in the sixteenth century."
+          },
+          {
+            "speaker": "Visitor",
+            "text": "Who made it?"
+          },
+          {
+            "speaker": "Guide",
+            "text": "We don't know the artist's name, unfortunately. But İznik tiles were used in many mosques and palaces."
+          },
+          {
+            "speaker": "Visitor",
+            "text": "Are they still produced today?"
+          },
+          {
+            "speaker": "Guide",
+            "text": "Yes, some local artists still make them by hand, using the old methods."
+          },
+          {
+            "speaker": "Visitor",
+            "text": "Amazing. Can we take photos?"
+          },
+          {
+            "speaker": "Guide",
+            "text": "Sorry, photos aren't allowed in this room."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where was the vase made?",
+            "options": [
+              "In Istanbul",
+              "In İznik",
+              "In Konya"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"This beautiful vase was made in İznik\"",
+            "id": "b1-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Can the visitor take photos?",
+            "options": [
+              "Yes",
+              "No"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"photos aren't allowed in this room\"",
+            "id": "b1-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Etken (active):** Eylemi **yapan** önemli ve biliniyor.\n\n- Local artists **make** the tiles by hand.\n- My grandmother **made** this cake.\n\n**Edilgen (passive):** **Eylem ya da etkilenen şey** önemli; yapan bilinmiyor, belli ya da önemsiz.\n\n| Neden passive? | Örnek |\n|---|---|\n| Yapan bilinmiyor | The vase **was made** in the 16th century. |\n| Yapan belli / önemsiz | The rubbish **is collected** on Mondays. |\n| Kurallar, resmî dil | Photos **aren't allowed**. |\n| Süreçler | The leaves **are dried**. |\n\n**Etkenden edilgene:**\n\n1. Nesne → özne olur: *the tiles*\n2. be (zamana göre) + V3: *are made*\n3. Gerekirse **by** + yapan\n\n→ Local artists make **the tiles**. → **The tiles are made** by local artists.",
+        "examples": [
+          {
+            "en": "Smoking isn't allowed in the building.",
+            "tr": "Binada sigara içmek yasaktır."
+          },
+          {
+            "en": "The rubbish is collected on Mondays.",
+            "tr": "Çöpler pazartesileri toplanır."
+          },
+          {
+            "en": "My uncle built this house.",
+            "tr": "Bu evi amcam yaptı."
+          }
+        ],
+        "turkishNote": "Türkçede de \"Bu evi amcam yaptı\" (etken) ile \"Bu ev 1980'de yapıldı\" (edilgen) arasında benzer bir seçim yaparız. İngilizcede passive Türkçeden biraz daha sık kullanılır, özellikle haberlerde, kurallarda ve bilimsel metinlerde."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Yapan önemli: Annenizin yaptığı bir kek.",
+          "options": [
+            "My mum made this cake.",
+            "This cake was made."
+          ],
+          "answerIndex": 0,
+          "explanation": "Yapan önemli → active.",
+          "id": "b1-u06-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kural:",
+          "options": [
+            "Photos aren't allowed.",
+            "People don't allow photos."
+          ],
+          "answerIndex": 0,
+          "explanation": "Kurallar → passive.",
+          "id": "b1-u06-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"They clean the rooms every day.\" → Edilgen:",
+          "options": [
+            "The rooms are cleaned every day.",
+            "The rooms were cleaned every day.",
+            "The rooms clean every day."
+          ],
+          "answerIndex": 0,
+          "explanation": "Present → are + V3.",
+          "id": "b1-u06-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Someone stole my wallet.\" → Edilgen:",
+          "options": [
+            "My wallet is stolen.",
+            "My wallet was stolen."
+          ],
+          "answerIndex": 1,
+          "explanation": "Past → was + V3.",
+          "id": "b1-u06-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Edilgen yapın: \"They speak Spanish in Mexico.\" → Spanish ___ spoken in Mexico.",
+          "answers": [
+            "is"
+          ],
+          "explanation": "is + V3.",
+          "id": "b1-u06-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Edilgen yapın: \"Picasso painted this.\" → This was painted ___ Picasso.",
+          "answers": [
+            "by"
+          ],
+          "explanation": "by + yapan.",
+          "id": "b1-u06-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Smoking isn't ___ here. (allow)",
+          "answers": [
+            "allowed"
+          ],
+          "explanation": "V3.",
+          "id": "b1-u06-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "The tiles ___ made by hand. (present, çoğul)",
+          "answers": [
+            "are"
+          ],
+          "explanation": "are + V3.",
+          "id": "b1-u06-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "This mosque was designed by Mimar Sinan, the great Ottoman architect. It was finished in 1557.",
+          "prompt": "Cami kim tarafından tasarlandı?",
+          "options": [
+            "Mimar Sinan",
+            "Bilinmiyor",
+            "Bir sultan"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"designed by Mimar Sinan\"",
+          "id": "b1-u06-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Edilgen yapın: \"They built the stadium in 2010.\"",
+          "accepted": [
+            "The stadium was built in 2010.",
+            "The stadium was built in 2010",
+            "In 2010 the stadium was built.",
+            "In 2010 the stadium was built",
+            "The stadium was built in 2010 by them.",
+            "The stadium was built in 2010 by them"
+          ],
+          "explanation": "The stadium was built in 2010.",
+          "id": "b1-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Evinizden ya da şehrinizden 4 nesneyi ya da yeri tanıtın. Bazılarında yapanı bilin (active), bazılarında bilmeyin (passive). Bir de evinizin ya da işyerinizin kurallarını passive ile söyleyin.",
+          "modelAnswer": "This rug was made in Kayseri about fifty years ago. My grandmother bought it. That bridge was built in the 1970s. My father painted this picture. At my office, food isn't allowed near the computers, and the doors are locked at 8 pm.",
+          "rubric": [
+            "Active / passive doğru seçimi",
+            "Zamana uygun be + V3",
+            "Kurallar için passive"
+          ]
+        },
+        "id": "b1-u06-l3-use"
+      }
+    },
+    {
+      "id": "b1-u06-l4",
+      "number": 4,
+      "title": "Neyden yapılmış?",
+      "goal": "Bir nesnenin malzemesini, kullanım amacını ve üretim bilgilerini sorup anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "El yapımı ürünler pazarında",
+        "lines": [
+          {
+            "speaker": "Customer",
+            "text": "This bag is lovely. What's it made of?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "It's made of recycled plastic. Believe it or not, it's made from old water bottles."
+          },
+          {
+            "speaker": "Customer",
+            "text": "Really? Where was it made?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "Here in Eskişehir, by a small group of women."
+          },
+          {
+            "speaker": "Customer",
+            "text": "And what's this little thing used for?"
+          },
+          {
+            "speaker": "Seller",
+            "text": "It's used for keeping your keys together. It's made of wood, so it's very light."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the bag made from?",
+            "options": [
+              "Old water bottles",
+              "Wood",
+              "Cotton"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"it's made from old water bottles\"",
+            "id": "b1-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What is the small wooden thing used for?",
+            "options": [
+              "Opening bottles",
+              "Keeping keys together",
+              "Decoration"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's used for keeping your keys together.\"",
+            "id": "b1-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Malzeme:**\n\n| Kalıp | Anlam | Örnek |\n|---|---|---|\n| **made of** | malzeme **görünür**, değişmemiş | The table is **made of** wood. |\n| **made from** | malzeme **dönüşmüş** | Paper is **made from** wood. / Cheese is made from milk. |\n| **made in** | üretim **yeri** | It was **made in** Italy. |\n| **made by** | **yapan** | It was **made by** hand / by a local artist. |\n\n**Amaç:** **used for** + -ing / isim\n\n- It's **used for cutting** glass.\n- It's **used for** cooking.\n\n**Edilgen sorular:** (Soru kelimesi) + be + özne + V3?\n\n| Soru | Cevap |\n|---|---|\n| What **is** it **made of**? | It's made of glass. |\n| Where **was** it **made**? | It was made in Japan. |\n| What **is** it **used for**? | It's used for opening tins. |\n| When **was** it **invented**? | It was invented in 1876. |\n| **Is** it **made** by hand? | Yes, it is. / No, it isn't. |",
+        "examples": [
+          {
+            "en": "What's this jacket made of? – It's made of leather.",
+            "tr": "Bu ceket neden yapılmış? – Deriden."
+          },
+          {
+            "en": "Yoghurt is made from milk.",
+            "tr": "Yoğurt sütten yapılır."
+          },
+          {
+            "en": "What was this tool used for?",
+            "tr": "Bu alet ne için kullanılıyordu?"
+          }
+        ],
+        "turkishNote": "Türkçede \"-dan yapılmış\" tek bir yapıyla ifade edilir, İngilizcede ise made of (malzeme görünüyor) ve made from (malzeme dönüşmüş) ayrımı vardır. Masaya bakınca ahşabı görürsünüz → made of wood. Kâğıda bakınca ağacı göremezsiniz → made from wood."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "The chair is ___ metal. (metal görünüyor)",
+          "options": [
+            "made of",
+            "made from"
+          ],
+          "answerIndex": 0,
+          "explanation": "Görünür → made of.",
+          "id": "b1-u06-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Wine is ___ grapes.",
+          "options": [
+            "made of",
+            "made from"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dönüşmüş → made from.",
+          "id": "b1-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "These shoes were made ___ Italy.",
+          "options": [
+            "in",
+            "by",
+            "of"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yer → made in.",
+          "id": "b1-u06-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru soru?",
+          "options": [
+            "What it is made of?",
+            "What is it made of?"
+          ],
+          "answerIndex": 1,
+          "explanation": "What + is + özne + V3?",
+          "id": "b1-u06-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "This knife is used ___ cutting bread.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "used for + -ing.",
+          "id": "b1-u06-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Where ___ your phone made? (geçmiş)",
+          "answers": [
+            "was"
+          ],
+          "explanation": "Where was it made?",
+          "id": "b1-u06-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Cheese is made ___ milk.",
+          "answers": [
+            "from"
+          ],
+          "explanation": "made from.",
+          "id": "b1-u06-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "This scarf was made ___ hand.",
+          "answers": [
+            "by"
+          ],
+          "explanation": "made by hand.",
+          "id": "b1-u06-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "This is a traditional coffee pot. It's made of copper and it's used for making Turkish coffee. This one was made in Gaziantep about forty years ago.",
+          "prompt": "Cezve neden yapılmış?",
+          "options": [
+            "Bakırdan",
+            "Gümüşten",
+            "Çelikten"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"It's made of copper\"",
+          "id": "b1-u06-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Soru sorun: Bir nesnenin ne için kullanıldığını öğrenmek istiyorsunuz.",
+          "accepted": [
+            "What is it used for?",
+            "What is it used for",
+            "What's it used for?",
+            "What's it used for",
+            "What is this used for?",
+            "What is this used for",
+            "What's this used for?",
+            "What's this used for",
+            "What is this thing used for?",
+            "What is this thing used for",
+            "What's this thing used for?",
+            "What's this thing used for"
+          ],
+          "explanation": "What is it used for?",
+          "id": "b1-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Evinizdeki 3 nesneyi JAI'ye tanıtın. Her biri için neden yapıldığını, nerede ve kim tarafından yapıldığını, ne için kullanıldığını söyleyin. Sonra JAI size bir nesne tarif edecek; edilgen sorular sorarak ne olduğunu bulun.",
+          "modelAnswer": "This is my tea glass. It's made of glass, and it was made in Turkey. It's used for drinking tea, of course! This rug is made of wool. It was made by hand in Isparta. ... Is it made of metal? What is it used for? Was it invented a long time ago?",
+          "rubric": [
+            "made of / from / in / by",
+            "used for + -ing",
+            "Edilgen sorular doğru"
+          ]
+        },
+        "id": "b1-u06-l4-use"
+      }
+    },
+    {
+      "id": "b1-u06-l5",
+      "number": 5,
+      "title": "Yeni bir icat",
+      "goal": "Bir ürünü ya da icadı edilgen ve etken yapıları bir arada kullanarak tanıtabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Genç mucit yarışmasının kazananı",
+        "body": "This year's Young Inventor Prize was won by 16-year-old Ada Çelik from Trabzon.\n\nAda designed a small device that warns older people when they forget to turn off the cooker. \"My grandmother lives alone, and once she left the cooker on all night,\" Ada explained. \"Luckily, nothing happened, but I was really worried.\"\n\nThe device is attached to the wall near the cooker. It is powered by a small battery and it is connected to the family's phones. If the cooker is left on for too long, a message is sent to the family.\n\nThe first 100 devices were produced last month, and they will be tested in homes in Trabzon this winter.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why did Ada design the device?",
+            "options": [
+              "For a school project",
+              "Because her grandmother once left the cooker on",
+              "To win money"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"once she left the cooker on all night\"",
+            "id": "b1-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What happens if the cooker is left on for too long?",
+            "options": [
+              "The cooker turns off.",
+              "A message is sent to the family.",
+              "An alarm calls the police."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a message is sent to the family\"",
+            "id": "b1-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Bir ürünü tanıtırken** passive ve active birlikte kullanılır:\n\n| Bilgi | Kalıp |\n|---|---|\n| Ne olduğu | It's a small device **that** warns people when ... |\n| Kim tasarladı | It **was designed by** ... |\n| Nasıl çalışıyor | It **is powered by** a battery. / It **is connected to** ... |\n| Malzeme | It**'s made of** ... |\n| Amaç | It**'s used for** + -ing |\n| Avantaj | It **saves** time / money. It's **easy to use**. |\n\n**Gelecekle ilgili bir bilgi** için (will be + V3) bir sonraki seviyelerde ayrıntılı göreceğiz; şimdilik kalıp olarak bilin:\n\n- They **will be tested** this winter. (Bu kış test edilecekler.)\n\n**Ürünü övmek:**\n\n- It's **really useful / practical / easy to use**.\n- It **makes life easier** for ...\n- **The best thing about it is** ...",
+        "examples": [
+          {
+            "en": "It's powered by solar energy.",
+            "tr": "Güneş enerjisiyle çalışır."
+          },
+          {
+            "en": "The best thing about it is that it's very light.",
+            "tr": "En iyi yanı çok hafif olması."
+          },
+          {
+            "en": "It makes life easier for people who live alone.",
+            "tr": "Yalnız yaşayan insanların hayatını kolaylaştırıyor."
+          }
+        ],
+        "turkishNote": "\"... ile çalışır\" (pille, elektrikle, güneş enerjisiyle) için İngilizcede \"works with\" yerine \"is powered by\" ya da \"runs on\" kullanılır: It's powered by a battery / It runs on batteries."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Pille çalışıyor.\"",
+          "options": [
+            "It works with battery.",
+            "It's powered by a battery."
+          ],
+          "answerIndex": 1,
+          "explanation": "powered by.",
+          "id": "b1-u06-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "The prize ___ by a 16-year-old girl.",
+          "options": [
+            "won",
+            "was won"
+          ],
+          "answerIndex": 1,
+          "explanation": "Passive → was won.",
+          "id": "b1-u06-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ada ___ the device herself.",
+          "options": [
+            "designed",
+            "was designed"
+          ],
+          "answerIndex": 0,
+          "explanation": "Yapan önemli → active.",
+          "id": "b1-u06-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "It's connected ___ your phone.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "connected to.",
+          "id": "b1-u06-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The best thing ___ it is the price.",
+          "answers": [
+            "about"
+          ],
+          "explanation": "The best thing about...",
+          "id": "b1-u06-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "It makes life ___ for older people. (kolay)",
+          "answers": [
+            "easier"
+          ],
+          "explanation": "makes life easier.",
+          "id": "b1-u06-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The first devices ___ produced last month.",
+          "answers": [
+            "were"
+          ],
+          "explanation": "Çoğul past → were.",
+          "id": "b1-u06-l5-p07"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "designed by",
+              "right": "tarafından tasarlanmış"
+            },
+            {
+              "left": "powered by",
+              "right": "... ile çalışan"
+            },
+            {
+              "left": "made of",
+              "right": "-den yapılmış"
+            },
+            {
+              "left": "used for",
+              "right": "için kullanılan"
+            },
+            {
+              "left": "easy to use",
+              "right": "kullanımı kolay"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "b1-u06-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Our new bottle is made from recycled glass. It's designed for people who exercise. The best thing about it is that it keeps water cold for 24 hours.",
+          "prompt": "Şişenin en iyi özelliği ne?",
+          "options": [
+            "Çok ucuz olması",
+            "Suyu 24 saat soğuk tutması",
+            "Çok büyük olması"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"it keeps water cold for 24 hours\"",
+          "id": "b1-u06-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Güneş enerjisiyle çalışır.\"",
+          "accepted": [
+            "It's powered by solar energy.",
+            "It's powered by solar energy",
+            "It is powered by solar energy",
+            "It is powered by solar energy.",
+            "It runs on solar energy.",
+            "It runs on solar energy",
+            "It's powered by the sun.",
+            "It's powered by the sun",
+            "It is powered by the sun",
+            "It is powered by the sun."
+          ],
+          "explanation": "It's powered by solar energy.",
+          "id": "b1-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Hayali bir icadı tanıtan kısa bir yazı yazın (120–150 kelime): Ne olduğu, kim tarafından ve neden tasarlandığı, neden yapıldığı, nasıl çalıştığı ve ne için kullanıldığı. En az 6 edilgen cümle kullanın ve etken yapıyla karıştırın.",
+          "modelAnswer": "The Smart Umbrella\n\nThe Smart Umbrella was designed by a team of students in Ankara. The idea came from one of the students. She often left her umbrella on buses.\n\nThe umbrella is made of strong, light plastic, and the handle is made from recycled metal. It is powered by a tiny battery, and it is connected to your phone. If you leave it somewhere, a message is sent to your phone immediately. The umbrella also checks the weather. When rain is expected, a small light on the handle turns blue.\n\nThe first 500 umbrellas were produced in September, and they were sold out in two days. The best thing about it is that you'll never lose your umbrella again!",
+          "rubric": [
+            "Present / past passive doğru",
+            "Active ile karışık kullanım",
+            "made of / powered by / used for",
+            "Tanıtım üslubu",
+            "Düzenli metin"
+          ]
+        },
+        "id": "b1-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Pirinç Asya'da yetiştirilir.\"",
+        "options": [
+          "Rice grows in Asia.",
+          "Rice is grown in Asia.",
+          "Rice is grow in Asia."
+        ],
+        "answerIndex": 1,
+        "explanation": "is + V3",
+        "id": "b1-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "The telephone ___ by Bell.",
+        "options": [
+          "invented",
+          "was invented",
+          "is invent"
+        ],
+        "answerIndex": 1,
+        "explanation": "was + V3",
+        "id": "b1-u06-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "These cars ___ in Germany.",
+        "options": [
+          "is made",
+          "are made"
+        ],
+        "answerIndex": 1,
+        "explanation": "Çoğul → are",
+        "id": "b1-u06-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Penicillin was discovered ___ Fleming.",
+        "options": [
+          "from",
+          "by",
+          "of"
+        ],
+        "answerIndex": 1,
+        "explanation": "by",
+        "id": "b1-u06-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Glass is made ___ sand.",
+        "options": [
+          "of",
+          "from"
+        ],
+        "answerIndex": 1,
+        "explanation": "made from",
+        "id": "b1-u06-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "The bridge was ___ in 1988. (build)",
+        "answers": [
+          "built"
+        ],
+        "explanation": "V3",
+        "id": "b1-u06-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "My bike ___ stolen yesterday.",
+        "answers": [
+          "was"
+        ],
+        "explanation": "was",
+        "id": "b1-u06-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "This tool is used ___ opening bottles.",
+        "answers": [
+          "for"
+        ],
+        "explanation": "used for",
+        "id": "b1-u06-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "Where ___ these shoes made? (geçmiş, çoğul)",
+        "answers": [
+          "were"
+        ],
+        "explanation": "were",
+        "id": "b1-u06-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Yapan önemli:",
+        "options": [
+          "My grandfather built this house.",
+          "This house was built."
+        ],
+        "answerIndex": 0,
+        "explanation": "Active",
+        "id": "b1-u06-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"They clean the office every evening.\" → Edilgen:",
+        "options": [
+          "The office is cleaned every evening.",
+          "The office was cleaned every evening."
+        ],
+        "answerIndex": 0,
+        "explanation": "Present passive",
+        "id": "b1-u06-t11"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Doğru soru:",
+        "options": [
+          "What it is made of?",
+          "What is it made of?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Soru sırası",
+        "id": "b1-u06-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "This watch was made in Switzerland in 1960. It was given to my grandfather when he retired. It's made of gold.",
+        "prompt": "Saat ne zaman yapıldı?",
+        "options": [
+          "1960'ta",
+          "Dedesi emekli olunca",
+          "Geçen yıl"
+        ],
+        "answerIndex": 0,
+        "explanation": "\"made in Switzerland in 1960\"",
+        "id": "b1-u06-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Edilgen yapın: \"Someone stole my phone last night.\"",
+        "accepted": [
+          "My phone was stolen last night.",
+          "My phone was stolen last night",
+          "Last night my phone was stolen.",
+          "Last night my phone was stolen",
+          "My phone was stolen last night by someone.",
+          "My phone was stolen last night by someone"
+        ],
+        "explanation": "My phone was stolen last night.",
+        "id": "b1-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Ülkenizden ünlü bir ürünü, yapıyı ya da yemeği tanıtan bir yazı yazın (120–150 kelime): Nerede ve nasıl yapılır, ne zaman ve kim tarafından yapıldı ya da icat edildi, ne için kullanılır? Present ve past passive, made of / from ve by kullanın.",
+        "modelAnswer": "Turkish carpets are famous all over the world. They are made in many parts of Turkey, but some of the most famous ones are made in Hereke, Kayseri and Uşak. A traditional carpet is made of wool or silk, and the colours are made from plants. Every carpet is made by hand, and a large one can take more than a year. Each carpet is different, and its patterns often tell a story about the place where it was made. In the past, carpets were used for sitting and sleeping, but today they are mainly used for decoration. Many old carpets were sold to museums, and some of them are shown in Istanbul's Turkish and Islamic Arts Museum.",
+        "rubric": [
+          "Present / past passive",
+          "made of / from / by / in",
+          "Doğru bilgi ya da belirsizlik ifadesi",
+          "Active ile denge",
+          "Düzenli metin"
+        ],
+        "id": "b1-u06-t15"
+      }
+    ]
+  }
+}
