@@ -1,0 +1,1466 @@
+{
+  "id": "a2-u07",
+  "level": "A2",
+  "number": 7,
+  "title": "Teknoloji",
+  "titleEn": "Technology",
+  "canDo": "Teknolojiyi nasıl kullandığımı anlatabilir, yeni yaptığım ya da henüz yapmadığım şeyleri söyleyebilir ve basit teknik sorunları açıklayabilirim.",
+  "grammar": [
+    "present perfect + just",
+    "present perfect + already / yet",
+    "present perfect: şimdiki sonuç (I've lost my phone)",
+    "teknik sorun ifadeleri: It doesn't work / Have you tried ...?"
+  ],
+  "vocabularyThemes": [
+    "cihazlar",
+    "internet ve uygulamalar",
+    "teknik sorunlar"
+  ],
+  "liveClass": {
+    "title": "Teknik destek hattı",
+    "durationMinutes": 45,
+    "goal": "Öğrenciler ikili çalışır: biri bir teknik sorun kartı çeker (Wi-Fi çalışmıyor, ekran dondu, şifre unutuldu), diğeri destek görevlisidir. Görevli 'Have you tried...?' ve 'Have you ... yet?' sorularıyla sorunu çözmeye çalışır. Sonra her ikili, teknolojinin hayatlarını nasıl değiştirdiğini kısaca anlatır."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u07-v01",
+      "en": "device",
+      "tr": "cihaz",
+      "example": "How many devices do you have?",
+      "exampleTr": "Kaç cihazın var?"
+    },
+    {
+      "id": "a2-u07-v02",
+      "en": "laptop",
+      "tr": "dizüstü bilgisayar",
+      "example": "I do all my work on my laptop.",
+      "exampleTr": "Bütün işimi laptopumda yapıyorum."
+    },
+    {
+      "id": "a2-u07-v03",
+      "en": "tablet",
+      "tr": "tablet",
+      "example": "My kids watch cartoons on the tablet.",
+      "exampleTr": "Çocuklarım tablette çizgi film izliyor."
+    },
+    {
+      "id": "a2-u07-v04",
+      "en": "charger",
+      "tr": "şarj aleti",
+      "example": "Have you seen my charger?",
+      "exampleTr": "Şarj aletimi gördün mü?"
+    },
+    {
+      "id": "a2-u07-v05",
+      "en": "charge",
+      "tr": "şarj etmek",
+      "example": "I need to charge my phone.",
+      "exampleTr": "Telefonumu şarj etmem lazım."
+    },
+    {
+      "id": "a2-u07-v06",
+      "en": "battery",
+      "tr": "pil, batarya",
+      "example": "My battery is almost dead.",
+      "exampleTr": "Şarjım bitmek üzere.",
+      "note": "The battery is dead = Şarj bitti."
+    },
+    {
+      "id": "a2-u07-v07",
+      "en": "app",
+      "tr": "uygulama",
+      "example": "This app helps me learn English.",
+      "exampleTr": "Bu uygulama İngilizce öğrenmeme yardım ediyor.",
+      "note": "application'ın kısası"
+    },
+    {
+      "id": "a2-u07-v08",
+      "en": "download",
+      "tr": "indirmek",
+      "example": "I've just downloaded a new app.",
+      "exampleTr": "Az önce yeni bir uygulama indirdim."
+    },
+    {
+      "id": "a2-u07-v09",
+      "en": "upload",
+      "tr": "yüklemek",
+      "example": "She uploads videos every week.",
+      "exampleTr": "Her hafta video yüklüyor."
+    },
+    {
+      "id": "a2-u07-v10",
+      "en": "install",
+      "tr": "kurmak",
+      "example": "Have you installed the update yet?",
+      "exampleTr": "Güncellemeyi kurdun mu?"
+    },
+    {
+      "id": "a2-u07-v11",
+      "en": "update",
+      "tr": "güncelleme; güncellemek",
+      "example": "There's a new update for your phone.",
+      "exampleTr": "Telefonun için yeni bir güncelleme var."
+    },
+    {
+      "id": "a2-u07-v12",
+      "en": "log in",
+      "tr": "giriş yapmak",
+      "example": "I can't log in to my account.",
+      "exampleTr": "Hesabıma giriş yapamıyorum.",
+      "note": "log out = çıkış yapmak"
+    },
+    {
+      "id": "a2-u07-v13",
+      "en": "password",
+      "tr": "şifre",
+      "example": "I've forgotten my password.",
+      "exampleTr": "Şifremi unuttum."
+    },
+    {
+      "id": "a2-u07-v14",
+      "en": "account",
+      "tr": "hesap",
+      "example": "Create a free account.",
+      "exampleTr": "Ücretsiz bir hesap oluşturun."
+    },
+    {
+      "id": "a2-u07-v15",
+      "en": "screen",
+      "tr": "ekran",
+      "example": "The screen has frozen.",
+      "exampleTr": "Ekran dondu."
+    },
+    {
+      "id": "a2-u07-v16",
+      "en": "freeze",
+      "tr": "donmak (ekran)",
+      "example": "My laptop always freezes.",
+      "exampleTr": "Laptopum hep donuyor.",
+      "note": "freeze → froze → frozen"
+    },
+    {
+      "id": "a2-u07-v17",
+      "en": "crash",
+      "tr": "çökmek",
+      "example": "The app crashed again.",
+      "exampleTr": "Uygulama yine çöktü."
+    },
+    {
+      "id": "a2-u07-v18",
+      "en": "restart",
+      "tr": "yeniden başlatmak",
+      "example": "Have you tried restarting it?",
+      "exampleTr": "Yeniden başlatmayı denedin mi?"
+    },
+    {
+      "id": "a2-u07-v19",
+      "en": "connection",
+      "tr": "bağlantı",
+      "example": "The Wi-Fi connection is very slow.",
+      "exampleTr": "Wi-Fi bağlantısı çok yavaş."
+    },
+    {
+      "id": "a2-u07-v20",
+      "en": "delete",
+      "tr": "silmek",
+      "example": "I've deleted all my old photos.",
+      "exampleTr": "Bütün eski fotoğraflarımı sildim."
+    },
+    {
+      "id": "a2-u07-v21",
+      "en": "just",
+      "tr": "az önce, yeni",
+      "example": "I've just sent you an email.",
+      "exampleTr": "Sana az önce bir e-posta gönderdim."
+    },
+    {
+      "id": "a2-u07-v22",
+      "en": "already",
+      "tr": "çoktan, zaten",
+      "example": "I've already paid.",
+      "exampleTr": "Zaten ödedim."
+    },
+    {
+      "id": "a2-u07-v23",
+      "en": "yet",
+      "tr": "henüz; ... mı (soru)",
+      "example": "Have you replied yet?",
+      "exampleTr": "Cevap verdin mi?",
+      "note": "Soru ve olumsuzda, cümle sonunda."
+    },
+    {
+      "id": "a2-u07-v24",
+      "en": "online",
+      "tr": "çevrimiçi",
+      "example": "I do my shopping online.",
+      "exampleTr": "Alışverişimi internetten yapıyorum."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u07-l1",
+      "number": 1,
+      "title": "Dijital hayatım",
+      "goal": "Hangi cihazları ve uygulamaları nasıl kullandığımı anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Anket: Teknoloji ve biz",
+        "body": "We asked 500 people in Turkey about their digital lives.\n\n• 92% use their phone first thing in the morning.\n• Most people spend about four hours a day online.\n• The most popular apps are messaging apps, social media and maps.\n• 65% do their shopping online at least once a month.\n• Only 20% switch off their phone at night.\n\n\"I can't live without my phone,\" says Merve, 22. \"I use it for everything: banking, shopping, music, and learning English!\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many people use their phone first thing in the morning?",
+            "options": [
+              "20%",
+              "65%",
+              "92%"
+            ],
+            "answerIndex": 2,
+            "explanation": "\"92% use their phone first thing in the morning.\"",
+            "id": "a2-u07-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Merve use her phone for?",
+            "options": [
+              "Only music",
+              "Everything",
+              "Only calls"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I use it for everything\"",
+            "id": "a2-u07-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Teknoloji fiilleri ve kalıplar:**\n\n| Kalıp | Örnek |\n|---|---|\n| download / upload + şey | download an app, upload a photo |\n| install / update | install an app, update the software |\n| log in to / log out of | log in to your account |\n| charge + cihaz | charge my phone |\n| switch on / switch off | switch off your phone (turn on / off da olur) |\n| send / receive | send a message, receive an email |\n| go online / be online | I'm online every evening. |\n\n**Kullanım anlatmak (present simple):**\n\n- I **use** my phone **for** banking. (use ... for + isim / -ing)\n- I **spend** two hours a day **on** social media.\n- I **can't live without** my laptop.",
+        "examples": [
+          {
+            "en": "I use my tablet for reading.",
+            "tr": "Tableti okumak için kullanıyorum."
+          },
+          {
+            "en": "I spend too much time on my phone.",
+            "tr": "Telefonda çok fazla vakit geçiriyorum."
+          },
+          {
+            "en": "Switch off your phones, please.",
+            "tr": "Telefonlarınızı kapatın lütfen."
+          }
+        ],
+        "turkishNote": "Türkçede \"telefonla oynamak\" deriz; İngilizcede \"be on my phone\" ya da \"use my phone\" denir. \"İnternette\" = online ya da on the internet (in the internet değil). \"Uygulama yüklemek\" (telefona) için download ya da install kullanılır; upload ise internete bir şey göndermektir."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "download",
+              "right": "indirmek"
+            },
+            {
+              "left": "upload",
+              "right": "yüklemek (internete)"
+            },
+            {
+              "left": "log in",
+              "right": "giriş yapmak"
+            },
+            {
+              "left": "charge",
+              "right": "şarj etmek"
+            },
+            {
+              "left": "delete",
+              "right": "silmek"
+            }
+          ],
+          "explanation": "Fiilleri eşleştirin.",
+          "id": "a2-u07-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Telefonunuza bir oyun indiriyorsunuz:",
+          "options": [
+            "upload",
+            "download"
+          ],
+          "answerIndex": 1,
+          "explanation": "Telefona → download.",
+          "id": "a2-u07-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Instagram'a bir fotoğraf koyuyorsunuz:",
+          "options": [
+            "upload",
+            "download"
+          ],
+          "answerIndex": 0,
+          "explanation": "İnternete → upload.",
+          "id": "a2-u07-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I use my phone ___ banking.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "use ... for.",
+          "id": "a2-u07-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I spend three hours a day ___ social media.",
+          "answers": [
+            "on"
+          ],
+          "explanation": "spend time on.",
+          "id": "a2-u07-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Please switch ___ your phones in the cinema.",
+          "answers": [
+            "off"
+          ],
+          "explanation": "switch off = kapatmak.",
+          "id": "a2-u07-l1-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I'm in the internet.",
+            "I'm online."
+          ],
+          "answerIndex": 1,
+          "explanation": "online / on the internet.",
+          "id": "a2-u07-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I don't watch TV anymore. I use my laptop for films and my phone for music. I can't live without them!",
+          "prompt": "Konuşan film izlemek için ne kullanıyor?",
+          "options": [
+            "Televizyon",
+            "Laptop",
+            "Telefon"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I use my laptop for films\"",
+          "id": "a2-u07-l1-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "can't",
+            "I",
+            "live",
+            "without",
+            "my",
+            "phone"
+          ],
+          "answer": "I can't live without my phone.",
+          "explanation": "can't live without + isim.",
+          "translation": "Telefonum olmadan yaşayamam.",
+          "id": "a2-u07-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Hesabıma giriş yapamıyorum.\"",
+          "accepted": [
+            "I can't log in to my account.",
+            "I can't log in to my account",
+            "I cannot log in to my account",
+            "I cannot log in to my account.",
+            "I can't log into my account.",
+            "I can't log into my account",
+            "I cannot log into my account",
+            "I cannot log into my account.",
+            "I can't sign in to my account.",
+            "I can't sign in to my account",
+            "I cannot sign in to my account",
+            "I cannot sign in to my account."
+          ],
+          "explanation": "I can't + log in to + my account.",
+          "id": "a2-u07-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Dijital hayatınızı anlatın: hangi cihazları kullanıyorsunuz, ne için kullanıyorsunuz, günde ne kadar vakit geçiriyorsunuz, en sevdiğiniz uygulama hangisi ve neden?",
+          "modelAnswer": "I have a phone and a laptop. I use my laptop for work and my phone for everything else. I spend about three hours a day on my phone. My favourite app is a map app because I travel a lot.",
+          "rubric": [
+            "Teknoloji kelimeleri",
+            "use ... for / spend ... on doğru",
+            "Present simple doğru"
+          ]
+        },
+        "id": "a2-u07-l1-use"
+      }
+    },
+    {
+      "id": "a2-u07-l2",
+      "number": 2,
+      "title": "Az önce yaptım",
+      "goal": "Present perfect ve just ile çok yakın zamanda olan şeyleri söyleyebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Ofiste",
+        "lines": [
+          {
+            "speaker": "Manager",
+            "text": "Kerem, have you got the report?"
+          },
+          {
+            "speaker": "Kerem",
+            "text": "Yes, I've just finished it. I've just sent it to you by email."
+          },
+          {
+            "speaker": "Manager",
+            "text": "Great. Oh, and the client has just called. She wants a meeting tomorrow."
+          },
+          {
+            "speaker": "Kerem",
+            "text": "No problem. I've just checked my diary. I'm free at ten."
+          },
+          {
+            "speaker": "Manager",
+            "text": "Perfect."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What has Kerem just done?",
+            "options": [
+              "He's called the client.",
+              "He's sent the report.",
+              "He's had a meeting."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've just sent it to you by email.\"",
+            "id": "a2-u07-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Who has just called?",
+            "options": [
+              "Kerem",
+              "The client",
+              "The manager's boss"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"the client has just called\"",
+            "id": "a2-u07-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**just** + present perfect → **az önce, yeni** olmuş bir şey.\n\n**Yapı:** have / has + **just** + V3\n\n- I**'ve just sent** you a message.\n- She**'s just left**.\n- The film **has just started**.\n\njust, **have/has ile V3 arasına** gelir.\n\nSonuç genellikle şu anda önemlidir: I've just eaten. (Şimdi aç değilim.)\n\n**Teknoloji fiillerinin V3'leri:**\n\n| V1 | V3 |\n|---|---|\n| send | **sent** |\n| buy | **bought** |\n| forget | **forgotten** |\n| download | download**ed** |\n| leave | **left** |",
+        "examples": [
+          {
+            "en": "I've just bought a new phone.",
+            "tr": "Yeni bir telefon aldım (az önce)."
+          },
+          {
+            "en": "The battery has just died.",
+            "tr": "Şarj az önce bitti."
+          },
+          {
+            "en": "We've just arrived at the hotel.",
+            "tr": "Otele yeni vardık."
+          }
+        ],
+        "turkishNote": "Türkçede \"az önce\" ya da \"yeni\" kelimesini fiilden önce koyarız: yeni geldim. İngilizcede just have/has ile V3 arasına girer: I've just arrived (I just have arrived değil). Amerikan İngilizcesinde \"I just arrived\" (past simple) da yaygındır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I just have arrived.",
+            "I've just arrived.",
+            "I've arrived just."
+          ],
+          "answerIndex": 1,
+          "explanation": "have + just + V3.",
+          "id": "a2-u07-l2-p01"
+        },
+        {
+          "type": "gapFill",
+          "text": "She's ___ left. You can call her later. (az önce)",
+          "answers": [
+            "just"
+          ],
+          "explanation": "just.",
+          "id": "a2-u07-l2-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've just ___ you an email. (send)",
+          "answers": [
+            "sent"
+          ],
+          "explanation": "send → sent.",
+          "id": "a2-u07-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "The film has just ___. Sit down! (start)",
+          "answers": [
+            "started"
+          ],
+          "explanation": "start → started.",
+          "id": "a2-u07-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "We've just ___ a new TV. (buy)",
+          "answers": [
+            "bought"
+          ],
+          "explanation": "buy → bought.",
+          "id": "a2-u07-l2-p05"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I've just eaten.\" Anlamı:",
+          "options": [
+            "Şimdi aç değilim.",
+            "Yemek yemeyi planlıyorum.",
+            "Hiç yemedim."
+          ],
+          "answerIndex": 0,
+          "explanation": "Az önce yedim → şu an tokum.",
+          "id": "a2-u07-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "just",
+            "I've",
+            "downloaded",
+            "a",
+            "new",
+            "app"
+          ],
+          "answer": "I've just downloaded a new app.",
+          "explanation": "have + just + V3 + nesne.",
+          "translation": "Az önce yeni bir uygulama indirdim.",
+          "id": "a2-u07-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Oh no! My laptop has just crashed and I haven't saved my work.",
+          "prompt": "Ne oldu?",
+          "options": [
+            "Laptop yeni çöktü",
+            "Laptop çalındı",
+            "İşini kaydetti"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"My laptop has just crashed\"",
+          "id": "a2-u07-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Şarjım az önce bitti.\"",
+          "accepted": [
+            "My battery has just died.",
+            "My battery has just died",
+            "My phone has just died.",
+            "My phone has just died",
+            "The battery has just died.",
+            "The battery has just died",
+            "My battery's just died.",
+            "My battery's just died"
+          ],
+          "explanation": "My battery + has just died.",
+          "id": "a2-u07-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "I've just woken up.",
+              "right": "Hâlâ uykulu."
+            },
+            {
+              "left": "I've just eaten.",
+              "right": "Aç değil."
+            },
+            {
+              "left": "She's just left.",
+              "right": "Burada değil."
+            },
+            {
+              "left": "It's just started.",
+              "right": "Başında."
+            }
+          ],
+          "explanation": "Cümleleri sonuçlarıyla eşleştirin.",
+          "id": "a2-u07-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI ile ofis arkadaşı rolündesiniz. JAI size işleri soracak. Az önce yaptığınız 4 şeyi just ile söyleyin.",
+          "modelAnswer": "I've just finished the presentation. I've just sent the email to the client. I've just had a coffee. And I've just booked the meeting room for tomorrow.",
+          "rubric": [
+            "have + just + V3 doğru",
+            "Düzensiz V3'ler doğru",
+            "Doğal tonlama"
+          ]
+        },
+        "id": "a2-u07-l2-use"
+      }
+    },
+    {
+      "id": "a2-u07-l3",
+      "number": 3,
+      "title": "Zaten mi, henüz mi?",
+      "goal": "already ve yet ile tamamlanan ve henüz tamamlanmayan işleri anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Taşınma hazırlığı",
+        "lines": [
+          {
+            "speaker": "Burcu",
+            "text": "Have you set up the internet at the new flat yet?"
+          },
+          {
+            "speaker": "Tarık",
+            "text": "Yes, I've already called the company. They're coming tomorrow."
+          },
+          {
+            "speaker": "Burcu",
+            "text": "And have you changed our address on the bank app yet?"
+          },
+          {
+            "speaker": "Tarık",
+            "text": "Not yet. I haven't had time. Have you packed the computer yet?"
+          },
+          {
+            "speaker": "Burcu",
+            "text": "Yes, I've already packed it. And I've already backed up all our photos."
+          },
+          {
+            "speaker": "Tarık",
+            "text": "Great! You're so organised."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Has Tarık changed the address on the bank app?",
+            "options": [
+              "Yes, already.",
+              "Not yet."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Not yet. I haven't had time.\"",
+            "id": "a2-u07-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What has Burcu already done?",
+            "options": [
+              "Called the company",
+              "Packed the computer and backed up photos",
+              "Changed the address"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've already packed it. And I've already backed up all our photos.\"",
+            "id": "a2-u07-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**already** → zaten, çoktan (beklenenden önce yapıldı)\n\n- Olumlu cümlede, **have/has ile V3 arasına**: I**'ve already paid**.\n\n**yet** → henüz (olumsuz), ... mı? (soru)\n\n- Olumsuz ve soruda, **cümle sonunda**:\n- I **haven't** finished **yet**. (Henüz bitirmedim.)\n- **Have** you finished **yet**? (Bitirdin mi?)\n\n**Kısa cevaplar:** Not yet. (Henüz değil.) / Yes, I've already done it.\n\n| | Konum | Cümle türü |\n|---|---|---|\n| just | have + **just** + V3 | olumlu |\n| already | have + **already** + V3 | olumlu |\n| yet | ... **yet**. | olumsuz / soru |",
+        "examples": [
+          {
+            "en": "I've already seen this video.",
+            "tr": "Bu videoyu zaten izledim."
+          },
+          {
+            "en": "Has the package arrived yet?",
+            "tr": "Paket geldi mi?"
+          },
+          {
+            "en": "I haven't installed the update yet.",
+            "tr": "Güncellemeyi henüz kurmadım."
+          }
+        ],
+        "turkishNote": "\"Have you eaten yet?\" Türkçede \"Yemek yedin mi?\" gibidir; yet burada \"henüz\" diye çevrilmez ama sorunun beklenti içerdiğini gösterir. \"Daha yemedim\" = I haven't eaten yet. already olumsuz cümlede kullanılmaz: \"I haven't already\" yanlıştır."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I've already paid.",
+            "I've paid already yet.",
+            "I already have paid yet."
+          ],
+          "answerIndex": 0,
+          "explanation": "have + already + V3.",
+          "id": "a2-u07-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Have you yet finished?",
+            "Have you finished yet?"
+          ],
+          "answerIndex": 1,
+          "explanation": "yet cümle sonunda.",
+          "id": "a2-u07-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "I haven't already done it.",
+            "I haven't done it yet."
+          ],
+          "answerIndex": 1,
+          "explanation": "Olumsuzda yet.",
+          "id": "a2-u07-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Don't buy a ticket. I've ___ bought one for you. (zaten)",
+          "answers": [
+            "already"
+          ],
+          "explanation": "already.",
+          "id": "a2-u07-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Has the package arrived ___?",
+          "answers": [
+            "yet"
+          ],
+          "explanation": "Soruda yet.",
+          "id": "a2-u07-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I haven't replied to his email ___. (henüz)",
+          "answers": [
+            "yet"
+          ],
+          "explanation": "Olumsuzda yet.",
+          "id": "a2-u07-l3-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Have you installed the update?\" (Henüz değil.)",
+          "options": [
+            "Not yet.",
+            "Already not.",
+            "Yet no."
+          ],
+          "answerIndex": 0,
+          "explanation": "Not yet.",
+          "id": "a2-u07-l3-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "haven't",
+            "I",
+            "backed",
+            "up",
+            "my",
+            "photos",
+            "yet"
+          ],
+          "answer": "I haven't backed up my photos yet.",
+          "explanation": "haven't + V3 + nesne + yet.",
+          "translation": "Fotoğraflarımı henüz yedeklemedim.",
+          "id": "a2-u07-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Have you charged the camera yet? – Yes, I've already charged it, and I've already packed the extra batteries.",
+          "prompt": "Kamera şarj edildi mi?",
+          "options": [
+            "Evet, zaten edildi",
+            "Henüz değil",
+            "Pil yok"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I've already charged it\"",
+          "id": "a2-u07-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu videoyu zaten izledim.\"",
+          "accepted": [
+            "I've already seen this video.",
+            "I've already seen this video",
+            "I have already seen this video.",
+            "I have already seen this video",
+            "I've already watched this video.",
+            "I've already watched this video",
+            "I have already watched this video.",
+            "I have already watched this video"
+          ],
+          "explanation": "I've already + seen + this video.",
+          "id": "a2-u07-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Yarın tatile çıkıyorsunuz. Bir yapılacaklar listesi düşünün ve arkadaşınıza mesaj yazın: zaten yaptığınız 3 şey (already), henüz yapmadığınız 2 şey (yet) ve ona 1 soru (yet).",
+          "modelAnswer": "Hi! I've already packed my suitcase and I've already printed our tickets. I've already charged my phone and my camera. But I haven't booked the taxi yet, and I haven't bought sun cream yet. Have you checked the weather yet?",
+          "rubric": [
+            "already doğru konumda",
+            "yet olumsuz ve soruda",
+            "V3'ler doğru"
+          ]
+        },
+        "id": "a2-u07-l3-use"
+      }
+    },
+    {
+      "id": "a2-u07-l4",
+      "number": 4,
+      "title": "Şimdiki sonuç",
+      "goal": "Geçmişte olan bir şeyin şu anki sonucunu present perfect ile anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kayıp telefon",
+        "lines": [
+          {
+            "speaker": "Eda",
+            "text": "Help! I've lost my phone!"
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "Oh no. When did you last see it?"
+          },
+          {
+            "speaker": "Eda",
+            "text": "I used it on the bus this morning. Maybe I left it there."
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "Have you called it?"
+          },
+          {
+            "speaker": "Eda",
+            "text": "Yes, but nobody answered. And someone has changed my password! I can't log in to my account."
+          },
+          {
+            "speaker": "Mehmet",
+            "text": "OK, let's call the bus company and your bank right now."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where does Eda think her phone is?",
+            "options": [
+              "At home",
+              "On the bus",
+              "At the bank"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Maybe I left it there.\" (on the bus)",
+            "id": "a2-u07-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why can't Eda log in?",
+            "options": [
+              "She's forgotten her password.",
+              "Someone has changed her password.",
+              "The internet is down."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"someone has changed my password!\"",
+            "id": "a2-u07-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Present perfect, geçmişteki bir olayın **şu anki sonucunu** vurgular. Zaman söylenmez.\n\n| Present perfect (sonuç şimdi) | Anlamı |\n|---|---|\n| I**'ve lost** my phone. | Şu an telefonum yok. |\n| He**'s broken** his arm. | Kolu şu an kırık. |\n| The price **has gone up**. | Şu an daha pahalı. |\n\nAyrıntıya geçince **past simple**:\n\n- I**'ve lost** my phone. I **left** it on the bus **this morning**.\n\n**Haber verirken** de present perfect kullanılır:\n\n- **Have** you **heard**? Apple **has released** a new phone!\n- A new café **has opened** near my house.",
+        "examples": [
+          {
+            "en": "I've forgotten my password. Can you help me?",
+            "tr": "Şifremi unuttum. Bana yardım edebilir misin?"
+          },
+          {
+            "en": "Someone has taken my charger!",
+            "tr": "Biri şarj aletimi almış!"
+          },
+          {
+            "en": "Have you heard? They've opened a new shopping centre.",
+            "tr": "Duydun mu? Yeni bir AVM açmışlar."
+          }
+        ],
+        "turkishNote": "Türkçedeki \"-miş\" eki (almışlar, açmışlar) çoğu zaman present perfect'e denk gelir, çünkü sonuca bakarak konuşuruz. \"Şifremi unuttum\" İngilizcede \"I've forgotten my password\" olur, çünkü şu an hâlâ hatırlamıyoruz."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Şu an anahtarınız yok:",
+          "options": [
+            "I lost my keys.",
+            "I've lost my keys."
+          ],
+          "answerIndex": 1,
+          "explanation": "Şimdiki sonuç → present perfect.",
+          "id": "a2-u07-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Ayrıntı: \"Dün akşam kaybettim.\"",
+          "options": [
+            "I've lost them last night.",
+            "I lost them last night."
+          ],
+          "answerIndex": 1,
+          "explanation": "last night → past simple.",
+          "id": "a2-u07-l4-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "I've ___ my password. (forget)",
+          "answers": [
+            "forgotten"
+          ],
+          "explanation": "forget → forgotten.",
+          "id": "a2-u07-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Someone has ___ my bike! (steal)",
+          "answers": [
+            "stolen"
+          ],
+          "explanation": "steal → stolen.",
+          "id": "a2-u07-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Have you ___? Our team won! (hear)",
+          "answers": [
+            "heard"
+          ],
+          "explanation": "hear → heard.",
+          "id": "a2-u07-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The price of phones ___ gone up again.",
+          "answers": [
+            "has",
+            "'s"
+          ],
+          "explanation": "price → has.",
+          "id": "a2-u07-l4-p06"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Haber vermek: \"Yeni bir kafe açılmış.\"",
+          "options": [
+            "A new café has opened.",
+            "A new café opens."
+          ],
+          "answerIndex": 0,
+          "explanation": "Haber → present perfect.",
+          "id": "a2-u07-l4-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "I can't send any messages. I think I've used all my mobile data this month.",
+          "prompt": "Konuşan neden mesaj gönderemiyor?",
+          "options": [
+            "Telefon bozuldu",
+            "Bu ayki internet paketi bitti",
+            "Şifreyi unuttu"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I've used all my mobile data this month\"",
+          "id": "a2-u07-l4-p08"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "broken",
+            "has",
+            "My",
+            "son",
+            "his",
+            "tablet",
+            "screen"
+          ],
+          "answer": "My son has broken his tablet screen.",
+          "explanation": "Özne + has + V3 + nesne.",
+          "translation": "Oğlum tabletinin ekranını kırmış.",
+          "id": "a2-u07-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Biri şarj aletimi almış!\"",
+          "accepted": [
+            "Someone has taken my charger!",
+            "Someone has taken my charger",
+            "Somebody has taken my charger!",
+            "Somebody has taken my charger",
+            "Someone's taken my charger!",
+            "Someone's taken my charger",
+            "Someone has taken my charger."
+          ],
+          "explanation": "Someone + has taken + my charger!",
+          "id": "a2-u07-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI arkadaşınız. Ona kötü bir teknoloji haberinizi present perfect ile verin (bir şey kaybettiniz / kırdınız / unuttunuz). JAI sorular sorduğunda ayrıntıları past simple ile anlatın.",
+          "modelAnswer": "I've broken my phone! I dropped it on the stairs this morning. The screen is completely black. I've already called the shop, but they can't fix it until Friday.",
+          "rubric": [
+            "Haber present perfect ile",
+            "Ayrıntılar past simple ile",
+            "Teknoloji kelimeleri"
+          ]
+        },
+        "id": "a2-u07-l4-use"
+      }
+    },
+    {
+      "id": "a2-u07-l5",
+      "number": 5,
+      "title": "Teknik destek",
+      "goal": "Bir teknik sorunu anlatabilir ve çözüm önerilerini anlayıp sunabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Destek hattı",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Hello, TechHelp. How can I help?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Hi. My internet doesn't work. The Wi-Fi light is red."
+          },
+          {
+            "speaker": "Agent",
+            "text": "OK. Have you tried restarting the modem?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Yes, I've already restarted it twice."
+          },
+          {
+            "speaker": "Agent",
+            "text": "Have you checked the cables?"
+          },
+          {
+            "speaker": "Ali",
+            "text": "Not yet. Hold on... Oh! The cable has come out. ... It's working now!"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Great. Is there anything else I can help you with?"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the problem?",
+            "options": [
+              "The modem was broken.",
+              "A cable came out.",
+              "Ali forgot the password."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The cable has come out.\"",
+            "id": "a2-u07-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How many times has Ali restarted the modem?",
+            "options": [
+              "Once",
+              "Twice",
+              "Never"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I've already restarted it twice.\"",
+            "id": "a2-u07-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Sorunu anlatmak:**\n\n- My laptop **doesn't work** / **isn't working**.\n- The screen **has frozen**. / The app **keeps crashing**.\n- I **can't** connect to the Wi-Fi / log in / open the file.\n- There's **something wrong with** my phone.\n\n**Çözüm önermek:**\n\n- **Have you tried** + -ing? → Have you tried restarting it?\n- **Try** + -ing → Try turning it off and on again.\n- You should update the app.\n\n**Kontrol soruları:**\n\n- Have you checked the cables / your password **yet**?\n- **Is it plugged in?** (Fişe takılı mı?)\n\n**Teşekkür ve kapanış:** It's working now. Thanks for your help! / Is there anything else I can help you with?",
+        "examples": [
+          {
+            "en": "There's something wrong with my laptop.",
+            "tr": "Laptopumda bir sorun var."
+          },
+          {
+            "en": "Have you tried turning it off and on again?",
+            "tr": "Kapatıp açmayı denedin mi?"
+          },
+          {
+            "en": "The app keeps crashing.",
+            "tr": "Uygulama sürekli çöküyor."
+          }
+        ],
+        "turkishNote": "\"Çalışmıyor\" İngilizcede \"doesn't work\" (genel) ya da \"isn't working\" (şu an) olabilir; ikisi de doğaldır. \"Have you tried...?\" sonrası fiil -ing alır: Have you tried restarting (Have you tried restart değil). \"keep + -ing\" = sürekli ... -mek."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Have you tried restart it?",
+            "Have you tried restarting it?"
+          ],
+          "answerIndex": 1,
+          "explanation": "tried + -ing.",
+          "id": "a2-u07-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Uygulama sürekli çöküyor.\"",
+          "options": [
+            "The app keeps crashing.",
+            "The app keeps crash.",
+            "The app is keep crashing."
+          ],
+          "answerIndex": 0,
+          "explanation": "keep + -ing.",
+          "id": "a2-u07-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "There's something wrong ___ my phone.",
+          "answers": [
+            "with"
+          ],
+          "explanation": "something wrong with.",
+          "id": "a2-u07-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ connect to the Wi-Fi. (bağlanamıyorum)",
+          "answers": [
+            "can't",
+            "cannot"
+          ],
+          "explanation": "can't + fiil.",
+          "id": "a2-u07-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "The screen has ___. I can't do anything. (freeze)",
+          "answers": [
+            "frozen"
+          ],
+          "explanation": "freeze → frozen.",
+          "id": "a2-u07-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Try ___ it off and on again. (turn)",
+          "answers": [
+            "turning"
+          ],
+          "explanation": "Try + -ing.",
+          "id": "a2-u07-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Have",
+            "checked",
+            "the",
+            "cables",
+            "yet",
+            "?"
+          ],
+          "answer": "Have you checked the cables yet?",
+          "explanation": "Have you + V3 + nesne + yet?",
+          "translation": "Kabloları kontrol ettin mi?",
+          "id": "a2-u07-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "My laptop isn't working. I've tried restarting it, and I've checked the battery. But the screen is still black.",
+          "prompt": "Konuşan ne denedi?",
+          "options": [
+            "Sadece pili",
+            "Yeniden başlatmayı ve pili kontrol etmeyi",
+            "Hiçbir şey"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"I've tried restarting it, and I've checked the battery\"",
+          "id": "a2-u07-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kapatıp açmayı denedin mi?\"",
+          "accepted": [
+            "Have you tried turning it off and on again?",
+            "Have you tried turning it off and on again",
+            "Have you tried turning it off and on?",
+            "Have you tried turning it off and on",
+            "Have you tried switching it off and on again?",
+            "Have you tried switching it off and on again",
+            "Have you tried turning it off and back on again?",
+            "Have you tried turning it off and back on again"
+          ],
+          "explanation": "Have you tried + turning it off and on again?",
+          "id": "a2-u07-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "The screen",
+              "right": "has frozen."
+            },
+            {
+              "left": "The app",
+              "right": "keeps crashing."
+            },
+            {
+              "left": "Is it",
+              "right": "plugged in?"
+            },
+            {
+              "left": "It's working",
+              "right": "now. Thanks!"
+            }
+          ],
+          "explanation": "Cümleleri tamamlayın.",
+          "id": "a2-u07-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI teknik destek görevlisi. Bir sorununuzu anlatın (yazıcı çalışmıyor, uygulama açılmıyor...). JAI'nin önerilerine already / not yet ile cevap verin ve sorun çözülünce teşekkür edin.",
+          "modelAnswer": "Hi, my printer isn't working. ... Yes, I've already restarted it. ... No, I haven't checked the cable yet. Hold on. ... Oh, it wasn't plugged in! It's working now. Thanks for your help!",
+          "rubric": [
+            "Sorunu net anlattı",
+            "already / yet doğru",
+            "Have you tried...? sorularını anladı",
+            "Kibar kapanış"
+          ]
+        },
+        "id": "a2-u07-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Telefona oyun indirmek:",
+        "options": [
+          "upload",
+          "download"
+        ],
+        "answerIndex": 1,
+        "explanation": "download",
+        "id": "a2-u07-t01"
+      },
+      {
+        "type": "gapFill",
+        "text": "I spend two hours a day ___ social media.",
+        "answers": [
+          "on"
+        ],
+        "explanation": "spend ... on",
+        "id": "a2-u07-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I just have sent it.",
+          "I've just sent it."
+        ],
+        "answerIndex": 1,
+        "explanation": "have + just + V3",
+        "id": "a2-u07-t03"
+      },
+      {
+        "type": "gapFill",
+        "text": "She's just ___. You missed her. (leave)",
+        "answers": [
+          "left"
+        ],
+        "explanation": "leave → left",
+        "id": "a2-u07-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I've already paid.",
+          "I've paid already yet."
+        ],
+        "answerIndex": 0,
+        "explanation": "already",
+        "id": "a2-u07-t05"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Have you yet replied?",
+          "Have you replied yet?"
+        ],
+        "answerIndex": 1,
+        "explanation": "yet sonda",
+        "id": "a2-u07-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "I haven't installed the update ___.",
+        "answers": [
+          "yet"
+        ],
+        "explanation": "yet",
+        "id": "a2-u07-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Have you finished?\" (Henüz değil.)",
+        "options": [
+          "Not yet.",
+          "Yet not."
+        ],
+        "answerIndex": 0,
+        "explanation": "Not yet.",
+        "id": "a2-u07-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I've ___ my password. (forget)",
+        "answers": [
+          "forgotten"
+        ],
+        "explanation": "forget → forgotten",
+        "id": "a2-u07-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "I've lost my phone yesterday.",
+          "I lost my phone yesterday."
+        ],
+        "answerIndex": 1,
+        "explanation": "yesterday → past simple",
+        "id": "a2-u07-t10"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Have you tried restart it?",
+          "Have you tried restarting it?"
+        ],
+        "answerIndex": 1,
+        "explanation": "tried + -ing",
+        "id": "a2-u07-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "The app keeps ___. (crash)",
+        "answers": [
+          "crashing"
+        ],
+        "explanation": "keep + -ing",
+        "id": "a2-u07-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Have you heard? The new metro line has just opened. It goes from the airport to the city centre.",
+        "prompt": "Ne haber veriliyor?",
+        "options": [
+          "Yeni havalimanı açıldı",
+          "Yeni metro hattı açıldı",
+          "Metro kapandı"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"The new metro line has just opened.\"",
+        "id": "a2-u07-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Laptopumda bir sorun var.\"",
+        "accepted": [
+          "There's something wrong with my laptop.",
+          "There's something wrong with my laptop",
+          "There is something wrong with my laptop",
+          "There is something wrong with my laptop.",
+          "Something is wrong with my laptop.",
+          "Something is wrong with my laptop",
+          "Something's wrong with my laptop.",
+          "Something's wrong with my laptop"
+        ],
+        "explanation": "There's something wrong with + my laptop.",
+        "id": "a2-u07-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir teknik destek ekibine e-posta yazın (60–80 kelime): sorunu anlatın, zaten denediğiniz şeyleri (already) ve henüz yapmadığınızı (yet) söyleyin ve yardım isteyin.",
+        "modelAnswer": "Dear TechHelp,\nI have a problem with my new laptop. The screen keeps freezing and the camera doesn't work. I've already restarted it many times and I've already installed the latest update. I haven't tried deleting any apps yet because I'm not sure which ones are important. Can you help me, please?\nBest wishes,\nSeda Arslan",
+        "rubric": [
+          "Sorun net anlatıldı",
+          "already / yet doğru",
+          "Present perfect doğru",
+          "Kibar e-posta yapısı"
+        ],
+        "id": "a2-u07-t15"
+      }
+    ]
+  }
+}
