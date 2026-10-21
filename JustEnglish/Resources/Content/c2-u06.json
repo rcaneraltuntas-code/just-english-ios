@@ -1,0 +1,1401 @@
+{
+  "id": "c2-u06",
+  "level": "C2",
+  "number": 6,
+  "title": "Sokak dili",
+  "titleEn": "Everyday Slang",
+  "canDo": "Hızlı konuşmadaki indirgenmiş biçimleri (gonna, wanna, dunno, didja) anlayabilir, İngiliz ve Amerikan argosunun yaygın kelimelerini tanıyabilir, mesajlaşma kısaltmalarını ve güncel internet dilini çözebilir, standart dışı dilbilgisi özelliklerini (ain't, innit, she was like) anlayıp bağlamını değerlendirebilir ve hangi ifadenin nerede uygun olduğuna karar verebilirim.",
+  "grammar": [
+    "hızlı konuşmada indirgenmiş biçimler",
+    "İngiliz ve Amerikan argosu",
+    "mesajlaşma kısaltmaları ve internet dili",
+    "standart dışı dilbilgisi: ain't, innit, be like",
+    "argo ve üslup farkındalığı"
+  ],
+  "vocabularyThemes": [
+    "gençlik kültürü",
+    "diziler ve filmler",
+    "sosyal medya"
+  ],
+  "liveClass": {
+    "title": "Dizi sahnesini çöz",
+    "durationMinutes": 45,
+    "goal": "Öğretmen bir dizi ya da filmden (öğretmenin seçeceği, öğrenciler için uygun) argo ve hızlı konuşma içeren kısa bir sahne gösterir. Gruplar sahnedeki indirgenmiş biçimleri ve argo ifadeleri yazıya döker ve standart İngilizceye çevirir. Sonra gruplar aynı sahneyi önce standart İngilizceyle, sonra argo ile canlandırır ve hangi bağlamda hangisinin uygun olduğunu tartışır."
+  },
+  "vocabulary": [
+    {
+      "id": "c2-u06-v01",
+      "en": "slang",
+      "tr": "argo",
+      "example": "Slang changes very quickly.",
+      "exampleTr": "Argo çok hızlı değişir."
+    },
+    {
+      "id": "c2-u06-v02",
+      "en": "gonna / wanna / gotta",
+      "tr": "going to / want to / got to",
+      "example": "I'm gonna be late.",
+      "exampleTr": "Geç kalacağım.",
+      "note": "Sadece samimi konuşmada ve mesajlarda; resmî yazıda asla."
+    },
+    {
+      "id": "c2-u06-v03",
+      "en": "dunno",
+      "tr": "don't know",
+      "example": "\"Where is he?\" \"Dunno.\"",
+      "exampleTr": "\"Nerede o?\" \"Bilmem.\""
+    },
+    {
+      "id": "c2-u06-v04",
+      "en": "mate",
+      "tr": "kanka, dostum (BrE)",
+      "example": "Cheers, mate!",
+      "exampleTr": "Sağ ol, kanka!"
+    },
+    {
+      "id": "c2-u06-v05",
+      "en": "dude",
+      "tr": "dostum, adamım (AmE)",
+      "example": "Dude, that was amazing!",
+      "exampleTr": "Dostum, harikaydı!"
+    },
+    {
+      "id": "c2-u06-v06",
+      "en": "knackered",
+      "tr": "çok yorgun, bitkin (BrE)",
+      "example": "I'm absolutely knackered.",
+      "exampleTr": "Tamamen bittim."
+    },
+    {
+      "id": "c2-u06-v07",
+      "en": "gutted",
+      "tr": "çok üzgün, hayal kırıklığına uğramış (BrE)",
+      "example": "I was gutted when we lost.",
+      "exampleTr": "Kaybettiğimizde yıkıldım."
+    },
+    {
+      "id": "c2-u06-v08",
+      "en": "quid",
+      "tr": "sterlin (BrE)",
+      "example": "It cost me twenty quid.",
+      "exampleTr": "Bana yirmi sterline patladı.",
+      "note": "Çoğulu da quid: ✗ quids."
+    },
+    {
+      "id": "c2-u06-v09",
+      "en": "bucks",
+      "tr": "dolar (AmE)",
+      "example": "Can you lend me ten bucks?",
+      "exampleTr": "Bana on dolar borç verebilir misin?"
+    },
+    {
+      "id": "c2-u06-v10",
+      "en": "sorted",
+      "tr": "halledildi (BrE)",
+      "example": "Don't worry, it's sorted.",
+      "exampleTr": "Merak etme, halloldu."
+    },
+    {
+      "id": "c2-u06-v11",
+      "en": "cheeky",
+      "tr": "şımarık ama sevimli, yüzsüz (BrE)",
+      "example": "Fancy a cheeky coffee?",
+      "exampleTr": "Hadi bir kahve kaçamağı yapalım mı?"
+    },
+    {
+      "id": "c2-u06-v12",
+      "en": "legit",
+      "tr": "gerçek, sahiden (samimi)",
+      "example": "Is this website legit?",
+      "exampleTr": "Bu site güvenilir mi?"
+    },
+    {
+      "id": "c2-u06-v13",
+      "en": "to ghost someone",
+      "tr": "birini aniden yok saymak, cevap vermemek",
+      "example": "He ghosted me after our second date.",
+      "exampleTr": "İkinci buluşmamızdan sonra bana bir daha dönmedi."
+    },
+    {
+      "id": "c2-u06-v14",
+      "en": "lowkey",
+      "tr": "biraz, gizliden (internet dili)",
+      "example": "I'm lowkey nervous about tomorrow.",
+      "exampleTr": "Yarın için biraz gerginim."
+    },
+    {
+      "id": "c2-u06-v15",
+      "en": "sus",
+      "tr": "şüpheli (internet dili)",
+      "example": "That email looks sus.",
+      "exampleTr": "O e-posta şüpheli görünüyor."
+    },
+    {
+      "id": "c2-u06-v16",
+      "en": "cringe",
+      "tr": "utandırıcı, rezil (internet dili)",
+      "example": "His dance moves were so cringe.",
+      "exampleTr": "Dansı çok utandırıcıydı."
+    },
+    {
+      "id": "c2-u06-v17",
+      "en": "vibe",
+      "tr": "hava, enerji, atmosfer",
+      "example": "This café has a great vibe.",
+      "exampleTr": "Bu kafenin havası harika."
+    },
+    {
+      "id": "c2-u06-v18",
+      "en": "ain't",
+      "tr": "am not / isn't / haven't (standart dışı)",
+      "example": "It ain't over yet.",
+      "exampleTr": "Daha bitmedi.",
+      "note": "Standart dışı; şarkılarda, filmlerde ve bazı lehçelerde yaygın."
+    },
+    {
+      "id": "c2-u06-v19",
+      "en": "innit",
+      "tr": "değil mi? (Londra argosu)",
+      "example": "It's cold, innit?",
+      "exampleTr": "Soğuk, değil mi?"
+    },
+    {
+      "id": "c2-u06-v20",
+      "en": "be like",
+      "tr": "demek (alıntı, samimi)",
+      "example": "And she was like, \"No way!\"",
+      "exampleTr": "O da \"Yok artık!\" dedi."
+    },
+    {
+      "id": "c2-u06-v21",
+      "en": "tbh",
+      "tr": "to be honest (dürüst olmak gerekirse)",
+      "example": "tbh I didn't like the film.",
+      "exampleTr": "Dürüst olmak gerekirse filmi beğenmedim."
+    },
+    {
+      "id": "c2-u06-v22",
+      "en": "ngl",
+      "tr": "not gonna lie (yalan yok)",
+      "example": "ngl that was really good.",
+      "exampleTr": "Yalan yok, gerçekten iyiydi."
+    },
+    {
+      "id": "c2-u06-v23",
+      "en": "register awareness",
+      "tr": "üslup farkındalığı",
+      "example": "Register awareness helps you choose the right words.",
+      "exampleTr": "Üslup farkındalığı doğru kelimeleri seçmenize yardım eder."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "c2-u06-l1",
+      "number": 1,
+      "title": "Hızlı konuşmanın sesleri",
+      "goal": "Hızlı ve samimi konuşmadaki indirgenmiş biçimleri (gonna, wanna, gotta, dunno, lemme, gimme, didja, whatcha) anlayabilir ve standart İngilizceye çevirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Kampüste",
+        "lines": [
+          {
+            "speaker": "Jake",
+            "text": "Hey! Whatcha doing later?"
+          },
+          {
+            "speaker": "Mia",
+            "text": "Dunno yet. Gotta finish my essay first. Why?"
+          },
+          {
+            "speaker": "Jake",
+            "text": "Wanna grab some food? There's this new place near the station."
+          },
+          {
+            "speaker": "Mia",
+            "text": "Ooh, sounds good. Lemme check my messages... OK, I'm free after seven."
+          },
+          {
+            "speaker": "Jake",
+            "text": "Cool. Didja hear about Sam, by the way?"
+          },
+          {
+            "speaker": "Mia",
+            "text": "No, what?"
+          },
+          {
+            "speaker": "Jake",
+            "text": "He's gonna move to Canada. Kinda crazy, right?"
+          },
+          {
+            "speaker": "Mia",
+            "text": "No way! Gimme a sec, I'm gonna text him right now."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Mia have to do first?",
+            "options": [
+              "Go to the station",
+              "Finish her essay",
+              "Call Sam"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"Gotta finish my essay first.\"",
+            "id": "c2-u06-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What news does Jake share?",
+            "options": [
+              "Sam is moving to Canada.",
+              "A new restaurant has closed.",
+              "Mia passed her exam."
+            ],
+            "answerIndex": 0,
+            "explanation": "\"He's gonna move to Canada.\"",
+            "id": "c2-u06-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Hızlı ve samimi konuşmada kelimeler **birleşir** ve **kısalır**. Bu biçimler ders kitaplarında az yer alır ama dizilerde, filmlerde ve günlük konuşmada **çok yaygındır**.\n\n**Yaygın indirgenmiş biçimler:**\n\n| İndirgenmiş | Standart | Örnek |\n|---|---|---|\n| **gonna** | going to | *I'm **gonna** text him.* |\n| **wanna** | want to / want a | ***Wanna** grab some food?* |\n| **gotta** | (have) got to / got a | *I **gotta** go.* |\n| **dunno** | (I) don't know | ***Dunno** yet.* |\n| **kinda / sorta** | kind of / sort of | *That's **kinda** crazy.* |\n| **lemme** | let me | ***Lemme** check.* |\n| **gimme** | give me | ***Gimme** a sec.* |\n| **whatcha** | what are you / what have you | ***Whatcha** doing?* |\n| **didja** | did you | ***Didja** hear?* |\n| **ya** | you | *See **ya**!* |\n| **'cause / cos** | because | *I left **'cause** I was tired.* |\n| **outta** | out of | *Get **outta** here!* |\n| **lotta** | a lot of | *That's a **lotta** money.* |\n| **y'all** | you all (Güney ABD) | *Are **y'all** coming?* |\n\n**Önemli:**\n\n- **gonna** sadece \"gelecek\" anlamında: *I'm gonna call* (✓), ama *I'm going to London* → ✗ *I'm gonna London*.\n- Bu biçimleri **anlamak** her İngilizce konuşan için önemlidir. **Kullanmak** ise sadece **samimi** konuşma ve mesajlarda uygundur.\n- **Resmî yazıda, sınavlarda ve iş e-postalarında asla kullanmayın.**",
+        "examples": [
+          {
+            "en": "I'm gonna be late. (= I'm going to be late.)",
+            "tr": "Geç kalacağım."
+          },
+          {
+            "en": "Whatcha gonna do? (= What are you going to do?)",
+            "tr": "Ne yapacaksın?"
+          },
+          {
+            "en": "Lemme know if you wanna come. (= Let me know if you want to come.)",
+            "tr": "Gelmek istersen haber ver."
+          }
+        ],
+        "turkishNote": "Türkçede de hızlı konuşmada benzer kısalmalar olur: \"geliyorum\" → \"geliyom\", \"bilmiyorum\" → \"bilmiyom\", \"ne yapıyorsun\" → \"napıyon\". İngilizcedeki \"gonna\", \"wanna\", \"dunno\" da aynı mantıkla oluşur. Türk öğrencilerin İngilizce dizi izlerken en çok zorlandığı nokta bu biçimlerdir. Bunları tanımak dinleme becerinizi büyük ölçüde geliştirir. Ancak tıpkı Türkçede resmî bir dilekçeye \"napıyon\" yazmayacağınız gibi, İngilizce resmî yazıda da bu biçimleri kullanmayın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Wanna come?\" standart hali:",
+          "options": [
+            "Do you want to come?",
+            "Will you come?"
+          ],
+          "answerIndex": 0,
+          "explanation": "wanna = want to.",
+          "id": "c2-u06-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Dunno.\" standart hali:",
+          "options": [
+            "I don't know.",
+            "Don't go."
+          ],
+          "answerIndex": 0,
+          "explanation": "dunno.",
+          "id": "c2-u06-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I gotta go.\" anlamı:",
+          "options": [
+            "Gitmem lazım.",
+            "Gidebilirim."
+          ],
+          "answerIndex": 0,
+          "explanation": "gotta = have got to.",
+          "id": "c2-u06-l1-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Nerede kullanılmaz?",
+          "options": [
+            "Arkadaşa mesajda",
+            "İş başvurusu mektubunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "Resmî yazı.",
+          "id": "c2-u06-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"Lemme see.\" → ___ me see.",
+          "answers": [
+            "Let"
+          ],
+          "explanation": "let me.",
+          "id": "c2-u06-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"Gimme a minute.\" → ___ me a minute.",
+          "answers": [
+            "Give"
+          ],
+          "explanation": "give me.",
+          "id": "c2-u06-l1-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"Whatcha doing?\" → What ___ you doing?",
+          "answers": [
+            "are"
+          ],
+          "explanation": "what are you.",
+          "id": "c2-u06-l1-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"It's kinda cold.\" → It's ___ of cold.",
+          "answers": [
+            "kind"
+          ],
+          "explanation": "kind of.",
+          "id": "c2-u06-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hey, didja see the game last night? We're gonna watch the final at Tom's place on Saturday. Wanna come? Lemme know by Friday, 'cause he's gotta buy the snacks.",
+          "prompt": "Neden cumaya kadar haber vermek gerekiyor?",
+          "options": [
+            "Tom'un atıştırmalık alması gerektiği için",
+            "Maç cuma olduğu için",
+            "Biletler tükeneceği için"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"'cause he's gotta buy the snacks\"",
+          "id": "c2-u06-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Standart İngilizceye çevirin: \"I dunno what I'm gonna do.\"",
+          "accepted": [
+            "I don't know what I'm going to do.",
+            "I don't know what I'm going to do",
+            "I don't know what I am going to do",
+            "I do not know what I'm going to do",
+            "I do not know what I'm going to do.",
+            "I don't know what I am going to do.",
+            "I do not know what I am going to do",
+            "I do not know what I am going to do."
+          ],
+          "explanation": "I don't know what I'm going to do.",
+          "id": "c2-u06-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki standart cümleleri, bir arkadaşınızla hızlı ve samimi konuşuyormuş gibi indirgenmiş biçimlerle sesli söyleyin, sonra her birinin ne zaman uygun olmayacağını tek cümleyle açıklayın: (1) What are you going to do this weekend? (2) I don't know. I have got to work on Saturday. (3) Do you want to get a coffee? (4) Let me check my calendar. (5) Give me a second.",
+          "modelAnswer": "One: Whatcha gonna do this weekend? Two: Dunno. Gotta work on Saturday. Three: Wanna get a coffee? Four: Lemme check my calendar. Five: Gimme a sec. These forms are fine with friends or in casual messages, but I'd never use them in a job interview, a formal email or an exam essay, because they would sound careless and unprofessional.",
+          "rubric": [
+            "Doğru indirgenmiş biçimler",
+            "Doğal telaffuz",
+            "Üslup farkındalığı",
+            "Akıcılık"
+          ]
+        },
+        "id": "c2-u06-l1-use"
+      }
+    },
+    {
+      "id": "c2-u06-l2",
+      "number": 2,
+      "title": "İngiliz ve Amerikan argosu",
+      "goal": "Yaygın İngiliz (mate, knackered, gutted, quid, sorted) ve Amerikan (dude, bucks, awesome, beat, bummed) argo kelimelerini tanıyıp anlamlarını bağlamdan çıkarabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "İki arkadaştan mesajlar",
+        "body": "From Ollie (London):\n\"Alright mate? Totally knackered after work today. Gutted about the match, can't believe we lost! Fancy a cheeky pint on Friday? I'll sort the tickets for the gig. Only 15 quid each. Brilliant, innit?\"\n\nFrom Tyler (California):\n\"Hey dude! I'm so beat after work. Totally bummed about the game, can't believe we lost! Wanna hang out on Friday? I'll get the tickets for the show. Only 15 bucks each. Awesome, right?\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How do both friends feel after work?",
+            "options": [
+              "Very tired",
+              "Excited",
+              "Angry"
+            ],
+            "answerIndex": 0,
+            "explanation": "knackered / beat.",
+            "id": "c2-u06-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How much are the tickets?",
+            "options": [
+              "15 pounds / 15 dollars",
+              "50 pounds / 50 dollars",
+              "Free"
+            ],
+            "answerIndex": 0,
+            "explanation": "15 quid / 15 bucks.",
+            "id": "c2-u06-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Aynı anlam, iki argo:**\n\n| Anlam | İngiliz (BrE) | Amerikan (AmE) |\n|---|---|---|\n| arkadaş, dostum | **mate** | **dude, buddy, bro** |\n| çok yorgun | **knackered, shattered** | **beat, wiped (out)** |\n| hayal kırıklığına uğramış | **gutted** | **bummed (out)** |\n| para birimi | **quid** (£) | **bucks** ($) |\n| harika | **brilliant, wicked, top** | **awesome, rad, sick** |\n| halletmek / halledildi | **sort (out) / sorted** | **figure out / handled** |\n| Selam, nasılsın? | **Alright? / You alright?** | **What's up? / Sup?** |\n| takılmak | **hang out** (her ikisi), **chill** | **hang out, chill** |\n| kızgın | **cross, fuming** | **mad** |\n\n**Tuzaklar!**\n\n| Kelime | BrE anlamı | AmE anlamı |\n|---|---|---|\n| **pants** | iç çamaşırı; kötü (*That film was pants.*) | pantolon |\n| **chips** | patates kızartması (AmE: *fries*) | cips (BrE: *crisps*) |\n\n**Not:** Bazı argo kelimeler bir ülkede masum, diğerinde kaba olabilir; emin değilseniz **nötr** kelimeyi seçin.\n\n**Cheeky (BrE):** Hem \"yüzsüz, şımarık\" (*Don't be cheeky!*) hem de \"küçük, keyifli bir kaçamak\" (*a cheeky coffee*) anlamına gelir.",
+        "examples": [
+          {
+            "en": "I'm absolutely shattered. I'm going to bed.",
+            "tr": "Tamamen bittim. Yatmaya gidiyorum."
+          },
+          {
+            "en": "That was a wicked concert!",
+            "tr": "Harika bir konserdi!"
+          },
+          {
+            "en": "Don't worry about the car. It's all sorted.",
+            "tr": "Araba için merak etme. Her şey halloldu."
+          }
+        ],
+        "turkishNote": "Türkçede de bölgesel ve kuşaksal argo farkları vardır (\"kanka\", \"moruk\", \"abi\"). İngilizcede İngiliz ve Amerikan argosu arasındaki fark çok büyüktür ve dizi izlerken bu farkı bilmek çok yardımcı olur. Türk öğrencilerin dikkat etmesi gereken önemli bir nokta, bazı kelimelerin iki ülkede farklı anlamlara gelmesidir. Örneğin İngiltere'de \"pants\" iç çamaşırıdır; bir İngiliz'e \"I like your pants\" demek komik bir duruma yol açabilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I'm knackered.\" anlamı:",
+          "options": [
+            "Çok yorgunum.",
+            "Çok mutluyum."
+          ],
+          "answerIndex": 0,
+          "explanation": "knackered.",
+          "id": "c2-u06-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I was gutted.\" anlamı:",
+          "options": [
+            "Çok üzüldüm / yıkıldım.",
+            "Çok acıktım."
+          ],
+          "answerIndex": 0,
+          "explanation": "gutted.",
+          "id": "c2-u06-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Amerikan argosunda \"çok yorgun\":",
+          "options": [
+            "beat",
+            "gutted"
+          ],
+          "answerIndex": 0,
+          "explanation": "beat.",
+          "id": "c2-u06-l2-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İngiltere'de \"pants\":",
+          "options": [
+            "pantolon",
+            "iç çamaşırı"
+          ],
+          "answerIndex": 1,
+          "explanation": "BrE pants.",
+          "id": "c2-u06-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It only cost me five ___. (BrE: sterlin)",
+          "answers": [
+            "quid"
+          ],
+          "explanation": "quid.",
+          "id": "c2-u06-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Can you lend me twenty ___? (AmE: dolar)",
+          "answers": [
+            "bucks"
+          ],
+          "explanation": "bucks.",
+          "id": "c2-u06-l2-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Cheers, ___! See you tomorrow. (BrE: kanka)",
+          "answers": [
+            "mate"
+          ],
+          "explanation": "mate.",
+          "id": "c2-u06-l2-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Don't worry, it's all ___. (BrE: halledildi)",
+          "answers": [
+            "sorted"
+          ],
+          "explanation": "sorted.",
+          "id": "c2-u06-l2-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Alright, mate? Listen, I'm totally shattered, so I'm not gonna make it tonight. Gutted, 'cause I really wanted to see the band. But I'll sort out tickets for the next gig, yeah?",
+          "prompt": "Konuşan neden bu akşam gelmiyor?",
+          "options": [
+            "Çok yorgun olduğu için",
+            "Parası olmadığı için",
+            "Grubu sevmediği için"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"I'm totally shattered\"",
+          "id": "c2-u06-l2-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "mate",
+              "right": "dude"
+            },
+            {
+              "left": "knackered",
+              "right": "beat"
+            },
+            {
+              "left": "gutted",
+              "right": "bummed"
+            },
+            {
+              "left": "quid",
+              "right": "bucks"
+            },
+            {
+              "left": "brilliant",
+              "right": "awesome"
+            }
+          ],
+          "explanation": "Her İngiliz argo kelimesini Amerikan karşılığıyla eşleştirin.",
+          "id": "c2-u06-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Bir arkadaşınıza sesli mesaj bırakın (45 saniye): Bugün çok yorucu bir gün geçirdiniz, sevdiğiniz takım kaybetti ve hafta sonu için bir plan öneriyorsunuz. Mesajı iki kez söyleyin: (1) İngiliz argosuyla (mate, knackered, gutted, quid, sorted, brilliant) (2) Amerikan argosuyla (dude, beat, bummed, bucks, awesome).",
+          "modelAnswer": "British version: Alright mate? I'm absolutely knackered. Work was mad today. And I'm gutted about the match. Can't believe we lost in the last minute! Anyway, fancy going to that food festival on Saturday? It's only ten quid to get in. I'll sort the train tickets. Brilliant, yeah? Text me back! American version: Hey dude! I'm so beat. Work was crazy today. And I'm totally bummed about the game. Can't believe we lost in the last minute! Anyway, wanna check out that food festival on Saturday? It's only ten bucks to get in. I'll get the train tickets. Awesome, right? Text me back!",
+          "rubric": [
+            "İngiliz argosu",
+            "Amerikan argosu",
+            "Doğal ve samimi ton",
+            "Telaffuz"
+          ]
+        },
+        "id": "c2-u06-l2-use"
+      }
+    },
+    {
+      "id": "c2-u06-l3",
+      "number": 3,
+      "title": "Mesajlaşma ve internet dili",
+      "goal": "Yaygın mesajlaşma kısaltmalarını (tbh, ngl, idk, imo, btw, brb, fyi) ve güncel internet dilini (lowkey, sus, cringe, ghost, vibe, flex) anlayabilir ve bunların ne kadar çabuk eskiyebildiğinin farkında olabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Grup sohbeti",
+        "lines": [
+          {
+            "speaker": "Zara",
+            "text": "omg did u see Leo's post?? 😂"
+          },
+          {
+            "speaker": "Ben",
+            "text": "lol yes. ngl his dance was kinda cringe"
+          },
+          {
+            "speaker": "Zara",
+            "text": "tbh I lowkey loved it. the vibe was immaculate ✨"
+          },
+          {
+            "speaker": "Ben",
+            "text": "fair. btw did Ella ever reply to u?"
+          },
+          {
+            "speaker": "Zara",
+            "text": "nope. she totally ghosted me 🙄"
+          },
+          {
+            "speaker": "Ben",
+            "text": "that's sus. idk what's going on with her"
+          },
+          {
+            "speaker": "Zara",
+            "text": "imo she's just busy with exams. anyway brb, mum's calling"
+          },
+          {
+            "speaker": "Ben",
+            "text": "np, ttyl 👋"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What does Zara think of Leo's dance?",
+            "options": [
+              "She hated it.",
+              "She secretly loved it.",
+              "She didn't see it."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"I lowkey loved it\"",
+            "id": "c2-u06-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Why does Zara think Ella hasn't replied?",
+            "options": [
+              "She is angry.",
+              "She is probably busy with exams.",
+              "She lost her phone."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"imo she's just busy with exams\"",
+            "id": "c2-u06-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**1. Mesajlaşma kısaltmaları:**\n\n| Kısaltma | Açılımı | Türkçe |\n|---|---|---|\n| **lol** | laughing out loud | çok komik (genelde sadece gülümseme) |\n| **omg** | oh my God | aman Tanrım |\n| **tbh** | to be honest | dürüst olmak gerekirse |\n| **ngl** | not gonna lie | yalan yok |\n| **idk** | I don't know | bilmiyorum |\n| **imo / imho** | in my (humble) opinion | bence |\n| **btw** | by the way | bu arada |\n| **fyi** | for your information | bilgin olsun |\n| **brb** | be right back | hemen geliyorum |\n| **ttyl** | talk to you later | sonra konuşuruz |\n| **np** | no problem | sorun değil |\n| **irl** | in real life | gerçek hayatta |\n| **smh** | shaking my head | (hayal kırıklığı) |\n| **u / r / ur** | you / are / your | sen / -sin / senin |\n\n**2. Güncel internet dili (2010'lar–2020'ler):**\n\n| İfade | Anlam |\n|---|---|\n| **lowkey / highkey** | biraz, gizliden / açıkça, çok |\n| **sus** | şüpheli (*suspicious*) |\n| **cringe** | utandırıcı |\n| **ghost (someone)** | birine aniden cevap vermeyi bırakmak |\n| **vibe** | hava, atmosfer, enerji |\n| **flex** | hava atmak, gösteriş yapmak |\n| **salty** | küskün, alıngan |\n| **spill the tea** | dedikoduyu anlat |\n| **no cap** | yalan yok, gerçekten |\n| **slay** | harika yapmak |\n\n**Dikkat:**\n\n- İnternet dili **çok hızlı eskir**. Bugün popüler olan bir ifade birkaç yıl sonra **eski moda** hatta **komik** görünebilir.\n- Yaşınıza ve ortama uymayan argo kullanmak **zorlama** görünebilir.\n- Bu kelimeleri **anlamak** önemlidir; kullanmak ise tamamen **isteğe bağlıdır**.\n- **fyi** iş e-postalarında da kullanılabilir; diğerleri genellikle sadece samimi mesajlarda.",
+        "examples": [
+          {
+            "en": "tbh I'm not sure about this plan.",
+            "tr": "Dürüst olmak gerekirse bu plandan emin değilim."
+          },
+          {
+            "en": "He keeps flexing his new car on Instagram.",
+            "tr": "Instagram'da sürekli yeni arabasıyla hava atıyor."
+          },
+          {
+            "en": "FYI, the meeting has moved to 3 p.m.",
+            "tr": "Bilginize, toplantı saat 3'e alındı."
+          }
+        ],
+        "turkishNote": "Türkçe mesajlaşmada da \"slm\", \"nbr\", \"tmm\", \"bşk\" gibi kısaltmalar ve gençler arasında hızla değişen ifadeler vardır. İngilizce internet dili de aynı şekilde çok hızlı değişir. Türk öğrenciler için en önemli nokta, bu ifadeleri sosyal medyada ve dizilerde gördüklerinde anlayabilmektir. Kullanırken ise dikkatli olun: Yanlış bağlamda ya da yaşınıza uymayan bir argo kelime kullanmak, istediğinizin tam tersi bir etki yaratabilir."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"tbh\" anlamı:",
+          "options": [
+            "to be honest",
+            "to be happy"
+          ],
+          "answerIndex": 0,
+          "explanation": "tbh.",
+          "id": "c2-u06-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"brb\" anlamı:",
+          "options": [
+            "Hemen geliyorum.",
+            "Çok komik."
+          ],
+          "answerIndex": 0,
+          "explanation": "be right back.",
+          "id": "c2-u06-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"That's sus.\" anlamı:",
+          "options": [
+            "Bu şüpheli.",
+            "Bu harika."
+          ],
+          "answerIndex": 0,
+          "explanation": "sus.",
+          "id": "c2-u06-l3-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"She ghosted me.\" anlamı:",
+          "options": [
+            "Beni korkuttu.",
+            "Bana aniden cevap vermeyi bıraktı."
+          ],
+          "answerIndex": 1,
+          "explanation": "ghost.",
+          "id": "c2-u06-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "___, the deadline is Friday. (Bilgin olsun, iş e-postasında da kullanılabilir)",
+          "answers": [
+            "FYI",
+            "fyi"
+          ],
+          "explanation": "FYI.",
+          "id": "c2-u06-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I ___ don't want to go, but I'll go anyway. (biraz, gizliden)",
+          "answers": [
+            "lowkey"
+          ],
+          "explanation": "lowkey.",
+          "id": "c2-u06-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "This café has such a good ___. (atmosfer)",
+          "answers": [
+            "vibe"
+          ],
+          "explanation": "vibe.",
+          "id": "c2-u06-l3-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Stop ___ing your new phone! (hava atmak)",
+          "answers": [
+            "flex"
+          ],
+          "explanation": "flexing.",
+          "id": "c2-u06-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "OK, so, ngl, the party was kinda cringe at first. Nobody was dancing. But then the DJ played some old songs, and honestly, the vibe changed completely. No cap, it was the best night of the year.",
+          "prompt": "Konuşan partiyi sonunda nasıl buldu?",
+          "options": [
+            "Çok kötü",
+            "Yılın en iyi gecesi",
+            "Sıkıcı"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the best night of the year\"",
+          "id": "c2-u06-l3-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "idk",
+              "right": "I don't know"
+            },
+            {
+              "left": "imo",
+              "right": "in my opinion"
+            },
+            {
+              "left": "btw",
+              "right": "by the way"
+            },
+            {
+              "left": "ttyl",
+              "right": "talk to you later"
+            },
+            {
+              "left": "irl",
+              "right": "in real life"
+            }
+          ],
+          "explanation": "Her kısaltmayı açılımıyla eşleştirin.",
+          "id": "c2-u06-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Aşağıdaki samimi mesajları sesli olarak \"çevirin\": Önce mesajı standart İngilizceyle okuyun, sonra Türkçe karşılığını söyleyin ve son olarak bu mesajın kime gönderilmesinin uygun olmayacağını açıklayın. (1) \"omg ngl that film was lowkey amazing\" (2) \"idk tbh, imo we shd wait\" (3) \"brb, ttyl\" (4) \"he ghosted me, so sus\"",
+          "modelAnswer": "One: Oh my God, not going to lie, that film was actually quite amazing. In Turkish: Aman Tanrım, yalan yok, o film gizliden harikaydı. I wouldn't send this to my manager or a teacher. Two: I don't know, to be honest. In my opinion, we should wait. Bilmiyorum açıkçası, bence beklemeliyiz. It's fine for friends, but in a work chat I'd write the full sentence. Three: Be right back, talk to you later. Hemen geliyorum, sonra konuşuruz. Fine for friends, not for a formal email. Four: He stopped replying to me without any explanation, which is very suspicious. Bana aniden cevap vermeyi bıraktı, çok şüpheli. This is very informal and only for close friends.",
+          "rubric": [
+            "Doğru açılımlar",
+            "Doğru Türkçe karşılıklar",
+            "Üslup farkındalığı",
+            "Akıcılık"
+          ]
+        },
+        "id": "c2-u06-l3-use"
+      }
+    },
+    {
+      "id": "c2-u06-l4",
+      "number": 4,
+      "title": "Standart dışı dilbilgisi",
+      "goal": "Konuşmada sık duyulan standart dışı yapıları (ain't, innit, double negative, be like / go alıntıları, me and him went) anlayıp standart İngilizceye çevirebilir ve bunların sosyal ve bölgesel bağlamını değerlendirebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Bir dizi sahnesinden (kurgusal)",
+        "lines": [
+          {
+            "speaker": "Danny",
+            "text": "So me and Jordan went to the party last night, right?"
+          },
+          {
+            "speaker": "Kai",
+            "text": "Yeah?"
+          },
+          {
+            "speaker": "Danny",
+            "text": "And this guy comes up to us and goes, \"You ain't on the list.\""
+          },
+          {
+            "speaker": "Kai",
+            "text": "No way."
+          },
+          {
+            "speaker": "Danny",
+            "text": "And I was like, \"Mate, we've been invited!\" And he was all, \"I don't know nothing about that.\""
+          },
+          {
+            "speaker": "Kai",
+            "text": "That's well annoying, innit?"
+          },
+          {
+            "speaker": "Danny",
+            "text": "Tell me about it. Anyway, we ain't going back there, that's for sure."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What did the man at the door say?",
+            "options": [
+              "That Danny and Jordan were not on the list",
+              "That the party was cancelled",
+              "That they were late"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"You ain't on the list.\"",
+            "id": "c2-u06-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Will Danny go back to that place?",
+            "options": [
+              "Yes, next week",
+              "No"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"we ain't going back there\"",
+            "id": "c2-u06-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "Gerçek hayatta, dizilerde ve şarkılarda **standart dışı** (non-standard) dilbilgisi yapıları çok sık duyulur. Bunlar \"yanlış\" değil, **bölgesel**, **sosyal** ya da **samimi** konuşma biçimleridir. Ancak **sınavlarda ve resmî yazıda** kullanılmazlar.\n\n**1. Yaygın standart dışı yapılar:**\n\n| Standart dışı | Standart | Not |\n|---|---|---|\n| **ain't** | am not / isn't / aren't / haven't / hasn't | *You **ain't** on the list.* = You aren't on the list. |\n| **innit** | isn't it? (her zamana uyan soru eki) | *That's annoying, **innit**?* (Londra) |\n| **double negative** | tek olumsuz | *I don't know **nothing**.* = I don't know **anything**. |\n| **me and him went** | he and I went | konuşmada çok yaygın |\n| **well + sıfat** (BrE) | very | *That's **well** annoying.* |\n| **them + isim** | those | *Look at **them** shoes.* |\n| **was** (çoğulla) | were | *We **was** there.* |\n\n**2. Alıntı fiilleri (quotatives):** Gençler arasında, hikâye anlatırken birinin ne dediğini aktarmak için:\n\n| Yapı | Örnek | Standart |\n|---|---|---|\n| **be like** | *I **was like**, \"Mate, we've been invited!\"* | I said, ... |\n| **go** (şimdiki zamanda anlatım) | *This guy **comes up** and **goes**, \"...\"* | He said, ... |\n| **be all** (AmE) | *He **was all**, \"I don't know.\"* | He said, ... |\n\n**3. Anlatı şimdiki zamanı (narrative present):** Samimi hikâye anlatımında geçmiş olaylar için **şimdiki zaman**: *So **this guy comes up** to us and **goes** ...* Bu, hikâyeyi canlı ve dramatik yapar.\n\n**Tutum:** Dilbilimciler bu yapıları **eksik** değil, **farklı** dil çeşitleri olarak görür. Kimseyi konuşma biçimine göre yargılamayın. Ama kendi yazınızda, **ortama uygun** olanı seçin.",
+        "examples": [
+          {
+            "en": "\"I ain't got no money.\" (= I haven't got any money.)",
+            "tr": "\"Hiç param yok.\""
+          },
+          {
+            "en": "\"And she was like, 'Seriously?'\" (= And she said, 'Seriously?')",
+            "tr": "\"O da 'Ciddi misin?' dedi.\""
+          },
+          {
+            "en": "\"It's well good, innit?\" (= It's very good, isn't it?)",
+            "tr": "\"Çok iyi, değil mi?\""
+          }
+        ],
+        "turkishNote": "Türkçede de standart dışı ve bölgesel yapılar vardır (\"geliyon mu\", \"gideceğiz\" yerine \"gidicez\", yöresel ağızlar). İngilizcede \"ain't\" ve double negative özellikle şarkılarda ve filmlerde çok yaygındır; bunları anlamak dinleme becerinizi güçlendirir. Türk öğrenciler için önemli bir nokta: Bu yapıları duyduğunuzda \"yanlış İngilizce\" diye düşünmeyin; konuşanın bölgesel ya da sosyal kimliğinin bir parçasıdır. Ama sınavlarda ve iş yazışmalarında her zaman standart biçimleri kullanın."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I ain't hungry.\" standart hali:",
+          "options": [
+            "I'm not hungry.",
+            "I haven't hungry."
+          ],
+          "answerIndex": 0,
+          "explanation": "ain't = am not.",
+          "id": "c2-u06-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"I don't know nothing.\" standart hali:",
+          "options": [
+            "I don't know anything.",
+            "I know nothing about nothing."
+          ],
+          "answerIndex": 0,
+          "explanation": "Double negative.",
+          "id": "c2-u06-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"And she was like, 'No way!'\" anlamı:",
+          "options": [
+            "Ona benziyordu.",
+            "\"Olamaz!\" dedi."
+          ],
+          "answerIndex": 1,
+          "explanation": "be like = say.",
+          "id": "c2-u06-l4-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Bu yapılar nerede kullanılmaz?",
+          "options": [
+            "Bir dizi diyaloğunda",
+            "Bir sınav kompozisyonunda"
+          ],
+          "answerIndex": 1,
+          "explanation": "Standart yazı.",
+          "id": "c2-u06-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"It's cold, innit?\" → It's cold, ___ it?",
+          "answers": [
+            "isn't"
+          ],
+          "explanation": "isn't it.",
+          "id": "c2-u06-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"We ain't finished yet.\" → We ___ finished yet.",
+          "answers": [
+            "haven't"
+          ],
+          "explanation": "ain't = haven't.",
+          "id": "c2-u06-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"Me and Ali went to the cinema.\" → Ali and ___ went to the cinema.",
+          "answers": [
+            "I"
+          ],
+          "explanation": "Ali and I.",
+          "id": "c2-u06-l4-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Standart: \"That's well funny.\" → That's ___ funny.",
+          "answers": [
+            "very",
+            "really"
+          ],
+          "explanation": "well = very.",
+          "id": "c2-u06-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "So I'm at the bus stop, right, and this woman comes up to me and goes, \"Is this the bus to the airport?\" And I'm like, \"No, it ain't, you need the number seven.\" And she was all, \"Oh my God, thank you so much!\"",
+          "prompt": "Kadın hangi otobüse binmeliydi?",
+          "options": [
+            "Havalimanı otobüsü olan yedi numara",
+            "Duraktaki ilk otobüs",
+            "Taksi"
+          ],
+          "answerIndex": 0,
+          "explanation": "\"you need the number seven\"",
+          "id": "c2-u06-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Standart İngilizceye çevirin: \"I ain't seen nobody.\"",
+          "accepted": [
+            "I haven't seen anybody.",
+            "I haven't seen anybody",
+            "I haven't seen anyone.",
+            "I haven't seen anyone",
+            "I have not seen anybody.",
+            "I have not seen anybody",
+            "I have not seen anyone.",
+            "I have not seen anyone"
+          ],
+          "explanation": "I haven't seen anybody.",
+          "id": "c2-u06-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Başınıza gelen komik ya da ilginç bir olayı bir arkadaşınıza anlatır gibi iki kez anlatın (her biri 30–45 saniye): (1) Samimi ve gençlik dilinde: anlatı şimdiki zamanı (So I'm walking ..., this guy comes up ...), alıntı fiilleri (go, be like), indirgenmiş biçimler ve argo. (2) Aynı hikâyeyi standart ve nötr İngilizceyle, geçmiş zaman ve said / asked kullanarak.",
+          "modelAnswer": "Informal: OK, so I'm at the supermarket, right? And I'm in a massive rush. This old guy comes up to me and goes, \"Excuse me, can you reach that jar for me?\" And I'm like, \"Sure, no problem.\" But then he goes, \"And the one next to it. And that one.\" And I was like, seriously? I was there for, like, twenty minutes! But he was well sweet, though. He even gave me a chocolate bar. Standard: Last week, I was at the supermarket, and I was in a hurry. An elderly man came up to me and asked if I could reach a jar for him. I said that it was no problem. However, he then asked me to reach several more items, so I ended up staying for about twenty minutes. He was very kind, though, and he even gave me a chocolate bar to thank me.",
+          "rubric": [
+            "Anlatı şimdiki zamanı ve alıntı fiilleri",
+            "Standart versiyon",
+            "İki üslup arasında net fark",
+            "Doğal anlatım"
+          ]
+        },
+        "id": "c2-u06-l4-use"
+      }
+    },
+    {
+      "id": "c2-u06-l5",
+      "number": 5,
+      "title": "Argo ve üslup farkındalığı",
+      "goal": "Aynı içeriği samimi argo ile ve standart / nötr İngilizceyle yazabilir, bir metindeki argoyu doğru yorumlayabilir ve hangi ortamda hangi dilin uygun olduğuna bilinçli karar verebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Bir mesaj ve bir e-posta",
+        "body": "Message to a friend:\n\"omg so I'm gonna be late tmrw 🙈 my train got cancelled AGAIN. legit the worst. can u lemme know what I missed? btw the new boss is lowkey scary ngl 😬 ttyl!\"\n\nEmail to a manager:\n\"Dear Ms Özkan,\nI'm afraid I'll be late tomorrow morning, as my train has been cancelled. I expect to arrive at around 10 a.m. Could you please let me know if there is anything important I should catch up on?\nThank you for your understanding.\nBest regards,\nArda\"",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why will Arda be late?",
+            "options": [
+              "Arda overslept.",
+              "Arda's train was cancelled.",
+              "Arda is ill."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"my train got cancelled\" / \"my train has been cancelled\"",
+            "id": "c2-u06-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What information appears only in the email?",
+            "options": [
+              "The expected arrival time",
+              "That the train was cancelled"
+            ],
+            "answerIndex": 0,
+            "explanation": "\"I expect to arrive at around 10 a.m.\"",
+            "id": "c2-u06-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "C2 seviyesinde amaç, argo kullanmak değil, **ne zaman ve nerede kullanılacağını** bilmektir. Bu, C1 Ünite 9'daki **üslup** (register) bilgisinin en uç noktasıdır.\n\n**Mesaj ve e-posta karşılaştırması:**\n\n| Özellik | Arkadaşa mesaj | Yöneticiye e-posta |\n|---|---|---|\n| **Hitap** | yok | *Dear Ms Özkan,* |\n| **İndirgenmiş biçimler** | *gonna, lemme* | yok |\n| **Kısaltmalar** | *omg, tmrw, btw, ngl, ttyl, u* | yok |\n| **Argo** | *legit, lowkey* | yok |\n| **Emojiler** | 🙈 😬 | yok |\n| **Büyük harf** | vurgu için: *AGAIN* | standart |\n| **Bilgi** | duygu odaklı | olgu odaklı (varış saati) |\n| **Kapanış** | *ttyl!* | *Best regards,* |\n\n**Argo kullanırken kendinize sorun:**\n\n1. **Kime** yazıyorum / konuşuyorum? (arkadaş, aile, iş, öğretmen, yabancı)\n2. **Nerede?** (özel mesaj, sosyal medya, iş, okul)\n3. **Karşımdaki** bu dili kullanıyor mu? (Ayna etkisi: karşınızdakinin üslubuna uyun)\n4. Bu ifade **güncel** mi, **eskimiş** mi, ya da **kaba** olabilir mi?\n5. **Yanlış anlaşılma** riski var mı? (BrE / AmE farkları)\n\n**Altın kural:** Emin değilseniz, **nötr** dil her zaman güvenlidir.\n\n**Çift yönlü beceri:** Argoyu **anlamak** (dizi, film, sosyal medya, arkadaşlar) ile argoyu **kullanmak** farklı becerilerdir. C2 seviyesindeki bir konuşmacı her ikisini de yapabilir, ama ikincisini **bilinçli** ve **seçici** yapar.",
+        "examples": [
+          {
+            "en": "Informal: legit the worst. (= It's genuinely the worst thing.)",
+            "tr": "Samimi: Gerçekten en kötüsü."
+          },
+          {
+            "en": "Neutral: I'm afraid I'll be late tomorrow.",
+            "tr": "Nötr: Maalesef yarın geç kalacağım."
+          },
+          {
+            "en": "If in doubt, use neutral language.",
+            "tr": "Emin değilsen nötr dil kullan."
+          }
+        ],
+        "turkishNote": "Türk öğrenciler İngilizce öğrenirken genellikle iki uç arasında kalır: Ya çok kitabi ve resmî konuşur ya da dizilerden öğrendiği argoyu her ortamda kullanır. İkisi de doğal görünmez. Tıpkı Türkçede yöneticinize \"Abi napıyon\" yazmayacağınız ama arkadaşınıza \"Sayın arkadaşım\" diye hitap etmeyeceğiniz gibi, İngilizcede de üslubu ortama göre ayarlamak gerekir. Ayna etkisi iyi bir stratejidir: Karşınızdaki kişi nasıl yazıyorsa, ona yakın bir üslupla cevap verin."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Yöneticiye e-postada uygun:",
+          "options": [
+            "I'm gonna be late tmrw.",
+            "I'm afraid I'll be late tomorrow."
+          ],
+          "answerIndex": 1,
+          "explanation": "Nötr.",
+          "id": "c2-u06-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Arkadaşa mesajda doğal:",
+          "options": [
+            "Dear Ali, I hope this message finds you well.",
+            "hey! u free tonight?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Samimi.",
+          "id": "c2-u06-l5-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Emin değilseniz:",
+          "options": [
+            "En güncel argoyu kullanın.",
+            "Nötr dil kullanın."
+          ],
+          "answerIndex": 1,
+          "explanation": "Altın kural.",
+          "id": "c2-u06-l5-p03"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"Ayna etkisi\" nedir?",
+          "options": [
+            "Karşınızdakinin üslubuna yakın yazmak",
+            "Her zaman resmî yazmak"
+          ],
+          "answerIndex": 0,
+          "explanation": "Mirroring.",
+          "id": "c2-u06-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nötr: \"Could you please let me ___ what I missed?\" (= lemme know)",
+          "answers": [
+            "know"
+          ],
+          "explanation": "let me know.",
+          "id": "c2-u06-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nötr: \"I'm ___ I'll be late.\" (maalesef)",
+          "answers": [
+            "afraid"
+          ],
+          "explanation": "I'm afraid.",
+          "id": "c2-u06-l5-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nötr: \"___ the way, the new manager seems quite strict.\" (= btw)",
+          "answers": [
+            "By"
+          ],
+          "explanation": "By the way.",
+          "id": "c2-u06-l5-p07"
+        },
+        {
+          "type": "gapFill",
+          "text": "Nötr: \"To be ___, I didn't enjoy the film.\" (= tbh)",
+          "answers": [
+            "honest"
+          ],
+          "explanation": "To be honest.",
+          "id": "c2-u06-l5-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "Hey, it's me. So, the interview was legit amazing. Like, they were super chill, and I think they lowkey liked me. Gonna find out on Friday. Fingers crossed! Call me back, yeah?",
+          "prompt": "Konuşanın görüşme hakkındaki düşüncesi nedir?",
+          "options": [
+            "Çok kötü geçti.",
+            "Çok iyi geçti ve beğenildiğini düşünüyor.",
+            "Henüz görüşmeye gitmedi."
+          ],
+          "answerIndex": 1,
+          "explanation": "\"legit amazing ... they lowkey liked me\"",
+          "id": "c2-u06-l5-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "Nötr İngilizceye çevirin: \"ngl the meeting was kinda boring\" (To be honest, ...)",
+          "accepted": [
+            "To be honest, the meeting was quite boring.",
+            "To be honest, the meeting was quite boring",
+            "To be honest, the meeting was rather boring.",
+            "To be honest, the meeting was rather boring",
+            "To be honest, the meeting was a bit boring.",
+            "To be honest, the meeting was a bit boring",
+            "To be honest, the meeting was somewhat boring.",
+            "To be honest, the meeting was somewhat boring",
+            "To be honest the meeting was quite boring.",
+            "To be honest the meeting was quite boring"
+          ],
+          "explanation": "To be honest, the meeting was quite boring.",
+          "id": "c2-u06-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Aşağıdaki durumu üç farklı üslupta yazın: Bir konsere ya da etkinliğe gidemeyeceksiniz çünkü hastalandınız ve biletinizi başkasına vermek istiyorsunuz. (A) Yakın bir arkadaşınıza mesaj (30–50 kelime): indirgenmiş biçimler, kısaltmalar, argo ve emoji kullanın. (B) Bir iş arkadaşınıza nötr bir mesaj (50–70 kelime). (C) Etkinliği düzenleyen şirkete resmî bir e-posta (80–110 kelime): bileti başkasına devretmek için izin isteyin. Sonra 2–3 cümleyle üç metin arasındaki dil farklarını açıklayın.",
+          "modelAnswer": "(A) Message to a close friend:\n\"omg I'm sooo gutted 😭 got a horrible cold and can't go tonight. legit can't stop sneezing lol. u wanna take my ticket?? it's free obvs. lemme know asap and I'll send it over 🎟️\"\n\n(B) Message to a colleague:\n\"Hi Emre, unfortunately I've come down with a bad cold, so I won't be able to make it to the concert tonight. I've got a spare ticket now, and I thought you might like it. It's completely free. Just let me know by five o'clock, and I'll email it to you. Hope you can use it!\"\n\n(C) Formal email to the organiser:\n\"Dear Sir or Madam,\nI have a ticket for this evening's concert (booking reference 48812). Unfortunately, due to illness, I am no longer able to attend. I would like to transfer my ticket to a colleague, Mr Emre Şahin, and I would be grateful if you could confirm whether this is possible. If so, please let me know what information you require.\nThank you in advance for your assistance.\nYours faithfully,\nCan Polat\"\n\nComparison:\nThe message to my friend uses slang (gutted, legit), abbreviations (lol, obvs, asap), reduced forms (wanna, lemme) and emojis. The colleague message is friendly but uses standard English. The formal email uses full forms, a booking reference, formal phrases such as \"I would be grateful if\" and a standard opening and closing.",
+          "rubric": [
+            "Üç net üslup",
+            "(A) Doğal argo ve kısaltmalar",
+            "(B) Nötr ve samimi",
+            "(C) Resmî kalıplar",
+            "Karşılaştırma analizi"
+          ]
+        },
+        "id": "c2-u06-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "\"Wanna go?\" standart hali:",
+        "options": [
+          "Do you want to go?",
+          "Will you go?"
+        ],
+        "answerIndex": 0,
+        "explanation": "wanna",
+        "id": "c2-u06-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I'm knackered.\" (BrE)",
+        "options": [
+          "Çok yorgunum.",
+          "Çok kızgınım."
+        ],
+        "answerIndex": 0,
+        "explanation": "knackered",
+        "id": "c2-u06-t02"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Amerikan argosunda \"dolar\":",
+        "options": [
+          "quid",
+          "bucks"
+        ],
+        "answerIndex": 1,
+        "explanation": "bucks",
+        "id": "c2-u06-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"tbh\" anlamı:",
+        "options": [
+          "to be honest",
+          "to be happy"
+        ],
+        "answerIndex": 0,
+        "explanation": "tbh",
+        "id": "c2-u06-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "\"I don't know nothing.\" standart hali:",
+        "options": [
+          "I don't know anything.",
+          "I know something."
+        ],
+        "answerIndex": 0,
+        "explanation": "Double negative",
+        "id": "c2-u06-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "Standart: \"Lemme help you.\" → ___ me help you.",
+        "answers": [
+          "Let"
+        ],
+        "explanation": "let me",
+        "id": "c2-u06-t06"
+      },
+      {
+        "type": "gapFill",
+        "text": "Standart: \"I dunno.\" → I don't ___.",
+        "answers": [
+          "know"
+        ],
+        "explanation": "don't know",
+        "id": "c2-u06-t07"
+      },
+      {
+        "type": "gapFill",
+        "text": "Cheers, ___! (BrE: kanka)",
+        "answers": [
+          "mate"
+        ],
+        "explanation": "mate",
+        "id": "c2-u06-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "I was ___ when we lost the final. (BrE: yıkıldım)",
+        "answers": [
+          "gutted"
+        ],
+        "explanation": "gutted",
+        "id": "c2-u06-t09"
+      },
+      {
+        "type": "gapFill",
+        "text": "She totally ___ me. She never replied. (cevap vermemek)",
+        "answers": [
+          "ghosted"
+        ],
+        "explanation": "ghosted",
+        "id": "c2-u06-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Standart: \"It's cold, innit?\" → It's cold, ___ it?",
+        "answers": [
+          "isn't"
+        ],
+        "explanation": "innit = isn't it",
+        "id": "c2-u06-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "Nötr: \"___ the way, the meeting is at three.\" (= btw)",
+        "answers": [
+          "By"
+        ],
+        "explanation": "By the way",
+        "id": "c2-u06-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "So I'm in the café, right, and this guy comes up and goes, \"Is anyone sitting here?\" And I'm like, \"Nah, go ahead.\" Turns out he was, like, a famous actor. I was well shocked, ngl.",
+        "prompt": "Kafedeki adam kimdi?",
+        "options": [
+          "Konuşanın öğretmeni",
+          "Ünlü bir oyuncu",
+          "Garson"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"he was, like, a famous actor\"",
+        "id": "c2-u06-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "Standart İngilizceye çevirin: \"We ain't gonna make it.\"",
+        "accepted": [
+          "We aren't going to make it.",
+          "We aren't going to make it",
+          "We are not going to make it",
+          "We are not going to make it.",
+          "We're not going to make it.",
+          "We're not going to make it"
+        ],
+        "explanation": "We aren't going to make it.",
+        "id": "c2-u06-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Aşağıdaki durumu iki farklı üslupta yazın ve karşılaştırın: Bir hafta sonu gezisine çıktınız ve harika vakit geçirdiniz, ama dönüşte uçuşunuz iptal oldu. (A) Sosyal medyada ya da yakın arkadaş grubuna samimi bir paylaşım (60–80 kelime): indirgenmiş biçimler, argo, mesajlaşma kısaltmaları ve emoji kullanın. (B) Havayoluna tazminat talep eden resmî bir e-posta (100–130 kelime): standart ve resmî İngilizce, kesin ayrıntılar ve net bir talep. Sonra 2–3 cümleyle iki metin arasındaki dil farklarını açıklayın.",
+        "modelAnswer": "(A) Group chat:\n\"ok so Lisbon was legit AMAZING 😍 the food, the views, the vibe... no cap best weekend ever. BUT then our flight home got cancelled 🙄 like, seriously?? we were stuck at the airport for 6 hrs and nobody told us anything. so done with this airline smh. anyway, home now, totally knackered. ttyl! 😴\"\n\n(B) Formal email to the airline:\n\"Dear Sir or Madam,\nI am writing regarding flight number 1758 from Lisbon to Istanbul on 14 October (booking reference QX7P2L), which was cancelled shortly before departure.\nAs a result, my partner and I were required to wait at the airport for six hours before being transferred to a later flight. During this time, we received very little information from your staff.\nI would therefore be grateful if you could consider our claim for compensation and reimburse the cost of the meals we purchased at the airport. I have attached copies of our boarding passes and receipts.\nI look forward to your reply.\nYours faithfully,\nDeniz Arslan\"\n\nComparison:\nThe group chat uses slang (legit, no cap, vibe, knackered), abbreviations (hrs, smh, ttyl), emojis and capital letters for emotion. The email avoids all of these and uses full forms, precise details such as the flight number and booking reference, and formal phrases such as \"I would therefore be grateful if\".",
+        "rubric": [
+          "İki net üslup",
+          "(A) Doğal argo ve kısaltmalar",
+          "(B) Resmî dil ve kesin ayrıntılar",
+          "Net talep",
+          "Karşılaştırma analizi"
+        ],
+        "id": "c2-u06-t15"
+      }
+    ]
+  }
+}
