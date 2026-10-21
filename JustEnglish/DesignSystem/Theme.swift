@@ -24,11 +24,11 @@ enum Theme {
     static let successSoft = Color(light: 0xE6F6EE, dark: 0x173326)
     /// Yanlış cevap: koyu kırmızı, her zaman simge ve sallanmayla birlikte.
     static let danger = Color(light: 0xD1344B, dark: 0xF0697D)
-    static let warning = Color(light: 0xF5A524, dark: 0xFBBF24)
+    static let warning = Color(light: 0xF5B400, dark: 0xFBBF24)
     static let streak = Color(light: 0xFF7A1A, dark: 0xFF9248)
     /// Havadar zemin: üstte açık mavi, altta neredeyse beyaz.
-    static let background = Color(light: 0xF6F8FE, dark: 0x0B0D16)
-    static let backgroundTop = Color(light: 0xE4ECFF, dark: 0x151B33)
+    static let background = Color(light: 0xF5F8FF, dark: 0x0B0D16)
+    static let backgroundTop = Color(light: 0xE6EFFF, dark: 0x151B33)
     static let surface = Color(light: 0xFFFFFF, dark: 0x171A26)
     /// İkincil düğmelerin yüzeyi.
     static let surfaceRaised = Color(light: 0xF0F3FA, dark: 0x252A3B)
@@ -48,7 +48,7 @@ enum Theme {
     static let violetGradient = LinearGradient(colors: [Color(light: 0x7A6BFF, dark: 0x6A5BEF), Color(light: 0x3D4BC7, dark: 0x2F3AA0)],
                                                startPoint: .topLeading, endPoint: .bottomTrailing)
     /// Ana sayfa ve sohbet başlığındaki yumuşak bant.
-    static let skyGradient = LinearGradient(colors: [Color(light: 0x6F9BFF, dark: 0x2B3F86), Color(light: 0xB9CDFF, dark: 0x1C2650), Color(light: 0xF6F8FE, dark: 0x0B0D16)],
+    static let skyGradient = LinearGradient(colors: [Color(light: 0x5B8DF8, dark: 0x2B3F86), Color(light: 0x8FB2FF, dark: 0x22336E), Color(light: 0xF5F8FF, dark: 0x0B0D16)],
                                             startPoint: .top, endPoint: .bottom)
 
     static let cornerRadius: CGFloat = 16

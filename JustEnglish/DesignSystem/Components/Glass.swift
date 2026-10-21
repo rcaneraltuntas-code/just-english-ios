@@ -48,14 +48,14 @@ extension View {
     }
 }
 
-/// Açık mavi-lila degrade, yumuşak ışık lekeleri ve çok soluk bir sinir ağı dokusu.
+/// Referanstaki gibi düz, açık mavi degrade ve çok yumuşak ışık lekeleri.
 struct AIBackground: View {
     var animated = true
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         ZStack {
-            LinearGradient(colors: [Theme.backgroundTop, Theme.background, Theme.background], startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [Theme.backgroundTop, Theme.background], startPoint: .top, endPoint: .bottom)
             if animated {
                 TimelineView(.animation(minimumInterval: 1 / 24, paused: reduceMotion)) { timeline in
                     glows(t: timeline.date.timeIntervalSinceReferenceDate)
@@ -63,8 +63,6 @@ struct AIBackground: View {
             } else {
                 glows(t: 0)
             }
-            NeuralNetwork(animated: animated)
-                .opacity(0.5)
         }
         .ignoresSafeArea()
         .allowsHitTesting(false)
@@ -75,11 +73,11 @@ struct AIBackground: View {
         GeometryReader { geo in
             let w = geo.size.width, h = geo.size.height
             ZStack {
-                glow(Theme.accent.opacity(0.22), size: w * 0.9)
+                glow(Theme.accent.opacity(0.12), size: w * 0.9)
                     .position(x: w * (0.2 + 0.08 * cos(t * 0.15)), y: h * (0.12 + 0.04 * sin(t * 0.12)))
-                glow(Theme.aiViolet.opacity(0.16), size: w * 0.8)
+                glow(Theme.aiViolet.opacity(0.07), size: w * 0.8)
                     .position(x: w * (0.85 + 0.06 * sin(t * 0.11)), y: h * (0.3 + 0.05 * cos(t * 0.13)))
-                glow(Color(light: 0xFFC7E6, dark: 0x3A2340).opacity(0.25), size: w * 0.7)
+                glow(Color(light: 0xCFE0FF, dark: 0x1E2A50).opacity(0.3), size: w * 0.7)
                     .position(x: w * (0.4 + 0.08 * sin(t * 0.09)), y: h * (0.7 + 0.04 * cos(t * 0.1)))
             }
         }
