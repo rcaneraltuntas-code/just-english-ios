@@ -1,0 +1,1430 @@
+{
+  "id": "a2-u11",
+  "level": "A2",
+  "number": 11,
+  "title": "Yolculuk",
+  "titleEn": "Travel",
+  "canDo": "Havalimanında, istasyonda ve otelde işlerimi halledebilir, bir sorunu kibarca bildirebilir ve bir yolculuğu ya da konaklamayı değerlendirebilirim.",
+  "grammar": [
+    "ulaşım ve otel ifadeleri",
+    "Could I ...? / Could you ...? (kibar rica)",
+    "too + sıfat / (not) + sıfat + enough / enough + isim",
+    "tarz zarfları: slowly, carefully, well, fast, hard"
+  ],
+  "vocabularyThemes": [
+    "havalimanı ve tren",
+    "otel",
+    "seyahat sorunları"
+  ],
+  "liveClass": {
+    "title": "Resepsiyon",
+    "durationMinutes": 45,
+    "goal": "Sınıf bir otele dönüşür. Resepsiyon görevlileri ve misafirler rol kartları alır. Misafirler oda ayırtır, giriş yapar ve kartlarındaki sorunu (oda çok gürültülü, yeterince havlu yok, Wi-Fi çok yavaş) kibarca bildirir; görevliler çözüm sunar. Sonunda misafirler otel için kısa bir değerlendirme yazar."
+  },
+  "vocabulary": [
+    {
+      "id": "a2-u11-v01",
+      "en": "check in",
+      "tr": "giriş yapmak (otel, uçuş)",
+      "example": "We checked in at the airport two hours early.",
+      "exampleTr": "Havalimanında iki saat erken check-in yaptık.",
+      "note": "check out = çıkış yapmak"
+    },
+    {
+      "id": "a2-u11-v02",
+      "en": "boarding pass",
+      "tr": "biniş kartı",
+      "example": "Can I see your boarding pass, please?",
+      "exampleTr": "Biniş kartınızı görebilir miyim?"
+    },
+    {
+      "id": "a2-u11-v03",
+      "en": "gate",
+      "tr": "kapı (havalimanı)",
+      "example": "The flight leaves from gate 12.",
+      "exampleTr": "Uçuş 12 numaralı kapıdan kalkıyor."
+    },
+    {
+      "id": "a2-u11-v04",
+      "en": "delayed",
+      "tr": "rötarlı, gecikmeli",
+      "example": "Our flight is delayed by an hour.",
+      "exampleTr": "Uçuşumuz bir saat rötarlı."
+    },
+    {
+      "id": "a2-u11-v05",
+      "en": "cancelled",
+      "tr": "iptal edilmiş",
+      "example": "The train was cancelled because of snow.",
+      "exampleTr": "Tren kar yüzünden iptal edildi."
+    },
+    {
+      "id": "a2-u11-v06",
+      "en": "luggage",
+      "tr": "bagaj",
+      "example": "How much luggage do you have?",
+      "exampleTr": "Ne kadar bagajınız var?",
+      "note": "Sayılamaz: a luggage değil."
+    },
+    {
+      "id": "a2-u11-v07",
+      "en": "platform",
+      "tr": "peron",
+      "example": "The train to Ankara leaves from platform 3.",
+      "exampleTr": "Ankara treni 3. perondan kalkıyor."
+    },
+    {
+      "id": "a2-u11-v08",
+      "en": "single / return",
+      "tr": "tek yön / gidiş-dönüş",
+      "example": "A return ticket to Izmir, please.",
+      "exampleTr": "İzmir'e gidiş-dönüş bir bilet lütfen.",
+      "note": "Amerikan: one-way / round-trip."
+    },
+    {
+      "id": "a2-u11-v09",
+      "en": "reception",
+      "tr": "resepsiyon",
+      "example": "Please leave your key at reception.",
+      "exampleTr": "Lütfen anahtarınızı resepsiyona bırakın."
+    },
+    {
+      "id": "a2-u11-v10",
+      "en": "reservation",
+      "tr": "rezervasyon",
+      "example": "I have a reservation for two nights.",
+      "exampleTr": "İki gecelik rezervasyonum var."
+    },
+    {
+      "id": "a2-u11-v11",
+      "en": "single / double room",
+      "tr": "tek / çift kişilik oda",
+      "example": "I'd like a double room, please.",
+      "exampleTr": "Çift kişilik bir oda istiyorum lütfen."
+    },
+    {
+      "id": "a2-u11-v12",
+      "en": "towel",
+      "tr": "havlu",
+      "example": "Could I have some more towels, please?",
+      "exampleTr": "Biraz daha havlu alabilir miyim?"
+    },
+    {
+      "id": "a2-u11-v13",
+      "en": "air conditioning",
+      "tr": "klima",
+      "example": "The air conditioning doesn't work.",
+      "exampleTr": "Klima çalışmıyor."
+    },
+    {
+      "id": "a2-u11-v14",
+      "en": "view",
+      "tr": "manzara",
+      "example": "Does the room have a sea view?",
+      "exampleTr": "Odanın deniz manzarası var mı?"
+    },
+    {
+      "id": "a2-u11-v15",
+      "en": "noisy",
+      "tr": "gürültülü",
+      "example": "The room is too noisy.",
+      "exampleTr": "Oda çok gürültülü."
+    },
+    {
+      "id": "a2-u11-v16",
+      "en": "too",
+      "tr": "fazla, aşırı",
+      "example": "It's too hot in here.",
+      "exampleTr": "Burası fazla sıcak.",
+      "note": "too + sıfat"
+    },
+    {
+      "id": "a2-u11-v17",
+      "en": "enough",
+      "tr": "yeterli, yeterince",
+      "example": "There aren't enough towels.",
+      "exampleTr": "Yeterince havlu yok.",
+      "note": "enough + isim / sıfat + enough"
+    },
+    {
+      "id": "a2-u11-v18",
+      "en": "slowly",
+      "tr": "yavaşça",
+      "example": "Could you speak more slowly, please?",
+      "exampleTr": "Daha yavaş konuşabilir misiniz lütfen?"
+    },
+    {
+      "id": "a2-u11-v19",
+      "en": "carefully",
+      "tr": "dikkatlice",
+      "example": "Drive carefully. The road is icy.",
+      "exampleTr": "Dikkatli sür. Yol buzlu."
+    },
+    {
+      "id": "a2-u11-v20",
+      "en": "well",
+      "tr": "iyi (zarf)",
+      "example": "The staff speak English well.",
+      "exampleTr": "Personel iyi İngilizce konuşuyor.",
+      "note": "good (sıfat) → well (zarf)"
+    },
+    {
+      "id": "a2-u11-v21",
+      "en": "hard",
+      "tr": "çok, sıkı (zarf)",
+      "example": "The cleaners work very hard.",
+      "exampleTr": "Temizlikçiler çok çalışıyor.",
+      "note": "hardly farklı anlamdadır."
+    },
+    {
+      "id": "a2-u11-v22",
+      "en": "complain",
+      "tr": "şikayet etmek",
+      "example": "I'd like to complain about my room.",
+      "exampleTr": "Odam hakkında şikayette bulunmak istiyorum."
+    },
+    {
+      "id": "a2-u11-v23",
+      "en": "review",
+      "tr": "değerlendirme, yorum",
+      "example": "I wrote a review of the hotel.",
+      "exampleTr": "Otel hakkında bir yorum yazdım."
+    }
+  ],
+  "lessons": [
+    {
+      "id": "a2-u11-l1",
+      "number": 1,
+      "title": "Havalimanı ve istasyon",
+      "goal": "Havalimanında ve istasyonda gerekli işleri halledebilir, duyuruları anlayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Check-in bankosu",
+        "lines": [
+          {
+            "speaker": "Agent",
+            "text": "Good morning. Where are you flying to today?"
+          },
+          {
+            "speaker": "Sena",
+            "text": "To London. Here's my passport."
+          },
+          {
+            "speaker": "Agent",
+            "text": "Thank you. How many bags are you checking in?"
+          },
+          {
+            "speaker": "Sena",
+            "text": "Just one. Could I have a window seat, please?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "Of course. Here's your boarding pass. Your flight leaves from gate 14, but I'm afraid it's delayed by forty minutes."
+          },
+          {
+            "speaker": "Sena",
+            "text": "Oh, OK. What time does boarding start?"
+          },
+          {
+            "speaker": "Agent",
+            "text": "At ten fifteen. Have a good flight!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is Sena flying?",
+            "options": [
+              "To Paris",
+              "To London",
+              "To Ankara"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"To London.\"",
+            "id": "a2-u11-l1-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "How long is the delay?",
+            "options": [
+              "Fourteen minutes",
+              "Forty minutes",
+              "Four hours"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"it's delayed by forty minutes\"",
+            "id": "a2-u11-l1-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Havalimanında:**\n\n| İfade | Anlam |\n|---|---|\n| check in (bags) | check-in yapmak, bagaj vermek |\n| go through security | güvenlik kontrolünden geçmek |\n| boarding pass | biniş kartı |\n| gate | kapı |\n| board / boarding | uçağa binmek / biniş |\n| delayed / cancelled | rötarlı / iptal |\n| window / aisle seat | cam kenarı / koridor koltuğu |\n\n**İstasyonda:**\n\n- A **single / return** ticket to Eskişehir, please.\n- What time is the **next** train to Ankara?\n- Which **platform** does it leave from?\n- Do I have to **change** trains? (aktarma)\n\n**Duyurular:** \"Flight JE 1985 to London is now boarding at gate 14.\" / \"The 10:30 train to Ankara is delayed.\"",
+        "examples": [
+          {
+            "en": "Could I have an aisle seat, please?",
+            "tr": "Koridor tarafında bir koltuk alabilir miyim lütfen?"
+          },
+          {
+            "en": "What time is the next train to Izmir?",
+            "tr": "İzmir'e bir sonraki tren saat kaçta?"
+          },
+          {
+            "en": "Do I have to change trains?",
+            "tr": "Aktarma yapmam gerekiyor mu?"
+          }
+        ],
+        "turkishNote": "\"Uçağa binmek\" = get on the plane ya da board. \"Uçaktan inmek\" = get off the plane. Rötar süresi \"by\" ile söylenir: delayed by an hour (bir saat rötarlı). \"luggage\" sayılamaz: How much luggage? / a piece of luggage."
+      },
+      "practice": [
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "boarding pass",
+              "right": "biniş kartı"
+            },
+            {
+              "left": "gate",
+              "right": "kapı"
+            },
+            {
+              "left": "delayed",
+              "right": "rötarlı"
+            },
+            {
+              "left": "aisle seat",
+              "right": "koridor koltuğu"
+            },
+            {
+              "left": "platform",
+              "right": "peron"
+            }
+          ],
+          "explanation": "Eşleştirin.",
+          "id": "a2-u11-l1-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "İzmir'e gidip geri döneceksiniz:",
+          "options": [
+            "A single ticket to Izmir, please.",
+            "A return ticket to Izmir, please."
+          ],
+          "answerIndex": 1,
+          "explanation": "Gidiş-dönüş → return.",
+          "id": "a2-u11-l1-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "How many luggages do you have?",
+            "How much luggage do you have?"
+          ],
+          "answerIndex": 1,
+          "explanation": "luggage sayılamaz.",
+          "id": "a2-u11-l1-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Our flight is delayed ___ two hours.",
+          "answers": [
+            "by"
+          ],
+          "explanation": "delayed by.",
+          "id": "a2-u11-l1-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Which ___ does the train leave from? (peron)",
+          "answers": [
+            "platform"
+          ],
+          "explanation": "platform.",
+          "id": "a2-u11-l1-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "Do I have to ___ trains? (aktarma)",
+          "answers": [
+            "change"
+          ],
+          "explanation": "change trains.",
+          "id": "a2-u11-l1-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "time",
+            "What",
+            "is",
+            "the",
+            "next",
+            "train",
+            "to",
+            "Ankara",
+            "?"
+          ],
+          "answer": "What time is the next train to Ankara?",
+          "explanation": "What time is the next train to + yer?",
+          "translation": "Ankara'ya bir sonraki tren saat kaçta?",
+          "id": "a2-u11-l1-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Attention please. Flight PC 2210 to Berlin is now boarding at gate 7. Passengers should go to the gate immediately.",
+          "prompt": "Berlin uçuşu hangi kapıdan?",
+          "options": [
+            "Kapı 2",
+            "Kapı 7",
+            "Kapı 10"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"boarding at gate 7\"",
+          "id": "a2-u11-l1-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "We're sorry, but the 6:15 train to Eskişehir is cancelled today because of a technical problem.",
+          "prompt": "Tren neden iptal oldu?",
+          "options": [
+            "Kar yüzünden",
+            "Teknik bir sorun yüzünden",
+            "Grev yüzünden"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"because of a technical problem\"",
+          "id": "a2-u11-l1-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Cam kenarı bir koltuk alabilir miyim lütfen?\"",
+          "accepted": [
+            "Could I have a window seat, please?",
+            "Could I have a window seat, please",
+            "Can I have a window seat, please?",
+            "Can I have a window seat, please",
+            "Could I have a window seat please?",
+            "Could I have a window seat please",
+            "Can I have a window seat please?",
+            "Can I have a window seat please"
+          ],
+          "explanation": "Could I have + a window seat, please?",
+          "id": "a2-u11-l1-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI havalimanı görevlisi. Check-in yapın: nereye uçtuğunuzu söyleyin, bagaj verin, koltuk tercihi isteyin ve kapı numarası ile biniş saatini sorun.",
+          "modelAnswer": "Good morning. I'm flying to Amsterdam. Here's my passport. I'm checking in one bag. Could I have an aisle seat, please? Which gate does it leave from? What time does boarding start?",
+          "rubric": [
+            "Havalimanı kelimeleri",
+            "Could I have...? doğru",
+            "Kapı ve saat sorusu"
+          ]
+        },
+        "id": "a2-u11-l1-use"
+      }
+    },
+    {
+      "id": "a2-u11-l2",
+      "number": 2,
+      "title": "Otelde",
+      "goal": "Otelde oda ayırtabilir, giriş yapabilir ve kibarca rica edebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Resepsiyonda",
+        "lines": [
+          {
+            "speaker": "Receptionist",
+            "text": "Good evening. Welcome to the Sea Breeze Hotel. How can I help you?"
+          },
+          {
+            "speaker": "Mr Kurt",
+            "text": "Hello. I have a reservation for three nights. My name's Kurt."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Ah yes, Mr Kurt. A double room with a sea view. Could you fill in this form, please?"
+          },
+          {
+            "speaker": "Mr Kurt",
+            "text": "Sure. Could I ask what time breakfast is?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "From seven to ten in the garden restaurant. Your room is 305, on the third floor. The lift is on your left."
+          },
+          {
+            "speaker": "Mr Kurt",
+            "text": "Thank you. And could you wake me up at six tomorrow?"
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "Of course. Enjoy your stay!"
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How many nights is Mr Kurt staying?",
+            "options": [
+              "Two",
+              "Three",
+              "Five"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"a reservation for three nights\"",
+            "id": "a2-u11-l2-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "Where is breakfast?",
+            "options": [
+              "In the room",
+              "In the garden restaurant",
+              "On the third floor"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"in the garden restaurant\"",
+            "id": "a2-u11-l2-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Could** ile rica etmek, **can**'den daha kibardır.\n\n| Kalıp | Kullanım | Örnek |\n|---|---|---|\n| **Could I** + fiil? | izin / bir şey istemek | **Could I** have a map? / **Could I** pay by card? |\n| **Could you** + fiil? | birinden bir şey yapmasını istemek | **Could you** call a taxi? |\n| **Could you tell me** + soru? | bilgi istemek | **Could you tell me** where the lift is? |\n\n**Cevaplar:** Of course. / Certainly. / Sure. / I'm afraid not.\n\n**Otel ifadeleri:**\n\n- I have a reservation **for** two nights.\n- I'd like a single / double room **with** a sea view.\n- Is breakfast **included**? (Kahvaltı dahil mi?)\n- What time is **check-out**?\n\n**Dikkat:** Could you tell me **where the lift is**? (where is the lift değil; soru yapısı düz cümleye döner)",
+        "examples": [
+          {
+            "en": "Could I have a late check-out, please?",
+            "tr": "Geç çıkış yapabilir miyim lütfen?"
+          },
+          {
+            "en": "Could you recommend a good restaurant?",
+            "tr": "İyi bir restoran önerebilir misiniz?"
+          },
+          {
+            "en": "Could you tell me what time the pool opens?",
+            "tr": "Havuzun saat kaçta açıldığını söyleyebilir misiniz?"
+          }
+        ],
+        "turkishNote": "\"Could\" burada geçmiş zaman değil, kibarlık bildirir: \"Could you help me?\" = Bana yardım edebilir misiniz? Türkçedeki \"-ebilir misiniz\" kibar sorusunun tam karşılığıdır. Otelde \"Is breakfast included?\" sorusu çok işe yarar."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "En kibar rica:",
+          "options": [
+            "Give me a map.",
+            "Could I have a map, please?",
+            "I want a map."
+          ],
+          "answerIndex": 1,
+          "explanation": "Could I have...?",
+          "id": "a2-u11-l2-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Birinden taksi çağırmasını istemek:",
+          "options": [
+            "Could I call a taxi?",
+            "Could you call a taxi for me, please?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Could you + fiil?",
+          "id": "a2-u11-l2-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "Could you tell me where is the lift?",
+            "Could you tell me where the lift is?"
+          ],
+          "answerIndex": 1,
+          "explanation": "Dolaylı soru → düz cümle düzeni.",
+          "id": "a2-u11-l2-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I have a reservation ___ two nights.",
+          "answers": [
+            "for"
+          ],
+          "explanation": "a reservation for.",
+          "id": "a2-u11-l2-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "Is breakfast ___? (dahil)",
+          "answers": [
+            "included"
+          ],
+          "explanation": "included.",
+          "id": "a2-u11-l2-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd like a double room ___ a sea view.",
+          "answers": [
+            "with"
+          ],
+          "explanation": "with a view.",
+          "id": "a2-u11-l2-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "you",
+            "Could",
+            "recommend",
+            "a",
+            "good",
+            "restaurant",
+            "?"
+          ],
+          "answer": "Could you recommend a good restaurant?",
+          "explanation": "Could you + fiil + nesne?",
+          "translation": "İyi bir restoran önerebilir misiniz?",
+          "id": "a2-u11-l2-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Check-out is at twelve, but you could leave your bags at reception until five if you like.",
+          "prompt": "Bagajlar resepsiyonda saat kaça kadar kalabilir?",
+          "options": [
+            "12'ye",
+            "5'e",
+            "Kalamaz"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"until five\"",
+          "id": "a2-u11-l2-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Kahvaltı dahil mi?\"",
+          "accepted": [
+            "Is breakfast included?",
+            "Is breakfast included",
+            "Is the breakfast included?",
+            "Is the breakfast included"
+          ],
+          "explanation": "Is breakfast included?",
+          "id": "a2-u11-l2-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Geç çıkış yapabilir miyim lütfen?\"",
+          "accepted": [
+            "Could I have a late check-out, please?",
+            "Could I have a late check-out, please",
+            "Could I have a late checkout, please?",
+            "Could I have a late checkout, please",
+            "Can I have a late check-out, please?",
+            "Can I have a late check-out, please",
+            "Could I check out late, please?",
+            "Could I check out late, please",
+            "Could I have a late check-out please?",
+            "Could I have a late check-out please"
+          ],
+          "explanation": "Could I have + a late check-out, please?",
+          "id": "a2-u11-l2-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI resepsiyon görevlisi. Telefonla bir oda ayırtın (tarih, kaç gece, oda türü), kahvaltının dahil olup olmadığını sorun ve iki kibar ricada bulunun (Could I / Could you).",
+          "modelAnswer": "Hello, I'd like to book a double room for two nights, from the 5th to the 7th of July. Is breakfast included? Could I have a room with a sea view? Could you tell me how far the hotel is from the airport?",
+          "rubric": [
+            "Rezervasyon ifadeleri",
+            "Could I / Could you doğru",
+            "Could you tell me + düz cümle"
+          ]
+        },
+        "id": "a2-u11-l2-use"
+      }
+    },
+    {
+      "id": "a2-u11-l3",
+      "number": 3,
+      "title": "Fazla mı, yeterli mi?",
+      "goal": "too ve enough ile bir şeyin neden uygun olmadığını açıklayabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "dialogue",
+        "title": "Oda sorunu",
+        "lines": [
+          {
+            "speaker": "Guest",
+            "text": "Excuse me. I'm afraid there's a problem with my room."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "I'm sorry to hear that. What's the matter?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Well, it's too noisy. It's next to the lift. And it isn't big enough for three people."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "I see. Anything else?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, there aren't enough towels, and the air conditioning is too loud."
+          },
+          {
+            "speaker": "Receptionist",
+            "text": "I'm very sorry. We have a bigger, quieter room on the fifth floor. Would you like to move?"
+          },
+          {
+            "speaker": "Guest",
+            "text": "Yes, please. Thank you."
+          }
+        ],
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "Why is the room noisy?",
+            "options": [
+              "It's next to the street.",
+              "It's next to the lift.",
+              "The TV is loud."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"It's next to the lift.\"",
+            "id": "a2-u11-l3-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What does the receptionist offer?",
+            "options": [
+              "Free breakfast",
+              "A different room",
+              "More towels only"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"We have a bigger, quieter room... Would you like to move?\"",
+            "id": "a2-u11-l3-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**too + sıfat** → gereğinden fazla (sorun var)\n\n- It's **too** noisy. (Fazla gürültülü.)\n- This bag is **too** heavy **to** carry. (Taşınamayacak kadar ağır.)\n\n**(not) + sıfat + enough** → yeterince (değil)\n\n- The room **isn't big enough**. (Yeterince büyük değil.)\n- Are you **old enough** to drive?\n\n**enough + isim** → yeterli miktarda\n\n- There **aren't enough towels**.\n- We don't have **enough time**.\n\n| | Konum |\n|---|---|\n| too | sıfattan **önce** |\n| enough (sıfatla) | sıfattan **sonra** |\n| enough (isimle) | isimden **önce** |\n\n**too ve very:** very hot (çok sıcak, ama sorun olmayabilir) / too hot (fazla sıcak, rahatsız edici)",
+        "examples": [
+          {
+            "en": "The coffee is too hot to drink.",
+            "tr": "Kahve içilemeyecek kadar sıcak."
+          },
+          {
+            "en": "The bed isn't long enough for me.",
+            "tr": "Yatak benim için yeterince uzun değil."
+          },
+          {
+            "en": "We didn't have enough money for a taxi.",
+            "tr": "Taksi için yeterli paramız yoktu."
+          }
+        ],
+        "turkishNote": "Türkçede \"çok\" kelimesi hem very hem too anlamında kullanılır; İngilizcede seçim önemlidir: \"This hotel is very expensive\" (çok pahalı, belki yine kalırız) ≠ \"This hotel is too expensive\" (fazla pahalı, kalamayız). enough'un yeri de Türkçeden farklıdır: \"yeterince büyük\" = big enough (enough big değil)."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Oda 40°C, kimse uyuyamıyor:",
+          "options": [
+            "It's very hot.",
+            "It's too hot."
+          ],
+          "answerIndex": 1,
+          "explanation": "Sorun var → too.",
+          "id": "a2-u11-l3-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "The room isn't enough big.",
+            "The room isn't big enough."
+          ],
+          "answerIndex": 1,
+          "explanation": "sıfat + enough.",
+          "id": "a2-u11-l3-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "We don't have time enough.",
+            "We don't have enough time."
+          ],
+          "answerIndex": 1,
+          "explanation": "enough + isim.",
+          "id": "a2-u11-l3-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "This suitcase is ___ heavy. I can't lift it.",
+          "answers": [
+            "too"
+          ],
+          "explanation": "too + sıfat.",
+          "id": "a2-u11-l3-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "He isn't old ___ to drive. He's only 15.",
+          "answers": [
+            "enough"
+          ],
+          "explanation": "old enough.",
+          "id": "a2-u11-l3-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "There aren't ___ chairs for everyone.",
+          "answers": [
+            "enough"
+          ],
+          "explanation": "enough + isim.",
+          "id": "a2-u11-l3-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "The tea is too hot ___ drink.",
+          "answers": [
+            "to"
+          ],
+          "explanation": "too ... to + fiil.",
+          "id": "a2-u11-l3-p07"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "isn't",
+            "The",
+            "bed",
+            "long",
+            "enough",
+            "for",
+            "me"
+          ],
+          "answer": "The bed isn't long enough for me.",
+          "explanation": "isn't + sıfat + enough + for.",
+          "translation": "Yatak benim için yeterince uzun değil.",
+          "id": "a2-u11-l3-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "We couldn't stay at that hotel. It was too far from the centre and the rooms weren't clean enough.",
+          "prompt": "Otelin sorunu neydi?",
+          "options": [
+            "Çok pahalı ve küçük",
+            "Merkeze çok uzak ve odalar yeterince temiz değil",
+            "Çok gürültülü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"too far... weren't clean enough\"",
+          "id": "a2-u11-l3-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Yeterince havlu yok.\"",
+          "accepted": [
+            "There aren't enough towels.",
+            "There aren't enough towels",
+            "There are not enough towels",
+            "There are not enough towels."
+          ],
+          "explanation": "There aren't + enough towels.",
+          "id": "a2-u11-l3-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "JAI resepsiyon görevlisi. Odanızla ilgili 4 sorunu kibarca bildirin: 2 tanesinde too, 1 tanesinde (not) ... enough, 1 tanesinde enough + isim kullanın. JAI'nin çözümünü kabul edin.",
+          "modelAnswer": "Excuse me, I'm afraid there's a problem with my room. It's too cold and the Wi-Fi is too slow. The bed isn't comfortable enough, and there aren't enough pillows. ... Yes, that's great. Thank you.",
+          "rubric": [
+            "too + sıfat",
+            "sıfat + enough",
+            "enough + isim",
+            "Kibar şikayet dili"
+          ]
+        },
+        "id": "a2-u11-l3-use"
+      }
+    },
+    {
+      "id": "a2-u11-l4",
+      "number": 4,
+      "title": "Nasıl yaptı?",
+      "goal": "Tarz zarfları ile bir eylemin nasıl yapıldığını anlatabilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Tur rehberi değerlendirmesi",
+        "body": "Our guide, Mustafa, was fantastic!\n\nHe spoke English and German perfectly, and he explained everything clearly. He drove the minibus carefully on the mountain roads, so we felt safe.\n\nHe worked really hard. He answered all our questions patiently, even the silly ones! On the last day it rained heavily, but he quickly found a lovely café for us.\n\nThe only problem: he walked very fast! We had to run to keep up. 😄\n\n★★★★★",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "How did Mustafa drive?",
+            "options": [
+              "Fast",
+              "Carefully",
+              "Badly"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"He drove the minibus carefully\"",
+            "id": "a2-u11-l4-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was the only problem?",
+            "options": [
+              "He spoke badly.",
+              "He walked very fast.",
+              "He was late."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"he walked very fast!\"",
+            "id": "a2-u11-l4-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**Tarz zarfları** bir eylemin **nasıl** yapıldığını anlatır. Genellikle **fiilden ya da nesneden sonra** gelir.\n\n**Yapılış:** sıfat + **-ly**\n\n| Sıfat | Zarf |\n|---|---|\n| slow | slow**ly** |\n| careful | careful**ly** |\n| quiet | quiet**ly** |\n| easy | eas**ily** (y → ily) |\n| heavy | heav**ily** |\n\n**Düzensiz zarflar:**\n\n| Sıfat | Zarf |\n|---|---|\n| good | **well** |\n| fast | **fast** |\n| hard | **hard** |\n| early / late | **early / late** |\n\n**Sıfat mı, zarf mı?**\n\n- He's a **careful** driver. (sıfat → isimden önce)\n- He drives **carefully**. (zarf → fiilden sonra)\n\n**Dikkat:** ~~hardly~~ \"çok çalışmak\" değil, \"neredeyse hiç\" demektir.",
+        "examples": [
+          {
+            "en": "Could you speak more slowly, please?",
+            "tr": "Daha yavaş konuşabilir misiniz lütfen?"
+          },
+          {
+            "en": "She speaks English very well.",
+            "tr": "Çok iyi İngilizce konuşuyor."
+          },
+          {
+            "en": "We arrived late because the bus drove slowly.",
+            "tr": "Otobüs yavaş gittiği için geç vardık."
+          }
+        ],
+        "turkishNote": "Türkçede sıfat ve zarf çoğu zaman aynı kelimedir: \"iyi bir sürücü\" / \"iyi sürer\". İngilizcede fark zorunludur: a good driver / drives well. \"He speaks English good\" çok yaygın bir hatadır; doğrusu \"He speaks English well.\""
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "She speaks English good.",
+            "She speaks English well."
+          ],
+          "answerIndex": 1,
+          "explanation": "Fiili niteleyen → well.",
+          "id": "a2-u11-l4-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He's a careful driver.",
+            "He's a carefully driver."
+          ],
+          "answerIndex": 0,
+          "explanation": "İsimden önce → sıfat.",
+          "id": "a2-u11-l4-p02"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Hangisi doğru?",
+          "options": [
+            "He drives careful.",
+            "He drives carefully."
+          ],
+          "answerIndex": 1,
+          "explanation": "Fiilden sonra → zarf.",
+          "id": "a2-u11-l4-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "Could you speak more ___, please? (slow)",
+          "answers": [
+            "slowly"
+          ],
+          "explanation": "slow → slowly.",
+          "id": "a2-u11-l4-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "It rained ___ all night. (heavy)",
+          "answers": [
+            "heavily"
+          ],
+          "explanation": "heavy → heavily.",
+          "id": "a2-u11-l4-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The cleaners work very ___. (hard)",
+          "answers": [
+            "hard"
+          ],
+          "explanation": "hard → hard.",
+          "id": "a2-u11-l4-p06"
+        },
+        {
+          "type": "gapFill",
+          "text": "She passed the exam ___. (easy)",
+          "answers": [
+            "easily"
+          ],
+          "explanation": "easy → easily.",
+          "id": "a2-u11-l4-p07"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "\"He hardly works.\" Anlamı:",
+          "options": [
+            "Çok çalışır.",
+            "Neredeyse hiç çalışmaz."
+          ],
+          "answerIndex": 1,
+          "explanation": "hardly = neredeyse hiç.",
+          "id": "a2-u11-l4-p08"
+        },
+        {
+          "type": "listening",
+          "audioText": "The receptionist was lovely. She spoke to us politely and explained the city map very clearly.",
+          "prompt": "Görevli haritayı nasıl açıkladı?",
+          "options": [
+            "Hızlıca",
+            "Çok açık bir şekilde",
+            "Kaba bir şekilde"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"very clearly\"",
+          "id": "a2-u11-l4-p09"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Çok iyi İngilizce konuşuyor.\" (he)",
+          "accepted": [
+            "He speaks English very well.",
+            "He speaks English very well",
+            "He speaks very good English.",
+            "He speaks very good English"
+          ],
+          "explanation": "He speaks English + very well.",
+          "id": "a2-u11-l4-p10"
+        }
+      ],
+      "use": {
+        "kind": "speaking",
+        "task": {
+          "type": "speaking",
+          "prompt": "Yakın zamanda yaptığınız bir yolculuktaki 3 kişiyi (sürücü, rehber, garson, pilot...) tarz zarflarıyla anlatın. En az 5 farklı zarf kullanın.",
+          "modelAnswer": "Our taxi driver drove very fast, but he drove safely. The waiter at the hotel spoke English well and served us quickly. Our guide explained the history clearly and answered our questions patiently.",
+          "rubric": [
+            "-ly zarfları doğru",
+            "well / fast / hard doğru",
+            "Zarf fiilden sonra"
+          ]
+        },
+        "id": "a2-u11-l4-use"
+      }
+    },
+    {
+      "id": "a2-u11-l5",
+      "number": 5,
+      "title": "Değerlendirme yazmak",
+      "goal": "Bir otel ya da yolculuk için dengeli bir değerlendirme yazabilir ve şikayetimi kibarca iletebilirim.",
+      "warmup": {
+        "source": "review",
+        "count": 6
+      },
+      "discover": {
+        "kind": "text",
+        "title": "Otel yorumları",
+        "body": "★★★★☆ \"Great location, small rooms\" – Melis, Ankara\nThe hotel is in the perfect place, five minutes from the beach. The staff were friendly and worked hard. Breakfast was delicious. However, our room was too small for a family of four, and the walls weren't thick enough. We heard everything!\n\n★★☆☆☆ \"Disappointing\" – Robert, Manchester\nThe photos online look amazing, but the reality is different. The pool was too crowded, and there weren't enough sunbeds. The Wi-Fi worked very slowly. I complained at reception, and they answered politely, but nothing changed.",
+        "questions": [
+          {
+            "type": "multipleChoice",
+            "prompt": "What was good about the hotel for Melis?",
+            "options": [
+              "The room size",
+              "The location and breakfast",
+              "The walls"
+            ],
+            "answerIndex": 1,
+            "explanation": "\"in the perfect place... Breakfast was delicious.\"",
+            "id": "a2-u11-l5-d01"
+          },
+          {
+            "type": "multipleChoice",
+            "prompt": "What was Robert's problem at the pool?",
+            "options": [
+              "It was too cold.",
+              "It was too crowded.",
+              "It was closed."
+            ],
+            "answerIndex": 1,
+            "explanation": "\"The pool was too crowded\"",
+            "id": "a2-u11-l5-d02"
+          }
+        ]
+      },
+      "learn": {
+        "explanation": "**İyi bir değerlendirmenin yapısı:**\n\n1. **Başlık ve puan:** \"Great location, small rooms\" ★★★★☆\n2. **Olumlu yanlar:** The staff were friendly. Breakfast was delicious.\n3. **Olumsuz yanlar:** **However**, the room was too small.\n4. **Sonuç / tavsiye:** I would recommend it for couples, but not for families.\n\n**Bağlaçlar:**\n\n- **but** (cümle içinde): The room was nice, **but** it was small.\n- **However,** (yeni cümle başında, virgülle): The room was nice. **However,** it was small.\n- **also / too**: The staff were **also** helpful. / The food was great **too**.\n\n**Kibar şikayet:**\n\n- I'm afraid there's a problem with ...\n- I'd like to complain about ...\n- Could you possibly ...?\n- I'm not happy with ...",
+        "examples": [
+          {
+            "en": "The room was clean. However, it was too noisy.",
+            "tr": "Oda temizdi. Ancak fazla gürültülüydü."
+          },
+          {
+            "en": "I would recommend this hotel to families.",
+            "tr": "Bu oteli ailelere tavsiye ederim."
+          },
+          {
+            "en": "I'd like to complain about the Wi-Fi.",
+            "tr": "Wi-Fi hakkında şikayette bulunmak istiyorum."
+          }
+        ],
+        "turkishNote": "\"However\" resmi yazıda \"but\"tan daha uygundur ve genellikle yeni cümlenin başına gelip ardından virgül alır. \"recommend\" kalıbı: recommend something to someone (birine bir şeyi tavsiye etmek). İngilizcede \"staff\" çoğul fiil alabilir: The staff were friendly."
+      },
+      "practice": [
+        {
+          "type": "multipleChoice",
+          "prompt": "Resmi yazıda yeni cümle başında:",
+          "options": [
+            "But the room was small.",
+            "However, the room was small."
+          ],
+          "answerIndex": 1,
+          "explanation": "However, + cümle.",
+          "id": "a2-u11-l5-p01"
+        },
+        {
+          "type": "multipleChoice",
+          "prompt": "Kibar şikayet:",
+          "options": [
+            "Your Wi-Fi is terrible!",
+            "I'm afraid there's a problem with the Wi-Fi."
+          ],
+          "answerIndex": 1,
+          "explanation": "I'm afraid there's a problem with...",
+          "id": "a2-u11-l5-p02"
+        },
+        {
+          "type": "gapFill",
+          "text": "The food was great. ___, the service was slow.",
+          "answers": [
+            "However"
+          ],
+          "explanation": "However,",
+          "id": "a2-u11-l5-p03"
+        },
+        {
+          "type": "gapFill",
+          "text": "I would ___ this hotel to couples. (tavsiye etmek)",
+          "answers": [
+            "recommend"
+          ],
+          "explanation": "recommend.",
+          "id": "a2-u11-l5-p04"
+        },
+        {
+          "type": "gapFill",
+          "text": "I'd like to complain ___ the noise.",
+          "answers": [
+            "about"
+          ],
+          "explanation": "complain about.",
+          "id": "a2-u11-l5-p05"
+        },
+        {
+          "type": "gapFill",
+          "text": "The staff were friendly. The rooms were ___ clean. (de, ayrıca)",
+          "answers": [
+            "also"
+          ],
+          "explanation": "also.",
+          "id": "a2-u11-l5-p06"
+        },
+        {
+          "type": "ordering",
+          "words": [
+            "was",
+            "The",
+            "location",
+            "perfect",
+            "but",
+            "the",
+            "room",
+            "was",
+            "too",
+            "small"
+          ],
+          "answer": "The location was perfect but the room was too small.",
+          "explanation": "Olumlu + but + olumsuz.",
+          "translation": "Konum mükemmeldi ama oda fazla küçüktü.",
+          "id": "a2-u11-l5-p07"
+        },
+        {
+          "type": "listening",
+          "audioText": "Overall, I enjoyed my stay. The beds were comfortable enough and the staff worked hard. However, the restaurant was too expensive, so we ate outside.",
+          "prompt": "Neden dışarıda yemek yediler?",
+          "options": [
+            "Restoran kapalıydı",
+            "Restoran fazla pahalıydı",
+            "Yemekler kötüydü"
+          ],
+          "answerIndex": 1,
+          "explanation": "\"the restaurant was too expensive\"",
+          "id": "a2-u11-l5-p08"
+        },
+        {
+          "type": "typeAnswer",
+          "prompt": "İngilizce yazın: \"Bu oteli ailelere tavsiye ederim.\"",
+          "accepted": [
+            "I would recommend this hotel to families.",
+            "I would recommend this hotel to families",
+            "I'd recommend this hotel to families.",
+            "I'd recommend this hotel to families",
+            "I recommend this hotel to families.",
+            "I recommend this hotel to families",
+            "I would recommend this hotel for families.",
+            "I would recommend this hotel for families",
+            "I'd recommend this hotel for families.",
+            "I'd recommend this hotel for families"
+          ],
+          "explanation": "I would recommend + this hotel + to families.",
+          "id": "a2-u11-l5-p09"
+        },
+        {
+          "type": "matching",
+          "pairs": [
+            {
+              "left": "Title",
+              "right": "\"Great location, small rooms\""
+            },
+            {
+              "left": "Positive",
+              "right": "The staff were friendly."
+            },
+            {
+              "left": "Negative",
+              "right": "However, the room was too small."
+            },
+            {
+              "left": "Conclusion",
+              "right": "I would recommend it to couples."
+            }
+          ],
+          "explanation": "Değerlendirme bölümlerini eşleştirin.",
+          "id": "a2-u11-l5-p10"
+        }
+      ],
+      "use": {
+        "kind": "writing",
+        "task": {
+          "type": "writing",
+          "prompt": "Kaldığınız (ya da hayal ettiğiniz) bir otel için bir değerlendirme yazın (80–100 kelime): başlık, puan, olumlu yanlar, However ile olumsuz yanlar, too/enough, en az 2 tarz zarfı ve bir tavsiye.",
+          "modelAnswer": "★★★★☆ \"Lovely staff, slow Wi-Fi\"\nWe stayed at the Blue Bay Hotel in Fethiye for five nights. The location was great and the rooms were very clean. The staff spoke English well and helped us quickly when we had a problem. Breakfast was delicious too. However, the Wi-Fi was too slow, and there weren't enough sunbeds by the pool in the afternoon. I would definitely recommend this hotel to couples and families.",
+          "rubric": [
+            "Yapı (başlık, olumlu, olumsuz, tavsiye)",
+            "too / enough doğru",
+            "Tarz zarfları doğru",
+            "However doğru kullanıldı"
+          ]
+        },
+        "id": "a2-u11-l5-use"
+      }
+    }
+  ],
+  "unitTest": {
+    "passPercent": 80,
+    "questions": [
+      {
+        "type": "multipleChoice",
+        "prompt": "Gidip döneceksiniz:",
+        "options": [
+          "A single ticket",
+          "A return ticket"
+        ],
+        "answerIndex": 1,
+        "explanation": "return",
+        "id": "a2-u11-t01"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "How many luggages?",
+          "How much luggage?"
+        ],
+        "answerIndex": 1,
+        "explanation": "luggage sayılamaz",
+        "id": "a2-u11-t02"
+      },
+      {
+        "type": "gapFill",
+        "text": "The flight is delayed ___ an hour.",
+        "answers": [
+          "by"
+        ],
+        "explanation": "delayed by",
+        "id": "a2-u11-t03"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "En kibar rica:",
+        "options": [
+          "Give me the key.",
+          "Could I have the key, please?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Could I",
+        "id": "a2-u11-t04"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "Could you tell me where is the station?",
+          "Could you tell me where the station is?"
+        ],
+        "answerIndex": 1,
+        "explanation": "Dolaylı soru",
+        "id": "a2-u11-t05"
+      },
+      {
+        "type": "gapFill",
+        "text": "Is breakfast ___? (dahil)",
+        "answers": [
+          "included"
+        ],
+        "explanation": "included",
+        "id": "a2-u11-t06"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Oda kalmak için fazla pahalı:",
+        "options": [
+          "It's very expensive.",
+          "It's too expensive."
+        ],
+        "answerIndex": 1,
+        "explanation": "too",
+        "id": "a2-u11-t07"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "The room isn't enough big.",
+          "The room isn't big enough."
+        ],
+        "answerIndex": 1,
+        "explanation": "sıfat + enough",
+        "id": "a2-u11-t08"
+      },
+      {
+        "type": "gapFill",
+        "text": "There isn't ___ time to see everything.",
+        "answers": [
+          "enough"
+        ],
+        "explanation": "enough + isim",
+        "id": "a2-u11-t09"
+      },
+      {
+        "type": "multipleChoice",
+        "prompt": "Hangisi doğru?",
+        "options": [
+          "He speaks English good.",
+          "He speaks English well."
+        ],
+        "answerIndex": 1,
+        "explanation": "well",
+        "id": "a2-u11-t10"
+      },
+      {
+        "type": "gapFill",
+        "text": "Please drive ___. The road is icy. (careful)",
+        "answers": [
+          "carefully"
+        ],
+        "explanation": "carefully",
+        "id": "a2-u11-t11"
+      },
+      {
+        "type": "gapFill",
+        "text": "The room was nice. ___, it was too noisy.",
+        "answers": [
+          "However"
+        ],
+        "explanation": "However,",
+        "id": "a2-u11-t12"
+      },
+      {
+        "type": "listening",
+        "audioText": "Could I have a room on a higher floor, please? This one is too noisy because it's next to the street.",
+        "prompt": "Misafir neden oda değiştirmek istiyor?",
+        "options": [
+          "Oda fazla küçük",
+          "Oda sokağa yakın, fazla gürültülü",
+          "Manzara yok"
+        ],
+        "answerIndex": 1,
+        "explanation": "\"too noisy because it's next to the street\"",
+        "id": "a2-u11-t13"
+      },
+      {
+        "type": "typeAnswer",
+        "prompt": "İngilizce yazın: \"Daha yavaş konuşabilir misiniz lütfen?\"",
+        "accepted": [
+          "Could you speak more slowly, please?",
+          "Could you speak more slowly, please",
+          "Could you speak more slowly please?",
+          "Could you speak more slowly please",
+          "Can you speak more slowly, please?",
+          "Can you speak more slowly, please",
+          "Could you speak slower, please?",
+          "Could you speak slower, please"
+        ],
+        "explanation": "Could you speak + more slowly, please?",
+        "id": "a2-u11-t14"
+      },
+      {
+        "type": "writing",
+        "prompt": "Bir otele kibar bir şikayet e-postası yazın (70–90 kelime): kaldığınız tarihi, 3 sorunu (too / enough kullanarak), personelin nasıl davrandığını (tarz zarfı) ve ne istediğinizi yazın.",
+        "modelAnswer": "Dear Manager,\nI stayed at your hotel from 3 to 6 August in room 214. I'm afraid I had some problems. The room was too hot because the air conditioning didn't work, and it wasn't big enough for two people. Also, there weren't enough towels. The receptionist spoke to me politely, but nobody fixed the problems. Could you possibly give me a partial refund?\nYours faithfully,\nCan Öztürk",
+        "rubric": [
+          "Kibar ve resmi dil",
+          "too / enough doğru",
+          "Tarz zarfı doğru",
+          "Net bir talep"
+        ],
+        "id": "a2-u11-t15"
+      }
+    ]
+  }
+}
