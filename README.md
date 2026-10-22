@@ -54,6 +54,23 @@ Gerekirse dersler **Table Editor → live_sessions** üzerinden de eklenebilir:
 `join_url` (Zoom/Meet bağlantısı) ve isteğe bağlı `capacity`. Katılım bağlantısını yalnızca yer ayırtan öğrenciler görür
 ve bağlantı dersten 10 dakika önce açılır.
 
+### Uygulama içi canlı yayın (LiveKit)
+
+`join_url` boş bırakılan dersler uygulamanın içinde yayınlanır. Öğretmen ders saatinde **Derslerim → Yayını başlat**'a dokunur
+(dersten 30 dk önce açılır), kamerası ve mikrofonu açık girer. Yer ayırtan öğrenciler **Canlı dersler → Derse katılın** ile
+izler; mikrofonları kapalıdır, el kaldırırlar, öğretmen **Katılımcılar** listesinden söz verir. Ders içi sohbet de vardır.
+
+1. [LiveKit Cloud](https://cloud.livekit.io)'da proje açın; **Settings → Keys**'ten URL (`wss://...livekit.cloud`), API key ve secret'ı alın.
+2. Gizli değerleri Supabase'e yazın ve fonksiyonu yükleyin:
+   ```sh
+   supabase secrets set LIVEKIT_URL=wss://<proje>.livekit.cloud LIVEKIT_API_KEY=<key> LIVEKIT_API_SECRET=<secret>
+   supabase functions deploy livekit-token
+   ```
+3. `supabase/migrations/20261022000000_live_rooms.sql`'i çalıştırın (ya da `supabase db push`).
+4. Xcode projesini yeniden üretin (`xcodegen generate`); LiveKit paketi `project.yml`'den gelir.
+
+Oda anahtarını yalnızca `livekit-token` fonksiyonu üretir: dersin öğretmeni ya da yer ayırtmış öğrenci olmayan kimse odaya giremez.
+
 ## İçerik üretimi
 
 ```sh

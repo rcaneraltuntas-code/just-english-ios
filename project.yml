@@ -20,6 +20,9 @@ packages:
   Supabase:
     url: https://github.com/supabase/supabase-swift
     from: "2.20.0"
+  LiveKit:
+    url: https://github.com/livekit/client-sdk-swift
+    from: "2.18.0"
 
 targets:
   JustEnglish:
@@ -45,6 +48,8 @@ targets:
       - package: JECore
       - package: Supabase
         product: Supabase
+      - package: LiveKit
+        product: LiveKit
 
   JustEnglishTests:
     type: bundle.unit-test

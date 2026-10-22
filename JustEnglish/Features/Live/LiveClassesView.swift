@@ -153,7 +153,7 @@ struct LiveClassesView: View {
             VStack(spacing: 10) {
                 step(1, "calendar.badge.plus", "Yer ayırtın", "Seviyenize uygun dersi seçin.")
                 step(2, "book", "Hazırlanın", "Derse bağlı üniteyi bitirin.")
-                step(3, "video", "Katılın", "Bağlantı dersten 10 dakika önce açılır.")
+                step(3, "video", "Katılın", "Ders uygulamanın içinde canlı yayınlanır; giriş dersten 10 dakika önce açılır.")
             }
         }
     }
@@ -222,6 +222,7 @@ struct LiveSessionRow: View {
 
     @Environment(LiveSessionStore.self) private var store
     @Environment(\.openURL) private var openURL
+    @State private var inRoom = false
 
     var body: some View {
         VStack(alignment: .leading, spacing: 12) {
@@ -245,7 +246,7 @@ struct LiveSessionRow: View {
                     HStack(spacing: 6) {
                         LevelBadge(level: session.level)
                         if session.isJoinable {
-                            HStack(spacing: 4) { LivePulse(); Text("Şimdi").font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.semibold)) }
+                            HStack(spacing: 4) { LivePulse(); Text(session.isLive ? "Canlı" : "Şimdi").font(.custom(Theme.fontFamily, size: 13, relativeTo: .caption).weight(.semibold)) }
                                 .foregroundStyle(Theme.brandRed)
                         } else {
                             Text(session.startsAt.formatted(.relative(presentation: .named)))
@@ -288,11 +289,17 @@ struct LiveSessionRow: View {
                 }
             }
             if session.isJoinable, let url = session.joinURL {
+                // Öğretmen harici bir toplantı bağlantısı (Zoom, Meet) girdiyse o açılır.
                 Button {
                     store.markAttended(session)
                     openURL(url)
                 } label: {
                     Label("Derse katılın", systemImage: "video.fill")
+                }
+                .buttonStyle(PrimaryButtonStyle(color: Theme.success))
+            } else if session.isJoinable, store.isBooked(session) {
+                Button { inRoom = true } label: {
+                    Label(session.isLive ? "Derse katılın" : "Derse girin · öğretmen bekleniyor", systemImage: "video.fill")
                 }
                 .buttonStyle(PrimaryButtonStyle(color: Theme.success))
             } else if store.isBooked(session) {
@@ -309,6 +316,9 @@ struct LiveSessionRow: View {
         }
         .padding(16)
         .modifier(HomeCard())
+        .fullScreenCover(isPresented: $inRoom, onDismiss: { Task { await store.refresh() } }) {
+            LiveRoomView(sessionID: session.id, title: session.title) { store.markAttended(session) }
+        }
     }
 }
 
