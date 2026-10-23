@@ -1,0 +1,851 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pizza Dükkânı</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+@font-face { font-family: 'Plus Jakarta Sans'; src: url('../shared/PlusJakartaSans.ttf') format('truetype'); font-weight: 200 800; }
+/* İlk pizza teması: 390 px genişlikte çizildi, telefona göre ölçeklenir. Boy uzadıkça pizza alanı büyür. */
+:root {
+  --bg: #F3EEE7;
+  --ink: #3A2314;
+  --ink-soft: #7A5A44;
+  --card: #FFFFFF;
+  --paper: #FFFDF7;
+  --butter: #FFE08A;
+  --sun: #FFC21A;
+  --orange: #E8542C;
+  --orange-dark: #A9361A;
+  --good: #1F7A4D;
+  --good-bar: #5BBF6A;
+  --bad: #A3431A;
+  --steel-1: #DDE2E6;
+  --steel-2: #B9C1C7;
+  --round: ui-rounded, 'SF Pro Rounded', 'Plus Jakarta Sans', system-ui, sans-serif;
+  --body: 'Plus Jakarta Sans', system-ui, sans-serif;
+  color-scheme: light;
+}
+/* Oyun sahnesi her temada aynı kalır. */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #F3EEE7; }
+}
+:root[data-theme="dark"] { --bg: #F3EEE7; }
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; overflow: hidden; }
+body { background: var(--bg); color: var(--ink); font-family: var(--body); -webkit-user-select: none; user-select: none; -webkit-touch-callout: none; }
+button { font: inherit; color: inherit; }
+
+.game { position: fixed; left: 0; top: 0; width: 390px; display: flex; flex-direction: column; transform-origin: 0 0; background: var(--bg); overflow: hidden; }
+
+/* Sahne: alt kenara sabitlenir, kısa ekranda üstten kırpılır. */
+.scene { position: relative; flex: 0 0 auto; overflow: hidden; }
+.scene svg.bg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.scene svg.fg { position: absolute; left: 0; bottom: 0; width: 390px; height: 92px; z-index: 2; }
+.customer { position: absolute; z-index: 1; left: 4px; bottom: 26px; height: 178px; width: 176px; display: flex; align-items: flex-end; justify-content: center; transition: transform .55s cubic-bezier(.2,.9,.3,1.1), opacity .3s; }
+.customer img { max-height: 100%; max-width: 100%; display: block; transform-origin: 50% 100%; filter: drop-shadow(0 6px 8px rgba(58,35,20,0.18)); animation: breathe 3.2s ease-in-out infinite; }
+.customer.out { transform: translateX(-125%); opacity: 0; }
+.customer.impatient img { animation: fidget .45s ease-in-out infinite; }
+.customer.happy img { animation: hop .45s ease-out 2; }
+.customer.sad img { animation: shake .35s ease-in-out 2; }
+.hud .snd { flex: 0 0 34px; height: 34px; border-radius: 17px; border: none; background: rgba(58,35,20,0.85); color: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.hud .snd.off { color: rgba(255,255,255,0.45); }
+.pop-coins { position: absolute; z-index: 30; pointer-events: none; font-family: var(--round); font-weight: 700; font-size: 22px; color: #FFFFFF; text-shadow: 0 2px 0 var(--orange-dark), 0 4px 10px rgba(58,35,20,0.4); animation: floatup 1.1s ease-out forwards; }
+.hud { position: absolute; z-index: 4; left: 0; right: 0; top: max(12px, env(safe-area-inset-top)); padding: 0 14px; display: flex; align-items: center; gap: 8px; }
+.hud .x { flex: 0 0 44px; height: 44px; border-radius: 22px; border: none; background: rgba(58,35,20,0.85); color: #FFFFFF; display: flex; align-items: center; justify-content: center; cursor: pointer; }
+.hud .pill { height: 34px; padding: 0 12px; border-radius: 17px; background: rgba(58,35,20,0.85); color: var(--butter); display: flex; align-items: center; font-size: 13px; font-weight: 800; }
+.hud .coins { color: #FFFFFF; gap: 6px; padding-left: 6px; font-size: 14px; }
+.coin { width: 22px; height: 22px; flex: 0 0 22px; border-radius: 11px; background: var(--sun); border: 2px solid var(--butter); }
+.hud .grow { flex: 1; }
+
+.bubble { position: absolute; z-index: 3; left: 168px; right: 12px; bottom: 128px; background: var(--card); border-radius: 22px; padding: 12px 14px; box-shadow: 0 8px 18px rgba(58,35,20,0.22); display: flex; flex-direction: column; gap: 8px; }
+.bubble::before { content: ""; position: absolute; left: -8px; bottom: 22px; width: 20px; height: 20px; background: var(--card); transform: rotate(45deg); border-radius: 4px; }
+.bubble p { position: relative; margin: 0; font-family: var(--round); font-size: 16px; font-weight: 500; line-height: 1.28; color: var(--ink); }
+.bubble p.tr { font-family: var(--body); font-size: 13.5px; font-weight: 700; color: var(--ink-soft); }
+.bubble .row { position: relative; display: flex; align-items: center; gap: 8px; }
+.chip { flex: 0 0 auto; height: 32px; min-width: 32px; padding: 0 8px; border-radius: 16px; border: none; background: var(--butter); color: var(--ink); display: flex; align-items: center; justify-content: center; font-size: 11px; font-weight: 800; cursor: pointer; }
+.chip.on { background: var(--ink); color: var(--butter); }
+.bubble .lbl { font-size: 11px; font-weight: 800; color: var(--ink-soft); }
+.bar { flex: 1; height: 8px; border-radius: 4px; background: #F0E4D4; overflow: hidden; }
+.bar i { display: block; height: 100%; width: 100%; border-radius: 4px; background: var(--good-bar); transform-origin: left; }
+
+/* Hazırlık alanı */
+.work { position: relative; flex: 1 1 auto; min-height: 0; }
+.work svg.decor { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+#decoTomato { width: 46px; } #decoBasil { width: 34px; }
+.deco { position: absolute; pointer-events: none; filter: drop-shadow(0 4px 4px rgba(58,35,20,0.18)); }
+.pizza { position: absolute; left: 6px; top: 14px; }
+.pizza svg { display: block; width: 100%; height: 100%; }
+.layer { position: absolute; touch-action: none; cursor: pointer; border-radius: 50%; }
+.divider { position: absolute; left: 50%; top: 8%; bottom: 8%; border-left: 2.5px dashed rgba(255,255,255,0.9); pointer-events: none; z-index: 6; }
+.piece { position: absolute; translate: -50% -50%; pointer-events: none; animation: drop .28s ease-out both; filter: drop-shadow(0 2px 2px rgba(58,20,10,0.3)); }
+.halo { position: absolute; inset: 0; border-radius: 50%; pointer-events: none; z-index: 5; opacity: 0; transition: opacity .25s; background: radial-gradient(circle, rgba(255,255,255,0) 66%, rgba(255,255,255,0.55) 80%, rgba(255,255,255,0) 85%); }
+.halo.l { clip-path: inset(0 50% 0 0); } .halo.r { clip-path: inset(0 0 0 50%); }
+.halo.show { opacity: 1; }
+.ticket { position: absolute; z-index: 4; right: 14px; top: -10px; width: 124px; background: var(--paper); padding: 18px 10px 12px; box-shadow: 0 8px 16px rgba(58,35,20,0.2); transform: rotate(2deg); display: flex; flex-direction: column; gap: 6px; border-radius: 0 0 6px 6px; }
+.ticket::before { content: ""; position: absolute; left: 46px; top: -4px; width: 32px; height: 14px; border-radius: 3px; background: #9AA3AA; }
+.ticket strong { font-family: var(--round); font-size: 13px; font-weight: 600; letter-spacing: .5px; }
+.ticket ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 5px; }
+.ticket li { font-size: 12px; font-weight: 700; line-height: 1.2; color: var(--bad); display: flex; gap: 4px; }
+.ticket li.ok { color: var(--good); }
+.ticket li.x { color: #C0392B; }
+.ticket li i { font-style: normal; flex: 0 0 12px; }
+.ticket .sep { height: 1px; margin-top: 2px; background: repeating-linear-gradient(90deg, #CDBFA9 0 4px, transparent 4px 8px); }
+.ticket .combo { font-size: 11px; font-weight: 800; color: var(--ink-soft); }
+.undo { position: absolute; z-index: 4; right: 12px; bottom: 10px; height: 36px; padding: 0 12px; border-radius: 18px; border: none; background: rgba(58,35,20,0.85); color: #FFFFFF; display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 800; cursor: pointer; }
+.undo:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+.toast { position: absolute; z-index: 8; left: 50%; top: 42%; transform: translate(-50%, -50%); padding: 8px 14px; border-radius: 16px; background: rgba(58,35,20,0.9); color: #FFFFFF; font-size: 13px; font-weight: 700; white-space: nowrap; opacity: 0; transition: opacity .2s; pointer-events: none; }
+.toast.show { opacity: 1; }
+
+/* Malzeme kapları */
+.tray { flex: 0 0 auto; margin: 0 10px; border-radius: 20px; background: linear-gradient(180deg, var(--steel-1), var(--steel-2)); box-shadow: inset 0 2px 0 #F1F3F5, 0 6px 0 rgba(58,35,20,0.16); padding: 8px; display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 6px; }
+.bin { border: none; padding: 0; background: transparent; display: flex; flex-direction: column; align-items: stretch; gap: 4px; color: var(--ink); cursor: grab; touch-action: none; transition: transform .15s; }
+.bin .well { position: relative; height: 56px; border-radius: 12px; background: linear-gradient(180deg, #A7B0B7, #CCD3D8); box-shadow: inset 0 4px 6px rgba(0,0,0,0.22); overflow: hidden; }
+.bin .well img { position: absolute; width: 50%; translate: -50% -50%; pointer-events: none; filter: drop-shadow(0 2px 2px rgba(0,0,0,0.3)); }
+.bin span.name { font-size: 10.5px; font-weight: 800; text-align: center; }
+.bin.sel { transform: translateY(-4px); }
+.bin.sel .well { background: linear-gradient(180deg, #FFE7A0, #FFD45E); box-shadow: 0 0 0 2.5px var(--ink), 0 5px 0 var(--ink); }
+.bin:focus-visible .well, .x:focus-visible, .chip:focus-visible, .bake:focus-visible, .cta:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
+
+.actions { flex: 0 0 auto; display: flex; gap: 10px; padding: 14px 10px calc(18px + env(safe-area-inset-bottom)); }
+.timer { flex: 0 0 auto; height: 52px; padding: 0 14px; border-radius: 26px; background: var(--ink); color: var(--butter); display: flex; align-items: center; gap: 6px; font-size: 14px; font-weight: 800; font-variant-numeric: tabular-nums; }
+.timer.low { color: #FF8A6A; }
+.bake { flex: 1; height: 52px; border-radius: 26px; border: none; background: var(--orange); color: #FFFFFF; font-family: var(--round); font-size: 20px; font-weight: 700; box-shadow: 0 5px 0 var(--orange-dark); display: flex; align-items: center; justify-content: center; gap: 8px; cursor: pointer; }
+.bake[disabled] { opacity: .5; cursor: default; }
+
+/* Fırına uçan pizza */
+.flying { position: absolute; z-index: 20; pointer-events: none; transition: transform .75s cubic-bezier(.5,0,.7,.4), opacity .75s; transform-origin: 50% 50%; }
+.fire-boost { animation: boost 1.4s ease-in-out; transform-box: fill-box; transform-origin: 50% 100%; }
+
+/* Kartlar */
+.overlay { position: absolute; inset: 0; z-index: 40; display: flex; align-items: center; justify-content: center; padding: 18px; background: rgba(58,35,20,0.45); }
+.overlay[hidden] { display: none; }
+.card { width: 100%; max-width: 340px; background: var(--card); border-radius: 26px; padding: 20px 18px 18px; text-align: center; box-shadow: 0 10px 0 rgba(58,35,20,0.16), 0 20px 40px rgba(58,35,20,0.25); animation: rise .35s ease-out both; }
+.card h2 { margin: 0; font-family: var(--round); font-size: 28px; font-weight: 700; }
+.card .lead { margin: 6px 0 0; font-size: 14px; font-weight: 600; line-height: 1.45; color: var(--ink-soft); }
+.card ol { margin: 14px 0 0; padding: 0; list-style: none; text-align: left; display: flex; flex-direction: column; gap: 8px; }
+.card ol li { display: flex; gap: 10px; font-size: 13.5px; font-weight: 600; line-height: 1.35; }
+.card ol b { flex: 0 0 24px; height: 24px; border-radius: 12px; background: var(--butter); font-size: 12px; display: flex; align-items: center; justify-content: center; }
+.card .thumb { width: 130px; height: 130px; margin: -70px auto 4px; position: relative; }
+.card .stars { display: flex; justify-content: center; gap: 6px; }
+.card .stars svg { width: 34px; height: 34px; }
+.card q { display: block; margin: 10px 0 2px; font-family: var(--round); font-size: 21px; font-weight: 600; line-height: 1.25; quotes: "“" "”"; }
+.card .tr { font-size: 13px; font-weight: 700; color: var(--ink-soft); }
+.card ul.review { list-style: none; margin: 12px 0 0; padding: 12px 0 0; border-top: 1px dashed #E2D6C6; text-align: left; display: flex; flex-direction: column; gap: 6px; }
+.card ul.review li { font-size: 13px; font-weight: 700; display: flex; gap: 8px; color: var(--bad); }
+.card ul.review li.ok { color: var(--good); }
+.card ul.review li i { font-style: normal; flex: 0 0 14px; }
+.card .tip { margin-top: 12px; display: inline-flex; align-items: center; gap: 6px; padding: 6px 12px 6px 6px; border-radius: 16px; background: #FFF4D2; font-weight: 800; font-size: 14px; }
+.card .tip .coin { width: 20px; height: 20px; flex-basis: 20px; }
+.cta { margin-top: 16px; width: 100%; height: 52px; border: none; border-radius: 26px; background: var(--orange); color: #FFFFFF; font-family: var(--round); font-size: 20px; font-weight: 700; box-shadow: 0 5px 0 var(--orange-dark); cursor: pointer; }
+
+/* Gün sonu */
+.day .kicker { display: inline-block; padding: 4px 10px; border-radius: 10px; background: var(--butter); font-size: 11px; font-weight: 800; letter-spacing: 1px; }
+.day h2 { margin-top: 8px; }
+.stats { margin-top: 14px; display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.stats div { padding: 10px 4px; border-radius: 16px; background: #F7F1E6; display: flex; flex-direction: column; gap: 2px; }
+.stats b { font-family: var(--round); font-size: 22px; font-weight: 700; }
+.stats span { font-size: 11px; font-weight: 700; color: var(--ink-soft); }
+.day .sub { margin: 14px 0 6px; font-size: 12px; font-weight: 800; color: var(--ink-soft); text-align: left; }
+.words { display: flex; flex-wrap: wrap; gap: 6px; }
+.words span { padding: 5px 10px; border-radius: 12px; background: #EAF5EC; color: var(--good); font-size: 13px; font-weight: 800; }
+.tomorrow { margin-top: 14px; padding: 10px 12px; border-radius: 16px; border: 1.5px dashed #E2D6C6; display: flex; align-items: center; gap: 10px; text-align: left; font-size: 12.5px; font-weight: 600; line-height: 1.35; color: var(--ink-soft); }
+.tomorrow b { color: var(--ink); }
+.tomorrow .ico { flex: 0 0 auto; display: flex; }
+.tomorrow .ico img { width: 30px; height: 30px; object-fit: contain; }
+.tomorrow .ico img + img { margin-left: -8px; }
+@keyframes breathe { 50% { transform: scaleY(1.018) translateY(-1px); } }
+@keyframes fidget { 25% { transform: rotate(-2deg); } 75% { transform: rotate(2deg); } }
+@keyframes hop { 40% { transform: translateY(-12px); } }
+@keyframes shake { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px); } }
+@keyframes floatup { 0% { transform: translate(-50%, 0) scale(.6); opacity: 0; } 20% { transform: translate(-50%, -10px) scale(1.1); opacity: 1; } 100% { transform: translate(-50%, -70px) scale(1); opacity: 0; } }
+@keyframes drop { from { scale: 1.6; opacity: 0; } to { scale: 1; opacity: 1; } }
+@keyframes rise { from { transform: translateY(16px); opacity: 0; } }
+@keyframes boost { 0%, 100% { transform: scale(1); } 30% { transform: scale(1.35, 1.6); } 60% { transform: scale(1.15, 1.3); } }
+@media (prefers-reduced-motion: reduce) { .piece, .card, .fire-boost, .customer img, .pop-coins { animation: none !important; } .customer, .flying { transition: none; } }
+</style>
+</head>
+<body>
+<div class="game" id="game">
+  <section class="scene" id="scene">
+    <svg class="bg" viewBox="0 0 390 352" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="pzWall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F8E9D0"/><stop offset="1" stop-color="#EFCF9F"/></linearGradient>
+        <radialGradient id="pzGlow" cx="306" cy="292" r="170" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FF8A2A" stop-opacity="0.55"/><stop offset="1" stop-color="#FF8A2A" stop-opacity="0"/></radialGradient>
+        <radialGradient id="pzFire" cx="305" cy="306" r="44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFF2A8"/><stop offset="0.45" stop-color="#FFAE34"/><stop offset="1" stop-color="#6E1A06"/></radialGradient>
+        <linearGradient id="pzDome" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#CF6E40"/><stop offset="1" stop-color="#A2461F"/></linearGradient>
+        <linearGradient id="pzCone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE9AE" stop-opacity="0.6"/><stop offset="1" stop-color="#FFE9AE" stop-opacity="0"/></linearGradient>
+        <linearGradient id="pzSky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8FCBE6"/><stop offset="1" stop-color="#FCE3BE"/></linearGradient>
+        <pattern id="pzTile" width="32" height="24" patternUnits="userSpaceOnUse"><rect width="32" height="24" fill="#F7F1E6"/><path d="M0 0.5h32 M0 12.5h32 M0.5 0v12 M16.5 12v12" stroke="#DCCCB4" stroke-width="1.2"/></pattern>
+        <clipPath id="pzWin"><path d="M22 252 V160 A64 64 0 0 1 150 160 V252 Z"/></clipPath>
+      </defs>
+      <rect x="0" y="-400" width="390" height="752" fill="url(#pzWall)"/>
+      <g fill="#E6C392" opacity="0.35"><ellipse cx="220" cy="60" rx="40" ry="14"/><ellipse cx="330" cy="150" rx="30" ry="10"/><ellipse cx="170" cy="250" rx="26" ry="8"/></g>
+      <rect x="0" y="258" width="390" height="46" fill="url(#pzTile)"/>
+      <rect x="0" y="254" width="390" height="6" fill="#2E6B5C"/>
+      <rect x="0" y="0" width="390" height="352" fill="url(#pzGlow)"/>
+      <g clip-path="url(#pzWin)">
+        <rect x="20" y="90" width="134" height="170" fill="url(#pzSky)"/>
+        <circle cx="126" cy="132" r="14" fill="#FFF4C8"/>
+        <path d="M30 140 c8 -8 22 -8 28 0 c8 -2 14 4 12 8 h-44 c-4 -2 -2 -8 4 -8 z" fill="#FFFFFF" opacity="0.85"/>
+        <rect x="20" y="176" width="44" height="80" fill="#E79A63"/>
+        <path d="M20 176 h44 l-6 -10 h-32 z" fill="#B85A3A"/>
+        <rect x="62" y="152" width="40" height="104" fill="#D6704F"/>
+        <path d="M62 152 l20 -14 l20 14 z" fill="#9E4A30"/>
+        <rect x="100" y="184" width="54" height="72" fill="#F1C47E"/>
+        <g fill="#2E6B5C"><rect x="28" y="190" width="10" height="14" rx="1"/><rect x="46" y="190" width="10" height="14" rx="1"/><rect x="28" y="216" width="10" height="14" rx="1"/><rect x="70" y="166" width="9" height="13" rx="1"/><rect x="86" y="166" width="9" height="13" rx="1"/><rect x="70" y="192" width="9" height="13" rx="1"/><rect x="108" y="196" width="10" height="13" rx="1"/><rect x="132" y="196" width="10" height="13" rx="1"/></g>
+        <path d="M100 216 h54 v8 h-54 z" fill="#C8463A"/>
+        <path d="M100 224 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 l6 -8 l6 8 v-8 z" fill="#C8463A"/>
+        <path d="M100 224 l6 8 l6 -8 M112 224 l6 8 l6 -8 M136 224 l6 8 l6 -8" fill="#FFFFFF" opacity="0.9"/>
+      </g>
+      <path d="M22 252 V160 A64 64 0 0 1 150 160 V252" fill="none" stroke="#2E6B5C" stroke-width="8"/>
+      <path d="M86 98 V252 M22 196 H150" stroke="#2E6B5C" stroke-width="5"/>
+      <rect x="12" y="248" width="148" height="10" rx="3" fill="#E9D3B2"/>
+      <path d="M22 248 c-2 -10 4 -16 10 -14 c2 -8 12 -8 14 0 c6 -2 10 6 6 14 z" fill="#3E9B4F"/>
+      <g fill="#E2453A"><circle cx="28" cy="238" r="3.5"/><circle cx="38" cy="233" r="3.5"/><circle cx="46" cy="240" r="3.5"/></g>
+      <line x1="70" y1="-400" x2="70" y2="94" stroke="#3A2314" stroke-width="2"/>
+      <polygon points="50,110 90,110 156,300 -16,300" fill="url(#pzCone)"/>
+      <path d="M46 112 C46 86 94 86 94 112 Z" fill="#2E6B5C"/>
+      <rect x="66" y="88" width="8" height="6" rx="2" fill="#2A4A40"/>
+      <ellipse cx="70" cy="112" rx="11" ry="4" fill="#FFE9AE"/>
+      <path d="M222 304 C222 196 392 196 392 304 Z" fill="url(#pzDome)"/>
+      <g stroke="#E98E5E" stroke-width="2" fill="none" opacity="0.5">
+        <path d="M228 288 h158 M226 272 h162 M232 256 h150 M244 240 h126 M262 226 h90"/>
+        <path d="M256 288 v-16 M296 288 v-16 M336 288 v-16 M376 288 v-16 M240 272 v-16 M276 272 v-16 M316 272 v-16 M356 272 v-16 M264 256 v-16 M304 256 v-16 M344 256 v-16 M290 240 v-14 M330 240 v-14"/>
+      </g>
+      <path d="M258 304 C258 250 352 250 352 304" fill="none" stroke="#F0A274" stroke-width="7"/>
+      <path d="M266 304 C266 262 344 262 344 304 Z" fill="#2A0E04"/>
+      <path d="M270 304 C270 268 340 268 340 304 Z" fill="url(#pzFire)"/>
+      <rect x="282" y="296" width="28" height="7" rx="3.5" fill="#5A2A12"/>
+      <rect x="300" y="292" width="26" height="7" rx="3.5" fill="#6E3418" transform="rotate(-10 313 296)"/>
+      <g id="flames">
+        <path d="M284 298 C280 284 292 278 290 266 C300 276 298 284 304 288 C306 278 314 274 312 262 C326 278 324 290 326 298 Z" fill="#FFCF4E"/>
+        <path d="M294 298 C292 288 300 284 300 278 C308 286 306 292 312 298 Z" fill="#FFF3B8"/>
+      </g>
+      <g fill="#FFD25A"><circle cx="320" cy="252" r="1.6"/><circle cx="296" cy="244" r="1.2"/><circle cx="332" cy="238" r="1.2"/></g>
+    </svg>
+    <div class="customer out" id="customer"><img id="customerImg" alt=""></div>
+    <svg class="fg" viewBox="0 260 390 92" aria-hidden="true">
+      <rect x="0" y="300" width="390" height="10" fill="#E2AA6E"/>
+      <rect x="0" y="310" width="390" height="42" fill="#B9773F"/>
+      <g stroke="#9A5E2E" stroke-width="2" opacity="0.7"><path d="M48 310v42 M120 310v42 M192 310v42 M264 310v42 M336 310v42"/></g>
+      <path d="M14 330 c20 -3 30 3 50 0 M150 322 c24 -3 34 3 56 0 M286 336 c18 -3 28 3 46 0" stroke="#A86A34" stroke-width="1.6" fill="none"/>
+      <rect x="196" y="290" width="64" height="11" rx="2" fill="#D9B27A"/>
+      <rect x="200" y="279" width="60" height="11" rx="2" fill="#E3BF88"/>
+      <rect x="194" y="268" width="62" height="11" rx="2" fill="#D9B27A"/>
+      <path d="M210 268 v11 M220 279 v11 M206 290 v11" stroke="#C8463A" stroke-width="3"/>
+      <path d="M164 300 C164 284 186 284 186 300 Z" fill="#F2C14E"/>
+      <path d="M168 296 C170 290 174 288 178 288" stroke="#FFE7A0" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <rect x="160" y="298" width="30" height="4" rx="2" fill="#B8862B"/>
+      <circle cx="175" cy="282" r="3" fill="#B8862B"/>
+      <rect x="0" y="346" width="390" height="6" fill="#9AA3AA"/>
+      <rect x="0" y="346" width="390" height="2" fill="#C9D0D5"/>
+    </svg>
+    <div class="hud">
+      <button class="x" id="close" type="button" aria-label="Oyundan çık"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12 M18 6L6 18"/></svg></button>
+      <button class="x" id="restart" type="button" aria-label="Baştan başla"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 12a8 8 0 1 0 2.4-5.7"/><path d="M4 4v4h4"/></svg></button>
+      <span class="pill" id="level">Gün 1 · 1/6</span>
+      <span class="grow"></span>
+      <button class="snd" id="snd" type="button" aria-label="Sesi kapat" aria-pressed="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z"/><path id="sndWave" d="M16 9a4 4 0 0 1 0 6 M18.5 6.5a8 8 0 0 1 0 11"/></svg></button>
+      <span class="pill coins"><span class="coin"></span><span id="coins">240</span></span>
+    </div>
+    <div class="bubble" id="bubble" role="status">
+      <p id="orderText"></p>
+      <div class="row">
+        <button class="chip" id="listen" type="button" aria-label="Siparişi dinle"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9z M16 9a4 4 0 0 1 0 6"/></svg></button>
+        <button class="chip" id="trBtn" type="button" aria-pressed="false">TR</button>
+        <span class="lbl">Sabır</span>
+        <div class="bar"><i id="patience"></i></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="work" id="work">
+    <svg class="decor" aria-hidden="true">
+      <path d="M-10 40 C80 10 140 90 240 50 S380 20 400 70" stroke="#DED6CB" stroke-width="2" fill="none"/>
+      <path d="M-10 250 C60 220 160 280 260 240 S360 220 400 260" stroke="#DED6CB" stroke-width="2" fill="none"/>
+      <g fill="#FFFFFF" opacity="0.9"><circle cx="20" cy="36" r="2"/><circle cx="34" cy="24" r="1.4"/><circle cx="14" cy="200" r="1.6"/><circle cx="300" cy="120" r="1.4"/></g>
+      <g fill="#FFFFFF" opacity="0.55"><ellipse cx="26" cy="30" rx="18" ry="8"/></g>
+    </svg>
+    <img class="deco" id="decoTomato" alt="">
+    <img class="deco" id="decoBasil" alt="">
+    <div class="pizza" id="pizzaBox">
+      <svg viewBox="0 0 290 280" aria-hidden="true">
+        <defs>
+          <radialGradient id="pzSauce" cx="140" cy="136" r="100" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#E64B2E"/><stop offset="1" stop-color="#B42A16"/></radialGradient>
+          <radialGradient id="pzCrust" cx="140" cy="130" r="122" gradientUnits="userSpaceOnUse"><stop offset="0.82" stop-color="#F3C67E"/><stop offset="1" stop-color="#C98A3E"/></radialGradient>
+          <linearGradient id="pzPeel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#E2B07A"/><stop offset="1" stop-color="#B9814C"/></linearGradient>
+        </defs>
+        <rect x="18" y="214" width="40" height="80" rx="14" fill="#B9814C" transform="rotate(38 38 254)"/>
+        <ellipse cx="144" cy="144" rx="132" ry="126" fill="#5A3A22" opacity="0.14"/>
+        <circle cx="140" cy="134" r="130" fill="url(#pzPeel)"/>
+        <g stroke="#C9935C" stroke-width="2" opacity="0.6" fill="none"><path d="M30 100 C90 92 190 110 256 98 M24 160 C100 150 180 172 258 160 M44 214 C110 206 170 222 236 212"/></g>
+        <circle cx="140" cy="134" r="118" fill="url(#pzCrust)"/>
+        <g fill="#B97A35" opacity="0.6"><ellipse cx="60" cy="70" rx="5" ry="3"/><ellipse cx="220" cy="80" rx="6" ry="3"/><ellipse cx="236" cy="190" rx="5" ry="3"/><ellipse cx="70" cy="214" rx="6" ry="3"/><ellipse cx="150" cy="24" rx="5" ry="3"/><ellipse cx="140" cy="246" rx="6" ry="3"/></g>
+        <circle cx="140" cy="134" r="100" fill="url(#pzSauce)"/>
+        <g fill="#C9351D" opacity="0.5"><circle cx="120" cy="60" r="4"/><circle cx="200" cy="100" r="3"/><circle cx="180" cy="210" r="4"/><circle cx="96" cy="210" r="3"/></g>
+      </svg>
+      <!-- Hamurun üstü: konumlar kenar dairesine göre, merkez 0,0 kenar 1. -->
+      <div class="layer" id="layer">
+        <div class="halo l" id="haloL"></div><div class="halo r" id="haloR"></div>
+        <div class="divider" id="divider"></div>
+      </div>
+    </div>
+    <aside class="ticket" aria-label="Sipariş fişi">
+      <strong id="ticketNo">SİPARİŞ 12</strong>
+      <ul id="checklist"></ul>
+      <div class="sep"></div>
+      <span class="combo" id="combo">Kombo ×0</span>
+    </aside>
+    <button class="undo" id="undo" type="button" aria-label="Son malzemeyi geri al"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 14L4 9l5-5"/><path d="M4 9h10a6 6 0 0 1 0 12h-3"/></svg>Geri al</button>
+    <div class="toast" id="toast" aria-live="polite"></div>
+  </section>
+
+  <section class="tray" id="tray" aria-label="Malzemeler"></section>
+  <div class="actions">
+    <span class="timer" id="timer"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 3a9 9 0 1 0 0 18a9 9 0 1 0 0-18z M12 7v5l3 2"/></svg><span id="timeLeft">45 sn</span></span>
+    <button class="bake" id="bake" type="button"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20 C3 10 21 10 21 20 Z M8 20 C8 15 16 15 16 20 M12 4 C10 6 14 7 12 9"/></svg>Fırına at</button>
+  </div>
+
+  <div class="overlay" id="introView">
+    <div class="card" role="dialog" aria-labelledby="introTitle">
+      <h2 id="introTitle">Gün 1 · Akşam servisi</h2>
+      <p class="lead">Trattoria'yı bu akşam sen açıyorsun. Altı müşteri gelecek; siparişi İngilizce dinle, pizzayı tam istendiği gibi hazırla.</p>
+      <ol>
+        <li><b>1</b>Siparişi oku ya da dinle. Left ve right yarımlara dikkat et.</li>
+        <li><b>2</b>Malzemeyi seç, pizzanın doğru yarısına dokun ya da sürükle.</li>
+        <li><b>3</b>Fırına at. Hızlı ve doğru olursan bahşiş alırsın.</li>
+      </ol>
+      <button class="cta" id="start" type="button">Servise başla</button>
+    </div>
+  </div>
+  <div class="overlay" id="dayView" hidden>
+    <div class="card day" role="dialog" aria-labelledby="dayTitle">
+      <span class="kicker">GÜN 1 BİTTİ</span>
+      <h2 id="dayTitle">Harika bir akşam!</h2>
+      <div class="stats">
+        <div><b id="dEarn">+0</b><span>kazanç</span></div>
+        <div><b id="dStars">0/18</b><span>yıldız</span></div>
+        <div><b id="dCombo">×0</b><span>en iyi kombo</span></div>
+      </div>
+      <p class="sub">Bugün kullandığın kelimeler</p>
+      <div class="words" id="dWords"></div>
+      <div class="tomorrow"><span class="ico"><img src="full/toppings/pepperoni-1.png" alt=""><img src="full/toppings/onion.png" alt=""></span><span><b>Gün 2</b> pepperoni ve onion açılıyor. Siparişlerde "except" ve "more" var.</span></div>
+      <button class="cta" id="again" type="button">Günü tekrar oyna</button>
+    </div>
+  </div>
+  <div class="overlay" id="resultView" hidden>
+    <div class="card" role="dialog" aria-labelledby="quote">
+      <div class="thumb" id="thumb"></div>
+      <div class="stars" id="stars"></div>
+      <q id="quote"></q>
+      <div class="tr" id="quoteTr"></div>
+      <ul class="review" id="review"></ul>
+      <div class="tip" id="tip"></div>
+      <button class="cta" id="next" type="button">Sonraki sipariş</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// Müşteriler ve malzemeler: Magnific illüstrasyonları (macrovector yüzler ve aynı çizimden renk varyasyonları, upklyak malzeme seti).
+const CUSTOMERS = ['elena', 'marco', 'sofia', 'leo', 'nadia', 'omar'];
+const face = (who, f) => `full/characters/${who}-${f}.png`;
+// spread: bir dokunuş o yarıya serpilir. count: her dokunuş bir parça. size: kenar çapına oran.
+const ITEMS = {
+  cheese:   { en: 'cheese',   tr: 'peynir',   mode: 'spread', n: 7, size: 0.18, z: 1, img: ['cheese-1', 'cheese-2', 'cheese-3', 'cheese-4'] },
+  mushroom: { en: 'mushroom', tr: 'mantar',   mode: 'spread', n: 6, size: 0.15, z: 3, img: ['mushroom-1', 'mushroom-2', 'mushroom-3'] },
+  olive:    { en: 'olive',    tr: 'zeytin',   mode: 'count',  size: 0.1,  z: 4, img: ['olive-1', 'olive-2', 'olive-3'] },
+  tomato:   { en: 'tomato',   tr: 'domates',  mode: 'spread', n: 4, size: 0.19, z: 2, img: ['tomato-1', 'tomato-2', 'tomato-3'] },
+  pepper:   { en: 'pepper',   tr: 'biber',    mode: 'spread', n: 5, size: 0.16, z: 3, img: ['pepper-1', 'pepper-2', 'pepper-3'] },
+  basil:    { en: 'basil',    tr: 'fesleğen', mode: 'count',  size: 0.13, z: 4, img: ['basil-1', 'basil-2', 'basil-3'] }
+};
+const src = name => `full/toppings/${name}.png`;
+// Gün 1: kolaydan zora. split: iki malzeme ayrı yarılarda, hangi yarı olduğu fark etmez.
+const ORDERS = [
+  { who: 'elena', en: 'Half cheese, half mushroom, please. And two olives on the left.',
+    tr: 'Yarısı peynirli, yarısı mantarlı lütfen. Sol tarafa da iki zeytin.', halves: true,
+    words: ['half', 'left', 'two', 'cheese', 'mushroom', 'olive'],
+    reqs: [ { kind: 'split', items: ['cheese', 'mushroom'] },
+            { kind: 'count', item: 'olive', half: 'L', n: 2, label: '2 olives · left' } ] },
+  { who: 'marco', en: 'Tomatoes on the whole pizza and two basil leaves, please.',
+    tr: 'Pizzanın tamamına domates ve iki fesleğen yaprağı lütfen.', halves: false,
+    words: ['whole', 'two', 'tomato', 'basil'],
+    reqs: [ { kind: 'spread', item: 'tomato', halves: ['L', 'R'], label: 'tomato · whole' },
+            { kind: 'count', item: 'basil', half: 'any', n: 2, label: '2 basil' } ] },
+  { who: 'sofia', en: 'Cheese on the whole pizza, three basil leaves, and no olives, please.',
+    tr: 'Pizzanın tamamına peynir, üç fesleğen yaprağı. Zeytin olmasın lütfen.', halves: false,
+    words: ['whole', 'three', 'no', 'cheese', 'basil'],
+    reqs: [ { kind: 'spread', item: 'cheese', halves: ['L', 'R'], label: 'cheese · whole' },
+            { kind: 'count', item: 'basil', half: 'any', n: 3, label: '3 basil' },
+            { kind: 'none', item: 'olive', label: 'no olives' } ] },
+  { who: 'leo', en: 'Peppers on the left, tomatoes on the right. One olive on each side.',
+    tr: 'Sola biber, sağa domates. Her iki tarafa birer zeytin.', halves: true,
+    words: ['left', 'right', 'one', 'each side', 'pepper', 'tomato'],
+    reqs: [ { kind: 'spread', item: 'pepper', halves: ['L'], label: 'pepper · left' },
+            { kind: 'spread', item: 'tomato', halves: ['R'], label: 'tomato · right' },
+            { kind: 'count', item: 'olive', half: 'L', n: 1, label: '1 olive · left' },
+            { kind: 'count', item: 'olive', half: 'R', n: 1, label: '1 olive · right' } ] },
+  { who: 'nadia', en: 'Mushrooms on the right, no cheese, and three olives on the left.',
+    tr: 'Sağa mantar, peynir olmasın, sola da üç zeytin.', halves: true,
+    words: ['right', 'no', 'three', 'left', 'mushroom'],
+    reqs: [ { kind: 'spread', item: 'mushroom', halves: ['R'], label: 'mushroom · right' },
+            { kind: 'none', item: 'cheese', label: 'no cheese' },
+            { kind: 'count', item: 'olive', half: 'L', n: 3, label: '3 olives · left' } ] },
+  { who: 'omar', en: 'Half tomato, half pepper. And two basil leaves on each side, please.',
+    tr: 'Yarısı domatesli, yarısı biberli. Her iki tarafa da ikişer fesleğen lütfen.', halves: true,
+    words: ['half', 'each side', 'two', 'tomato', 'pepper', 'basil'],
+    reqs: [ { kind: 'split', items: ['tomato', 'pepper'] },
+            { kind: 'count', item: 'basil', half: 'L', n: 2, label: '2 basil · left' },
+            { kind: 'count', item: 'basil', half: 'R', n: 2, label: '2 basil · right' } ] }
+];
+const QUOTES = [
+  null,
+  { en: "Hmm, this isn't what I ordered.", tr: 'Hmm, bu benim siparişim değil.', face: 'sad' },
+  { en: 'Nice, but not quite my order.', tr: 'Güzel ama tam siparişim değil.', face: 'neutral' },
+  { en: 'Perfect, exactly what I asked for!', tr: 'Mükemmel, tam istediğim gibi!', face: 'happy' }
+];
+const TIME_S = 45;
+
+const $ = id => document.getElementById(id);
+// Uygulama içinde: kapat, sesli okuma ve gün sonu uygulamaya iletilir.
+const bridge = window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.jengo;
+function native(msg) { try { bridge.postMessage(msg); } catch (e) {} }
+const game = $('game'), scene = $('scene'), work = $('work'), layer = $('layer'), pizzaBox = $('pizzaBox'), cust = $('customer');
+let scale = 1, orderIdx = 0, actions = [], selected = null, coins = 240, combo = 0, t0 = 0, raf = 0, toastTimer = 0, started = false, showTr = false, busy = false;
+let day = { earned: 0, stars: 0, best: 0 };
+
+/* Ses: full/audio altında dosya varsa onu, yoksa kısa sentez sesleri çalar. */
+let soundOn = true, actx = null;
+const SFX = {};
+for (const n of ['pop', 'bell', 'oven', 'coins', 'success', 'fail', 'tap']) {
+  const a = new Audio(); a.preload = 'auto';
+  a.addEventListener('error', () => { SFX[n] = null; });
+  a.src = `full/audio/${n}.mp3`; SFX[n] = a;
+}
+const music = new Audio(); music.loop = true; music.volume = 0.22; music.preload = 'auto';
+music.addEventListener('error', () => { music.dataset.missing = '1'; });
+music.src = 'full/audio/music.mp3';
+function tone(type, freqs, dur, gain = 0.18, step = 0) {
+  if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
+  const now = actx.currentTime;
+  freqs.forEach((f, i) => {
+    const o = actx.createOscillator(), g = actx.createGain();
+    o.type = type; const t = now + i * step;
+    if (Array.isArray(f)) { o.frequency.setValueAtTime(f[0], t); o.frequency.exponentialRampToValueAtTime(f[1], t + dur); }
+    else o.frequency.setValueAtTime(f, t);
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(gain, t + 0.01); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    o.connect(g).connect(actx.destination); o.start(t); o.stop(t + dur + 0.05);
+  });
+}
+function noise(dur, gain = 0.2) {
+  if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
+  const len = Math.floor(actx.sampleRate * dur), buf = actx.createBuffer(1, len, actx.sampleRate), d = buf.getChannelData(0);
+  for (let i = 0; i < len; i++) d[i] = (Math.random() * 2 - 1) * (1 - i / len);
+  const s = actx.createBufferSource(), f = actx.createBiquadFilter(), g = actx.createGain();
+  f.type = 'lowpass'; f.frequency.setValueAtTime(2400, actx.currentTime); f.frequency.exponentialRampToValueAtTime(300, actx.currentTime + dur);
+  g.gain.value = gain; s.buffer = buf; s.connect(f).connect(g).connect(actx.destination); s.start();
+}
+const SYNTH = {
+  pop: () => tone('sine', [[620, 280]], 0.09, 0.22),
+  bell: () => tone('sine', [1318, 1760], 0.7, 0.12, 0.09),
+  oven: () => noise(0.8, 0.28),
+  coins: () => tone('triangle', [1046, 1318, 1568, 2093], 0.16, 0.12, 0.06),
+  success: () => tone('triangle', [523, 659, 784, 1046], 0.22, 0.14, 0.09),
+  fail: () => tone('sawtooth', [[300, 180]], 0.4, 0.06),
+  tap: () => tone('sine', [1200], 0.04, 0.08)
+};
+function sfx(name) {
+  if (!soundOn) return;
+  const a = SFX[name];
+  try {
+    if (a && a.readyState >= 2) { const c = a.cloneNode(); c.volume = 0.7; c.play().catch(() => {}); }
+    else SYNTH[name]();
+  } catch (e) {}
+}
+function setSound(on) {
+  soundOn = on;
+  $('snd').classList.toggle('off', !on);
+  $('snd').setAttribute('aria-pressed', String(on));
+  $('snd').setAttribute('aria-label', on ? 'Sesi kapat' : 'Sesi aç');
+  $('sndWave').style.display = on ? '' : 'none';
+  if (on && started && !music.dataset.missing) music.play().catch(() => {}); else music.pause();
+  if (!on) { native({ type: 'stopSpeech' }); try { speechSynthesis.cancel(); } catch (e) {} }
+}
+
+// 390 px genişlikte çizim; ekran genişliğine ölçeklenir. Çok kısa ekranda boya göre ölçeklenip ortalanır.
+function layout() {
+  const vw = window.innerWidth, vh = window.innerHeight;
+  scale = vw / 390;
+  let H = vh / scale;
+  if (H < 640) { scale = vh / 640; H = 640; }
+  const offX = Math.max(0, (vw - 390 * scale) / 2);
+  game.style.height = H + 'px';
+  game.style.transform = `translate(${offX}px, 0) scale(${scale})`;
+  const sceneH = Math.round(Math.min(352, Math.max(256, H * 0.4)));
+  scene.style.height = sceneH + 'px';
+  document.querySelectorAll('.bin .well').forEach(w => { w.style.height = H < 740 ? '46px' : '56px'; });
+  // Konuşma balonu HUD'un altında kalsın.
+  const bubble = $('bubble');
+  bubble.style.bottom = '128px';
+  const top = sceneH - 128 - bubble.offsetHeight;
+  if (top < 60) bubble.style.bottom = Math.max(54, 128 - (60 - top)) + 'px';
+  requestAnimationFrame(sizePizza);
+}
+function sizePizza() {
+  const wh = work.clientHeight;
+  const P = Math.max(150, Math.min(290, wh - 22));
+  const k = P / 290;
+  Object.assign(pizzaBox.style, { width: P + 'px', height: (280 * k) + 'px', top: Math.max(8, (wh - 280 * k) / 2 + 2) + 'px' });
+  // Kenar dairesi: merkez (140,134), yarıçap 118.
+  Object.assign(layer.style, { left: (22 * k) + 'px', top: (16 * k) + 'px', width: (236 * k) + 'px', height: (236 * k) + 'px' });
+  // Süs domates ve fesleğen fişle Geri al düğmesinin arasında kalır; yer yoksa gizlenir.
+  for (const id of ['decoTomato', 'decoBasil']) $(id).style.display = wh < 300 ? 'none' : '';
+  Object.assign($('decoTomato').style, { width: '46px', right: '22px', top: Math.max(150, Math.min(wh - 150, 192)) + 'px', rotate: '-12deg' });
+  Object.assign($('decoBasil').style, { width: '34px', right: '74px', top: Math.max(150, Math.min(wh - 104, 230)) + 'px', rotate: '24deg' });
+}
+
+function buildTray() {
+  const tray = $('tray');
+  for (const [key, it] of Object.entries(ITEMS)) {
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'bin'; b.dataset.item = key;
+    const spots = [[32, 40, -16], [68, 36, 22], [50, 70, 6]];
+    const imgs = spots.map(([x, y, r], i) => `<img src="${src(it.img[i % it.img.length])}" alt="" style="left:${x}%;top:${y}%;rotate:${r}deg">`).join('');
+    b.innerHTML = `<span class="well">${imgs}</span><span class="name">${it.en}</span>`;
+    b.setAttribute('aria-label', `${it.en} (${it.tr})`);
+    b.addEventListener('pointerdown', startDrag);
+    b.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); select(key); } });
+    tray.appendChild(b);
+  }
+  $('decoTomato').src = src('tomato-1');
+  $('decoBasil').src = src('basil-2');
+  // Yüzleri önceden yükle: ifade değişince gecikme olmasın.
+  for (const w of CUSTOMERS) for (const f of ['neutral', 'happy', 'sad']) new Image().src = face(w, f);
+}
+
+function setFace(f, mood) {
+  $('customerImg').src = face(ORDERS[orderIdx].who, f);
+  cust.classList.remove('happy', 'sad', 'impatient');
+  if (mood) { void cust.offsetWidth; cust.classList.add(mood); }
+}
+function loadOrder(i) {
+  orderIdx = i; actions = []; busy = false;
+  layer.querySelectorAll('.piece').forEach(p => p.remove());
+  const o = ORDERS[i];
+  $('level').textContent = `Gün 1 · ${i + 1}/${ORDERS.length}`;
+  $('ticketNo').textContent = `SİPARİŞ ${12 + i}`;
+  $('divider').style.display = o.halves ? '' : 'none';
+  showTr = false;
+  renderOrderText();
+  select(null, true);
+  update();
+  cust.classList.add('out');
+  $('bubble').style.visibility = 'hidden';
+  resetTimer();
+  setTimeout(() => {
+    setFace('neutral');
+    cust.classList.remove('out');
+    setTimeout(() => {
+      $('bubble').style.visibility = '';
+      if (started) { sfx('bell'); startTimer(); setTimeout(() => speak(o.en), 350); }
+    }, 450);
+  }, 250);
+  layout();
+}
+function renderOrderText() {
+  const o = ORDERS[orderIdx], p = $('orderText');
+  p.textContent = showTr ? o.tr : o.en;
+  p.className = showTr ? 'tr' : '';
+  $('trBtn').classList.toggle('on', showTr);
+  $('trBtn').setAttribute('aria-pressed', String(showTr));
+}
+
+function resetTimer() { cancelAnimationFrame(raf); $('patience').style.transform = 'scaleX(1)'; $('patience').style.background = '#5BBF6A'; $('timeLeft').textContent = `${TIME_S} sn`; $('timer').classList.remove('low'); }
+function startTimer() {
+  cancelAnimationFrame(raf);
+  t0 = performance.now();
+  const step = now => {
+    const left = Math.max(0, 1 - (now - t0) / (TIME_S * 1000));
+    $('patience').style.transform = `scaleX(${left})`;
+    $('patience').style.background = left > 0.5 ? '#5BBF6A' : left > 0.2 ? '#F2B53A' : '#E8542C';
+    $('timeLeft').textContent = `${Math.ceil(left * TIME_S)} sn`;
+    $('timer').classList.toggle('low', left <= 0.2);
+    // Sabrı azalınca müşteri kıpırdanır.
+    if (!busy) cust.classList.toggle('impatient', left <= 0.2 && left > 0);
+    if (left > 0) raf = requestAnimationFrame(step);
+  };
+  raf = requestAnimationFrame(step);
+}
+function timeLeft() { return Math.max(0, 1 - (performance.now() - t0) / (TIME_S * 1000)); }
+
+function speak(text) {
+  if (!soundOn) return;
+  if (bridge) { native({ type: 'speak', text }); return; }
+  try { const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = 0.9; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {}
+}
+function toast(text) {
+  const t = $('toast'); t.textContent = text; t.classList.add('show');
+  clearTimeout(toastTimer); toastTimer = setTimeout(() => t.classList.remove('show'), 1500);
+}
+function select(key, silent) {
+  selected = key;
+  document.querySelectorAll('.bin').forEach(b => b.classList.toggle('sel', b.dataset.item === key));
+  if (key && !silent) { sfx('tap'); speak(ITEMS[key].en); }
+}
+
+// Hamur üstündeki nokta: merkez 0,0, kenar 1. Ölçekli kutuda da oran doğru kalır.
+function localPoint(cx, cy) {
+  const r = layer.getBoundingClientRect();
+  return { x: (cx - r.left) / r.width * 2 - 1, y: (cy - r.top) / r.height * 2 - 1 };
+}
+const SAUCE = 100 / 118;
+function apply(item, p) {
+  if (busy || Math.hypot(p.x, p.y) > SAUCE + 0.04) return false;
+  const it = ITEMS[item];
+  const half = p.x < 0 ? 'L' : 'R';
+  const act = { item, half, pieces: [] };
+  if (it.mode === 'spread') {
+    if (actions.some(a => a.item === item && a.half === half)) { toast(`${it.en} bu yarıda zaten var`); return false; }
+    for (const q of scatter(half, it.n, it.size)) act.pieces.push(addPiece(item, q));
+    flash(half);
+  } else {
+    const lim = SAUCE - it.size * 0.6, d = Math.hypot(p.x, p.y);
+    const q = d > lim ? { x: p.x / d * lim, y: p.y / d * lim } : p;
+    act.pieces.push(addPiece(item, q));
+  }
+  actions.push(act);
+  sfx('pop');
+  update();
+  return true;
+}
+// Parçalar kendi yarısında ve sosun içinde kalır.
+function scatter(half, n, size) {
+  const pts = [], sign = half === 'L' ? -1 : 1;
+  const xmin = size * 0.9 + 0.03, rmax = SAUCE - size * 0.62;
+  let guard = 0;
+  while (pts.length < n && guard++ < 600) {
+    const q = { x: sign * (xmin + Math.random() * (rmax - xmin)), y: (Math.random() * 2 - 1) * rmax };
+    if (Math.hypot(q.x, q.y) > rmax) continue;
+    if (pts.some(o => Math.hypot(o.x - q.x, o.y - q.y) < size * 1.6 - guard * 0.0003)) continue;
+    pts.push(q);
+  }
+  return pts;
+}
+function addPiece(item, q) {
+  const it = ITEMS[item];
+  const img = document.createElement('img');
+  img.className = 'piece'; img.alt = ''; img.dataset.item = item;
+  img.src = src(it.img[Math.floor(Math.random() * it.img.length)]);
+  img.style.left = (50 + q.x * 50) + '%'; img.style.top = (50 + q.y * 50) + '%';
+  img.style.width = (it.size * 100 * (0.9 + Math.random() * 0.2)) + '%';
+  img.style.rotate = Math.floor(Math.random() * 360) + 'deg';
+  img.style.zIndex = it.z;
+  layer.appendChild(img);
+  return img;
+}
+function flash(half) {
+  const h = half === 'L' ? $('haloL') : $('haloR');
+  h.classList.add('show'); setTimeout(() => h.classList.remove('show'), 380);
+}
+$('undo').addEventListener('click', () => {
+  const a = actions.pop();
+  if (a && !busy) { a.pieces.forEach(p => p.remove()); sfx('tap'); update(); }
+});
+
+function tally() {
+  const spread = {}, count = {};
+  for (const a of actions) {
+    if (ITEMS[a.item].mode === 'spread') (spread[a.item] ||= new Set()).add(a.half);
+    else { count[a.item] ||= { L: 0, R: 0 }; count[a.item][a.half]++; }
+  }
+  return { spread, count };
+}
+function evaluate() {
+  const { spread, count } = tally();
+  const o = ORDERS[orderIdx];
+  const lines = [];
+  for (const r of o.reqs) {
+    if (r.kind === 'split') {
+      const [a, b] = r.items, A = spread[a] || new Set(), B = spread[b] || new Set();
+      const sameHalf = A.size === 1 && B.size === 1 && [...A][0] === [...B][0];
+      for (const [k, S] of [[a, A], [b, B]])
+        lines.push({ ok: S.size === 1 && !sameHalf, label: `½ ${ITEMS[k].en}`, why: sameHalf ? `${ITEMS[a].tr} ve ${ITEMS[b].tr} ayrı yarılarda olmalıydı` : `${ITEMS[k].tr} pizzanın yarısında olmalıydı` });
+    } else if (r.kind === 'spread') {
+      const have = spread[r.item] || new Set();
+      const ok = r.halves.every(h => have.has(h)) && [...have].every(h => r.halves.includes(h));
+      const where = r.halves.length === 2 ? 'pizzanın tamamında' : r.halves[0] === 'L' ? 'sol yarıda' : 'sağ yarıda';
+      lines.push({ ok, label: r.label, why: `${ITEMS[r.item].tr} ${where} olmalıydı` });
+    } else if (r.kind === 'count') {
+      const c = count[r.item] || { L: 0, R: 0 };
+      const have = r.half === 'any' ? c.L + c.R : c[r.half];
+      const where = r.half === 'L' ? 'solda ' : r.half === 'R' ? 'sağda ' : '';
+      lines.push({ ok: have === r.n, label: r.label + (have && have !== r.n ? ` (${have})` : ''), why: `${where}${have} ${ITEMS[r.item].tr} var, ${r.n} olmalıydı` });
+    } else {
+      const used = !!(spread[r.item] || count[r.item]);
+      lines.push({ ok: !used, x: used, label: r.label, why: `${ITEMS[r.item].tr} istenmemişti` });
+    }
+  }
+  const mentioned = new Set(o.reqs.flatMap(r => r.items || [r.item]));
+  for (const k of Object.keys({ ...spread, ...count }).filter(k => !mentioned.has(k)))
+    lines.push({ ok: false, x: true, label: `+ ${ITEMS[k].en}`, why: `${ITEMS[k].tr} siparişte yoktu` });
+  return lines;
+}
+function update() {
+  $('checklist').innerHTML = evaluate().map(l => `<li class="${l.ok ? 'ok' : l.x ? 'x' : ''}"><i>${l.ok ? '✓' : l.x ? '✕' : '○'}</i>${l.label}</li>`).join('');
+  $('combo').textContent = `Kombo ×${combo}`;
+  $('bake').disabled = actions.length === 0;
+}
+
+// Sürükle ya da dokun-seç.
+let drag = null;
+function startDrag(e) {
+  const b = e.currentTarget; e.preventDefault();
+  drag = { item: b.dataset.item, x0: e.clientX, y0: e.clientY, ghost: null };
+  window.addEventListener('pointermove', move);
+  window.addEventListener('pointerup', end, { once: true });
+  window.addEventListener('pointercancel', cancel, { once: true });
+}
+function move(e) {
+  if (!drag) return;
+  if (!drag.ghost) {
+    if (Math.hypot(e.clientX - drag.x0, e.clientY - drag.y0) < 8) return;
+    const g = document.createElement('img'); g.alt = '';
+    g.src = src(ITEMS[drag.item].img[0]);
+    Object.assign(g.style, { position: 'fixed', zIndex: 50, pointerEvents: 'none', width: (58 * scale) + 'px', transform: 'translate(-50%, -60%) scale(1.1)', filter: 'drop-shadow(0 10px 8px rgba(58,35,20,0.35))' });
+    document.body.appendChild(g); drag.ghost = g;
+  }
+  drag.ghost.style.left = e.clientX + 'px'; drag.ghost.style.top = e.clientY + 'px';
+}
+function cancel() { window.removeEventListener('pointermove', move); if (drag && drag.ghost) drag.ghost.remove(); drag = null; }
+function end(e) {
+  window.removeEventListener('pointermove', move);
+  const d = drag; drag = null; if (!d) return;
+  if (!d.ghost) { select(selected === d.item ? null : d.item); return; }
+  d.ghost.remove();
+  apply(d.item, localPoint(e.clientX, e.clientY));
+}
+layer.addEventListener('click', e => {
+  if (!selected) { toast('Önce aşağıdan bir malzeme seç'); return; }
+  apply(selected, localPoint(e.clientX, e.clientY));
+});
+
+$('listen').addEventListener('click', () => speak(ORDERS[orderIdx].en));
+$('trBtn').addEventListener('click', () => { showTr = !showTr; renderOrderText(); layout(); });
+$('snd').addEventListener('click', () => setSound(!soundOn));
+$('start').addEventListener('click', () => {
+  started = true; $('introView').hidden = true;
+  setSound(soundOn);
+  sfx('bell'); startTimer(); speak(ORDERS[orderIdx].en);
+});
+function newDay() {
+  coins = 240; combo = 0; day = { earned: 0, stars: 0, best: 0 };
+  $('coins').textContent = coins;
+  $('resultView').hidden = true; $('dayView').hidden = true;
+  loadOrder(0);
+}
+$('restart').addEventListener('click', newDay);
+$('close').addEventListener('click', () => { music.pause(); native({ type: 'close' }); });
+$('again').addEventListener('click', newDay);
+
+// Fırına at: pizza fırının ağzına uçar, alev parlar, müşteri tepki verir, sonra kart açılır.
+function offsetIn(el) {
+  let x = 0, y = 0;
+  while (el && el !== game) { x += el.offsetLeft; y += el.offsetTop; el = el.offsetParent; }
+  return { x, y };
+}
+$('bake').addEventListener('click', () => {
+  if (!actions.length || busy) return;
+  busy = true;
+  cancelAnimationFrame(raf);
+  cust.classList.remove('impatient');
+  const left = timeLeft();
+  select(null, true);
+  const o = offsetIn(layer);
+  const fly = layer.cloneNode(true);
+  fly.removeAttribute('id'); fly.querySelectorAll('[id]').forEach(n => n.removeAttribute('id'));
+  fly.querySelectorAll('.divider, .halo').forEach(n => n.remove());
+  const base = document.createElement('div');
+  Object.assign(base.style, { position: 'absolute', inset: '0', borderRadius: '50%', background: 'radial-gradient(circle, #E64B2E 0, #B42A16 84.7%, #F3C67E 85.5%, #F3C67E 95%, #C98A3E 100%)' });
+  fly.prepend(base);
+  fly.className = 'flying';
+  Object.assign(fly.style, { left: o.x + 'px', top: o.y + 'px', width: layer.offsetWidth + 'px', height: layer.offsetHeight + 'px' });
+  game.appendChild(fly);
+  layer.querySelectorAll('.piece').forEach(p => p.style.visibility = 'hidden');
+  // Fırın ağzı sahne koordinatında (305, 292).
+  const sh = scene.offsetHeight;
+  const tx = 305 - (o.x + layer.offsetWidth / 2), ty = (sh - (352 - 292)) - (o.y + layer.offsetHeight / 2);
+  sfx('oven');
+  requestAnimationFrame(() => requestAnimationFrame(() => { fly.style.transform = `translate(${tx}px, ${ty}px) scale(0.16)`; fly.style.opacity = '0.2'; }));
+  setTimeout(() => { const f = document.getElementById('flames'); f.classList.remove('fire-boost'); void f.getBoundingClientRect(); f.classList.add('fire-boost'); }, 650);
+  setTimeout(() => {
+    fly.remove();
+    const baked = fly.cloneNode(true);
+    baked.className = '';
+    Object.assign(baked.style, { position: 'absolute', inset: '0', left: '0', top: '0', width: '100%', height: '100%', transform: 'none', opacity: '1', filter: 'saturate(1.2) sepia(.18) brightness(1.03) drop-shadow(0 10px 12px rgba(58,35,20,0.3))' });
+    serve(left, baked);
+  }, 2000);
+});
+function popCoins(text) {
+  const pill = document.querySelector('.hud .coins');
+  const o = offsetIn(pill);
+  const el = document.createElement('div');
+  el.className = 'pop-coins'; el.textContent = text;
+  Object.assign(el.style, { left: (o.x + pill.offsetWidth / 2) + 'px', top: (o.y + 40) + 'px' });
+  game.appendChild(el); setTimeout(() => el.remove(), 1200);
+}
+function countUp(from, to) {
+  const t = performance.now();
+  const step = now => { const k = Math.min(1, (now - t) / 700); $('coins').textContent = Math.round(from + (to - from) * k); if (k < 1) requestAnimationFrame(step); };
+  requestAnimationFrame(step);
+}
+// Önce müşteri tepki verir, sonra sonuç kartı açılır.
+function serve(left, baked) {
+  const lines = evaluate();
+  const misses = lines.filter(l => !l.ok).length;
+  const stars = misses === 0 ? 3 : misses === 1 ? 2 : 1;
+  const tip = stars === 3 ? Math.round(6 + 12 * left) : stars === 2 ? 3 : 0;
+  combo = stars === 3 ? combo + 1 : 0;
+  const gain = 15 + tip;
+  day.earned += gain; day.stars += stars; day.best = Math.max(day.best, combo);
+  const q = QUOTES[stars];
+  setFace(q.face, stars === 3 ? 'happy' : stars === 1 ? 'sad' : null);
+  sfx(stars === 3 ? 'success' : stars === 1 ? 'fail' : 'pop');
+  speak(q.en);
+  setTimeout(() => { sfx('coins'); popCoins(`+${gain}`); countUp(coins, coins + gain); coins += gain; }, 500);
+  const star = on => `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6 6.6.8-4.9 4.5 1.3 6.5L12 17l-5.9 3.3 1.3-6.5L2.5 9.3l6.6-.8z" fill="${on ? '#FFC21A' : '#EFE6DA'}" stroke="${on ? '#E5A100' : 'none'}"/></svg>`;
+  $('thumb').replaceChildren(baked);
+  $('stars').innerHTML = [0, 1, 2].map(i => star(i < stars)).join('');
+  $('quote').textContent = q.en;
+  $('quoteTr').textContent = q.tr;
+  $('review').innerHTML = lines.map(l => `<li class="${l.ok ? 'ok' : ''}"><i>${l.ok ? '✓' : '✕'}</i>${l.ok ? l.label : l.why}</li>`).join('');
+  $('tip').innerHTML = `<span class="coin"></span>+15${tip ? ` · bahşiş +${tip}` : ''}${combo > 1 ? ` · kombo ×${combo}` : ''}`;
+  $('next').textContent = orderIdx < ORDERS.length - 1 ? 'Sonraki müşteri' : 'Günü bitir';
+  update();
+  setTimeout(() => { $('resultView').hidden = false; }, 1400);
+}
+function endDay() {
+  const words = [...new Set(ORDERS.flatMap(o => o.words))];
+  $('dEarn').textContent = `+${day.earned}`;
+  $('dStars').textContent = `${day.stars}/${ORDERS.length * 3}`;
+  $('dCombo').textContent = `×${day.best}`;
+  $('dayTitle').textContent = day.stars >= 16 ? 'Harika bir akşam!' : day.stars >= 12 ? 'İyi bir akşamdı!' : 'Yarın daha iyi olacak!';
+  $('dWords').innerHTML = words.map(w => `<span>${w}</span>`).join('');
+  $('dayView').hidden = false;
+  sfx('success');
+  native({ type: 'dayEnd', stars: day.stars, max: ORDERS.length * 3, words });
+}
+$('next').addEventListener('click', () => {
+  $('resultView').hidden = true;
+  if (orderIdx < ORDERS.length - 1) loadOrder(orderIdx + 1);
+  else endDay();
+});
+
+window.addEventListener('resize', layout);
+buildTray();
+loadOrder(0);
+layout();
+</script>
+</body>
+</html>

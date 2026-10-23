@@ -256,7 +256,7 @@ struct FluencyPathList: View {
             }
             .buttonStyle(PressableCardStyle())
             Button { selectTab(.practice) } label: {
-                row("game", "Oyunlarla pekiştirin", "Eşleştirme, 60 saniye, dinle ve yaz")
+                row("game", "Oyunlarla pekiştirin", "Pizza dükkânı, eşleştirme, 60 saniye, dinle ve yaz")
             }
             .buttonStyle(PressableCardStyle())
             Button { openDictionary() } label: {
