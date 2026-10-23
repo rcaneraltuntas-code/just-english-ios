@@ -351,6 +351,7 @@ button { font: inherit; color: inherit; }
 <script>
 // Müşteriler ve malzemeler: Magnific illüstrasyonları (macrovector yüzler ve aynı çizimden renk varyasyonları, upklyak malzeme seti).
 const CUSTOMERS = ['elena', 'marco', 'sofia', 'leo', 'nadia', 'omar'];
+const FEMALE = new Set(['elena', 'sofia', 'nadia']);
 const face = (who, f) => `full/characters/${who}-${f}.png`;
 // spread: bir dokunuş o yarıya serpilir. count: her dokunuş bir parça. size: kenar çapına oran.
 const ITEMS = {
@@ -426,7 +427,7 @@ for (const n of ['pop', 'bell', 'oven', 'coins', 'success', 'fail', 'tap']) {
 }
 const music = new Audio(); music.loop = true; music.volume = 0.22; music.preload = 'auto';
 music.addEventListener('error', () => { music.dataset.missing = '1'; });
-music.src = 'full/audio/music.mp3';
+music.src = 'full/audio/music.m4a';
 function tone(type, freqs, dur, gain = 0.18, step = 0) {
   if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
   const now = actx.currentTime;
@@ -582,7 +583,8 @@ function timeLeft() { return Math.max(0, 1 - (performance.now() - t0) / (TIME_S 
 
 function speak(text) {
   if (!soundOn) return;
-  if (bridge) { native({ type: 'speak', text }); return; }
+  // Kadın müşteriler kadın sesiyle, erkek müşteriler erkek sesiyle konuşur.
+  if (bridge) { native({ type: 'speak', text, voice: FEMALE.has(ORDERS[orderIdx].who) ? 'female' : 'male' }); return; }
   try { const u = new SpeechSynthesisUtterance(text); u.lang = 'en-US'; u.rate = 0.9; speechSynthesis.cancel(); speechSynthesis.speak(u); } catch (e) {}
 }
 function toast(text) {

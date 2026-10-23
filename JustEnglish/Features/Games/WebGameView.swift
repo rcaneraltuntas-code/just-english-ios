@@ -1,3 +1,4 @@
+import AVFoundation
 import SwiftUI
 import WebKit
 import JECore
@@ -17,7 +18,10 @@ struct WebGameScreen: View {
                 Speech.shared.stop()
                 dismiss()
             case "speak":
-                if let text = message["text"] as? String { Speech.shared.speak(text) }
+                // Kadın müşteri kadın sesiyle, erkek müşteri erkek sesiyle konuşur.
+                guard let text = message["text"] as? String else { break }
+                let voice = message["voice"] as? String
+                Speech.shared.speak(text, gender: voice == "female" ? .female : voice == "male" ? .male : nil)
             case "stopSpeech":
                 Speech.shared.stop()
             case "dayEnd":
