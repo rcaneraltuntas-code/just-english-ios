@@ -77,6 +77,7 @@ button { font: inherit; color: inherit; }
 .deco { position: absolute; pointer-events: none; filter: drop-shadow(0 4px 4px rgba(58,35,20,0.18)); }
 .pizza { position: absolute; left: 6px; top: 14px; }
 .pizza svg { display: block; width: 100%; height: 100%; }
+.pizza.empty .dough, .pizza.empty .piece, .pizza.empty .divider { visibility: hidden; }
 .layer { position: absolute; touch-action: none; cursor: pointer; border-radius: 50%; }
 .divider { position: absolute; left: 50%; top: 8%; bottom: 8%; border-left: 2.5px dashed rgba(255,255,255,0.9); pointer-events: none; z-index: 6; }
 .piece { position: absolute; translate: -50% -50%; pointer-events: none; animation: drop .28s ease-out both; filter: drop-shadow(0 2px 2px rgba(58,20,10,0.3)); }
@@ -281,10 +282,10 @@ button { font: inherit; color: inherit; }
         <ellipse cx="144" cy="144" rx="132" ry="126" fill="#5A3A22" opacity="0.14"/>
         <circle cx="140" cy="134" r="130" fill="url(#pzPeel)"/>
         <g stroke="#C9935C" stroke-width="2" opacity="0.6" fill="none"><path d="M30 100 C90 92 190 110 256 98 M24 160 C100 150 180 172 258 160 M44 214 C110 206 170 222 236 212"/></g>
-        <circle cx="140" cy="134" r="118" fill="url(#pzCrust)"/>
-        <g fill="#B97A35" opacity="0.6"><ellipse cx="60" cy="70" rx="5" ry="3"/><ellipse cx="220" cy="80" rx="6" ry="3"/><ellipse cx="236" cy="190" rx="5" ry="3"/><ellipse cx="70" cy="214" rx="6" ry="3"/><ellipse cx="150" cy="24" rx="5" ry="3"/><ellipse cx="140" cy="246" rx="6" ry="3"/></g>
-        <circle cx="140" cy="134" r="100" fill="url(#pzSauce)"/>
-        <g fill="#C9351D" opacity="0.5"><circle cx="120" cy="60" r="4"/><circle cx="200" cy="100" r="3"/><circle cx="180" cy="210" r="4"/><circle cx="96" cy="210" r="3"/></g>
+        <circle class="dough" cx="140" cy="134" r="118" fill="url(#pzCrust)"/>
+        <g class="dough" fill="#B97A35" opacity="0.6"><ellipse cx="60" cy="70" rx="5" ry="3"/><ellipse cx="220" cy="80" rx="6" ry="3"/><ellipse cx="236" cy="190" rx="5" ry="3"/><ellipse cx="70" cy="214" rx="6" ry="3"/><ellipse cx="150" cy="24" rx="5" ry="3"/><ellipse cx="140" cy="246" rx="6" ry="3"/></g>
+        <circle class="dough" cx="140" cy="134" r="100" fill="url(#pzSauce)"/>
+        <g class="dough" fill="#C9351D" opacity="0.5"><circle cx="120" cy="60" r="4"/><circle cx="200" cy="100" r="3"/><circle cx="180" cy="210" r="4"/><circle cx="96" cy="210" r="3"/></g>
       </svg>
       <!-- Hamurun üstü: konumlar kenar dairesine göre, merkez 0,0 kenar 1. -->
       <div class="layer" id="layer">
@@ -533,6 +534,7 @@ function setFace(f, mood) {
 }
 function loadOrder(i) {
   orderIdx = i; actions = []; busy = false;
+  pizzaBox.classList.remove('empty');
   layer.querySelectorAll('.piece').forEach(p => p.remove());
   const o = ORDERS[i];
   $('level').textContent = `Gün 1 · ${i + 1}/${ORDERS.length}`;
@@ -764,27 +766,31 @@ $('bake').addEventListener('click', () => {
   cust.classList.remove('impatient');
   const left = timeLeft();
   select(null, true);
-  const o = offsetIn(layer);
-  const fly = layer.cloneNode(true);
-  fly.removeAttribute('id'); fly.querySelectorAll('[id]').forEach(n => n.removeAttribute('id'));
+  const o = offsetIn(pizzaBox);
+  const fly = pizzaBox.cloneNode(true);
+  fly.removeAttribute('id'); fly.querySelectorAll('[id]').forEach(n => { if (!n.closest('defs')) n.removeAttribute('id'); });
   fly.querySelectorAll('.divider, .halo').forEach(n => n.remove());
-  const base = document.createElement('div');
-  Object.assign(base.style, { position: 'absolute', inset: '0', borderRadius: '50%', background: 'radial-gradient(circle, #E64B2E 0, #B42A16 84.7%, #F3C67E 85.5%, #F3C67E 95%, #C98A3E 100%)' });
-  fly.prepend(base);
-  fly.className = 'flying';
-  Object.assign(fly.style, { left: o.x + 'px', top: o.y + 'px', width: layer.offsetWidth + 'px', height: layer.offsetHeight + 'px' });
+  // Kürek (sap, gölge, tahta) kopyadan çıkarılır: sadece pizza uçar.
+  const svg = fly.querySelector('svg');
+  [...svg.children].forEach(n => { if (n.tagName !== 'defs' && !n.classList.contains('dough')) n.remove(); });
+  fly.className = 'pizza flying';
+  // Malzeme katmanı oranla konumlanır; sonuç kartındaki küçük resimde de doğru oturur.
+  Object.assign(fly.querySelector('.layer').style, { left: (22 / 290 * 100) + '%', top: (16 / 280 * 100) + '%', width: (236 / 290 * 100) + '%', height: (236 / 280 * 100) + '%' });
+  const W = pizzaBox.offsetWidth, H = pizzaBox.offsetHeight;
+  const cx = W * 140 / 290, cy = H * 134 / 280;   // hamurun merkezi
+  Object.assign(fly.style, { left: o.x + 'px', top: o.y + 'px', width: W + 'px', height: H + 'px', transformOrigin: `${cx}px ${cy}px` });
   game.appendChild(fly);
-  layer.querySelectorAll('.piece').forEach(p => p.style.visibility = 'hidden');
+  pizzaBox.classList.add('empty');
   // Fırın ağzı sahne koordinatında (305, 292).
   const sh = scene.offsetHeight;
-  const tx = 305 - (o.x + layer.offsetWidth / 2), ty = (sh - (352 - 292)) - (o.y + layer.offsetHeight / 2);
+  const tx = 305 - (o.x + cx), ty = (sh - (352 - 292)) - (o.y + cy);
   sfx('oven');
   requestAnimationFrame(() => requestAnimationFrame(() => { fly.style.transform = `translate(${tx}px, ${ty}px) scale(0.16)`; fly.style.opacity = '0.2'; }));
   setTimeout(() => { const f = document.getElementById('flames'); f.classList.remove('fire-boost'); void f.getBoundingClientRect(); f.classList.add('fire-boost'); }, 650);
   setTimeout(() => {
     fly.remove();
     const baked = fly.cloneNode(true);
-    baked.className = '';
+    baked.className = 'pizza';
     Object.assign(baked.style, { position: 'absolute', inset: '0', left: '0', top: '0', width: '100%', height: '100%', transform: 'none', opacity: '1', filter: 'saturate(1.2) sepia(.18) brightness(1.03) drop-shadow(0 10px 12px rgba(58,35,20,0.3))' });
     serve(left, baked);
   }, 2000);
