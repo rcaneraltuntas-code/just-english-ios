@@ -24,6 +24,15 @@ final class TeacherStore {
             case unitID = "unit_id", startsAt = "starts_at", durationMinutes = "duration_minutes"
             case teacherName = "teacher_name", joinURL = "join_url"
         }
+
+        /// Uygulama içi yayın, dersten 30 dk önce ile bitişten 60 dk sonrası arasında açılabilir
+        /// (supabase/functions/livekit-token ile aynı aralık). Harici bağlantı girilmiş derslerde gösterilmez.
+        var canBroadcast: Bool {
+            guard !cancelled, joinURL?.isEmpty ?? true else { return false }
+            let now = Date.now
+            return now >= startsAt.addingTimeInterval(-1800)
+                && now <= startsAt.addingTimeInterval(TimeInterval(durationMinutes * 60 + 3600))
+        }
     }
 
     /// Yeni ders ya da düzenleme için gönderilen alanlar. teacher_id veritabanında auth.uid() ile dolar.

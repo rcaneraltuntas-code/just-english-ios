@@ -15,11 +15,15 @@ struct LiveSession: Codable, Identifiable, Hashable {
     let joinURL: URL?
     let capacity: Int?
     let booked: Int?
+    /// Öğretmen uygulama içi yayını başlattığında / bitirdiğinde dolar.
+    let liveStartedAt: Date?
+    let liveEndedAt: Date?
 
     enum CodingKeys: String, CodingKey {
         case id, level, title, capacity, booked
         case unitID = "unit_id", startsAt = "starts_at", durationMinutes = "duration_minutes"
         case teacherName = "teacher_name", joinURL = "join_url"
+        case liveStartedAt = "live_started_at", liveEndedAt = "live_ended_at"
     }
 
     var seatsLeft: Int? { capacity.map { max(0, $0 - (booked ?? 0)) } }
@@ -28,7 +32,11 @@ struct LiveSession: Codable, Identifiable, Hashable {
     var isJoinable: Bool {
         let now = Date.now
         return now >= startsAt.addingTimeInterval(-600) && now <= startsAt.addingTimeInterval(TimeInterval(durationMinutes * 60))
+            && liveEndedAt == nil
     }
+
+    /// Öğretmen şu an uygulama içinden yayında.
+    var isLive: Bool { liveStartedAt != nil && liveEndedAt == nil && isJoinable }
 }
 
 @MainActor

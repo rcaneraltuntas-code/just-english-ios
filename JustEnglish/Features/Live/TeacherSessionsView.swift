@@ -7,9 +7,23 @@ struct TeacherSessionsView: View {
     @Environment(LiveSessionStore.self) private var liveStore
     @State private var store = TeacherStore()
     @State private var editing: EditorRoute?
+    @State private var broadcasting: TeacherStore.Session?
 
     var body: some View {
         List {
+            let startable = store.sessions.filter(\.canBroadcast)
+            if !startable.isEmpty {
+                Section("Şimdi") {
+                    ForEach(startable) { session in
+                        Button { broadcasting = session } label: {
+                            Label("Yayını başlat: \(session.title)", systemImage: "video.fill")
+                        }
+                        .buttonStyle(PrimaryButtonStyle(color: Theme.brandRed))
+                        .listRowBackground(Color.clear)
+                        .listRowInsets(EdgeInsets(top: 4, leading: 0, bottom: 4, trailing: 0))
+                    }
+                }
+            }
             if store.sessions.isEmpty && !store.isLoading {
                 ContentUnavailableView("Henüz dersiniz yok", systemImage: "calendar.badge.plus",
                                        description: Text("Sağ üstteki + ile ilk canlı dersinizi açın. Ders, seçtiğiniz seviyedeki öğrencilere görünür."))
@@ -50,6 +64,9 @@ struct TeacherSessionsView: View {
         }
         .refreshable { await store.refresh() }
         .task { await store.refresh() }
+        .fullScreenCover(item: $broadcasting, onDismiss: { Task { await store.refresh(); await liveStore.refresh() } }) { session in
+            LiveRoomView(sessionID: session.id, title: session.title)
+        }
         .sheet(item: $editing) { route in
             SessionEditorView(store: store, session: route.session) { Task { await liveStore.refresh() } }
         }
@@ -123,9 +140,9 @@ struct SessionEditorView: View {
                         Text("Bağlantı https:// ile başlamalı.").font(.jakarta(.footnote)).foregroundStyle(Theme.danger)
                     }
                 } header: {
-                    Text("Toplantı bağlantısı")
+                    Text("Harici toplantı bağlantısı (isteğe bağlı)")
                 } footer: {
-                    Text("Zoom, Google Meet ya da Teams bağlantısı. Yalnızca yer ayırtan öğrenciler görür, dersten 10 dakika önce açılır. Sonradan da ekleyebilirsiniz.")
+                    Text("Boş bırakın: ders uygulamanın içinde canlı yayınlanır, ders saatinde Derslerim ekranından \"Yayını başlat\"a dokunursunuz. Zoom, Meet ya da Teams kullanmak isterseniz bağlantıyı buraya yazın.")
                 }
                 Section("Kontenjan") {
                     Toggle("Kontenjan sınırı", isOn: $limitSeats)
@@ -200,9 +217,22 @@ struct AttendeesView: View {
 
     @State private var attendees: [TeacherStore.Attendee] = []
     @State private var loaded = false
+    @State private var broadcasting = false
 
     var body: some View {
         List {
+            if session.canBroadcast && !session.cancelled {
+                Section {
+                    Button { broadcasting = true } label: {
+                        Label("Yayını başlat", systemImage: "video.fill")
+                    }
+                    .buttonStyle(PrimaryButtonStyle(color: Theme.brandRed))
+                    .listRowBackground(Color.clear)
+                    .listRowInsets(EdgeInsets())
+                } footer: {
+                    Text("Kayıtlı öğrenciler derse uygulamanın içinden katılır. Yayın dersten 30 dakika önce açılabilir.")
+                }
+            }
             Section {
                 LabeledContent("Tarih", value: session.startsAt.formatted(date: .long, time: .shortened))
                 LabeledContent("Süre", value: "\(session.durationMinutes) dk")
@@ -237,5 +267,8 @@ struct AttendeesView: View {
             loaded = true
         }
         .refreshable { attendees = await store.attendees(of: session) }
+        .fullScreenCover(isPresented: $broadcasting, onDismiss: { Task { attendees = await store.attendees(of: session) } }) {
+            LiveRoomView(sessionID: session.id, title: session.title)
+        }
     }
 }

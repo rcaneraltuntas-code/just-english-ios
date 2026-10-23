@@ -11,7 +11,7 @@ settings:
     SWIFT_VERSION: "5.10"
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
-    DEVELOPMENT_TEAM: ""   # Apple Developer Team ID buraya
+    DEVELOPMENT_TEAM: "74RD63B85K"
     TARGETED_DEVICE_FAMILY: "1"
 
 packages:
@@ -20,6 +20,9 @@ packages:
   Supabase:
     url: https://github.com/supabase/supabase-swift
     from: "2.20.0"
+  LiveKit:
+    url: https://github.com/livekit/client-sdk-swift
+    from: "2.18.0"
 
 targets:
   JustEnglish:
@@ -27,6 +30,10 @@ targets:
     platform: iOS
     sources:
       - path: JustEnglish
+      # HTML oyunları klasör olarak kopyalanır (alt klasör yapısı korunur).
+      - path: WebGames
+        type: folder
+        buildPhase: resources
     configFiles:
       Debug: Config/Debug.xcconfig
       Release: Config/Release.xcconfig
@@ -45,6 +52,8 @@ targets:
       - package: JECore
       - package: Supabase
         product: Supabase
+      - package: LiveKit
+        product: LiveKit
 
   JustEnglishTests:
     type: bundle.unit-test

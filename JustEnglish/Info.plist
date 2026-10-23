@@ -22,8 +22,10 @@
 	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>Öğretmenler canlı derste kamerayla yayın yapabilsin diye.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>Konuşma alıştırmalarında sesinizi kaydedip telaffuzunuzu kontrol etmek için.</string>
+	<string>Konuşma alıştırmalarında telaffuzunuzu kontrol etmek ve canlı derste söz aldığınızda konuşabilmeniz için.</string>
 	<key>NSSpeechRecognitionUsageDescription</key>
 	<string>Konuşma alıştırmalarında söylediklerinizi yazıya çevirip örnek cevapla karşılaştırmak için.</string>
 	<key>SupabaseURL</key>
@@ -43,6 +45,10 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>

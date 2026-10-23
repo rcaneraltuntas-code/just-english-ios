@@ -7,7 +7,7 @@ struct PracticeView: View {
     @State private var session: PracticeSession?
 
     enum PracticeSession: String, Identifiable {
-        case review, mistakes, matchRace, speedQuiz, spelling
+        case review, mistakes, matchRace, speedQuiz, spelling, pizza
         var id: String { rawValue }
     }
 
@@ -18,11 +18,14 @@ struct PracticeView: View {
                     reviewCard
                     if !model.state.mistakes.isEmpty {
                         tile(icon: "arrow.uturn.backward.circle.fill", color: Theme.danger,
-                             title: "Yanlışlarım", detail: "\(model.state.mistakes.count) soruyu tekrar çözün") {
+                             title: "Yanlışlarım", detail: "\(model.state.mistakes.count) soruyu tekrar çözün", needsPool: false) {
                             session = .mistakes
                         }
                     }
                     SectionTitle(text: "Oyunlar").padding(.top, 8)
+                    // Kart destesine bağlı değil, her zaman açık.
+                    tile(icon: "flame.fill", color: Color(light: 0xE8542C, dark: 0xFF7A52), title: "Pizza Dükkânı",
+                         detail: "İngilizce siparişi dinle, pizzayı hazırla.", needsPool: false) { session = .pizza }
                     tile(icon: "bolt.fill", color: Theme.warning, title: "Eşleştirme yarışı",
                          detail: "Kelimeleri anlamlarıyla olabildiğince hızlı eşleştirin.") { session = .matchRace }
                     tile(icon: "timer", color: Theme.color(for: .b1), title: "60 saniye",
@@ -47,6 +50,7 @@ struct PracticeView: View {
                 case .matchRace: MatchRaceGame(pool: model.gamePool)
                 case .speedQuiz: SpeedQuizGame(pool: model.gamePool)
                 case .spelling: SpellingGame(pool: model.gamePool)
+                case .pizza: WebGameScreen(game: "pizza")
                 }
             }
         }
@@ -84,7 +88,8 @@ struct PracticeView: View {
         .shadow(color: Theme.accent.opacity(0.3), radius: 14, y: 8)
     }
 
-    private func tile(icon: String, color: Color, title: String, detail: String, action: @escaping () -> Void) -> some View {
+    private func tile(icon: String, color: Color, title: String, detail: String, needsPool: Bool = true,
+                      action: @escaping () -> Void) -> some View {
         Button(action: action) {
             HStack(spacing: 14) {
                 Image(systemName: icon)
@@ -102,7 +107,7 @@ struct PracticeView: View {
             .card()
         }
         .buttonStyle(PressableCardStyle())
-        .disabled(title != "Yanlışlarım" && model.gamePool.count < GameRules.minimumCards)
+        .disabled(needsPool && model.gamePool.count < GameRules.minimumCards)
     }
 }
 
